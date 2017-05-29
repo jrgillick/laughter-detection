@@ -1,23 +1,12 @@
 import numpy as np
 import scipy.signal as signal
-import pickle
 import os
-from sklearn.utils import shuffle
 import sys
 import librosa
-import IPython.display
 from python_speech_features import mfcc
 from python_speech_features import delta
-import argparse
-
-import tensorflow as tf
 import keras
-from keras.models import Sequential
-from keras.layers import Dense, Activation, Convolution2D, MaxPooling2D, Flatten, Dropout
-import keras.optimizers
 from keras.models import load_model
-import keras.regularizers
-from keras.regularizers import l2, l1
 
 import compute_features
 

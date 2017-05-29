@@ -3,15 +3,11 @@ import pickle
 import os
 import sys
 from sklearn.utils import shuffle
-
-import tensorflow as tf
 import keras
 from keras.models import Sequential
 from keras.layers import Dense, Activation, Convolution2D, MaxPooling2D, Flatten, Dropout
 import keras.optimizers
 from keras.models import load_model
-import keras.regularizers
-from keras.regularizers import l2, l1
 
 # Methods for loading data from .pkl files created in computed_features.py
 
@@ -37,8 +33,6 @@ def get_laughter_and_speech_clips(directory):
 			speech_clips.append(clip)
     
 	return (laughter_clips, speech_clips)
-
-
 
 def format_laughter_inputs(clip):
 	mfcc_feat = clip['mfcc']
@@ -252,5 +246,3 @@ if __name__ == '__main__':
 			if val_acc > best_val_acc:
 				best_val_acc = val_acc
 				model.save(stored_model_name)
-		
-

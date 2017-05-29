@@ -1,14 +1,11 @@
 import numpy as np
-import pandas as pd
 import librosa
-import IPython.display
 import os
 import sys
 import audioread
 from python_speech_features import mfcc
 from python_speech_features import delta
 from python_speech_features import logfbank
-import scipy.io.wavfile as wav
 import pickle
 
 # methods for getting files from Switchboard Corpus

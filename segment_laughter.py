@@ -42,9 +42,9 @@ def get_instances_from_rows(rows):
 
 def lowpass(sig, filter_order = 2, cutoff = 0.01):
 	#Set up Butterworth filter
-	filter_order  = 2 
+	filter_order  = 2
 	B, A = signal.butter(filter_order, cutoff, output='ba')
- 
+
 	#Apply the filter
 	return(signal.filtfilt(B,A, sig))
 
@@ -115,10 +115,10 @@ if __name__ == '__main__':
 
 		model = load_model(model_path)
 		window_size = 37
-	
+
 		mfcc_feat = compute_features.compute_mfcc_features(y,sr)
 		delta_feat = compute_features.compute_delta_features(mfcc_feat)
-		
+
 		zero_pad = np.zeros((window_size,mfcc_feat.shape[1]))
 		padded_mfcc_feat = np.vstack([zero_pad,mfcc_feat,zero_pad])
 		padded_delta_feat = np.vstack([zero_pad,delta_feat,zero_pad])
@@ -127,16 +127,23 @@ if __name__ == '__main__':
 		for i in range(window_size, len(mfcc_feat) + window_size):
 			feature_list.append(format_features(padded_mfcc_feat, padded_delta_feat, i))
 		feature_list = np.array(feature_list)
-		
+
 		print
 		print "Looking for laughter..."
 		probs = model.predict_proba(feature_list).reshape((len(mfcc_feat),))
 		filtered = lowpass(probs)
 
 		instances = get_laughter_instances(filtered, threshold=threshold, min_length=min_length)
+                maxv = np.iinfo(np.int16).max
 
-		laughs = cut_laughter_segments(instances,full_res_y,full_res_sr)
-		librosa.output.write_wav(output_audio_path, laughs, full_res_sr)
+                if os.path.isdir(output_audio_path):
+                    for index, instance in enumerate(instances):
+                        laughs = cut_laughter_segments([instance],full_res_y,full_res_sr)
+                        librosa.output.write_wav(output_audio_path + "/laugh_" + str(index) + ".wav", (laughs * maxv).astype(np.int16), full_res_sr)
+
+                else:
+                    laughs = cut_laughter_segments(instances,full_res_y,full_res_sr)
+                    librosa.output.write_wav(output_audio_path, (laughs * maxv).astype(np.int16), full_res_sr)
 
 		print
 		print

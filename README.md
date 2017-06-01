@@ -3,6 +3,10 @@
 
 This library contains code and models to segment  regions of laughter from an audio file. The models/ folder contains models trained on the [Switchboard](https://catalog.ldc.upenn.edu/ldc97s62) data set.
 
+The implementation is based on the following papers:
+- Knox, Mary Tai, and Nikki Mirghafori. "Automatic laughter detection using neural networks." Interspeech. 2007.
+- Kaushik, Lakshmish, Abhijeet Sangwan, and John HL Hansen. "Laughter and filler detection in naturalistic audio." Interspeech. 2015.
+
 # Usage
 - To train a new model on Switchboard, see `compute_features.py` and `train_model.py`
 - To run the laugh detector from the command line, use `python segment_laughter.py <input_audio_path> <stored_model_path> <output_audio_path> <threshold>(optional) <min_length>(optional)`

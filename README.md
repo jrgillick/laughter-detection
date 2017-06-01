@@ -7,7 +7,7 @@ This library contains code and models to segment  regions of laughter from an au
 - To train a new model on Switchboard, see `compute_features.py` and `train_model.py`
 - To run the laugh detector from the command line, use `python segment_laughter.py <input_audio_path> <stored_model_path> <output_audio_path> <threshold>(optional) <min_length>(optional)`
 - e.g. `python segment_laughter.py my_audio_file.wav models/new_model.h5 laughs.wav 0.8 0.1`
-- Or if you want each separate laugh exported as it's own audio file, enter a folder for the output path.
+- Or if you want each separate laugh exported as its own audio file, enter a folder for the output path.
 - e.g. `python segment_laughter.py my_audio_file.wav models/new_model.h5 my_folder 0.8 0.1`
 
   #### Parameters

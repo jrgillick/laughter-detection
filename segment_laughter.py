@@ -134,21 +134,23 @@ if __name__ == '__main__':
 		filtered = lowpass(probs)
 
 		instances = get_laughter_instances(filtered, threshold=threshold, min_length=min_length)
-                maxv = np.iinfo(np.int16).max
 
-                if os.path.isdir(output_audio_path):
-                    for index, instance in enumerate(instances):
-                        laughs = cut_laughter_segments([instance],full_res_y,full_res_sr)
-                        librosa.output.write_wav(output_audio_path + "/laugh_" + str(index) + ".wav", (laughs * maxv).astype(np.int16), full_res_sr)
+                if len(instances) > 0:
+
+                    maxv = np.iinfo(np.int16).max
+
+                    if os.path.isdir(output_audio_path):
+                        for index, instance in enumerate(instances):
+                            laughs = cut_laughter_segments([instance],full_res_y,full_res_sr)
+                            librosa.output.write_wav(output_audio_path + "/laugh_" + str(index) + ".wav", (laughs * maxv).astype(np.int16), full_res_sr)
+
+                    else:
+                        laughs = cut_laughter_segments(instances,full_res_y,full_res_sr)
+                        librosa.output.write_wav(output_audio_path, (laughs * maxv).astype(np.int16), full_res_sr)
+
+                    print; print
+                    print "Wrote laughter to file: %s" % (output_audio_path); print
+                    print "Laughter Segments: "; print instances; print
 
                 else:
-                    laughs = cut_laughter_segments(instances,full_res_y,full_res_sr)
-                    librosa.output.write_wav(output_audio_path, (laughs * maxv).astype(np.int16), full_res_sr)
-
-		print
-		print
-		print "Wrote laughter to file: %s" % (output_audio_path)
-		print
-		print "Laughter Segments: "
-		print instances
-		print
+                    print; print "No laughter found."

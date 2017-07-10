@@ -18,32 +18,33 @@ def get_train_val_test_folders(t_root):
     train_folders.sort(); val_folders.sort(); test_folders.sort()
     return (train_folders, val_folders, test_folders)
 
-def get_transcriptions_files(folder):
+# a_or_b should be either 'A' or 'B' - referring to label of which speaker
+def get_transcriptions_files(folder, a_or_b):
     files = []
     subfolders = [folder + "/" + f for f in os.listdir(folder)]
     for f in subfolders:
-        fs = [f + "/" + fname for fname in os.listdir(f) if 'a-word.text' in fname and 'A' in fname]
+        fs = [f + "/" + fname for fname in os.listdir(f) if 'a-word.text' in fname and a_or_b in fname]
         files += fs
     files.sort()
     return files
 
-def get_all_transcriptions_files(folder_list):
+def get_all_transcriptions_files(folder_list, a_or_b):
     files = []
     for folder in folder_list:
-        files += get_transcriptions_files(folder)
+        files += get_transcriptions_files(folder, a_or_b)
     files.sort()
     return files
 
-def get_transcription_files_with_laughter_in_corpus(folder_list):
+def get_transcription_files_with_laughter_in_corpus(folder_list, a_or_b):
     files = []
-    transcription_files = get_all_transcriptions_files(folder_list)
+    transcription_files = get_all_transcriptions_files(folder_list, a_or_b)
     for f in transcription_files:
         if count_laughter_instances_in_transcription_file(f) > 0:
             files.append(f)
     return files
 
-def count_transcription_files_with_laughter_in_corpus(folder_list):
-    return len(get_transcription_files_with_laughter_in_corpus(folder_list))
+def count_transcription_files_with_laughter_in_corpus(folder_list, a_or_b):
+    return len(get_transcription_files_with_laughter_in_corpus(folder_list, a_or_b))
 
 def get_sph_files(folder):
     return [folder + "/" + f for f in os.listdir(folder) if ".sph" in f]
@@ -61,8 +62,8 @@ def get_text_from_file(f):
     return (open(f).read().split("\n"))[0:-1]
 
 def get_laughter_rows_from_file(f):
-    return [l for l in get_text_from_file(f) if 'laughter' in l]
-    #return [l for l in get_text_from_file(f) if '[laughter]' in l] # doesn't allow laughter with words together
+    #return [l for l in get_text_from_file(f) if 'laughter' in l]
+    return [l for l in get_text_from_file(f) if '[laughter]' in l] # doesn't allow laughter with words together
 
 def get_audio_file_from_id(d):
     files = [f for f in all_audio_files if d in f]
@@ -101,8 +102,8 @@ def count_laughter_instances_in_transcription_file(f):
     rows = get_laughter_rows_from_file(f)
     return len(rows)
 
-def count_laughter_instances_in_corpus(folder_list):
-    transcription_files = get_all_transcriptions_files(folder_list)
+def count_laughter_instances_in_corpus(folder_list, a_or_b):
+    transcription_files = get_all_transcriptions_files(folder_list, a_or_b)
     count = 0
     for f in transcription_files:
         count += count_laughter_instances_in_transcription_file(f)
@@ -211,18 +212,18 @@ def compute_features_and_labels(y,sr,region,label_type,source_file_id,file_index
             'source_file_id': source_file_id,
             'file_index': file_index}
 
-def compute_and_store_features_and_labels(t_file, output_dir):
+def compute_and_store_features_and_labels(t_file, output_dir, a_or_b):
     a_file = get_audio_file_from_transcription_file(t_file)
     y,sr = librosa.load(a_file,sr=8000)
     source_file_id = get_id_from_file(t_file)
     laughter_regions = get_laughter_regions_from_file(t_file)
     
     laughter_features_list = [compute_features_and_labels(y,sr,region,label_type='laughter',source_file_id=source_file_id,file_index=index) for index, region in enumerate(laughter_regions)]
-    speech_regions = [get_random_speech_region_from_file(t_file, get_length_from_regions_list(laughter_regions)) for i in xrange(3)]
+    speech_regions = [get_random_speech_region_from_file(t_file, get_length_from_regions_list(laughter_regions)) for i in xrange(1)]  #change 1 to get more speech than laughs
     speech_features_list = [compute_features_and_labels(y,sr,region,label_type='speech',source_file_id=source_file_id,file_index=index) for index, region in enumerate(speech_regions)]
     
-    laughter_output_file = output_dir + "laughter_" + source_file_id + ".pkl"
-    speech_output_file = output_dir + "speech_" + source_file_id + ".pkl"
+    laughter_output_file = output_dir + "laughter_" + source_file_id + "_" + a_or_b + ".pkl"
+    speech_output_file = output_dir + "speech_" + source_file_id + "_" + a_or_b + ".pkl"
     
     with open(laughter_output_file, "wb") as f:
         pickle.dump(laughter_features_list, f)
@@ -230,11 +231,11 @@ def compute_and_store_features_and_labels(t_file, output_dir):
     with open(speech_output_file, "wb") as f:
         pickle.dump(speech_features_list, f)
 
-def compute_all_features(transcription_file_list, output_dir):
+def compute_all_features(transcription_file_list, output_dir, a_or_b):
     for index, t_file in enumerate(transcription_file_list):
         print "Processing %d out of %d transcription files." % (index+1, len(transcription_file_list))
         try:
-            compute_and_store_features_and_labels(t_file, output_dir)
+            compute_and_store_features_and_labels(t_file, output_dir, a_or_b)
         except:
 						print "File %d Failed" % (index + 1)
 
@@ -289,37 +290,41 @@ if __name__ == '__main__':
 		all_audio_files = get_all_audio_files(a_root)
 		train_folders, val_folders, test_folders = get_train_val_test_folders(t_root)
 
-		print "Laughter instances in training data: %d" % (count_laughter_instances_in_corpus(train_folders))
-		print "Laughter instances in validation data: %d" % (count_laughter_instances_in_corpus(val_folders))
-		print "Laughter instances in test data: %d" % ( count_laughter_instances_in_corpus(test_folders))
-		print
-		print "Files containing laughter in training data: %d" % (count_transcription_files_with_laughter_in_corpus(train_folders))
-		print "Files containing laughter in validation data: %d" % (count_transcription_files_with_laughter_in_corpus(val_folders))
-		print "Files containing laughter in test data: %d" % (count_transcription_files_with_laughter_in_corpus(test_folders))
-		print
+		a_or_b = 'A'
 
-		train_audio_files = get_audio_files_from_transcription_files(get_all_transcriptions_files(train_folders))
-		val_audio_files = get_audio_files_from_transcription_files(get_all_transcriptions_files(val_folders))
-		test_audio_files = get_audio_files_from_transcription_files(get_all_transcriptions_files(test_folders))
+		for a_or_b in ['A', 'B']:
 
-		train_transcription_files = get_transcription_files_with_laughter_in_corpus(train_folders)
-		val_transcription_files = get_transcription_files_with_laughter_in_corpus(val_folders)
-		test_transcription_files = get_transcription_files_with_laughter_in_corpus(test_folders)
+			print "Laughter instances in training data: %d" % (count_laughter_instances_in_corpus(train_folders, a_or_b))
+			print "Laughter instances in validation data: %d" % (count_laughter_instances_in_corpus(val_folders, a_or_b))
+			print "Laughter instances in test data: %d" % ( count_laughter_instances_in_corpus(test_folders, a_or_b))
+			print
+			print "Files containing laughter in training data: %d" % (count_transcription_files_with_laughter_in_corpus(train_folders, a_or_b))
+			print "Files containing laughter in validation data: %d" % (count_transcription_files_with_laughter_in_corpus(val_folders, a_or_b))
+			print "Files containing laughter in test data: %d" % (count_transcription_files_with_laughter_in_corpus(test_folders, a_or_b))
+			print
 
-		train_audio_files = get_audio_files_from_transcription_files(train_transcription_files)
-		val_audio_files = get_audio_files_from_transcription_files(val_transcription_files)
-		test_audio_files = get_audio_files_from_transcription_files(test_transcription_files)
-		print
-		print "Training on %d dialogues" % len(train_audio_files)
-		print "Validatiing on %d dialogues" % len(val_audio_files)
-		print "Testing on %d dialogues" % len(test_audio_files)
+			train_audio_files = get_audio_files_from_transcription_files(get_all_transcriptions_files(train_folders, a_or_b))
+			val_audio_files = get_audio_files_from_transcription_files(get_all_transcriptions_files(val_folders, a_or_b))
+			test_audio_files = get_audio_files_from_transcription_files(get_all_transcriptions_files(test_folders, a_or_b))
+
+			train_transcription_files = get_transcription_files_with_laughter_in_corpus(train_folders, a_or_b)
+			val_transcription_files = get_transcription_files_with_laughter_in_corpus(val_folders, a_or_b)
+			test_transcription_files = get_transcription_files_with_laughter_in_corpus(test_folders, a_or_b)
+
+			train_audio_files = get_audio_files_from_transcription_files(train_transcription_files)
+			val_audio_files = get_audio_files_from_transcription_files(val_transcription_files)
+			test_audio_files = get_audio_files_from_transcription_files(test_transcription_files)
+			print
+			print "Training on %d dialogues" % len(train_audio_files)
+			print "Validating on %d dialogues" % len(val_audio_files)
+			print "Testing on %d dialogues" % len(test_audio_files)
 
 		
-		print "Computing Features for Training Data..."
-		compute_all_features(train_transcription_files, train_output_dir)
+			print "Computing Features for Training Data..."
+			compute_all_features(train_transcription_files, train_output_dir, a_or_b)
 
-		print "Computing Features for Validation Data..."
-		compute_all_features(val_transcription_files, validation_output_dir)
+			print "Computing Features for Validation Data..."
+			compute_all_features(val_transcription_files, validation_output_dir, a_or_b)
 
-		print "Computing Features for Test Data..."
-		compute_all_features(test_transcription_files, test_output_dir)
+			print "Computing Features for Test Data..."
+			compute_all_features(test_transcription_files, test_output_dir, a_or_b)

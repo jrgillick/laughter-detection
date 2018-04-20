@@ -4,6 +4,7 @@
 This library contains code and models to segment  regions of laughter from an audio file. The models/ folder contains models trained on the [Switchboard](https://catalog.ldc.upenn.edu/ldc97s62) data set.
 
 Please cite the following paper if you use this software for research:
+
 Kimiko Ryokai, Elena Durán López, Noura Howell, Jon Gillick, and David Bamman (2018), "Capturing, Representing, and Interacting with Laughter," CHI 2018
 
 # Usage

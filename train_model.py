@@ -122,7 +122,7 @@ def get_data_subset(train_data_parts, train_label_parts, start, end):
 
 def initialize_model():
     model = Sequential()
-    model.add(Dense(600, use_bias=True,input_dim=1924))#1924
+    model.add(Dense(600, use_bias=True,input_dim=2886))#1924
     model.add(keras.layers.BatchNormalization())
     model.add(Dropout(0.5))
     model.add(Activation("relu"))
@@ -209,9 +209,9 @@ if __name__ == '__main__':
 		# format train set
 		laughter_clips, speech_clips = get_laughter_and_speech_clips(train_dir)
 		# Remove some clips that were failing - TODO fix this
-		del laughter_clips[677]
-		del laughter_clips[6079]
-		del laughter_clips[7235]
+		#del laughter_clips[677]
+		#del laughter_clips[6079]
+		#del laughter_clips[7235]
 		formatted_laughter_clips = format_laughter_clips(laughter_clips)
 		formatted_speech_clips = format_speech_clips(speech_clips)
 		train_data, train_labels = format_data_and_labels(formatted_laughter_clips, formatted_speech_clips)
@@ -238,7 +238,7 @@ if __name__ == '__main__':
 		model = initialize_model()
 		best_val_acc = 0
 
-		for epoch in xrange(20):
+		for epoch in xrange(50):
 			print "Epoch %d" % (epoch)
 			train_on_parts(train_data_parts, train_label_parts, "Training")
 			val_acc = evaluate_on_parts(val_data_parts, val_label_parts, "Validation")

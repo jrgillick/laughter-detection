@@ -3,9 +3,6 @@ import librosa
 import os
 import sys
 import audioread
-from python_speech_features import mfcc
-from python_speech_features import delta
-from python_speech_features import logfbank
 import pickle
 
 # methods for getting files from Switchboard Corpus
@@ -181,10 +178,13 @@ def write_clip_to_disk(path,y,sr):
     librosa.output.write_wav(path,y,sr)
     
 def compute_mfcc_features(y,sr):
-    return mfcc(y,samplerate=sr,winlen=0.025,winstep=0.01)
+    mfcc_feat = librosa.feature.mfcc(y,sr,n_mfcc=12,n_mels=12,hop_length=int(sr/100), n_fft=int(sr/40)).T
+    S, phase = librosa.magphase(librosa.stft(y,hop_length=int(sr/100)))
+    rms = librosa.feature.rmse(S=S).T
+    return np.hstack([mfcc_feat,rms])
 
 def compute_delta_features(mfcc_feat):
-    return delta(mfcc_feat, 2)
+    return np.vstack([librosa.feature.delta(mfcc_feat.T),librosa.feature.delta(mfcc_feat.T, order=2)]).T
 
 def compute_labels_per_frame(n_frames,sr,winstep=0.01,pad_amount=0.5):
     #print "n_frames: %d" % (n_frames)

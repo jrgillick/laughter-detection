@@ -48,7 +48,7 @@ def lowpass(sig, filter_order = 2, cutoff = 0.01):
 	#Apply the filter
 	return(signal.filtfilt(B,A, sig))
 
-def get_laughter_instances(probs, threshold = 0.5, min_length = 20):
+def get_laughter_instances(probs, threshold = 0.5, min_length = 0.2):
 	instances = []
 	current_list = []
 	for i in xrange(len(probs)):
@@ -58,16 +58,19 @@ def get_laughter_instances(probs, threshold = 0.5, min_length = 20):
 			if len(current_list) > 0:
 				instances.append(current_list)
 				current_list = []
-
+	for i in instances:
+		print i
+		print
 	instances = [frame_span_to_time_span(collapse_to_start_and_end_frame(i)) for i in instances if len(i) > min_length]
 	return instances
 
 def get_feature_list(y,sr,window_size=37):
 	mfcc_feat = compute_features.compute_mfcc_features(y,sr)
 	delta_feat = compute_features.compute_delta_features(mfcc_feat)
-	zero_pad = np.zeros((window_size,mfcc_feat.shape[1]))
-	padded_mfcc_feat = np.vstack([zero_pad,mfcc_feat,zero_pad])
-	padded_delta_feat = np.vstack([zero_pad,delta_feat,zero_pad])
+	zero_pad_mfcc = np.zeros((window_size,mfcc_feat.shape[1]))
+	zero_pad_delta = np.zeros((window_size,delta_feat.shape[1]))
+	padded_mfcc_feat = np.vstack([zero_pad_mfcc,mfcc_feat,zero_pad_mfcc])
+	padded_delta_feat = np.vstack([zero_pad_delta,delta_feat,zero_pad_delta])
 	feature_list = []
 	for i in range(window_size, len(mfcc_feat) + window_size):
 		feature_list.append(format_features(padded_mfcc_feat, padded_delta_feat, i, window_size))

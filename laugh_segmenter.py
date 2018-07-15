@@ -8,8 +8,6 @@ import scipy.signal as signal
 import os
 import sys
 import librosa
-from python_speech_features import mfcc
-from python_speech_features import delta
 import keras
 from keras.models import load_model
 

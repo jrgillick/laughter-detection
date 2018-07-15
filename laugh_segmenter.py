@@ -5,6 +5,7 @@ session = tf.Session(config=config)
 
 import numpy as np
 import scipy.signal as signal
+import scipy
 import os
 import sys
 import librosa
@@ -107,7 +108,8 @@ def segment_laughs(input_path,model_path,output_path,threshold=0.5,min_length=0.
 		for index, instance in enumerate(instances):
 			laughs = cut_laughter_segments([instance],full_res_y,full_res_sr)
 			wav_path = output_path + "/laugh_" + str(index) + ".wav"
-			librosa.output.write_wav(wav_path, (laughs * maxv).astype(np.int16), full_res_sr)
+			#librosa.output.write_wav(wav_path, (laughs * maxv).astype(np.int16), full_res_sr)
+			scipy.io.wavfile.write(wav_path, full_res_sr, (laughs * maxv).astype(np.int16))
 			wav_paths.append(wav_path)
 
 		return(format_outputs(instances, wav_paths))

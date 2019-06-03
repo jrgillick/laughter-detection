@@ -55,7 +55,7 @@ def lowpass(sig, filter_order = 2, cutoff = 0.01):
 def get_laughter_instances(probs, threshold = 0.5, min_length = 0.2):
 	instances = []
 	current_list = []
-	for i in xrange(len(probs)):
+	for i in range(len(probs)):
 		if np.min(probs[i:i+1]) > threshold:
 			current_list.append(i)
 		else:
@@ -63,8 +63,8 @@ def get_laughter_instances(probs, threshold = 0.5, min_length = 0.2):
 				instances.append(current_list)
 				current_list = []
 	for i in instances:
-		print i
-		print
+		print(i)
+		print()
 	instances = [frame_span_to_time_span(collapse_to_start_and_end_frame(i)) for i in instances if len(i) > min_length]
 	return instances
 
@@ -83,16 +83,16 @@ def get_feature_list(y,sr,window_size=37):
 
 def format_outputs(instances, wav_paths):
 	outs = []
-	for i in xrange(len(instances)):
+	for i in range(len(instances)):
 		outs.append({'filename': wav_paths[i], 'start': instances[i][0], 'end': instances[i][1]})
 	return outs
 
 def segment_laughs(input_path,model_path,output_path,threshold=0.5,min_length=0.2):
-	print; print 'Loading audio file...'
+	print(); print('Loading audio file...')
 	y,sr = librosa.load(input_path,sr=8000)
 	full_res_y, full_res_sr = librosa.load(input_path,sr=44100)
 	
-	print; print 'Looking for laughter...'; print
+	print(); print('Looking for laughter...'); print()
 	model = load_model(model_path)
 	feature_list = get_feature_list(y,sr)
 

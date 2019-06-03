@@ -10,19 +10,19 @@ def parse_inputs():
 	try:
 		a_file = sys.argv[1]
 	except:
-		print "Enter the audio file path as the first argument"
+		print("Enter the audio file path as the first argument")
 		process = False
 
 	try:
 		model_path = sys.argv[2]
 	except:
-		print "Enter the stored model path as the second argument"
+		print("Enter the stored model path as the second argument")
 		process = False
 
 	try:
 		output_audio_path = sys.argv[3]
 	except:
-		print "Enter the output audio path as the third argument"
+		print("Enter the output audio path as the third argument")
 		process = False
 
 	try:
@@ -48,6 +48,6 @@ if __name__ == '__main__':
 		min_length = seconds_to_frames(min_length)
 
 		laughs = laugh_segmenter.segment_laughs(input_path,model_path,output_path,threshold,min_length) 
-		print; print "found %d laughs." % (len (laughs))
+		print(); print("found %d laughs." % (len (laughs)))
 		for laugh in laughs:
-			print laugh
+			print(laugh)

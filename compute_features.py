@@ -67,10 +67,10 @@ def get_audio_file_from_id(d):
     if len(files) == 1:
         return files[0]
     elif len(files) > 1:
-        print "Warning: More than 1 audio file matched id %d" % (int(d))
+        print("Warning: More than 1 audio file matched id %d" % (int(d)))
         return None
     else:
-        print "Warning: No audio file matched id %d" % (int(d))
+        print("Warning: No audio file matched id %d" % (int(d)))
         return None
         
 def get_id_from_row(row):
@@ -137,8 +137,8 @@ def get_random_speech_region_from_file(t_file, region_length):
     while(contains_laughter):
         tries += 1
         if tries > 10:
-            print "audio length %f" % (audio_length)
-            print "region legnth %f" % (region_length)
+            print("audio length %f" % (audio_length))
+            print("region legnth %f" % (region_length))
             return None
         start = np.random.uniform(1.0, audio_length - region_length - 1.0)
         end = start + region_length
@@ -187,7 +187,7 @@ def compute_delta_features(mfcc_feat):
     return np.vstack([librosa.feature.delta(mfcc_feat.T),librosa.feature.delta(mfcc_feat.T, order=2)]).T
 
 def compute_labels_per_frame(n_frames,sr,winstep=0.01,pad_amount=0.5):
-    #print "n_frames: %d" % (n_frames)
+    #print("n_frames: %d" % (n_frames))
     samples_per_frame = sr*winstep #80 with defaults
     #with 0.5 seconds of padding, there should be 4000 samples of padding, so 50 frames of non-laughter 
     n_padding_frames = int(sr * pad_amount / samples_per_frame)
@@ -219,7 +219,7 @@ def compute_and_store_features_and_labels(t_file, output_dir, a_or_b):
     laughter_regions = get_laughter_regions_from_file(t_file)
     
     laughter_features_list = [compute_features_and_labels(y,sr,region,label_type='laughter',source_file_id=source_file_id,file_index=index) for index, region in enumerate(laughter_regions)]
-    speech_regions = [get_random_speech_region_from_file(t_file, get_length_from_regions_list(laughter_regions)) for i in xrange(1)]  #change 1 to get more speech than laughs
+    speech_regions = [get_random_speech_region_from_file(t_file, get_length_from_regions_list(laughter_regions)) for i in range(1)]  #change 1 to get more speech than laughs
     speech_features_list = [compute_features_and_labels(y,sr,region,label_type='speech',source_file_id=source_file_id,file_index=index) for index, region in enumerate(speech_regions)]
     
     laughter_output_file = output_dir + "laughter_" + source_file_id + "_" + a_or_b + ".pkl"
@@ -233,11 +233,11 @@ def compute_and_store_features_and_labels(t_file, output_dir, a_or_b):
 
 def compute_all_features(transcription_file_list, output_dir, a_or_b):
     for index, t_file in enumerate(transcription_file_list):
-        print "Processing %d out of %d transcription files." % (index+1, len(transcription_file_list))
+        print("Processing %d out of %d transcription files." % (index+1, len(transcription_file_list)))
         try:
             compute_and_store_features_and_labels(t_file, output_dir, a_or_b)
         except:
-						print "File %d Failed" % (index + 1)
+            print("File %d Failed" % (index+1))
 
 def parse_inputs():
 	process = True
@@ -245,31 +245,31 @@ def parse_inputs():
 	try:
 		t_root = sys.argv[1]
 	except:
-		print "Enter the switchboard transcriptions root dir as the first argument"
+		print("Enter the switchboard transcriptions root dir as the first argument")
 		process = False
 
 	try:
 		a_root = sys.argv[2]
 	except:
-		print "Enter the switchboard audio root directory as the second argument"
+		print("Enter the switchboard audio root directory as the second argument")
 		process = False
 
 	try:
 		train_output_dir = sys.argv[3]
 	except:
-		print "Enter the training set output directory as the third argument"
+		print("Enter the training set output directory as the third argument")
 		process = False
 	
 	try:
 		validation_output_dir = sys.argv[4]
 	except:
-		print "Enter the validation set output directory as the fourth argument"
+		print("Enter the validation set output directory as the fourth argument")
 		process = False
 
 	try:
 		test_output_dir = sys.argv[5]
 	except:
-		print "Enter the test set output directory as the fourth argument"
+		print("Enter the test set output directory as the fourth argument")
 		process = False
 
 	if process:
@@ -294,14 +294,14 @@ if __name__ == '__main__':
 
 		for a_or_b in ['A', 'B']:
 
-			print "Laughter instances in training data: %d" % (count_laughter_instances_in_corpus(train_folders, a_or_b))
-			print "Laughter instances in validation data: %d" % (count_laughter_instances_in_corpus(val_folders, a_or_b))
-			print "Laughter instances in test data: %d" % ( count_laughter_instances_in_corpus(test_folders, a_or_b))
-			print
-			print "Files containing laughter in training data: %d" % (count_transcription_files_with_laughter_in_corpus(train_folders, a_or_b))
-			print "Files containing laughter in validation data: %d" % (count_transcription_files_with_laughter_in_corpus(val_folders, a_or_b))
-			print "Files containing laughter in test data: %d" % (count_transcription_files_with_laughter_in_corpus(test_folders, a_or_b))
-			print
+			print("Laughter instances in training data: %d" % (count_laughter_instances_in_corpus(train_folders, a_or_b)))
+			print("Laughter instances in validation data: %d" % (count_laughter_instances_in_corpus(val_folders, a_or_b)))
+			print("Laughter instances in test data: %d" % ( count_laughter_instances_in_corpus(test_folders, a_or_b)))
+			print()
+			print("Files containing laughter in training data: %d" % (count_transcription_files_with_laughter_in_corpus(train_folders, a_or_b)))
+			print("Files containing laughter in validation data: %d" % (count_transcription_files_with_laughter_in_corpus(val_folders, a_or_b)))
+			print("Files containing laughter in test data: %d" % (count_transcription_files_with_laughter_in_corpus(test_folders, a_or_b)))
+			print()
 
 			train_audio_files = get_audio_files_from_transcription_files(get_all_transcriptions_files(train_folders, a_or_b))
 			val_audio_files = get_audio_files_from_transcription_files(get_all_transcriptions_files(val_folders, a_or_b))
@@ -314,17 +314,17 @@ if __name__ == '__main__':
 			train_audio_files = get_audio_files_from_transcription_files(train_transcription_files)
 			val_audio_files = get_audio_files_from_transcription_files(val_transcription_files)
 			test_audio_files = get_audio_files_from_transcription_files(test_transcription_files)
-			print
-			print "Training on %d dialogues" % len(train_audio_files)
-			print "Validating on %d dialogues" % len(val_audio_files)
-			print "Testing on %d dialogues" % len(test_audio_files)
+			print()
+			print("Training on %d dialogues" % len(train_audio_files))
+			print("Validating on %d dialogues" % len(val_audio_files))
+			print("Testing on %d dialogues" % len(test_audio_files))
 
 		
-			print "Computing Features for Training Data..."
+			print("Computing Features for Training Data...")
 			compute_all_features(train_transcription_files, train_output_dir, a_or_b)
 
-			print "Computing Features for Validation Data..."
+			print("Computing Features for Validation Data...")
 			compute_all_features(val_transcription_files, validation_output_dir, a_or_b)
 
-			print "Computing Features for Test Data..."
+			print("Computing Features for Test Data...")
 			compute_all_features(test_transcription_files, test_output_dir, a_or_b)

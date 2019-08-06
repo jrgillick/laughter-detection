@@ -7,7 +7,15 @@ Please cite the following paper if you use this software for research:
 
 Kimiko Ryokai, Elena Durán López, Noura Howell, Jon Gillick, and David Bamman (2018), "Capturing, Representing, and Interacting with Laughter," CHI 2018
 
-# Usage
+## Installation
+
+```sh
+git clone https://github.com/jrgillick/laughter-detection.git
+cd laughter-detection
+pip install -r requirements.txt
+```
+
+## Usage
 - To train a new model on Switchboard, see the __main__ function in `compute_features.py` and `train_model.py`
 - To run the laugh detector from the command line, use `python segment_laughter.py <input_audio_path> <stored_model_path> <output_folder> <threshold>(optional) <min_length>(optional)`
 - e.g. `python segment_laughter.py my_audio_file.wav models/model.h5 my_folder 0.8 0.1`
@@ -21,6 +29,6 @@ Kimiko Ryokai, Elena Durán López, Noura Howell, Jon Gillick, and David Bamman 
   #### Output
   - The segmenter prints out a list of time segments in seconds of the form (start, end) and saves them as a list of wav files into a folder at `<output_folder>`
   
-# Dependencies
+## Dependencies
 - [Librosa](http://librosa.github.io/librosa/) - tested with version 0.5.0
 - [Keras](https://keras.io/) - tested with version 2.0.0

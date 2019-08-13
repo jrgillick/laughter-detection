@@ -180,7 +180,7 @@ def write_clip_to_disk(path,y,sr):
 def compute_mfcc_features(y,sr):
     mfcc_feat = librosa.feature.mfcc(y,sr,n_mfcc=12,n_mels=12,hop_length=int(sr/100), n_fft=int(sr/40)).T
     S, phase = librosa.magphase(librosa.stft(y,hop_length=int(sr/100)))
-    rms = librosa.feature.rmse(S=S).T
+    rms = librosa.feature.rms(S=S).T
     return np.hstack([mfcc_feat,rms])
 
 def compute_delta_features(mfcc_feat):

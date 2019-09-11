@@ -38,27 +38,27 @@ def parse_inputs():
 		min_length = 0.2
 
 	try:
-		save_cuts = sys.argv[6] == 'True'
+		save_to_textgrid = sys.argv[6] == 'True'
 	except:
-		save_cuts = True
+		save_to_textgrid = False
 
 	if process:
 		return (a_file, model_path, output_audio_path, threshold, min_length, save_cuts)
 	else:
 		return False
 
-# Usage: python segment_laughter.py <input_audio_file> <stored_model_path> <output_folder> <save_cuts>
+# Usage: python segment_laughter.py <input_audio_file> <stored_model_path> <output_folder> <save_to_textgrid>
 
 if __name__ == '__main__':
 	if parse_inputs():
-		input_path, model_path, output_path, threshold, min_length, save_cuts = parse_inputs()
+		input_path, model_path, output_path, threshold, min_length, save_to_textgrid = parse_inputs()
 		min_length = seconds_to_frames(min_length)
 
 		laughs = laugh_segmenter.segment_laughs(input_path, model_path, output_path,
-                                                        threshold, min_length, save_cuts) 
+                                                        threshold, min_length, save_to_textgrid) 
 		print(); print("found %d laughs." % (len (laughs)))
 
-		if save_cuts:
+		if not save_to_textgrid:
 			for laugh in laughs:
 				print(laugh)
 		else:

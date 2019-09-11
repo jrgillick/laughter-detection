@@ -87,7 +87,7 @@ def format_outputs(instances, wav_paths):
 		outs.append({'filename': wav_paths[i], 'start': instances[i][0], 'end': instances[i][1]})
 	return outs
 
-def segment_laughs(input_path, model_path, output_path, threshold=0.5, min_length=0.2, save_cuts=True):
+def segment_laughs(input_path, model_path, output_path, threshold=0.5, min_length=0.2, save_to_textgrid=False):
 	print(); print('Loading audio file...')
 	y,sr = librosa.load(input_path,sr=8000)
 	full_res_y, full_res_sr = librosa.load(input_path,sr=44100)
@@ -106,7 +106,7 @@ def segment_laughs(input_path, model_path, output_path, threshold=0.5, min_lengt
 		wav_paths = []
 		maxv = np.iinfo(np.int16).max
 
-		if save_cuts:
+		if not save_to_textgrid:
 
 			for index, instance in enumerate(instances):
 				laughs = cut_laughter_segments([instance],full_res_y,full_res_sr)

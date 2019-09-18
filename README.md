@@ -17,13 +17,15 @@ pip install -r requirements.txt
 
 ## Usage
 - To train a new model on Switchboard, see the __main__ function in `compute_features.py` and `train_model.py`
-- To run the laugh detector from the command line, use `python segment_laughter.py <input_audio_path> <stored_model_path> <output_folder> <threshold>(optional) <min_length>(optional)`
+- To run the laugh detector from the command line, use `python segment_laughter.py <input_audio_path> <stored_model_path> <output_folder> <threshold>(optional) <min_length>(optional) <save_to_textgrid>(optional)`
 - e.g. `python segment_laughter.py my_audio_file.wav models/model.h5 my_folder 0.8 0.1`
 
   #### Parameters
   - The threshold parameter adjusts the minimum probability threshold for classifying a frame as laughter. The default is 0.5, but you can  experiment with settings between 0 and 1 to see what works best for your data. Lower threshold values may give more false positives but may also recover a higher percentage of laughs from your file.
 
   - The min_length parameter sets the minimum length in seconds that a laugh needs to be in order to be identified. The default value is 0.2.
+
+  - If set to True, the save_to_textgrid parameter toggles writing the identified laughter intervals to a [Praat](http://www.fon.hum.uva.nl/praat/) TextGrid annotation file rather than saving them in separate WAV files. The default value is False.
 
 
   #### Output

@@ -43,7 +43,7 @@ def parse_inputs():
 		save_to_textgrid = False
 
 	if process:
-		return (a_file, model_path, output_audio_path, threshold, min_length, save_cuts)
+		return (a_file, model_path, output_audio_path, threshold, min_length, save_to_textgrid)
 	else:
 		return False
 

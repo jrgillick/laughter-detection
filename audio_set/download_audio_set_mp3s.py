@@ -25,6 +25,14 @@ laugh_id_dict['/m/07sq110'] = "Belly laugh"
 laugh_id_dict['/m/07rgt08'] = "Chuckle, chortle"
 laugh_keys = list(laugh_id_dict.keys())
 
+def laugh_id_multihot(laugh_type_list):
+	""" Mapping from list of ID strings to multihot vector
+	"""
+	v = np.zeros(len(laugh_keys))
+	for i, k in enumerate(laugh_keys):
+		if k in laugh_type_list:
+			v[i] = 1.
+	return v
 
 def get_laughter_infolist(csv_file, mode):
 	"""Get a list of laughter/no-laughter files to download from youtube.

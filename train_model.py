@@ -39,7 +39,7 @@ def get_laughter_and_speech_clips(directory):
     
 	return (laughter_clips, speech_clips)
 
-def format_laughter_inputs(clip):
+def format_laughter_inputs(clip, window_size=37):
 	mfcc_feat = clip['mfcc']
 	delta_feat = clip['delta']
 	labels = clip['labels']
@@ -54,7 +54,7 @@ def format_laughter_inputs(clip):
 			X = np.vstack([X,features])
 	return (X,np.ones(len(laughter_frame_indices)))
 
-def format_speech_inputs(clip):
+def format_speech_inputs(clip, window_size=37):
     mfcc_feat = clip['mfcc']
     delta_feat = clip['delta']
     labels = clip['labels']

@@ -230,7 +230,7 @@ def compute_labels_per_frame(n_frames,sr,winstep=0.01,pad_amount=0.5):
     labels = padding_frames + laughter_frames + padding_frames
     return labels
 
-def compute_features_and_labels(y,sr,region,label_type,source_file_id,file_index):
+def compute_features_and_labels(y,sr,region,label_type,source_file_id=None,file_index=None):
     clip = clip_audio_region(y,sr,start=region[0],end=region[1])
     mfcc_features = compute_mfcc_features(clip,sr)
     delta_features = compute_delta_features(mfcc_features)
@@ -246,6 +246,38 @@ def compute_features_and_labels(y,sr,region,label_type,source_file_id,file_index
             'source_file_id': source_file_id,
             'file_index': file_index}
 
+"""
+def compute_stacked_features_and_labels(y,sr,region,label_type):
+    clip = clip_audio_region(y,sr,start=region[0],end=region[1])
+    mfcc_features = compute_mfcc_features(clip,sr)
+    delta_features = compute_delta_features(mfcc_features)
+    n_frames = len(mfcc_features)
+    if label_type == 'laughter':
+        labels = compute_labels_per_frame(n_frames,sr)
+    else:
+        labels = np.zeros(n_frames)
+    return np.hstack([mfcc_features, delta_features]), labels
+
+def compute_stacked_features_and_labels(y,sr,region,label_type):
+    clip = compute_features_and_labels(y,sr,region,label_type)
+    if label_type == 'laughter':
+        feats, labels = format_laughter_inputs(clip)
+    else:
+        feats, labels = format_speech_inputs(clip)
+
+
+def compute_stacked_features_and_labels_for_all_regions(y,sr,region_list,label_type):
+    feature_list = []
+    label_list = []
+    for region in region_list:
+        try:
+            features, labels = compute_stacked_features_and_labels(y,sr,region,label_type)
+            feature_list += list(features)
+            label_list += list(labels)
+        except:
+            print('region failed')
+    return np.array(feature_list), np.array(label_list)
+"""
 def compute_and_store_features_and_labels(t_file, output_dir, a_or_b, all_audio_files):
     a_file = get_audio_file_from_transcription_file(t_file, all_audio_files)
     y,sr = librosa.load(a_file,sr=8000)

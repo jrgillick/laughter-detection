@@ -1,43 +1,63 @@
-import os, sys, pickle, time, librosa, torch, numpy as np, pandas as pd
+#python train.py --config=mlp_mfcc --batch_size=32 --checkpoint_dir=/data/jrgillick/projects/laughter-detection/checkpoints/mlp_baseline_b32
+import os, sys, pickle, time, librosa, argparse, torch, numpy as np, pandas as pd
 from joblib import Parallel, delayed
 from tqdm import tqdm
 sys.path.append('/home/jrgillick/projects/audio-feature-learning/')
+sys.path.append('../')
+import models, configs
 import dataset_utils, audio_utils, data_loaders, torch_utils
-if 'ipykernel' in sys.modules:
-    from tqdm import tqdm_notebook as tqdm
-else:
-    from tqdm import tqdm
-    
+from tqdm import tqdm
+from torch import optim, nn
+from functools import partial    
 from tensorboardX import SummaryWriter
-batch_size=500
-collate_fn = audio_utils.pad_sequences_with_labels
 
 
+parser = argparse.ArgumentParser()
 
-##################################################################
-####################  Load Validation Data  ######################
-##################################################################
+# Path to store the parsed label times and inputs for Switchboard
+parser.add_argument('--config', type=str, required=True)
+parser.add_argument('--batch_size', type=str)
+parser.add_argument('--checkpoint_dir', type=str, required=True)
+parser.add_argument('--torch_device', type=str, default='cuda')
+parser.add_argument('--num_workers', type=str, default='8')
+parser.add_argument('--dropout_rate', type=str, default='0.5')
 
-with open("/data/jrgillick/projects/laughter-detection/data/switchboard/val/val_1.pkl", "rb") as f:
-    val_audios = pickle.load(f)
+args = parser.parse_args()
 
-val_dataset = data_loaders.SwitchBoardLaughterDataset(
-    data_file='/data/jrgillick/projects/laughter-detection/data/switchboard/val/val_1.txt',
-    audio_files = val_audios,
-    feature_fn=audio_utils.featurize_mfcc,
-    batch_size=batch_size,
-    sr=8000)
+config = configs.CONFIG_MAP[args.config]
 
-val_generator = torch.utils.data.DataLoader(
-    val_dataset, num_workers=8, batch_size=batch_size, shuffle=True,
-    collate_fn=collate_fn)
+batch_size = int(args.batch_size or config['batch_size'])
+feature_fn = config['feature_fn']
+augment_fn = config['augment_fn']
+train_data_text_path = config['train_data_text_path']
+val_data_text_path = config['val_data_text_path']
+log_frequency = config['log_frequency']
+swb_audio_pkl_path = config['swb_audio_pkl_path']
+checkpoint_dir = args.checkpoint_dir
+a_root = config['swb_audio_root']
+t_root = config['swb_transcription_root']
+expand_channel_dim = config['expand_channel_dim']
+torch_device = args.torch_device
+num_workers = int(args.num_workers)
+dropout_rate = float(args.dropout_rate)
+
+collate_fn=partial(audio_utils.pad_sequences_with_labels,
+                        expand_channel_dim=expand_channel_dim)
 
 ##################################################################
 ####################  Setup Training Model  ######################
 ##################################################################
 
+def load_noise_files():
+    noise_files = librosa.util.find_files('/data/jrgillick/laughter/extra_sounds')
+    music_files = librosa.util.find_files('/data/corpora/audioreuse/spotifyClips/clips/')
+    noise_files += list(np.random.choice(music_files, 50))
+    noise_signals = audio_utils.parallel_load_audio_batch(noise_files,n_processes=8,sr=8000)
+    noise_signals = [s for s in noise_signals if len(s) > 8000]
+    return noise_signals
+
 def run_training_loop(n_epochs, model, device, checkpoint_dir,
-    optimizer, iterator, val_iterator=None,
+    optimizer, iterator, log_frequency=25, val_iterator=None,
     gradient_clip=1., verbose=True):
 
     for epoch in range(n_epochs):
@@ -45,19 +65,19 @@ def run_training_loop(n_epochs, model, device, checkpoint_dir,
 
         # Run with Generator
         train_loss = run_epoch(model, 'train', device, iterator,
-            optimizer=optimizer, clip=gradient_clip,
-            val_iterator=val_iterator, checkpoint_dir=checkpoint_dir,
-            verbose=verbose)
+            checkpoint_dir=checkpoint_dir, optimizer=optimizer,
+            log_frequency=log_frequency, checkpoint_frequency=log_frequency,
+            clip=gradient_clip, val_iterator=val_iterator, verbose=verbose)
 
         if verbose:
             end_time = time.time()
             epoch_mins, epoch_secs = torch_utils.epoch_time(start_time, end_time)
             print(f'Epoch: {epoch+1:02} | Time: {epoch_mins}m {epoch_secs}s')
             
-def run_epoch(model, mode, device, iterator, optimizer=None, clip=None,
-                batches=None, log_frequency=25, checkpoint_frequency=25,
+def run_epoch(model, mode, device, iterator, checkpoint_dir, optimizer=None, clip=None,
+                batches=None, log_frequency=None, checkpoint_frequency=None,
                 validate_online=True, val_iterator=None, val_batches=None,
-                checkpoint_dir=None, verbose=True):
+                verbose=True):
 
     """ args:
             mode: 'train' or 'eval'
@@ -84,7 +104,7 @@ def run_epoch(model, mode, device, iterator, optimizer=None, clip=None,
 
         with torch.no_grad():
             seqs, labs = batch
-
+            
             src = torch.from_numpy(np.array(seqs)).float().to(device)
             trg = torch.from_numpy(np.array(labs)).float().to(device)
             output = model(src).squeeze()
@@ -103,6 +123,7 @@ def run_epoch(model, mode, device, iterator, optimizer=None, clip=None,
 
         seqs, labs = batch
 
+
         src = torch.from_numpy(np.array(seqs)).float().to(device)
         trg = torch.from_numpy(np.array(labs)).float().to(device)
 
@@ -112,6 +133,8 @@ def run_epoch(model, mode, device, iterator, optimizer=None, clip=None,
         
         criterion = nn.BCELoss()
         loss = criterion(output, trg)
+        preds = torch.round(output)
+        acc = torch.sum(preds==trg).float()/len(trg)
         
         loss.backward()
 
@@ -119,7 +142,7 @@ def run_epoch(model, mode, device, iterator, optimizer=None, clip=None,
             torch.nn.utils.clip_grad_norm_(model.parameters(), clip)
         optimizer.step()
 
-        return loss.item()
+        return loss.item(), acc.item()
 
     if not (bool(iterator) ^ bool(batches)):
         raise Exception("Must pass either `iterator` or batches")
@@ -147,11 +170,11 @@ def run_epoch(model, mode, device, iterator, optimizer=None, clip=None,
 
     if iterator is not None:
         batches_per_epoch = torch_utils.num_batches_per_epoch(iterator)
-        batch_losses = []
+        batch_losses = []; batch_accs = []
         
         for i, batch in tqdm(enumerate(iterator)):
-            batch_loss = _run_batch(model, device, batch, batch_index = i, clip=clip)
-            batch_losses.append(batch_loss)
+            batch_loss, batch_acc = _run_batch(model, device, batch, batch_index = i, clip=clip)
+            batch_losses.append(batch_loss); batch_accs.append(batch_acc)
 
             if log_frequency is not None and (model.global_step + 1) % log_frequency == 0:
                 val_itr, val_loss_at_step, val_acc_at_step = _eval_for_logging(model, device,
@@ -162,17 +185,20 @@ def run_epoch(model, mode, device, iterator, optimizer=None, clip=None,
                     model.best_val_loss = val_loss_at_step
 
                 train_loss_at_step = np.mean(batch_losses)
+                train_acc_at_step = np.mean(batch_accs)
 
                 if verbose:
                     print("\nLogging at step: ", model.global_step)
                     print("Train loss: ", train_loss_at_step)
+                    print("Train accuracy: ", train_acc_at_step)
                     print("Val loss: ", val_loss_at_step)
-                    print("Val Accuracy: ", val_acc_at_step)
+                    print("Val accuracy: ", val_acc_at_step)
 
                 writer.add_scalar('train/loss', train_loss_at_step, model.global_step)
+                writer.add_scalar('train/acc', train_acc_at_step, model.global_step)
                 writer.add_scalar('eval/loss', val_loss_at_step, model.global_step)
                 writer.add_scalar('eval/acc', val_acc_at_step, model.global_step)
-                batch_losses = [] # reset
+                batch_losses = []; batch_accs = [] # reset
 
             if checkpoint_frequency is not None and (model.global_step + 1) % checkpoint_frequency == 0:
                 state = torch_utils.make_state_dict(model, optimizer, model.epoch,
@@ -184,73 +210,45 @@ def run_epoch(model, mode, device, iterator, optimizer=None, clip=None,
 
         model.epoch += 1
         return epoch_loss / len(iterator)
-    
-from torch import nn
-from torch import optim
-import torch.nn.functional as F
-from torch.distributions.categorical import Categorical
 
-class MLPModel(nn.Module):
-    def __init__(self, input_dim, hid_dim1, hid_dim2, dropout):
-        super().__init__()
 
-        self.input_dim = input_dim
-        self.hid_dim1 = hid_dim1
-        self.hid_dim2 = hid_dim2
-        self.dropout = nn.Dropout(dropout)
-        self.linear1 = nn.Linear(input_dim, hid_dim1)
-        self.linear2 = nn.Linear(hid_dim1, hid_dim2)
-        self.linear3 = nn.Linear(hid_dim2, 1)
-        self.bn1 = nn.BatchNorm1d(num_features=hid_dim1)
-        self.bn2 = nn.BatchNorm1d(num_features=hid_dim2)
-        
-        self.global_step = 0
-        self.epoch = 0
-        self.best_val_loss = np.inf
-        
-    def forward(self, src):
-        src = src.view((-1,76*40))
-        hidden1 = self.linear1(src)
-        hidden1 = self.bn1(hidden1)
-        hidden1 = self.dropout(hidden1)
-        hidden1 = F.relu(hidden1)
-        
-        hidden2 = self.linear2(hidden1)
-        hidden2 = self.bn2(hidden2)
-        hidden2 = self.dropout(hidden2)
-        hidden2 = F.relu(hidden2)
-        output = self.linear3(hidden2)
-        output = torch.sigmoid(output)
-        return output
+##################################################################
+####################  Set up Model Training  #####################
+##################################################################
+
     
 print("Initializing model...")
-device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-mlp_model = MLPModel(input_dim=76*40,hid_dim1=600,hid_dim2=100,dropout=0.5).to(device)
-model = mlp_model
+device = torch.device(torch_device if torch.cuda.is_available() else 'cpu')
+print("Using device", device)
+model = config['model'](dropout_rate=dropout_rate)
+model.set_device(device)
+#model = model.to(device)
 torch_utils.count_parameters(model)
 model.apply(torch_utils.init_weights)
 optimizer = optim.Adam(model.parameters())
 
-checkpoint_dir = '/data/jrgillick/projects/laughter-detection/checkpoints/mlp_mfcc'
 if os.path.exists(checkpoint_dir):
     torch_utils.load_checkpoint(checkpoint_dir+'/last.pth.tar', model, optimizer)
 else:
     print("Saving checkpoints to ", checkpoint_dir)
     print("Beginning training...")
 
-#cmd = "python make_switchboard_text_dataset.py --output_txt_file=/data/jrgillick/projects/laughter-detection/data/switchboard/train/train_1.txt --switchboard_audio_path=/data/corpora/switchboard-1/97S62/ --switchboard_transcriptions_path=/data/corpora/switchboard-1/swb_ms98_transcriptions/ --data_partition=train --load_audio_path=/data0/project/microtuning/misc/swb_train_audios.pkl"
 
 #########################################################
 ############   Do this once, keep in memory  ############
 #########################################################
-load_audio_path = '/data0/project/microtuning/misc/swb_train_audios.pkl'
-output_txt_file = '/data/jrgillick/projects/laughter-detection/data/switchboard/train/train_2.txt'
-a_root = '/data/corpora/switchboard-1/97S62/'
-t_root = '/data/corpora/switchboard-1/swb_ms98_transcriptions/'
+
+if augment_fn is not None:
+    print("Loading background noise files...")
+    noise_signals = load_noise_files()
+    augment_fn = partial(augment_fn, noise_signals=noise_signals)
+    augmented_feature_fn = partial(feature_fn, augment_fn=augment_fn)
+else:
+    augmented_feature_fn = feature_fn
 
 print("Loading switchboard audio files...")
 t0 = time.time()
-with open(load_audio_path, "rb") as f: # Loads all switchboard audio files
+with open(swb_audio_pkl_path, "rb") as f: # Loads all switchboard audio files
     h = pickle.load(f)
         
 all_audio_files = librosa.util.find_files(a_root,ext='sph')
@@ -281,36 +279,53 @@ def make_text_dataset(t_files_a, t_files_b, audio_files,num_passes=1,n_processes
                     t_files_b[i], audio_files[i]) for i in tqdm(range(len(t_files_a))))
         big_list += audio_utils.combine_list_of_lists(lines_per_file)
     return big_list
-#########################################################
-############   Do this once, keep in memory  ############
-#########################################################
 
-for e in range(200):
+##################################################################
+####################  Load Validation Data  ######################
+##################################################################
+
+#with open(val_data_audio_path, 'rb') as f:
+#    val_audios = pickle.load(f)
+val_audios = get_audios_from_text_data(val_data_text_path, h)
+
+val_dataset = data_loaders.SwitchBoardLaughterDataset(
+    data_file=val_data_text_path,
+    audio_files = val_audios,
+    feature_fn=feature_fn,
+    batch_size=batch_size,
+    sr=8000)
+
+val_generator = torch.utils.data.DataLoader(
+    val_dataset, num_workers=num_workers, batch_size=batch_size, shuffle=True,
+    collate_fn=collate_fn)
+
+##################################################################
+#######################  Run Training Loop  ######################
+##################################################################
+
+#for e in range(200):
+while model.global_step < 200000:
     t0 = time.time()
     print("Preparing training set...")
     
     lines = make_text_dataset(t_files_a, t_files_b, a_files,num_passes=1)                      
-    with open(output_txt_file, 'w')  as f:
+    with open(train_data_text_path, 'w')  as f:
         f.write('\n'.join(lines))
-    audios = get_audios_from_text_data(output_txt_file, h)
-    #os.system(cmd)
-    #print("Created training set in ", time.time()-t0, "seconds")
-    #with open("/data/jrgillick/projects/laughter-detection/data/switchboard/train/train_1.pkl", "rb") as f:
-    #    audios = pickle.load(f)
+    audios = get_audios_from_text_data(train_data_text_path, h)
 
     train_dataset = data_loaders.SwitchBoardLaughterDataset(
-        data_file=output_txt_file,
+        data_file=train_data_text_path,
         audio_files = audios,
-        feature_fn=audio_utils.featurize_mfcc,
+        feature_fn=augmented_feature_fn,
         batch_size=batch_size,
         sr=8000)
 
     training_generator = torch.utils.data.DataLoader(
-        train_dataset, num_workers=8, batch_size=batch_size, shuffle=True,
+        train_dataset, num_workers=num_workers, batch_size=batch_size, shuffle=True,
         collate_fn=collate_fn)
     
     run_training_loop(n_epochs=1, model=model, device=device, iterator=training_generator,
-        checkpoint_dir=checkpoint_dir, optimizer=optimizer,
+        checkpoint_dir=checkpoint_dir, optimizer=optimizer, log_frequency=log_frequency,
         val_iterator=val_generator,verbose=True)
     
 

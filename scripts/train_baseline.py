@@ -273,14 +273,18 @@ def get_audios_from_text_data(data_file, h, sr=8000):
     return audios
 
 def make_text_dataset(t_files_a, t_files_b, audio_files,num_passes=1,n_processes=8):
-    big_list = []
-    assert(len(t_files_a)==len(t_files_b) and len(t_files_a)==len(audio_files))
-    for p in range(num_passes):
-        lines_per_file = Parallel(n_jobs=n_processes)(
-            delayed(dataset_utils.get_laughter_speech_text_lines)(t_files_a[i],
-                    t_files_b[i], audio_files[i]) for i in tqdm(range(len(t_files_a))))
-        big_list += audio_utils.combine_list_of_lists(lines_per_file)
-    return big_list
+    try:
+        big_list = []
+        assert(len(t_files_a)==len(t_files_b) and len(t_files_a)==len(audio_files))
+        for p in range(num_passes):
+            lines_per_file = Parallel(n_jobs=n_processes)(
+                delayed(dataset_utils.get_laughter_speech_text_lines)(t_files_a[i],
+                        t_files_b[i], audio_files[i]) for i in tqdm(range(len(t_files_a))))
+            big_list += audio_utils.combine_list_of_lists(lines_per_file)
+        return big_list
+    except:
+        print("Error making dataset. Retrying...")
+        return make_text_dataset(t_files_a, t_files_b, audio_files, num_passes, n_processes)
 #########################################################
 ############   Do this once, keep in memory  ############
 #########################################################
@@ -288,6 +292,7 @@ def make_text_dataset(t_files_a, t_files_b, audio_files,num_passes=1,n_processes
 for e in range(200):
     t0 = time.time()
     print("Preparing training set...")
+    
     
     lines = make_text_dataset(t_files_a, t_files_b, a_files,num_passes=1)                      
     with open(output_txt_file, 'w')  as f:

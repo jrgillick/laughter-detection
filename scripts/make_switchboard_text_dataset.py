@@ -1,11 +1,11 @@
-#python scripts/make_switchboard_text_dataset.py --output_txt_file=/data/jrgillick/projects/laughter-detection/data/switchboard/train/train_1.txt --switchboard_audio_path=/data/corpora/switchboard-1/97S62/ --switchboard_transcriptions_path=/data/corpora/switchboard-1/swb_ms98_transcriptions/ --data_partition=train --load_audio_path=/data0/project/microtuning/misc/swb_train_audios.pkl
+#python scripts/make_switchboard_text_dataset.py --output_txt_file=/data/jrgillick/projects/laughter-detection/data/switchboard/train/train_1.txt --switchboard_audio_path=/data/corpora/switchboard-1/97S62/ --switchboard_transcriptions_path=/data/corpora/switchboard-1/swb_ms98_transcriptions/ --data_partition=train
 
 #a_root = '/data/corpora/switchboard-1/97S62/'
 #t_root = '/data/corpora/switchboard-1/swb_ms98_transcriptions/'
 
 import sys, time, librosa, os, argparse, pickle
 from tqdm import tqdm
-sys.path.append('/home/jrgillick/projects/audio-feature-learning/')
+sys.path.append('/mnt/data0/jrgillick/projects/audio-feature-learning/')
 import dataset_utils, audio_utils, data_loaders
 import pandas as pd
 from tqdm import tqdm
@@ -113,14 +113,17 @@ test_transcription_files_B, _ = dataset_utils.get_audio_files_from_transcription
 ##################################################################
 
 if data_partition == 'train':
+    print('train')
     t_files_a = train_transcription_files_A
     t_files_b = train_transcription_files_B
     a_files = train_audio_files
 elif data_partition == 'val':
+    print('val')
     t_files_a = val_transcription_files_A
     t_files_b = val_transcription_files_B
     a_files = val_audio_files
 elif data_partition == 'test':
+    print('test')
     t_files_a = test_transcription_files_A
     t_files_b = test_transcription_files_B
     a_files = test_audio_files
@@ -131,7 +134,8 @@ lines = make_text_dataset(t_files_a, t_files_b, a_files,num_passes=num_passes)
                                 
 with open(output_txt_file, 'w')  as f:
     f.write('\n'.join(lines))
-    
+
+"""
 if load_audio:
     #df = pd.read_csv(output_txt_file,sep='\t',header=None,
     #        names=['offset','duration','audio_path','label'])
@@ -146,4 +150,5 @@ if load_audio:
     output_audio_file = output_txt_file.replace('.txt','.pkl')
     with open(output_audio_file, 'wb') as f:
         pickle.dump(audios, f)
+"""
 

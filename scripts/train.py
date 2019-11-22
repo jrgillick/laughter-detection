@@ -1,4 +1,4 @@
-#python train.py --config=mlp_mfcc --batch_size=32 --checkpoint_dir=/data/jrgillick/projects/laughter-detection/checkpoints/mlp_baseline_b32
+#python train.py --config=mlp_mfcc --batch_size=32 --checkpoint_dir=/mnt/data0/jrgillick/projects/laughter-detection/checkpoints/mlp_baseline_b32
 import os, sys, pickle, time, librosa, argparse, torch, numpy as np, pandas as pd
 from joblib import Parallel, delayed
 from tqdm import tqdm
@@ -10,6 +10,10 @@ from tqdm import tqdm
 from torch import optim, nn
 from functools import partial    
 from tensorboardX import SummaryWriter
+
+learning_rate=0.001  # Learning rate.
+decay_rate=0.9999  # Learning rate decay per minibatch.
+min_learning_rate=0.000001  # Minimum learning rate.
 
 
 parser = argparse.ArgumentParser()
@@ -32,7 +36,8 @@ augment_fn = config['augment_fn']
 train_data_text_path = config['train_data_text_path']
 val_data_text_path = config['val_data_text_path']
 log_frequency = config['log_frequency']
-swb_audio_pkl_path = config['swb_audio_pkl_path']
+swb_train_audio_pkl_path = config['swb_train_audio_pkl_path']
+swb_val_audio_pkl_path = config['swb_val_audio_pkl_path']
 checkpoint_dir = args.checkpoint_dir
 a_root = config['swb_audio_root']
 t_root = config['swb_transcription_root']
@@ -49,8 +54,8 @@ collate_fn=partial(audio_utils.pad_sequences_with_labels,
 ##################################################################
 
 def load_noise_files():
-    noise_files = librosa.util.find_files('/data/jrgillick/laughter/extra_sounds')
-    music_files = librosa.util.find_files('/data/corpora/audioreuse/spotifyClips/clips/')
+    noise_files = librosa.util.find_files('/mnt/data0/jrgillick/projects/laughter-detection/data/extra_sounds')
+    music_files = librosa.util.find_files('/mnt/data0/jrgillick/projects/laughter-detection/data/spotifyClips/clips/')
     noise_files += list(np.random.choice(music_files, 50))
     noise_signals = audio_utils.parallel_load_audio_batch(noise_files,n_processes=8,sr=8000)
     noise_signals = [s for s in noise_signals if len(s) > 8000]
@@ -173,6 +178,10 @@ def run_epoch(model, mode, device, iterator, checkpoint_dir, optimizer=None, cli
         batch_losses = []; batch_accs = []
         
         for i, batch in tqdm(enumerate(iterator)):
+            # learning rate scheduling
+            lr = (learning_rate - min_learning_rate)*decay_rate**(float(model.global_step))+min_learning_rate
+            optimizer = optim.Adam(model.parameters(),lr=lr)
+            
             batch_loss, batch_acc = _run_batch(model, device, batch, batch_index = i, clip=clip)
             batch_losses.append(batch_loss); batch_accs.append(batch_acc)
 
@@ -220,7 +229,7 @@ def run_epoch(model, mode, device, iterator, checkpoint_dir, optimizer=None, cli
 print("Initializing model...")
 device = torch.device(torch_device if torch.cuda.is_available() else 'cpu')
 print("Using device", device)
-model = config['model'](dropout_rate=dropout_rate)
+model = config['model'](dropout_rate=dropout_rate, linear_layer_size=config['linear_layer_size'])
 model.set_device(device)
 #model = model.to(device)
 torch_utils.count_parameters(model)
@@ -248,7 +257,7 @@ else:
 
 print("Loading switchboard audio files...")
 t0 = time.time()
-with open(swb_audio_pkl_path, "rb") as f: # Loads all switchboard audio files
+with open(swb_train_audio_pkl_path, "rb") as f: # Loads all switchboard audio files
     h = pickle.load(f)
         
 all_audio_files = librosa.util.find_files(a_root,ext='sph')
@@ -284,9 +293,9 @@ def make_text_dataset(t_files_a, t_files_b, audio_files,num_passes=1,n_processes
 ####################  Load Validation Data  ######################
 ##################################################################
 
-#with open(val_data_audio_path, 'rb') as f:
-#    val_audios = pickle.load(f)
-val_audios = get_audios_from_text_data(val_data_text_path, h)
+with open(swb_val_audio_pkl_path, 'rb') as f:
+    val_h = pickle.load(f)
+val_audios = get_audios_from_text_data(val_data_text_path, val_h)
 
 val_dataset = data_loaders.SwitchBoardLaughterDataset(
     data_file=val_data_text_path,
@@ -311,11 +320,11 @@ while model.global_step < 200000:
     lines = make_text_dataset(t_files_a, t_files_b, a_files,num_passes=1)                      
     with open(train_data_text_path, 'w')  as f:
         f.write('\n'.join(lines))
-    audios = get_audios_from_text_data(train_data_text_path, h)
+    train_audios = get_audios_from_text_data(train_data_text_path, h)
 
     train_dataset = data_loaders.SwitchBoardLaughterDataset(
         data_file=train_data_text_path,
-        audio_files = audios,
+        audio_files = train_audios,
         feature_fn=augmented_feature_fn,
         batch_size=batch_size,
         sr=8000)

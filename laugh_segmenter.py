@@ -14,17 +14,17 @@ from keras.models import load_model
 
 import compute_features
 
-def frame_to_time(frame_index):
-	return(frame/100.)
+def frame_to_time(frame_index, fps=100):
+	return(frame/float(fps))
 
-def seconds_to_frames(s):
-	return(int(s*100))
+def seconds_to_frames(s, fps=100):
+	return(int(s*float(fps)))
 
 def collapse_to_start_and_end_frame(instance_list):
     return (instance_list[0], instance_list[-1])
 
-def frame_span_to_time_span(frame_span):
-    return (frame_span[0] / 100., frame_span[1] / 100.)
+def frame_span_to_time_span(frame_span, fps=100):
+    return (frame_span[0] / float(fps), frame_span[1] / float(fps))
 
 def seconds_to_samples(s,sr):
     return s*sr
@@ -52,7 +52,7 @@ def lowpass(sig, filter_order = 2, cutoff = 0.01):
 	#Apply the filter
 	return(signal.filtfilt(B,A, sig))
 
-def get_laughter_instances(probs, threshold = 0.5, min_length = 0.2):
+def get_laughter_instances(probs, threshold = 0.5, min_length = 0.2, fps=100):
 	instances = []
 	current_list = []
 	for i in range(len(probs)):
@@ -62,10 +62,10 @@ def get_laughter_instances(probs, threshold = 0.5, min_length = 0.2):
 			if len(current_list) > 0:
 				instances.append(current_list)
 				current_list = []
-	for i in instances:
-		print(i)
-		print()
-	instances = [frame_span_to_time_span(collapse_to_start_and_end_frame(i)) for i in instances if len(i) > min_length]
+	#for i in instances:
+	#	#print(i)
+	#	#print()
+	instances = [frame_span_to_time_span(collapse_to_start_and_end_frame(i), fps=fps) for i in instances if len(i) > min_length]
 	return instances
 
 def get_feature_list(y,sr,window_size=37):

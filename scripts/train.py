@@ -2,6 +2,7 @@
 import os, sys, pickle, time, librosa, argparse, torch, numpy as np, pandas as pd
 from joblib import Parallel, delayed
 from tqdm import tqdm
+import warnings
 sys.path.append('/home/jrgillick/projects/audio-feature-learning/')
 sys.path.append('../')
 import models, configs
@@ -11,6 +12,8 @@ from torch import optim, nn
 from functools import partial    
 from tensorboardX import SummaryWriter
 from sklearn.utils import shuffle
+
+warnings.filterwarnings('ignore', category=UserWarning)
 
 learning_rate=0.001  # Learning rate.
 decay_rate=0.9999  # Learning rate decay per minibatch.
@@ -53,13 +56,6 @@ parser.add_argument('--use_tsa', type=str)
 # options are 'linear_schedule', 'log_schedule', and 'exp_schedule'. Following UDA paper
 parser.add_argument('--tsa_schedule', type=str, default='linear_schedule')
 
-# TODO
-parser.add_argument('--consistency_samples_per_file', type=str, default='1')
-
-# For experiments with using a limited number of supervised examples
-# If using this flag, good to 
-parser.add_argument('--max_datapoints', type=str)
-
 # Weighting for the entropy_minimization loss. Recommended value in UDA is 0.1
 # If not set, this loss will not be used
 parser.add_argument('--ent_min_coef', type=str)
@@ -73,7 +69,16 @@ parser.add_argument('--unsup_threshold', type=str, default='0.8')
 
 # Simplify experiments with limited training examples by not regenerating the training
 # data file every epoch. We can still resample points in time from this file each epoch though.
-parser.add_argument('--supervised_text_datafile', type=str, default=None)
+parser.add_argument('--supervised_train_text_datafile', type=str, default=None)
+
+# Can choose either 'switchboard' or 'audioset'
+# Use switchboard e.g. for experiments with in-domain data and limited number of labels
+# Use audioset for e.g. for robustness to out of distribution data or background noise
+parser.add_argument('--consistency_dataset', type=str, default='audioset')
+
+# number of batches to accumulate before applying gradients
+parser.add_argument('--gradient_accumulation_steps', type=str, default='4')
+
 
 args = parser.parse_args()
 
@@ -94,12 +99,13 @@ torch_device = args.torch_device
 num_workers = int(args.num_workers)
 dropout_rate = float(args.dropout_rate)
 supervised_augment = config['supervised_augment']
-consistency_samples_per_file = int(args.consistency_samples_per_file)
 supervised_spec_augment = config['supervised_spec_augment']
 unsupervised_spec_augment = config['unsupervised_spec_augment']
 tsa_schedule = args.tsa_schedule
 consistency_weight = int(args.consistency_weight)
-
+consistency_dataset = args.consistency_dataset
+gradient_accumulation_steps = int(args.gradient_accumulation_steps)
+supervised_train_text_datafile = args.supervised_train_text_datafile
 unsup_threshold = float(args.unsup_threshold)
 
 if args.ent_min_coef is not None:
@@ -114,12 +120,6 @@ else:
     use_tsa = False
     print("Not Using Training Signal Annealing")
     
-if args.max_datapoints is not None:
-    max_datapoints = int(args.max_datapoints)
-else:
-    max_datapoints = None
-    
-
 
 collate_fn=partial(audio_utils.pad_sequences_with_labels,
                         expand_channel_dim=expand_channel_dim)
@@ -139,15 +139,19 @@ if ('consistency_train_audio_pkl_path' in config.keys()
         consistency_batch_size = int(batch_size)
     print(f"Consistency batch size: {consistency_batch_size}")
     
-    from audio_set_loading import *
-    
-    with open(config['consistency_train_audio_pkl_path'], 'rb') as f:
-        all_train_audios_hash = pickle.load(f)
-        all_train_audios = list(all_train_audios_hash.values())
-        
-    with open(config['consistency_val_audio_pkl_path'], 'rb') as f:
-        all_val_audios_hash = pickle.load(f)
-        all_val_audios = list(all_val_audios_hash.values())
+    if consistency_dataset == 'audioset':
+        # Load pickled audioset files if needed.
+        # If using switchboard for consistency, those files will be loaded already
+        print("Loading audio for consistency training...")
+        from audio_set_loading import *
+
+        with open(config['consistency_train_audio_pkl_path'], 'rb') as f:
+            all_audioset_train_audios_hash = pickle.load(f)
+            all_audioset_train_audios = list(all_audioset_train_audios_hash.values())
+
+        with open(config['consistency_val_audio_pkl_path'], 'rb') as f:
+            all_audioset_val_audios_hash = pickle.load(f)
+            all_audioset_val_audios = list(all_audioset_val_audios_hash.values())
 
 else:
     do_consistency_training = False
@@ -421,10 +425,10 @@ def run_epoch(model, mode, device, iterator, checkpoint_dir, optimizer=None, cli
             ent_loss = 0.
             ent_loss_item = 0.
             
-        loss = loss/5
+        loss = loss/gradient_accumulation_steps
         loss.backward()
 
-        if model.global_step%5 == 0:
+        if model.global_step%gradient_accumulation_steps == 0:
             if clip is not None:
                 torch.nn.utils.clip_grad_norm_(model.parameters(), clip)
             optimizer.step()
@@ -591,7 +595,11 @@ if supervised_spec_augment:
 
 print("Loading switchboard audio files...")
 with open(swb_train_audio_pkl_path, "rb") as f: # Loads all switchboard audio files
-    h = pickle.load(f)
+    switchboard_train_audio_hash = pickle.load(f)
+    #h = pickle.load(f)
+
+with open(swb_val_audio_pkl_path, "rb") as f:
+    switchboard_val_audios_hash = pickle.load(f)
         
 all_audio_files = librosa.util.find_files(a_root,ext='sph')
 train_folders, val_folders, test_folders = dataset_utils.get_train_val_test_folders(t_root)
@@ -600,12 +608,20 @@ t_files_a, a_files = dataset_utils.get_audio_files_from_transcription_files(
 t_files_b, _ = dataset_utils.get_audio_files_from_transcription_files(
     dataset_utils.get_all_transcriptions_files(train_folders, 'B'), all_audio_files)
 
-all_swb_train_sigs = [h[k] for k in h if k in a_files]
+all_swb_train_sigs = [switchboard_train_audio_hash[k] for k in switchboard_train_audio_hash if k in a_files]
+all_swb_val_sigs = [switchboard_val_audios_hash[k] for k in switchboard_val_audios_hash]
 
-def get_audios_from_text_data(data_file, h, sr=sample_rate):
+def get_audios_from_text_data(data_file_or_lines, h, sr=sample_rate):
+    # This function doesn't use the subsampled offset and duration
+    # So it will need to be handled later, in the data loader
+    column_names = ['offset','duration','subsampled_offset','subsampled_duration','audio_path','label']
     audios = []
-    df = pd.read_csv(data_file,sep='\t',header=None,
-        names=['offset','duration','audio_path','label'])
+    
+    if type(data_file_or_lines) == type([]):
+        df = pd.DataFrame(data=data_file_or_lines,columns=column_names)
+    else:
+        df = pd.read_csv(data_file,sep='\t',header=None,names=column_names)
+        
     audio_paths = list(df.audio_path)
     offsets = list(df.offset)
     durations = list(df.duration)
@@ -614,7 +630,18 @@ def get_audios_from_text_data(data_file, h, sr=sample_rate):
         audios.append(aud)
     return audios
 
-def make_text_dataset(t_files_a, t_files_b, audio_files,num_passes=1,n_processes=8):
+def make_dataframe_from_text_data(data_file_or_lines, h, sr=sample_rate):
+    # h is a hash, which maps from audio file paths to preloaded full audio files
+    column_names = ['offset','duration','subsampled_offset','subsampled_duration','audio_path','label']
+    #import pdb; pdb.set_trace()
+    if type(data_file_or_lines) == type([]):
+        #lines = [l.split('\t') for l in data_file_or_lines]
+        df = pd.DataFrame(data=data_file_or_lines,columns=column_names)
+    else:
+        df = pd.read_csv(data_file_or_lines,sep='\t',header=None,names=column_names)
+    return df
+
+def make_text_dataset(t_files_a, t_files_b, audio_files,num_passes=1,n_processes=8,convert_to_text=True,random_seed=None):
     # For switchboard laughter. Given a list of files in a partition (train,val, or test) 
     # extract all the start and end times for laughs, and sample an equal number of negative examples.
     # When making the text dataset, store columns indicating the full start and end times of an event.
@@ -630,94 +657,84 @@ def make_text_dataset(t_files_a, t_files_b, audio_files,num_passes=1,n_processes
     for p in range(num_passes):
         lines_per_file = Parallel(n_jobs=n_processes)(
             delayed(dataset_utils.get_laughter_speech_text_lines)(t_files_a[i],
-                    t_files_b[i], audio_files[i]) for i in tqdm(range(len(t_files_a))))
+                    t_files_b[i], audio_files[i],convert_to_text,random_seed) for i in tqdm(range(len(t_files_a))))
         big_list += audio_utils.combine_list_of_lists(lines_per_file)
     return big_list
 
 ##################################################################
-####################  Load Validation Data  ######################
+####################  Setup Validation Data  ######################
 ##################################################################
-
-with open(swb_val_audio_pkl_path, 'rb') as f:
-    val_h = pickle.load(f)
-val_audios = get_audios_from_text_data(val_data_text_path, val_h)
+#val_audios = get_audios_from_text_data(val_data_text_path, switchboard_val_audios_hash)
+val_df = make_dataframe_from_text_data(val_data_text_path, switchboard_val_audios_hash)
 
 val_dataset = data_loaders.SwitchBoardLaughterDataset(
-    data_file=val_data_text_path,
-    audio_files = val_audios,
+    df=val_df,#data_file=val_data_text_path,
+    audios_hash=switchboard_val_audios_hash,#audio_files = val_audios,
     feature_fn=feature_fn,
     batch_size=batch_size,
-    sr=sample_rate)
+    sr=sample_rate,
+    subsample=False)
 
 val_generator = torch.utils.data.DataLoader(
-    val_dataset, num_workers=num_workers, batch_size=batch_size, shuffle=True,
+    val_dataset, num_workers=0, batch_size=batch_size, shuffle=True,
     collate_fn=collate_fn)
 
 ##################################################################
 #######################  Run Training Loop  ######################
 ##################################################################
 
-first_time_through = True
-
 while model.global_step < num_train_steps:
     ################## Set up Supervised Training ##################
-    if max_datapoints is None or first_time_through:
+    #print(f"First time through: {first_time_through}")
+
+    if supervised_train_text_datafile is not None:
+        train_data_text_path = supervised_train_text_datafile
+        train_audios = get_audios_from_text_data(train_data_text_path, switchboard_train_audio_hash)
+    else:
         print("Preparing training set...")
-        print(f"Max datapoints: {max_datapoints}")
-        print(f"First time through: {first_time_through}")
-        if first_time_through:
-            first_time_through = False
-        
-        #lines = make_text_dataset(t_files_a, t_files_b, a_files,num_passes=1)
-        #lines = shuffle(lines)
-        
-        #with open(train_data_text_path, 'w')  as f:
-        #    f.write('\n'.join(lines))
-     
-        train_audios = get_audios_from_text_data(train_data_text_path, h)
+        lines = make_text_dataset(t_files_a, t_files_b, a_files, num_passes=1, convert_to_text=False)
+        train_df = make_dataframe_from_text_data(lines, switchboard_train_audio_hash, sr=sample_rate)
+        #train_audios = get_audios_from_text_data(lines, switchboard_train_audio_hash)
+    
+    train_dataset=data_loaders.SwitchBoardLaughterDataset(
+        df=train_df,#audio_files=train_audios,
+        audios_hash=switchboard_train_audio_hash,
+        feature_fn=augmented_feature_fn,
+        batch_size=batch_size,
+        sr=sample_rate,
+        subsample=True)#,max_datapoints=max_datapoints)
 
-        train_dataset=data_loaders.SwitchBoardLaughterDataset(
-            data_file=train_data_text_path,
-            audio_files=train_audios,
-            feature_fn=augmented_feature_fn,
-            batch_size=batch_size,
-            sr=sample_rate,
-            max_datapoints=max_datapoints)
-
-        training_generator = torch.utils.data.DataLoader(
-            train_dataset, num_workers=num_workers, batch_size=batch_size, shuffle=True,
-            collate_fn=collate_fn)
+    print(f"Number of supervised datapoints: {len(train_dataset)}")
+    
+    training_generator = torch.utils.data.DataLoader(
+        train_dataset, num_workers=num_workers, batch_size=batch_size, shuffle=True,
+        collate_fn=collate_fn)
                      
-        ################## Set up Consistency Training ##################
+    ################## Set up Consistency Training ##################
 
     if do_consistency_training:
-        #consistency_train_audios = get_random_1_second_snippets(
-        #    all_train_audios, samples_per_file=consistency_samples_per_file)
-        #consistency_val_audios = get_random_1_second_snippets(all_val_audios)
-        #consistency_train_audios = get_random_1_second_snippets(
-        #    all_swb_train_sigs, samples_per_file=consistency_samples_per_file)
-        
-        lines = make_text_dataset(t_files_a, t_files_b, a_files,num_passes=1)
-        lines = shuffle(lines)
-        
-        with open(train_data_text_path, 'w')  as f:
-            f.write('\n'.join(lines))
-     
-        consistency_train_audios = get_audios_from_text_data(train_data_text_path, h)
+        if consistency_dataset == 'audioset':
+            consistency_train_audios = all_audioset_train_audios
+            consistency_val_audios = all_audioset_val_audios
+        elif consistency_dataset == 'switchboard':
+            consistency_train_audios = all_swb_train_sigs
+            consistency_val_audios = all_swb_val_sigs
 
         consistency_train_dataset = data_loaders.AudiosetConsistencyDataset(
-            audio_signals=consistency_train_audios,#audio_signals=consistency_train_audios,
+            audio_signals=consistency_train_audios,
             feature_fn=feature_fn,
+            sr=sample_rate,
             augment_fn=augment_fn,
             use_spec_augment=unsupervised_spec_augment
-        )         
+        )
         consistency_training_generator = torch.utils.data.DataLoader(
             consistency_train_dataset, num_workers=num_workers, shuffle=True,
             batch_size=consistency_batch_size, collate_fn=consistency_collate_fn)
 
         consistency_val_dataset = data_loaders.AudiosetConsistencyDataset(
-            audio_signals=val_audios,#audio_signals=consistency_val_audios,
+            audio_signals=consistency_val_audios,
             feature_fn=feature_fn,
+            sr=sample_rate,
             augment_fn=augment_fn,
             use_spec_augment=unsupervised_spec_augment
         )

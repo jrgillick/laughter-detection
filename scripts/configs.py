@@ -65,11 +65,30 @@ CONFIG_MAP['resnet_melspec_bigger_43fps'] = {
 }
 
 CONFIG_MAP['resnet_43fps_spec_augment'] = {
-    'batch_size': 128,
+    'batch_size': 32,
     'model': models.ResNetBigger,
     'feature_fn': partial(audio_utils.featurize_melspec, hop_length=186),
     'train_data_text_path': '/mnt/data0/jrgillick/projects/laughter-detection/data/switchboard/train/train_3.txt',
-    'val_data_text_path': '/mnt/data0/jrgillick/projects/laughter-detection/data/switchboard/val/val.txt',
+    'val_data_text_path': '/mnt/data0/jrgillick/projects/laughter-detection/data/switchboard/val/switchboard_val_data.txt',
+    'log_frequency': 200,
+    'swb_train_audio_pkl_path': '/mnt/data0/jrgillick/projects/laughter-detection/data/switchboard/train/swb_train_audios.pkl',
+    'swb_val_audio_pkl_path': '/mnt/data0/jrgillick/projects/laughter-detection/data/switchboard/val/swb_val_audios.pkl',
+    'swb_audio_root': '/mnt/data0/jrgillick/projects/laughter-detection/data/switchboard/switchboard-1/97S62/',
+    'swb_transcription_root': '/mnt/data0/jrgillick/projects/laughter-detection/data/switchboard/switchboard-1/swb_ms98_transcriptions/',
+    'augment_fn': partial(audio_utils.random_augment, sr=8000),
+    'linear_layer_size': 64,
+    'expand_channel_dim': True,
+    'supervised_augment': False,
+    'supervised_spec_augment': True,
+    'unsupervised_spec_augment': False
+}
+
+CONFIG_MAP['resnet_43fps_wav_augment_spec_augment'] = {
+    'batch_size': 32,
+    'model': models.ResNetBigger,
+    'feature_fn': partial(audio_utils.featurize_melspec, hop_length=186),
+    'train_data_text_path': '/mnt/data0/jrgillick/projects/laughter-detection/data/switchboard/train/train_3.txt',
+    'val_data_text_path': '/mnt/data0/jrgillick/projects/laughter-detection/data/switchboard/val/switchboard_val_data.txt',
     'log_frequency': 200,
     'swb_train_audio_pkl_path': '/mnt/data0/jrgillick/projects/laughter-detection/data/switchboard/train/swb_train_audios.pkl',
     'swb_val_audio_pkl_path': '/mnt/data0/jrgillick/projects/laughter-detection/data/switchboard/val/swb_val_audios.pkl',
@@ -113,7 +132,7 @@ CONFIG_MAP['consistency_resnet_melspec_bigger_43fps'] = {
     'model': models.ResNetBigger,
     'feature_fn': partial(audio_utils.featurize_melspec, hop_length=186),
     'train_data_text_path': '/mnt/data0/jrgillick/projects/laughter-detection/data/switchboard/train/train_3.txt',
-    'val_data_text_path': '/mnt/data0/jrgillick/projects/laughter-detection/data/switchboard/val/val.txt',
+    'val_data_text_path': '/mnt/data0/jrgillick/projects/laughter-detection/data/switchboard/val/switchboard_val_data.txt',
     'log_frequency': 200,
     'swb_train_audio_pkl_path': '/mnt/data0/jrgillick/projects/laughter-detection/data/switchboard/train/swb_train_audios.pkl',
     'swb_val_audio_pkl_path': '/mnt/data0/jrgillick/projects/laughter-detection/data/switchboard/val/swb_val_audios.pkl',
@@ -151,13 +170,13 @@ CONFIG_MAP['consistency_resnet_melspec_bigger_43fps_spec_aug'] = {
     'unsupervised_spec_augment': True
 }
 
-CONFIG_MAP['consistency_resnet_43fps_spec_aug'] = {
-    'batch_size': 128,
-    'consistency_batch_size': 32,
+CONFIG_MAP['consistency_resnet_43fps_aug'] = {
+    'batch_size': 4,
+    'consistency_batch_size': 12,
     'model': models.ResNetBigger,
     'feature_fn': partial(audio_utils.featurize_melspec, hop_length=186),
     'train_data_text_path': '/mnt/data0/jrgillick/projects/laughter-detection/data/switchboard/train/train_3.txt',
-    'val_data_text_path': '/mnt/data0/jrgillick/projects/laughter-detection/data/switchboard/val/val.txt',
+    'val_data_text_path': '/mnt/data0/jrgillick/projects/laughter-detection/data/switchboard/val/switchboard_val_data.txt',
     'log_frequency': 200,
     'swb_train_audio_pkl_path': '/mnt/data0/jrgillick/projects/laughter-detection/data/switchboard/train/swb_train_audios.pkl',
     'swb_val_audio_pkl_path': '/mnt/data0/jrgillick/projects/laughter-detection/data/switchboard/val/swb_val_audios.pkl',
@@ -168,7 +187,7 @@ CONFIG_MAP['consistency_resnet_43fps_spec_aug'] = {
     'expand_channel_dim': True,
     'consistency_train_audio_pkl_path': '/mnt/data0/jrgillick/projects/laughter-detection/data/audioset/train/audioset_train_audios.pkl',
     'consistency_val_audio_pkl_path': '/mnt/data0/jrgillick/projects/laughter-detection/data/audioset/val/audioset_val_audios.pkl',
-    'supervised_augment': False,
+    'supervised_augment': True,
     'supervised_spec_augment': True,
     'unsupervised_spec_augment': True
 }

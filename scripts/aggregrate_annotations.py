@@ -1,8 +1,19 @@
-import numpy as np, os, json
-import pandas as pd
+import numpy as np, os, json, pandas as pd, audioread
+from tqdm import tqdm
 
-main_annotations_file = 'raw_annotations/laughter_annotations.csv'
-additional_annotations_files = ['raw_annotations/annotations_3.txt', 'raw_annotations/annotations_4.txt', 'raw_annotations/annotations_5.txt', 'raw_annotations/annotations_6.txt']
+def get_audio_file_length(path):
+    f = audioread.audio_open(path)
+    l = f.duration
+    f.close()
+    return l
+
+annotations_folder = '../data/audioset/annotations/'
+main_annotations_file = annotations_folder + '/raw_annotations/laughter_annotations.csv'
+additional_annotations_files = [
+    annotations_folder + 'raw_annotations/annotations_3.txt',
+    annotations_folder + 'raw_annotations/annotations_4.txt',
+    annotations_folder+ 'raw_annotations/annotations_5.txt',
+    annotations_folder + 'raw_annotations/annotations_6.txt']
 
 # Parsing main annotations file into a DataFrame
 df = pd.read_csv(main_annotations_file, sep=',')
@@ -18,7 +29,7 @@ for i in range(len(df.Start)):
     except:
         rowz.append(i)
         df.at[i, 'Start'] = 0.0
-        df.at[i, 'End'] = 10.0
+        df.at[i, 'End'] = 0.0 # Not actually 0. Need to set this to length of audio file later.
 print(f"Found {len(rowz)} of {len(df)} rows with no laughter")
 
 df.reset_index(inplace=True,drop=True)
@@ -56,4 +67,16 @@ for f in additional_annotations_files:
 # Put columns back in the origin order
 df = df[['FileID','Start','End','Start.1','End.1','Start.2','End.2','Start.3','End.3','Start.4','End.4']]
 
-df.to_csv('clean_laughter_annotations.csv', index=None)
+test_laughter_files = open('../data/audioset/splits/test_laughter_files.txt').read().split('\n')
+test_laughter_ids = open('../data/audioset/splits/test_laughter_ids.txt').read().split('\n')
+
+for i, FileID in tqdm(enumerate(list(df.FileID))):
+    for f in test_laughter_files:
+        if FileID in f:
+            df.at[i, 'audio_path'] = f
+            df.at[i, 'audio_length'] = str(get_audio_file_length(f))
+            continue
+
+
+
+df.to_csv('../data/audioset/annotations/clean_laughter_annotations.csv', index=None)

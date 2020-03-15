@@ -37,7 +37,7 @@ def sum_overlap_amount(true_segments, predicted_segments):
     return total
 
 def times_overlap(start1, end1, start2, end2):
-    if end1 < start2 or end2 < start1:
+    if end1 <= start2 or end2 <= start1:
         return False
     else:
         return True

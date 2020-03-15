@@ -36,20 +36,23 @@ def get_baseline_results_per_annotation_index(annotations_df, i):
     false_negative_time = sum_overlap_amount(true_laughter_times, predicted_non_laughter_times)
     
     total_time = true_positive_time + true_negative_time + false_positive_time + false_negative_time
-
-    assert(np.abs(total_laughter_time - (true_positive_time + false_negative_time)) < 0.001)
-    assert(np.abs(total_non_laughter_time - (true_negative_time + false_positive_time)) < 0.001)
+    
+    assert(np.abs(total_laughter_time - (true_positive_time + false_negative_time)) < 0.1)
+    assert(np.abs(total_non_laughter_time - (true_negative_time + false_positive_time)) < 0.1)
     assert(np.abs(total_time - annotations_df.iloc[i].audio_length) < 0.1)
-    assert(np.abs(total_time - (total_laughter_time + total_non_laughter_time)) < 0.001)
-    
-    
-    return true_positive_time, true_negative_time, false_positive_time, false_negative_time
+    assert(np.abs(total_time - (total_laughter_time + total_non_laughter_time)) < 0.1)
+
+    h = {'FileID':annotations_df.FileID[i], 'tp_time':true_positive_time, 'tn_time':true_negative_time,
+         'fp_time':false_positive_time, 'fn_time':false_negative_time,
+         'predicted_laughter': predicted_laughter_times, 'predicted_non_laughter': predicted_non_laughter_times}
+
+    return h
+
 
 
 all_results = []
 for i in tqdm(range(len(annotations_df))):
-    tp_time, tn_time, fp_time, fn_time = get_baseline_results_per_annotation_index(annotations_df, i)
-    h = {'FileID':annotations_df.FileID[i], 'tp_time':tp_time, 'tn_time':tn_time, 'fp_time':fp_time, 'fn_time':fn_time}
+    h = get_baseline_results_per_annotation_index(annotations_df, i)
     all_results.append(h)
     
 results_df = pd.DataFrame(all_results)

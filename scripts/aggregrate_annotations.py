@@ -77,6 +77,27 @@ for i, FileID in tqdm(enumerate(list(df.FileID))):
             df.at[i, 'audio_length'] = str(get_audio_file_length(f))
             continue
 
+# Find and then fix a couple of formatting anomalies
+keys = list(df.columns)
+for i in range(len(df)):
+    for key in keys:
+        if type(df.at[i,key]) is str and df.at[i,key].strip()=='':
+            print(i, key)
+            
+df.at[287, 'End.1'] = df.at[287, 'Start.1']
+df.at[302, 'End.2'] = df.at[302, 'Start.2']
+
+
+# Find and then fix boundary errors where labeled regions extend slightly past the end of the audio clip
+keys = [k for k in list(df.columns) if k not in ['FileID','audio_path', 'audio_length']]
+boundary_errors = []
+for i in range(len(df)):
+    for key in keys:
+        if float(df.at[i,key]) > float(df.at[i,'audio_length']):
+            boundary_errors.append(float(df.at[i,key]) - float(df.at[i,'audio_length']))
+            df.at[i,key] = df.at[i,'audio_length']
+
+print(f"Boundary Errors: {len(boundary_errors)} | Mean Error: {np.mean(boundary_errors)} | Max Error: {np.max(boundary_errors)}")
 
 
 df.to_csv('../data/audioset/annotations/clean_laughter_annotations.csv', index=None)

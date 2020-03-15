@@ -15,15 +15,14 @@ annotations_df = pd.read_csv('../../data/audioset/annotations/clean_laughter_ann
 
 
 
-def get_baseline_results_per_annotation_index(annotations_df, i):
+def get_baseline_results_per_annotation_index(model, annotations_df, i):
     audio_file = annotations_df.audio_path.iloc[i]
 
     true_laughter_times = get_laughter_times_from_annotation_line(dict(annotations_df.iloc[i]))
     true_non_laughter_times = get_non_laughter_times(true_laughter_times, annotations_df.iloc[i].audio_length)
 
-    predicted_laughter_times = baseline_laugh_segmenter.segment_laughs(
-                audio_file,baseline_model_path, output_path=None,
-                threshold=0.5, min_length=0.1, save_to_textgrid=True)
+    predicted_laughter_times = baseline_laugh_segmenter.segment_laugh_with_model(
+        model, input_path=audio_file, threshold=0.5, min_length=0.1)
 
     predicted_non_laughter_times = get_non_laughter_times(predicted_laughter_times, annotations_df.iloc[i].audio_length)
 
@@ -48,11 +47,11 @@ def get_baseline_results_per_annotation_index(annotations_df, i):
 
     return h
 
-
+baseline_model = baseline_laugh_segmenter.load_model(baseline_model_path)
 
 all_results = []
 for i in tqdm(range(len(annotations_df))):
-    h = get_baseline_results_per_annotation_index(annotations_df, i)
+    h = get_baseline_results_per_annotation_index(baseline_model, annotations_df, i)
     all_results.append(h)
     
 results_df = pd.DataFrame(all_results)

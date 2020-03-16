@@ -9,7 +9,7 @@ def get_audio_file_length(path):
     f.close()
     return l
 
-def get_laughter_times_from_annotation_line(line, min_gap=0.5):
+def get_laughter_times_from_annotation_line(line, min_gap=0.5, avoid_edges=False, edge_gap=0.5):
     laughter_segments = []
     if float(line['End']) > 0: laughter_segments.append([float(line['Start']), float(line['End'])])
     for i in range(1,5):
@@ -24,8 +24,31 @@ def get_laughter_times_from_annotation_line(line, min_gap=0.5):
         # Expand time windows to account for minimum gap (window effect)
         laughter_segments = [[np.maximum(0, segment[0]-min_gap),np.minimum(line['audio_length'],segment[1]+min_gap)] for segment in laughter_segments]
 
-        # Merge any overlapping annotations
+        # Merge any overlapping annotations and then convert back to list from tuple
         laughter_segments = dataset_utils.combine_overlapping_regions(laughter_segments, [])
+        laughter_segments = [list(s) for s in laughter_segments] 
+        # Slightly fairer to compare w/ Switchboard if we only take windows for which we see the whole 1 second instead of zero-padding
+        # To do this, trim the audio and annotations by 0.5 seconds at start and finish
+
+        trimmed_segments = []
+        if avoid_edges:
+            for segment in laughter_segments:
+                start, end = segment
+                # Case when the whole segment is within the edge - skip the segment
+                if (start < edge_gap and end < edge_gap) or  (start > line['audio_length']-edge_gap and end > line['audio_length']-edge_gap):
+                    continue
+                # Case when part of the segment is within the edge - modify the segment
+                if (start < edge_gap and end > edge_gap): 
+                    segment[0] = edge_gap
+                if (end > line['audio_length']-edge_gap and start < line['audio_length']-edge_gap):
+                    try:
+                        segment[1] = line['audio_length']-edge_gap
+                    except:
+                        import pdb; pdb.set_trace()
+                # Otherwise keep the segment unchanged
+                trimmed_segments.append(segment)
+            
+            laughter_segments = trimmed_segments
 
         # Convert to hash
         laughter_segments = [{'start': segment[0], 'end': segment[1]} for segment in laughter_segments]
@@ -41,36 +64,26 @@ def get_laughter_times_from_annotation_line(line, min_gap=0.5):
         segment[0] = extra_beginning_time
         laughter_segments = [{'start': segment[0], 'end': segment[1]}]
         return laughter_segments
-"""
-def get_laughter_times_from_annotation_line(line, min_gap=0.5):
-    laughter_segments = []
-    if float(line['End']) > 0: laughter_segments.append([float(line['Start']), float(line['End'])])
-    for i in range(1,5):
-        if not np.isnan(line[f'Start.{i}']): laughter_segments.append([float(line[f'Start.{i}']), float(line[f'End.{i}'])])
-    
-    # Combine annotations if they have less than min_gap seconds between events (because of windowing in the model)
-    # Expand time windows to account for minimum gap (window effect)
-    laughter_segments = [[np.maximum(0, segment[0]-min_gap),np.minimum(line['audio_length'],segment[1]+min_gap)] for segment in laughter_segments]
-    
-    # Merge any overlapping annotations, then convert to hash
-    laughter_segments = dataset_utils.combine_overlapping_regions(laughter_segments, [])
-    laughter_segments = [{'start': segment[0], 'end': segment[1]} for segment in laughter_segments]
-    return laughter_segments
-"""
 
 # Get all the segments in the audio file that are NOT laughter, using the segments that are laughter and the file length
 # Input is array of hashes like [ {'start': 1.107, 'end': 1.858}, {'start': 2.237, 'end': 2.705}]]
-def get_non_laughter_times(laughter_segments, file_length):
+def get_non_laughter_times(laughter_segments, file_length, avoid_edges=False, edge_gap=0.5):
     non_laughter_segments = []
     
-    non_laughter_start = 0.0
+    if avoid_edges:
+        non_laughter_start=edge_gap
+    else:
+        non_laughter_start = 0.0
     for segment in laughter_segments:
         non_laughter_end = segment['start']
         if non_laughter_end > non_laughter_start:
             non_laughter_segments.append({'start': non_laughter_start, 'end': non_laughter_end})
         non_laughter_start = segment['end']
-        
-    non_laughter_end = file_length
+    
+    if avoid_edges:
+        non_laughter_end=file_length-edge_gap
+    else:
+        non_laughter_end = file_length
     
     if non_laughter_end > non_laughter_start:
         non_laughter_segments.append({'start': non_laughter_start, 'end': non_laughter_end})
@@ -110,16 +123,15 @@ def overlap_amount(start1, end1, start2, end2):
     
 def get_baseline_results_per_annotation_index(model, annotations_df,
                                               baseline_laugh_segmenter, i, min_gap=0.375,
-                                              threshold=0.5, use_filter=True, min_length=0.1):
+                                              threshold=0.5, use_filter=True, min_length=0.1,
+                                              avoid_edges=False, edge_gap=0.5):
     audio_file = annotations_df.audio_path.iloc[i]
     
     extra_beginning_time = annotations_df.iloc[i].extra_beginning_time if 'extra_beginning_time' in list(annotations_df.columns) else None
     extra_end_time = annotations_df.iloc[i].extra_end_time if 'extra_end_time' in list(annotations_df.columns) else None
     line = dict(annotations_df.iloc[i])
     
-    #true_laughter_times = get_laughter_times_from_annotation_line(line, min_gap=min_gap)
-    #true_non_laughter_times = get_non_laughter_times(true_laughter_times, annotations_df.iloc[i].audio_length)
-    
+    # Switchboard
     if extra_beginning_time is not None and extra_end_time is not None:
         true_laughter_times = get_laughter_times_from_annotation_line(line, min_gap=min_gap)
         absolute_start_time = line['Start'] - extra_beginning_time
@@ -130,13 +142,15 @@ def get_baseline_results_per_annotation_index(model, annotations_df,
             model, input_path=audio_file, threshold=threshold, use_filter=use_filter, min_length=min_length,
             audio_start=absolute_start_time, audio_length=audio_length)
         predicted_non_laughter_times = get_non_laughter_times(predicted_laughter_times, audio_length)
+    # Audioset
     else:
         audio_length = annotations_df.iloc[i].audio_length
-        true_laughter_times = get_laughter_times_from_annotation_line(line, min_gap=min_gap)
-        true_non_laughter_times = get_non_laughter_times(true_laughter_times, audio_length)
+        true_laughter_times = get_laughter_times_from_annotation_line(line, min_gap=min_gap, avoid_edges=avoid_edges)
+        true_non_laughter_times = get_non_laughter_times(true_laughter_times, audio_length, avoid_edges=avoid_edges)
         predicted_laughter_times = baseline_laugh_segmenter.segment_laugh_with_model(
-            model, input_path=audio_file, threshold=threshold, use_filter=use_filter, min_length=min_length)
-        predicted_non_laughter_times = get_non_laughter_times(predicted_laughter_times, audio_length)
+            model, input_path=audio_file, threshold=threshold, use_filter=use_filter, min_length=min_length,
+            avoid_edges=False, edge_gap=edge_gap)
+        predicted_non_laughter_times = get_non_laughter_times(predicted_laughter_times, audio_length, avoid_edges=avoid_edges)
 
     total_laughter_time = sum_overlap_amount(true_laughter_times,true_laughter_times)
     total_non_laughter_time = sum_overlap_amount(true_non_laughter_times,true_non_laughter_times)
@@ -151,7 +165,10 @@ def get_baseline_results_per_annotation_index(model, annotations_df,
     try:
         assert(np.abs(total_laughter_time - (true_positive_time + false_negative_time)) < 0.1)
         assert(np.abs(total_non_laughter_time - (true_negative_time + false_positive_time)) < 0.1)
-        assert(np.abs(total_time - audio_length) < 0.1)
+        if avoid_edges:
+            assert(np.abs(total_time - (audio_length - 2*edge_gap)) < 0.1)
+        else:
+            assert(np.abs(total_time - audio_length) < 0.1)
         assert(np.abs(total_time - (total_laughter_time + total_non_laughter_time)) < 0.1)
     except:
         import pdb; pdb.set_trace()
@@ -163,7 +180,7 @@ def get_baseline_results_per_annotation_index(model, annotations_df,
 
     return h
 
-def get_annotation_stats(annotations_df, display=True, min_gap=0.5):
+def get_annotation_stats(annotations_df, display=True, min_gap=0.5, avoid_edges=False, edge_gap=0.5):
     laughter_lengths = []
     non_laughter_lengths = []
     total_lengths = []
@@ -174,6 +191,7 @@ def get_annotation_stats(annotations_df, display=True, min_gap=0.5):
         extra_end_time = annotations_df.iloc[i].extra_end_time if 'extra_end_time' in list(annotations_df.columns) else None
         line = dict(annotations_df.iloc[i])
         
+        #Switchboard
         if extra_beginning_time is not None and extra_end_time is not None:
             times = get_laughter_times_from_annotation_line(line, min_gap=min_gap)
             laughter_count += len(times)
@@ -186,11 +204,17 @@ def get_annotation_stats(annotations_df, display=True, min_gap=0.5):
             laughter_lengths.append(laughter_length)
             non_laughter_lengths.append(non_laughter_length)
             total_lengths.append(total_length)
+        #Audioset
         else:
             audio_length = annotations_df.iloc[i].audio_length
-            times = get_laughter_times_from_annotation_line(line, min_gap=min_gap)
+            times = get_laughter_times_from_annotation_line(line, min_gap=min_gap,avoid_edges=avoid_edges)
             laughter_count += len(times)
-            total_length = annotations_df.iloc[i].audio_length
+            
+            if avoid_edges: 
+                total_length = annotations_df.iloc[i].audio_length - 2*edge_gap
+            else:
+                total_length = annotations_df.iloc[i].audio_length
+            
             laughter_length = sum_overlap_amount(times, times)
             non_laughter_length = total_length - laughter_length
             laughter_lengths.append(laughter_length)

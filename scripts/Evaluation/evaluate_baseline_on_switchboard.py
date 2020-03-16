@@ -107,25 +107,26 @@ for i in tqdm(range(len(switchboard_val_annotations_df))):
 val_results_df = pd.DataFrame(val_results)
 val_results_df.to_csv("baseline_switchboard_val_results.csv",index=None)
 
-"""
+
 
 print("Setting up SWB Test data")
 # Get results on SWB Test Set
 switchboard_test_annotations_df = make_switchboard_dataframe(
-    test_transcription_files_A, test_transcription_files_B, test_audio_files)
+    test_transcription_files_A, test_transcription_files_B, test_audio_files, min_gap=MIN_GAP)
 
 print("Switchboard Test Set Annotations Stats:")
-test_swb_minutes, test_swb_laughter_minutes, test_swb_non_laughter_minutes, test_laughter_fraction, test_laughter_count = get_annotation_stats(switchboard_test_annotations_df, display=True)
+test_swb_minutes, test_swb_laughter_minutes, test_swb_non_laughter_minutes, test_laughter_fraction, test_laughter_count = get_annotation_stats(switchboard_test_annotations_df, display=True, min_gap=MIN_GAP)
 
 print("\nPredicting on Switchboard Test Set...")
 test_results = []
 for i in tqdm(range(len(switchboard_test_annotations_df))):
     h = get_baseline_results_per_annotation_index(
-        baseline_model,switchboard_test_annotations_df, baseline_laugh_segmenter, i)
+        baseline_model, switchboard_test_annotations_df, baseline_laugh_segmenter, i, min_gap=MIN_GAP,
+        threshold=0.5,use_filter=False, min_length=0.)
     test_results.append(h)
     
 test_results_df = pd.DataFrame(test_results)
 test_results_df.to_csv("baseline_switchboard_test_results.csv",index=None)
-"""
+
 
 

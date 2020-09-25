@@ -5,7 +5,7 @@ session = tf.compat.v1.Session(config=config)
 
 import numpy as np
 import scipy.signal as signal
-import scipy
+import scipy.io.wavfile
 import os
 import sys
 import librosa

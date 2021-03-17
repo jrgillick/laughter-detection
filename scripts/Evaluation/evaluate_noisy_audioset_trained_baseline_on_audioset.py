@@ -27,7 +27,7 @@ model.set_device(device)
 #model.apply(torch_utils.init_weights)
 #optimizer = optim.Adam(model.parameters())
 
-checkpoint_dir = '/mnt/data0/jrgillick/projects/laughter-detection/checkpoints/noisy_audioset_mlp_43fps'
+checkpoint_dir = '/mnt/data0/jrgillick/projects/laughter-detection/checkpoints/comparisons/noisy_audioset_mlp_43fps'
 
 if os.path.exists(checkpoint_dir):
     torch_utils.load_checkpoint(checkpoint_dir+'/best.pth.tar', model)

@@ -30,7 +30,7 @@ model.to(device)
 
 #checkpoint_dir = '/mnt/data0/jrgillick/projects/laughter-detection/checkpoints/resnet_melspec_bigger_43fps_b128'
 #checkpoint_dir = '/mnt/data0/jrgillick/projects/laughter-detection/checkpoints/eval_time_resnet_43fps_base_drop01_batch96'
-checkpoint_dir = '/mnt/data0/jrgillick/projects/laughter-detection/checkpoints/no_word_resnet_base_bigger_43fps'
+checkpoint_dir = '/mnt/data0/jrgillick/projects/laughter-detection/checkpoints/comparisons/no_word_resnet_base_bigger_43fps'
 
 if os.path.exists(checkpoint_dir):
     torch_utils.load_checkpoint(checkpoint_dir+'/best.pth.tar', model)

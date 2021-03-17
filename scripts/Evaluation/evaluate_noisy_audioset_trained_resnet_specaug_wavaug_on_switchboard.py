@@ -32,7 +32,7 @@ model.to(device)
 #checkpoint_dir = '/mnt/data0/jrgillick/projects/laughter-detection/checkpoints/v2_supervised_wav_augment_spec_augment'
 #checkpoint_dir = '/mnt/data0/jrgillick/projects/laughter-detection/checkpoints/eval_time_resnet_43fps_wav_augment_spec_augment_drop01_batch96'
 #checkpoint_dir = '/mnt/data0/jrgillick/projects/laughter-detection/checkpoints/eval_time_resnet_43fps_wav_rev_augment_spec_augment_large'
-checkpoint_dir = '/mnt/data0/jrgillick/projects/laughter-detection/checkpoints/noisy_audioset_resnet_43fps_wav_augment_spec_augment_large_drop07'
+checkpoint_dir = '/mnt/data0/jrgillick/projects/laughter-detection/checkpoints/comparisons/noisy_audioset_resnet_43fps_wav_augment_spec_augment_large_drop07'
 
 if os.path.exists(checkpoint_dir):
     torch_utils.load_checkpoint(checkpoint_dir+'/best.pth.tar', model)

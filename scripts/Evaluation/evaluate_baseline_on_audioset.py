@@ -27,7 +27,7 @@ model.set_device(device)
 #model.apply(torch_utils.init_weights)
 #optimizer = optim.Adam(model.parameters())
 
-checkpoint_dir = '/mnt/data0/jrgillick/projects/laughter-detection/checkpoints/mlp_43_fps_b128'
+checkpoint_dir = '/mnt/data0/jrgillick/projects/laughter-detection/checkpoints/comparisons/mlp_43_fps_b128'
 
 if os.path.exists(checkpoint_dir):
     torch_utils.load_checkpoint(checkpoint_dir+'/best.pth.tar', model)

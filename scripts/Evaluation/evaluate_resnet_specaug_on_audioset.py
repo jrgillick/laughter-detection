@@ -20,38 +20,34 @@ warnings.simplefilter("ignore")
 sys.path.append('/mnt/data0/jrgillick/projects/audio-feature-learning/')
 from tqdm import tqdm
 
-config = configs.CONFIG_MAP['mlp_mfcc_43fps']
-model = config['model'](dropout_rate=0.5, linear_layer_size=config['linear_layer_size'])
+config = configs.CONFIG_MAP['resnet_43fps_spec_augment']
+model = config['model'](dropout_rate=0.0, linear_layer_size=config['linear_layer_size'])
 model.set_device(device)
-#torch_utils.count_parameters(model)
-#model.apply(torch_utils.init_weights)
-#optimizer = optim.Adam(model.parameters())
+model.to(device)
+torch_utils.count_parameters(model)
+model.apply(torch_utils.init_weights)
+optimizer = optim.Adam(model.parameters())
 
-checkpoint_dir = '/mnt/data0/jrgillick/projects/laughter-detection/checkpoints/mlp_43_fps_b128'
+#checkpoint_dir = '/mnt/data0/jrgillick/projects/laughter-detection/checkpoints/v2_supervised_spec_augment'
+checkpoint_dir = '/mnt/data0/jrgillick/projects/laughter-detection/checkpoints/eval_time_resnet_43fps_spec_augment_drop01_batch96'
 
 if os.path.exists(checkpoint_dir):
-    torch_utils.load_checkpoint(checkpoint_dir+'/best.pth.tar', model)
+    torch_utils.load_checkpoint(checkpoint_dir+'/best.pth.tar', model, optimizer)
 else:
     print("Checkpoint not found")
-    
-model.eval()
 
 audioset_annotations_df = pd.read_csv('../../data/audioset/annotations/clean_laughter_annotations.csv')
 print("\nAudioset Annotations stats:")
 total_audioset_minutes, total_audioset_laughter_minutes, total_audioset_non_laughter_minutes, audioset_laughter_fraction, audioset_laughter_count = get_annotation_stats(
-    audioset_annotations_df, display=True, min_gap = MIN_GAP, avoid_edges=True, edge_gap=0.5)
-
-audioset_distractor_df = pd.read_csv('../../data/audioset/annotations/clean_distractor_annotations.csv')
-audioset_annotations_df = pd.concat([audioset_annotations_df, audioset_distractor_df])
-audioset_annotations_df.reset_index(inplace=True, drop=True)
+    audioset_annotations_df, display=True, min_gap = MIN_GAP, avoid_edges=True, edge_gap=0.5)    
     
 all_results = []
 for index in tqdm(range(len(audioset_annotations_df))):
     line = audioset_annotations_df.iloc[index]
     h = get_results_for_annotation_index(model, config, audioset_annotations_df, index, min_gap=0.,
                                          threshold=0.5, use_filter=False, min_length=0.0,
-                                         avoid_edges=True, edge_gap=0.5)
+                                         avoid_edges=True, edge_gap=0.5, expand_channel_dim=True)
     all_results.append(h)
 
 results_df = pd.DataFrame(all_results)
-results_df.to_csv("baseline_audioset_results.csv",index=None)
+results_df.to_csv("resnet_specaug_audioset_results.csv",index=None)

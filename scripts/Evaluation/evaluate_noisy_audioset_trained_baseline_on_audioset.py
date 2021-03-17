@@ -21,13 +21,13 @@ sys.path.append('/mnt/data0/jrgillick/projects/audio-feature-learning/')
 from tqdm import tqdm
 
 config = configs.CONFIG_MAP['mlp_mfcc_43fps']
-model = config['model'](dropout_rate=0.5, linear_layer_size=config['linear_layer_size'])
+model = config['model'](linear_layer_size=config['linear_layer_size'])
 model.set_device(device)
 #torch_utils.count_parameters(model)
 #model.apply(torch_utils.init_weights)
 #optimizer = optim.Adam(model.parameters())
 
-checkpoint_dir = '/mnt/data0/jrgillick/projects/laughter-detection/checkpoints/mlp_43_fps_b128'
+checkpoint_dir = '/mnt/data0/jrgillick/projects/laughter-detection/checkpoints/noisy_audioset_mlp_43fps'
 
 if os.path.exists(checkpoint_dir):
     torch_utils.load_checkpoint(checkpoint_dir+'/best.pth.tar', model)
@@ -54,4 +54,4 @@ for index in tqdm(range(len(audioset_annotations_df))):
     all_results.append(h)
 
 results_df = pd.DataFrame(all_results)
-results_df.to_csv("baseline_audioset_results.csv",index=None)
+results_df.to_csv("noisy_audioset_trained_baseline_audioset_results.csv",index=None)

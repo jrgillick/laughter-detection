@@ -1,4 +1,4 @@
-#python scripts/make_switchboard_text_dataset.py --output_txt_file=/mnt/data0/jrgillick/projects/laughter-detection/data/switchboard/val/switchboard_val_data.txt --switchboard_audio_path=/mnt/data0/jrgillick/projects/laughter-detection/data/switchboard/switchboard-1/97S62/ --switchboard_transcriptions_path=/mnt/data0/jrgillick/projects/laughter-detection/data/switchboard/switchboard-1/swb_ms98_transcriptions/ --data_partition=val --random_seed=0
+#python scripts/make_switchboard_text_dataset.py --output_txt_file=/mnt/data0/jrgillick/projects/laughter-detection/data/switchboard/val/switchboard_val_data_words.txt --switchboard_audio_path=/mnt/data0/jrgillick/projects/laughter-detection/data/switchboard/switchboard-1/97S62/ --switchboard_transcriptions_path=/mnt/data0/jrgillick/projects/laughter-detection/data/switchboard/switchboard-1/swb_ms98_transcriptions/ --data_partition=val --random_seed=0
 
 #a_root = '/data/corpora/switchboard-1/97S62/'
 #t_root = '/data/corpora/switchboard-1/swb_ms98_transcriptions/'
@@ -30,6 +30,8 @@ parser.add_argument('--data_partition', type=str, required=True)
 parser.add_argument('--num_passes', type=str)
 parser.add_argument('--load_audio_path', type=str)
 parser.add_argument('--random_seed', type=str, default=None)
+parser.add_argument('--include_words', type=str, default=None)
+
 
 # For experiments with using a limited number of supervised examples
 parser.add_argument('--max_datapoints', type=str)
@@ -43,6 +45,11 @@ data_partition = args.data_partition
 num_passes = args.num_passes if args.num_passes is not None else 1
 load_audio = args.load_audio_path is not None
 load_audio_path = args.load_audio_path
+
+if args.include_words is not None:
+    include_words = True
+else:
+    include_words = False
 
 if args.random_seed is not None:
     random_seed = int(args.random_seed)
@@ -72,7 +79,8 @@ def make_text_dataset(t_files_a, t_files_b, audio_files,num_passes=1):
     return big_list
 """
 
-def make_text_dataset(t_files_a, t_files_b, audio_files,num_passes=1,n_processes=8,random_seed=None):
+def make_text_dataset(t_files_a, t_files_b, audio_files,num_passes=1,
+                      n_processes=8,convert_to_text=True,random_seed=None,include_words=False):
     # For switchboard laughter. Given a list of files in a partition (train,val, or test) 
     # extract all the start and end times for laughs, and sample an equal number of negative examples.
     # When making the text dataset, store columns indicating the full start and end times of an event.
@@ -88,9 +96,11 @@ def make_text_dataset(t_files_a, t_files_b, audio_files,num_passes=1,n_processes
     for p in range(num_passes):
         lines_per_file = Parallel(n_jobs=n_processes)(
             delayed(dataset_utils.get_laughter_speech_text_lines)(t_files_a[i],
-                    t_files_b[i], audio_files[i], random_seed) for i in tqdm(range(len(t_files_a))))
+                    t_files_b[i], audio_files[i],convert_to_text,
+                    random_seed=random_seed,include_words=include_words) for i in tqdm(range(len(t_files_a))))
         big_list += audio_utils.combine_list_of_lists(lines_per_file)
     return big_list
+
 
 def librosa_load_without_sr(f, sr=None,offset=None,duration=None):
     return librosa.load(f, sr=sr,offset=offset,duration=duration)[0]
@@ -134,6 +144,8 @@ val_transcription_files_B, _ = dataset_utils.get_audio_files_from_transcription_
 
 test_transcription_files_A, test_audio_files = dataset_utils.get_audio_files_from_transcription_files(dataset_utils.get_all_transcriptions_files(test_folders, 'A'), all_audio_files)
 test_transcription_files_B, _ = dataset_utils.get_audio_files_from_transcription_files(dataset_utils.get_all_transcriptions_files(test_folders, 'B'), all_audio_files)
+
+#import pdb; pdb.set_trace()
 
 ##################################################################
 ##############################  Run  #############################

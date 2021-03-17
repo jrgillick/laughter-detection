@@ -7,8 +7,10 @@ def get_audio_file_length(path):
     f.close()
     return l
 
+
+
 annotations_folder = '../data/audioset/annotations/'
-main_annotations_file = annotations_folder + '/raw_annotations/laughter_annotations.csv'
+main_annotations_file = annotations_folder + '/raw_annotations/Laughter_Annotations_2.csv' #'/raw_annotations/laughter_annotations.csv'
 additional_annotations_files = [
     annotations_folder + 'raw_annotations/annotations_3.txt',
     annotations_folder + 'raw_annotations/annotations_4.txt',
@@ -59,10 +61,11 @@ def parse_audio_annotator_file(f):
         output_rows.append(h)
     return pd.DataFrame(output_rows)
 
-for f in additional_annotations_files:
-    new_df = parse_audio_annotator_file(f)
-    df = pd.concat([df, new_df])
-    df.reset_index(inplace=True,drop=True)
+# Skipping these few extra files to keep all annotations consistent
+#for f in additional_annotations_files:
+#    new_df = parse_audio_annotator_file(f)
+#    df = pd.concat([df, new_df])
+#    df.reset_index(inplace=True,drop=True)
 
 # Put columns back in the origin order
 df = df[['FileID','Start','End','Start.1','End.1','Start.2','End.2','Start.3','End.3','Start.4','End.4']]
@@ -75,6 +78,8 @@ for i, FileID in tqdm(enumerate(list(df.FileID))):
         if FileID in f:
             df.at[i, 'audio_path'] = f
             df.at[i, 'audio_length'] = str(get_audio_file_length(f))
+            df.at[i, 'window_start'] = 0
+            df.at[i, 'window_length'] = str(get_audio_file_length(f))
             continue
 
 # Find and then fix a couple of formatting anomalies
@@ -83,9 +88,17 @@ for i in range(len(df)):
     for key in keys:
         if type(df.at[i,key]) is str and df.at[i,key].strip()=='':
             print(i, key)
+            df.at[i,key] = np.nan
             
-df.at[287, 'End.1'] = df.at[287, 'Start.1']
-df.at[302, 'End.2'] = df.at[302, 'Start.2']
+#df.at[287, 'End.1'] = df.at[287, 'Start.1']
+#df.at[302, 'End.2'] = df.at[302, 'Start.2']
+#df.at[366, 'End.1'] = df.at[266, 'Start.1']
+#df.at[381, 'End.2'] = df.at[381, 'Start.2']
+#df.at[623, 'End.1'] = df.at[623, 'Start.1']
+#df.at[636, 'Start.1'] = df.at[636, 'End.1']
+#df.at[663, 'Start.1'] = df.at[663, 'End.1']
+#df.at[771, 'Start.1'] = df.at[771, 'End.1']
+#df.at[892, 'End.1'] = df.at[892, 'Start.1']
 
 
 # Find and then fix boundary errors where labeled regions extend slightly past the end of the audio clip
@@ -100,6 +113,40 @@ for i in range(len(df)):
 print(f"Boundary Errors: {len(boundary_errors)} | Mean Error: {np.mean(boundary_errors)} | Max Error: {np.max(boundary_errors)}")
 
 
-# FInd and 
+
 
 df.to_csv('../data/audioset/annotations/clean_laughter_annotations.csv', index=None)
+
+
+
+
+def make_audioset_distractor_dataframe(test_negative_laughter_files, test_negative_laughter_ids,
+                                       total_distractor_clips=1000):
+    rows = []
+    for i in tqdm(range(total_distractor_clips)):
+        a_file = test_negative_laughter_files[i]
+
+        full_audio_file_length = get_audio_file_length(a_file)
+
+        h = {'FileID': test_negative_laughter_ids[i],
+                 'audio_path': a_file,
+                 'audio_length': full_audio_file_length,
+                 'window_start': 0,
+                 'window_length': full_audio_file_length
+            }
+        for j in range(5):
+            if j == 0:
+                start_key = 'Start'; end_key = 'End'
+            else:
+                start_key = f'Start.{j}'; end_key = f'End.{j}'
+            h[start_key] = np.nan; h[end_key] = np.nan
+        rows.append(h)
+        
+    return pd.DataFrame(rows)
+
+import audio_set_loading
+audioset_distractor_df = make_audioset_distractor_dataframe(
+    audio_set_loading.test_negative_laughter_files,
+    audio_set_loading.test_negative_laughter_ids)
+
+audioset_distractor_df.to_csv('../data/audioset/annotations/clean_distractor_annotations.csv', index=None)

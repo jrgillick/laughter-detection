@@ -8,6 +8,7 @@ import pandas as pd
 from tqdm import tqdm
 from joblib import Parallel, delayed
 
+"""
 # train
 print("Loading train files...")
 h = {}
@@ -20,14 +21,15 @@ for i in range(len(audioset_train_files)):
     
 with open("/mnt/data0/jrgillick/projects/laughter-detection/data/audioset/train/audioset_train_audios.pkl", "wb") as f:
     pickle.dump(h, f)
+"""
 
 # val
 print("Loading val files...")
 h = {}
-val_y = audio_utils.parallel_load_audio_batch(audioset_val_files, n_processes=8, sr=8000)
-assert(len(val_y) == len(audioset_val_files))
-for i in range(len(audioset_val_files)):
-    f = audioset_val_files[i]
+val_y = audio_utils.parallel_load_audio_batch(audioset_dev_files, n_processes=8, sr=8000)
+assert(len(val_y) == len(audioset_dev_files))
+for i in range(len(audioset_dev_files)):
+    f = audioset_dev_files[i]
     y = val_y[i]
     h[f] = y
     

@@ -20,15 +20,18 @@ warnings.simplefilter("ignore")
 sys.path.append('/mnt/data0/jrgillick/projects/audio-feature-learning/')
 from tqdm import tqdm
 
-config = configs.CONFIG_MAP['mlp_mfcc_43fps']
-model = config['model'](dropout_rate=0.5, linear_layer_size=config['linear_layer_size'])
+config = configs.CONFIG_MAP['resnet_43fps_wav_augment_spec_augment_large']
+#model = config['model'](dropout_rate=0.0, linear_layer_size=config['linear_layer_size'])
+model = config['model'](dropout_rate=0.0, linear_layer_size=config['linear_layer_size'], filter_sizes=config['filter_sizes'])
 model.set_device(device)
 model.to(device)
 #torch_utils.count_parameters(model)
 #model.apply(torch_utils.init_weights)
 #optimizer = optim.Adam(model.parameters())
 
-checkpoint_dir = '/mnt/data0/jrgillick/projects/laughter-detection/checkpoints/mlp_43_fps_b128'
+#checkpoint_dir = '/mnt/data0/jrgillick/projects/laughter-detection/checkpoints/v2_supervised_wav_augment_spec_augment'
+#checkpoint_dir = '/mnt/data0/jrgillick/projects/laughter-detection/checkpoints/eval_time_resnet_43fps_wav_augment_spec_augment_drop01_batch96'
+checkpoint_dir = '/mnt/data0/jrgillick/projects/laughter-detection/checkpoints/eval_time_resnet_43fps_wav_rev_augment_spec_augment_large'
 
 if os.path.exists(checkpoint_dir):
     torch_utils.load_checkpoint(checkpoint_dir+'/best.pth.tar', model)
@@ -36,10 +39,10 @@ else:
     print("Checkpoint not found")
     
 model.eval()
-    
 
 swb_val_distractor_df = pd.read_csv('../../data/switchboard/annotations/clean_switchboard_val_distractor_annotations.csv')
 swb_test_distractor_df = pd.read_csv('../../data/switchboard/annotations/clean_switchboard_test_distractor_annotations.csv')
+    
     
 swb_val_df = pd.read_csv('../../data/switchboard/annotations/clean_switchboard_val_laughter_annotations.csv')
 print("\nSwitchboard Val Annotations stats:")
@@ -48,18 +51,18 @@ _, _, _, _, _ = get_annotation_stats(
 
 swb_val_df = pd.concat([swb_val_df, swb_val_distractor_df])
 swb_val_df.reset_index(inplace=True, drop=True)
-
     
 swb_val_results = []
 for index in tqdm(range(len(swb_val_df))):
     line = swb_val_df.iloc[index]
     h = get_results_for_annotation_index(model, config, swb_val_df, index, min_gap=0.,
                                          threshold=0.5, use_filter=False, min_length=0.0,
-                                         avoid_edges=True, edge_gap=0.5)
+                                         avoid_edges=True, edge_gap=0.5, expand_channel_dim=True)
     swb_val_results.append(h)
 
 val_results_df = pd.DataFrame(swb_val_results)
-val_results_df.to_csv("baseline_switchboard_val_results.csv",index=None)
+val_results_df.to_csv("resnet_specaug_wavaug_switchboard_val_results.csv",index=None)
+
 
 
 swb_test_df = pd.read_csv('../../data/switchboard/annotations/clean_switchboard_test_laughter_annotations.csv')
@@ -75,8 +78,8 @@ for index in tqdm(range(len(swb_test_df))):
     line = swb_test_df.iloc[index]
     h = get_results_for_annotation_index(model, config, swb_test_df, index, min_gap=0.,
                                          threshold=0.5, use_filter=False, min_length=0.0,
-                                         avoid_edges=True, edge_gap=0.5)
+                                         avoid_edges=True, edge_gap=0.5, expand_channel_dim=True)
     swb_test_results.append(h)
 
 test_results_df = pd.DataFrame(swb_test_results)
-test_results_df.to_csv("baseline_switchboard_test_results.csv",index=None)
+test_results_df.to_csv("resnet_specaug_wavaug_switchboard_test_results.csv",index=None)

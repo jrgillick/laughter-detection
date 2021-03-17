@@ -26,31 +26,33 @@ parser.add_argument('--save_to_textgrid', type=str, default='False')
 
 args = parser.parse_args()
 
-# python segment_laughter.py --model_path=/mnt/data0/jrgillick/projects/laughter-detection/checkpoints/resnet_43fps_spec_augment_d01 --config=resnet_43fps_spec_augment --input_audio_file=/mnt/data0/jrgillick/projects/laughter-detection/data/kimiko/2017.07.18.1130/01.wave.m4a
 
-#'/mnt/data0/jrgillick/projects/laughter-detection/checkpoints/resnet_43fps_spec_augment_d01'
-#config = configs.CONFIG_MAP['resnet_43fps_spec_augment']
+# python segment_laughter.py --model_path=/mnt/data0/jrgillick/projects/laughter-detection/checkpoints/no_word_resnet_base_bigger_43fps --config=resnet_43fps_spec_augment --input_audio_file=/mnt/data0/jrgillick/projects/laughter-detection/data/uist_clean_and_noisy_participants/participant_uist_data/participant_audio_files/Clear/clear.01.m4a --output_dir=/mnt/data0/jrgillick/projects/laughter-detection/data/uist_clean_and_noisy_participants/participant_uist_data/resnet_base/Clear.01
+
+
 
 model_path = args.model_path
 config = configs.CONFIG_MAP[args.config]
 audio_path = args.input_audio_file
 threshold = float(args.threshold)
 min_length = float(args.min_length)
-min_length = laugh_segmenter.seconds_to_frames(min_length, fps=43)
+#min_length = laugh_segmenter.seconds_to_frames(min_length, fps=43.1)
 save_to_audio_files = bool(strtobool(args.save_to_audio_files))
 save_to_textgrid = bool(strtobool(args.save_to_textgrid))
 output_dir = args.output_dir
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+#device = torch.device('cpu')
 
 ##### Load the Model
 
-model = config['model'](dropout_rate=0., linear_layer_size=config['linear_layer_size'])
+#model = config['model'](dropout_rate=0., linear_layer_size=config['linear_layer_size'])
+model = config['model'](dropout_rate=0.0, linear_layer_size=config['linear_layer_size'], filter_sizes=config['filter_sizes'])
 feature_fn = config['feature_fn']
 model.set_device(device)
 
 if os.path.exists(model_path):
-    torch_utils.load_checkpoint(model_path, model)
+    torch_utils.load_checkpoint(model_path+'/best.pth.tar', model)
     model.eval()
 else:
     raise Exception(f"Model checkpoint not found at {model_path}")
@@ -64,7 +66,7 @@ collate_fn=partial(audio_utils.pad_sequences_with_labels,
                         expand_channel_dim=config['expand_channel_dim'])
 
 inference_generator = torch.utils.data.DataLoader(
-    inference_dataset, num_workers=4, batch_size=64, shuffle=False, collate_fn=collate_fn)
+    inference_dataset, num_workers=4, batch_size=8, shuffle=False, collate_fn=collate_fn)
 
 
 ##### Make Predictions
@@ -72,12 +74,20 @@ inference_generator = torch.utils.data.DataLoader(
 probs = []
 for model_inputs, _ in tqdm(inference_generator):
     x = torch.from_numpy(model_inputs).float().to(device)
-    preds = list(model(x).cpu().detach().numpy().squeeze())
+    preds = model(x).cpu().detach().numpy().squeeze()
+    if len(preds.shape)==0:
+        preds = [float(preds)]
+    else:
+        preds = list(preds)
     probs += preds
 probs = np.array(probs)
 
-filtered = laugh_segmenter.lowpass(probs)
-instances = laugh_segmenter.get_laughter_instances(filtered, threshold=threshold, min_length=min_length, fps=43)
+file_length = audio_utils.get_audio_length(audio_path)
+
+fps = len(probs)/float(file_length)
+
+probs = laugh_segmenter.lowpass(probs)
+instances = laugh_segmenter.get_laughter_instances(probs, threshold=threshold, min_length=float(args.min_length), fps=fps)
 
 print(); print("found %d laughs." % (len (instances)))
 

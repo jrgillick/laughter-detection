@@ -5,7 +5,7 @@ from torch import optim
 from torch.distributions.categorical import Categorical
 
 class MLPModel(nn.Module):
-    def __init__(self, linear_layer_size=101*40, hid_dim1=600, hid_dim2=100, dropout_rate=0.5):
+    def __init__(self, linear_layer_size=101*40, hid_dim1=600, hid_dim2=100, dropout_rate=0.5,filter_sizes=None):
         super().__init__()
         print(f"training with dropout={dropout_rate}")
         self.input_dim = linear_layer_size
@@ -182,7 +182,7 @@ class ResNet(nn.Module):
         self.to(device)
         
 class ResNetBigger(nn.Module):
-    def __init__(self, num_classes=1,dropout_rate=0.5,linear_layer_size=192):
+    def __init__(self, num_classes=1,dropout_rate=0.5,linear_layer_size=192,filter_sizes=[64,32,16,16]):
         super(ResNetBigger, self).__init__()
         print(f"training with dropout={dropout_rate}")
         # Initial input conv
@@ -195,15 +195,17 @@ class ResNetBigger(nn.Module):
         
         self.linear_layer_size=linear_layer_size
         
+        self.filter_sizes = filter_sizes
+        
         # Create blocks
         #self.block1 = self._create_block(64, 64, stride=1)
         #self.block2 = self._create_block(64, 128, stride=2)
         #self.block3 = self._create_block(128, 128, stride=2)
         #self.block4 = self._create_block(128, 128, stride=3)
-        self.block1 = self._create_block(64, 64, stride=1)
-        self.block2 = self._create_block(64, 32, stride=2)
-        self.block3 = self._create_block(32, 16, stride=2)
-        self.block4 = self._create_block(16, 16, stride=2)
+        self.block1 = self._create_block(64, filter_sizes[0], stride=1)
+        self.block2 = self._create_block(filter_sizes[0], filter_sizes[1], stride=2)
+        self.block3 = self._create_block(filter_sizes[1], filter_sizes[2], stride=2)
+        self.block4 = self._create_block(filter_sizes[2], filter_sizes[3], stride=2)
         self.bn2 = nn.BatchNorm1d(linear_layer_size)
         self.bn3 = nn.BatchNorm1d(32)
         self.linear1 = nn.Linear(linear_layer_size, 32)

@@ -30,7 +30,8 @@ model.to(device)
 #optimizer = optim.Adam(model.parameters())
 
 
-checkpoint_dir = '/mnt/data0/jrgillick/projects/laughter-detection/checkpoints/comparisons/noisy_audioset_resnet_base_drop07'
+#checkpoint_dir = '/mnt/data0/jrgillick/projects/laughter-detection/checkpoints/comparisons/noisy_audioset_resnet_base_drop07'
+checkpoint_dir = '../../checkpoints/comparisons/resnet_without_augmentation_trained_on_audioset'
 
 if os.path.exists(checkpoint_dir):
     torch_utils.load_checkpoint(checkpoint_dir+'/best.pth.tar', model)

@@ -30,7 +30,9 @@ model.to(device)
 
 #checkpoint_dir = '/mnt/data0/jrgillick/projects/laughter-detection/checkpoints/resnet_melspec_bigger_43fps_b128'
 #checkpoint_dir = '/mnt/data0/jrgillick/projects/laughter-detection/checkpoints/eval_time_resnet_43fps_base_drop01_batch96'
-checkpoint_dir = '/mnt/data0/jrgillick/projects/laughter-detection/checkpoints/comparisons/no_word_resnet_base_bigger_43fps'
+#checkpoint_dir = '/mnt/data0/jrgillick/projects/laughter-detection/checkpoints/comparisons/no_word_resnet_base_bigger_43fps'
+#checkpoint_dir = '/mnt/data0/jrgillick/projects/laughter-detection/checkpoints/comparisons/no_word_resnet_base_bigger_43fps'
+checkpoint_dir = '../../checkpoints/comparisons/resnet_without_augmentation'
 
 
 if os.path.exists(checkpoint_dir):

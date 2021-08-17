@@ -18,7 +18,8 @@ An older version of the software from the 2018 paper is still available [here](h
 - A more (overly) comprehensive list can be found in [requirements.txt](requirements.txt).
 
 # Usage
-- To run the laugh detector from the command line, use the [segment_laughter.py](segment_laughter.py) script.  
+- To run interactively on Google Colab, use [this link](https://colab.research.google.com/github/jrgillick/laughter-detection/blob/master/laughter-detection-interactive.ipynb).
+- To run laughter detection from the command line, use the [segment_laughter.py](segment_laughter.py) script.  
 - For example: `python segment_laughter.py --input_audio_file=tst_wave.wav --output_dir=./tst_wave --save_to_textgrid=False --save_to_audio_files=True --min_length=0.2 --threshold=0.5`
 
   #### Parameters

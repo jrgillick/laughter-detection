@@ -34,17 +34,15 @@ config = configs.CONFIG_MAP[args.config]
 audio_path = args.input_audio_file
 threshold = float(args.threshold)
 min_length = float(args.min_length)
-#min_length = laugh_segmenter.seconds_to_frames(min_length, fps=43.1)
 save_to_audio_files = bool(strtobool(args.save_to_audio_files))
 save_to_textgrid = bool(strtobool(args.save_to_textgrid))
 output_dir = args.output_dir
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-#device = torch.device('cpu')
+print(f"Using device {device}")
 
 ##### Load the Model
 
-#model = config['model'](dropout_rate=0., linear_layer_size=config['linear_layer_size'])
 model = config['model'](dropout_rate=0.0, linear_layer_size=config['linear_layer_size'], filter_sizes=config['filter_sizes'])
 feature_fn = config['feature_fn']
 model.set_device(device)

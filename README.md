@@ -1,6 +1,6 @@
 # laughter-detection
 
-This library contains code and models to segment  regions of laughter from an audio file. The checkpoints/ folder contains models trained on the [Switchboard](https://catalog.ldc.upenn.edu/ldc97s62) data set.
+This library contains code and models to automatically detect and segment regions containing human laughter from an audio file. The [checkpoints](checkpoints/) folder contains models trained on the [Switchboard](https://catalog.ldc.upenn.edu/ldc97s62) data set.
 
 This library also includes [annotations](data/audioset/annotations/clean_laughter_annotations.csv) for evaluating laughter detection in real-world environments using the [AudioSet](https://research.google.com/audioset/) dataset.
 

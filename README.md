@@ -12,8 +12,9 @@ Code, Annotations and Models are described in the following papers:
 An older version of the software from the 2018 paper is still available [here](https://github.com/jrgillick/laughter-detection/tree/v1.0).
 
 # Dependencies
-- [Librosa](http://librosa.github.io/librosa/) - tested with version 0.8.1
-- [Pytorch](https://pytorch.org/) - tested with version 1.3.1
+- Python - tested with version 3.6.1.
+- [Librosa](http://librosa.github.io/librosa/) - tested with version 0.8.1.
+- [Pytorch](https://pytorch.org/) - tested with version 1.3.1.
 - A more comprehensive list can be found in [requirements.txt](requirements.txt).
 
 # Usage

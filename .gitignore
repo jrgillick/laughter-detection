@@ -21,8 +21,9 @@ checkpoints/in_use/resnet_with_augmentation/events.out.tfevents.1586238947.sequo
 checkpoints/in_use/resnet_with_augmentation/last.pth.tar
 
 data/audioset/annotations/clean_laughter_annotations_backup.csv
-data/audioset/annotations/raw_annotations/Laughter_Annotations_2.csv
-data/audioset/annotations/raw_annotations/wes_100.csv
+data/audioset/annotations/clean_laughter_annotations_jg.csv
+data/audioset/annotations/clean_2nd_annotator_annotations_jg.csv
+data/audioset/annotations/raw_annotations/
 data/audioset/test/
 data/audioset/train/
 data/audioset/val/

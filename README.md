@@ -15,7 +15,7 @@ An older version of the software from the 2018 paper is still available [here](h
 - Python - tested with version 3.6.1.
 - [Librosa](http://librosa.github.io/librosa/) - tested with version 0.8.1.
 - [Pytorch](https://pytorch.org/) - tested with version 1.3.1.
-- A more comprehensive list can be found in [requirements.txt](requirements.txt).
+- A more (overly) comprehensive list can be found in [requirements.txt](requirements.txt).
 
 # Usage
 - To run the laugh detector from the command line, use the [segment_laughter.py](segment_laughter.py) script.  

@@ -10,30 +10,21 @@ edge_gap = 0.5
 # Predict w/ pytorch code for audioset data
 sys.path.append('../')
 sys.path.append('../../')
+sys.path.append('../../utils/')
 import models, configs, torch
 import dataset_utils, audio_utils, data_loaders, torch_utils
 from torch import optim, nn
-#device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 device = torch.device('cpu')
 from eval_utils import *
 warnings.simplefilter("ignore")
-sys.path.append('/mnt/data0/jrgillick/projects/audio-feature-learning/')
 from tqdm import tqdm
 
-config = configs.CONFIG_MAP['resnet_43fps_spec_augment']
+config = configs.CONFIG_MAP['resnet_base']
 model = config['model'](dropout_rate=0.0, linear_layer_size=config['linear_layer_size'])
 model.set_device(device)
 model.to(device)
-#torch_utils.count_parameters(model)
-#model.apply(torch_utils.init_weights)
-#optimizer = optim.Adam(model.parameters())
 
-#checkpoint_dir = '/mnt/data0/jrgillick/projects/laughter-detection/checkpoints/resnet_melspec_bigger_43fps_b128'
-#checkpoint_dir = '/mnt/data0/jrgillick/projects/laughter-detection/checkpoints/eval_time_resnet_43fps_base_drop01_batch96'
-#checkpoint_dir = '/mnt/data0/jrgillick/projects/laughter-detection/checkpoints/comparisons/no_word_resnet_base_bigger_43fps'
-#checkpoint_dir = '/mnt/data0/jrgillick/projects/laughter-detection/checkpoints/comparisons/no_word_resnet_base_bigger_43fps'
 checkpoint_dir = '../../checkpoints/comparisons/resnet_without_augmentation'
-
 
 if os.path.exists(checkpoint_dir):
     torch_utils.load_checkpoint(checkpoint_dir+'/best.pth.tar', model)
@@ -63,7 +54,6 @@ for index in tqdm(range(len(swb_val_df))):
 
 val_results_df = pd.DataFrame(swb_val_results)
 val_results_df.to_csv("resnet_base_switchboard_val_results.csv",index=None)
-
 
 
 swb_test_df = pd.read_csv('../../data/switchboard/annotations/clean_switchboard_test_laughter_annotations.csv')

@@ -33,7 +33,9 @@ data/audioset/splits/test_laughter_files.txt
 data/audioset/splits/test_negative_files.txt
 data/audioset/splits/train_laughter_files.txt
 data/audioset/splits/train_negative_files.txt
-data/extra_sounds
+data/background_noise_files/
+data/background_music_files/
+data/impulse_responses/
 data/kimiko/
 data/laugh_test1/
 data/laugh_test2/
@@ -42,6 +44,11 @@ data/spotifyClips/
 data/switchboard/
 data/test_laughs2_old/
 data/test_laughs30_old/
+
+legacy/
+
+Pipfile
+Pipfile.lock
 
 scripts/Development.ipynb
 scripts/train_backup.py

@@ -1,11 +1,12 @@
-#python scripts/make_switchboard_text_dataset.py --output_txt_file=/mnt/data0/jrgillick/projects/laughter-detection/data/switchboard/val/switchboard_val_data_words.txt --switchboard_audio_path=/mnt/data0/jrgillick/projects/laughter-detection/data/switchboard/switchboard-1/97S62/ --switchboard_transcriptions_path=/mnt/data0/jrgillick/projects/laughter-detection/data/switchboard/switchboard-1/swb_ms98_transcriptions/ --data_partition=val --random_seed=0
+# Usage:
+# python scripts/make_switchboard_text_dataset.py --output_txt_file=../data/switchboard/val/switchboard_val_data_words.txt --switchboard_audio_path=../data/switchboard/switchboard-1/97S62/ --switchboard_transcriptions_path=../data/switchboard/switchboard-1/swb_ms98_transcriptions/ --data_partition=val --random_seed=0
 
 #a_root = '/data/corpora/switchboard-1/97S62/'
 #t_root = '/data/corpora/switchboard-1/swb_ms98_transcriptions/'
 
 import sys, time, librosa, os, argparse, pickle, numpy as np
 from tqdm import tqdm
-sys.path.append('/mnt/data0/jrgillick/projects/audio-feature-learning/')
+sys.path.append('../utils/')
 import dataset_utils, audio_utils, data_loaders
 import pandas as pd
 from tqdm import tqdm
@@ -60,24 +61,6 @@ if args.max_datapoints is not None:
     max_datapoints = int(args.max_datapoints)
 else:
     max_datapoints = None
-
-"""
-def make_text_dataset(t_files_a, t_files_b, audio_files,num_passes=1):
-    big_list = []
-    assert(len(t_files_a)==len(t_files_b) and len(t_files_a)==len(audio_files))
-    for p in range(num_passes):
-        for i in tqdm(range(len(t_files_a))):
-            laugh_regions, speech_regions = dataset_utils.get_laughter_regions_and_speech_regions(
-                t_files_a[i],t_files_b[i],audio_files[i])
-            audio_file = audio_files[i]
-            for r in laugh_regions:
-                line = list(r) + [audio_files[i]] + [1]
-                big_list.append('\t'.join([str(l) for l in line]))
-            for r in speech_regions:
-                line = list(r) + [audio_files[i]] + [0]
-                big_list.append('\t'.join([str(l) for l in line]))
-    return big_list
-"""
 
 def make_text_dataset(t_files_a, t_files_b, audio_files,num_passes=1,
                       n_processes=8,convert_to_text=True,random_seed=None,include_words=False):
@@ -180,21 +163,3 @@ if max_datapoints is not None:
 
 with open(output_txt_file, 'w')  as f:
     f.write('\n'.join(lines))
-
-"""
-if load_audio:
-    #df = pd.read_csv(output_txt_file,sep='\t',header=None,
-    #        names=['offset','duration','audio_path','label'])
-    #audios = parallel_load_audio_batch(df.audio_path,n_processes=16,
-    #                                   offsets=df.offset,durations=df.duration)
-    print("Loading switchboard audio files...")
-    t0 = time.time()
-    with open(load_audio_path, "rb") as f: # Loads all switchboard audio files
-        h = pickle.load(f)
-    print("Loaded in ", time.time()-t0, " seconds.") 
-    audios = get_audios_from_text_data(output_txt_file, h)
-    output_audio_file = output_txt_file.replace('.txt','.pkl')
-    with open(output_audio_file, 'wb') as f:
-        pickle.dump(audios, f)
-"""
-

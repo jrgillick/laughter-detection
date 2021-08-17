@@ -10,7 +10,8 @@ def get_audio_file_length(path):
 
 
 annotations_folder = '../data/audioset/annotations/'
-main_annotations_file = annotations_folder + '/raw_annotations/Laughter_Annotations_2.csv' #'/raw_annotations/laughter_annotations.csv'
+main_annotations_file = annotations_folder + '/raw_annotations/Laughter_Annotations_2.csv' 
+
 additional_annotations_files = [
     annotations_folder + 'raw_annotations/annotations_3.txt',
     annotations_folder + 'raw_annotations/annotations_4.txt',

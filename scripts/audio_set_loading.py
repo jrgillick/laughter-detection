@@ -1,15 +1,14 @@
 ##################### Audioset (Laughter Detection)  #############################
 import sys, librosa
-sys.path.append('/mnt/data0/jrgillick/projects/audio-feature-learning/')
+sys.path.append('../utils/')
 import audio_utils, text_utils
-#sys.path.insert(0, '../../audio_set/')
 from download_audio_set_mp3s import *
 from sklearn.utils import shuffle
 
-audioset_train_path='/mnt/data0/jrgillick/projects/laughter-detection/data/audioset/unbalanced_train_laughter_audio'
-audioset_test_path='/mnt/data0/jrgillick/projects/laughter-detection/data/audioset/eval_laughter_audio'
-audioset_train_labels_path='/mnt/data0/jrgillick/projects/laughter-detection/data/audioset/unbalanced_train_segments.csv'
-audioset_test_labels_path='/mnt/data0/jrgillick/projects/laughter-detection/data/audioset/eval_segments.csv'
+audioset_train_path='../data/audioset/unbalanced_train_laughter_audio'
+audioset_test_path='../data/audioset/eval_laughter_audio'
+audioset_train_labels_path='../data/audioset/unbalanced_train_segments.csv'
+audioset_test_labels_path='../data/audioset/eval_segments.csv'
 
 def get_audioset_laughter_train_val_test_files(
     audioset_train_path=audioset_train_path,

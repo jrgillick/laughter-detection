@@ -49,7 +49,6 @@ class ResidualBlockNoBN(nn.Module):
             in_channels=in_channels, out_channels=out_channels,
             kernel_size=(3, 3), stride=stride, padding=1, bias=True
         )
-        #self.bn1 = nn.BatchNorm2d(out_channels)
         
         # Conv Layer 2
         self.conv2 = nn.Conv2d(
@@ -58,10 +57,6 @@ class ResidualBlockNoBN(nn.Module):
         )
         #self.bn2 = nn.BatchNorm2d(out_channels)
     
-        # Shortcut connection to downsample residual
-        # In case the output dimensions of the residual block is not the same 
-        # as it's input, have a convolutional layer downsample the layer 
-        # being bought forward by approporate striding and filters
         self.shortcut = nn.Sequential()
         if stride != 1 or in_channels != out_channels:
             self.shortcut = nn.Sequential(
@@ -97,10 +92,6 @@ class ResidualBlock(nn.Module):
         )
         self.bn2 = nn.BatchNorm2d(out_channels)
     
-        # Shortcut connection to downsample residual
-        # In case the output dimensions of the residual block is not the same 
-        # as it's input, have a convolutional layer downsample the layer 
-        # being bought forward by approporate striding and filters
         self.shortcut = nn.Sequential()
         if stride != 1 or in_channels != out_channels:
             self.shortcut = nn.Sequential(
@@ -130,11 +121,6 @@ class ResNet(nn.Module):
 
         self.bn1 = nn.BatchNorm2d(32)
         
-        # Create blocks
-        #self.block1 = self._create_block(64, 64, stride=1)
-        #self.block2 = self._create_block(64, 128, stride=2)
-        #self.block3 = self._create_block(128, 128, stride=2)
-        #self.block4 = self._create_block(128, 128, stride=3)
         self.block1 = self._create_block(32, 32, stride=1)
         self.block2 = self._create_block(32, 16, stride=2)
         self.block3 = self._create_block(16, 16, stride=2)
@@ -196,12 +182,7 @@ class ResNetBigger(nn.Module):
         self.linear_layer_size=linear_layer_size
         
         self.filter_sizes = filter_sizes
-        
-        # Create blocks
-        #self.block1 = self._create_block(64, 64, stride=1)
-        #self.block2 = self._create_block(64, 128, stride=2)
-        #self.block3 = self._create_block(128, 128, stride=2)
-        #self.block4 = self._create_block(128, 128, stride=3)
+
         self.block1 = self._create_block(64, filter_sizes[0], stride=1)
         self.block2 = self._create_block(filter_sizes[0], filter_sizes[1], stride=2)
         self.block3 = self._create_block(filter_sizes[1], filter_sizes[2], stride=2)
@@ -263,16 +244,10 @@ class ResNetNoBN(nn.Module):
         self.linear_layer_size=linear_layer_size
         
         # Create blocks
-        #self.block1 = self._create_block(64, 64, stride=1)
-        #self.block2 = self._create_block(64, 128, stride=2)
-        #self.block3 = self._create_block(128, 128, stride=2)
-        #self.block4 = self._create_block(128, 128, stride=3)
         self.block1 = self._create_block(64, 64, stride=1)
         self.block2 = self._create_block(64, 32, stride=2)
         self.block3 = self._create_block(32, 16, stride=2)
         self.block4 = self._create_block(16, 16, stride=2)
-        #self.bn2 = nn.BatchNorm1d(linear_layer_size)
-        #self.bn3 = nn.BatchNorm1d(32)
         self.linear1 = nn.Linear(linear_layer_size, 32)
         self.linear2 = nn.Linear(32, num_classes)
       

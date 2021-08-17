@@ -20,7 +20,7 @@ warnings.simplefilter("ignore")
 sys.path.append('/mnt/data0/jrgillick/projects/audio-feature-learning/')
 from tqdm import tqdm
 
-config = configs.CONFIG_MAP['resnet_43fps_wav_augment_spec_augment_large']
+config = configs.CONFIG_MAP['resnet_with_augmentation']
 #model = config['model'](dropout_rate=0.0, linear_layer_size=config['linear_layer_size'])
 model = config['model'](dropout_rate=0.0, linear_layer_size=config['linear_layer_size'], filter_sizes=config['filter_sizes'])
 model.set_device(device)

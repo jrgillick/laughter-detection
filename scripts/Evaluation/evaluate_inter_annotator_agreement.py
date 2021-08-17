@@ -1,13 +1,24 @@
-from IPython.display import Audio
-import os, sys, librosa, numpy as np, pandas as pd
-from scipy import signal
-import ast
-from tqdm import tqdm
-sys.path.append('/mnt/data0/jrgillick/projects/audio-feature-learning/')
-import dataset_utils
-sys.path.append('/mnt/data0/jrgillick/projects/laughter-detection/scripts/Evaluation')
-import eval_utils
+import pandas as pd
+import numpy as np, os, sys, librosa
+import warnings
+warnings.simplefilter("ignore")
+
+MIN_GAP = 0
+avoid_edges=True
+edge_gap = 0.5
+
+# Predict w/ pytorch code for audioset data
+sys.path.append('../')
+sys.path.append('../../')
+sys.path.append('../../utils/')
+import models, configs, torch
+import dataset_utils, audio_utils, data_loaders, torch_utils
+from torch import optim, nn
+device = torch.device('cpu')
 from eval_utils import *
+warnings.simplefilter("ignore")
+from tqdm import tqdm
+
 
 audioset_annotations_df = pd.read_csv('../../data/audioset/annotations/clean_laughter_annotations.csv')
 audioset_annotations2_df = pd.read_csv('../../data/audioset/annotations/clean_2nd_annotator_annotations.csv')

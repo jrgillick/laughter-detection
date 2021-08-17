@@ -10,17 +10,16 @@ edge_gap = 0.5
 # Predict w/ pytorch code for audioset data
 sys.path.append('../')
 sys.path.append('../../')
+sys.path.append('../../utils/')
 import models, configs, torch
 import dataset_utils, audio_utils, data_loaders, torch_utils
 from torch import optim, nn
-#device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 device = torch.device('cpu')
 from eval_utils import *
 warnings.simplefilter("ignore")
-sys.path.append('/mnt/data0/jrgillick/projects/audio-feature-learning/')
 from tqdm import tqdm
 
-config = configs.CONFIG_MAP['resnet_43fps_wav_augment_spec_augment_large']
+config = configs.CONFIG_MAP['resnet_with_augmentation']
 #model = config['model'](dropout_rate=0.0, linear_layer_size=config['linear_layer_size'])
 model = config['model'](dropout_rate=0.0, linear_layer_size=config['linear_layer_size'], filter_sizes=config['filter_sizes'])
 model.set_device(device)

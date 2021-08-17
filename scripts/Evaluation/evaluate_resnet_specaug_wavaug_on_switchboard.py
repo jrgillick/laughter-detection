@@ -10,28 +10,20 @@ edge_gap = 0.5
 # Predict w/ pytorch code for audioset data
 sys.path.append('../')
 sys.path.append('../../')
+sys.path.append('../../utils/')
 import models, configs, torch
 import dataset_utils, audio_utils, data_loaders, torch_utils
 from torch import optim, nn
-#device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 device = torch.device('cpu')
 from eval_utils import *
 warnings.simplefilter("ignore")
-sys.path.append('/mnt/data0/jrgillick/projects/audio-feature-learning/')
 from tqdm import tqdm
 
-config = configs.CONFIG_MAP['resnet_43fps_wav_augment_spec_augment_large']
-#model = config['model'](dropout_rate=0.0, linear_layer_size=config['linear_layer_size'])
+config = configs.CONFIG_MAP['resnet_with_augmentation']
 model = config['model'](dropout_rate=0.0, linear_layer_size=config['linear_layer_size'], filter_sizes=config['filter_sizes'])
 model.set_device(device)
 model.to(device)
-#torch_utils.count_parameters(model)
-#model.apply(torch_utils.init_weights)
-#optimizer = optim.Adam(model.parameters())
 
-#checkpoint_dir = '/mnt/data0/jrgillick/projects/laughter-detection/checkpoints/v2_supervised_wav_augment_spec_augment'
-#checkpoint_dir = '/mnt/data0/jrgillick/projects/laughter-detection/checkpoints/eval_time_resnet_43fps_wav_augment_spec_augment_drop01_batch96'
-#checkpoint_dir = '/mnt/data0/jrgillick/projects/laughter-detection/checkpoints/comparisons/eval_time_resnet_43fps_wav_rev_augment_spec_augment_large'
 checkpoint_dir = '../../checkpoints/in_use/resnet_with_augmentation'
 
 if os.path.exists(checkpoint_dir):

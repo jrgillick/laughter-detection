@@ -1,14 +1,14 @@
 import pandas as pd, numpy as np, os, sys, audioread, librosa
 import warnings
 import ast
-sys.path.append('/mnt/data0/jrgillick/projects/audio-feature-learning/')
+sys.path.append('../')
+sys.path.append('../../')
+sys.path.append('../../utils')
 import dataset_utils, audio_utils, data_loaders, torch_utils
 import torch
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-#device = torch.device('cpu')
 from torch import optim, nn
-sys.path.append('../')
-sys.path.append('../../')
+
 import laugh_segmenter as laugh_segmenter
 
 def get_audio_file_length(path):

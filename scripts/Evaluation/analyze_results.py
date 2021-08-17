@@ -1,8 +1,31 @@
-import pandas as pd, numpy as np, os, sys
+import pandas as pd, numpy as np, os, sys, argparse
 import eval_utils
 from tqdm import tqdm
 
 n_samples=100
+
+parser = argparse.ArgumentParser()
+
+######## OPTIONAL ARGS #########
+# Include event
+parser.add_argument('--include_event_based_results', type=str)
+parser.add_argument('--include_results_without_distractors', type=str)
+
+args = parser.parse_args()
+
+if args.include_event_based_results is not None:
+    # This assumes that laughter has a specific start and stop point and that an "event" is correct if you correctly
+    # detect greater than a certain percentage of frames. Not used in the paper.
+    include_event_based_results = True
+else:
+    include_event_based_results = False
+
+if args.include_results_without_distractors is not None:
+    # Results if you don't include extra audio "distractors" without laughter. Not used in the paper.
+    include_results_without_distractors = True
+else:
+    include_results_without_distractors = False
+
 
 def resample(data, indices):
     new_data = []
@@ -93,31 +116,6 @@ results_files_and_names.append(['noisy_audioset_trained_baseline_audioset_result
 
 #results_files_and_names.append(['consistency_resnet_audioset_results.csv', "Consistency Resnet SpecAug+WaveAug on AudioSet", 1000])
 
-
-
-# Results Without Distractors
-print("############################## RESULTS WITHOUT DISTRACTORS.....   ##############################")
-for i in range(len(results_files_and_names)):
-    f = results_files_and_names[i][0]
-    desc = results_files_and_names[i][1]
-    num_distractors = results_files_and_names[i][2]
-    results_df = pd.read_csv(f)
-    results_df = results_df[0:len(results_df)-num_distractors]
-    print();print()
-    print(desc + "...")
-    print("\nTiming Results:")
-    
-    timing_confidence_intervals = bootstrap_metrics(
-        results_df.tp_time, results_df.fp_time,
-        results_df.tn_time, results_df.fn_time,n_samples=n_samples)
-    for interval in timing_confidence_intervals:
-        print(interval)
-    
-    print("\nEvent Results:")
-    event_confidence_intervals = bootstrap_event_metrics(results_df, n_samples=n_samples, cutoff_length=0.1)
-    for interval in event_confidence_intervals:
-        print(interval)
-        
 # Results Including Distractors
 print("\n\n")
 print("############################## RESULTS INCLUDING DISTRACTORS.....   ##############################")
@@ -128,19 +126,46 @@ for i in range(len(results_files_and_names)):
     results_df = pd.read_csv(f)
     print();print()
     print(desc + "...")
-    print("Timing Results:")
+    print("Per-Frame Results:")
     
     timing_confidence_intervals = bootstrap_metrics(
         results_df.tp_time, results_df.fp_time,
         results_df.tn_time, results_df.fn_time,n_samples=n_samples)
     for interval in timing_confidence_intervals:
         print(interval)
-    
-    print("Event Results:")
-    event_confidence_intervals = bootstrap_event_metrics(results_df, n_samples=n_samples, cutoff_length=0.1)
-    for interval in event_confidence_intervals:
-        print(interval)
+        
+    if include_event_based_results:
+        print("\nEvent-Based Results:")
+        event_confidence_intervals = bootstrap_event_metrics(results_df, n_samples=n_samples, cutoff_length=0.1)
+        for interval in event_confidence_intervals:
+            print(interval)
 
+
+if include_results_without_distractors:
+    # Results Without Distractors
+    print("############################## RESULTS WITHOUT DISTRACTORS.....   ##############################")
+    for i in range(len(results_files_and_names)):
+        f = results_files_and_names[i][0]
+        desc = results_files_and_names[i][1]
+        num_distractors = results_files_and_names[i][2]
+        results_df = pd.read_csv(f)
+        results_df = results_df[0:len(results_df)-num_distractors]
+        print();print()
+        print(desc + "...")
+        print("\nTiming Results:")
+
+        timing_confidence_intervals = bootstrap_metrics(
+            results_df.tp_time, results_df.fp_time,
+            results_df.tn_time, results_df.fn_time,n_samples=n_samples)
+        for interval in timing_confidence_intervals:
+            print(interval)
+
+        if include_event_based_results:
+            print("\nEvent Results:")
+            event_confidence_intervals = bootstrap_event_metrics(results_df, n_samples=n_samples, cutoff_length=0.1)
+            for interval in event_confidence_intervals:
+                print(interval)
+        
 
 
 """

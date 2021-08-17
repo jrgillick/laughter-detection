@@ -1,10 +1,13 @@
 import sys, time, librosa, os, argparse, pickle, numpy as np
+sys.path.append('../')
+sys.path.append('../utils/')
+import dataset_utils, audio_utils, data_loaders
 sys.path.append('./Evaluation')
 from eval_utils import *
 warnings.simplefilter("ignore")
 from tqdm import tqdm
-sys.path.append('/mnt/data0/jrgillick/projects/audio-feature-learning/')
-import dataset_utils, audio_utils, data_loaders
+
+
 import pandas as pd
 from tqdm import tqdm
 from joblib import Parallel, delayed
@@ -13,8 +16,8 @@ from sklearn.utils import shuffle
 MIN_GAP=0. # Only use if we want to enforce gap between annotations
 
 # Load Switchboard data
-t_root = '/mnt/data0/jrgillick/projects/laughter-detection/data/switchboard/switchboard-1/swb_ms98_transcriptions/'
-a_root = '/mnt/data0/jrgillick/projects/laughter-detection/data/switchboard/switchboard-1/97S62/'
+t_root = '../data/switchboard/switchboard-1/swb_ms98_transcriptions/'
+a_root = '../data/switchboard/switchboard-1/97S62/'
 all_audio_files = librosa.util.find_files(a_root,ext='sph')
 train_folders, val_folders, test_folders = dataset_utils.get_train_val_test_folders(t_root)
 
@@ -322,8 +325,6 @@ _, _, _, _, _ = get_annotation_stats(
 
 swb_train_df.to_csv('../data/switchboard/annotations/clean_switchboard_train_laughter_annotations.csv', index=None)
 
-
-
 swb_val_df = make_switchboard_dataframe(
     val_transcription_files_A, val_transcription_files_B, val_audio_files, adjustment_amount=-1.1)
 print("\nSWB Val Set Annotations stats:")
@@ -340,32 +341,3 @@ _, _, _, _, _ = get_annotation_stats(
     swb_test_df, display=True, min_gap = MIN_GAP, avoid_edges=True, edge_gap=0.5)
 
 swb_test_df.to_csv('../data/switchboard/annotations/clean_switchboard_test_laughter_annotations.csv', index=None)
-
-
-"""
-#### With "include_words=True"
-
-swb_val_df = make_switchboard_dataframe(
-    val_transcription_files_A, val_transcription_files_B, val_audio_files, adjustment_amount=-1.1, include_words=True)
-print("\nSWB Val Set Annotations stats:")
-_, _, _, _, _ = get_annotation_stats(
-    swb_val_df, display=True, min_gap = MIN_GAP, avoid_edges=True, edge_gap=0.5)
-
-swb_val_df.to_csv('../data/switchboard/annotations/clean_switchboard_val_laughter_word_annotations.csv', index=None)
-
-swb_test_df = make_switchboard_dataframe(
-    test_transcription_files_A, test_transcription_files_B, test_audio_files, adjustment_amount=1.2, include_words=True)
-print("\nSWB Test Set Annotations stats:")
-_, _, _, _, _ = get_annotation_stats(
-    swb_test_df, display=True, min_gap = MIN_GAP, avoid_edges=True, edge_gap=0.5)
-
-swb_test_df.to_csv('../data/switchboard/annotations/clean_switchboard_test_laughter_word_annotations.csv', index=None)
-
-swb_train_df = make_switchboard_dataframe(
-    train_transcription_files_A, train_transcription_files_B, train_audio_files, adjustment_amount=-1.1, include_words=True)
-print("\nSWB Train Annotations stats:")
-_, _, _, _, _ = get_annotation_stats(
-    swb_train_df, display=True, min_gap = MIN_GAP, avoid_edges=True, edge_gap=0.5)
-
-swb_train_df.to_csv('../data/switchboard/annotations/clean_switchboard_train_laughter_word_annotations.csv', index=None)
-"""

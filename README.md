@@ -27,7 +27,7 @@ pip install -r requirements.txt
 - Python - tested with version 3.6.1.
 - [Librosa](http://librosa.github.io/librosa/) - tested with version 0.8.1.
 - [Pytorch](https://pytorch.org/) - tested with version 1.3.1.
-- A more (overly) comprehensive list can be found in [requirements.txt](requirements.txt).
+- A somewhat more comprehensive list can be found in [requirements.txt](requirements.txt).
 
 # Usage
 - To run interactively on Google Colab, use [this link](https://colab.research.google.com/github/jrgillick/laughter-detection/blob/master/laughter-detection-interactive.ipynb).

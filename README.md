@@ -11,6 +11,14 @@ Code, Annotations and Models are described in the following papers:
 
 An older version of the software from the 2018 paper is still available [here](https://github.com/jrgillick/laughter-detection/tree/v1.0).
 
+## Installation
+
+```sh
+git clone https://github.com/jrgillick/laughter-detection.git
+cd laughter-detection
+pip install -r requirements.txt
+```
+
 # Dependencies
 - Python - tested with version 3.6.1.
 - [Librosa](http://librosa.github.io/librosa/) - tested with version 0.8.1.

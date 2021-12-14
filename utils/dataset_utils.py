@@ -1,14 +1,6 @@
-import pandas as pd
 import numpy as np
-import math
 import os
-from praatio import tgio
-from nltk.tokenize import word_tokenize
-from joblib import Parallel, delayed
-import text_utils
 import audio_utils
-import itertools
-from tqdm import tqdm
 
 """
 # Dataset or Format Specific Utils
@@ -20,12 +12,21 @@ from tqdm import tqdm
 
 
 def get_train_val_test_folders(t_root):
+    '''
+    Create a train, val, test split from all the input folders
+    - by default uses an 80/10/10 split - not exactly because the number of folders might not be devisible by 3 
+    - can be adjusted by changing factors (0.8, 0,1) below below
+    '''
     t_folders = [
         t_root + f for f in os.listdir(t_root) if os.path.isdir(t_root + f)]
     t_folders.sort()
-    train_folders = t_folders[0:23]
-    val_folders = t_folders[23:26]
-    test_folders = t_folders[26:30]
+    folder_num = len(t_folders)
+    train_num = int(folder_num * 0.8)
+    val_num = int(folder_num * 0.1)
+    test_num = folder_num - train_num - val_num
+    train_folders = t_folders[0:train_num-1]
+    val_folders = t_folders[train_num-1:train_num + val_num - 1]
+    test_folders = t_folders[folder_num-test_num-1:folder_num-1]
     train_folders.sort()
     val_folders.sort()
     test_folders.sort()
@@ -243,10 +244,12 @@ def get_laughter_speech_text_lines(t_file_a, t_file_b, a_file, convert_to_text=T
     assert(len(laughter_regions) == len(laughter_region_subsamples))
     assert(len(speech_regions) == len(speech_region_subsamples))
     for i in range(len(laughter_regions)):
+        # r and r_subsample are both pairs of the form (region start, region duration)
         r = laughter_regions[i]
         r_subsample = laughter_region_subsamples[i]
         # Columns: [region start, region duration, subsampled region start, subsampled region duration, audio path, label]
-        line = list(r) + list(r_subsample) + [a_file] + [1]
+        line = list(r) + list(r_subsample) + \
+            [a_file] + [1]   # 1 is the label for laughter
         if convert_to_text:
             lines.append('\t'.join([str(l) for l in line]))
         else:

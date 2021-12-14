@@ -58,3 +58,4 @@ scripts/train_backup.py
 env/
 
 data/icsi/*
+data/rtf_samples/*

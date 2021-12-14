@@ -17,8 +17,11 @@ def get_train_val_test_folders(t_root):
     - by default uses an 80/10/10 split - not exactly because the number of folders might not be devisible by 3 
     - can be adjusted by changing factors (0.8, 0,1) below below
     '''
-    t_folders = [
-        t_root + f for f in os.listdir(t_root) if os.path.isdir(t_root + f)]
+    t_folders = []
+    for f in os.listdir(t_root):
+        f_path = os.path.join(t_root, f)
+        if os.path.isdir(f_path):
+            t_folders.append(f_path)
     t_folders.sort()
     folder_num = len(t_folders)
     train_num = int(folder_num * 0.8)

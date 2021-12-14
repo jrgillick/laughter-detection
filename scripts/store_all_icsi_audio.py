@@ -4,36 +4,33 @@
 # And also assumes you'll be (outputting) pre-processed data into another specific location.
 # If you want to change the paths, adjust them in the strings below.
 
-from joblib import Parallel, delayed
-import pandas as pd
-from tqdm import tqdm
 import sys
-import time
 import librosa
 import os
 import pickle
 sys.path.append('../utils/')
-import data_loaders
 import audio_utils
 import dataset_utils
 
-# icsi_audio_path
-a_root = '../data/icsi/Signals'
+# absolute icsi_audio_path (make sure it includes trailing slash)
+a_root = os.path.realpath('../data/icsi/Signals')
 
-# icsi_transcriptions_path
-t_root = '../data/icsi/transcripts/'
+# absolute icsi_transcriptions_path (make sure it includes trailing slash)
+t_root = os.path.realpath('../data/icsi/transcripts/')
 
 # icsi sample rate
 sample_rate = 16000
 
-all_audio_files = librosa.util.find_files(a_root, ext='sph')
+# all_audio_files = librosa.util.find_files(a_root, ext='sph')
 train_folders, val_folders, test_folders = dataset_utils.get_train_val_test_folders(
     a_root)
 
 # Get audio files for each split
-train_audio_files = [f for dir in train_folders for f in os.listdir(dir)]
-val_audio_files = [f for dir in val_folders for f in os.listdir(dir)]
-test_audio_files = [f for dir in test_folders for f in os.listdir(dir)]
+print(a_root)
+print(train_folders)
+train_audio_files = [f'{dir}/{f}' for dir in train_folders for f in os.listdir(dir)]
+val_audio_files = [f'{dir}/{f}' for dir in val_folders for f in os.listdir(dir)]
+test_audio_files = [f'{dir}/{f}' for dir in test_folders for f in os.listdir(dir)]
 
 
 # CREATE TRAINING HASHMAP

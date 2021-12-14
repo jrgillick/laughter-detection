@@ -1,26 +1,32 @@
 ##################### Audioset (Laughter Detection)  #############################
-import sys, librosa
-sys.path.append('../utils/')
-import audio_utils, text_utils
-from download_audio_set_mp3s import *
 from sklearn.utils import shuffle
+from download_audio_set_mp3s import *
+import sys
+import librosa
+sys.path.append('../utils/')
+import text_utils
+import audio_utils
 
-audioset_train_path='../data/audioset/unbalanced_train_laughter_audio'
-audioset_test_path='../data/audioset/eval_laughter_audio'
-audioset_train_labels_path='../data/audioset/unbalanced_train_segments.csv'
-audioset_test_labels_path='../data/audioset/eval_segments.csv'
+audioset_train_path = '../data/audioset/unbalanced_train_laughter_audio'
+audioset_test_path = '../data/audioset/eval_laughter_audio'
+audioset_train_labels_path = '../data/audioset/unbalanced_train_segments.csv'
+audioset_test_labels_path = '../data/audioset/eval_segments.csv'
+
 
 def get_audioset_laughter_train_val_test_files(
-    audioset_train_path=audioset_train_path,
-    audioset_test_path=audioset_test_path,
-    audioset_train_labels_path=audioset_train_labels_path,
-    audioset_test_labels_path=audioset_test_labels_path):
-    audioset_train_files = librosa.util.find_files(audioset_train_path, ext=['mp3'])
+        audioset_train_path=audioset_train_path,
+        audioset_test_path=audioset_test_path,
+        audioset_train_labels_path=audioset_train_labels_path,
+        audioset_test_labels_path=audioset_test_labels_path):
+    audioset_train_files = librosa.util.find_files(
+        audioset_train_path, ext=['mp3'])
     cutoff = int(0.8*len(audioset_train_files))
     audioset_val_files = audioset_train_files[cutoff:]
     audioset_train_files = audioset_train_files[0:cutoff]
-    audioset_test_files = librosa.util.find_files(audioset_test_path, ext=['mp3'])
+    audioset_test_files = librosa.util.find_files(
+        audioset_test_path, ext=['mp3'])
     return audioset_train_files, audioset_val_files, audioset_test_files
+
 
 def get_audioset_ids(csv_file, mode):
     infolist = get_laughter_infolist(csv_file, mode=mode)
@@ -28,9 +34,12 @@ def get_audioset_ids(csv_file, mode):
 
 # Get a dictionary that maps from an audioset file ID to a list of
 # laughter class [<belly laugh, giggle, etc.]
+
+
 def get_audioset_laughter_classes_dict(csv_files, return_type='vector'):
     d = {}
-    if type(csv_files) != type([]): csv_files = [csv_files]
+    if type(csv_files) != type([]):
+        csv_files = [csv_files]
     for csv_file in csv_files:
         infolist = get_laughter_infolist(csv_file, mode='positive')
         ids = [l['yt_id'] for i, l in enumerate(infolist)]
@@ -47,12 +56,13 @@ def get_audioset_laughter_classes_dict(csv_files, return_type='vector'):
             raise Exception("Invalid return_type")
     return d
 
+
 def get_ytid_from_filepath(f):
     return os.path.splitext(os.path.basename(f))[0].split('yt_')[1]
-    
+
 
 # For binary laughter detection
-def get_audioset_binary_labels(files, positive_ids,negative_ids):
+def get_audioset_binary_labels(files, positive_ids, negative_ids):
     labels = []
     for f in files:
         fid = get_ytid_from_filepath(f)
@@ -65,6 +75,8 @@ def get_audioset_binary_labels(files, positive_ids,negative_ids):
     return labels
 
 # for laughter type classification - e.g. giggle, belly laugh, etc.
+
+
 def get_audioset_multiclass_labels(files):
     labels = []
     positive_ids = list(audioset_laughter_classes_dict.keys())
@@ -76,6 +88,7 @@ def get_audioset_multiclass_labels(files):
             labels.append(np.zeros(len(laugh_keys)))
     return labels
 
+
 audioset_positive_laughter_ids = get_audioset_ids(
     audioset_train_labels_path, 'positive') + get_audioset_ids(
     audioset_test_labels_path, 'positive')
@@ -84,20 +97,19 @@ audioset_negative_laughter_ids = get_audioset_ids(
     audioset_train_labels_path, 'negative') + get_audioset_ids(
     audioset_test_labels_path, 'negative')
 
+
 def get_random_1_second_snippets(audio_signals, samples_per_file=1, sr=8000):
     audios = []
     for j in range(samples_per_file):
         audio_times = [audio_utils.subsample_time(0, int(len(a)/sr), int(len(a)/sr),
-            subsample_length=1., padding_length=0.) for a in audio_signals]    
+                                                  subsample_length=1., padding_length=0.) for a in audio_signals]
         for i in range(len(audio_signals)):
             start_time = librosa.core.time_to_samples(audio_times[i][0], sr=sr)
-            end_time = librosa.core.time_to_samples(audio_times[i][0] + audio_times[i][1], sr=sr)
+            end_time = librosa.core.time_to_samples(
+                audio_times[i][0] + audio_times[i][1], sr=sr)
             aud = audio_signals[i][start_time:end_time]
             audios.append(aud)
     return audios
-
-
-
 
 
 ########## For evaluation, let's redo the train/test split sizes and save results to a file to make it permanent ####
@@ -106,11 +118,9 @@ def get_random_1_second_snippets(audio_signals, samples_per_file=1, sr=8000):
 # we don't need to use audioset's official train/dev split.
 # So let's just combine all the files, then split.
 # Reserve 1500 for test, 500 for dev, and make the rest training
-
-
-
 # 1. Find all audio files
-all_audioset_files = librosa.util.find_files(audioset_train_path) + librosa.util.find_files(audioset_test_path)
+all_audioset_files = librosa.util.find_files(
+    audioset_train_path) + librosa.util.find_files(audioset_test_path)
 
 # 2. Find all the positive and negative files that were successfully downloaded
 positive_audioset_files = []
@@ -124,11 +134,12 @@ for f in all_audioset_files:
         positive_audioset_files.append(f)
     else:
         negative_audioset_files.append(f)
-        
+
 ytid_to_filepath = text_utils.make_reverse_vocab(filepath_to_ytid)
-        
+
 # 3. Trim the negative examples list to be the same size as the positives
-negative_audioset_files = negative_audioset_files[0:len(positive_audioset_files)]
+negative_audioset_files = negative_audioset_files[0:len(
+    positive_audioset_files)]
 
 # 4. Now Shuffle all files with random seed
 positive_audioset_files = sorted(positive_audioset_files)
@@ -140,8 +151,10 @@ np.random.seed(0)
 negative_audioset_files = shuffle(negative_audioset_files)
 
 # 5. Filter our list of ID's to match the list of files that were successfully downloaded
-audioset_positive_laughter_ids = [get_ytid_from_filepath(f) for f in positive_audioset_files]        
-audioset_negative_laughter_ids = [get_ytid_from_filepath(f) for f in negative_audioset_files]
+audioset_positive_laughter_ids = [
+    get_ytid_from_filepath(f) for f in positive_audioset_files]
+audioset_negative_laughter_ids = [
+    get_ytid_from_filepath(f) for f in negative_audioset_files]
 
 # 6. Make the splits on both files and ID's, now that all files and ID's are matching and shuffled in the same order
 # Laughter files and ID's for test, dev, train
@@ -163,7 +176,7 @@ dev_negative_laughter_ids = audioset_negative_laughter_ids[1500:2000]
 
 train_negative_laughter_files = negative_audioset_files[2000:]
 train_negative_laughter_ids = audioset_negative_laughter_ids[2000:]
-        
+
 # 7. save txt files with the splits - only need to do once
 """
 #Save IDS
@@ -206,7 +219,6 @@ with open('../data/audioset/splits/train_negative_files.txt', 'w') as f:
 """
 
 
-
 # 8. Update the labels so they match the splits
 
 audioset_test_files = test_positive_laughter_files + test_negative_laughter_files
@@ -217,6 +229,6 @@ audioset_test_labels = get_audioset_binary_labels(
     audioset_test_files, positive_ids=audioset_positive_laughter_ids, negative_ids=audioset_negative_laughter_ids)
 audioset_val_labels = get_audioset_binary_labels(
     audioset_dev_files, positive_ids=audioset_positive_laughter_ids, negative_ids=audioset_negative_laughter_ids)
-audioset_dev_labels = audioset_val_labels # Just in case used somewhere :(
+audioset_dev_labels = audioset_val_labels  # Just in case used somewhere :(
 audioset_train_labels = get_audioset_binary_labels(
     audioset_train_files, positive_ids=audioset_positive_laughter_ids, negative_ids=audioset_negative_laughter_ids)

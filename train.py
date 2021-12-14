@@ -1,29 +1,40 @@
 # Example training commands:
-#python train.py --config=mlp_mfcc --batch_size=32 --checkpoint_dir=./checkpoints/mlp_baseline_tst
-#python train.py --config=resnet_base --batch_size=32 --checkpoint_dir=./checkpoints/resnet_tst
-#python train.py --config=resnet_with_augmentation --batch_size=32 --checkpoint_dir=./checkpoints/resnet_aug_tst
+# python train.py --config=mlp_mfcc --batch_size=32 --checkpoint_dir=./checkpoints/mlp_baseline_tst
+# python train.py --config=resnet_base --batch_size=32 --checkpoint_dir=./checkpoints/resnet_tst
+# python train.py --config=resnet_with_augmentation --batch_size=32 --checkpoint_dir=./checkpoints/resnet_aug_tst
 
-#python train.py --config=resnet_with_augmentation --batch_size=32 --checkpoint_dir=./checkpoints/resnet_aug_audioset_tst --train_on_noisy_audioset=True 
+# python train.py --config=resnet_with_augmentation --batch_size=32 --checkpoint_dir=./checkpoints/resnet_aug_audioset_tst --train_on_noisy_audioset=True
 
-import os, sys, pickle, time, librosa, argparse, torch, numpy as np, pandas as pd
+import torch_utils
+import data_loaders
+import audio_utils
+from functools import partial
+import dataset_utils
+import configs
+import models
+from sklearn.utils import shuffle
+from tensorboardX import SummaryWriter
+from torch import optim, nn
+import os
+import sys
+import pickle
+import time
+import librosa
+import argparse
+import torch
+import numpy as np
+import pandas as pd
 from joblib import Parallel, delayed
 from tqdm import tqdm
 import warnings
 
 sys.path.append('./utils/')
-import models, configs
-import dataset_utils, audio_utils, data_loaders, torch_utils
-from tqdm import tqdm
-from torch import optim, nn
-from functools import partial    
-from tensorboardX import SummaryWriter
-from sklearn.utils import shuffle
 
 warnings.filterwarnings('ignore', category=UserWarning)
 
-learning_rate=0.01  # Learning rate.
-decay_rate=0.9999  # Learning rate decay per minibatch.
-min_learning_rate=0.000001  # Minimum learning rate.
+learning_rate = 0.01  # Learning rate.
+decay_rate = 0.9999  # Learning rate decay per minibatch.
+min_learning_rate = 0.000001  # Minimum learning rate.
 
 sample_rate = 8000
 num_train_steps = 100000
@@ -84,19 +95,19 @@ dropout_rate = float(args.dropout_rate)
 supervised_augment = config['supervised_augment']
 supervised_spec_augment = config['supervised_spec_augment']
 gradient_accumulation_steps = int(args.gradient_accumulation_steps)
-    
+
 if args.include_words is not None:
     include_words = True
 else:
     include_words = False
-    
+
 if args.train_on_noisy_audioset is not None:
     train_on_noisy_audioset = True
 else:
     train_on_noisy_audioset = False
 
-collate_fn=partial(audio_utils.pad_sequences_with_labels,
-                        expand_channel_dim=expand_channel_dim)
+collate_fn = partial(audio_utils.pad_sequences_with_labels,
+                     expand_channel_dim=expand_channel_dim)
 
 
 ##################################################################
@@ -107,45 +118,51 @@ def load_noise_files():
     music_files = librosa.util.find_files('./data/background_music_files/')
     np.random.seed(0)
     noise_files += list(np.random.choice(music_files, 200))
-    noise_signals = audio_utils.parallel_load_audio_batch(noise_files,n_processes=8,sr=sample_rate)
+    noise_signals = audio_utils.parallel_load_audio_batch(
+        noise_files, n_processes=8, sr=sample_rate)
     noise_signals = [s for s in noise_signals if len(s) > sample_rate]
     return noise_signals
 
+
 def load_impulse_responses():
     ir_files = librosa.util.find_files('./data/impulse_responses/')
-    impulse_responses = audio_utils.parallel_load_audio_batch(ir_files,n_processes=8,sr=sample_rate)
+    impulse_responses = audio_utils.parallel_load_audio_batch(
+        ir_files, n_processes=8, sr=sample_rate)
     return impulse_responses
 
+
 def run_training_loop(n_epochs, model, device, checkpoint_dir,
-    optimizer, iterator, log_frequency=25, val_iterator=None, gradient_clip=1.,                
-    verbose=True):
+                      optimizer, iterator, log_frequency=25, val_iterator=None, gradient_clip=1.,
+                      verbose=True):
 
     for epoch in range(n_epochs):
         start_time = time.time()
 
         train_loss = run_epoch(model, 'train', device, iterator,
-            checkpoint_dir=checkpoint_dir, optimizer=optimizer,
-            log_frequency=log_frequency, checkpoint_frequency=log_frequency,
-            clip=gradient_clip, val_iterator=val_iterator, 
-            verbose=verbose)
+                               checkpoint_dir=checkpoint_dir, optimizer=optimizer,
+                               log_frequency=log_frequency, checkpoint_frequency=log_frequency,
+                               clip=gradient_clip, val_iterator=val_iterator,
+                               verbose=verbose)
 
         if verbose:
             end_time = time.time()
-            epoch_mins, epoch_secs = torch_utils.epoch_time(start_time, end_time)
+            epoch_mins, epoch_secs = torch_utils.epoch_time(
+                start_time, end_time)
             print(f'Epoch: {epoch+1:02} | Time: {epoch_mins}m {epoch_secs}s')
-            
-def run_epoch(model, mode, device, iterator, checkpoint_dir, optimizer=None, clip=None,
-                batches=None, log_frequency=None, checkpoint_frequency=None,
-                validate_online=True, val_iterator=None, val_batches=None,
-                verbose=True):
 
+
+def run_epoch(model, mode, device, iterator, checkpoint_dir, optimizer=None, clip=None,
+              batches=None, log_frequency=None, checkpoint_frequency=None,
+              validate_online=True, val_iterator=None, val_batches=None,
+              verbose=True):
     """ args:
             mode: 'train' or 'eval'
     """
-    
+
     def _eval_for_logging(model, device, val_itr, val_iterator, val_batches_per_log):
         model.eval()
-        val_losses = []; val_accs = []
+        val_losses = []
+        val_accs = []
 
         for j in range(val_batches_per_log):
             try:
@@ -153,34 +170,35 @@ def run_epoch(model, mode, device, iterator, checkpoint_dir, optimizer=None, cli
             except StopIteration:
                 val_itr = iter(val_iterator)
                 val_batch = val_itr.next()
-                     
+
             val_loss, val_acc = _eval_batch(model, device, val_batch)
             val_losses.append(val_loss)
             val_accs.append(val_acc)
-            
+
         model.train()
         return val_itr, np.mean(val_losses), np.mean(val_accs)
 
-    def _eval_batch(model,device,batch,batch_index=None,clip=None):
+    def _eval_batch(model, device, batch, batch_index=None, clip=None):
         if batch is None:
             print("None Batch")
             return 0.
 
         with torch.no_grad():
             seqs, labs = batch
-            
+
             src = torch.from_numpy(np.array(seqs)).float().to(device)
             trg = torch.from_numpy(np.array(labs)).float().to(device)
             output = model(src).squeeze()
-            
+
             criterion = nn.BCELoss()
             bce_loss = criterion(output, trg)
             preds = torch.round(output)
-            acc = torch.sum(preds==trg).float()/len(trg) #sum(preds==trg).float()/len(preds)
-            
+            # sum(preds==trg).float()/len(preds)
+            acc = torch.sum(preds == trg).float()/len(trg)
+
             return bce_loss.item(), acc.item()
 
-    def _train_batch(model,device,batch,batch_index=None,clip=None):
+    def _train_batch(model, device, batch, batch_index=None, clip=None):
 
         if batch is None:
             print("None Batch")
@@ -191,22 +209,22 @@ def run_epoch(model, mode, device, iterator, checkpoint_dir, optimizer=None, cli
         src = torch.from_numpy(np.array(seqs)).float().to(device)
         trg = torch.from_numpy(np.array(labs)).float().to(device)
 
-        #optimizer.zero_grad()
+        # optimizer.zero_grad()
 
         output = model(src).squeeze()
-        
+
         criterion = nn.BCELoss()
-        
+
         preds = torch.round(output)
-        acc = torch.sum(preds==trg).float()/len(trg)
-        
+        acc = torch.sum(preds == trg).float()/len(trg)
+
         bce_loss = criterion(output, trg)
-        
+
         loss = bce_loss
         loss = loss/gradient_accumulation_steps
         loss.backward()
 
-        if model.global_step%gradient_accumulation_steps == 0:
+        if model.global_step % gradient_accumulation_steps == 0:
             if clip is not None:
                 torch.nn.utils.clip_grad_norm_(model.parameters(), clip)
             optimizer.step()
@@ -221,7 +239,7 @@ def run_epoch(model, mode, device, iterator, checkpoint_dir, optimizer=None, cli
         raise Exception("`mode` must be 'train' or 'eval'")
 
     if mode.lower() == 'train' and validate_online:
-        val_batches_per_epoch =  torch_utils.num_batches_per_epoch(val_iterator)
+        val_batches_per_epoch = torch_utils.num_batches_per_epoch(val_iterator)
         val_batches_per_log = int(np.round(val_batches_per_epoch))
 
         val_itr = iter(val_iterator)
@@ -241,21 +259,26 @@ def run_epoch(model, mode, device, iterator, checkpoint_dir, optimizer=None, cli
 
     if iterator is not None:
         batches_per_epoch = torch_utils.num_batches_per_epoch(iterator)
-        batch_losses = []; batch_accs = []; batch_consistency_losses = []; batch_ent_losses = []
-        
+        batch_losses = []
+        batch_accs = []
+        batch_consistency_losses = []
+        batch_ent_losses = []
+
         for i, batch in tqdm(enumerate(iterator)):
             # learning rate scheduling
-            lr = (learning_rate - min_learning_rate)*decay_rate**(float(model.global_step))+min_learning_rate
+            lr = (learning_rate - min_learning_rate) * \
+                decay_rate**(float(model.global_step))+min_learning_rate
             optimizer.lr = lr
-                     
+
             batch_loss, batch_acc = _run_batch(model, device, batch,
-                batch_index = i, clip=clip)
-                     
-            batch_losses.append(batch_loss); batch_accs.append(batch_acc)
+                                               batch_index=i, clip=clip)
+
+            batch_losses.append(batch_loss)
+            batch_accs.append(batch_acc)
 
             if log_frequency is not None and (model.global_step + 1) % log_frequency == 0:
                 val_itr, val_loss_at_step, val_acc_at_step = _eval_for_logging(model, device,
-                    val_itr, val_iterator, val_batches_per_log)
+                                                                               val_itr, val_iterator, val_batches_per_log)
 
                 is_best = (val_loss_at_step < model.best_val_loss)
                 if is_best:
@@ -270,17 +293,23 @@ def run_epoch(model, mode, device, iterator, checkpoint_dir, optimizer=None, cli
                     print("Train accuracy: ", train_acc_at_step)
                     print("Val loss: ", val_loss_at_step)
                     print("Val accuracy: ", val_acc_at_step)
- 
-                writer.add_scalar('loss/train', train_loss_at_step, model.global_step)
-                writer.add_scalar('acc/train', train_acc_at_step, model.global_step)
-                writer.add_scalar('loss/eval', val_loss_at_step, model.global_step)
-                writer.add_scalar('acc/eval', val_acc_at_step, model.global_step)
-                batch_losses = []; batch_accs = [] # reset
+
+                writer.add_scalar(
+                    'loss/train', train_loss_at_step, model.global_step)
+                writer.add_scalar(
+                    'acc/train', train_acc_at_step, model.global_step)
+                writer.add_scalar(
+                    'loss/eval', val_loss_at_step, model.global_step)
+                writer.add_scalar(
+                    'acc/eval', val_acc_at_step, model.global_step)
+                batch_losses = []
+                batch_accs = []  # reset
 
             if checkpoint_frequency is not None and (model.global_step + 1) % checkpoint_frequency == 0:
                 state = torch_utils.make_state_dict(model, optimizer, model.epoch,
-                                    model.global_step, model.best_val_loss)
-                torch_utils.save_checkpoint(state, is_best=is_best, checkpoint=checkpoint_dir)
+                                                    model.global_step, model.best_val_loss)
+                torch_utils.save_checkpoint(
+                    state, is_best=is_best, checkpoint=checkpoint_dir)
 
             epoch_loss += batch_loss
             model.global_step += 1
@@ -288,17 +317,20 @@ def run_epoch(model, mode, device, iterator, checkpoint_dir, optimizer=None, cli
         model.epoch += 1
         return epoch_loss / len(iterator)
 
+
 print("Initializing model...")
 device = torch.device(torch_device if torch.cuda.is_available() else 'cpu')
 print("Using device", device)
-model = config['model'](dropout_rate=dropout_rate, linear_layer_size=config['linear_layer_size'], filter_sizes=config['filter_sizes'])
+model = config['model'](dropout_rate=dropout_rate,
+                        linear_layer_size=config['linear_layer_size'], filter_sizes=config['filter_sizes'])
 model.set_device(device)
 torch_utils.count_parameters(model)
 model.apply(torch_utils.init_weights)
 optimizer = optim.Adam(model.parameters())
 
 if os.path.exists(checkpoint_dir):
-    torch_utils.load_checkpoint(checkpoint_dir+'/last.pth.tar', model, optimizer)
+    torch_utils.load_checkpoint(
+        checkpoint_dir+'/last.pth.tar', model, optimizer)
 else:
     print("Saving checkpoints to ", checkpoint_dir)
     print("Beginning training...")
@@ -312,89 +344,104 @@ if augment_fn is not None:
     print("Loading impulse responses...")
     impulse_responses = load_impulse_responses()
     augment_fn = partial(augment_fn, impulse_responses=impulse_responses)
-    
+
 if supervised_augment:
     augmented_feature_fn = partial(feature_fn, augment_fn=augment_fn)
 else:
     augmented_feature_fn = feature_fn
-        
+
 if supervised_spec_augment:
-    augmented_feature_fn = partial(feature_fn, spec_augment_fn=audio_utils.spec_augment)
-    
+    augmented_feature_fn = partial(
+        feature_fn, spec_augment_fn=audio_utils.spec_augment)
+
 #########################################################
 ############   Do this once, keep in memory  ############
 #########################################################
 
 print("Loading switchboard audio files...")
-with open(swb_train_audio_pkl_path, "rb") as f: # Loads all switchboard audio files
+with open(swb_train_audio_pkl_path, "rb") as f:  # Loads all switchboard audio files
     switchboard_train_audio_hash = pickle.load(f)
 
 with open(swb_val_audio_pkl_path, "rb") as f:
     switchboard_val_audios_hash = pickle.load(f)
 
-all_audio_files = librosa.util.find_files(a_root,ext='sph')
-train_folders, val_folders, test_folders = dataset_utils.get_train_val_test_folders(t_root)
+all_audio_files = librosa.util.find_files(a_root, ext='sph')
+train_folders, val_folders, test_folders = dataset_utils.get_train_val_test_folders(
+    t_root)
 t_files_a, a_files = dataset_utils.get_audio_files_from_transcription_files(
     dataset_utils.get_all_transcriptions_files(train_folders, 'A'), all_audio_files)
 t_files_b, _ = dataset_utils.get_audio_files_from_transcription_files(
     dataset_utils.get_all_transcriptions_files(train_folders, 'B'), all_audio_files)
 
-all_swb_train_sigs = [switchboard_train_audio_hash[k] for k in switchboard_train_audio_hash if k in a_files]
-all_swb_val_sigs = [switchboard_val_audios_hash[k] for k in switchboard_val_audios_hash]
+all_swb_train_sigs = [switchboard_train_audio_hash[k]
+                      for k in switchboard_train_audio_hash if k in a_files]
+all_swb_val_sigs = [switchboard_val_audios_hash[k]
+                    for k in switchboard_val_audios_hash]
+
 
 def get_audios_from_text_data(data_file_or_lines, h, sr=sample_rate):
     # This function doesn't use the subsampled offset and duration
     # So it will need to be handled later, in the data loader
     #column_names = ['offset','duration','audio_path','label']
-    column_names = ['offset','duration','subsampled_offset','subsampled_duration','audio_path','label']
+    column_names = ['offset', 'duration', 'subsampled_offset',
+                    'subsampled_duration', 'audio_path', 'label']
     audios = []
     if type(data_file_or_lines) == type([]):
-        df = pd.DataFrame(data=data_file_or_lines,columns=column_names)
+        df = pd.DataFrame(data=data_file_or_lines, columns=column_names)
     else:
-        df = pd.read_csv(data_file_or_lines,sep='\t',header=None,names=column_names)
-        
+        df = pd.read_csv(data_file_or_lines, sep='\t',
+                         header=None, names=column_names)
+
     audio_paths = list(df.audio_path)
     offsets = list(df.offset)
     durations = list(df.duration)
     for i in tqdm(range(len(audio_paths))):
-        aud = h[audio_paths[i]][int(offsets[i]*sr):int((offsets[i]+durations[i])*sr)]
+        aud = h[audio_paths[i]][int(offsets[i]*sr)
+                                    :int((offsets[i]+durations[i])*sr)]
         audios.append(aud)
     return audios
+
 
 def make_dataframe_from_text_data(data_file_or_lines, h, sr=sample_rate):
     # h is a hash, which maps from audio file paths to preloaded full audio files
     # column_names = ['offset','duration','audio_path','label']
-    column_names = ['offset','duration','subsampled_offset','subsampled_duration','audio_path','label']
+    column_names = ['offset', 'duration', 'subsampled_offset',
+                    'subsampled_duration', 'audio_path', 'label']
     if type(data_file_or_lines) == type([]):
         #lines = [l.split('\t') for l in data_file_or_lines]
-        df = pd.DataFrame(data=data_file_or_lines,columns=column_names)
+        df = pd.DataFrame(data=data_file_or_lines, columns=column_names)
     else:
-        df = pd.read_csv(data_file_or_lines,sep='\t',header=None,names=column_names)
+        df = pd.read_csv(data_file_or_lines, sep='\t',
+                         header=None, names=column_names)
     return df
 
-def make_text_dataset(t_files_a, t_files_b, audio_files,num_passes=1,
-                      n_processes=8,convert_to_text=True,random_seed=None,include_words=False):
-    # For switchboard laughter. Given a list of files in a partition (train,val, or test) 
+
+def make_text_dataset(t_files_a, t_files_b, audio_files, num_passes=1,
+                      n_processes=8, convert_to_text=True, random_seed=None, include_words=False):
+    # For switchboard laughter. Given a list of files in a partition (train,val, or test)
     # extract all the start and end times for laughs, and sample an equal number of negative examples.
     # When making the text dataset, store columns indicating the full start and end times of an event.
     # For example, start at 6.2 seconds and end at 12.9 seconds
     # We store another column with subsampled start and end times (1 per event)
     # and a column with the length of the subsample (typically always 1.0).
-    # Then the data loader can have an option to do subsampling every time (e.g. during training) 
+    # Then the data loader can have an option to do subsampling every time (e.g. during training)
     # or to use the pre-sampled times (e.g. during validation)
     # If we want to resample the negative examples (since there are more negatives than positives)
     # then we need to call this function again.
     big_list = []
-    assert(len(t_files_a)==len(t_files_b) and len(t_files_a)==len(audio_files))
+    assert(len(t_files_a) == len(t_files_b)
+           and len(t_files_a) == len(audio_files))
     for p in range(num_passes):
         lines_per_file = Parallel(n_jobs=n_processes)(
             delayed(dataset_utils.get_laughter_speech_text_lines)(t_files_a[i],
-                    t_files_b[i], audio_files[i],convert_to_text,
-                    random_seed=random_seed,include_words=include_words) for i in tqdm(range(len(t_files_a))))
+                                                                  t_files_b[i], audio_files[i], convert_to_text,
+                                                                  random_seed=random_seed, include_words=include_words) for i in tqdm(range(len(t_files_a))))
         big_list += audio_utils.combine_list_of_lists(lines_per_file)
     return big_list
 
 # By default set up the same number of training examples at a time as are in switchboard
+
+
 def make_noisy_audioset_text_dataset(audioset_train_files, audioset_train_labels,
                                      audioset_noisy_train_audios_hash, num_lines=35312):
     big_list = []
@@ -408,12 +455,13 @@ def make_noisy_audioset_text_dataset(audioset_train_files, audioset_train_labels
         line = [offset, duration, offset, duration, f, label]
         big_list.append(line)
     return big_list
-        
+
 
 ##################################################################
 ####################  Setup Validation Data  ######################
 ##################################################################
-val_df = make_dataframe_from_text_data(val_data_text_path, switchboard_val_audios_hash)
+val_df = make_dataframe_from_text_data(
+    val_data_text_path, switchboard_val_audios_hash)
 
 val_dataset = data_loaders.SwitchBoardLaughterDataset(
     df=val_df,
@@ -428,7 +476,7 @@ val_generator = torch.utils.data.DataLoader(
     collate_fn=collate_fn)
 
 if train_on_noisy_audioset:
-    import audio_set_loading #from audio_set_loading import * #TODO
+    import audio_set_loading  # from audio_set_loading import * #TODO
     with open(audioset_noisy_train_audio_pkl_path, "rb") as f:
         audioset_noisy_train_audios_hash = pickle.load(f)
 
@@ -440,21 +488,23 @@ if train_on_noisy_audioset:
 while model.global_step < num_train_steps:
     ################## Set up Supervised Training ##################
     #print(f"First time through: {first_time_through}")
-    
+
     print("Preparing training set...")
-    lines = make_text_dataset(t_files_a, t_files_b, a_files, num_passes=1, convert_to_text=False, include_words=include_words)
-    train_df = make_dataframe_from_text_data(lines, switchboard_train_audio_hash, sr=sample_rate)
+    lines = make_text_dataset(t_files_a, t_files_b, a_files, num_passes=1,
+                              convert_to_text=False, include_words=include_words)
+    train_df = make_dataframe_from_text_data(
+        lines, switchboard_train_audio_hash, sr=sample_rate)
 
     if train_on_noisy_audioset:
         print("Training on noisy Audioset...")
         noisy_audioset_text_lines = make_noisy_audioset_text_dataset(
-            audio_set_loading.audioset_train_files, 
+            audio_set_loading.audioset_train_files,
             audio_set_loading.audioset_train_labels,
             audioset_noisy_train_audios_hash)
         noisy_audioset_train_df = make_dataframe_from_text_data(noisy_audioset_text_lines,
                                                                 audioset_noisy_train_audios_hash, sr=sample_rate)
         train_df = noisy_audioset_train_df
-        train_dataset=data_loaders.SwitchBoardLaughterDataset(
+        train_dataset = data_loaders.SwitchBoardLaughterDataset(
             df=train_df,
             audios_hash=audioset_noisy_train_audios_hash,
             feature_fn=augmented_feature_fn,
@@ -463,7 +513,7 @@ while model.global_step < num_train_steps:
             subsample=True)
 
     else:
-        train_dataset=data_loaders.SwitchBoardLaughterDataset(
+        train_dataset = data_loaders.SwitchBoardLaughterDataset(
             df=train_df,
             audios_hash=switchboard_train_audio_hash,
             feature_fn=augmented_feature_fn,
@@ -472,14 +522,12 @@ while model.global_step < num_train_steps:
             subsample=True)
 
     print(f"Number of supervised datapoints: {len(train_dataset)}")
-    
+
     training_generator = torch.utils.data.DataLoader(
         train_dataset, num_workers=num_workers, batch_size=batch_size, shuffle=True,
         collate_fn=collate_fn)
-                                      
-    run_training_loop(n_epochs=1, model=model, device=device,
-        iterator=training_generator, checkpoint_dir=checkpoint_dir, optimizer=optimizer,
-        log_frequency=log_frequency, val_iterator=val_generator,
-        verbose=True)
-    
 
+    run_training_loop(n_epochs=1, model=model, device=device,
+                      iterator=training_generator, checkpoint_dir=checkpoint_dir, optimizer=optimizer,
+                      log_frequency=log_frequency, val_iterator=val_generator,
+                      verbose=True)

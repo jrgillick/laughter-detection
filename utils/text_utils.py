@@ -1,4 +1,5 @@
-import numpy as np, csv
+import numpy as np
+import csv
 from collections import defaultdict
 
 
@@ -6,16 +7,16 @@ from collections import defaultdict
 # Vocab Utils
 """
 
-PAD_SYMBOL = '###_PAD_###'  #  -> 0
-START_SYMBOL = '###_START_###'  #  -> 1
-END_SYMBOL = '###_END_###'  #  -> 2
-OOV_SYMBOL = '###_OOV_###'  #  -> 3
+PAD_SYMBOL = '###_PAD_###'  # -> 0
+START_SYMBOL = '###_START_###'  # -> 1
+END_SYMBOL = '###_END_###'  # -> 2
+OOV_SYMBOL = '###_OOV_###'  # -> 3
 
 
 def make_vocab(filepaths=None, token_fn=None, token_lists=None,
-    include_start_symbol=False, include_end_symbol=False,
-    include_oov_symbol=False, include_pad_symbol=False,
-    standard_special_symbols=False, verbose=False):
+               include_start_symbol=False, include_end_symbol=False,
+               include_oov_symbol=False, include_pad_symbol=False,
+               standard_special_symbols=False, verbose=False):
     """ Create a vocabulary dict for a dataset.
     Accepts either a list of filepaths together with a `token_fn` to read and
     tokenize the files, or a list of token_lists that have already been
@@ -33,14 +34,16 @@ def make_vocab(filepaths=None, token_fn=None, token_lists=None,
 
     # Validate args
     if bool(filepaths) and bool(token_lists):
-            raise Exception("You should only pass one of `filepaths` and `token_lists`")
+        raise Exception(
+            "You should only pass one of `filepaths` and `token_lists`")
 
     if bool(filepaths) ^ bool(token_fn):
-            raise Exception("Can't use only one of `filepaths` and `token_fn`")
+        raise Exception("Can't use only one of `filepaths` and `token_fn`")
 
-    if standard_special_symbols and not (include_start_symbol and \
-        include_end_symbol and include_oov_symbol and include_pad_symbol):
-        raise Exception("standard_special_symbols needs to include all 4 symbol.")
+    if standard_special_symbols and not (include_start_symbol and
+                                         include_end_symbol and include_oov_symbol and include_pad_symbol):
+        raise Exception(
+            "standard_special_symbols needs to include all 4 symbol.")
 
     # Initialize special symbols
     special_symbols = []
@@ -61,14 +64,15 @@ def make_vocab(filepaths=None, token_fn=None, token_lists=None,
         vocab[sym] = counter
         counter += 1
 
-    if token_lists is None: # Get tokens from filepaths and put in token_lists
+    if token_lists is None:  # Get tokens from filepaths and put in token_lists
         if verbose:
             token_lists = [token_fn(f) for f in tqdm(filepaths)]
         else:
             token_lists = [token_fn(f) for f in filepaths]
 
     # Loop through tokens and add to vocab
-    if verbose: token_lists = tqdm(token_lists)
+    if verbose:
+        token_lists = tqdm(token_lists)
 
     for sequence in token_lists:
         for token in sequence:
@@ -77,6 +81,7 @@ def make_vocab(filepaths=None, token_fn=None, token_lists=None,
                 counter += 1
 
     return vocab
+
 
 def make_reverse_vocab(vocab, default_type=str, merge_fn=None):
     # Flip the keys and values in a dict.
@@ -107,6 +112,7 @@ def make_reverse_vocab(vocab, default_type=str, merge_fn=None):
             else:
                 rv[vocab[k]] = k
     return rv
+
 
 def filter_vocab(vocab, word_list):
     # Filters a vocab dict to only words in the given word_list

@@ -1,10 +1,6 @@
 # Example usage:
 # python segment_laughter.py --input_audio_file=tst_wave.wav --output_dir=./tst_wave --save_to_textgrid=False --save_to_audio_files=True --min_length=0.2 --threshold=0.5
 
-import torch_utils
-import data_loaders
-import audio_utils
-import dataset_utils
 import configs
 import models
 import time
@@ -25,6 +21,10 @@ import scipy
 from tqdm import tqdm
 import tgt
 sys.path.append('./utils/')
+import torch_utils
+import data_loaders
+import audio_utils
+import dataset_utils
 
 sample_rate = 8000
 

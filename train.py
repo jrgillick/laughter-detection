@@ -5,11 +5,7 @@
 
 # python train.py --config=resnet_with_augmentation --batch_size=32 --checkpoint_dir=./checkpoints/resnet_aug_audioset_tst --train_on_noisy_audioset=True
 
-import torch_utils
-import data_loaders
-import audio_utils
 from functools import partial
-import dataset_utils
 import configs
 import models
 from sklearn.utils import shuffle
@@ -27,8 +23,11 @@ import pandas as pd
 from joblib import Parallel, delayed
 from tqdm import tqdm
 import warnings
-
 sys.path.append('./utils/')
+import torch_utils
+import data_loaders
+import audio_utils
+import dataset_utils
 
 warnings.filterwarnings('ignore', category=UserWarning)
 
@@ -373,6 +372,7 @@ t_files_a, a_files = dataset_utils.get_audio_files_from_transcription_files(
 t_files_b, _ = dataset_utils.get_audio_files_from_transcription_files(
     dataset_utils.get_all_transcriptions_files(train_folders, 'B'), all_audio_files)
 
+# These two lists aren't used - possibly remove?
 all_swb_train_sigs = [switchboard_train_audio_hash[k]
                       for k in switchboard_train_audio_hash if k in a_files]
 all_swb_val_sigs = [switchboard_val_audios_hash[k]
@@ -407,10 +407,11 @@ def make_dataframe_from_text_data(data_file_or_lines, h, sr=sample_rate):
     # column_names = ['offset','duration','audio_path','label']
     column_names = ['offset', 'duration', 'subsampled_offset',
                     'subsampled_duration', 'audio_path', 'label']
+    # If it's a list of lines create a DataFrame from it
     if type(data_file_or_lines) == type([]):
         #lines = [l.split('\t') for l in data_file_or_lines]
         df = pd.DataFrame(data=data_file_or_lines, columns=column_names)
-    else:
+    else: # otherwise load data from disk
         df = pd.read_csv(data_file_or_lines, sep='\t',
                          header=None, names=column_names)
     return df
@@ -490,8 +491,12 @@ while model.global_step < num_train_steps:
     #print(f"First time through: {first_time_through}")
 
     print("Preparing training set...")
+    # Create a list of list where each list is one datapoint of the form:
+    # [region start, region duration, subsampled region start, subsampled region duration, audio path, label]
+    # Note: returns a list not text because convert_to_text is set to False
     lines = make_text_dataset(t_files_a, t_files_b, a_files, num_passes=1,
                               convert_to_text=False, include_words=include_words)
+    # The second parameter - switchboard_train_audio_hash - is not used in the function
     train_df = make_dataframe_from_text_data(
         lines, switchboard_train_audio_hash, sr=sample_rate)
 

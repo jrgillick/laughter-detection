@@ -54,6 +54,7 @@ Pipfile.lock
 scripts/Development.ipynb
 scripts/train_backup.py
 
+.vscode
+env/
 
-
-
+data/icsi/*

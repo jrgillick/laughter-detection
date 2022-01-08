@@ -513,8 +513,7 @@ while model.global_step < num_train_steps:
     print(f"Number of supervised datapoints: {len(train_dataset)}")
 
     training_generator = torch.utils.data.DataLoader(
-        train_dataset, num_workers=num_workers, batch_size=batch_size, shuffle=True)
-        # collate_fn=collate_fn)
+        train_dataset, num_workers=num_workers, batch_size=batch_size, shuffle=True, collate_fn=collate_fn)
 
     run_training_loop(n_epochs=1, model=model, device=device,
                       iterator=training_generator, checkpoint_dir=checkpoint_dir, optimizer=optimizer,

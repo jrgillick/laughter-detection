@@ -217,7 +217,6 @@ class ICSILaughterDataset(torch.utils.data.Dataset):
 
     def __getitem__(self, index):
         audio_path = os.path.join(self.audio_root, self.df.audio_path[index])
-        print(audio_path)
         audio_file, _ = librosa.load(audio_path, sr=self.sr, offset=self.df.start[index], duration=self.df.duration[index])
 
         if self.subsample:
@@ -226,10 +225,13 @@ class ICSILaughterDataset(torch.utils.data.Dataset):
             offset = self.df.sub_start[index]
             duration = self.df.sub_duration[index]
 
-        X = self.feature_fn(y=audio_file, sr=self.sr,
-                           offset=offset, duration=duration)
+        # Convert audio to melspectrogram
+        S = librosa.feature.melspectrogram(audio_file, self.sr).T
+        S = librosa.amplitude_to_db(S, ref=np.max)
+        # X = self.feature_fn(y=audio_file, sr=self.sr,
+        #                    offset=offset, duration=duration)
         y = self.df.label[index]
-        return (X, y)
+        return (S, y)
     
     def _get_subsample(self, start, duration, subsample_duration):
         '''

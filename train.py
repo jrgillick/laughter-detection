@@ -35,7 +35,7 @@ learning_rate = 0.01  # Learning rate.
 decay_rate = 0.9999  # Learning rate decay per minibatch.
 min_learning_rate = 0.000001  # Minimum learning rate.
 
-sample_rate = 8000
+sample_rate = 16000
 num_train_steps = 100000
 
 parser = argparse.ArgumentParser()
@@ -243,12 +243,12 @@ def run_epoch(model, mode, device, iterator, checkpoint_dir, optimizer=None, cli
 
         val_itr = iter(val_iterator)
 
-    if mode is 'train':
+    if mode == 'train':
         if optimizer is None:
             raise Exception("Must pass Optimizer in train mode")
         model.train()
         _run_batch = _train_batch
-    elif mode is 'eval':
+    elif mode == 'eval':
         model.eval()
         _run_batch = _eval_batch
 
@@ -327,7 +327,7 @@ torch_utils.count_parameters(model)
 model.apply(torch_utils.init_weights)
 optimizer = optim.Adam(model.parameters())
 
-if os.path.exists(checkpoint_dir):
+if os.path.exists(checkpoint_dir) and os.path.isfile(os.path.join(checkpoint_dir, 'last.pth.tar')):
     torch_utils.load_checkpoint(
         checkpoint_dir+'/last.pth.tar', model, optimizer)
 else:
@@ -357,26 +357,26 @@ if supervised_spec_augment:
 ############   Do this once, keep in memory  ############
 #########################################################
 
-print("Loading switchboard audio files...")
-with open(swb_train_audio_pkl_path, "rb") as f:  # Loads all switchboard audio files
-    switchboard_train_audio_hash = pickle.load(f)
+# print("Loading switchboard audio files...")
+# with open(swb_train_audio_pkl_path, "rb") as f:  # Loads all switchboard audio files
+#     switchboard_train_audio_hash = pickle.load(f)
 
-with open(swb_val_audio_pkl_path, "rb") as f:
-    switchboard_val_audios_hash = pickle.load(f)
+# with open(swb_val_audio_pkl_path, "rb") as f:
+#     switchboard_val_audios_hash = pickle.load(f)
 
-all_audio_files = librosa.util.find_files(a_root, ext='sph')
-train_folders, val_folders, test_folders = dataset_utils.get_train_val_test_folders(
-    t_root)
-t_files_a, a_files = dataset_utils.get_audio_files_from_transcription_files(
-    dataset_utils.get_all_transcriptions_files(train_folders, 'A'), all_audio_files)
-t_files_b, _ = dataset_utils.get_audio_files_from_transcription_files(
-    dataset_utils.get_all_transcriptions_files(train_folders, 'B'), all_audio_files)
+# all_audio_files = librosa.util.find_files(a_root, ext='sph')
+# train_folders, val_folders, test_folders = dataset_utils.get_train_val_test_folders(
+#     t_root)
+# t_files_a, a_files = dataset_utils.get_audio_files_from_transcription_files(
+#     dataset_utils.get_all_transcriptions_files(train_folders, 'A'), all_audio_files)
+# t_files_b, _ = dataset_utils.get_audio_files_from_transcription_files(
+#     dataset_utils.get_all_transcriptions_files(train_folders, 'B'), all_audio_files)
 
-# These two lists aren't used - possibly remove?
-all_swb_train_sigs = [switchboard_train_audio_hash[k]
-                      for k in switchboard_train_audio_hash if k in a_files]
-all_swb_val_sigs = [switchboard_val_audios_hash[k]
-                    for k in switchboard_val_audios_hash]
+# # These two lists aren't used - possibly remove?
+# all_swb_train_sigs = [switchboard_train_audio_hash[k]
+#                       for k in switchboard_train_audio_hash if k in a_files]
+# all_swb_val_sigs = [switchboard_val_audios_hash[k]
+#                     for k in switchboard_val_audios_hash]
 
 
 def get_audios_from_text_data(data_file_or_lines, h, sr=sample_rate):
@@ -461,30 +461,31 @@ def make_noisy_audioset_text_dataset(audioset_train_files, audioset_train_labels
 ##################################################################
 ####################  Setup Validation Data  ######################
 ##################################################################
-val_df = make_dataframe_from_text_data(
-    val_data_text_path, switchboard_val_audios_hash)
+# val_df = make_dataframe_from_text_data(
+#     val_data_text_path, switchboard_val_audios_hash)
 
-val_dataset = data_loaders.SwitchBoardLaughterDataset(
-    df=val_df,
-    audios_hash=switchboard_val_audios_hash,
-    feature_fn=feature_fn,
-    batch_size=batch_size,
-    sr=sample_rate,
-    subsample=False)
+# val_dataset = data_loaders.SwitchBoardLaughterDataset(
+#     df=val_df,
+#     audios_hash=switchboard_val_audios_hash,
+#     feature_fn=feature_fn,
+#     batch_size=batch_size,
+#     sr=sample_rate,
+#     subsample=False)
 
-val_generator = torch.utils.data.DataLoader(
-    val_dataset, num_workers=0, batch_size=batch_size, shuffle=True,
-    collate_fn=collate_fn)
+# val_generator = torch.utils.data.DataLoader(
+#     val_dataset, num_workers=0, batch_size=batch_size, shuffle=True,
+#     collate_fn=collate_fn)
 
-if train_on_noisy_audioset:
-    import audio_set_loading  # from audio_set_loading import * #TODO
-    with open(audioset_noisy_train_audio_pkl_path, "rb") as f:
-        audioset_noisy_train_audios_hash = pickle.load(f)
+# if train_on_noisy_audioset:
+#     import audio_set_loading  # from audio_set_loading import * #TODO
+#     with open(audioset_noisy_train_audio_pkl_path, "rb") as f:
+#         audioset_noisy_train_audios_hash = pickle.load(f)
 
 
 ##################################################################
 #######################  Run Training Loop  ######################
 ##################################################################
+train_df = pd.read_csv('./data/icsi/train_dfs/train_df_small.csv')
 
 while model.global_step < num_train_steps:
     ################## Set up Supervised Training ##################
@@ -494,45 +495,28 @@ while model.global_step < num_train_steps:
     # Create a list of list where each list is one datapoint of the form:
     # [region start, region duration, subsampled region start, subsampled region duration, audio path, label]
     # Note: returns a list not text because convert_to_text is set to False
-    lines = make_text_dataset(t_files_a, t_files_b, a_files, num_passes=1,
-                              convert_to_text=False, include_words=include_words)
+    # lines = make_text_dataset(t_files_a, t_files_b, a_files, num_passes=1,
+    #                           convert_to_text=False, include_words=include_words)
     # The second parameter - switchboard_train_audio_hash - is not used in the function
-    train_df = make_dataframe_from_text_data(
-        lines, switchboard_train_audio_hash, sr=sample_rate)
+    # train_df = make_dataframe_from_text_data(
+    #     lines, switchboard_train_audio_hash, sr=sample_rate)
 
-    if train_on_noisy_audioset:
-        print("Training on noisy Audioset...")
-        noisy_audioset_text_lines = make_noisy_audioset_text_dataset(
-            audio_set_loading.audioset_train_files,
-            audio_set_loading.audioset_train_labels,
-            audioset_noisy_train_audios_hash)
-        noisy_audioset_train_df = make_dataframe_from_text_data(noisy_audioset_text_lines,
-                                                                audioset_noisy_train_audios_hash, sr=sample_rate)
-        train_df = noisy_audioset_train_df
-        train_dataset = data_loaders.SwitchBoardLaughterDataset(
-            df=train_df,
-            audios_hash=audioset_noisy_train_audios_hash,
-            feature_fn=augmented_feature_fn,
-            batch_size=batch_size,
-            sr=sample_rate,
-            subsample=True)
 
-    else:
-        train_dataset = data_loaders.SwitchBoardLaughterDataset(
-            df=train_df,
-            audios_hash=switchboard_train_audio_hash,
-            feature_fn=augmented_feature_fn,
-            batch_size=batch_size,
-            sr=sample_rate,
-            subsample=True)
+    train_dataset = data_loaders.ICSILaughterDataset(
+        df=train_df,
+        audio_root=os.path.join(os.path.dirname(__file__), 'data/icsi/Signals/'),
+        feature_fn=augmented_feature_fn,
+        batch_size=batch_size,
+        sr=sample_rate,
+        subsample=False)
 
     print(f"Number of supervised datapoints: {len(train_dataset)}")
 
     training_generator = torch.utils.data.DataLoader(
-        train_dataset, num_workers=num_workers, batch_size=batch_size, shuffle=True,
-        collate_fn=collate_fn)
+        train_dataset, num_workers=num_workers, batch_size=batch_size, shuffle=True)
+        # collate_fn=collate_fn)
 
     run_training_loop(n_epochs=1, model=model, device=device,
                       iterator=training_generator, checkpoint_dir=checkpoint_dir, optimizer=optimizer,
-                      log_frequency=log_frequency, val_iterator=val_generator,
+                      log_frequency=log_frequency, val_iterator=training_generator,
                       verbose=True)

@@ -6,6 +6,7 @@ import dataset_utils
 import audio_utils
 from joblib import Parallel, delayed
 import pandas as pd
+import os
 
 
 class AudioDataset(torch.utils.data.Dataset):
@@ -188,6 +189,57 @@ class SwitchBoardLaughterDataset(torch.utils.data.Dataset):
                             offset=offset, duration=duration)
         y = self.df.label[index]
         return (X, y)
+
+
+
+class ICSILaughterDataset(torch.utils.data.Dataset):
+    ''' 
+    Adapted SwitchBoardLaughterDataset-class
+    '''
+    def __init__(self, audio_root, df, feature_fn, sr, batch_size, subsample=True):
+        # For training, we should set subsample to True, for val/testing, set to false
+        # When subsample is False, we use the data in 'subsampled_offset/duration' every time
+        # When it's True, we re-subsample to get more variation in time
+
+        self.df = df
+        self.batch_size = batch_size
+        self.subsample = subsample
+        self.audio_root = audio_root
+
+        # Columns: [region start, region duration, subsampled region start, subsampled region duration, audio path, label]
+        # self.df = pd.read_csv(data_file,sep='\t',header=None,
+        #    names=['offset','duration','subsampled_offset','subsampled_duration','audio_path','label'])
+        self.feature_fn = feature_fn
+        self.sr = sr
+
+    def __len__(self):
+        return len(self.df)
+
+    def __getitem__(self, index):
+        audio_path = os.path.join(self.audio_root, self.df.audio_path[index])
+        print(audio_path)
+        audio_file, _ = librosa.load(audio_path, sr=self.sr, offset=self.df.start[index], duration=self.df.duration[index])
+
+        if self.subsample:
+            offset, duration = self._get_subsample(self.df.start[index], self.df.duration[index], 1.0)
+        else:
+            offset = self.df.sub_start[index]
+            duration = self.df.sub_duration[index]
+
+        X = self.feature_fn(y=audio_file, sr=self.sr,
+                           offset=offset, duration=duration)
+        y = self.df.label[index]
+        return (X, y)
+    
+    def _get_subsample(self, start, duration, subsample_duration):
+        '''
+        Take a segment defined by (start, duration) and return a subsample of passed duration within that region
+        '''
+        subsample_start = np.random.uniform(
+            start, start+duration-subsample_duration)
+        return subsample_start, subsample_duration
+
+
 
 
 class SwitchBoardLaughterInferenceDataset(torch.utils.data.Dataset):

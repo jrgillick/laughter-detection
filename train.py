@@ -490,12 +490,12 @@ def make_noisy_audioset_text_dataset(audioset_train_files, audioset_train_labels
 #     with open(audioset_noisy_train_audio_pkl_path, "rb") as f:
 #         audioset_noisy_train_audios_hash = pickle.load(f)
 
-data_dfs_dir = os.path.join(data_root, 'icsi/data_dfs')
+data_dfs_dir = os.path.join(data_root, 'data_dfs')
 val_df = pd.read_csv(os.path.join(data_dfs_dir, 'val_df.csv'))
 
 val_dataset = data_loaders.ICSILaughterDataset(
     df=val_df,
-    audio_root=os.path.join(data_root, 'icsi/Signals'),
+    audio_root=os.path.join(data_root, 'Signals'),
     feature_fn=augmented_feature_fn,
     batch_size=batch_size,
     sr=sample_rate,
@@ -527,7 +527,7 @@ print("Preparing training set...")
 
 train_dataset = data_loaders.ICSILaughterDataset(
     df=train_df,
-    audio_root=os.path.join(data_root, 'icsi/Signals'),
+    audio_root=os.path.join(data_root, 'Signals'),
     feature_fn=augmented_feature_fn,
     batch_size=batch_size,
     sr=sample_rate,

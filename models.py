@@ -1,7 +1,7 @@
 import numpy as np
 from torch import nn
 import torch.nn.functional as F
-
+import torch
 
 class MLPModel(nn.Module):
     def __init__(self, linear_layer_size=101*40, hid_dim1=600, hid_dim2=100, dropout_rate=0.5, filter_sizes=None):

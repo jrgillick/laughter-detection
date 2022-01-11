@@ -47,6 +47,9 @@ parser.add_argument('--config', type=str, required=True)
 # Set a directory to store model checkpoints and tensorboard. Creates a directory if doesn't exist
 parser.add_argument('--checkpoint_dir', type=str, required=True)
 
+# Set root data directory containing "Signals/<meeting_id>/<channel>.sph audio files
+parser.add_argument('--data_root', type=str, required=True)
+
 ######## OPTIONAL ARGS #########
 # Set batch size. Overrides batch_size set in the config object
 parser.add_argument('--batch_size', type=str)
@@ -77,6 +80,7 @@ args = parser.parse_args()
 
 config = configs.CONFIG_MAP[args.config]
 checkpoint_dir = args.checkpoint_dir
+data_root = args.data_root
 batch_size = int(args.batch_size or config['batch_size'])
 val_data_text_path = config['val_data_text_path']
 feature_fn = partial(config['feature_fn'], sr=sample_rate)
@@ -481,11 +485,12 @@ def make_noisy_audioset_text_dataset(audioset_train_files, audioset_train_labels
 #     with open(audioset_noisy_train_audio_pkl_path, "rb") as f:
 #         audioset_noisy_train_audios_hash = pickle.load(f)
 
-val_df = pd.read_csv('./data/icsi/data_dfs/val_df.csv')
+data_dfs_dir = os.path.join(data_root, 'icsi/data_dfs')
+val_df = pd.read_csv(os.path.join(data_dfs_dir, 'val_df.csv'))
 
 val_dataset = data_loaders.ICSILaughterDataset(
     df=val_df,
-    audio_root=os.path.join(os.path.dirname(__file__), 'data/icsi/Signals'),
+    audio_root=os.path.join(data_root, 'icsi/Signals'),
     feature_fn=augmented_feature_fn,
     batch_size=batch_size,
     sr=sample_rate,
@@ -498,37 +503,37 @@ val_generator = torch.utils.data.DataLoader(
 ##################################################################
 #######################  Run Training Loop  ######################
 ##################################################################
-train_df = pd.read_csv('./data/icsi/data_dfs/train_df.csv')
+train_df = pd.read_csv(os.path.join(data_dfs_dir, 'train_df.csv'))
 
-while model.global_step < num_train_steps:
-    ################## Set up Supervised Training ##################
-    #print(f"First time through: {first_time_through}")
+#while model.global_step < num_train_steps:
+################## Set up Supervised Training ##################
+#print(f"First time through: {first_time_through}")
 
-    print("Preparing training set...")
-    # Create a list of list where each list is one datapoint of the form:
-    # [region start, region duration, subsampled region start, subsampled region duration, audio path, label]
-    # Note: returns a list not text because convert_to_text is set to False
-    # lines = make_text_dataset(t_files_a, t_files_b, a_files, num_passes=1,
-    #                           convert_to_text=False, include_words=include_words)
-    # The second parameter - switchboard_train_audio_hash - is not used in the function
-    # train_df = make_dataframe_from_text_data(
-    #     lines, switchboard_train_audio_hash, sr=sample_rate)
+print("Preparing training set...")
+# Create a list of list where each list is one datapoint of the form:
+# [region start, region duration, subsampled region start, subsampled region duration, audio path, label]
+# Note: returns a list not text because convert_to_text is set to False
+# lines = make_text_dataset(t_files_a, t_files_b, a_files, num_passes=1,
+#                           convert_to_text=False, include_words=include_words)
+# The second parameter - switchboard_train_audio_hash - is not used in the function
+# train_df = make_dataframe_from_text_data(
+#     lines, switchboard_train_audio_hash, sr=sample_rate)
 
 
-    train_dataset = data_loaders.ICSILaughterDataset(
-        df=train_df,
-        audio_root=os.path.join(os.path.dirname(__file__), 'data/icsi/Signals'),
-        feature_fn=augmented_feature_fn,
-        batch_size=batch_size,
-        sr=sample_rate,
-        subsample=False)
+train_dataset = data_loaders.ICSILaughterDataset(
+    df=train_df,
+    audio_root=os.path.join(data_root, 'icsi/Signals'),
+    feature_fn=augmented_feature_fn,
+    batch_size=batch_size,
+    sr=sample_rate,
+    subsample=False)
 
-    print(f"Number of supervised datapoints: {len(train_dataset)}")
+print(f"Number of supervised datapoints: {len(train_dataset)}")
 
-    training_generator = torch.utils.data.DataLoader(
-        train_dataset, num_workers=num_workers, batch_size=batch_size, shuffle=True, collate_fn=collate_fn)
+training_generator = torch.utils.data.DataLoader(
+    train_dataset, num_workers=num_workers, batch_size=batch_size, shuffle=True, collate_fn=collate_fn)
 
-    run_training_loop(n_epochs=1, model=model, device=device,
-                      iterator=training_generator, checkpoint_dir=checkpoint_dir, optimizer=optimizer,
-                      log_frequency=log_frequency, val_iterator=val_generator,
-                      verbose=True)
+run_training_loop(n_epochs=1, model=model, device=device,
+                  iterator=training_generator, checkpoint_dir=checkpoint_dir, optimizer=optimizer,
+                  log_frequency=log_frequency, val_iterator=val_generator,
+                  verbose=True)

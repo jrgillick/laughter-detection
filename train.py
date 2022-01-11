@@ -423,6 +423,11 @@ def make_dataframe_from_text_data(data_file_or_lines, h, sr=sample_rate):
 
 def make_text_dataset(t_files_a, t_files_b, audio_files, num_passes=1,
                       n_processes=8, convert_to_text=True, random_seed=None, include_words=False):
+    '''
+    Inputs:
+        - t_files_a, t_files_b: List of transcription files for Person A and B
+        - audio_files: list of audio files corresponding to transcriptions in t_files_a/b (both have the same audio file)
+    '''
     # For switchboard laughter. Given a list of files in a partition (train,val, or test)
     # extract all the start and end times for laughs, and sample an equal number of negative examples.
     # When making the text dataset, store columns indicating the full start and end times of an event.

@@ -590,6 +590,10 @@ def unpack_list_of_tuples(list_of_tuples):
 
 
 def combine_list_of_lists(list_of_lists):
+    ''' 
+    Take list of list and return a flattened list
+    Flattens one layer - NOT recursively  
+    '''
     return list(itertools.chain.from_iterable(list_of_lists))
 
 
@@ -622,6 +626,9 @@ def times_overlap(start1, end1, start2, end2):
 
 
 def start_end_to_offset_duration(start, end):
+    '''
+    Turn start/end representation into offset/duration representation of a segment
+    '''
     return start, end-start
 
 

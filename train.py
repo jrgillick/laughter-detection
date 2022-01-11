@@ -321,7 +321,7 @@ print("Initializing model...")
 device = torch.device(torch_device if torch.cuda.is_available() else 'cpu')
 print("Using device", device)
 model = config['model'](dropout_rate=dropout_rate,
-                        linear_layer_size=config['linear_layer_size'], filter_sizes=config['filter_sizes'])
+                       linear_layer_size=config['linear_layer_size'], filter_sizes=config['filter_sizes'])
 model.set_device(device)
 torch_utils.count_parameters(model)
 model.apply(torch_utils.init_weights)
@@ -481,11 +481,24 @@ def make_noisy_audioset_text_dataset(audioset_train_files, audioset_train_labels
 #     with open(audioset_noisy_train_audio_pkl_path, "rb") as f:
 #         audioset_noisy_train_audios_hash = pickle.load(f)
 
+val_df = pd.read_csv('./data/icsi/data_dfs/val_df.csv')
+
+val_dataset = data_loaders.ICSILaughterDataset(
+    df=val_df,
+    audio_root=os.path.join(os.path.dirname(__file__), 'data/icsi/Signals'),
+    feature_fn=augmented_feature_fn,
+    batch_size=batch_size,
+    sr=sample_rate,
+    subsample=False)
+
+val_generator = torch.utils.data.DataLoader(
+    val_dataset, num_workers=0, batch_size=batch_size, shuffle=True,
+    collate_fn=collate_fn)
 
 ##################################################################
 #######################  Run Training Loop  ######################
 ##################################################################
-train_df = pd.read_csv('./data/icsi/train_dfs/train_df_small.csv')
+train_df = pd.read_csv('./data/icsi/data_dfs/train_df.csv')
 
 while model.global_step < num_train_steps:
     ################## Set up Supervised Training ##################
@@ -504,7 +517,7 @@ while model.global_step < num_train_steps:
 
     train_dataset = data_loaders.ICSILaughterDataset(
         df=train_df,
-        audio_root=os.path.join(os.path.dirname(__file__), 'data/icsi/Signals/'),
+        audio_root=os.path.join(os.path.dirname(__file__), 'data/icsi/Signals'),
         feature_fn=augmented_feature_fn,
         batch_size=batch_size,
         sr=sample_rate,
@@ -517,5 +530,5 @@ while model.global_step < num_train_steps:
 
     run_training_loop(n_epochs=1, model=model, device=device,
                       iterator=training_generator, checkpoint_dir=checkpoint_dir, optimizer=optimizer,
-                      log_frequency=log_frequency, val_iterator=training_generator,
+                      log_frequency=log_frequency, val_iterator=val_generator,
                       verbose=True)

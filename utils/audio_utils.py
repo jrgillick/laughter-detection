@@ -236,16 +236,17 @@ def featurize_melspec(f=None, offset=None, duration=None, y=None, sr=None,
         except:
             import pdb
             pdb.set_trace()
-    else:
-        if offset is not None and duration is not None:
-            start_sample = librosa.core.time_to_samples(offset, sr)
-            duration_in_samples = librosa.core.time_to_samples(duration, sr)
-            y = y[start_sample:start_sample+duration_in_samples]
+    # Removed else case as only subsampled data is passed to this function from dataloader
+    # else:
+    #     if offset is not None and duration is not None:
+    #         start_sample = librosa.core.time_to_samples(offset, sr)
+    #         duration_in_samples = librosa.core.time_to_samples(duration, sr)
+    #         y = y[start_sample:start_sample+duration_in_samples]
 
     if augment_fn is not None:
         y = augment_fn(y)
     
-    S = librosa.feature.melspectrogram(y, sr, hop_length=hop_length, pad_mode='empty').T
+    S = librosa.feature.melspectrogram(y, sr, hop_length=hop_length).T
     S = librosa.amplitude_to_db(S, ref=np.max)
     if spec_augment_fn is not None:
         S = spec_augment_fn(S)

@@ -192,6 +192,25 @@ class SwitchBoardLaughterDataset(torch.utils.data.Dataset):
 
 
 
+class SwitchBoardLaughterInferenceDataset(torch.utils.data.Dataset):
+    def __init__(self, audio_path, feature_fn, sr=8000, n_frames=44):
+        self.audio_path = audio_path
+        self.n_frames = n_frames
+        self.feature_fn = feature_fn
+        self.sr = sr
+        self.n_frames = n_frames
+
+        self.y, _ = librosa.load(audio_path, sr=sr)
+        self.features = feature_fn(y=self.y, sr=self.sr)
+
+    def __len__(self):
+        return len(self.features)-self.n_frames
+
+    def __getitem__(self, index):
+        # return None for labels
+        return (self.features[index:index+self.n_frames], None)
+
+
 class ICSILaughterDataset(torch.utils.data.Dataset):
     ''' 
     Adapted SwitchBoardLaughterDataset-class
@@ -217,7 +236,6 @@ class ICSILaughterDataset(torch.utils.data.Dataset):
 
     def __getitem__(self, index):
         audio_path = os.path.join(self.audio_root, self.df.audio_path[index])
-        audio_file, _ = librosa.load(audio_path, sr=self.sr, offset=self.df.start[index], duration=self.df.duration[index])
 
         if self.subsample:
             offset, duration = self._get_subsample(self.df.start[index], self.df.duration[index], 1.0)
@@ -225,13 +243,12 @@ class ICSILaughterDataset(torch.utils.data.Dataset):
             offset = self.df.sub_start[index]
             duration = self.df.sub_duration[index]
 
+        audio_file, _ = librosa.load(audio_path, sr=self.sr, offset=offset, duration=duration)
         # Convert audio to melspectrogram
-        S = librosa.feature.melspectrogram(audio_file, self.sr).T
-        S = librosa.amplitude_to_db(S, ref=np.max)
-        # X = self.feature_fn(y=audio_file, sr=self.sr,
-        #                    offset=offset, duration=duration)
+        X = self.feature_fn(y=audio_file, sr=self.sr,
+                           offset=offset, duration=duration)
         y = self.df.label[index]
-        return (S, y)
+        return (X, y)
     
     def _get_subsample(self, start, duration, subsample_duration):
         '''
@@ -240,27 +257,6 @@ class ICSILaughterDataset(torch.utils.data.Dataset):
         subsample_start = np.random.uniform(
             start, start+duration-subsample_duration)
         return subsample_start, subsample_duration
-
-
-
-
-class SwitchBoardLaughterInferenceDataset(torch.utils.data.Dataset):
-    def __init__(self, audio_path, feature_fn, sr=8000, n_frames=44):
-        self.audio_path = audio_path
-        self.n_frames = n_frames
-        self.feature_fn = feature_fn
-        self.sr = sr
-        self.n_frames = n_frames
-
-        self.y, _ = librosa.load(audio_path, sr=sr)
-        self.features = feature_fn(y=self.y, sr=self.sr)
-
-    def __len__(self):
-        return len(self.features)-self.n_frames
-
-    def __getitem__(self, index):
-        # return None for labels
-        return (self.features[index:index+self.n_frames], None)
 
 
 class AudioBatchDataset(torch.utils.data.Dataset):

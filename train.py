@@ -51,6 +51,10 @@ parser.add_argument('--checkpoint_dir', type=str, required=True)
 parser.add_argument('--data_root', type=str, required=True)
 
 ######## OPTIONAL ARGS #########
+# Directory containing the Dataframes for train, val, test data
+# These dataframes contain the segment information for speech/laughter segments
+parser.add_argument('--data_dfs_dir', type=str, default='data_dfs') 
+
 # Set batch size. Overrides batch_size set in the config object
 parser.add_argument('--batch_size', type=str)
 
@@ -81,6 +85,7 @@ args = parser.parse_args()
 config = configs.CONFIG_MAP[args.config]
 checkpoint_dir = args.checkpoint_dir
 data_root = args.data_root
+data_dfs_dir = args.data_dfs_dir
 batch_size = int(args.batch_size or config['batch_size'])
 val_data_text_path = config['val_data_text_path']
 feature_fn = partial(config['feature_fn'], sr=sample_rate)
@@ -490,8 +495,8 @@ def make_noisy_audioset_text_dataset(audioset_train_files, audioset_train_labels
 #     with open(audioset_noisy_train_audio_pkl_path, "rb") as f:
 #         audioset_noisy_train_audios_hash = pickle.load(f)
 
-data_dfs_dir = os.path.join(data_root, 'data_dfs')
-val_df = pd.read_csv(os.path.join(data_dfs_dir, 'val_df.csv'))
+data_dfs_path = os.path.join(data_root, data_dfs_dir)
+val_df = pd.read_csv(os.path.join(data_dfs_path, 'val_df.csv'))
 
 val_dataset = data_loaders.ICSILaughterDataset(
     df=val_df,
@@ -508,7 +513,8 @@ val_generator = torch.utils.data.DataLoader(
 ##################################################################
 #######################  Run Training Loop  ######################
 ##################################################################
-train_df = pd.read_csv(os.path.join(data_dfs_dir, 'train_df.csv'))
+train_df = pd.read_csv(os.path.join(data_dfs_path, 'train_df.csv'))
+
 
 #while model.global_step < num_train_steps:
 ################## Set up Supervised Training ##################

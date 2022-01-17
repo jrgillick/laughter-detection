@@ -6,6 +6,7 @@
 # python train.py --config=resnet_with_augmentation --batch_size=32 --checkpoint_dir=./checkpoints/resnet_aug_audioset_tst --train_on_noisy_audioset=True
 
 from functools import partial
+import time
 import configs
 import models
 from sklearn.utils import shuffle
@@ -544,7 +545,21 @@ print(f"Number of supervised datapoints: {len(train_dataset)}")
 training_generator = torch.utils.data.DataLoader(
     train_dataset, num_workers=num_workers, batch_size=batch_size, shuffle=True, collate_fn=collate_fn)
 
-run_training_loop(n_epochs=1, model=model, device=device,
-                  iterator=training_generator, checkpoint_dir=checkpoint_dir, optimizer=optimizer,
-                  log_frequency=log_frequency, val_iterator=val_generator,
-                  verbose=True)
+start_time = time.time()
+num_of_its = 1
+for i in range(0,num_of_its):
+    sig, label = next(iter(training_generator))
+    print(f'Signal batch shape: {sig.size()}')
+    print(f"Lables batch shape: {label.size()}")
+    print(f"Label of first signal in batch: {label[0]}")
+
+exec_time = start_time - time.time()
+print(f'Execution took for {num_of_its} batches: {exec_time}s')
+print(f'Average time per batch (size: {batch_size}): {exec_time/float(num_of_its)}') 
+
+
+
+# run_training_loop(n_epochs=1, model=model, device=device,
+#                   iterator=training_generator, checkpoint_dir=checkpoint_dir, optimizer=optimizer,
+#                   log_frequency=log_frequency, val_iterator=val_generator,
+#                   verbose=True)

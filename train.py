@@ -331,7 +331,7 @@ print("Initializing model...")
 device = torch.device(torch_device if torch.cuda.is_available() else 'cpu')
 print("Using device", device)
 model = config['model'](dropout_rate=dropout_rate,
-                       linear_layer_size=config['linear_layer_size'], filter_sizes=config['filter_sizes'])
+                        linear_layer_size=config['linear_layer_size'], filter_sizes=config['filter_sizes'])
 model.set_device(device)
 torch_utils.count_parameters(model)
 model.apply(torch_utils.init_weights)
@@ -545,19 +545,27 @@ print(f"Number of supervised datapoints: {len(train_dataset)}")
 training_generator = torch.utils.data.DataLoader(
     train_dataset, num_workers=num_workers, batch_size=batch_size, shuffle=True, collate_fn=collate_fn)
 
-start_time = time.time()
-num_of_its = 1
-for i in range(0,num_of_its):
-    sig, label = next(iter(training_generator))
-    print(f'Signal batch shape: {sig.size()}')
-    print(f"Lables batch shape: {label.size()}")
-    print(f"Label of first signal in batch: {label[0]}")
 
-exec_time = start_time - time.time()
-print(f'Execution took for {num_of_its} batches: {exec_time}s')
-print(f'Average time per batch (size: {batch_size}): {exec_time/float(num_of_its)}') 
+def time_dataloading(iterations):
+    '''
+    Evaluate the time it takes to load data from the dataloader
+    The number of iterations means how many batches will be fetched from the dataloader
+    '''
+    start_time = time.time()
+    num_of_its = iterations
+    for i in range(0, num_of_its):
+        sig, label = next(iter(training_generator))
+        print(f'Signal batch shape: {sig.shape}')
+        print(f"Label of first signal in batch: {label[0]}")
+
+    exec_time = time.time() - start_time
+    print(f'num_of_workers: {num_workers}')
+    print(f'Execution took for {num_of_its} batches: {exec_time}s')
+    print(
+        f'Average time per batch (size: {batch_size}): {exec_time/float(num_of_its)}')
 
 
+time_dataloading(5)
 
 # run_training_loop(n_epochs=1, model=model, device=device,
 #                   iterator=training_generator, checkpoint_dir=checkpoint_dir, optimizer=optimizer,

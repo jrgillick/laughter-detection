@@ -1,0 +1,2828 @@
+<!-- 
+
+This file contains all the preambles of meetings concatenated together
+and wrapped in a Meetings tag.
+
+-->
+
+<Meetings>
+
+<Meeting Session="Bdb001" DateTimeStamp="2001-02-16-1000" Version="1" VersionDate="Dec 11 2002">
+
+  <Preamble>
+    <Notes>
+      fe008 joined towards end of meeting.
+    </Notes>
+    <Channels>
+      <Channel Name="chan1" Mic="s1" Transmission="w1" Gain="8" AudioFile="chan1.sph"/>
+      <Channel Name="chan2" Mic="s1" Transmission="w1" Gain="8" AudioFile="chan2.sph"/>
+      <Channel Name="chan3" Mic="s1" Transmission="w1" Gain="8" AudioFile="chan3.sph"/>
+      <Channel Name="chan4" Mic="s1" Transmission="w1" Gain="8" AudioFile="chan4.sph"/>
+      <Channel Name="chan6" Mic="c2" Transmission="u1" Gain="8" AudioFile="chan6.sph"/>
+      <Channel Name="chan7" Mic="c2" Transmission="u1" Gain="8" AudioFile="chan7.sph"/>
+      <Channel Name="chan8" Mic="s1" Transmission="j1" Gain="11" AudioFile="chan8.sph"/>
+      <Channel Name="chanB" Mic="s1" Transmission="j1" Gain="11" AudioFile="chanB.sph"/>
+      <Channel Name="chanC" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanC.sph"/>
+      <Channel Name="chanD" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanD.sph"/>
+      <Channel Name="chanE" Mic="c2" Transmission="u1" Gain="8" AudioFile="chanE.sph"/>
+      <Channel Name="chanF" Mic="c2" Transmission="u1" Gain="8" AudioFile="chanF.sph"/>
+    </Channels>
+    <Participants DB="icsi1.spk">
+      <Participant Name="mn017" Channel="chan1"/>
+      <Participant Name="me001" Channel="chan2"/>
+      <Participant Name="me011" Channel="chan3"/>
+      <Participant Name="me018" Channel="chan4"/>
+      <Participant Name="fe008" Channel="chan8"/>
+      <Participant Name="fe016" Channel="chanB"/>
+    </Participants>
+  </Preamble>
+</Meeting>
+
+<Meeting Session="Bed002" DateTimeStamp="2001-02-05-1500" Version="1" VersionDate="Dec 11 2002">
+
+  <Preamble>
+    <Notes>
+      me011 left early (11 minutes into the meeting).
+   fe004 arrived late (15.5 minutes into the meeting),
+   and did not read digits.
+   
+   Channel 3 mic was on, lying on the table, but unused.
+   
+   Channel 8 had a huge amount of static noise toward the
+   latter part of the meeting.  (Andrea mic)
+   
+   Laptop presentation.
+   
+   Some Discourse highlights:
+   Nice me010 / mn015 interaction at minute 22-22:26
+   (misunderstanding and clarification)
+   Nice me010 / mn015 overlapping/duetting
+   minute 26:26-27:14
+    </Notes>
+    <Channels>
+      <Channel Name="chan0" Mic="l1" Transmission="w1" Gain="8" AudioFile="chan0.sph"/>
+      <Channel Name="chan1" Mic="s1" Transmission="w1" Gain="8" AudioFile="chan1.sph"/>
+      <Channel Name="chan2" Mic="s1" Transmission="w1" Gain="8" AudioFile="chan2.sph"/>
+      <Channel Name="chan4" Mic="s1" Transmission="w1" Gain="8" AudioFile="chan4.sph"/>
+      <Channel Name="chan6" Mic="c2" Transmission="u1" Gain="8" AudioFile="chan6.sph"/>
+      <Channel Name="chan7" Mic="c2" Transmission="u1" Gain="8" AudioFile="chan7.sph"/>
+      <Channel Name="chan8" Mic="a1" Transmission="j1" Gain="11" AudioFile="chan8.sph"/>
+      <Channel Name="chanB" Mic="p1" Transmission="j1" Gain="11" AudioFile="chanB.sph"/>
+      <Channel Name="chanC" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanC.sph"/>
+      <Channel Name="chanD" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanD.sph"/>
+      <Channel Name="chanE" Mic="c2" Transmission="u1" Gain="8" AudioFile="chanE.sph"/>
+      <Channel Name="chanF" Mic="c2" Transmission="u1" Gain="8" AudioFile="chanF.sph"/>
+    </Channels>
+    <Participants DB="icsi1.spk">
+      <Participant Name="me011" Channel="chan0"/>
+      <Participant Name="mn015" Channel="chan1"/>
+      <Participant Name="me010" Channel="chan2"/>
+      <Participant Name="fe004" Channel="chan4"/>
+      <Participant Name="me003" Channel="chan8"/>
+      <Participant Name="me012" Channel="chanB"/>
+    </Participants>
+  </Preamble>
+</Meeting>
+
+<Meeting Session="Bed003" DateTimeStamp="2001-02-12-1500" Version="1" VersionDate="Dec 11 2002">
+
+  <Preamble>
+    <Notes>
+      First 38.911 seconds of recording is blank on all channels.
+   
+   No digits recorded.
+   Gain may be too high.
+   Powerpoint presentation.
+   
+   fe016 recorded the meeting and is heard, unmiked, at the beginning.
+   She is not a regular participant in this meeting.
+    </Notes>
+    <Channels>
+      <Channel Name="chan1" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan1.sph"/>
+      <Channel Name="chan2" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan2.sph"/>
+      <Channel Name="chan3" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan3.sph"/>
+      <Channel Name="chan4" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan4.sph"/>
+      <Channel Name="chan6" Mic="c2" Transmission="u1" Gain="8" AudioFile="chan6.sph"/>
+      <Channel Name="chan7" Mic="c2" Transmission="u1" Gain="8" AudioFile="chan7.sph"/>
+      <Channel Name="chanC" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanC.sph"/>
+      <Channel Name="chanD" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanD.sph"/>
+      <Channel Name="chanE" Mic="c2" Transmission="u1" Gain="8" AudioFile="chanE.sph"/>
+      <Channel Name="chanF" Mic="c2" Transmission="u1" Gain="8" AudioFile="chanF.sph"/>
+    </Channels>
+    <Participants DB="icsi1.spk">
+      <Participant Name="mn015" Channel="chan1"/>
+      <Participant Name="me003" Channel="chan2"/>
+      <Participant Name="me012" Channel="chan3"/>
+      <Participant Name="fe004" Channel="chan4"/>
+      <Participant Name="fe016"/>
+    </Participants>
+  </Preamble>
+</Meeting>
+
+<Meeting Session="Bed004" DateTimeStamp="2001-02-26-1500" Version="1" VersionDate="Dec 11 2002">
+
+  <Preamble>
+    <Notes>
+      me010 arrives at 6:29.
+   mn015, me003, me012 read digits at beginning
+   of meeting
+   laptop presentation
+   PZM 4 was turned about 90 degrees (holder broken)
+   fe016 (recorded meeting) talking in background at beginning,
+   not regular participant in meeting and not miked
+   
+   In addition to fe016, when she sets up the meeting, there are
+   two other voices, on the tape recording played:  fe046 and fe903.
+   
+   The main speakers are off-mike more often in this meeting than in
+   other meetings.  The utterances are transcribed to the extent possible
+   but sometimes not fully audible:
+   1) fe016: instructions
+   2) Wizard and Subject on the tape-recorded data which gets played
+   3) mn015: when he has his mike half off for unknown reasons for
+   a couple of utterances
+   4) me010: for several utterances before putting on his mike
+   5) me003: when his mike cuts out at 41:23
+   
+   Body of the meeting:
+   0:16 to 2:42 digits
+   3:26 to 6:29 social discussion while they wait for PI to arrive.
+   9:50 to 22:26 mn015: plays recording from wizard data collection
+   20:42 to end of meeting me003's progress so far in developing the
+   data representation
+    </Notes>
+    <Channels>
+      <Channel Name="chan1" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan1.sph"/>
+      <Channel Name="chan2" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan2.sph"/>
+      <Channel Name="chan3" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan3.sph"/>
+      <Channel Name="chan4" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan4.sph"/>
+      <Channel Name="chan6" Mic="c2" Transmission="u1" Gain="8" AudioFile="chan6.sph"/>
+      <Channel Name="chan7" Mic="c2" Transmission="u1" Gain="8" AudioFile="chan7.sph"/>
+      <Channel Name="chanC" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanC.sph"/>
+      <Channel Name="chanD" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanD.sph"/>
+      <Channel Name="chanE" Mic="c2" Transmission="u1" Gain="8" AudioFile="chanE.sph"/>
+      <Channel Name="chanF" Mic="c2" Transmission="u1" Gain="8" AudioFile="chanF.sph"/>
+    </Channels>
+    <Participants DB="icsi1.spk">
+      <Participant Name="me003" Channel="chan1"/>
+      <Participant Name="me010" Channel="chan2"/>
+      <Participant Name="me012" Channel="chan3"/>
+      <Participant Name="mn015" Channel="chan4"/>
+      <Participant Name="fe016"/>
+      <Participant Name="fe046"/>
+      <Participant Name="fe903"/>
+    </Participants>
+  </Preamble>
+</Meeting>
+
+<Meeting Session="Bed005" DateTimeStamp="2001-03-12-1500" Version="1" VersionDate="Dec 11 2002">
+
+  <Preamble>
+    <Notes>
+      PZM4 was out of its styrofoam holder.
+   me010 did not read digits.
+   
+   Channel 2 (mn015) has a lot of distortion.
+   
+   Meeting actually ends at 1 hour 3 minutes, i.e., at 16:03
+   rather than 16:11.
+    </Notes>
+    <Channels>
+      <Channel Name="chan0" Mic="c1" Transmission="w1" Gain="9" AudioFile="chan0.sph"/>
+      <Channel Name="chan1" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan1.sph"/>
+      <Channel Name="chan2" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan2.sph"/>
+      <Channel Name="chan3" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan3.sph"/>
+      <Channel Name="chan4" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan4.sph"/>
+      <Channel Name="chan5" Mic="c1" Transmission="w1" Gain="9" AudioFile="chan5.sph"/>
+      <Channel Name="chan6" Mic="c2" Transmission="u1" Gain="9" AudioFile="chan6.sph"/>
+      <Channel Name="chan7" Mic="c2" Transmission="u1" Gain="9" AudioFile="chan7.sph"/>
+      <Channel Name="chanC" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanC.sph"/>
+      <Channel Name="chanD" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanD.sph"/>
+      <Channel Name="chanE" Mic="c2" Transmission="u1" Gain="9" AudioFile="chanE.sph"/>
+      <Channel Name="chanF" Mic="c2" Transmission="u1" Gain="9" AudioFile="chanF.sph"/>
+    </Channels>
+    <Participants DB="icsi1.spk">
+      <Participant Name="me003" Channel="chan0"/>
+      <Participant Name="me010" Channel="chan1"/>
+      <Participant Name="mn015" Channel="chan2"/>
+      <Participant Name="me012" Channel="chan3"/>
+      <Participant Name="fe004" Channel="chan4"/>
+      <Participant Name="mn036" Channel="chan5"/>
+    </Participants>
+  </Preamble>
+</Meeting>
+
+<Meeting Session="Bed006" DateTimeStamp="2001-03-19-1500" Version="1" VersionDate="Dec 11 2002">
+
+  <Preamble>
+    <Notes>
+      - No digits in this meeting.
+   - Two new participants: fe046 and me045
+    </Notes>
+    <Channels>
+      <Channel Name="chan0" Mic="c1" Transmission="w1" Gain="9" AudioFile="chan0.sph"/>
+      <Channel Name="chan1" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan1.sph"/>
+      <Channel Name="chan2" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan2.sph"/>
+      <Channel Name="chan3" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan3.sph"/>
+      <Channel Name="chan4" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan4.sph"/>
+      <Channel Name="chan5" Mic="c1" Transmission="w1" Gain="9" AudioFile="chan5.sph"/>
+      <Channel Name="chan6" Mic="c2" Transmission="u1" Gain="9" AudioFile="chan6.sph"/>
+      <Channel Name="chan7" Mic="c2" Transmission="u1" Gain="9" AudioFile="chan7.sph"/>
+      <Channel Name="chanA" Mic="s1" Transmission="j1" Gain="7" AudioFile="chanA.sph"/>
+      <Channel Name="chanC" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanC.sph"/>
+      <Channel Name="chanD" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanD.sph"/>
+      <Channel Name="chanE" Mic="c2" Transmission="u1" Gain="9" AudioFile="chanE.sph"/>
+      <Channel Name="chanF" Mic="c2" Transmission="u1" Gain="9" AudioFile="chanF.sph"/>
+    </Channels>
+    <Participants DB="icsi1.spk">
+      <Participant Name="mn036" Channel="chan0"/>
+      <Participant Name="me003" Channel="chan1"/>
+      <Participant Name="mn015" Channel="chan2"/>
+      <Participant Name="fe046" Channel="chan3"/>
+      <Participant Name="me045" Channel="chan4"/>
+      <Participant Name="me012" Channel="chan5"/>
+      <Participant Name="fe004" Channel="chanA"/>
+    </Participants>
+  </Preamble>
+</Meeting>
+
+<Meeting Session="Bed008" DateTimeStamp="2001-04-23-1600" Version="1" VersionDate="Dec 11 2002">
+
+  <Preamble>
+    <Notes>
+      Channel 4 (me012) not turned on until 5:43 into the meeting;
+   that means that digits on chan 4 were read with mike turned off.
+   
+   Channel 2 (me010) mike cuts out at 1:02:50 (at point noted in
+   transcript)
+   
+   Channel 5 (mn015) mike cuts out at 1:06:40 (at point noted in
+   transcript)
+   
+   Discussion continues, unmiked and untranscribed, for some time beyond
+   this point. Since Channel 2 and Channel 5 are major participants in the
+   discussion and cannot be reliably heard from the other close channels,
+   it seems wise to truncate this meeting at 1:02:50.
+    </Notes>
+    <Channels>
+      <Channel Name="chan0" Mic="c1" Transmission="w1" Gain="9" AudioFile="chan0.sph"/>
+      <Channel Name="chan2" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan2.sph"/>
+      <Channel Name="chan3" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan3.sph"/>
+      <Channel Name="chan4" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan4.sph"/>
+      <Channel Name="chan5" Mic="c1" Transmission="w1" Gain="9" AudioFile="chan5.sph"/>
+      <Channel Name="chan6" Mic="c2" Transmission="u1" Gain="9" AudioFile="chan6.sph"/>
+      <Channel Name="chan7" Mic="c2" Transmission="u1" Gain="9" AudioFile="chan7.sph"/>
+      <Channel Name="chanC" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanC.sph"/>
+      <Channel Name="chanD" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanD.sph"/>
+      <Channel Name="chanE" Mic="c2" Transmission="u1" Gain="9" AudioFile="chanE.sph"/>
+      <Channel Name="chanF" Mic="c2" Transmission="u1" Gain="9" AudioFile="chanF.sph"/>
+    </Channels>
+    <Participants DB="icsi1.spk">
+      <Participant Name="me045" Channel="chan0"/>
+      <Participant Name="me010" Channel="chan2"/>
+      <Participant Name="me003" Channel="chan3"/>
+      <Participant Name="me012" Channel="chan4"/>
+      <Participant Name="mn015" Channel="chan5"/>
+    </Participants>
+  </Preamble>
+</Meeting>
+
+<Meeting Session="Bed009" DateTimeStamp="2001-04-30-1600" Version="1" VersionDate="Dec 11 2002">
+
+  <Preamble>
+    <Notes>
+      End of meeting (and transcription) is at 53 min. 14 sec.,
+   which is 30 seconds before end of recordings.
+   
+   Potential problem with a loose jack on channel 8.
+    </Notes>
+    <Channels>
+      <Channel Name="chan0" Mic="c1" Transmission="w1" Gain="9" AudioFile="chan0.sph"/>
+      <Channel Name="chan1" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan1.sph"/>
+      <Channel Name="chan2" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan2.sph"/>
+      <Channel Name="chan3" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan3.sph"/>
+      <Channel Name="chan4" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan4.sph"/>
+      <Channel Name="chan5" Mic="c1" Transmission="w1" Gain="9" AudioFile="chan5.sph"/>
+      <Channel Name="chan6" Mic="c2" Transmission="u1" Gain="9" AudioFile="chan6.sph"/>
+      <Channel Name="chan7" Mic="c2" Transmission="u1" Gain="9" AudioFile="chan7.sph"/>
+      <Channel Name="chan8" Mic="u1" Transmission="j1" Gain="11" AudioFile="chan8.sph"/>
+      <Channel Name="chanC" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanC.sph"/>
+      <Channel Name="chanD" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanD.sph"/>
+      <Channel Name="chanE" Mic="c2" Transmission="u1" Gain="9" AudioFile="chanE.sph"/>
+      <Channel Name="chanF" Mic="c2" Transmission="u1" Gain="9" AudioFile="chanF.sph"/>
+    </Channels>
+    <Participants DB="icsi1.spk">
+      <Participant Name="mn048" Channel="chan0"/>
+      <Participant Name="mn015" Channel="chan1"/>
+      <Participant Name="me012" Channel="chan2"/>
+      <Participant Name="mn047" Channel="chan3"/>
+      <Participant Name="me003" Channel="chan4"/>
+      <Participant Name="me010" Channel="chan5"/>
+      <Participant Name="mn036" Channel="chan8"/>
+    </Participants>
+  </Preamble>
+</Meeting>
+
+<Meeting Session="Bed010" DateTimeStamp="2001-05-07-1600" Version="1" VersionDate="Dec 11 2002">
+
+  <Preamble>
+    <Notes>
+      The room was not freed up until just after 4pm, so folks started
+   their meeting during set-up.
+   They may not have read the digits due to the late start. (No digits.)
+   fe004 may have come in later than the others.
+    </Notes>
+    <Channels>
+      <Channel Name="chan0" Mic="c1" Transmission="w1" Gain="9" AudioFile="chan0.sph"/>
+      <Channel Name="chan1" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan1.sph"/>
+      <Channel Name="chan2" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan2.sph"/>
+      <Channel Name="chan3" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan3.sph"/>
+      <Channel Name="chan4" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan4.sph"/>
+      <Channel Name="chan5" Mic="c1" Transmission="w1" Gain="9" AudioFile="chan5.sph"/>
+      <Channel Name="chan6" Mic="c2" Transmission="u1" Gain="9" AudioFile="chan6.sph"/>
+      <Channel Name="chan7" Mic="c2" Transmission="u1" Gain="9" AudioFile="chan7.sph"/>
+      <Channel Name="chan9" Mic="u1" Transmission="j1" Gain="7" AudioFile="chan9.sph"/>
+      <Channel Name="chanC" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanC.sph"/>
+      <Channel Name="chanD" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanD.sph"/>
+      <Channel Name="chanE" Mic="c2" Transmission="u1" Gain="9" AudioFile="chanE.sph"/>
+      <Channel Name="chanF" Mic="c2" Transmission="u1" Gain="9" AudioFile="chanF.sph"/>
+    </Channels>
+    <Participants DB="icsi1.spk">
+      <Participant Name="mn036" Channel="chan0"/>
+      <Participant Name="me045" Channel="chan1"/>
+      <Participant Name="me010" Channel="chan2"/>
+      <Participant Name="me003" Channel="chan3"/>
+      <Participant Name="mn015" Channel="chan4"/>
+      <Participant Name="fe004" Channel="chan5"/>
+      <Participant Name="me012" Channel="chan9"/>
+    </Participants>
+  </Preamble>
+</Meeting>
+
+<Meeting Session="Bed011" DateTimeStamp="2001-05-14-1600" Version="1" VersionDate="Dec 11 2002">
+
+  <Preamble>
+    <Notes>
+      The recording volume seems to have been too high on several channels.
+   Distortion whenever various people laugh.  In addition,
+   me010's channel gets distortion everytime he stresses a word.
+   
+   Channel 5 (mn036) is either improperly adjusted, or his mike is off.
+   
+   Channel A (fe004) malfunctions at 7 min., 26, and from
+   then on, she is heard only on Channel E and is transcribed
+   as "unmiked" - if she is heard at all - starting with minute 33.
+   (She seems to have a cold, judging from voice quality.)
+   
+   Only fe046 and fn050 read digits.
+    </Notes>
+    <Channels>
+      <Channel Name="chan0" Mic="c1" Transmission="w1" Gain="9" AudioFile="chan0.sph"/>
+      <Channel Name="chan1" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan1.sph"/>
+      <Channel Name="chan2" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan2.sph"/>
+      <Channel Name="chan3" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan3.sph"/>
+      <Channel Name="chan4" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan4.sph"/>
+      <Channel Name="chan5" Mic="c1" Transmission="w1" Gain="9" AudioFile="chan5.sph"/>
+      <Channel Name="chan6" Mic="c2" Transmission="u1" Gain="9" AudioFile="chan6.sph"/>
+      <Channel Name="chan7" Mic="c2" Transmission="u1" Gain="9" AudioFile="chan7.sph"/>
+      <Channel Name="chanA" Mic="p1" Transmission="j1" Gain="7" AudioFile="chanA.sph"/>
+      <Channel Name="chanC" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanC.sph"/>
+      <Channel Name="chanD" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanD.sph"/>
+      <Channel Name="chanE" Mic="c2" Transmission="u1" Gain="9" AudioFile="chanE.sph"/>
+      <Channel Name="chanF" Mic="c2" Transmission="u1" Gain="9" AudioFile="chanF.sph"/>
+    </Channels>
+    <Participants DB="icsi1.spk">
+      <Participant Name="fn050" Channel="chan0" Seat="7"/>
+      <Participant Name="me045" Channel="chan1" Seat="9"/>
+      <Participant Name="mn015" Channel="chan2" Seat="5"/>
+      <Participant Name="me010" Channel="chan3" Seat="1"/>
+      <Participant Name="fe046" Channel="chan4" Seat="2"/>
+      <Participant Name="mn036" Channel="chan5" Seat="8"/>
+      <Participant Name="fe004" Channel="chanA" Seat="3"/>
+    </Participants>
+  </Preamble>
+</Meeting>
+
+<Meeting Session="Bed012" DateTimeStamp="2001-05-22-1530" Version="1" VersionDate="Dec 11 2002">
+
+  <Preamble>
+    <Notes>
+      me012 came in at about 4pm (turned on his mic when came in).
+   
+   No digits read.
+   
+   Meeting actually starts at 1 min. 22 sec., so there's no transcription
+   before this point.
+   Meeting actually ends at 43 min. 22 sec.  Close-talking mikes
+   are turned off at that point, so transcription stops.
+   
+   Channel 1 (me012) has a lot of fumbling noises on the mike, as
+   if constantly readjusting it.
+    </Notes>
+    <Channels>
+      <Channel Name="chan1" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan1.sph"/>
+      <Channel Name="chan2" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan2.sph"/>
+      <Channel Name="chan3" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan3.sph"/>
+      <Channel Name="chan4" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan4.sph"/>
+      <Channel Name="chan6" Mic="c2" Transmission="u1" Gain="9" AudioFile="chan6.sph"/>
+      <Channel Name="chan7" Mic="c2" Transmission="u1" Gain="9" AudioFile="chan7.sph"/>
+      <Channel Name="chanC" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanC.sph"/>
+      <Channel Name="chanD" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanD.sph"/>
+      <Channel Name="chanE" Mic="c2" Transmission="u1" Gain="9" AudioFile="chanE.sph"/>
+      <Channel Name="chanF" Mic="c2" Transmission="u1" Gain="9" AudioFile="chanF.sph"/>
+    </Channels>
+    <Participants DB="icsi1.spk">
+      <Participant Name="me012" Channel="chan1"/>
+      <Participant Name="mn015" Channel="chan2"/>
+      <Participant Name="me003" Channel="chan3"/>
+      <Participant Name="fn050" Channel="chan4"/>
+    </Participants>
+  </Preamble>
+</Meeting>
+
+<Meeting Session="Bed013" DateTimeStamp="2001-06-07-1315" Version="1" VersionDate="Dec 11 2002">
+
+  <Preamble>
+    <Notes>
+      No digits read.
+   fe004 arrived late.
+   Channel 0 (fe004) seems to have been recorded at too low a
+   volume, or else not well adjusted (not near her mouth).
+   Channel 5 was on and recording, but not worn by anyone.
+   
+   Channel 4 has a lot of breaths.  At the initial part, there
+   is also a lot of microphone saturation.  May have been
+   recorded at too high of a volume.
+   Coughing on both Channel 0 and Channel 4 at numerous
+   points.
+   
+   Linguistic notes - this meeting contains a lot of nonce "ish"
+   words (is this meeting culture for this group?); also
+   "cognitive linguistic-y" and "construction grammar-ally".
+   It also has a lot of humor and feigning of various
+   emotions for humorous effect.
+   Discourse notes - these people fill in each other's utterances,
+   and leave fill-in gaps for others to do so more often than
+   most meetings.
+   Extra noises - lots of squeaking in the backgroun on mn015's
+   channel when he is writing on the white board.
+    </Notes>
+    <Channels>
+      <Channel Name="chan0" Mic="c1" Transmission="w1" Gain="9" AudioFile="chan0.sph"/>
+      <Channel Name="chan1" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan1.sph"/>
+      <Channel Name="chan2" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan2.sph"/>
+      <Channel Name="chan3" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan3.sph"/>
+      <Channel Name="chan4" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan4.sph"/>
+      <Channel Name="chan6" Mic="c2" Transmission="u1" Gain="9" AudioFile="chan6.sph"/>
+      <Channel Name="chan7" Mic="c2" Transmission="u1" Gain="9" AudioFile="chan7.sph"/>
+      <Channel Name="chanC" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanC.sph"/>
+      <Channel Name="chanD" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanD.sph"/>
+      <Channel Name="chanE" Mic="c2" Transmission="u1" Gain="9" AudioFile="chanE.sph"/>
+      <Channel Name="chanF" Mic="c2" Transmission="u1" Gain="9" AudioFile="chanF.sph"/>
+    </Channels>
+    <Participants DB="icsi1.spk">
+      <Participant Name="fe004" Channel="chan0" Seat="9"/>
+      <Participant Name="me003" Channel="chan1" Seat="2"/>
+      <Participant Name="fn050" Channel="chan2" Seat="3"/>
+      <Participant Name="mn015" Channel="chan3" Seat="6"/>
+      <Participant Name="me045" Channel="chan4" Seat="7"/>
+    </Participants>
+  </Preamble>
+</Meeting>
+
+<Meeting Session="Bed014" DateTimeStamp="2001-06-14-1600" Version="1" VersionDate="Dec 11 2002">
+
+  <Preamble>
+    <Notes>
+      Power flickered sometime during meeting.
+   
+   No digits read.
+   All mikes except channel 0 are active at 1 min 30 sec.
+   Channel 0's mike becomes active at 6 min 34 sec.
+   All microphones seem to be shut off between 38:14 and 38:20, for
+   some unknown reason.
+   At minute 52 almost all mikes are shut off except channel 1,
+   but conversation continues, imperfectly audible from the
+   non-close mikes.
+    </Notes>
+    <Channels>
+      <Channel Name="chan0" Mic="c1" Transmission="w1" Gain="9" AudioFile="chan0.sph"/>
+      <Channel Name="chan1" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan1.sph"/>
+      <Channel Name="chan2" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan2.sph"/>
+      <Channel Name="chan3" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan3.sph"/>
+      <Channel Name="chan4" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan4.sph"/>
+      <Channel Name="chan5" Mic="c1" Transmission="w1" Gain="9" AudioFile="chan5.sph"/>
+      <Channel Name="chan6" Mic="c2" Transmission="u1" Gain="9" AudioFile="chan6.sph"/>
+      <Channel Name="chan7" Mic="c2" Transmission="u1" Gain="9" AudioFile="chan7.sph"/>
+      <Channel Name="chanC" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanC.sph"/>
+      <Channel Name="chanD" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanD.sph"/>
+      <Channel Name="chanE" Mic="c2" Transmission="u1" Gain="9" AudioFile="chanE.sph"/>
+      <Channel Name="chanF" Mic="c2" Transmission="u1" Gain="9" AudioFile="chanF.sph"/>
+    </Channels>
+    <Participants DB="icsi1.spk">
+      <Participant Name="me045" Channel="chan0" Seat="4"/>
+      <Participant Name="fe004" Channel="chan1" Seat="6"/>
+      <Participant Name="me010" Channel="chan2" Seat="7"/>
+      <Participant Name="me003" Channel="chan3" Seat="3"/>
+      <Participant Name="mn015" Channel="chan4" Seat="5"/>
+      <Participant Name="fn050" Channel="chan5" Seat="2"/>
+    </Participants>
+  </Preamble>
+</Meeting>
+
+<Meeting Session="Bed015" DateTimeStamp="2001-06-18-1400" Version="1" VersionDate="Dec 11 2002">
+
+  <Preamble>
+    <Notes>
+      No digits read.
+   
+   Linguistics - some great meta-level sentences at 17:41, which might
+   be confusing for automatic mapping (if the quotation marks aren't
+   used).  At 21:15, me045 uses "quote" for marking a meta-level
+   sentence.
+   
+   fe004 comments on discomfort from microphone (find "hate").
+   
+   Discussion of stress, accent, topic, and info structure, and
+   how they're approaching these topics in their project (at 26:00).
+   
+   Interesting novel compound at 28:40 -
+   "[C]ertain W_H words bring - you know, sort of automatically
+   focus in a, you know, "I don't know the identity of this thing"
+   kind of way on certain elements."
+   
+   Interesting separated words:  "you're hopeless-uh-ly lost anyways"
+   "hypothe-thetically".
+   
+   Novel words: "sort of speech act-y information structure-y"
+   "some of them seem more inherently static, O_K, like a container
+   or sort of support-ish."
+   
+   Many quoted utterances have disfluencies embedded in them. For
+   example, "the big - the tall dark man", you know, "walked into the
+   room".
+   
+   Rhetorical reversal causes amusing exchange 57:30 to 59:00.
+   
+   Comment on the transcript, at 1 hr. 2 min., "I'm *sure gonna
+   read the *transcript of *this one. So. {laugh} But the, uh, -
+   {laugh} But it's too bad that we don't have a camera. You know,
+   all the pointing is gonna be lost."
+   
+   Humorous reference at 1 hr. 4 minutes to something they
+   can't discuss on tape.
+   
+   Complex utterance, "But whatever. Yeah, no, no, no no. No, by
+   all means, right. Uh, sure." at 1:11:31.
+    </Notes>
+    <Channels>
+      <Channel Name="chan0" Mic="c1" Transmission="w1" Gain="9" AudioFile="chan0.sph"/>
+      <Channel Name="chan1" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan1.sph"/>
+      <Channel Name="chan2" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan2.sph"/>
+      <Channel Name="chan3" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan3.sph"/>
+      <Channel Name="chan4" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan4.sph"/>
+      <Channel Name="chan5" Mic="c1" Transmission="w1" Gain="9" AudioFile="chan5.sph"/>
+      <Channel Name="chan6" Mic="c2" Transmission="u1" Gain="9" AudioFile="chan6.sph"/>
+      <Channel Name="chan7" Mic="c2" Transmission="u1" Gain="9" AudioFile="chan7.sph"/>
+      <Channel Name="chanC" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanC.sph"/>
+      <Channel Name="chanD" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanD.sph"/>
+      <Channel Name="chanE" Mic="c2" Transmission="u1" Gain="9" AudioFile="chanE.sph"/>
+      <Channel Name="chanF" Mic="c2" Transmission="u1" Gain="9" AudioFile="chanF.sph"/>
+    </Channels>
+    <Participants DB="icsi1.spk">
+      <Participant Name="mn015" Channel="chan0" Seat="5"/>
+      <Participant Name="me003" Channel="chan1" Seat="2"/>
+      <Participant Name="me010" Channel="chan2" Seat="6"/>
+      <Participant Name="fn050" Channel="chan3" Seat="3"/>
+      <Participant Name="me045" Channel="chan4" Seat="7"/>
+      <Participant Name="fe004" Channel="chan5" Seat="4"/>
+    </Participants>
+  </Preamble>
+</Meeting>
+
+<Meeting Session="Bed016" DateTimeStamp="2001-06-21-1620" Version="1" VersionDate="Dec 11 2002">
+
+  <Preamble>
+    <Notes>
+      Simultaneous digits.
+   
+   They play part of a tape recording, transcribed without close mike.
+   This involves three additional voices: unknown subject fe901,
+   computer-imitating voice xe902, and fe046.
+    </Notes>
+    <Channels>
+      <Channel Name="chan1" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan1.sph"/>
+      <Channel Name="chan2" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan2.sph"/>
+      <Channel Name="chan3" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan3.sph"/>
+      <Channel Name="chan4" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan4.sph"/>
+      <Channel Name="chan5" Mic="c1" Transmission="w1" Gain="11" AudioFile="chan5.sph"/>
+      <Channel Name="chan6" Mic="c2" Transmission="u1" Gain="9" AudioFile="chan6.sph"/>
+      <Channel Name="chan7" Mic="c2" Transmission="u1" Gain="9" AudioFile="chan7.sph"/>
+      <Channel Name="chan9" Mic="s1" Transmission="j1" Gain="7" AudioFile="chan9.sph"/>
+      <Channel Name="chanC" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanC.sph"/>
+      <Channel Name="chanD" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanD.sph"/>
+      <Channel Name="chanE" Mic="c2" Transmission="u1" Gain="9" AudioFile="chanE.sph"/>
+      <Channel Name="chanF" Mic="c2" Transmission="u1" Gain="9" AudioFile="chanF.sph"/>
+    </Channels>
+    <Participants DB="icsi1.spk">
+      <Participant Name="fe004" Channel="chan1" Seat="6"/>
+      <Participant Name="fn050" Channel="chan2" Seat="7"/>
+      <Participant Name="mn015" Channel="chan3" Seat="5"/>
+      <Participant Name="me003" Channel="chan4" Seat="3"/>
+      <Participant Name="me010" Channel="chan5" Seat="1"/>
+      <Participant Name="me045" Channel="chan9" Seat="4"/>
+      <Participant Name="fe016"/>
+      <Participant Name="fe901"/>
+      <Participant Name="fe046"/>
+      <Participant Name="xe902"/>
+    </Participants>
+  </Preamble>
+</Meeting>
+
+<Meeting Session="Bed017" DateTimeStamp="2001-07-19-1600" Version="1" VersionDate="Dec 11 2002">
+
+  <Preamble>
+    <Notes>
+      No digits read.
+   
+   Channel 5 seems to be shut off (or extremely badly adjusted)
+   from 9 min. 38 sec. to 12 min. 47 sec.  During that time,
+   me010 is only marginally audible.
+   At 27 min., 53 sec., fe004's "OK" is audible from other,
+   but not on her own close-talking, microphones.
+   
+   Discourse notes -
+   Very funny non-serious "argument" at the beginning of this one.
+   Prior to minute 2, lots of surprise reactions (to images on screen).
+    </Notes>
+    <Channels>
+      <Channel Name="chan0" Mic="c1" Transmission="w1" Gain="9" AudioFile="chan0.sph"/>
+      <Channel Name="chan1" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan1.sph"/>
+      <Channel Name="chan2" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan2.sph"/>
+      <Channel Name="chan3" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan3.sph"/>
+      <Channel Name="chan4" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan4.sph"/>
+      <Channel Name="chan5" Mic="c1" Transmission="w1" Gain="9" AudioFile="chan5.sph"/>
+      <Channel Name="chan6" Mic="c2" Transmission="u1" Gain="9" AudioFile="chan6.sph"/>
+      <Channel Name="chan7" Mic="c2" Transmission="u1" Gain="9" AudioFile="chan7.sph"/>
+      <Channel Name="chanC" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanC.sph"/>
+      <Channel Name="chanD" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanD.sph"/>
+      <Channel Name="chanE" Mic="c2" Transmission="u1" Gain="9" AudioFile="chanE.sph"/>
+      <Channel Name="chanF" Mic="c2" Transmission="u1" Gain="9" AudioFile="chanF.sph"/>
+    </Channels>
+    <Participants DB="icsi1.spk">
+      <Participant Name="fe004" Channel="chan0" Seat="4"/>
+      <Participant Name="mn015" Channel="chan1" Seat="7"/>
+      <Participant Name="mn059" Channel="chan2" Seat="6"/>
+      <Participant Name="fn050" Channel="chan3" Seat="5"/>
+      <Participant Name="me003" Channel="chan4" Seat="3"/>
+      <Participant Name="me010" Channel="chan5" Seat="2"/>
+    </Participants>
+  </Preamble>
+</Meeting>
+
+<Meeting Session="Bmr001" DateTimeStamp="2000-02-02-1700" Version="1" VersionDate="Dec 11 2002">
+
+  <Preamble>
+    <Notes>
+      There is lots of noise on channel 8.
+   
+   The reported gain is just a place-holder, since the original gain was not
+   recorded.
+
+   There are some audio issues in this meeting which resulted in channel 0
+   being a bit longer than the other channels. As a result, the channels are
+   not exactly synchronized.
+
+    </Notes>
+    <Channels>
+      <Channel Name="chan0" Mic="l1" Transmission="w1" Gain="8" AudioFile="chan0.sph"/>
+      <Channel Name="chan1" Mic="s1" Transmission="w1" Gain="8" AudioFile="chan1.sph"/>
+      <Channel Name="chan6" Mic="c2" Transmission="u1" Gain="8" AudioFile="chan6.sph"/>
+      <Channel Name="chan7" Mic="c2" Transmission="u1" Gain="8" AudioFile="chan7.sph"/>
+      <Channel Name="chan8" Mic="u2" Transmission="j1" Gain="8" AudioFile="chan8.sph"/>
+      <Channel Name="chanC" Mic="u3" Transmission="j1" Gain="8" AudioFile="chanC.sph"/>
+      <Channel Name="chanD" Mic="u3" Transmission="j1" Gain="8" AudioFile="chanD.sph"/>
+      <Channel Name="chanE" Mic="c2" Transmission="u1" Gain="8" AudioFile="chanE.sph"/>
+      <Channel Name="chanF" Mic="c2" Transmission="u1" Gain="8" AudioFile="chanF.sph"/>
+    </Channels>
+    <Participants DB="icsi1.spk">
+      <Participant Name="me013" Channel="chan0"/>
+      <Participant Name="me011" Channel="chan1"/>
+      <Participant Name="me025" Channel="chan8"/>
+    </Participants>
+  </Preamble>
+</Meeting>
+
+<Meeting Session="Bmr002" DateTimeStamp="2000-02-16-1600" Version="1" VersionDate="Dec 11 2002">
+
+  <Preamble>
+    <Notes>
+      - Just after 440 seconds in, there is some garbling of buffers for about
+   10 s, which was accompanied by some logged error messages.
+   Although recording recovered and continued, the downsampler state may
+   have been skewed, so that the synchronization between channels
+   changes across this boundary.
+   - At the very beginning, me025 is barely audible on channel 2, but can
+   be heard on other mikes.  He becomes strong on channel 2 from
+   "any way you like", at just before minute 1.
+   - Channel 8 (the earmount) was recording but unused.
+   - Between about times 20:30 and 22:30, fe008 leaves the meeting room
+   (still wearing her head-mounted microphone), goes down to her office on
+   a lower floor, collects some books and papers, and returns to the meeting
+   room. Doors opening and closing, keycards beeping, etc. are all clearly
+   audible during this trip.
+    </Notes>
+    <Channels>
+      <Channel Name="chan0" Mic="l1" Transmission="w1" Gain="8" AudioFile="chan0.sph"/>
+      <Channel Name="chan1" Mic="s1" Transmission="w1" Gain="8" AudioFile="chan1.sph"/>
+      <Channel Name="chan2" Mic="s1" Transmission="w1" Gain="8" AudioFile="chan2.sph"/>
+      <Channel Name="chan3" Mic="s1" Transmission="w1" Gain="8" AudioFile="chan3.sph"/>
+      <Channel Name="chan6" Mic="c2" Transmission="u1" Gain="8" AudioFile="chan6.sph"/>
+      <Channel Name="chan7" Mic="c2" Transmission="u1" Gain="8" AudioFile="chan7.sph"/>
+      <Channel Name="chanC" Mic="u3" Transmission="j1" Gain="8" AudioFile="chanC.sph"/>
+      <Channel Name="chanD" Mic="u3" Transmission="j1" Gain="8" AudioFile="chanD.sph"/>
+      <Channel Name="chanE" Mic="c2" Transmission="u1" Gain="8" AudioFile="chanE.sph"/>
+      <Channel Name="chanF" Mic="c2" Transmission="u1" Gain="8" AudioFile="chanF.sph"/>
+    </Channels>
+    <Participants DB="icsi1.spk">
+      <Participant Name="me022" Channel="chan0"/>
+      <Participant Name="me011" Channel="chan1"/>
+      <Participant Name="me025" Channel="chan2"/>
+      <Participant Name="fe008" Channel="chan3"/>
+    </Participants>
+  </Preamble>
+</Meeting>
+
+<Meeting Session="Bmr003" DateTimeStamp="2000-03-08-1530" Version="1" VersionDate="Dec 11 2002">
+
+  <Preamble>
+    <Notes>
+      - no driver glitches reported to console.
+   - apparently me022 had the microphone around his neck.
+   - me904 is audible briefly at the very beginning, unmiked.
+   Not a regular meeting participant.
+   - some comparative data regarding acoustics of wearing mike around
+   the neck are found in the opening minutes, as some people start
+   out wearing it around the neck and then switch.  me011 says he'd
+   prefer that people wear them on their heads, but that some people have
+   complained about comfort.  Brief discussion about headset design.
+   - some comparative acoustics of having the lights on or off, and
+   of having the fan on or off (around minute 10-12).
+   - at around 43 minutes, me028 walks to the kitchen across the hall
+   from the meeting room and gets a cup of water from the water cooler
+   there (while still wearing his microphone headset).
+   
+   - Linguistic notes.
+   At 10:46, me011 (channel 0) has an utterance which sounds
+   fine, but involves "a .. ad-hoc", i.e., shows that the rule of "a"
+   before word beginning with vowel is not absolute, or that it can at
+   least be bent in presence of pause after the article.
+   Novel expressions:
+   At 14:56, me022: "That's sort of a beside-the-point point."
+   At 28:16, me028: "A little double-blind-ear kind of thing." (based on
+   "double blind" studies)
+   
+   - this was a very informative and amusing meeting, which also included
+   a lot of odd vocalizations (e.g., singing schwa, intentionally speaking
+   in monotone), and challenges to the set up (e.g., turning the
+   head back and forth with mike neck-mounted, putting pages on top
+   of the PZM, bobbing up and down above the PZM while talking, turning
+   fans and lights off and on), and changes in vocal quality (mock
+   delight, sarcasm, mock worry, etc.), and lots of kidding around
+   (while still getting a lot done).  Excellent audio quality.  This
+   would be a good one for drawing examples from for demos.
+    </Notes>
+    <Channels>
+      <Channel Name="chan0" Mic="l1" Transmission="w1" Gain="8" AudioFile="chan0.sph"/>
+      <Channel Name="chan1" Mic="s1" Transmission="w1" Gain="8" AudioFile="chan1.sph"/>
+      <Channel Name="chan2" Mic="s1" Transmission="w1" Gain="8" AudioFile="chan2.sph"/>
+      <Channel Name="chan3" Mic="s1" Transmission="w1" Gain="8" AudioFile="chan3.sph"/>
+      <Channel Name="chan4" Mic="s1" Transmission="w1" Gain="8" AudioFile="chan4.sph"/>
+      <Channel Name="chan6" Mic="c2" Transmission="u1" Gain="8" AudioFile="chan6.sph"/>
+      <Channel Name="chan7" Mic="c2" Transmission="u1" Gain="8" AudioFile="chan7.sph"/>
+      <Channel Name="chan8" Mic="u3" Transmission="j1" Gain="8" AudioFile="chan8.sph"/>
+      <Channel Name="chan9" Mic="u3" Transmission="j1" Gain="8" AudioFile="chan9.sph"/>
+      <Channel Name="chanE" Mic="c2" Transmission="u1" Gain="8" AudioFile="chanE.sph"/>
+      <Channel Name="chanF" Mic="c2" Transmission="u1" Gain="8" AudioFile="chanF.sph"/>
+    </Channels>
+    <Participants DB="icsi1.spk">
+      <Participant Name="me011" Channel="chan0"/>
+      <Participant Name="me025" Channel="chan1"/>
+      <Participant Name="me022" Channel="chan2"/>
+      <Participant Name="me028" Channel="chan3"/>
+      <Participant Name="fe008" Channel="chan4"/>
+      <Participant Name="me904"/>
+    </Participants>
+  </Preamble>
+</Meeting>
+
+<Meeting Session="Bmr005" DateTimeStamp="2000-10-26-1440" Version="1" VersionDate="Dec 11 2002">
+
+  <Preamble>
+    <Notes>
+      me001 read digits, but didn't speak otherwise. He left early.
+   mn017 left early.
+   
+   Some transient (impulsive) noise seems to occur on channel 5.
+    </Notes>
+    <Channels>
+      <Channel Name="chan0" Mic="l1" Transmission="w1" Gain="8" AudioFile="chan0.sph"/>
+      <Channel Name="chan1" Mic="s1" Transmission="w1" Gain="8" AudioFile="chan1.sph"/>
+      <Channel Name="chan2" Mic="s1" Transmission="w1" Gain="8" AudioFile="chan2.sph"/>
+      <Channel Name="chan3" Mic="s1" Transmission="w1" Gain="8" AudioFile="chan3.sph"/>
+      <Channel Name="chan4" Mic="s1" Transmission="w1" Gain="8" AudioFile="chan4.sph"/>
+      <Channel Name="chan5" Mic="a1" Transmission="j1" Gain="9" AudioFile="chan5.sph"/>
+      <Channel Name="chan6" Mic="c2" Transmission="u1" Gain="8" AudioFile="chan6.sph"/>
+      <Channel Name="chan7" Mic="c2" Transmission="u1" Gain="8" AudioFile="chan7.sph"/>
+      <Channel Name="chan8" Mic="p1" Transmission="j1" Gain="11" AudioFile="chan8.sph"/>
+      <Channel Name="chanB" Mic="s1" Transmission="j1" Gain="11" AudioFile="chanB.sph"/>
+      <Channel Name="chanC" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanC.sph"/>
+      <Channel Name="chanD" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanD.sph"/>
+      <Channel Name="chanE" Mic="c2" Transmission="u1" Gain="8" AudioFile="chanE.sph"/>
+      <Channel Name="chanF" Mic="c2" Transmission="u1" Gain="8" AudioFile="chanF.sph"/>
+    </Channels>
+    <Participants DB="icsi1.spk">
+      <Participant Name="me018" Channel="chan0"/>
+      <Participant Name="fe008" Channel="chan1"/>
+      <Participant Name="fe016" Channel="chan2"/>
+      <Participant Name="mn005" Channel="chan3"/>
+      <Participant Name="me013" Channel="chan4"/>
+      <Participant Name="mn017" Channel="chan5"/>
+      <Participant Name="me011" Channel="chan8"/>
+      <Participant Name="me001" Channel="chanB"/>
+    </Participants>
+  </Preamble>
+</Meeting>
+
+<Meeting Session="Bmr006" DateTimeStamp="2000-11-02-1440" Version="1" VersionDate="Dec 11 2002">
+
+  <Preamble>
+    <Notes>
+      fe016 left the meeting about half-way through.
+   She did not read digits.
+    </Notes>
+    <Channels>
+      <Channel Name="chan0" Mic="l1" Transmission="w1" Gain="8" AudioFile="chan0.sph"/>
+      <Channel Name="chan1" Mic="s1" Transmission="w1" Gain="8" AudioFile="chan1.sph"/>
+      <Channel Name="chan2" Mic="s1" Transmission="w1" Gain="8" AudioFile="chan2.sph"/>
+      <Channel Name="chan3" Mic="s1" Transmission="w1" Gain="8" AudioFile="chan3.sph"/>
+      <Channel Name="chan4" Mic="s1" Transmission="w1" Gain="8" AudioFile="chan4.sph"/>
+      <Channel Name="chan6" Mic="c2" Transmission="u1" Gain="8" AudioFile="chan6.sph"/>
+      <Channel Name="chan7" Mic="c2" Transmission="u1" Gain="8" AudioFile="chan7.sph"/>
+      <Channel Name="chan9" Mic="a1" Transmission="j1" Gain="11" AudioFile="chan9.sph"/>
+      <Channel Name="chanC" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanC.sph"/>
+      <Channel Name="chanD" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanD.sph"/>
+      <Channel Name="chanE" Mic="c2" Transmission="u1" Gain="8" AudioFile="chanE.sph"/>
+      <Channel Name="chanF" Mic="c2" Transmission="u1" Gain="8" AudioFile="chanF.sph"/>
+    </Channels>
+    <Participants DB="icsi1.spk">
+      <Participant Name="me018" Channel="chan0"/>
+      <Participant Name="me011" Channel="chan1"/>
+      <Participant Name="mn005" Channel="chan2"/>
+      <Participant Name="me013" Channel="chan3"/>
+      <Participant Name="fe008" Channel="chan4"/>
+      <Participant Name="fe016" Channel="chan9"/>
+    </Participants>
+  </Preamble>
+</Meeting>
+
+<Meeting Session="Bmr007" DateTimeStamp="2000-11-09-1445" Version="1" VersionDate="Dec 11 2002">
+
+  <Preamble>
+    <Notes>
+      mn017 (channel A) left early, and did not read digits.
+    </Notes>
+    <Channels>
+      <Channel Name="chan0" Mic="l1" Transmission="w1" Gain="8" AudioFile="chan0.sph"/>
+      <Channel Name="chan1" Mic="s1" Transmission="w1" Gain="8" AudioFile="chan1.sph"/>
+      <Channel Name="chan2" Mic="s1" Transmission="w1" Gain="8" AudioFile="chan2.sph"/>
+      <Channel Name="chan3" Mic="s1" Transmission="w1" Gain="8" AudioFile="chan3.sph"/>
+      <Channel Name="chan4" Mic="s1" Transmission="w1" Gain="8" AudioFile="chan4.sph"/>
+      <Channel Name="chan6" Mic="c2" Transmission="u1" Gain="8" AudioFile="chan6.sph"/>
+      <Channel Name="chan7" Mic="c2" Transmission="u1" Gain="8" AudioFile="chan7.sph"/>
+      <Channel Name="chan8" Mic="p1" Transmission="j1" Gain="11" AudioFile="chan8.sph"/>
+      <Channel Name="chanA" Mic="u1" Transmission="j1" Gain="11" AudioFile="chanA.sph"/>
+      <Channel Name="chanB" Mic="a1" Transmission="j1" Gain="11" AudioFile="chanB.sph"/>
+      <Channel Name="chanC" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanC.sph"/>
+      <Channel Name="chanD" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanD.sph"/>
+      <Channel Name="chanE" Mic="c2" Transmission="u1" Gain="8" AudioFile="chanE.sph"/>
+      <Channel Name="chanF" Mic="c2" Transmission="u1" Gain="8" AudioFile="chanF.sph"/>
+    </Channels>
+    <Participants DB="icsi1.spk">
+      <Participant Name="me018" Channel="chan0"/>
+      <Participant Name="fe016" Channel="chan1"/>
+      <Participant Name="mn014" Channel="chan2"/>
+      <Participant Name="me013" Channel="chan3"/>
+      <Participant Name="mn005" Channel="chan4"/>
+      <Participant Name="fe008" Channel="chan8"/>
+      <Participant Name="mn017" Channel="chanA"/>
+      <Participant Name="me011" Channel="chanB"/>
+    </Participants>
+  </Preamble>
+</Meeting>
+
+<Meeting Session="Bmr008" DateTimeStamp="2000-11-30-1450" Version="1" VersionDate="Dec 11 2002">
+
+  <Preamble>
+    <Channels>
+      <Channel Name="chan0" Mic="l1" Transmission="w1" Gain="8" AudioFile="chan0.sph"/>
+      <Channel Name="chan1" Mic="s1" Transmission="w1" Gain="8" AudioFile="chan1.sph"/>
+      <Channel Name="chan2" Mic="s1" Transmission="w1" Gain="8" AudioFile="chan2.sph"/>
+      <Channel Name="chan3" Mic="s1" Transmission="w1" Gain="8" AudioFile="chan3.sph"/>
+      <Channel Name="chan4" Mic="s1" Transmission="w1" Gain="8" AudioFile="chan4.sph"/>
+      <Channel Name="chan6" Mic="c2" Transmission="u1" Gain="8" AudioFile="chan6.sph"/>
+      <Channel Name="chan7" Mic="c2" Transmission="u1" Gain="8" AudioFile="chan7.sph"/>
+      <Channel Name="chan8" Mic="a1" Transmission="j1" Gain="11" AudioFile="chan8.sph"/>
+      <Channel Name="chanC" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanC.sph"/>
+      <Channel Name="chanD" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanD.sph"/>
+      <Channel Name="chanE" Mic="c2" Transmission="u1" Gain="8" AudioFile="chanE.sph"/>
+      <Channel Name="chanF" Mic="c2" Transmission="u1" Gain="8" AudioFile="chanF.sph"/>
+    </Channels>
+    <Participants DB="icsi1.spk">
+      <Participant Name="fe016" Channel="chan0"/>
+      <Participant Name="me013" Channel="chan1"/>
+      <Participant Name="mn005" Channel="chan2"/>
+      <Participant Name="me011" Channel="chan3"/>
+      <Participant Name="me018" Channel="chan4"/>
+      <Participant Name="fe008" Channel="chan8"/>
+    </Participants>
+  </Preamble>
+</Meeting>
+
+<Meeting Session="Bmr009" DateTimeStamp="2000-12-07-1450" Version="1" VersionDate="Dec 11 2002">
+
+  <Preamble>
+    <Notes>
+      On this recording, fe016's volume vascillates quite a lot, as she
+   moves her head. Most likely, she wore the headset around her neck for
+   this one.  Many examples, if anyone wants a sense of the variation in
+   acoustic volume from this factor.
+    </Notes>
+    <Channels>
+      <Channel Name="chan0" Mic="l1" Transmission="w1" Gain="8" AudioFile="chan0.sph"/>
+      <Channel Name="chan1" Mic="s1" Transmission="w1" Gain="8" AudioFile="chan1.sph"/>
+      <Channel Name="chan2" Mic="s1" Transmission="w1" Gain="8" AudioFile="chan2.sph"/>
+      <Channel Name="chan3" Mic="s1" Transmission="w1" Gain="8" AudioFile="chan3.sph"/>
+      <Channel Name="chan4" Mic="s1" Transmission="w1" Gain="8" AudioFile="chan4.sph"/>
+      <Channel Name="chan6" Mic="c2" Transmission="u1" Gain="8" AudioFile="chan6.sph"/>
+      <Channel Name="chan7" Mic="c2" Transmission="u1" Gain="8" AudioFile="chan7.sph"/>
+      <Channel Name="chanC" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanC.sph"/>
+      <Channel Name="chanD" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanD.sph"/>
+      <Channel Name="chanE" Mic="c2" Transmission="u1" Gain="8" AudioFile="chanE.sph"/>
+      <Channel Name="chanF" Mic="c2" Transmission="u1" Gain="8" AudioFile="chanF.sph"/>
+    </Channels>
+    <Participants DB="icsi1.spk">
+      <Participant Name="me011" Channel="chan0"/>
+      <Participant Name="fe008" Channel="chan1"/>
+      <Participant Name="me013" Channel="chan2"/>
+      <Participant Name="fe016" Channel="chan3"/>
+      <Participant Name="mn005" Channel="chan4"/>
+    </Participants>
+  </Preamble>
+</Meeting>
+
+<Meeting Session="Bmr010" DateTimeStamp="2001-01-11-1440" Version="1" VersionDate="Dec 11 2002">
+
+  <Preamble>
+    <Notes>
+      mn017 left at 29:00. He did not read digits.
+   
+   A number of microphone spikes on channel 8.
+   
+   fe905 enters briefly to deliver some paperwork.
+   She is recorded unmiked, but is not a regular meeting participant.
+   
+   In this meeting there was a lot of discussion of recording
+   methods, and then reports by mn017 and by mn005.
+   
+   Interesting discourse events include one remarkably dense
+   section of overlap and one remarkably long embedded utterance,
+   both noted in transcript.
+    </Notes>
+    <Channels>
+      <Channel Name="chan0" Mic="l1" Transmission="w1" Gain="8" AudioFile="chan0.sph"/>
+      <Channel Name="chan1" Mic="s1" Transmission="w1" Gain="8" AudioFile="chan1.sph"/>
+      <Channel Name="chan2" Mic="s1" Transmission="w1" Gain="8" AudioFile="chan2.sph"/>
+      <Channel Name="chan3" Mic="s1" Transmission="w1" Gain="8" AudioFile="chan3.sph"/>
+      <Channel Name="chan4" Mic="s1" Transmission="w1" Gain="8" AudioFile="chan4.sph"/>
+      <Channel Name="chan6" Mic="c2" Transmission="u1" Gain="8" AudioFile="chan6.sph"/>
+      <Channel Name="chan7" Mic="c2" Transmission="u1" Gain="8" AudioFile="chan7.sph"/>
+      <Channel Name="chan8" Mic="s1" Transmission="j1" Gain="11" AudioFile="chan8.sph"/>
+      <Channel Name="chanB" Mic="s1" Transmission="j1" Gain="11" AudioFile="chanB.sph"/>
+      <Channel Name="chanC" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanC.sph"/>
+      <Channel Name="chanD" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanD.sph"/>
+      <Channel Name="chanE" Mic="c2" Transmission="u1" Gain="8" AudioFile="chanE.sph"/>
+      <Channel Name="chanF" Mic="c2" Transmission="u1" Gain="8" AudioFile="chanF.sph"/>
+    </Channels>
+    <Participants DB="icsi1.spk">
+      <Participant Name="me011" Channel="chan0"/>
+      <Participant Name="mn017" Channel="chan1"/>
+      <Participant Name="mn014" Channel="chan2"/>
+      <Participant Name="mn005" Channel="chan3"/>
+      <Participant Name="me018" Channel="chan4"/>
+      <Participant Name="fe008" Channel="chan8"/>
+      <Participant Name="me013" Channel="chanB"/>
+      <Participant Name="fe905"/>
+    </Participants>
+  </Preamble>
+</Meeting>
+
+<Meeting Session="Bmr011" DateTimeStamp="2001-01-25-1430" Version="1" VersionDate="Dec 11 2002">
+
+  <Preamble>
+    <Channels>
+      <Channel Name="chan0" Mic="l1" Transmission="w1" Gain="8" AudioFile="chan0.sph"/>
+      <Channel Name="chan1" Mic="s1" Transmission="w1" Gain="8" AudioFile="chan1.sph"/>
+      <Channel Name="chan2" Mic="s1" Transmission="w1" Gain="8" AudioFile="chan2.sph"/>
+      <Channel Name="chan3" Mic="s1" Transmission="w1" Gain="8" AudioFile="chan3.sph"/>
+      <Channel Name="chan4" Mic="s1" Transmission="w1" Gain="8" AudioFile="chan4.sph"/>
+      <Channel Name="chan5" Mic="p1" Transmission="j1" Gain="6" AudioFile="chan5.sph"/>
+      <Channel Name="chan6" Mic="c2" Transmission="u1" Gain="8" AudioFile="chan6.sph"/>
+      <Channel Name="chan7" Mic="c2" Transmission="u1" Gain="8" AudioFile="chan7.sph"/>
+      <Channel Name="chan8" Mic="u1" Transmission="j1" Gain="11" AudioFile="chan8.sph"/>
+      <Channel Name="chanB" Mic="a1" Transmission="j1" Gain="11" AudioFile="chanB.sph"/>
+      <Channel Name="chanC" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanC.sph"/>
+      <Channel Name="chanD" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanD.sph"/>
+      <Channel Name="chanE" Mic="c2" Transmission="u1" Gain="8" AudioFile="chanE.sph"/>
+      <Channel Name="chanF" Mic="c2" Transmission="u1" Gain="8" AudioFile="chanF.sph"/>
+    </Channels>
+    <Participants DB="icsi1.spk">
+      <Participant Name="fe016" Channel="chan0"/>
+      <Participant Name="me013" Channel="chan1"/>
+      <Participant Name="mn014" Channel="chan2"/>
+      <Participant Name="mn005" Channel="chan3"/>
+      <Participant Name="me018" Channel="chan4"/>
+      <Participant Name="me001" Channel="chan5"/>
+      <Participant Name="fe008" Channel="chan8"/>
+      <Participant Name="me011" Channel="chanB"/>
+    </Participants>
+  </Preamble>
+</Meeting>
+
+<Meeting Session="Bmr012" DateTimeStamp="2001-02-01-1500" Version="1" VersionDate="Dec 11 2002">
+
+  <Preamble>
+    <Notes>
+      mn017 left early. mn009 read digits on his mic.
+   mn014 did not have a head-worn mic, but hardly spoke at all.
+   fe016 left early, and did not read digits.
+    </Notes>
+    <Channels>
+      <Channel Name="chan0" Mic="l1" Transmission="w1" Gain="8" AudioFile="chan0.sph"/>
+      <Channel Name="chan1" Mic="s1" Transmission="w1" Gain="8" AudioFile="chan1.sph"/>
+      <Channel Name="chan2" Mic="s1" Transmission="w1" Gain="8" AudioFile="chan2.sph"/>
+      <Channel Name="chan3" Mic="s1" Transmission="w1" Gain="8" AudioFile="chan3.sph"/>
+      <Channel Name="chan4" Mic="s1" Transmission="w1" Gain="8" AudioFile="chan4.sph"/>
+      <Channel Name="chan5" Mic="p1" Transmission="j1" Gain="6" AudioFile="chan5.sph"/>
+      <Channel Name="chan6" Mic="c2" Transmission="u1" Gain="8" AudioFile="chan6.sph"/>
+      <Channel Name="chan7" Mic="c2" Transmission="u1" Gain="8" AudioFile="chan7.sph"/>
+      <Channel Name="chan8" Mic="u1" Transmission="j1" Gain="11" AudioFile="chan8.sph"/>
+      <Channel Name="chanB" Mic="a1" Transmission="j1" Gain="11" AudioFile="chanB.sph"/>
+      <Channel Name="chanC" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanC.sph"/>
+      <Channel Name="chanD" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanD.sph"/>
+      <Channel Name="chanE" Mic="c2" Transmission="u1" Gain="8" AudioFile="chanE.sph"/>
+      <Channel Name="chanF" Mic="c2" Transmission="u1" Gain="8" AudioFile="chanF.sph"/>
+    </Channels>
+    <Participants DB="icsi1.spk">
+      <Participant Name="mn017" Channel="chan0"/>
+      <Participant Name="me013" Channel="chan1"/>
+      <Participant Name="fe016" Channel="chan2"/>
+      <Participant Name="me018" Channel="chan3"/>
+      <Participant Name="me011" Channel="chan4"/>
+      <Participant Name="me001" Channel="chan5"/>
+      <Participant Name="fe008" Channel="chan8"/>
+      <Participant Name="mn005" Channel="chanB"/>
+      <Participant Name="mn014"/>
+      <Participant Name="mn009"/>
+    </Participants>
+  </Preamble>
+</Meeting>
+
+<Meeting Session="Bmr013" DateTimeStamp="2001-02-08-1430" Version="1" VersionDate="Dec 11 2002">
+
+  <Preamble>
+    <Notes>
+      Transcription begins at 1:38 into recording.  Conversation earlier is
+   segmented, with pieces marked simply as "pre-meeting utterance",
+   during the period that the recording equipment was being set up
+   and debugged.
+    </Notes>
+    <Channels>
+      <Channel Name="chan1" Mic="s1" Transmission="w1" Gain="8" AudioFile="chan1.sph"/>
+      <Channel Name="chan2" Mic="s1" Transmission="w1" Gain="8" AudioFile="chan2.sph"/>
+      <Channel Name="chan3" Mic="s1" Transmission="w1" Gain="8" AudioFile="chan3.sph"/>
+      <Channel Name="chan4" Mic="s1" Transmission="w1" Gain="8" AudioFile="chan4.sph"/>
+      <Channel Name="chan5" Mic="a1" Transmission="j1" Gain="6" AudioFile="chan5.sph"/>
+      <Channel Name="chan6" Mic="c2" Transmission="u1" Gain="8" AudioFile="chan6.sph"/>
+      <Channel Name="chan7" Mic="c2" Transmission="u1" Gain="8" AudioFile="chan7.sph"/>
+      <Channel Name="chan8" Mic="p1" Transmission="j1" Gain="13" AudioFile="chan8.sph"/>
+      <Channel Name="chanB" Mic="u1" Transmission="j1" Gain="11" AudioFile="chanB.sph"/>
+      <Channel Name="chanC" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanC.sph"/>
+      <Channel Name="chanD" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanD.sph"/>
+      <Channel Name="chanE" Mic="c2" Transmission="u1" Gain="8" AudioFile="chanE.sph"/>
+      <Channel Name="chanF" Mic="c2" Transmission="u1" Gain="8" AudioFile="chanF.sph"/>
+    </Channels>
+    <Participants DB="icsi1.spk">
+      <Participant Name="mn014" Channel="chan1" Seat="2"/>
+      <Participant Name="fe008" Channel="chan2" Seat="1"/>
+      <Participant Name="me013" Channel="chan3" Seat="6"/>
+      <Participant Name="me018" Channel="chan4" Seat="7"/>
+      <Participant Name="me001" Channel="chan5" Seat="3"/>
+      <Participant Name="me011" Channel="chan8" Seat="8"/>
+      <Participant Name="fe016" Channel="chanB" Seat="9"/>
+    </Participants>
+  </Preamble>
+</Meeting>
+
+<Meeting Session="Bmr014" DateTimeStamp="2001-02-15-1445" Version="1" VersionDate="Dec 11 2002">
+
+  <Preamble>
+    <Notes>
+      Some spikes on channel B.
+   
+   Channel 8 and channel B seem to have been recorded at low volume.
+    </Notes>
+    <Channels>
+      <Channel Name="chan1" Mic="s1" Transmission="w1" Gain="8" AudioFile="chan1.sph"/>
+      <Channel Name="chan2" Mic="s1" Transmission="w1" Gain="8" AudioFile="chan2.sph"/>
+      <Channel Name="chan4" Mic="s1" Transmission="w1" Gain="8" AudioFile="chan4.sph"/>
+      <Channel Name="chan5" Mic="p1" Transmission="j1" Gain="11" AudioFile="chan5.sph"/>
+      <Channel Name="chan6" Mic="c2" Transmission="u1" Gain="8" AudioFile="chan6.sph"/>
+      <Channel Name="chan7" Mic="c2" Transmission="u1" Gain="8" AudioFile="chan7.sph"/>
+      <Channel Name="chan8" Mic="u1" Transmission="j1" Gain="11" AudioFile="chan8.sph"/>
+      <Channel Name="chanB" Mic="a1" Transmission="j1" Gain="11" AudioFile="chanB.sph"/>
+      <Channel Name="chanC" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanC.sph"/>
+      <Channel Name="chanD" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanD.sph"/>
+      <Channel Name="chanE" Mic="c2" Transmission="u1" Gain="8" AudioFile="chanE.sph"/>
+      <Channel Name="chanF" Mic="c2" Transmission="u1" Gain="8" AudioFile="chanF.sph"/>
+    </Channels>
+    <Participants DB="icsi1.spk">
+      <Participant Name="mn014" Channel="chan1"/>
+      <Participant Name="me018" Channel="chan2"/>
+      <Participant Name="me011" Channel="chan4"/>
+      <Participant Name="mn009" Channel="chan5"/>
+      <Participant Name="me013" Channel="chan8"/>
+      <Participant Name="fe008" Channel="chanB"/>
+    </Participants>
+  </Preamble>
+</Meeting>
+
+<Meeting Session="Bmr015" DateTimeStamp="2001-03-01-1445" Version="1" VersionDate="Dec 11 2002">
+
+  <Preamble>
+    <Channels>
+      <Channel Name="chan1" Mic="s1" Transmission="w1" Gain="8" AudioFile="chan1.sph"/>
+      <Channel Name="chan2" Mic="s1" Transmission="w1" Gain="8" AudioFile="chan2.sph"/>
+      <Channel Name="chan3" Mic="s1" Transmission="w1" Gain="8" AudioFile="chan3.sph"/>
+      <Channel Name="chan4" Mic="s1" Transmission="w1" Gain="8" AudioFile="chan4.sph"/>
+      <Channel Name="chan5" Mic="a1" Transmission="j1" Gain="7" AudioFile="chan5.sph"/>
+      <Channel Name="chan6" Mic="c2" Transmission="u1" Gain="8" AudioFile="chan6.sph"/>
+      <Channel Name="chan7" Mic="c2" Transmission="u1" Gain="8" AudioFile="chan7.sph"/>
+      <Channel Name="chan8" Mic="p1" Transmission="j1" Gain="11" AudioFile="chan8.sph"/>
+      <Channel Name="chanB" Mic="u1" Transmission="j1" Gain="11" AudioFile="chanB.sph"/>
+      <Channel Name="chanC" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanC.sph"/>
+      <Channel Name="chanD" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanD.sph"/>
+      <Channel Name="chanE" Mic="c2" Transmission="u1" Gain="8" AudioFile="chanE.sph"/>
+      <Channel Name="chanF" Mic="c2" Transmission="u1" Gain="8" AudioFile="chanF.sph"/>
+    </Channels>
+    <Participants DB="icsi1.spk">
+      <Participant Name="me013" Channel="chan1"/>
+      <Participant Name="me011" Channel="chan2"/>
+      <Participant Name="mn005" Channel="chan3"/>
+      <Participant Name="me001" Channel="chan4"/>
+      <Participant Name="mn014" Channel="chan5"/>
+      <Participant Name="fe008" Channel="chan8"/>
+      <Participant Name="me018" Channel="chanB"/>
+    </Participants>
+  </Preamble>
+</Meeting>
+
+<Meeting Session="Bmr016" DateTimeStamp="2001-03-08-1445" Version="1" VersionDate="Dec 11 2002">
+
+  <Preamble>
+    <Notes>
+      Spikes on channel B, the Andrea mic.
+   
+   First meeting where simultaneous digits were tried, but no one read full
+   digits sets.
+    </Notes>
+    <Channels>
+      <Channel Name="chan1" Mic="s1" Transmission="w1" Gain="8" AudioFile="chan1.sph"/>
+      <Channel Name="chan2" Mic="s1" Transmission="w1" Gain="8" AudioFile="chan2.sph"/>
+      <Channel Name="chan3" Mic="s1" Transmission="w1" Gain="8" AudioFile="chan3.sph"/>
+      <Channel Name="chan4" Mic="s1" Transmission="w1" Gain="8" AudioFile="chan4.sph"/>
+      <Channel Name="chan5" Mic="u1" Transmission="j1" Gain="9" AudioFile="chan5.sph"/>
+      <Channel Name="chan6" Mic="c2" Transmission="u1" Gain="8" AudioFile="chan6.sph"/>
+      <Channel Name="chan7" Mic="c2" Transmission="u1" Gain="8" AudioFile="chan7.sph"/>
+      <Channel Name="chan8" Mic="p1" Transmission="j1" Gain="11" AudioFile="chan8.sph"/>
+      <Channel Name="chanB" Mic="a1" Transmission="j1" Gain="13" AudioFile="chanB.sph"/>
+      <Channel Name="chanC" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanC.sph"/>
+      <Channel Name="chanD" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanD.sph"/>
+      <Channel Name="chanE" Mic="c2" Transmission="u1" Gain="8" AudioFile="chanE.sph"/>
+      <Channel Name="chanF" Mic="c2" Transmission="u1" Gain="8" AudioFile="chanF.sph"/>
+    </Channels>
+    <Participants DB="icsi1.spk">
+      <Participant Name="mn014" Channel="chan1"/>
+      <Participant Name="me018" Channel="chan2"/>
+      <Participant Name="me001" Channel="chan3"/>
+      <Participant Name="me011" Channel="chan4"/>
+      <Participant Name="fe008" Channel="chan5"/>
+      <Participant Name="me013" Channel="chan8"/>
+      <Participant Name="fe016" Channel="chanB"/>
+    </Participants>
+  </Preamble>
+</Meeting>
+
+<Meeting Session="Bmr018" DateTimeStamp="2001-03-22-1450" Version="1" VersionDate="Dec 11 2002">
+
+  <Preamble>
+    <Notes>
+      mn017 left early, and did not read digits.
+   
+   Channel 4 has a lot of microphone spikes; perhaps recording
+   volume was set too high.
+   
+   Channel 5 was having trouble keeping his microphone
+   adjusted.  This is discussed at 39 min., 40 sec.
+    </Notes>
+    <Channels>
+      <Channel Name="chan0" Mic="c1" Transmission="w1" Gain="10" AudioFile="chan0.sph"/>
+      <Channel Name="chan1" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan1.sph"/>
+      <Channel Name="chan2" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan2.sph"/>
+      <Channel Name="chan3" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan3.sph"/>
+      <Channel Name="chan4" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan4.sph"/>
+      <Channel Name="chan5" Mic="c1" Transmission="w1" Gain="9" AudioFile="chan5.sph"/>
+      <Channel Name="chan6" Mic="c2" Transmission="u1" Gain="9" AudioFile="chan6.sph"/>
+      <Channel Name="chan7" Mic="c2" Transmission="u1" Gain="9" AudioFile="chan7.sph"/>
+      <Channel Name="chan8" Mic="p1" Transmission="j1" Gain="11" AudioFile="chan8.sph"/>
+      <Channel Name="chanC" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanC.sph"/>
+      <Channel Name="chanD" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanD.sph"/>
+      <Channel Name="chanE" Mic="c2" Transmission="u1" Gain="9" AudioFile="chanE.sph"/>
+      <Channel Name="chanF" Mic="c2" Transmission="u1" Gain="9" AudioFile="chanF.sph"/>
+    </Channels>
+    <Participants DB="icsi1.spk">
+      <Participant Name="fe008" Channel="chan0" Seat="6"/>
+      <Participant Name="me018" Channel="chan1" Seat="3"/>
+      <Participant Name="me013" Channel="chan2" Seat="2"/>
+      <Participant Name="fe016" Channel="chan3" Seat="7"/>
+      <Participant Name="me011" Channel="chan4" Seat="9"/>
+      <Participant Name="mn017" Channel="chan5" Seat="1"/>
+      <Participant Name="me001" Channel="chan8" Seat="8"/>
+    </Participants>
+  </Preamble>
+</Meeting>
+
+<Meeting Session="Bmr019" DateTimeStamp="2001-03-29-1400" Version="1" VersionDate="Dec 11 2002">
+
+  <Preamble>
+    <Notes>
+      fe016 and mn005 arrived late. (~12min, ~15min, resp.)
+   
+   Digits were read simultaneously.  No digits by me001 (perhaps due to
+   microphone problem).  Digits transcript numbers were not read for two of the
+   speakers: L-47 for fe016 and L-42 for mn005.
+   
+   Channel 8's microphone has significant microphone noise, becoming especially
+   bad starting at 41 minutes, 46 seconds.  This is the beginning of the
+   microphone's death; after a stretch of bad noise, nothing more is heard
+   on this channel except for occasional minor noise -- no further speech,
+   laughter, etc. from the speaker (including no digits).
+    </Notes>
+    <Channels>
+      <Channel Name="chan0" Mic="c1" Transmission="w1" Gain="9" AudioFile="chan0.sph"/>
+      <Channel Name="chan1" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan1.sph"/>
+      <Channel Name="chan2" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan2.sph"/>
+      <Channel Name="chan3" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan3.sph"/>
+      <Channel Name="chan4" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan4.sph"/>
+      <Channel Name="chan5" Mic="c1" Transmission="w1" Gain="9" AudioFile="chan5.sph"/>
+      <Channel Name="chan6" Mic="c2" Transmission="u1" Gain="9" AudioFile="chan6.sph"/>
+      <Channel Name="chan7" Mic="c2" Transmission="u1" Gain="9" AudioFile="chan7.sph"/>
+      <Channel Name="chan8" Mic="u1" Transmission="j1" Gain="11" AudioFile="chan8.sph"/>
+      <Channel Name="chanA" Mic="a1" Transmission="j1" Gain="7" AudioFile="chanA.sph"/>
+      <Channel Name="chanB" Mic="s1" Transmission="j1" Gain="12" AudioFile="chanB.sph"/>
+      <Channel Name="chanC" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanC.sph"/>
+      <Channel Name="chanD" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanD.sph"/>
+      <Channel Name="chanE" Mic="c2" Transmission="u1" Gain="9" AudioFile="chanE.sph"/>
+      <Channel Name="chanF" Mic="c2" Transmission="u1" Gain="9" AudioFile="chanF.sph"/>
+    </Channels>
+    <Participants DB="icsi1.spk">
+      <Participant Name="fe016" Channel="chan0" Seat="6"/>
+      <Participant Name="me013" Channel="chan1" Seat="7"/>
+      <Participant Name="fe008" Channel="chan2" Seat="4"/>
+      <Participant Name="mn014" Channel="chan3" Seat="2"/>
+      <Participant Name="me011" Channel="chan4" Seat="9"/>
+      <Participant Name="mn017" Channel="chan5" Seat="5"/>
+      <Participant Name="me001" Channel="chan8" Seat="8"/>
+      <Participant Name="mn005" Channel="chanA" Seat="3"/>
+      <Participant Name="me026" Channel="chanB" Seat="1"/>
+    </Participants>
+  </Preamble>
+</Meeting>
+
+<Meeting Session="Bmr020" DateTimeStamp="2001-04-05-1445" Version="1" VersionDate="Dec 11 2002">
+
+  <Preamble>
+    <Notes>
+      mn017 and me001 did not read digits.
+   
+   Problems with channel 1's microphone, beginning around 15:10 - 15:20.
+   The microphone produces occasional static noise
+   until 24:26, when it becomes totally silent.  From 24:48 - 25:57,
+   mn014 is only audible in the background (not the close mike).
+   At 27:28, me011 and mn014 detect the battery problem.
+   At 27:33, there is a noise spike on mn014's close mike.
+   mn014's channel comes back on after that.
+   
+   The variations in volume on mn017's channel suggest he was
+   wearing the microphone around his neck rather than head-mounted.
+    </Notes>
+    <Channels>
+      <Channel Name="chan0" Mic="c1" Transmission="w1" Gain="9" AudioFile="chan0.sph"/>
+      <Channel Name="chan1" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan1.sph"/>
+      <Channel Name="chan2" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan2.sph"/>
+      <Channel Name="chan3" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan3.sph"/>
+      <Channel Name="chan4" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan4.sph"/>
+      <Channel Name="chan5" Mic="c1" Transmission="w1" Gain="9" AudioFile="chan5.sph"/>
+      <Channel Name="chan6" Mic="c2" Transmission="u1" Gain="9" AudioFile="chan6.sph"/>
+      <Channel Name="chan7" Mic="c2" Transmission="u1" Gain="9" AudioFile="chan7.sph"/>
+      <Channel Name="chanA" Mic="p1" Transmission="j1" Gain="7" AudioFile="chanA.sph"/>
+      <Channel Name="chanC" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanC.sph"/>
+      <Channel Name="chanD" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanD.sph"/>
+      <Channel Name="chanE" Mic="c2" Transmission="u1" Gain="9" AudioFile="chanE.sph"/>
+      <Channel Name="chanF" Mic="c2" Transmission="u1" Gain="9" AudioFile="chanF.sph"/>
+    </Channels>
+    <Participants DB="icsi1.spk">
+      <Participant Name="me011" Channel="chan0" Seat="9"/>
+      <Participant Name="mn014" Channel="chan1" Seat="2"/>
+      <Participant Name="fe008" Channel="chan2" Seat="7"/>
+      <Participant Name="me018" Channel="chan3" Seat="6"/>
+      <Participant Name="me001" Channel="chan4" Seat="8"/>
+      <Participant Name="me013" Channel="chan5" Seat="1"/>
+      <Participant Name="mn017" Channel="chanA" Seat="3"/>
+    </Participants>
+  </Preamble>
+</Meeting>
+
+<Meeting Session="Bmr021" DateTimeStamp="2001-04-26-1445" Version="1" VersionDate="Dec 11 2002">
+
+  <Preamble>
+    <Channels>
+      <Channel Name="chan0" Mic="c1" Transmission="w1" Gain="9" AudioFile="chan0.sph"/>
+      <Channel Name="chan1" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan1.sph"/>
+      <Channel Name="chan2" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan2.sph"/>
+      <Channel Name="chan3" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan3.sph"/>
+      <Channel Name="chan4" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan4.sph"/>
+      <Channel Name="chan5" Mic="c1" Transmission="w1" Gain="9" AudioFile="chan5.sph"/>
+      <Channel Name="chan6" Mic="c2" Transmission="u1" Gain="9" AudioFile="chan6.sph"/>
+      <Channel Name="chan7" Mic="c2" Transmission="u1" Gain="9" AudioFile="chan7.sph"/>
+      <Channel Name="chanC" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanC.sph"/>
+      <Channel Name="chanD" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanD.sph"/>
+      <Channel Name="chanE" Mic="c2" Transmission="u1" Gain="9" AudioFile="chanE.sph"/>
+      <Channel Name="chanF" Mic="c2" Transmission="u1" Gain="9" AudioFile="chanF.sph"/>
+    </Channels>
+    <Participants DB="icsi1.spk">
+      <Participant Name="me011" Channel="chan0" Seat="9"/>
+      <Participant Name="mn017" Channel="chan1" Seat="1"/>
+      <Participant Name="mn014" Channel="chan2" Seat="2"/>
+      <Participant Name="me001" Channel="chan3" Seat="8"/>
+      <Participant Name="me018" Channel="chan4" Seat="7"/>
+      <Participant Name="fe008" Channel="chan5" Seat="3"/>
+    </Participants>
+  </Preamble>
+</Meeting>
+
+<Meeting Session="Bmr022" DateTimeStamp="2001-05-03-1445" Version="1" VersionDate="Dec 11 2002">
+
+  <Preamble>
+    <Notes>
+      me013 left early, and did not read digits.
+    </Notes>
+    <Channels>
+      <Channel Name="chan0" Mic="c1" Transmission="w1" Gain="9" AudioFile="chan0.sph"/>
+      <Channel Name="chan1" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan1.sph"/>
+      <Channel Name="chan2" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan2.sph"/>
+      <Channel Name="chan3" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan3.sph"/>
+      <Channel Name="chan5" Mic="c1" Transmission="w1" Gain="9" AudioFile="chan5.sph"/>
+      <Channel Name="chan6" Mic="c2" Transmission="u1" Gain="9" AudioFile="chan6.sph"/>
+      <Channel Name="chan7" Mic="c2" Transmission="u1" Gain="9" AudioFile="chan7.sph"/>
+      <Channel Name="chanA" Mic="p1" Transmission="j1" Gain="7" AudioFile="chanA.sph"/>
+      <Channel Name="chanC" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanC.sph"/>
+      <Channel Name="chanD" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanD.sph"/>
+      <Channel Name="chanE" Mic="c2" Transmission="u1" Gain="9" AudioFile="chanE.sph"/>
+      <Channel Name="chanF" Mic="c2" Transmission="u1" Gain="9" AudioFile="chanF.sph"/>
+    </Channels>
+    <Participants DB="icsi1.spk">
+      <Participant Name="me011" Channel="chan0" Seat="8"/>
+      <Participant Name="me013" Channel="chan1" Seat="1"/>
+      <Participant Name="fe016" Channel="chan2" Seat="7"/>
+      <Participant Name="mn014" Channel="chan3" Seat="2"/>
+      <Participant Name="me018" Channel="chan5" Seat="6"/>
+      <Participant Name="fe008" Channel="chanA" Seat="3"/>
+    </Participants>
+  </Preamble>
+</Meeting>
+
+<Meeting Session="Bmr023" DateTimeStamp="2001-05-17-1430" Version="1" VersionDate="Dec 11 2002">
+
+  <Preamble>
+    <Notes>
+      - Meeting actually doesn't start until 1:51. Before this, the transcript
+   is somewhat incomplete, being transcribed mostly from the PZMs.
+   - Due to lack of enough digit forms, the L-138 form was
+   xeroxed and 6 participants (minus mn017) read the
+   digits in synchrony.
+   - fe016 left out some early digits when reading (laughing).
+   - mn014's wireless microphone was OK at the start of
+   the meeting but lost battery power by the end.
+   == The mic goes out at 35:43. ==
+   However he contributed almost entirely to the first half
+   of the meeting.
+   - Recording started slightly before all mics were turned on.
+   - fe008 came in slightly later than the others.
+   - mn017 left early (before digits were read).
+   - The gain on fe016's channel was much too high, so her line
+   frequently saturates when she's speaking.
+   - For the first half minute of the recording and the last
+   half minute (before people put on mics and after they
+   removed them) speech is transcribed without benefit of close mics.
+    </Notes>
+    <Channels>
+      <Channel Name="chan0" Mic="c1" Transmission="w1" Gain="9" AudioFile="chan0.sph"/>
+      <Channel Name="chan1" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan1.sph"/>
+      <Channel Name="chan2" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan2.sph"/>
+      <Channel Name="chan3" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan3.sph"/>
+      <Channel Name="chan4" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan4.sph"/>
+      <Channel Name="chan5" Mic="c1" Transmission="w1" Gain="12" AudioFile="chan5.sph"/>
+      <Channel Name="chan6" Mic="c2" Transmission="u1" Gain="9" AudioFile="chan6.sph"/>
+      <Channel Name="chan7" Mic="c2" Transmission="u1" Gain="9" AudioFile="chan7.sph"/>
+      <Channel Name="chan9" Mic="s1" Transmission="j1" Gain="11" AudioFile="chan9.sph"/>
+      <Channel Name="chanC" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanC.sph"/>
+      <Channel Name="chanD" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanD.sph"/>
+      <Channel Name="chanE" Mic="c2" Transmission="u1" Gain="9" AudioFile="chanE.sph"/>
+      <Channel Name="chanF" Mic="c2" Transmission="u1" Gain="9" AudioFile="chanF.sph"/>
+    </Channels>
+    <Participants DB="icsi1.spk">
+      <Participant Name="fe008" Channel="chan0"/>
+      <Participant Name="me001" Channel="chan1"/>
+      <Participant Name="mn017" Channel="chan2"/>
+      <Participant Name="me018" Channel="chan3"/>
+      <Participant Name="mn014" Channel="chan4"/>
+      <Participant Name="me013" Channel="chan5"/>
+      <Participant Name="fe016" Channel="chan9"/>
+    </Participants>
+  </Preamble>
+</Meeting>
+
+<Meeting Session="Bmr024" DateTimeStamp="2001-05-24-1450" Version="1" VersionDate="Dec 11 2002">
+
+  <Preamble>
+    <Notes>
+      fe016 and mn017 arrived late, left early, and
+   did not read digits.
+   fe016 enters at about 13 min, mn017 at 12:26;
+   fe016 exits at about 43 min, mn017 at 49:16.
+   Digits were read simultaneously.
+   The gain on me011's line was a little high, so he had frequent
+   clipping throughout.
+    </Notes>
+    <Channels>
+      <Channel Name="chan0" Mic="c1" Transmission="w1" Gain="9" AudioFile="chan0.sph"/>
+      <Channel Name="chan1" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan1.sph"/>
+      <Channel Name="chan2" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan2.sph"/>
+      <Channel Name="chan3" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan3.sph"/>
+      <Channel Name="chan4" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan4.sph"/>
+      <Channel Name="chan5" Mic="c1" Transmission="w1" Gain="11" AudioFile="chan5.sph"/>
+      <Channel Name="chan6" Mic="c2" Transmission="u1" Gain="9" AudioFile="chan6.sph"/>
+      <Channel Name="chan7" Mic="c2" Transmission="u1" Gain="9" AudioFile="chan7.sph"/>
+      <Channel Name="chan9" Mic="p1" Transmission="j1" Gain="7" AudioFile="chan9.sph"/>
+      <Channel Name="chanA" Mic="u1" Transmission="j1" Gain="9" AudioFile="chanA.sph"/>
+      <Channel Name="chanB" Mic="u2" Transmission="j1" Gain="11" AudioFile="chanB.sph"/>
+      <Channel Name="chanC" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanC.sph"/>
+      <Channel Name="chanD" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanD.sph"/>
+      <Channel Name="chanE" Mic="c2" Transmission="u1" Gain="9" AudioFile="chanE.sph"/>
+      <Channel Name="chanF" Mic="c2" Transmission="u1" Gain="9" AudioFile="chanF.sph"/>
+    </Channels>
+    <Participants DB="icsi1.spk">
+      <Participant Name="fe008" Channel="chan0" Seat="1"/>
+      <Participant Name="me018" Channel="chan1" Seat="6"/>
+      <Participant Name="me051" Channel="chan2" Seat="8"/>
+      <Participant Name="me013" Channel="chan3" Seat="5"/>
+      <Participant Name="mn014" Channel="chan4" Seat="7"/>
+      <Participant Name="me011" Channel="chan5" Seat="9"/>
+      <Participant Name="fe016" Channel="chan9" Seat="4"/>
+      <Participant Name="me001" Channel="chanA" Seat="3"/>
+      <Participant Name="mn017" Channel="chanB" Seat="2"/>
+    </Participants>
+  </Preamble>
+</Meeting>
+
+<Meeting Session="Bmr025" DateTimeStamp="2001-05-31-1455" Version="1" VersionDate="Dec 11 2002">
+
+  <Preamble>
+    <Notes>
+      Digits were read simultaneously.
+    </Notes>
+    <Channels>
+      <Channel Name="chan0" Mic="c1" Transmission="w1" Gain="9" AudioFile="chan0.sph"/>
+      <Channel Name="chan1" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan1.sph"/>
+      <Channel Name="chan2" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan2.sph"/>
+      <Channel Name="chan3" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan3.sph"/>
+      <Channel Name="chan4" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan4.sph"/>
+      <Channel Name="chan5" Mic="c1" Transmission="w1" Gain="9" AudioFile="chan5.sph"/>
+      <Channel Name="chan6" Mic="c2" Transmission="u1" Gain="9" AudioFile="chan6.sph"/>
+      <Channel Name="chan7" Mic="c2" Transmission="u1" Gain="9" AudioFile="chan7.sph"/>
+      <Channel Name="chan9" Mic="u1" Transmission="j1" Gain="10" AudioFile="chan9.sph"/>
+      <Channel Name="chanA" Mic="p1" Transmission="j1" Gain="8" AudioFile="chanA.sph"/>
+      <Channel Name="chanC" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanC.sph"/>
+      <Channel Name="chanD" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanD.sph"/>
+      <Channel Name="chanE" Mic="c2" Transmission="u1" Gain="9" AudioFile="chanE.sph"/>
+      <Channel Name="chanF" Mic="c2" Transmission="u1" Gain="9" AudioFile="chanF.sph"/>
+    </Channels>
+    <Participants DB="icsi1.spk">
+      <Participant Name="fe008" Channel="chan0" Seat="6"/>
+      <Participant Name="me013" Channel="chan1" Seat="2"/>
+      <Participant Name="me001" Channel="chan2" Seat="7"/>
+      <Participant Name="mn014" Channel="chan3" Seat="8"/>
+      <Participant Name="me022" Channel="chan4" Seat="1"/>
+      <Participant Name="me018" Channel="chan5" Seat="9"/>
+      <Participant Name="fe016" Channel="chan9" Seat="4"/>
+      <Participant Name="me011" Channel="chanA" Seat="3"/>
+    </Participants>
+  </Preamble>
+</Meeting>
+
+<Meeting Session="Bmr026" DateTimeStamp="2001-06-07-1455" Version="1" VersionDate="Dec 11 2002">
+
+  <Preamble>
+    <Notes>
+      mn017 left a little early, and did not read digits.
+   
+   Periodic spikes and distortions on Channel 4.
+    </Notes>
+    <Channels>
+      <Channel Name="chan0" Mic="c1" Transmission="w1" Gain="9" AudioFile="chan0.sph"/>
+      <Channel Name="chan1" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan1.sph"/>
+      <Channel Name="chan2" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan2.sph"/>
+      <Channel Name="chan3" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan3.sph"/>
+      <Channel Name="chan4" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan4.sph"/>
+      <Channel Name="chan5" Mic="c1" Transmission="w1" Gain="9" AudioFile="chan5.sph"/>
+      <Channel Name="chan6" Mic="c2" Transmission="u1" Gain="9" AudioFile="chan6.sph"/>
+      <Channel Name="chan7" Mic="c2" Transmission="u1" Gain="9" AudioFile="chan7.sph"/>
+      <Channel Name="chanC" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanC.sph"/>
+      <Channel Name="chanD" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanD.sph"/>
+      <Channel Name="chanE" Mic="c2" Transmission="u1" Gain="9" AudioFile="chanE.sph"/>
+      <Channel Name="chanF" Mic="c2" Transmission="u1" Gain="9" AudioFile="chanF.sph"/>
+    </Channels>
+    <Participants DB="icsi1.spk">
+      <Participant Name="me011" Channel="chan0" Seat="9"/>
+      <Participant Name="me013" Channel="chan1" Seat="2"/>
+      <Participant Name="mn014" Channel="chan2" Seat="3"/>
+      <Participant Name="mn017" Channel="chan3" Seat="6"/>
+      <Participant Name="me001" Channel="chan4" Seat="7"/>
+      <Participant Name="me018" Channel="chan5" Seat="8"/>
+    </Participants>
+  </Preamble>
+</Meeting>
+
+<Meeting Session="Bmr027" DateTimeStamp="2001-06-14-1450" Version="1" VersionDate="Dec 11 2002">
+
+  <Preamble>
+    <Notes>
+      mn017 arrived slighly late.
+   
+   A lot of distortion (spikes) on Channel 5.
+   
+   Discourse - interesting example of subtle frustration, signalled
+   by breaths, laughs, etc., from minute 6 to minute 24.  Resolved
+   at minute 24.
+    </Notes>
+    <Channels>
+      <Channel Name="chan0" Mic="c1" Transmission="w1" Gain="11" AudioFile="chan0.sph"/>
+      <Channel Name="chan1" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan1.sph"/>
+      <Channel Name="chan2" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan2.sph"/>
+      <Channel Name="chan3" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan3.sph"/>
+      <Channel Name="chan4" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan4.sph"/>
+      <Channel Name="chan5" Mic="c1" Transmission="w1" Gain="11" AudioFile="chan5.sph"/>
+      <Channel Name="chan6" Mic="c2" Transmission="u1" Gain="9" AudioFile="chan6.sph"/>
+      <Channel Name="chan7" Mic="c2" Transmission="u1" Gain="9" AudioFile="chan7.sph"/>
+      <Channel Name="chan9" Mic="u2" Transmission="j1" Gain="7" AudioFile="chan9.sph"/>
+      <Channel Name="chanB" Mic="u1" Transmission="j1" Gain="12" AudioFile="chanB.sph"/>
+      <Channel Name="chanC" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanC.sph"/>
+      <Channel Name="chanD" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanD.sph"/>
+      <Channel Name="chanE" Mic="c2" Transmission="u1" Gain="9" AudioFile="chanE.sph"/>
+      <Channel Name="chanF" Mic="c2" Transmission="u1" Gain="9" AudioFile="chanF.sph"/>
+    </Channels>
+    <Participants DB="icsi1.spk">
+      <Participant Name="fe008" Channel="chan0" Seat="8"/>
+      <Participant Name="me013" Channel="chan1" Seat="7"/>
+      <Participant Name="me018" Channel="chan2" Seat="6"/>
+      <Participant Name="me001" Channel="chan3" Seat="2"/>
+      <Participant Name="fe016" Channel="chan4" Seat="5"/>
+      <Participant Name="me011" Channel="chan5" Seat="9"/>
+      <Participant Name="me051" Channel="chan9" Seat="4"/>
+      <Participant Name="mn017" Channel="chanB" Seat="1"/>
+    </Participants>
+  </Preamble>
+</Meeting>
+
+<Meeting Session="Bmr028" DateTimeStamp="2001-06-21-1445" Version="1" VersionDate="Dec 11 2002">
+
+  <Preamble>
+    <Notes>
+      Digits were read simultaneously.
+   
+   fe016 wrote "I didn't have mic on right initially.
+   Doesn't fit very comfortably on my ear".
+   This situation allowed an exceptional amount of ambient
+   noise.  At times, therefore, her speech was nearly or
+   completely indecipherable.  Sometimes the noise made
+   it difficult to determine whether she was speaking at
+   all.
+   There is a lot of mike noise on this channel (A) as she
+   works to get the mike reasonably positioned, but this
+   settles down a lot at 5:33.  Thereafter, there are only
+   occasional stretches of bad mike noise (e.g. around 22:20-40).
+   
+   me001 (channel 4) fiddles with his mike frequently, so the
+   gain varies considerably, resulting in some stretches of
+   very pronounced breathing and laughs saturating the line.
+    </Notes>
+    <Channels>
+      <Channel Name="chan0" Mic="c1" Transmission="w1" Gain="11" AudioFile="chan0.sph"/>
+      <Channel Name="chan1" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan1.sph"/>
+      <Channel Name="chan2" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan2.sph"/>
+      <Channel Name="chan3" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan3.sph"/>
+      <Channel Name="chan4" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan4.sph"/>
+      <Channel Name="chan5" Mic="c1" Transmission="w1" Gain="11" AudioFile="chan5.sph"/>
+      <Channel Name="chan6" Mic="c2" Transmission="u1" Gain="9" AudioFile="chan6.sph"/>
+      <Channel Name="chan7" Mic="c2" Transmission="u1" Gain="9" AudioFile="chan7.sph"/>
+      <Channel Name="chan9" Mic="p1" Transmission="j1" Gain="7" AudioFile="chan9.sph"/>
+      <Channel Name="chanA" Mic="u2" Transmission="j1" Gain="9" AudioFile="chanA.sph"/>
+      <Channel Name="chanB" Mic="u1" Transmission="j1" Gain="12" AudioFile="chanB.sph"/>
+      <Channel Name="chanC" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanC.sph"/>
+      <Channel Name="chanD" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanD.sph"/>
+      <Channel Name="chanE" Mic="c2" Transmission="u1" Gain="9" AudioFile="chanE.sph"/>
+      <Channel Name="chanF" Mic="c2" Transmission="u1" Gain="9" AudioFile="chanF.sph"/>
+    </Channels>
+    <Participants DB="icsi1.spk">
+      <Participant Name="me011" Channel="chan0" Seat="9"/>
+      <Participant Name="me018" Channel="chan1" Seat="5"/>
+      <Participant Name="me013" Channel="chan2" Seat="7"/>
+      <Participant Name="mn014" Channel="chan3" Seat="6"/>
+      <Participant Name="me001" Channel="chan4" Seat="2"/>
+      <Participant Name="fe008" Channel="chan5" Seat="8"/>
+      <Participant Name="me051" Channel="chan9" Seat="4"/>
+      <Participant Name="fe016" Channel="chanA" Seat="3"/>
+      <Participant Name="mn017" Channel="chanB" Seat="1"/>
+    </Participants>
+  </Preamble>
+</Meeting>
+
+<Meeting Session="Bmr029" DateTimeStamp="2001-07-05-1445" Version="1" VersionDate="Dec 11 2002">
+
+  <Preamble>
+    <Channels>
+      <Channel Name="chan0" Mic="c1" Transmission="w1" Gain="9" AudioFile="chan0.sph"/>
+      <Channel Name="chan1" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan1.sph"/>
+      <Channel Name="chan2" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan2.sph"/>
+      <Channel Name="chan3" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan3.sph"/>
+      <Channel Name="chan4" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan4.sph"/>
+      <Channel Name="chan6" Mic="c2" Transmission="u1" Gain="9" AudioFile="chan6.sph"/>
+      <Channel Name="chan7" Mic="c2" Transmission="u1" Gain="9" AudioFile="chan7.sph"/>
+      <Channel Name="chan9" Mic="p1" Transmission="j1" Gain="7" AudioFile="chan9.sph"/>
+      <Channel Name="chanC" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanC.sph"/>
+      <Channel Name="chanD" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanD.sph"/>
+      <Channel Name="chanE" Mic="c2" Transmission="u1" Gain="9" AudioFile="chanE.sph"/>
+      <Channel Name="chanF" Mic="c2" Transmission="u1" Gain="9" AudioFile="chanF.sph"/>
+    </Channels>
+    <Participants DB="icsi1.spk">
+      <Participant Name="me018" Channel="chan0" Seat="9"/>
+      <Participant Name="me026" Channel="chan1" Seat="2"/>
+      <Participant Name="me013" Channel="chan2" Seat="7"/>
+      <Participant Name="me051" Channel="chan3" Seat="3"/>
+      <Participant Name="mn014" Channel="chan4" Seat="6"/>
+      <Participant Name="mn017" Channel="chan9" Seat="4"/>
+    </Participants>
+  </Preamble>
+</Meeting>
+
+<Meeting Session="Bmr030" DateTimeStamp="2001-07-12-1450" Version="1" VersionDate="Dec 11 2002">
+
+  <Preamble>
+    <Channels>
+      <Channel Name="chan1" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan1.sph"/>
+      <Channel Name="chan2" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan2.sph"/>
+      <Channel Name="chan3" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan3.sph"/>
+      <Channel Name="chan4" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan4.sph"/>
+      <Channel Name="chan5" Mic="c1" Transmission="w1" Gain="11" AudioFile="chan5.sph"/>
+      <Channel Name="chan6" Mic="c2" Transmission="u1" Gain="9" AudioFile="chan6.sph"/>
+      <Channel Name="chan7" Mic="c2" Transmission="u1" Gain="9" AudioFile="chan7.sph"/>
+      <Channel Name="chanC" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanC.sph"/>
+      <Channel Name="chanD" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanD.sph"/>
+      <Channel Name="chanE" Mic="c2" Transmission="u1" Gain="9" AudioFile="chanE.sph"/>
+      <Channel Name="chanF" Mic="c2" Transmission="u1" Gain="9" AudioFile="chanF.sph"/>
+    </Channels>
+    <Participants DB="icsi1.spk">
+      <Participant Name="me001" Channel="chan1" Seat="2"/>
+      <Participant Name="me018" Channel="chan2" Seat="6"/>
+      <Participant Name="mn014" Channel="chan3" Seat="7"/>
+      <Participant Name="me051" Channel="chan4" Seat="1"/>
+      <Participant Name="me011" Channel="chan5" Seat="9"/>
+    </Participants>
+  </Preamble>
+</Meeting>
+
+<Meeting Session="Bmr031" DateTimeStamp="2001-08-09-1450" Version="1" VersionDate="Dec 11 2002">
+
+  <Preamble>
+    <Notes>
+      me018 arrived slightly late.
+   Digits were read simultaneously.
+   
+   me011 re-adjusts gain on me018's channel (ear plug mike)
+   about 3 minutes into the meeting.
+    </Notes>
+    <Channels>
+      <Channel Name="chan0" Mic="c1" Transmission="w1" Gain="11" AudioFile="chan0.sph"/>
+      <Channel Name="chan1" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan1.sph"/>
+      <Channel Name="chan2" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan2.sph"/>
+      <Channel Name="chan3" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan3.sph"/>
+      <Channel Name="chan4" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan4.sph"/>
+      <Channel Name="chan5" Mic="c1" Transmission="w1" Gain="11" AudioFile="chan5.sph"/>
+      <Channel Name="chan6" Mic="c2" Transmission="u1" Gain="9" AudioFile="chan6.sph"/>
+      <Channel Name="chan7" Mic="c2" Transmission="u1" Gain="9" AudioFile="chan7.sph"/>
+      <Channel Name="chan9" Mic="u1" Transmission="j1" Gain="7" AudioFile="chan9.sph"/>
+      <Channel Name="chanA" Mic="p1" Transmission="j1" Gain="7" AudioFile="chanA.sph"/>
+      <Channel Name="chanB" Mic="u2" Transmission="j1" Gain="13" AudioFile="chanB.sph"/>
+      <Channel Name="chanC" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanC.sph"/>
+      <Channel Name="chanD" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanD.sph"/>
+      <Channel Name="chanE" Mic="c2" Transmission="u1" Gain="9" AudioFile="chanE.sph"/>
+      <Channel Name="chanF" Mic="c2" Transmission="u1" Gain="9" AudioFile="chanF.sph"/>
+    </Channels>
+    <Participants DB="icsi1.spk">
+      <Participant Name="fe008" Channel="chan0" Seat="8"/>
+      <Participant Name="fe016" Channel="chan1" Seat="5"/>
+      <Participant Name="me013" Channel="chan2" Seat="7"/>
+      <Participant Name="mn014" Channel="chan3" Seat="2"/>
+      <Participant Name="me051" Channel="chan4" Seat="6"/>
+      <Participant Name="me011" Channel="chan5" Seat="9"/>
+      <Participant Name="mn017" Channel="chan9" Seat="4"/>
+      <Participant Name="me001" Channel="chanA" Seat="3"/>
+      <Participant Name="me018" Channel="chanB" Seat="1"/>
+    </Participants>
+  </Preamble>
+</Meeting>
+
+<Meeting Session="Bns001" DateTimeStamp="2000-11-07-1345" Version="1" VersionDate="Dec 11 2002">
+
+  <Preamble>
+    <Notes>
+      me011 (channel 8) left early.
+   There is a brief interruption by mn906, an unregistered and
+   unmiked speaker (not a regular participant), calling fn083
+   out of the room re: telephone call.
+    </Notes>
+    <Channels>
+      <Channel Name="chan0" Mic="l1" Transmission="w1" Gain="8" AudioFile="chan0.sph"/>
+      <Channel Name="chan1" Mic="s1" Transmission="w1" Gain="8" AudioFile="chan1.sph"/>
+      <Channel Name="chan2" Mic="s1" Transmission="w1" Gain="8" AudioFile="chan2.sph"/>
+      <Channel Name="chan3" Mic="s1" Transmission="w1" Gain="8" AudioFile="chan3.sph"/>
+      <Channel Name="chan4" Mic="s1" Transmission="w1" Gain="8" AudioFile="chan4.sph"/>
+      <Channel Name="chan6" Mic="c2" Transmission="u1" Gain="8" AudioFile="chan6.sph"/>
+      <Channel Name="chan7" Mic="c2" Transmission="u1" Gain="8" AudioFile="chan7.sph"/>
+      <Channel Name="chan8" Mic="a1" Transmission="j1" Gain="12" AudioFile="chan8.sph"/>
+      <Channel Name="chanA" Mic="p1" Transmission="j1" Gain="12" AudioFile="chanA.sph"/>
+      <Channel Name="chanC" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanC.sph"/>
+      <Channel Name="chanD" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanD.sph"/>
+      <Channel Name="chanE" Mic="c2" Transmission="u1" Gain="8" AudioFile="chanE.sph"/>
+      <Channel Name="chanF" Mic="c2" Transmission="u1" Gain="8" AudioFile="chanF.sph"/>
+    </Channels>
+    <Participants DB="icsi1.spk">
+      <Participant Name="mn035" Channel="chan0"/>
+      <Participant Name="mn021" Channel="chan1"/>
+      <Participant Name="mn081" Channel="chan2"/>
+      <Participant Name="mn082" Channel="chan3"/>
+      <Participant Name="mn030" Channel="chan4"/>
+      <Participant Name="me011" Channel="chan8"/>
+      <Participant Name="fn083" Channel="chanA"/>
+      <Participant Name="mn906"/>
+    </Participants>
+  </Preamble>
+</Meeting>
+
+<Meeting Session="Bns002" DateTimeStamp="2000-11-14-1340" Version="1" VersionDate="Dec 11 2002">
+
+  <Preamble>
+    <Notes>
+      me011 recorded the meeting and is heard briefly, unmiked, at its start.
+   
+   End of meeting is at 1 hr. 40 min. 20 sec. (2 min. 16 sec. before end of
+   recording).
+    </Notes>
+    <Channels>
+      <Channel Name="chan0" Mic="l1" Transmission="w1" Gain="8" AudioFile="chan0.sph"/>
+      <Channel Name="chan1" Mic="s1" Transmission="w1" Gain="8" AudioFile="chan1.sph"/>
+      <Channel Name="chan3" Mic="s1" Transmission="w1" Gain="8" AudioFile="chan3.sph"/>
+      <Channel Name="chan4" Mic="s1" Transmission="w1" Gain="8" AudioFile="chan4.sph"/>
+      <Channel Name="chan6" Mic="c2" Transmission="u1" Gain="8" AudioFile="chan6.sph"/>
+      <Channel Name="chan7" Mic="c2" Transmission="u1" Gain="8" AudioFile="chan7.sph"/>
+      <Channel Name="chanB" Mic="s1" Transmission="j1" Gain="11" AudioFile="chanB.sph"/>
+      <Channel Name="chanC" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanC.sph"/>
+      <Channel Name="chanD" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanD.sph"/>
+      <Channel Name="chanE" Mic="c2" Transmission="u1" Gain="8" AudioFile="chanE.sph"/>
+      <Channel Name="chanF" Mic="c2" Transmission="u1" Gain="8" AudioFile="chanF.sph"/>
+    </Channels>
+    <Participants DB="icsi1.spk">
+      <Participant Name="mn035" Channel="chan0"/>
+      <Participant Name="mn030" Channel="chan1"/>
+      <Participant Name="mn082" Channel="chan3"/>
+      <Participant Name="mn021" Channel="chan4"/>
+      <Participant Name="mn040" Channel="chanB"/>
+      <Participant Name="me011"/>
+    </Participants>
+  </Preamble>
+</Meeting>
+
+<Meeting Session="Bns003" DateTimeStamp="2000-11-21-1000" Version="1" VersionDate="Dec 11 2002">
+
+  <Preamble>
+    <Notes>
+      me907 is audible at the very start of the meeting, but
+   leaves immediately and does not have a channel or close-talking mike.
+   
+   me011 is audible at the very start of the meeting, but
+   leaves immediately and does not have a channel or close-talking
+   mike. He set up the recording system.
+   
+   Neither me907 nor [me011] is a true meeting participant.
+   
+   The actual meeting ends at 3007 seconds (50 min. 11 sec.).
+   The recording continued, though, until 5841 seconds (58 min. 41 sec.),
+   with some of the participants discussing things which are inconsistently
+   audible in the background. The files have been truncated at 3007 seconds.
+    </Notes>
+    <Channels>
+      <Channel Name="chan0" Mic="l1" Transmission="w1" Gain="8" AudioFile="chan0.sph"/>
+      <Channel Name="chan1" Mic="s1" Transmission="w1" Gain="8" AudioFile="chan1.sph"/>
+      <Channel Name="chan2" Mic="s1" Transmission="w1" Gain="8" AudioFile="chan2.sph"/>
+      <Channel Name="chan4" Mic="s1" Transmission="w1" Gain="8" AudioFile="chan4.sph"/>
+      <Channel Name="chan6" Mic="c2" Transmission="u1" Gain="8" AudioFile="chan6.sph"/>
+      <Channel Name="chan7" Mic="c2" Transmission="u1" Gain="8" AudioFile="chan7.sph"/>
+      <Channel Name="chan8" Mic="s1" Transmission="j1" Gain="11" AudioFile="chan8.sph"/>
+      <Channel Name="chanA" Mic="p1" Transmission="j1" Gain="11" AudioFile="chanA.sph"/>
+      <Channel Name="chanC" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanC.sph"/>
+      <Channel Name="chanD" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanD.sph"/>
+      <Channel Name="chanE" Mic="c2" Transmission="u1" Gain="8" AudioFile="chanE.sph"/>
+      <Channel Name="chanF" Mic="c2" Transmission="u1" Gain="8" AudioFile="chanF.sph"/>
+    </Channels>
+    <Participants DB="icsi1.spk">
+      <Participant Name="fn083" Channel="chan0"/>
+      <Participant Name="mn030" Channel="chan1"/>
+      <Participant Name="mn021" Channel="chan2"/>
+      <Participant Name="mn082" Channel="chan4"/>
+      <Participant Name="mn081" Channel="chan8"/>
+      <Participant Name="mn035" Channel="chanA"/>
+      <Participant Name="me907"/>
+      <Participant Name="me011"/>
+    </Participants>
+  </Preamble>
+</Meeting>
+
+<Meeting Session="Bro003" DateTimeStamp="2000-11-02-1050" Version="1" VersionDate="Dec 11 2002">
+
+  <Preamble>
+    <Notes>
+      me011 is heard fleetingly during this meeting.
+   (He is unmiked, not true meeting participant.)
+    </Notes>
+    <Channels>
+      <Channel Name="chan0" Mic="l1" Transmission="w1" Gain="8" AudioFile="chan0.sph"/>
+      <Channel Name="chan1" Mic="s1" Transmission="w1" Gain="8" AudioFile="chan1.sph"/>
+      <Channel Name="chan2" Mic="s1" Transmission="w1" Gain="8" AudioFile="chan2.sph"/>
+      <Channel Name="chan3" Mic="s1" Transmission="w1" Gain="8" AudioFile="chan3.sph"/>
+      <Channel Name="chan4" Mic="s1" Transmission="w1" Gain="8" AudioFile="chan4.sph"/>
+      <Channel Name="chan6" Mic="c2" Transmission="u1" Gain="8" AudioFile="chan6.sph"/>
+      <Channel Name="chan7" Mic="c2" Transmission="u1" Gain="8" AudioFile="chan7.sph"/>
+      <Channel Name="chan8" Mic="p1" Transmission="j1" Gain="11" AudioFile="chan8.sph"/>
+      <Channel Name="chan9" Mic="a1" Transmission="j1" Gain="11" AudioFile="chan9.sph"/>
+      <Channel Name="chanC" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanC.sph"/>
+      <Channel Name="chanD" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanD.sph"/>
+      <Channel Name="chanE" Mic="c2" Transmission="u1" Gain="8" AudioFile="chanE.sph"/>
+      <Channel Name="chanF" Mic="c2" Transmission="u1" Gain="8" AudioFile="chanF.sph"/>
+    </Channels>
+    <Participants DB="icsi1.spk">
+      <Participant Name="me018" Channel="chan0"/>
+      <Participant Name="me034" Channel="chan1"/>
+      <Participant Name="me006" Channel="chan2"/>
+      <Participant Name="me026" Channel="chan3"/>
+      <Participant Name="fn002" Channel="chan4"/>
+      <Participant Name="me013" Channel="chan8"/>
+      <Participant Name="mn007" Channel="chan9"/>
+      <Participant Name="me011"/>
+    </Participants>
+  </Preamble>
+</Meeting>
+
+<Meeting Session="Bro004" DateTimeStamp="2000-11-30-1050" Version="1" VersionDate="Dec 11 2002">
+
+  <Preamble>
+    <Notes>
+      Channel 9 (me006) appears to have a loose connection. For example,
+   while reading the digits, he pops in and out.  This causes extremely
+   loud spikes.  However, his digits are clearly audible on PZM1 (channel E).
+   For this reason they are transcribed as un-miked when there are trouble
+   spots.
+   
+   me011 is audible prior to digits task for several utterances, but
+   doesn't have a close-talking microphone, and is transcribed un-miked.
+   Not a regular meeting participant.
+    </Notes>
+    <Channels>
+      <Channel Name="chan0" Mic="l1" Transmission="w1" Gain="8" AudioFile="chan0.sph"/>
+      <Channel Name="chan1" Mic="s1" Transmission="w1" Gain="8" AudioFile="chan1.sph"/>
+      <Channel Name="chan2" Mic="s1" Transmission="w1" Gain="8" AudioFile="chan2.sph"/>
+      <Channel Name="chan3" Mic="s1" Transmission="w1" Gain="8" AudioFile="chan3.sph"/>
+      <Channel Name="chan4" Mic="s1" Transmission="w1" Gain="8" AudioFile="chan4.sph"/>
+      <Channel Name="chan6" Mic="c2" Transmission="u1" Gain="8" AudioFile="chan6.sph"/>
+      <Channel Name="chan7" Mic="c2" Transmission="u1" Gain="8" AudioFile="chan7.sph"/>
+      <Channel Name="chan9" Mic="a1" Transmission="j1" Gain="11" AudioFile="chan9.sph"/>
+      <Channel Name="chanB" Mic="p1" Transmission="j1" Gain="12" AudioFile="chanB.sph"/>
+      <Channel Name="chanC" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanC.sph"/>
+      <Channel Name="chanD" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanD.sph"/>
+      <Channel Name="chanE" Mic="c2" Transmission="u1" Gain="8" AudioFile="chanE.sph"/>
+      <Channel Name="chanF" Mic="c2" Transmission="u1" Gain="8" AudioFile="chanF.sph"/>
+    </Channels>
+    <Participants DB="icsi1.spk">
+      <Participant Name="me018" Channel="chan0"/>
+      <Participant Name="me013" Channel="chan1"/>
+      <Participant Name="me034" Channel="chan2"/>
+      <Participant Name="mn007" Channel="chan3"/>
+      <Participant Name="fn002" Channel="chan4"/>
+      <Participant Name="me006" Channel="chan9"/>
+      <Participant Name="me026" Channel="chanB"/>
+      <Participant Name="me011"/>
+    </Participants>
+  </Preamble>
+</Meeting>
+
+<Meeting Session="Bro005" DateTimeStamp="2000-12-07-1040" Version="1" VersionDate="Dec 11 2002">
+
+  <Preamble>
+    <Notes>
+      Other participants:
+   - me011 is audible off-mike when he set things up and tested
+   them at the beginning. Not a regular meeting participant.
+   - me034 is audible off-mike when he arrives at minute 35.36,
+   but only just barely.  His utterances are not fully audible on any
+   other speakers' close mikes, nor on channels 6, B or E, but
+   maybe they will be recoverable from 7, C, D, F.
+   
+   Other aspects:
+   - me013 had a noticeable cold, verging on laryngitis (very low
+   voice with less than usual frequency variation)
+   - There is a lot of paper shuffling throughout mn007's presentation,
+   probably by all participants. From the audio, you get the impression
+   that everyone had a copy of the handout, that the handout was of a
+   table with many columns perhaps on multiple pages which needed to be
+   compared, and that everybody was leafing through their copy of it
+   at various points.  This kind of noise seems very difficult to isolate
+   to a particular channel.  Since it is so pervasive, it is also not
+   systematically marked through the meeting.  On the other hand, it
+   does have very distinctive visual properties (short vertical spikes)
+   in the waveform - i.e., doesn't look like voice at all.
+    </Notes>
+    <Channels>
+      <Channel Name="chan0" Mic="l1" Transmission="w1" Gain="8" AudioFile="chan0.sph"/>
+      <Channel Name="chan1" Mic="s1" Transmission="w1" Gain="8" AudioFile="chan1.sph"/>
+      <Channel Name="chan2" Mic="s1" Transmission="w1" Gain="8" AudioFile="chan2.sph"/>
+      <Channel Name="chan4" Mic="s1" Transmission="w1" Gain="8" AudioFile="chan4.sph"/>
+      <Channel Name="chan6" Mic="c2" Transmission="u1" Gain="8" AudioFile="chan6.sph"/>
+      <Channel Name="chan7" Mic="c2" Transmission="u1" Gain="8" AudioFile="chan7.sph"/>
+      <Channel Name="chanB" Mic="a1" Transmission="j1" Gain="12" AudioFile="chanB.sph"/>
+      <Channel Name="chanC" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanC.sph"/>
+      <Channel Name="chanD" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanD.sph"/>
+      <Channel Name="chanE" Mic="c2" Transmission="u1" Gain="8" AudioFile="chanE.sph"/>
+      <Channel Name="chanF" Mic="c2" Transmission="u1" Gain="8" AudioFile="chanF.sph"/>
+    </Channels>
+    <Participants DB="icsi1.spk">
+      <Participant Name="mn007" Channel="chan0"/>
+      <Participant Name="fn002" Channel="chan1"/>
+      <Participant Name="me006" Channel="chan2"/>
+      <Participant Name="me013" Channel="chan4"/>
+      <Participant Name="me026" Channel="chanB"/>
+      <Participant Name="me034"/>
+      <Participant Name="me011"/>
+    </Participants>
+  </Preamble>
+</Meeting>
+
+<Meeting Session="Bro007" DateTimeStamp="2001-01-25-1045" Version="1" VersionDate="Dec 11 2002">
+
+  <Preamble>
+    <Channels>
+      <Channel Name="chan0" Mic="l1" Transmission="w1" Gain="8" AudioFile="chan0.sph"/>
+      <Channel Name="chan1" Mic="s1" Transmission="w1" Gain="8" AudioFile="chan1.sph"/>
+      <Channel Name="chan2" Mic="s1" Transmission="w1" Gain="8" AudioFile="chan2.sph"/>
+      <Channel Name="chan3" Mic="s1" Transmission="w1" Gain="8" AudioFile="chan3.sph"/>
+      <Channel Name="chan6" Mic="c2" Transmission="u1" Gain="8" AudioFile="chan6.sph"/>
+      <Channel Name="chan7" Mic="c2" Transmission="u1" Gain="8" AudioFile="chan7.sph"/>
+      <Channel Name="chanB" Mic="u1" Transmission="j1" Gain="11" AudioFile="chanB.sph"/>
+      <Channel Name="chanC" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanC.sph"/>
+      <Channel Name="chanD" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanD.sph"/>
+      <Channel Name="chanE" Mic="c2" Transmission="u1" Gain="8" AudioFile="chanE.sph"/>
+      <Channel Name="chanF" Mic="c2" Transmission="u1" Gain="8" AudioFile="chanF.sph"/>
+    </Channels>
+    <Participants DB="icsi1.spk">
+      <Participant Name="me006" Channel="chan0"/>
+      <Participant Name="me013" Channel="chan1"/>
+      <Participant Name="mn007" Channel="chan2"/>
+      <Participant Name="fn002" Channel="chan3"/>
+      <Participant Name="me026" Channel="chanB"/>
+    </Participants>
+  </Preamble>
+</Meeting>
+
+<Meeting Session="Bro008" DateTimeStamp="2001-02-08-1100" Version="1" VersionDate="Dec 11 2002">
+
+  <Preamble>
+    <Channels>
+      <Channel Name="chan1" Mic="s1" Transmission="w1" Gain="8" AudioFile="chan1.sph"/>
+      <Channel Name="chan2" Mic="s1" Transmission="w1" Gain="8" AudioFile="chan2.sph"/>
+      <Channel Name="chan3" Mic="s1" Transmission="w1" Gain="8" AudioFile="chan3.sph"/>
+      <Channel Name="chan4" Mic="s1" Transmission="w1" Gain="8" AudioFile="chan4.sph"/>
+      <Channel Name="chan5" Mic="a1" Transmission="j1" Gain="11" AudioFile="chan5.sph"/>
+      <Channel Name="chan6" Mic="c2" Transmission="u1" Gain="8" AudioFile="chan6.sph"/>
+      <Channel Name="chan7" Mic="c2" Transmission="u1" Gain="8" AudioFile="chan7.sph"/>
+      <Channel Name="chanC" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanC.sph"/>
+      <Channel Name="chanD" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanD.sph"/>
+      <Channel Name="chanE" Mic="c2" Transmission="u1" Gain="8" AudioFile="chanE.sph"/>
+      <Channel Name="chanF" Mic="c2" Transmission="u1" Gain="8" AudioFile="chanF.sph"/>
+    </Channels>
+    <Participants DB="icsi1.spk">
+      <Participant Name="mn007" Channel="chan1"/>
+      <Participant Name="me006" Channel="chan2"/>
+      <Participant Name="me018" Channel="chan3"/>
+      <Participant Name="me013" Channel="chan4"/>
+      <Participant Name="fn002" Channel="chan5"/>
+    </Participants>
+  </Preamble>
+</Meeting>
+
+<Meeting Session="Bro010" DateTimeStamp="2001-03-01-1030" Version="1" VersionDate="Dec 11 2002">
+
+  <Preamble>
+    <Notes>
+      No digits recorded.
+   
+   "To separate the ears" is spoken in unison on 2 channels
+   at 47:21.  Unusual event!
+    </Notes>
+    <Channels>
+      <Channel Name="chan2" Mic="s1" Transmission="w1" Gain="8" AudioFile="chan2.sph"/>
+      <Channel Name="chan3" Mic="s1" Transmission="w1" Gain="8" AudioFile="chan3.sph"/>
+      <Channel Name="chan4" Mic="s1" Transmission="w1" Gain="10" AudioFile="chan4.sph"/>
+      <Channel Name="chan5" Mic="s1" Transmission="j1" Gain="8" AudioFile="chan5.sph"/>
+      <Channel Name="chan6" Mic="c2" Transmission="u1" Gain="8" AudioFile="chan6.sph"/>
+      <Channel Name="chan7" Mic="c2" Transmission="u1" Gain="8" AudioFile="chan7.sph"/>
+      <Channel Name="chan8" Mic="s1" Transmission="j1" Gain="11" AudioFile="chan8.sph"/>
+      <Channel Name="chanB" Mic="s1" Transmission="j1" Gain="11" AudioFile="chanB.sph"/>
+      <Channel Name="chanC" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanC.sph"/>
+      <Channel Name="chanD" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanD.sph"/>
+      <Channel Name="chanE" Mic="c2" Transmission="u1" Gain="8" AudioFile="chanE.sph"/>
+      <Channel Name="chanF" Mic="c2" Transmission="u1" Gain="8" AudioFile="chanF.sph"/>
+    </Channels>
+    <Participants DB="icsi1.spk">
+      <Participant Name="me018" Channel="chan2"/>
+      <Participant Name="mn007" Channel="chan3"/>
+      <Participant Name="me013" Channel="chan4"/>
+      <Participant Name="fn002" Channel="chan5"/>
+      <Participant Name="me006" Channel="chan8"/>
+      <Participant Name="me026" Channel="chanB"/>
+    </Participants>
+  </Preamble>
+</Meeting>
+
+<Meeting Session="Bro011" DateTimeStamp="2001-03-09-1030" Version="1" VersionDate="Dec 11 2002">
+
+  <Preamble>
+    <Notes>
+      No digits read.
+   
+   Lots of spikes on Channel 8 (me006's channel).  It totally
+   blacks out around 13 min 4 sec (at which point, his speech is only
+   audible on other channels), but it comes back later in the meeting
+   (at which point, he is transcribed on the close-talking channel again).
+   Also lots of spikes on Channel B (me026).
+   
+   There is a short patch in channel 1 which sounds technically
+   garbled somehow:  14:06.715 - 14:10.278.
+    </Notes>
+    <Channels>
+      <Channel Name="chan1" Mic="s1" Transmission="w1" Gain="8" AudioFile="chan1.sph"/>
+      <Channel Name="chan2" Mic="s1" Transmission="w1" Gain="8" AudioFile="chan2.sph"/>
+      <Channel Name="chan3" Mic="s1" Transmission="w1" Gain="8" AudioFile="chan3.sph"/>
+      <Channel Name="chan4" Mic="s1" Transmission="w1" Gain="8" AudioFile="chan4.sph"/>
+      <Channel Name="chan6" Mic="c2" Transmission="u1" Gain="8" AudioFile="chan6.sph"/>
+      <Channel Name="chan7" Mic="c2" Transmission="u1" Gain="8" AudioFile="chan7.sph"/>
+      <Channel Name="chan8" Mic="s1" Transmission="j1" Gain="11" AudioFile="chan8.sph"/>
+      <Channel Name="chanB" Mic="s1" Transmission="j1" Gain="11" AudioFile="chanB.sph"/>
+      <Channel Name="chanC" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanC.sph"/>
+      <Channel Name="chanD" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanD.sph"/>
+      <Channel Name="chanE" Mic="c2" Transmission="u1" Gain="8" AudioFile="chanE.sph"/>
+      <Channel Name="chanF" Mic="c2" Transmission="u1" Gain="8" AudioFile="chanF.sph"/>
+    </Channels>
+    <Participants DB="icsi1.spk">
+      <Participant Name="me013" Channel="chan1"/>
+      <Participant Name="me018" Channel="chan2"/>
+      <Participant Name="mn007" Channel="chan3"/>
+      <Participant Name="fn002" Channel="chan4"/>
+      <Participant Name="me006" Channel="chan8"/>
+      <Participant Name="me026" Channel="chanB"/>
+    </Participants>
+  </Preamble>
+</Meeting>
+
+<Meeting Session="Bro012" DateTimeStamp="2001-03-22-1030" Version="1" VersionDate="Dec 11 2002">
+
+  <Preamble>
+    <Notes>
+      Channel 1 (me018) has a persistent rattling noise everytime he
+   speaks.
+   Channel 5 (mn007) has a lot of random noise spikes during the
+   first four minutes.
+    </Notes>
+    <Channels>
+      <Channel Name="chan0" Mic="c1" Transmission="w1" Gain="12" AudioFile="chan0.sph"/>
+      <Channel Name="chan1" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan1.sph"/>
+      <Channel Name="chan2" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan2.sph"/>
+      <Channel Name="chan3" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan3.sph"/>
+      <Channel Name="chan4" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan4.sph"/>
+      <Channel Name="chan5" Mic="c1" Transmission="w1" Gain="9" AudioFile="chan5.sph"/>
+      <Channel Name="chan6" Mic="c2" Transmission="u1" Gain="9" AudioFile="chan6.sph"/>
+      <Channel Name="chan7" Mic="c2" Transmission="u1" Gain="9" AudioFile="chan7.sph"/>
+      <Channel Name="chanC" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanC.sph"/>
+      <Channel Name="chanD" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanD.sph"/>
+      <Channel Name="chanE" Mic="c2" Transmission="u1" Gain="9" AudioFile="chanE.sph"/>
+      <Channel Name="chanF" Mic="c2" Transmission="u1" Gain="9" AudioFile="chanF.sph"/>
+    </Channels>
+    <Participants DB="icsi1.spk">
+      <Participant Name="me013" Channel="chan0"/>
+      <Participant Name="me018" Channel="chan1"/>
+      <Participant Name="me026" Channel="chan2"/>
+      <Participant Name="fn002" Channel="chan3"/>
+      <Participant Name="me006" Channel="chan4"/>
+      <Participant Name="mn007" Channel="chan5"/>
+    </Participants>
+  </Preamble>
+</Meeting>
+
+<Meeting Session="Bro013" DateTimeStamp="2001-03-29-1040" Version="1" VersionDate="Dec 11 2002">
+
+  <Preamble>
+    <Channels>
+      <Channel Name="chan0" Mic="c1" Transmission="w1" Gain="10" AudioFile="chan0.sph"/>
+      <Channel Name="chan1" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan1.sph"/>
+      <Channel Name="chan3" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan3.sph"/>
+      <Channel Name="chan4" Mic="s1" Transmission="w1" Gain="10" AudioFile="chan4.sph"/>
+      <Channel Name="chan5" Mic="c1" Transmission="w1" Gain="10" AudioFile="chan5.sph"/>
+      <Channel Name="chan6" Mic="c2" Transmission="u1" Gain="9" AudioFile="chan6.sph"/>
+      <Channel Name="chan7" Mic="c2" Transmission="u1" Gain="9" AudioFile="chan7.sph"/>
+      <Channel Name="chanC" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanC.sph"/>
+      <Channel Name="chanD" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanD.sph"/>
+      <Channel Name="chanE" Mic="c2" Transmission="u1" Gain="9" AudioFile="chanE.sph"/>
+      <Channel Name="chanF" Mic="c2" Transmission="u1" Gain="9" AudioFile="chanF.sph"/>
+    </Channels>
+    <Participants DB="icsi1.spk">
+      <Participant Name="me013" Channel="chan0" Seat="6"/>
+      <Participant Name="me006" Channel="chan1" Seat="7"/>
+      <Participant Name="me026" Channel="chan3" Seat="2"/>
+      <Participant Name="fn002" Channel="chan4" Seat="3"/>
+      <Participant Name="mn007" Channel="chan5" Seat="5"/>
+    </Participants>
+  </Preamble>
+</Meeting>
+
+<Meeting Session="Bro014" DateTimeStamp="2001-04-05-1030" Version="1" VersionDate="Dec 11 2002">
+
+  <Preamble>
+    <Notes>
+      me006 (channel 4) is drinking something during the
+   meeting, so there are a lot of sip, swallow, put down glass
+   noises on his line.  Not marked exhaustively as they were
+   too numerous.
+   
+   Parallel conversation around 41-42 minutes in:
+   me018 + me013 and mn007 + fn002
+   -- a good example of this phenomenon.
+    </Notes>
+    <Channels>
+      <Channel Name="chan0" Mic="c1" Transmission="w1" Gain="9" AudioFile="chan0.sph"/>
+      <Channel Name="chan1" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan1.sph"/>
+      <Channel Name="chan2" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan2.sph"/>
+      <Channel Name="chan3" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan3.sph"/>
+      <Channel Name="chan4" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan4.sph"/>
+      <Channel Name="chan5" Mic="c1" Transmission="w1" Gain="9" AudioFile="chan5.sph"/>
+      <Channel Name="chan6" Mic="c2" Transmission="u1" Gain="9" AudioFile="chan6.sph"/>
+      <Channel Name="chan7" Mic="c2" Transmission="u1" Gain="9" AudioFile="chan7.sph"/>
+      <Channel Name="chanC" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanC.sph"/>
+      <Channel Name="chanD" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanD.sph"/>
+      <Channel Name="chanE" Mic="c2" Transmission="u1" Gain="9" AudioFile="chanE.sph"/>
+      <Channel Name="chanF" Mic="c2" Transmission="u1" Gain="9" AudioFile="chanF.sph"/>
+    </Channels>
+    <Participants DB="icsi1.spk">
+      <Participant Name="mn007" Channel="chan0" Seat="2"/>
+      <Participant Name="me013" Channel="chan1" Seat="8"/>
+      <Participant Name="me018" Channel="chan2" Seat="9"/>
+      <Participant Name="me026" Channel="chan3" Seat="7"/>
+      <Participant Name="me006" Channel="chan4" Seat="1"/>
+      <Participant Name="fn002" Channel="chan5" Seat="3"/>
+    </Participants>
+  </Preamble>
+</Meeting>
+
+<Meeting Session="Bro015" DateTimeStamp="2001-04-12-1030" Version="1" VersionDate="Dec 11 2002">
+
+  <Preamble>
+    <Channels>
+      <Channel Name="chan0" Mic="c1" Transmission="w1" Gain="9" AudioFile="chan0.sph"/>
+      <Channel Name="chan1" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan1.sph"/>
+      <Channel Name="chan2" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan2.sph"/>
+      <Channel Name="chan3" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan3.sph"/>
+      <Channel Name="chan4" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan4.sph"/>
+      <Channel Name="chan5" Mic="c1" Transmission="w1" Gain="9" AudioFile="chan5.sph"/>
+      <Channel Name="chan6" Mic="c2" Transmission="u1" Gain="9" AudioFile="chan6.sph"/>
+      <Channel Name="chan7" Mic="c2" Transmission="u1" Gain="9" AudioFile="chan7.sph"/>
+      <Channel Name="chanC" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanC.sph"/>
+      <Channel Name="chanD" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanD.sph"/>
+      <Channel Name="chanE" Mic="c2" Transmission="u1" Gain="9" AudioFile="chanE.sph"/>
+      <Channel Name="chanF" Mic="c2" Transmission="u1" Gain="9" AudioFile="chanF.sph"/>
+    </Channels>
+    <Participants DB="icsi1.spk">
+      <Participant Name="me018" Channel="chan0"/>
+      <Participant Name="me026" Channel="chan1"/>
+      <Participant Name="mn007" Channel="chan2"/>
+      <Participant Name="me013" Channel="chan3"/>
+      <Participant Name="fn002" Channel="chan4"/>
+      <Participant Name="me006" Channel="chan5"/>
+    </Participants>
+  </Preamble>
+</Meeting>
+
+<Meeting Session="Bro016" DateTimeStamp="2001-04-19-1030" Version="1" VersionDate="Dec 11 2002">
+
+  <Preamble>
+    <Channels>
+      <Channel Name="chan0" Mic="c1" Transmission="w1" Gain="9" AudioFile="chan0.sph"/>
+      <Channel Name="chan1" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan1.sph"/>
+      <Channel Name="chan2" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan2.sph"/>
+      <Channel Name="chan3" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan3.sph"/>
+      <Channel Name="chan4" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan4.sph"/>
+      <Channel Name="chan5" Mic="c1" Transmission="w1" Gain="9" AudioFile="chan5.sph"/>
+      <Channel Name="chan6" Mic="c2" Transmission="u1" Gain="9" AudioFile="chan6.sph"/>
+      <Channel Name="chan7" Mic="c2" Transmission="u1" Gain="9" AudioFile="chan7.sph"/>
+      <Channel Name="chanC" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanC.sph"/>
+      <Channel Name="chanD" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanD.sph"/>
+      <Channel Name="chanE" Mic="c2" Transmission="u1" Gain="9" AudioFile="chanE.sph"/>
+      <Channel Name="chanF" Mic="c2" Transmission="u1" Gain="9" AudioFile="chanF.sph"/>
+    </Channels>
+    <Participants DB="icsi1.spk">
+      <Participant Name="me006" Channel="chan0"/>
+      <Participant Name="mn007" Channel="chan1"/>
+      <Participant Name="fn002" Channel="chan2"/>
+      <Participant Name="me026" Channel="chan3"/>
+      <Participant Name="me013" Channel="chan4"/>
+      <Participant Name="me018" Channel="chan5"/>
+    </Participants>
+  </Preamble>
+</Meeting>
+
+<Meeting Session="Bro017" DateTimeStamp="2001-04-26-1030" Version="1" VersionDate="Dec 11 2002">
+
+  <Preamble>
+    <Notes>
+      mn007 joined the meeting about half-way through.
+   
+   Lots of spikes on me018's channel (channel 5).
+    </Notes>
+    <Channels>
+      <Channel Name="chan0" Mic="c1" Transmission="w1" Gain="9" AudioFile="chan0.sph"/>
+      <Channel Name="chan1" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan1.sph"/>
+      <Channel Name="chan3" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan3.sph"/>
+      <Channel Name="chan4" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan4.sph"/>
+      <Channel Name="chan5" Mic="c1" Transmission="w1" Gain="9" AudioFile="chan5.sph"/>
+      <Channel Name="chan6" Mic="c2" Transmission="u1" Gain="9" AudioFile="chan6.sph"/>
+      <Channel Name="chan7" Mic="c2" Transmission="u1" Gain="9" AudioFile="chan7.sph"/>
+      <Channel Name="chanC" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanC.sph"/>
+      <Channel Name="chanD" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanD.sph"/>
+      <Channel Name="chanE" Mic="c2" Transmission="u1" Gain="9" AudioFile="chanE.sph"/>
+      <Channel Name="chanF" Mic="c2" Transmission="u1" Gain="9" AudioFile="chanF.sph"/>
+    </Channels>
+    <Participants DB="icsi1.spk">
+      <Participant Name="me006" Channel="chan0"/>
+      <Participant Name="mn049" Channel="chan1"/>
+      <Participant Name="mn007" Channel="chan3"/>
+      <Participant Name="fn002" Channel="chan4"/>
+      <Participant Name="me018" Channel="chan5"/>
+    </Participants>
+  </Preamble>
+</Meeting>
+
+<Meeting Session="Bro018" DateTimeStamp="2001-05-03-1030" Version="1" VersionDate="Dec 11 2002">
+
+  <Preamble>
+    <Notes>
+      Channel 2 has mike noise in the form of "pops" periodically,
+   when he uses words which begin with "p" (e.g., "people").
+   Channel 4 has mike noise usually intermittently, from being
+   bumped or readjusted.  There are many uncertainties regarding
+   what she said, despite careful checking.
+   Channel 5 has mike noise intermittently throughout.
+    </Notes>
+    <Channels>
+      <Channel Name="chan0" Mic="c1" Transmission="w1" Gain="9" AudioFile="chan0.sph"/>
+      <Channel Name="chan1" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan1.sph"/>
+      <Channel Name="chan2" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan2.sph"/>
+      <Channel Name="chan4" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan4.sph"/>
+      <Channel Name="chan5" Mic="c1" Transmission="w1" Gain="9" AudioFile="chan5.sph"/>
+      <Channel Name="chan6" Mic="c2" Transmission="u1" Gain="9" AudioFile="chan6.sph"/>
+      <Channel Name="chan7" Mic="c2" Transmission="u1" Gain="9" AudioFile="chan7.sph"/>
+      <Channel Name="chanC" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanC.sph"/>
+      <Channel Name="chanD" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanD.sph"/>
+      <Channel Name="chanE" Mic="c2" Transmission="u1" Gain="9" AudioFile="chanE.sph"/>
+      <Channel Name="chanF" Mic="c2" Transmission="u1" Gain="9" AudioFile="chanF.sph"/>
+    </Channels>
+    <Participants DB="icsi1.spk">
+      <Participant Name="me006" Channel="chan0"/>
+      <Participant Name="me026" Channel="chan1"/>
+      <Participant Name="me013" Channel="chan2"/>
+      <Participant Name="fn002" Channel="chan4"/>
+      <Participant Name="me018" Channel="chan5"/>
+    </Participants>
+  </Preamble>
+</Meeting>
+
+<Meeting Session="Bro019" DateTimeStamp="2001-05-24-1030" Version="1" VersionDate="Dec 11 2002">
+
+  <Preamble>
+    <Channels>
+      <Channel Name="chan0" Mic="c1" Transmission="w1" Gain="9" AudioFile="chan0.sph"/>
+      <Channel Name="chan1" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan1.sph"/>
+      <Channel Name="chan2" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan2.sph"/>
+      <Channel Name="chan3" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan3.sph"/>
+      <Channel Name="chan4" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan4.sph"/>
+      <Channel Name="chan5" Mic="c1" Transmission="w1" Gain="9" AudioFile="chan5.sph"/>
+      <Channel Name="chan6" Mic="c2" Transmission="u1" Gain="9" AudioFile="chan6.sph"/>
+      <Channel Name="chan7" Mic="c2" Transmission="u1" Gain="9" AudioFile="chan7.sph"/>
+      <Channel Name="chanB" Mic="s1" Transmission="j1" Gain="11" AudioFile="chanB.sph"/>
+      <Channel Name="chanC" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanC.sph"/>
+      <Channel Name="chanD" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanD.sph"/>
+      <Channel Name="chanE" Mic="c2" Transmission="u1" Gain="9" AudioFile="chanE.sph"/>
+      <Channel Name="chanF" Mic="c2" Transmission="u1" Gain="9" AudioFile="chanF.sph"/>
+    </Channels>
+    <Participants DB="icsi1.spk">
+      <Participant Name="mn052" Channel="chan0"/>
+      <Participant Name="fn002" Channel="chan1"/>
+      <Participant Name="me013" Channel="chan2"/>
+      <Participant Name="mn007" Channel="chan3"/>
+      <Participant Name="me026" Channel="chan4"/>
+      <Participant Name="me018" Channel="chan5"/>
+      <Participant Name="me006" Channel="chanB"/>
+    </Participants>
+  </Preamble>
+</Meeting>
+
+<Meeting Session="Bro021" DateTimeStamp="2001-06-14-1045" Version="1" VersionDate="Dec 11 2002">
+
+  <Preamble>
+    <Notes>
+      Speakers on channels 2, 3, and 4 do not read digits, because
+   there were not enough digits forms for all to read (as stated
+   at minute 57:13).
+    </Notes>
+    <Channels>
+      <Channel Name="chan0" Mic="c1" Transmission="w1" Gain="9" AudioFile="chan0.sph"/>
+      <Channel Name="chan1" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan1.sph"/>
+      <Channel Name="chan2" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan2.sph"/>
+      <Channel Name="chan3" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan3.sph"/>
+      <Channel Name="chan4" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan4.sph"/>
+      <Channel Name="chan5" Mic="c1" Transmission="w1" Gain="9" AudioFile="chan5.sph"/>
+      <Channel Name="chan6" Mic="c2" Transmission="u1" Gain="9" AudioFile="chan6.sph"/>
+      <Channel Name="chan7" Mic="c2" Transmission="u1" Gain="9" AudioFile="chan7.sph"/>
+      <Channel Name="chanB" Mic="s1" Transmission="j1" Gain="11" AudioFile="chanB.sph"/>
+      <Channel Name="chanC" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanC.sph"/>
+      <Channel Name="chanD" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanD.sph"/>
+      <Channel Name="chanE" Mic="c2" Transmission="u1" Gain="9" AudioFile="chanE.sph"/>
+      <Channel Name="chanF" Mic="c2" Transmission="u1" Gain="9" AudioFile="chanF.sph"/>
+    </Channels>
+    <Participants DB="icsi1.spk">
+      <Participant Name="me006" Channel="chan0" Seat="8"/>
+      <Participant Name="me013" Channel="chan1" Seat="7"/>
+      <Participant Name="mn007" Channel="chan2" Seat="6"/>
+      <Participant Name="mn052" Channel="chan3" Seat="2"/>
+      <Participant Name="fn002" Channel="chan4" Seat="3"/>
+      <Participant Name="me018" Channel="chan5" Seat="9"/>
+      <Participant Name="me026" Channel="chanB" Seat="1"/>
+    </Participants>
+  </Preamble>
+</Meeting>
+
+<Meeting Session="Bro022" DateTimeStamp="2001-06-21-1030" Version="1" VersionDate="Dec 11 2002">
+
+  <Preamble>
+    <Notes>
+      mn052 enters at 4:22 and there is a fair amount of mike noise
+   on his line for a minute or two as he gets settled.
+    </Notes>
+    <Channels>
+      <Channel Name="chan0" Mic="c1" Transmission="w1" Gain="9" AudioFile="chan0.sph"/>
+      <Channel Name="chan1" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan1.sph"/>
+      <Channel Name="chan2" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan2.sph"/>
+      <Channel Name="chan3" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan3.sph"/>
+      <Channel Name="chan4" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan4.sph"/>
+      <Channel Name="chan5" Mic="c1" Transmission="w1" Gain="9" AudioFile="chan5.sph"/>
+      <Channel Name="chan6" Mic="c2" Transmission="u1" Gain="9" AudioFile="chan6.sph"/>
+      <Channel Name="chan7" Mic="c2" Transmission="u1" Gain="9" AudioFile="chan7.sph"/>
+      <Channel Name="chanB" Mic="s1" Transmission="j1" Gain="11" AudioFile="chanB.sph"/>
+      <Channel Name="chanC" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanC.sph"/>
+      <Channel Name="chanD" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanD.sph"/>
+      <Channel Name="chanE" Mic="c2" Transmission="u1" Gain="9" AudioFile="chanE.sph"/>
+      <Channel Name="chanF" Mic="c2" Transmission="u1" Gain="9" AudioFile="chanF.sph"/>
+    </Channels>
+    <Participants DB="icsi1.spk">
+      <Participant Name="me018" Channel="chan0" Seat="9"/>
+      <Participant Name="me013" Channel="chan1" Seat="6"/>
+      <Participant Name="mn007" Channel="chan2" Seat="7"/>
+      <Participant Name="fn002" Channel="chan3" Seat="3"/>
+      <Participant Name="me026" Channel="chan4" Seat="2"/>
+      <Participant Name="me006" Channel="chan5" Seat="8"/>
+      <Participant Name="mn052" Channel="chanB" Seat="1"/>
+    </Participants>
+  </Preamble>
+</Meeting>
+
+<Meeting Session="Bro023" DateTimeStamp="2001-07-05-1030" Version="1" VersionDate="Dec 11 2002">
+
+  <Preamble>
+    <Channels>
+      <Channel Name="chan0" Mic="c1" Transmission="w1" Gain="9" AudioFile="chan0.sph"/>
+      <Channel Name="chan1" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan1.sph"/>
+      <Channel Name="chan2" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan2.sph"/>
+      <Channel Name="chan3" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan3.sph"/>
+      <Channel Name="chan6" Mic="c2" Transmission="u1" Gain="9" AudioFile="chan6.sph"/>
+      <Channel Name="chan7" Mic="c2" Transmission="u1" Gain="9" AudioFile="chan7.sph"/>
+      <Channel Name="chanB" Mic="s1" Transmission="j1" Gain="11" AudioFile="chanB.sph"/>
+      <Channel Name="chanC" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanC.sph"/>
+      <Channel Name="chanD" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanD.sph"/>
+      <Channel Name="chanE" Mic="c2" Transmission="u1" Gain="9" AudioFile="chanE.sph"/>
+      <Channel Name="chanF" Mic="c2" Transmission="u1" Gain="9" AudioFile="chanF.sph"/>
+    </Channels>
+    <Participants DB="icsi1.spk">
+      <Participant Name="me018" Channel="chan0" Seat="9"/>
+      <Participant Name="mn052" Channel="chan1" Seat="2"/>
+      <Participant Name="me013" Channel="chan2" Seat="7"/>
+      <Participant Name="mn007" Channel="chan3" Seat="3"/>
+      <Participant Name="me026" Channel="chanB" Seat="1"/>
+    </Participants>
+  </Preamble>
+</Meeting>
+
+<Meeting Session="Bro024" DateTimeStamp="2001-07-12-1045" Version="1" VersionDate="Dec 11 2002">
+
+  <Preamble>
+    <Notes>
+      me026's microphone (channel 2) died at 2819 seconds (approx
+   46 minutes into the meeting).
+   He gave a long report prior to this point, which is salvagable,
+   but his digits were audible only as background speech on other channels.
+    </Notes>
+    <Channels>
+      <Channel Name="chan0" Mic="c1" Transmission="w1" Gain="9" AudioFile="chan0.sph"/>
+      <Channel Name="chan1" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan1.sph"/>
+      <Channel Name="chan2" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan2.sph"/>
+      <Channel Name="chan3" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan3.sph"/>
+      <Channel Name="chan4" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan4.sph"/>
+      <Channel Name="chan5" Mic="c1" Transmission="w1" Gain="9" AudioFile="chan5.sph"/>
+      <Channel Name="chan6" Mic="c2" Transmission="u1" Gain="9" AudioFile="chan6.sph"/>
+      <Channel Name="chan7" Mic="c2" Transmission="u1" Gain="9" AudioFile="chan7.sph"/>
+      <Channel Name="chanA" Mic="u1" Transmission="j1" Gain="7" AudioFile="chanA.sph"/>
+      <Channel Name="chanB" Mic="p1" Transmission="j1" Gain="11" AudioFile="chanB.sph"/>
+      <Channel Name="chanC" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanC.sph"/>
+      <Channel Name="chanD" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanD.sph"/>
+      <Channel Name="chanE" Mic="c2" Transmission="u1" Gain="9" AudioFile="chanE.sph"/>
+      <Channel Name="chanF" Mic="c2" Transmission="u1" Gain="9" AudioFile="chanF.sph"/>
+    </Channels>
+    <Participants DB="icsi1.spk">
+      <Participant Name="me006" Channel="chan0" Seat="8"/>
+      <Participant Name="mn052" Channel="chan1" Seat="2"/>
+      <Participant Name="me026" Channel="chan2" Seat="6"/>
+      <Participant Name="me013" Channel="chan3" Seat="7"/>
+      <Participant Name="mn007" Channel="chan4" Seat="5"/>
+      <Participant Name="me018" Channel="chan5" Seat="9"/>
+      <Participant Name="mn058" Channel="chanA" Seat="3"/>
+      <Participant Name="fn002" Channel="chanB" Seat="1"/>
+    </Participants>
+  </Preamble>
+</Meeting>
+
+<Meeting Session="Bro025" DateTimeStamp="2001-08-02-1045" Version="1" VersionDate="Dec 11 2002">
+
+  <Preamble>
+    <Notes>
+      The last channel (5) was really hard to check because even at full
+   volume, the sound level was very low, so may have missed some
+   backchannels or not heard things correctly.
+    </Notes>
+    <Channels>
+      <Channel Name="chan0" Mic="c1" Transmission="w1" Gain="9" AudioFile="chan0.sph"/>
+      <Channel Name="chan1" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan1.sph"/>
+      <Channel Name="chan2" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan2.sph"/>
+      <Channel Name="chan3" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan3.sph"/>
+      <Channel Name="chan5" Mic="c1" Transmission="w1" Gain="9" AudioFile="chan5.sph"/>
+      <Channel Name="chan6" Mic="c2" Transmission="u1" Gain="9" AudioFile="chan6.sph"/>
+      <Channel Name="chan7" Mic="c2" Transmission="u1" Gain="9" AudioFile="chan7.sph"/>
+      <Channel Name="chanC" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanC.sph"/>
+      <Channel Name="chanD" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanD.sph"/>
+      <Channel Name="chanE" Mic="c2" Transmission="u1" Gain="9" AudioFile="chanE.sph"/>
+      <Channel Name="chanF" Mic="c2" Transmission="u1" Gain="9" AudioFile="chanF.sph"/>
+    </Channels>
+    <Participants DB="icsi1.spk">
+      <Participant Name="me018" Channel="chan0" Seat="9"/>
+      <Participant Name="me013" Channel="chan1" Seat="7"/>
+      <Participant Name="mn052" Channel="chan2" Seat="1"/>
+      <Participant Name="me006" Channel="chan3" Seat="2"/>
+      <Participant Name="mn007" Channel="chan5" Seat="8"/>
+    </Participants>
+  </Preamble>
+</Meeting>
+
+<Meeting Session="Bro026" DateTimeStamp="2001-08-09-1045" Version="1" VersionDate="Dec 11 2002">
+
+  <Preamble>
+    <Notes>
+      Channel 0 seems to be extremely low volume.
+    </Notes>
+    <Channels>
+      <Channel Name="chan0" Mic="c1" Transmission="w1" Gain="9" AudioFile="chan0.sph"/>
+      <Channel Name="chan2" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan2.sph"/>
+      <Channel Name="chan3" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan3.sph"/>
+      <Channel Name="chan4" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan4.sph"/>
+      <Channel Name="chan5" Mic="c1" Transmission="w1" Gain="9" AudioFile="chan5.sph"/>
+      <Channel Name="chan6" Mic="c2" Transmission="u1" Gain="9" AudioFile="chan6.sph"/>
+      <Channel Name="chan7" Mic="c2" Transmission="u1" Gain="9" AudioFile="chan7.sph"/>
+      <Channel Name="chanC" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanC.sph"/>
+      <Channel Name="chanD" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanD.sph"/>
+      <Channel Name="chanE" Mic="c2" Transmission="u1" Gain="9" AudioFile="chanE.sph"/>
+      <Channel Name="chanF" Mic="c2" Transmission="u1" Gain="9" AudioFile="chanF.sph"/>
+    </Channels>
+    <Participants DB="icsi1.spk">
+      <Participant Name="mn007" Channel="chan0" Seat="8"/>
+      <Participant Name="me013" Channel="chan2" Seat="7"/>
+      <Participant Name="me006" Channel="chan3" Seat="2"/>
+      <Participant Name="mn052" Channel="chan4" Seat="3"/>
+      <Participant Name="me018" Channel="chan5" Seat="9"/>
+    </Participants>
+  </Preamble>
+</Meeting>
+
+<Meeting Session="Bro027" DateTimeStamp="2001-08-16-1045" Version="1" VersionDate="Dec 11 2002">
+
+  <Preamble>
+    <Notes>
+      Channel 4 has a number of instances of "nose whistle with
+   inhale", i.e., breathing through nose makes a slight whistle noise.
+    </Notes>
+    <Channels>
+      <Channel Name="chan0" Mic="c1" Transmission="w1" Gain="9" AudioFile="chan0.sph"/>
+      <Channel Name="chan1" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan1.sph"/>
+      <Channel Name="chan3" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan3.sph"/>
+      <Channel Name="chan4" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan4.sph"/>
+      <Channel Name="chan6" Mic="c2" Transmission="u1" Gain="9" AudioFile="chan6.sph"/>
+      <Channel Name="chan7" Mic="c2" Transmission="u1" Gain="9" AudioFile="chan7.sph"/>
+      <Channel Name="chanC" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanC.sph"/>
+      <Channel Name="chanD" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanD.sph"/>
+      <Channel Name="chanE" Mic="c2" Transmission="u1" Gain="9" AudioFile="chanE.sph"/>
+      <Channel Name="chanF" Mic="c2" Transmission="u1" Gain="9" AudioFile="chanF.sph"/>
+    </Channels>
+    <Participants DB="icsi1.spk">
+      <Participant Name="me018" Channel="chan0" Seat="9"/>
+      <Participant Name="me013" Channel="chan1" Seat="7"/>
+      <Participant Name="mn007" Channel="chan3" Seat="1"/>
+      <Participant Name="mn052" Channel="chan4" Seat="2"/>
+    </Participants>
+  </Preamble>
+</Meeting>
+
+<Meeting Session="Bro028" DateTimeStamp="2001-09-27-1430" Version="1" VersionDate="Dec 11 2002">
+
+  <Preamble>
+    <Channels>
+      <Channel Name="chan0" Mic="c1" Transmission="w1" Gain="9" AudioFile="chan0.sph"/>
+      <Channel Name="chan1" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan1.sph"/>
+      <Channel Name="chan2" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan2.sph"/>
+      <Channel Name="chan4" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan4.sph"/>
+      <Channel Name="chan5" Mic="c1" Transmission="w1" Gain="9" AudioFile="chan5.sph"/>
+      <Channel Name="chan6" Mic="c2" Transmission="u1" Gain="9" AudioFile="chan6.sph"/>
+      <Channel Name="chan7" Mic="c2" Transmission="u1" Gain="9" AudioFile="chan7.sph"/>
+      <Channel Name="chanC" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanC.sph"/>
+      <Channel Name="chanD" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanD.sph"/>
+      <Channel Name="chanE" Mic="c2" Transmission="u1" Gain="9" AudioFile="chanE.sph"/>
+      <Channel Name="chanF" Mic="c2" Transmission="u1" Gain="9" AudioFile="chanF.sph"/>
+    </Channels>
+    <Participants DB="icsi1.spk">
+      <Participant Name="me018" Channel="chan0" Seat="9"/>
+      <Participant Name="me013" Channel="chan1" Seat="7"/>
+      <Participant Name="me026" Channel="chan2" Seat="2"/>
+      <Participant Name="mn007" Channel="chan4" Seat="1"/>
+      <Participant Name="me006" Channel="chan5" Seat="8"/>
+    </Participants>
+  </Preamble>
+</Meeting>
+
+<Meeting Session="Bsr001" DateTimeStamp="2000-05-04-1700" Version="1" VersionDate="Dec 11 2002">
+
+  <Preamble>
+    <Notes>
+      - This was the first time we had a meeting after the installation
+   of the video projector, which was on the whole time - look out
+   for the fan noise from it on the PZM mics, particularly PZM 3 and
+   PZM 4 which were directly below it.
+   - me013 arrived at 37 min. 43 sec., and sat silently until
+   45 min. 53 sec.  He didn't wear a microphone.  Spoke from
+   the far end of the group, closest to PZM 4.
+   - channel gains are not the true settings, but fictitious values made up
+   to satisfy the required formats.
+   - me011 let mn038 try on me011's microphone
+   from 5:43.15 to 6:00.63, during which time mn038 is audible on
+   both channels and me011 is not close-miked on either channel.
+   so warning: BE CAREFUL TO PRUNE THIS SECTION OUT of any analysis
+   requiring pure channels
+   - some microphones were worn around the neck
+   - during minute 6 there were really two conversations taking place
+   simultaneously
+   - no digits read
+   - Channel B mic was on, but unused.
+   - Channel E and channel F were recorded, and are probably the Crown tabletop
+     wired microphones (Mic="c2", Transmission="u1"). However, the information
+     wasn't provided, so this is just a guess. The audio files exist, but the
+     Channel section below makes no mention of these channels.
+    </Notes>
+    <Channels>
+      <Channel Name="chan0" Mic="l1" Transmission="w1" Gain="8" AudioFile="chan0.sph"/>
+      <Channel Name="chan1" Mic="s1" Transmission="w1" Gain="8" AudioFile="chan1.sph"/>
+      <Channel Name="chan2" Mic="s1" Transmission="w1" Gain="8" AudioFile="chan2.sph"/>
+      <Channel Name="chan3" Mic="s1" Transmission="w1" Gain="8" AudioFile="chan3.sph"/>
+      <Channel Name="chan4" Mic="s1" Transmission="w1" Gain="8" AudioFile="chan4.sph"/>
+      <Channel Name="chan6" Mic="c2" Transmission="u1" Gain="8" AudioFile="chan6.sph"/>
+      <Channel Name="chan7" Mic="c2" Transmission="u1" Gain="8" AudioFile="chan7.sph"/>
+      <Channel Name="chan8" Mic="p1" Transmission="j1" Gain="8" AudioFile="chan8.sph"/>
+      <Channel Name="chan9" Mic="a1" Transmission="j1" Gain="8" AudioFile="chan9.sph"/>
+      <Channel Name="chanA" Mic="u2" Transmission="j1" Gain="8" AudioFile="chanA.sph"/>
+      <Channel Name="chanC" Mic="u3" Transmission="j1" Gain="8" AudioFile="chanC.sph"/>
+      <Channel Name="chanD" Mic="u3" Transmission="j1" Gain="8" AudioFile="chanD.sph"/>
+    </Channels>
+    <Participants DB="icsi1.spk">
+      <Participant Name="mn038" Channel="chan0"/>
+      <Participant Name="me055" Channel="chan1"/>
+      <Participant Name="mn057" Channel="chan2"/>
+      <Participant Name="fe008" Channel="chan3"/>
+      <Participant Name="me056" Channel="chan4"/>
+      <Participant Name="me011" Channel="chan8"/>
+      <Participant Name="fe016" Channel="chan9"/>
+      <Participant Name="me025" Channel="chanA"/>
+      <Participant Name="me013"/>
+    </Participants>
+  </Preamble>
+</Meeting>
+
+<Meeting Session="Btr001" DateTimeStamp="2002-04-11-1430" Version="1" VersionDate="Dec 11 2002">
+
+  <Preamble>
+    <Notes>
+      me011 recorded the meeting and is heard briefly (unmiked) at
+   the meeting's start.  (Not a regular participant.)
+   
+   Digits were read simultaneously.
+   
+   Some "dead" time at the end of the audio. Should be truncated
+   at 1 hour, 4 minutes, 20 seconds (1:04:18).  (This is about
+   4 minutes after mikes were turned off, but the conversation continued
+   -- without benefit of close-talking mics -- for several minutes and has
+   been transcribed from the tabletop microphones.  This addendum represents
+   a continuation of content-related discussion, which could be useful for
+   other purposes.)
+   
+   fe008's voice is mildly cold-ridden (mild laryngitis).
+    </Notes>
+    <Channels>
+      <Channel Name="chan0" Mic="s1" Transmission="w1" Gain="8" AudioFile="chan0.sph"/>
+      <Channel Name="chan2" Mic="s1" Transmission="w1" Gain="10" AudioFile="chan2.sph"/>
+      <Channel Name="chan3" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan3.sph"/>
+      <Channel Name="chan6" Mic="s1" Transmission="w1" Gain="10" AudioFile="chan6.sph"/>
+      <Channel Name="chan7" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan7.sph"/>
+      <Channel Name="chan9" Mic="s1" Transmission="w1" Gain="10" AudioFile="chan9.sph"/>
+      <Channel Name="chanA" Mic="c2" Transmission="u1" Gain="9" AudioFile="chanA.sph"/>
+      <Channel Name="chanB" Mic="c2" Transmission="u1" Gain="9" AudioFile="chanB.sph"/>
+      <Channel Name="chanC" Mic="c2" Transmission="u1" Gain="9" AudioFile="chanC.sph"/>
+      <Channel Name="chanD" Mic="c2" Transmission="u1" Gain="9" AudioFile="chanD.sph"/>
+      <Channel Name="chanE" Mic="u3" Transmission="j1" Gain="13" AudioFile="chanE.sph"/>
+      <Channel Name="chanF" Mic="u3" Transmission="j1" Gain="13" AudioFile="chanF.sph"/>
+    </Channels>
+    <Participants DB="icsi1.spk">
+      <Participant Name="fe066" Channel="chan0" Seat="1"/>
+      <Participant Name="fe067" Channel="chan2" Seat="2"/>
+      <Participant Name="fe068" Channel="chan3" Seat="3"/>
+      <Participant Name="fe069" Channel="chan6" Seat="6"/>
+      <Participant Name="me070" Channel="chan7" Seat="7"/>
+      <Participant Name="fe008" Channel="chan9" Seat="9"/>
+      <Participant Name="me011"/>
+    </Participants>
+  </Preamble>
+</Meeting>
+
+<Meeting Session="Btr002" DateTimeStamp="2002-04-18-1500" Version="1" VersionDate="Dec 11 2002">
+
+  <Preamble>
+    <Notes>
+      me011 recorded the meeting and is heard briefly (unmiked) at
+   the meeting's start.  (Not a regular participant.)
+   
+   fe067's mike seems to black out somewhere between 1:14:21 and
+   digits (which are only audible by listening to me070's channel),
+   and are transcribed as un-miked.
+   
+   At minute 49, fe008 steps outside the meeting room (still miked)
+   to check with the front desk about extending the meeting longer than planned.
+   
+   Novel lexicalization:  fe066: "to get re-used to that keyboard"
+    </Notes>
+    <Channels>
+      <Channel Name="chan3" Mic="s1" Transmission="w1" Gain="10" AudioFile="chan3.sph"/>
+      <Channel Name="chan4" Mic="s1" Transmission="w1" Gain="10" AudioFile="chan4.sph"/>
+      <Channel Name="chan5" Mic="s1" Transmission="w1" Gain="10" AudioFile="chan5.sph"/>
+      <Channel Name="chan6" Mic="s1" Transmission="w1" Gain="10" AudioFile="chan6.sph"/>
+      <Channel Name="chan7" Mic="s1" Transmission="w1" Gain="10" AudioFile="chan7.sph"/>
+      <Channel Name="chan9" Mic="s1" Transmission="w1" Gain="10" AudioFile="chan9.sph"/>
+      <Channel Name="chanA" Mic="c2" Transmission="u1" Gain="9" AudioFile="chanA.sph"/>
+      <Channel Name="chanB" Mic="c2" Transmission="u1" Gain="9" AudioFile="chanB.sph"/>
+      <Channel Name="chanC" Mic="c2" Transmission="u1" Gain="9" AudioFile="chanC.sph"/>
+      <Channel Name="chanD" Mic="c2" Transmission="u1" Gain="9" AudioFile="chanD.sph"/>
+      <Channel Name="chanE" Mic="u3" Transmission="j1" Gain="13" AudioFile="chanE.sph"/>
+      <Channel Name="chanF" Mic="u3" Transmission="j1" Gain="13" AudioFile="chanF.sph"/>
+    </Channels>
+    <Participants DB="icsi1.spk">
+      <Participant Name="me070" Channel="chan3" Seat="7"/>
+      <Participant Name="fe067" Channel="chan4" Seat="2"/>
+      <Participant Name="fe066" Channel="chan5" Seat="1"/>
+      <Participant Name="fe069" Channel="chan6" Seat="6"/>
+      <Participant Name="fe008" Channel="chan7" Seat="9"/>
+      <Participant Name="fe068" Channel="chan9" Seat="3"/>
+      <Participant Name="me011"/>
+    </Participants>
+  </Preamble>
+</Meeting>
+
+<Meeting Session="Buw001" DateTimeStamp="2000-06-30-1545" Version="1" VersionDate="Dec 11 2002">
+
+  <Preamble>
+    <Notes>
+      In addition to the 8 miked speakers listed, there is a brief
+   interruption by me908 around 37:00, and me032 joined the
+   meeting in the last few minutes and made a few un-miked, but
+   transcribed, remarks.  mn017 was neither miked nor
+   transcribed, and does not seem to have contributed.
+   No digits.
+    </Notes>
+    <Channels>
+      <Channel Name="chan0" Mic="l1" Transmission="w1" Gain="8" AudioFile="chan0.sph"/>
+      <Channel Name="chan1" Mic="s1" Transmission="w1" Gain="8" AudioFile="chan1.sph"/>
+      <Channel Name="chan2" Mic="s1" Transmission="w1" Gain="8" AudioFile="chan2.sph"/>
+      <Channel Name="chan3" Mic="s1" Transmission="w1" Gain="8" AudioFile="chan3.sph"/>
+      <Channel Name="chan6" Mic="c2" Transmission="u1" Gain="10" AudioFile="chan6.sph"/>
+      <Channel Name="chan7" Mic="c2" Transmission="u1" Gain="10" AudioFile="chan7.sph"/>
+      <Channel Name="chan8" Mic="a1" Transmission="j1" Gain="11" AudioFile="chan8.sph"/>
+      <Channel Name="chan9" Mic="u2" Transmission="j1" Gain="11" AudioFile="chan9.sph"/>
+      <Channel Name="chanA" Mic="p1" Transmission="j1" Gain="11" AudioFile="chanA.sph"/>
+      <Channel Name="chanB" Mic="u1" Transmission="j1" Gain="11" AudioFile="chanB.sph"/>
+      <Channel Name="chanC" Mic="u3" Transmission="j1" Gain="8" AudioFile="chanC.sph"/>
+      <Channel Name="chanD" Mic="u3" Transmission="j1" Gain="8" AudioFile="chanD.sph"/>
+      <Channel Name="chanE" Mic="c2" Transmission="u1" Gain="10" AudioFile="chanE.sph"/>
+      <Channel Name="chanF" Mic="c2" Transmission="u1" Gain="10" AudioFile="chanF.sph"/>
+    </Channels>
+    <Participants DB="icsi1.spk">
+      <Participant Name="fe041" Channel="chan0"/>
+      <Participant Name="fe016" Channel="chan1"/>
+      <Participant Name="fn043" Channel="chan2"/>
+      <Participant Name="me013" Channel="chan3"/>
+      <Participant Name="me025" Channel="chan8"/>
+      <Participant Name="me022" Channel="chan9"/>
+      <Participant Name="me011" Channel="chanA"/>
+      <Participant Name="fe008" Channel="chanB"/>
+      <Participant Name="me908"/>
+      <Participant Name="mn017"/>
+      <Participant Name="me032"/>
+    </Participants>
+  </Preamble>
+</Meeting>
+
+
+</Meetings>

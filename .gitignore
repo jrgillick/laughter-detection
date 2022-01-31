@@ -57,5 +57,5 @@ scripts/train_backup.py
 .vscode
 env/
 
-data/icsi/*
+data/icsi/speech
 data/rtf_samples/*

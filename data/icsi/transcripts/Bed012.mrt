@@ -1,0 +1,3674 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE Meeting SYSTEM "http://www.icsi.berkeley.edu/Speech/mr/Meeting1.dtd">
+
+<Meeting Session="Bed012" DateTimeStamp="2001-05-22-1530" Version="2" VersionDate="Jan 7 2004">
+
+  <Preamble>
+    <Notes>
+      me012 came in at about 4pm (turned on his mic when came in).
+   
+   No digits read.
+   
+   Meeting actually starts at 1 min. 22 sec., so there's no transcription
+   before this point.
+   Meeting actually ends at 43 min. 22 sec.  Close-talking mikes
+   are turned off at that point, so transcription stops.
+   
+   Channel 1 (me012) has a lot of fumbling noises on the mike, as
+   if constantly readjusting it.
+    </Notes>
+    <Channels>
+      <Channel Name="chan1" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan1.sph"/>
+      <Channel Name="chan2" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan2.sph"/>
+      <Channel Name="chan3" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan3.sph"/>
+      <Channel Name="chan4" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan4.sph"/>
+      <Channel Name="chan6" Mic="c2" Transmission="u1" Gain="9" AudioFile="chan6.sph"/>
+      <Channel Name="chan7" Mic="c2" Transmission="u1" Gain="9" AudioFile="chan7.sph"/>
+      <Channel Name="chanC" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanC.sph"/>
+      <Channel Name="chanD" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanD.sph"/>
+      <Channel Name="chanE" Mic="c2" Transmission="u1" Gain="9" AudioFile="chanE.sph"/>
+      <Channel Name="chanF" Mic="c2" Transmission="u1" Gain="9" AudioFile="chanF.sph"/>
+    </Channels>
+    <Participants DB="icsi1.spk">
+      <Participant Name="me012" Channel="chan1"/>
+      <Participant Name="mn015" Channel="chan2"/>
+      <Participant Name="me003" Channel="chan3"/>
+      <Participant Name="fn050" Channel="chan4"/>
+    </Participants>
+  </Preamble>
+
+
+  <Transcript StartTime="0.0" EndTime="2634.355">
+
+    <Segment StartTime="81.796" EndTime="86.020" Participant="mn015">
+      So I guess this is <Emphasis> more </Emphasis> or less now just to get <Emphasis> you </Emphasis> up to date, Johno.
+    </Segment>
+    <Segment StartTime="82.000" EndTime="82.560" Participant="fn050">
+      <Comment Description="start of meeting"/>
+    </Segment>
+    <Segment StartTime="82.000" EndTime="82.562" CloseMic="false">
+      <Comment Description="start of meeting"/>
+    </Segment>
+    <Segment StartTime="82.000" EndTime="82.554" Participant="me012">
+      <Comment Description="start of meeting"/>
+    </Segment>
+    <Segment StartTime="82.000" EndTime="82.560" Participant="me003">
+      <Comment Description="start of meeting"/>
+    </Segment>
+    <Segment StartTime="86.579" EndTime="87.480" Participant="me003">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="86.830" EndTime="88.680" Participant="mn015">
+      This is what, uh,
+    </Segment>
+    <Segment StartTime="89.295" EndTime="90.680" Participant="me003">
+      <Emphasis> This </Emphasis> is a meeting for <Emphasis> me. </Emphasis>
+    </Segment>
+    <Segment StartTime="90.960" EndTime="92.607" Participant="mn015">
+      um,
+    </Segment>
+    <Segment StartTime="92.607" EndTime="93.542" Participant="mn015">
+      Eva,
+    </Segment>
+    <Segment StartTime="95.521" EndTime="97.160" Participant="mn015">
+      Bhaskara, and I did.
+    </Segment>
+    <Segment StartTime="97.404" EndTime="99.292" Participant="fn050">
+      Did you add more stuff to it? <Pause/> later?
+    </Segment>
+    <Segment StartTime="98.862" EndTime="99.204" Participant="mn015">
+      <VocalSound Description="mouth"/>
+    </Segment>
+    <Segment StartTime="99.540" EndTime="101.060" Participant="mn015">
+      Um. Why?
+    </Segment>
+    <Segment StartTime="100.992" EndTime="101.909" Participant="fn050">
+      Um.
+    </Segment>
+    <Segment StartTime="101.453" EndTime="105.940" Participant="me003">
+      <NonVocalSound Description="mike noise"/>
+    </Segment>
+    <Segment StartTime="101.909" EndTime="102.402" Participant="fn050">
+      <Emphasis> I </Emphasis> don't know.
+    </Segment>
+    <Segment StartTime="102.402" EndTime="104.457" Participant="fn050">
+      There were, like, the - you know, <Uncertain NumSyllables="3"> @@ </Uncertain> and all that stuff. But.
+    </Segment>
+    <Segment StartTime="104.457" EndTime="106.645" Participant="fn050">
+      I thought you - you said you were adding stuff but <Pause/> I don't know.
+    </Segment>
+    <Segment StartTime="105.940" EndTime="154.605" Participant="me003">
+      <VocalSound Description="eating noises"/>
+    </Segment>
+    <Segment StartTime="106.101" EndTime="108.221" Participant="mn015">
+      Uh, no. This is -
+    </Segment>
+    <Segment StartTime="108.483" EndTime="109.097" Participant="fn050">
+      <VocalSound Description="outbreath"/>
+    </Segment>
+    <Segment StartTime="109.962" EndTime="110.880" Participant="mn015">
+      Um,
+    </Segment>
+    <Segment StartTime="112.412" EndTime="112.875" Participant="mn015">
+      Ha! <Comment Description="probably regarding PowerPoint screen"/>
+    </Segment>
+    <Segment StartTime="113.483" EndTime="114.029" Participant="mn015">
+      Very nice.
+    </Segment>
+    <Segment StartTime="115.370" EndTime="117.360" Participant="mn015">
+      Um, so we thought that,
+    </Segment>
+    <Segment StartTime="118.165" EndTime="118.360" Participant="mn015">
+      <VocalSound Description="click"/>
+    </Segment>
+    <Segment StartTime="118.360" EndTime="119.800" Participant="mn015">
+      We can write up
+    </Segment>
+    <Segment StartTime="119.810" EndTime="120.542" Participant="mn015">
+      uh,
+    </Segment>
+    <Segment StartTime="122.231" EndTime="123.400" Participant="mn015">
+      an element,
+    </Segment>
+    <Segment StartTime="124.724" EndTime="127.110" Participant="mn015">
+      and - for each of the situation
+    </Segment>
+    <Segment StartTime="128.453" EndTime="130.610" Participant="mn015">
+      nodes that we observed in the Bayes-net?
+    </Segment>
+    <Segment StartTime="132.239" EndTime="133.420" Participant="mn015">
+      So.
+    </Segment>
+    <Segment StartTime="134.560" EndTime="139.567" Participant="mn015">
+      What's the <Pronounce> situation  </Pronounce> like at the entity that is mentioned? if we know anything about it? Is it under construction?
+    </Segment>
+    <Segment StartTime="139.567" EndTime="140.621" Participant="mn015">
+      Or is it
+    </Segment>
+    <Segment StartTime="140.927" EndTime="144.030" Participant="mn015">
+      on fire or something <Pause/> happening to it? Or is it stable?
+    </Segment>
+    <Segment StartTime="144.260" EndTime="146.020" Participant="mn015">
+      and so forth, going all the way
+    </Segment>
+    <Segment StartTime="146.535" EndTime="147.620" Participant="mn015">
+      um,
+    </Segment>
+    <Segment StartTime="147.740" EndTime="148.150" Participant="mn015">
+      f-
+    </Segment>
+    <Segment StartTime="148.150" EndTime="149.531" Participant="mn015">
+      through Parking,
+    </Segment>
+    <Segment StartTime="149.531" EndTime="152.050" Participant="mn015">
+      Location, Hotel, Car, Restroom,
+    </Segment>
+    <Segment StartTime="152.575" EndTime="152.835" Participant="mn015">
+      <Uncertain NumSyllables="1"> @@ </Uncertain> <Comment Description="uncodeable vocal sound"/>
+    </Segment>
+    <Segment StartTime="153.120" EndTime="156.190" Participant="mn015">
+      Riots, Fairs, Strikes, or
+    </Segment>
+    <Segment StartTime="156.347" EndTime="158.390" Participant="mn015">
+      Disasters.
+    </Segment>
+    <Segment StartTime="157.130" EndTime="160.790" Participant="me003">
+      So is - This is - A situation are - is all the things which can be happening right <Emphasis> now? </Emphasis>
+    </Segment>
+    <Segment StartTime="161.450" EndTime="163.340" Participant="me003">
+      Or, <Emphasis> what </Emphasis> is the situation
+    </Segment>
+    <Segment StartTime="163.750" EndTime="164.430" Participant="me003">
+      type?
+    </Segment>
+    <Segment StartTime="165.729" EndTime="171.273" Participant="mn015">
+      That's basically <Pause/> just specifying the - the input for the - w- what's
+    </Segment>
+    <Segment StartTime="171.980" EndTime="174.600" Participant="me003">
+      Oh, <Emphasis> I </Emphasis> see y- Why are you specifying it in X_M_L?
+    </Segment>
+    <Segment StartTime="174.757" EndTime="175.671" Participant="mn015">
+      Um.
+    </Segment>
+    <Segment StartTime="175.983" EndTime="180.000" Participant="mn015">
+      Just because it forces us to be specific about the values <Pause/>
+    </Segment>
+    <Segment StartTime="180.000" EndTime="180.770" Participant="mn015">
+      here?
+    </Segment>
+    <Segment StartTime="181.719" EndTime="182.403" Participant="me003">
+      O_K.
+    </Segment>
+    <Segment StartTime="182.640" EndTime="186.806" Participant="mn015">
+      And, also, I mean, this is a - what the input is going to be. Right?
+    </Segment>
+    <Segment StartTime="186.990" EndTime="188.140" Participant="mn015">
+      So, we will, uh - <VocalSound Description="inbreath"/>
+    </Segment>
+    <Segment StartTime="188.140" EndTime="189.523" Participant="mn015">
+      This is a <Emphasis> schema. </Emphasis> This is -
+    </Segment>
+    <Segment StartTime="189.570" EndTime="194.230" Participant="me003">
+      Well, yeah. I just don't know if this is th- l- what the - Does - This is what Java Bayes takes? as a
+    </Segment>
+    <Segment StartTime="194.054" EndTime="196.319" Participant="mn015">
+      No, because I mean if we -
+    </Segment>
+    <Segment StartTime="194.560" EndTime="195.268" Participant="me003">
+      Bayes-net spec?
+    </Segment>
+    <Segment StartTime="196.319" EndTime="198.327" Participant="mn015">
+      I mean we're <Emphasis> sure </Emphasis> gonna interface to -
+    </Segment>
+    <Segment StartTime="198.327" EndTime="201.240" Participant="mn015">
+      We're gonna get an X_M_L document from <Emphasis> somewhere. </Emphasis>
+    </Segment>
+    <Segment StartTime="201.570" EndTime="203.614" Participant="mn015">
+      Right? And that X_M_L document will say
+    </Segment>
+    <Segment StartTime="204.190" EndTime="207.747" Participant="mn015">
+      "We <Emphasis> are </Emphasis> able to - We <Emphasis> were </Emphasis> able to observe that w- the element,
+    </Segment>
+    <Segment StartTime="208.420" EndTime="211.790" Participant="mn015">
+      um, <Uncertain NumSyllables="2"> @@ </Uncertain> <Comment Description="uncodeable vocal sounds"/> of the Location that the <Emphasis> car </Emphasis> is <Emphasis> near. </Emphasis>"
+    </Segment>
+    <Segment StartTime="212.660" EndTime="214.070" Participant="mn015">
+      So that's gonna be - <VocalSound Description="lateral tongue click"/> <Comment Description="vocal gesture"/>
+    </Segment>
+    <Segment StartTime="215.315" EndTime="216.210" Participant="mn015">
+      Um.
+    </Segment>
+    <Segment StartTime="216.320" EndTime="221.510" Participant="me003">
+      So this is the situational context, everything in it. Is that what Situation is short for, shi- situational context?
+    </Segment>
+    <Segment StartTime="221.588" EndTime="221.860" Participant="mn015">
+      Yep.
+    </Segment>
+    <Segment StartTime="222.080" EndTime="222.840" Participant="me003">
+      O_K.
+    </Segment>
+    <Segment StartTime="224.000" EndTime="224.830" Participant="mn015">
+      So this is just,
+    </Segment>
+    <Segment StartTime="225.740" EndTime="230.830" Participant="mn015">
+      again, a- an X_M_L schemata which defines a set of possible, uh, permissible X_M_L
+    </Segment>
+    <Segment StartTime="226.297" EndTime="229.124" Participant="me003">
+      <VocalSound Description="eating noises"/>
+    </Segment>
+    <Segment StartTime="230.958" EndTime="231.866" Participant="mn015">
+      structures,
+    </Segment>
+    <Segment StartTime="232.259" EndTime="234.931" Participant="mn015">
+      which we view as input into the Bayes-net.
+    </Segment>
+    <Segment StartTime="238.062" EndTime="238.947" Participant="mn015">
+      Right?
+    </Segment>
+    <Segment StartTime="238.750" EndTime="240.440" Participant="me003">
+      And then we can r- <Pause/> uh
+    </Segment>
+    <Segment StartTime="240.896" EndTime="242.880" Participant="me003">
+      possibly run one of them uh
+    </Segment>
+    <Segment StartTime="243.203" EndTime="244.355" Participant="me003">
+      transformations?
+    </Segment>
+    <Segment StartTime="244.355" EndTime="247.920" Participant="me003">
+      That put it into the format that the Bayes n- or Java Bayes or whatever wants?
+    </Segment>
+    <Segment StartTime="247.862" EndTime="252.030" Participant="mn015">
+      Yea- Are you talking - are you talking about the - the <Emphasis> structure? </Emphasis>
+    </Segment>
+    <Segment StartTime="252.630" EndTime="253.330" Participant="me003">
+      Well it -
+    </Segment>
+    <Segment StartTime="253.330" EndTime="255.670" Participant="mn015">
+      I mean when you <Emphasis> observe </Emphasis> a node.
+    </Segment>
+    <Segment StartTime="254.420" EndTime="255.461" Participant="me003">
+      When you - when you say <Pause/>
+    </Segment>
+    <Segment StartTime="255.461" EndTime="257.408" Participant="me003">
+      the input to the <Pause/> v- Java Bayes, <Comment Description="rising intonation"/>
+    </Segment>
+    <Segment StartTime="258.048" EndTime="258.654" Participant="mn015">
+      Um-hmm.
+    </Segment>
+    <Segment StartTime="258.100" EndTime="259.870" Participant="me003">
+      it takes a certain format, right?
+    </Segment>
+    <Segment StartTime="260.160" EndTime="261.815" Participant="me003">
+      Which I don't think is <Emphasis> this. </Emphasis>
+    </Segment>
+    <Segment StartTime="261.815" EndTime="263.000" Participant="me003">
+      Although I don't know.
+    </Segment>
+    <Segment StartTime="263.190" EndTime="264.372" Participant="mn015">
+      No, it's <Emphasis> certainly </Emphasis> not this.
+    </Segment>
+    <Segment StartTime="264.372" EndTime="264.810" Participant="mn015">
+      Nuh. <Comment Description="meaning &quot;no&quot;"/>
+    </Segment>
+    <Segment StartTime="265.260" EndTime="267.390" Participant="me003">
+      So you could just - Couldn't you just run a -
+    </Segment>
+    <Segment StartTime="267.080" EndTime="268.530" Participant="mn015">
+      <Emphasis> X_S_L </Emphasis>. <Comment Description="completing [me003]'s utterance"/> Yeah.
+    </Segment>
+    <Segment StartTime="268.520" EndTime="269.131" Participant="me003">
+      Yeah. <Comment Description="lengthened"/>
+    </Segment>
+    <Segment StartTime="269.478" EndTime="271.930" Participant="me003">
+      To convert it into the Java Bayes for- format?
+    </Segment>
+    <Segment StartTime="271.500" EndTime="271.940" Participant="mn015">
+      Yep.
+    </Segment>
+    <Segment StartTime="272.516" EndTime="272.959" Participant="me003">
+      O_K.
+    </Segment>
+    <Segment StartTime="273.500" EndTime="274.132" Participant="mn015">
+      That's -
+    </Segment>
+    <Segment StartTime="274.822" EndTime="276.177" Participant="mn015">
+      That's no problem, but
+    </Segment>
+    <Segment StartTime="276.702" EndTime="278.850" Participant="mn015">
+      I even think that, um -
+    </Segment>
+    <Segment StartTime="279.461" EndTime="283.330" Participant="mn015">
+      I mean, <Pronounce Pronunciation="&quot;one-sh&quot;"> once  </Pronounce> - Once you have this sort of as - running as a module -
+    </Segment>
+    <Segment StartTime="283.420" EndTime="284.782" Participant="mn015">
+      Right? What you <Emphasis> want </Emphasis> is -
+    </Segment>
+    <Segment StartTime="285.267" EndTime="291.440" Participant="mn015">
+      You wanna say, "O_K, give me the posterior probabilities of the Go-there <Pause/> node,
+    </Segment>
+    <Segment StartTime="291.680" EndTime="293.220" Participant="mn015">
+      when <Emphasis> this </Emphasis> is happening."
+    </Segment>
+    <Segment StartTime="293.250" EndTime="298.830" Participant="mn015">
+      Right? When the person said <Emphasis> this, </Emphasis> the car is <Emphasis> there, </Emphasis> it's <Emphasis> raining, </Emphasis> and this is happening.
+    </Segment>
+    <Segment StartTime="299.340" EndTime="303.755" Participant="mn015">
+      And with <Emphasis> this </Emphasis> you can specify the - what's happening in the situation, and what's happening
+    </Segment>
+    <Segment StartTime="304.380" EndTime="305.530" Participant="mn015">
+      with the <Emphasis> user. </Emphasis>
+    </Segment>
+    <Segment StartTime="305.710" EndTime="306.604" Participant="mn015">
+      So we get -
+    </Segment>
+    <Segment StartTime="307.240" EndTime="310.670" Participant="mn015">
+      After we are done, through the Situation we get the User Vector.
+    </Segment>
+    <Segment StartTime="312.450" EndTime="314.180" Participant="mn015">
+      So, this is a -
+    </Segment>
+    <Segment StartTime="314.569" EndTime="317.218" Participant="me003">
+      So this is just a specification of all the possible inputs?
+    </Segment>
+    <Segment StartTime="317.161" EndTime="317.595" Participant="mn015">
+      Yep.
+    </Segment>
+    <Segment StartTime="318.770" EndTime="319.660" Participant="mn015">
+      <Emphasis> And, </Emphasis>
+    </Segment>
+    <Segment StartTime="320.940" EndTime="322.690" Participant="mn015">
+      all the possible <Emphasis> outputs, </Emphasis> <Emphasis> too. </Emphasis>
+    </Segment>
+    <Segment StartTime="323.350" EndTime="323.780" Participant="me003">
+      <Pronounce Pronunciation="&quot;mm-kay&quot;"> O_K.  </Pronounce>
+    </Segment>
+    <Segment StartTime="323.842" EndTime="325.750" Participant="mn015">
+      So, we have, um,
+    </Segment>
+    <Segment StartTime="326.411" EndTime="330.240" Participant="mn015">
+      for example, the, uh, Go-there decision node
+    </Segment>
+    <Segment StartTime="330.540" EndTime="332.200" Participant="mn015">
+      which has two
+    </Segment>
+    <Segment StartTime="332.320" EndTime="334.570" Participant="mn015">
+      elements, going-there
+    </Segment>
+    <Segment StartTime="334.920" EndTime="337.120" Participant="mn015">
+      and its posterior probability,
+    </Segment>
+    <Segment StartTime="337.200" EndTime="340.520" Participant="mn015">
+      and <Emphasis> not-going-there </Emphasis> and its <Pronounce> posterior  </Pronounce> probability,
+    </Segment>
+    <Segment StartTime="342.600" EndTime="344.520" Participant="mn015">
+      because the output is always gonna be
+    </Segment>
+    <Segment StartTime="345.100" EndTime="350.270" Participant="mn015">
+      all the decision nodes and all the - the - a- all the posterior probabilities for all the values.
+    </Segment>
+    <Segment StartTime="351.552" EndTime="357.294" Participant="me003">
+      And then we would just look at the, eh, Struct that we wanna look at in terms of if - if we're only asking about one of the -
+    </Segment>
+    <Segment StartTime="358.550" EndTime="361.090" Participant="me003">
+      So like, if I'm just interested in the going-there node,
+    </Segment>
+    <Segment StartTime="361.780" EndTime="364.188" Participant="me003">
+      I would just pull that information out of the Struct
+    </Segment>
+    <Segment StartTime="364.800" EndTime="367.720" Participant="me003">
+      that gets return- that would - that Java Bayes would output?
+    </Segment>
+    <Segment StartTime="369.690" EndTime="370.341" Participant="mn015">
+      Um,
+    </Segment>
+    <Segment StartTime="371.010" EndTime="372.390" Participant="mn015">
+      pretty much, yes, but
+    </Segment>
+    <Segment StartTime="371.779" EndTime="375.923" Participant="me003">
+      <VocalSound Description="eating noises"/>
+    </Segment>
+    <Segment StartTime="372.390" EndTime="375.490" Participant="mn015">
+      I think it's a little bit more complex.
+    </Segment>
+    <Segment StartTime="377.180" EndTime="384.570" Participant="mn015">
+      As, if I understand it correctly, it <Emphasis> always </Emphasis> gives you <Emphasis> all </Emphasis> the posterior probabilities for <Emphasis> all </Emphasis> the values of <Emphasis> all </Emphasis> decision nodes.
+    </Segment>
+    <Segment StartTime="385.070" EndTime="385.880" Participant="mn015">
+      So, when we
+    </Segment>
+    <Segment StartTime="387.610" EndTime="389.060" Participant="mn015">
+      <Emphasis> input </Emphasis> <Emphasis> something, </Emphasis>
+    </Segment>
+    <Segment StartTime="390.850" EndTime="394.349" Participant="mn015">
+      we always get the, uh, posterior probabilities for all of these. Right?
+    </Segment>
+    <Segment StartTime="394.400" EndTime="394.885" Participant="me003">
+      O_K.
+    </Segment>
+    <Segment StartTime="395.540" EndTime="397.690" Participant="mn015">
+      So there is no way of telling it t-
+    </Segment>
+    <Segment StartTime="397.840" EndTime="400.660" Participant="mn015">
+      <Emphasis> not </Emphasis> to tell us about the <Emphasis> EVA </Emphasis> <Pause/> values.
+    </Segment>
+    <Segment StartTime="400.477" EndTime="403.390" Participant="me003">
+      Yeah, <Uncertain> wait </Uncertain> I agree, that's - yeah, <Uncertain> use - oh, uh </Uncertain> <Pause/> Yeah, O_K.
+    </Segment>
+    <Segment StartTime="403.820" EndTime="405.900" Participant="mn015">
+      So - so we get this whole
+    </Segment>
+    <Segment StartTime="406.810" EndTime="409.300" Participant="mn015">
+      <Emphasis> list </Emphasis> of - of, um,
+    </Segment>
+    <Segment StartTime="410.582" EndTime="412.688" Participant="mn015">
+      things, and the question is
+    </Segment>
+    <Segment StartTime="413.530" EndTime="414.820" Participant="mn015">
+      what to <Emphasis> do </Emphasis> with it,
+    </Segment>
+    <Segment StartTime="415.590" EndTime="416.740" Participant="mn015">
+      what to hand on,
+    </Segment>
+    <Segment StartTime="416.840" EndTime="418.290" Participant="mn015">
+      how to <Emphasis> interpret </Emphasis> it,
+    </Segment>
+    <Segment StartTime="418.430" EndTime="419.159" Participant="mn015">
+      in a sense.
+    </Segment>
+    <Segment StartTime="420.110" EndTime="425.452" Participant="mn015">
+      So y- you said if you - "I'm only interested in whether he wants to <Emphasis> go </Emphasis> there or not", then I just <Emphasis> look </Emphasis> at that <Emphasis> node, </Emphasis>
+    </Segment>
+    <Segment StartTime="426.224" EndTime="426.871" Participant="mn015">
+      look which one -
+    </Segment>
+    <Segment StartTime="426.362" EndTime="428.600" Participant="me003">
+      Look at that Struct in the output, right?
+    </Segment>
+    <Segment StartTime="428.182" EndTime="428.449" Participant="mn015">
+      Yep.
+    </Segment>
+    <Segment StartTime="429.595" EndTime="432.190" Participant="mn015">
+      Look at that Struct in the - the output, even though
+    </Segment>
+    <Segment StartTime="432.360" EndTime="434.230" Participant="mn015">
+      I wouldn't call it a "Struct". But.
+    </Segment>
+    <Segment StartTime="434.427" EndTime="437.640" Participant="me003">
+      Well i- well, it's an X_M_L Structure that's being res- returned, right?
+    </Segment>
+    <Segment StartTime="436.731" EndTime="437.909" Participant="mn015">
+      Oh. Mm-hmm.
+    </Segment>
+    <Segment StartTime="438.910" EndTime="441.390" Participant="mn015">
+      So every part of a structure is a "Struct".
+    </Segment>
+    <Segment StartTime="441.390" EndTime="441.987" Participant="mn015">
+      Yeah.
+    </Segment>
+    <Segment StartTime="442.040" EndTime="443.607" Participant="me003">
+      Yeah, I just uh - I just was - abbreviated it
+    </Segment>
+    <Segment StartTime="444.030" EndTime="445.689" Participant="me003">
+      to Struct in my head, and
+    </Segment>
+    <Segment StartTime="444.979" EndTime="446.176" Participant="fn050">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="446.190" EndTime="447.520" Participant="me003">
+      started going with that.
+    </Segment>
+    <Segment StartTime="448.910" EndTime="450.134" Participant="mn015">
+      <Emphasis> That </Emphasis> element or object,
+    </Segment>
+    <Segment StartTime="450.134" EndTime="450.864" Participant="mn015">
+      I would say.
+    </Segment>
+    <Segment StartTime="450.160" EndTime="453.040" Participant="me003">
+      Not a C_Struct. That's not what I was trying to k- <Uncertain> though </Uncertain> yeah.
+    </Segment>
+    <Segment StartTime="451.470" EndTime="451.843" Participant="mn015">
+      Yeah.
+    </Segment>
+    <Segment StartTime="453.980" EndTime="454.554" Participant="mn015">
+      O_K.
+    </Segment>
+    <Segment StartTime="454.820" EndTime="456.930" Participant="mn015">
+      And, um,
+    </Segment>
+    <Segment StartTime="457.901" EndTime="458.843" Participant="mn015">
+      the reason is -
+    </Segment>
+    <Segment StartTime="459.350" EndTime="467.320" Participant="mn015">
+      why I think it's a little bit more complex or why - why we can even think about it as an interesting problem in and of itself is -
+    </Segment>
+    <Segment StartTime="467.770" EndTime="468.660" Participant="mn015">
+      Um.
+    </Segment>
+    <Segment StartTime="470.423" EndTime="471.056" Participant="mn015">
+      So.
+    </Segment>
+    <Segment StartTime="471.505" EndTime="472.556" Participant="mn015">
+      The, uh -
+    </Segment>
+    <Segment StartTime="474.640" EndTime="476.320" Participant="mn015">
+      Let's look at an <Emphasis> example. </Emphasis>
+    </Segment>
+    <Segment StartTime="477.640" EndTime="480.657" Participant="me003">
+      Well, w- wouldn't we just take the structure that's outputted
+    </Segment>
+    <Segment StartTime="481.310" EndTime="485.004" Participant="me003">
+      and then run another transformation on it, that would just dump the one that we wanted out?
+    </Segment>
+    <Segment StartTime="485.433" EndTime="487.740" Participant="fn050">
+      <NonVocalSound Description="taps"/>
+    </Segment>
+    <Segment StartTime="489.200" EndTime="490.980" Participant="mn015">
+      Yeah. w- We'd need to <Emphasis> prune. </Emphasis>
+    </Segment>
+    <Segment StartTime="491.664" EndTime="492.210" Participant="mn015">
+      Right?
+    </Segment>
+    <Segment StartTime="492.579" EndTime="493.214" Participant="fn050">
+      <NonVocalSound Description="taps"/>
+    </Segment>
+    <Segment StartTime="493.367" EndTime="494.353" Participant="mn015">
+      Throw things away.
+    </Segment>
+    <Segment StartTime="495.581" EndTime="498.560" Participant="me003">
+      Well, actually, you don't even need to <Emphasis> do </Emphasis> that with X_M_L. D- Can't you just look at one specific -
+    </Segment>
+    <Segment StartTime="497.173" EndTime="497.729" Participant="mn015">
+      <VocalSound Description="inbreath"/> No-
+    </Segment>
+    <Segment StartTime="498.357" EndTime="498.560" Participant="mn015">
+      <VocalSound Description="mouth"/>
+    </Segment>
+    <Segment StartTime="498.560" EndTime="500.200" Participant="mn015">
+      Yeah, <Emphasis> exactly. </Emphasis> The - <Uncertain NumSyllables="3"> @@ </Uncertain> <Comment Description="uncodeable vocal sounds"/>
+    </Segment>
+    <Segment StartTime="500.540" EndTime="501.540" Participant="mn015">
+      <Uncertain> Xerxes </Uncertain>
+    </Segment>
+    <Segment StartTime="502.063" EndTime="504.976" Participant="mn015">
+      allows you to say, u- "Just give me the value of that, and that, and that."
+    </Segment>
+    <Segment StartTime="506.690" EndTime="512.781" Participant="mn015">
+      But, we don't really <Emphasis> know </Emphasis> what we're interested in <Pause/> before we look at the <Emphasis> complete </Emphasis> - at - at the <Emphasis> overall </Emphasis> result.
+    </Segment>
+    <Segment StartTime="513.189" EndTime="514.276" Participant="mn015">
+      So the person said,
+    </Segment>
+    <Segment StartTime="515.000" EndTime="516.050" Participant="mn015">
+      um,
+    </Segment>
+    <Segment StartTime="516.980" EndTime="519.550" Participant="mn015">
+      "Where is X_?" and so,
+    </Segment>
+    <Segment StartTime="519.904" EndTime="520.100" Participant="mn015">
+      <VocalSound Description="mouth"/>
+    </Segment>
+    <Segment StartTime="520.100" EndTime="521.490" Participant="mn015">
+      <Emphasis> we </Emphasis> want to know,
+    </Segment>
+    <Segment StartTime="521.590" EndTime="522.520" Participant="mn015">
+      um,
+    </Segment>
+    <Segment StartTime="522.870" EndTime="524.890" Participant="mn015">
+      is - Does he want
+    </Segment>
+    <Segment StartTime="526.167" EndTime="527.298" Participant="mn015">
+      info?
+    </Segment>
+    <Segment StartTime="527.298" EndTime="531.250" Participant="mn015">
+      o- on this? or know the <Emphasis> location? </Emphasis>
+    </Segment>
+    <Segment StartTime="531.680" EndTime="533.290" Participant="mn015">
+      Or does he want to <Emphasis> go </Emphasis> there?
+    </Segment>
+    <Segment StartTime="535.840" EndTime="538.251" Participant="mn015">
+      Let's assume this is our - our question.
+    </Segment>
+    <Segment StartTime="537.210" EndTime="538.220" Participant="me003">
+      Sure.
+    </Segment>
+    <Segment StartTime="538.430" EndTime="538.737" Participant="mn015">
+      Nuh? <Comment Description="meaning &quot;O_K?&quot; or &quot;You see?&quot;"/>
+    </Segment>
+    <Segment StartTime="539.450" EndTime="539.965" Participant="mn015">
+      So.
+    </Segment>
+    <Segment StartTime="542.780" EndTime="543.364" Participant="mn015">
+      Um.
+    </Segment>
+    <Segment StartTime="543.631" EndTime="544.442" Participant="mn015">
+      <Uncertain NumSyllables="3"> @@ </Uncertain> <Comment Description="whispered"/>
+    </Segment>
+    <Segment StartTime="546.228" EndTime="547.647" Participant="mn015">
+      Do this in Perl. <Comment Description="whispered"/>
+    </Segment>
+    <Segment StartTime="562.780" EndTime="566.323" Participant="me003">
+      <VocalSound Description="eating noises"/>
+    </Segment>
+    <Segment StartTime="564.659" EndTime="566.320" Participant="mn015">
+      So we get -
+    </Segment>
+    <Segment StartTime="573.984" EndTime="601.750" Participant="mn015">
+      <NonVocalSound Description="typing on a keyboard in the background"/>
+    </Segment>
+    <Segment StartTime="601.750" EndTime="602.500" Participant="mn015">
+      <Emphasis> O_K </Emphasis>.
+    </Segment>
+    <Segment StartTime="617.230" EndTime="619.190" Participant="mn015">
+      Let's assume this is the output.
+    </Segment>
+    <Segment StartTime="621.722" EndTime="622.740" Participant="mn015">
+      <Emphasis> So. </Emphasis>
+    </Segment>
+    <Segment StartTime="623.060" EndTime="625.690" Participant="mn015">
+      We should con- be able to conclude from that that -
+    </Segment>
+    <Segment StartTime="626.210" EndTime="628.710" Participant="mn015">
+      I mean. It's <Emphasis> always </Emphasis> gonna give us a value of
+    </Segment>
+    <Segment StartTime="628.999" EndTime="633.380" Participant="mn015">
+      how likely we think i- it is that he <Emphasis> wants </Emphasis> to go there and <Emphasis> doesn't </Emphasis> want to go there,
+    </Segment>
+    <Segment StartTime="634.160" EndTime="636.500" Participant="mn015">
+      or how likely it is that he <Emphasis> wants </Emphasis> to
+    </Segment>
+    <Segment StartTime="636.588" EndTime="637.485" Participant="mn015">
+      get <Emphasis> information. </Emphasis>
+    </Segment>
+    <Segment StartTime="637.980" EndTime="642.570" Participant="mn015">
+      But, maybe w- we should just <Emphasis> reverse </Emphasis> this to make it a <Emphasis> little </Emphasis> bit more <Emphasis> delicate. </Emphasis>
+    </Segment>
+    <Segment StartTime="644.035" EndTime="646.840" Participant="mn015">
+      So, does he wanna know where it <Emphasis> is? </Emphasis> or does he wanna <Emphasis> go </Emphasis> there?
+    </Segment>
+    <Segment StartTime="653.870" EndTime="655.028" Participant="me003">
+      He wants to know where it is.
+    </Segment>
+    <Segment StartTime="656.500" EndTime="658.626" Participant="me003">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="659.200" EndTime="659.555" Participant="mn015">
+      Right.
+    </Segment>
+    <Segment StartTime="660.470" EndTime="662.830" Participant="mn015">
+      I - I - I tend to agree. And if it's -
+    </Segment>
+    <Segment StartTime="662.830" EndTime="663.224" Participant="mn015">
+      If -
+    </Segment>
+    <Segment StartTime="662.830" EndTime="664.770" Participant="me003">
+      Well now, y- I mean, you could -
+    </Segment>
+    <Segment StartTime="664.050" EndTime="666.870" Participant="mn015">
+      And i- if there's sort of a clear winner <Emphasis> here, </Emphasis>
+    </Segment>
+    <Segment StartTime="667.610" EndTime="669.030" Participant="mn015">
+      and, um -
+    </Segment>
+    <Segment StartTime="669.514" EndTime="671.004" Participant="mn015">
+      and this is pretty, uh -
+    </Segment>
+    <Segment StartTime="673.524" EndTime="674.800" Participant="mn015">
+      indifferent,
+    </Segment>
+    <Segment StartTime="679.604" EndTime="680.547" Participant="mn015">
+      <NonVocalSound Description="mike noise"/> <Comment Description="removes mike to cough"/>
+    </Segment>
+    <Segment StartTime="680.529" EndTime="682.243" Participant="mn015" CloseMic="false">
+      <VocalSound Description="cough"/> <Comment Description="off mike"/>
+    </Segment>
+    <Segment StartTime="680.547" EndTime="682.275" Participant="mn015">
+      <Comment Description="cough in background"/>
+    </Segment>
+    <Segment StartTime="682.275" EndTime="683.576" Participant="mn015">
+      <NonVocalSound Description="mike noise"/> <Comment Description="puts mike back on"/>
+    </Segment>
+    <Segment StartTime="683.920" EndTime="686.800" Participant="mn015">
+      then we - then we might conclude that he actually wants to
+    </Segment>
+    <Segment StartTime="686.970" EndTime="690.220" Participant="mn015">
+      just know where, uh t- uh, he <Emphasis> does </Emphasis> want to go there.
+    </Segment>
+    <Segment StartTime="691.070" EndTime="694.140" Participant="me003">
+      Uh, out of curiosity, is there a reason why we wouldn't
+    </Segment>
+    <Segment StartTime="694.840" EndTime="696.190" Participant="me003">
+      combine
+    </Segment>
+    <Segment StartTime="697.264" EndTime="698.637" Participant="me003">
+      these three nodes?
+    </Segment>
+    <Segment StartTime="699.000" EndTime="700.526" Participant="me003">
+      into one smaller subnet? <Pause/>
+    </Segment>
+    <Segment StartTime="701.260" EndTime="701.848" Participant="me003">
+      that would just
+    </Segment>
+    <Segment StartTime="702.700" EndTime="703.824" Participant="me003">
+      basically be <Pause/>
+    </Segment>
+    <Segment StartTime="704.610" EndTime="709.540" Participant="me003">
+      the question for - We have "where is X_?" is the question, right? That would just be Info-on or Location?
+    </Segment>
+    <Segment StartTime="709.990" EndTime="710.888" Participant="me003">
+      Based upon -
+    </Segment>
+    <Segment StartTime="712.670" EndTime="716.530" Participant="mn015">
+      Or Go-there. A lot of people ask that, if they actually just wanna <Emphasis> go </Emphasis> there.
+    </Segment>
+    <Segment StartTime="717.710" EndTime="719.944" Participant="mn015">
+      People come up to you on campus and say, "Where's the library?"
+    </Segment>
+    <Segment StartTime="719.944" EndTime="722.506" Participant="mn015">
+      You're gonna say - y- you're gonna say, g- "Go down <Emphasis> that </Emphasis> way."
+    </Segment>
+    <Segment StartTime="722.506" EndTime="726.850" Participant="mn015">
+      You're not gonna say "It's - It's five hundred yards away from you" or "It's north of you", or -
+    </Segment>
+    <Segment StartTime="726.850" EndTime="727.756" Participant="mn015">
+      "it's located -"
+    </Segment>
+    <Segment StartTime="726.950" EndTime="729.589" Participant="me003">
+      Well, I mean - But the - there's - So you just have three
+    </Segment>
+    <Segment StartTime="730.010" EndTime="735.410" Participant="me003">
+      decisions for the final node, that would link thes- these three nodes in the net together.
+    </Segment>
+    <Segment StartTime="735.700" EndTime="737.325" Participant="mn015">
+      Um.
+    </Segment>
+    <Segment StartTime="738.840" EndTime="742.046" Participant="mn015">
+      I don't know whether I <Emphasis> understand </Emphasis> what you mean. But. <Emphasis> Again, </Emphasis> in <Emphasis> this </Emphasis> -
+    </Segment>
+    <Segment StartTime="742.850" EndTime="747.190" Participant="mn015">
+      Given this input, we, also in some situations, may wanna
+    </Segment>
+    <Segment StartTime="747.788" EndTime="749.430" Participant="mn015">
+      postulate an opinion whether
+    </Segment>
+    <Segment StartTime="749.510" EndTime="751.560" Participant="mn015">
+      that person wants to go there <Emphasis> now </Emphasis>
+    </Segment>
+    <Segment StartTime="751.680" EndTime="754.810" Participant="mn015">
+      the <Emphasis> nicest </Emphasis> way, use a <Emphasis> cab, </Emphasis> or so s-
+    </Segment>
+    <Segment StartTime="755.900" EndTime="761.260" Participant="mn015">
+      wants to know it - wants to know where it is because he wants something <Emphasis> fixed </Emphasis> there, because he wants to
+    </Segment>
+    <Segment StartTime="761.570" EndTime="763.929" Participant="mn015">
+      visit t- it or whatever.
+    </Segment>
+    <Segment StartTime="764.520" EndTime="766.414" Participant="mn015">
+      So, it - n- I mean - a- <Emphasis> All </Emphasis> I'm saying is,
+    </Segment>
+    <Segment StartTime="767.330" EndTime="770.350" Participant="mn015">
+      whatever our input <Emphasis> is, </Emphasis> we're always gonna get the full
+    </Segment>
+    <Segment StartTime="770.680" EndTime="771.620" Participant="mn015">
+      output.
+    </Segment>
+    <Segment StartTime="772.310" EndTime="774.280" Participant="mn015">
+      And some -
+    </Segment>
+    <Segment StartTime="774.850" EndTime="776.170" Participant="mn015">
+      <Emphasis> some </Emphasis> things
+    </Segment>
+    <Segment StartTime="776.650" EndTime="778.310" Participant="mn015">
+      will always be sort of
+    </Segment>
+    <Segment StartTime="779.180" EndTime="781.700" Participant="mn015">
+      too - not significant enough.
+    </Segment>
+    <Segment StartTime="779.392" EndTime="779.681" Participant="me003">
+      Wha-
+    </Segment>
+    <Segment StartTime="781.702" EndTime="786.256" Participant="me003">
+      Or i- or i- it'll be tight. You won't - it'll be hard to decide. But I mean, I guess - I guess the thing is,
+    </Segment>
+    <Segment StartTime="783.481" EndTime="784.031" Participant="mn015">
+      Yep.
+    </Segment>
+    <Segment StartTime="787.029" EndTime="787.622" Participant="me003">
+      uh,
+    </Segment>
+    <Segment StartTime="788.123" EndTime="792.812" Participant="me003">
+      this is another, smaller, case of reasoning in the case of an <Emphasis> uncertainty, </Emphasis> which makes me think Bayes-net should be
+    </Segment>
+    <Segment StartTime="793.368" EndTime="794.392" Participant="me003">
+      the way to <Emphasis> solve </Emphasis>
+    </Segment>
+    <Segment StartTime="795.118" EndTime="797.526" Participant="me003">
+      these things. So if you had - If for every construction, right?
+    </Segment>
+    <Segment StartTime="797.508" EndTime="797.907" Participant="mn015">
+      Oh!
+    </Segment>
+    <Segment StartTime="798.130" EndTime="800.473" Participant="me003">
+      you could say, "Well, there - Here's the Where-Is construction."
+    </Segment>
+    <Segment StartTime="800.798" EndTime="803.749" Participant="me003">
+      And for the Where-Is construction, we know we need to l- look at this node,
+    </Segment>
+    <Segment StartTime="801.498" EndTime="801.954" Participant="fn050">
+      <VocalSound Description="clears throat"/>
+    </Segment>
+    <Segment StartTime="803.749" EndTime="805.935" Participant="me003">
+      that merges these three things together
+    </Segment>
+    <Segment StartTime="805.856" EndTime="806.480" Participant="mn015">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="806.500" EndTime="812.259" Participant="me003">
+      as for th- to decide the response. And since we have a finite number of constructions that we can deal with, we could have a finite number of nodes.
+    </Segment>
+    <Segment StartTime="812.838" EndTime="813.356" Participant="mn015">
+      O_K.
+    </Segment>
+    <Segment StartTime="814.251" EndTime="817.998" Participant="me003">
+      Say, if we had to y- deal with arbitrary language, it wouldn't make any sense to do that, because
+    </Segment>
+    <Segment StartTime="814.718" EndTime="815.280" Participant="mn015">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="817.998" EndTime="821.194" Participant="me003">
+      there'd be no way to generate the nodes for every possible sentence.
+    </Segment>
+    <Segment StartTime="821.283" EndTime="821.614" Participant="mn015">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="821.650" EndTime="823.667" Participant="me003">
+      But since we can only deal with a finite amount of stuff - <Comment Description="invited inference"/>
+    </Segment>
+    <Segment StartTime="824.630" EndTime="826.621" Participant="mn015">
+      So, basically, the idea is to f-
+    </Segment>
+    <Segment StartTime="827.127" EndTime="828.339" Participant="mn015">
+      to feed the output of that
+    </Segment>
+    <Segment StartTime="828.293" EndTime="828.725" Participant="fn050">
+      <VocalSound Description="clears throat"/>
+    </Segment>
+    <Segment StartTime="828.930" EndTime="830.750" Participant="mn015">
+      belief-net into another belief-net.
+    </Segment>
+    <Segment StartTime="830.750" EndTime="833.844" Participant="me003">
+      Yeah, so basically take these three things and then put <Pronounce Pronunciation="&quot;em&quot;"> them  </Pronounce> into another belief-net.
+    </Segment>
+    <Segment StartTime="833.870" EndTime="836.846" Participant="mn015">
+      But, why - why - why only those <Emphasis> three? </Emphasis> Why not the whol-
+    </Segment>
+    <Segment StartTime="836.153" EndTime="838.078" Participant="me003">
+      Well, I mean, d- For the Where-Is question.
+    </Segment>
+    <Segment StartTime="838.078" EndTime="840.260" Participant="me003">
+      So we'd have a node for the Where-Is question.
+    </Segment>
+    <Segment StartTime="842.610" EndTime="847.384" Participant="mn015">
+      Yeah. But we believe that all the decision nodes are - can be relevant for the Where-Is,
+    </Segment>
+    <Segment StartTime="847.384" EndTime="851.780" Participant="mn015">
+      and the Where - How-do-I-get-to or the Tell-me-something-about.
+    </Segment>
+    <Segment StartTime="852.781" EndTime="858.345" CloseMic="false">
+      <NonVocalSound Description="squeaky door opens"/>
+    </Segment>
+    <Segment StartTime="852.781" EndTime="858.345" Participant="me012" CloseMic="false">
+      Is food not allowed in here? <Comment Description="unmiked"/>
+    </Segment>
+    <Segment StartTime="856.390" EndTime="857.223" Participant="me003">
+      You can come in if you want.
+    </Segment>
+    <Segment StartTime="859.140" EndTime="860.110" Participant="mn015">
+      Yes, it <Emphasis> is </Emphasis> allowed.
+    </Segment>
+    <Segment StartTime="860.056" EndTime="860.679" Participant="fn050">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="860.307" EndTime="862.961" Participant="me003">
+      As long as y- you're not wearing your h- your h- <Emphasis> headphones. </Emphasis>
+    </Segment>
+    <Segment StartTime="863.833" EndTime="865.233" Participant="me012" CloseMic="false">
+      Alright. Just a second. I'll be back.
+    </Segment>
+    <Segment StartTime="865.425" EndTime="866.624" Participant="fn050">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="865.530" EndTime="866.463" Participant="me003">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="866.994" EndTime="868.137" CloseMic="false">
+      <NonVocalSound Description="door closes"/>
+    </Segment>
+    <Segment StartTime="869.409" EndTime="871.146" Participant="mn015">
+      <NonVocalSound Description="mike noise"/> <Comment Description="removes mike to cough"/>
+    </Segment>
+    <Segment StartTime="869.650" EndTime="873.382" Participant="me003">
+      Well, I do- I - See, I don't know if this is a <Pause/> good idea or not. I'm just throwing it out.
+    </Segment>
+    <Segment StartTime="871.000" EndTime="873.210" Participant="mn015" CloseMic="false">
+      <VocalSound Description="cough"/> <Comment Description="off mike"/>
+    </Segment>
+    <Segment StartTime="871.146" EndTime="873.667" Participant="mn015">
+      <Comment Description="cough in background"/>
+    </Segment>
+    <Segment StartTime="873.667" EndTime="879.530" Participant="mn015">
+      <NonVocalSound Description="mike noise"/> <Comment Description="puts mike back on"/>
+    </Segment>
+    <Segment StartTime="874.975" EndTime="880.349" Participant="me003">
+      But uh, it seems like we could have - I mea- or uh we could put all of the- all of the r- information that could also be relevant <Pause/>
+    </Segment>
+    <Segment StartTime="880.349" EndTime="882.924" Participant="me003">
+      into the Where-Is node answer
+    </Segment>
+    <Segment StartTime="880.442" EndTime="880.885" Participant="mn015">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="884.051" EndTime="884.414" Participant="mn015">
+      Yep.
+    </Segment>
+    <Segment StartTime="885.130" EndTime="885.717" Participant="me003">
+      node
+    </Segment>
+    <Segment StartTime="885.951" EndTime="886.495" Participant="me003">
+      thing
+    </Segment>
+    <Segment StartTime="886.973" EndTime="887.950" Participant="me003">
+      stuff.
+    </Segment>
+    <Segment StartTime="887.950" EndTime="888.884" Participant="me003">
+      And uh -
+    </Segment>
+    <Segment StartTime="887.985" EndTime="889.457" CloseMic="false">
+      <NonVocalSound Description="squeaky door opens"/>
+    </Segment>
+    <Segment StartTime="889.679" EndTime="891.374" Participant="fn050">
+      <VocalSound Description="laugh"/> O_K.
+    </Segment>
+    <Segment StartTime="893.210" EndTime="893.920" Participant="mn015">
+      I mean -
+    </Segment>
+    <Segment StartTime="894.000" EndTime="894.600" CloseMic="false">
+      <NonVocalSound Description="door closes"/>
+    </Segment>
+    <Segment StartTime="894.095" EndTime="902.320" Participant="mn015">
+      Let's not forget we're gonna get some very strong <Pause/> input from <Pause/> these sub- dis- from these <Emphasis> discourse </Emphasis> things, right?
+    </Segment>
+    <Segment StartTime="896.866" EndTime="897.379" Participant="me003">
+      <NonVocalSound Description="mike noise"/>
+    </Segment>
+    <Segment StartTime="900.061" EndTime="900.908" Participant="me003">
+      <VocalSound Description="breath-laugh"/>
+    </Segment>
+    <Segment StartTime="902.429" EndTime="903.450" Participant="mn015">
+      So.
+    </Segment>
+    <Segment StartTime="903.530" EndTime="905.930" Participant="mn015">
+      "Tell me the location of X_."
+    </Segment>
+    <Segment StartTime="904.339" EndTime="904.711" Participant="me003">
+      <NonVocalSound Description="mike noise"/>
+    </Segment>
+    <Segment StartTime="905.084" EndTime="905.687" Participant="me003">
+      <VocalSound Description="breath-laugh"/>
+    </Segment>
+    <Segment StartTime="906.570" EndTime="907.270" Participant="mn015">
+      <Foreign Language="de" Description="&quot;Right?&quot;"> Nuh?  </Foreign>
+    </Segment>
+    <Segment StartTime="907.350" EndTime="909.180" Participant="mn015">
+      Or "Where is X_ located
+    </Segment>
+    <Segment StartTime="908.323" EndTime="909.111" Participant="fn050">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="909.482" EndTime="910.185" Participant="me003">
+      We u-
+    </Segment>
+    <Segment StartTime="909.580" EndTime="910.890" Participant="mn015">
+      at?" Nuh? <Comment Description="meaning &quot;Right?&quot;"/>
+    </Segment>
+    <Segment StartTime="910.660" EndTime="913.660" Participant="me003">
+      Yeah, I know, but the Bayes-net would be able to - The weights on the -
+    </Segment>
+    <Segment StartTime="913.930" EndTime="916.210" Participant="me003">
+      on the nodes in the Bayes-net would be able to do all that, wouldn't it?
+    </Segment>
+    <Segment StartTime="915.609" EndTime="916.139" Participant="mn015">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="917.532" EndTime="918.186" Participant="me003">
+      Here's a k-
+    </Segment>
+    <Segment StartTime="918.989" EndTime="919.203" Participant="me003">
+      <NonVocalSound Description="mike noise"/>
+    </Segment>
+    <Segment StartTime="919.586" EndTime="919.870" Participant="me003">
+      Oh! <Comment Description="regarding physical event"/>
+    </Segment>
+    <Segment StartTime="920.168" EndTime="921.827" Participant="me003">
+      Oh, I'll wait until you're <Pause/> plugged in.
+    </Segment>
+    <Segment StartTime="922.680" EndTime="923.978" Participant="me003">
+      Oh, <Emphasis> don't </Emphasis> sit there. Sit <Emphasis> here. </Emphasis>
+    </Segment>
+    <Segment StartTime="924.501" EndTime="926.325" Participant="me003">
+      You know how you don't like <Emphasis> that </Emphasis> one. It's O_K.
+    </Segment>
+    <Segment StartTime="926.585" EndTime="927.442" Participant="me012" CloseMic="false">
+      <Uncertain> Oh, do I not? </Uncertain>
+    </Segment>
+    <Segment StartTime="927.509" EndTime="928.680" Participant="me003">
+      <Emphasis> That's </Emphasis> the <Emphasis> weird </Emphasis> one.
+    </Segment>
+    <Segment StartTime="929.064" EndTime="932.222" Participant="me003">
+      That's the one that's painful. That hurts. It hurts <Emphasis> so </Emphasis> bad.
+    </Segment>
+    <Segment StartTime="930.178" EndTime="930.842" Participant="fn050">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="931.299" EndTime="931.876" Participant="fn050">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="932.966" EndTime="933.671" Participant="fn050">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="935.820" EndTime="937.800" Participant="me003">
+      I'm h- I'm happy that they're recording that.
+    </Segment>
+    <Segment StartTime="938.260" EndTime="944.723" Participant="me003">
+      That headphone. The headphone <Pause/> that you have to put on backwards, with the little - little thing - and the little - little foam block on it?
+    </Segment>
+    <Segment StartTime="939.347" EndTime="941.009" Participant="fn050">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="945.216" EndTime="947.081" Participant="me003">
+      It's a painful, painful microphone.
+    </Segment>
+    <Segment StartTime="949.960" EndTime="951.830" Participant="mn015">
+      I think it's th- called "the Crown". <Comment Description="referring to type of mike"/>
+    </Segment>
+    <Segment StartTime="950.437" EndTime="951.407" Participant="fn050">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="951.830" EndTime="954.286" Participant="me003">
+      <VocalSound Description="laugh"/> The crown? <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="952.341" EndTime="953.044" Participant="fn050">
+      What?
+    </Segment>
+    <Segment StartTime="953.075" EndTime="954.800" Participant="mn015">
+      Yeah, versus "the Sony".
+    </Segment>
+    <Segment StartTime="954.800" EndTime="955.493" Participant="me003">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="956.568" EndTime="957.500" Participant="me012">
+      The Crown?
+    </Segment>
+    <Segment StartTime="957.597" EndTime="958.890" Participant="me012">
+      Is that the actual name?
+    </Segment>
+    <Segment StartTime="959.038" EndTime="959.476" Participant="mn015">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="959.394" EndTime="959.742" Participant="me012">
+      O_K.
+    </Segment>
+    <Segment StartTime="960.510" EndTime="961.345" Participant="mn015">
+      The manufacturer.
+    </Segment>
+    <Segment StartTime="962.440" EndTime="964.070" Participant="me003">
+      I don't see a manufacturer on it.
+    </Segment>
+    <Segment StartTime="964.871" EndTime="965.422" Participant="mn015">
+      You w-
+    </Segment>
+    <Segment StartTime="964.930" EndTime="966.334" Participant="me003">
+      Oh, wait, here it is. h- <Emphasis> This </Emphasis> thingy.
+    </Segment>
+    <Segment StartTime="967.300" EndTime="968.584" Participant="me003">
+      Yeah, it's "The Crown".
+    </Segment>
+    <Segment StartTime="969.070" EndTime="970.613" Participant="me003">
+      The crown of pain!
+    </Segment>
+    <Segment StartTime="969.916" EndTime="971.075" Participant="me012">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="970.799" EndTime="972.051" Participant="fn050">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="971.075" EndTime="971.693" Participant="me012">
+      Yes.
+    </Segment>
+    <Segment StartTime="972.198" EndTime="973.400" Participant="mn015">
+      You're on-line?
+    </Segment>
+    <Segment StartTime="973.570" EndTime="975.999" Participant="me003">
+      Are you - are your mike o- Is your mike on? O_K.
+    </Segment>
+    <Segment StartTime="974.295" EndTime="975.116" Participant="me012">
+      Indeed.
+    </Segment>
+    <Segment StartTime="976.680" EndTime="979.583" Participant="me003">
+      So you've been working with these guys? You know what's going on?
+    </Segment>
+    <Segment StartTime="979.005" EndTime="980.499" Participant="me012">
+      Yes, I have.
+    </Segment>
+    <Segment StartTime="980.638" EndTime="983.140" Participant="me003">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="980.924" EndTime="982.170" Participant="me012">
+      And, I do.
+    </Segment>
+    <Segment StartTime="982.992" EndTime="984.970" Participant="me012">
+      Yeah, alright. s- So where are we?
+    </Segment>
+    <Segment StartTime="983.140" EndTime="984.744" Participant="me003">
+      Excellent! <Comment Description="with feigned French accent"/>
+    </Segment>
+    <Segment StartTime="985.430" EndTime="986.489" Participant="mn015">
+      We're <Emphasis> discussing </Emphasis> this.
+    </Segment>
+    <Segment StartTime="986.570" EndTime="988.191" Participant="me012">
+      I don't think it can handle French, but anyway.
+    </Segment>
+    <Segment StartTime="988.290" EndTime="989.821" Participant="me003">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="988.534" EndTime="989.553" Participant="me012">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="990.975" EndTime="991.521" Participant="mn015">
+      So.
+    </Segment>
+    <Segment StartTime="992.380" EndTime="1001.180" Participant="mn015">
+      Assume we have <Emphasis> something </Emphasis> coming in. A person says, "Where is X_?", and we get a certain - We have a Situation vector and a User vector and <Emphasis> everything </Emphasis> is <Emphasis> fine? </Emphasis>
+    </Segment>
+    <Segment StartTime="992.542" EndTime="997.016" Participant="me003">
+      <VocalSound Description="eating noises"/>
+    </Segment>
+    <Segment StartTime="993.555" EndTime="999.200" Participant="me012">
+      <VocalSound Description="eating noises"/>
+    </Segment>
+    <Segment StartTime="999.200" EndTime="1002.561" Participant="me012">
+      <NonVocalSound Description="mike noise"/>
+    </Segment>
+    <Segment StartTime="1001.509" EndTime="1002.752" Participant="me003">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1001.540" EndTime="1004.130" Participant="mn015">
+      An- an- and - and our - and our -
+    </Segment>
+    <Segment StartTime="1002.752" EndTime="1005.982" Participant="me003">
+      Did you just sti- Did you just stick the m- the - the - the <Emphasis> microphone </Emphasis> actually in the <Emphasis> tea? </Emphasis>
+    </Segment>
+    <Segment StartTime="1004.813" EndTime="1006.027" Participant="fn050">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1004.983" EndTime="1005.795" Participant="me012">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1005.795" EndTime="1008.322" Participant="me012">
+      No. <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1005.982" EndTime="1008.488" Participant="me003">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1006.659" EndTime="1007.878" Participant="fn050">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1008.500" EndTime="1009.530" Participant="mn015">
+      And, um,
+    </Segment>
+    <Segment StartTime="1008.507" EndTime="1009.572" Participant="fn050">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1009.475" EndTime="1011.098" Participant="me012">
+      I'm not drinking tea. What are you talking about?
+    </Segment>
+    <Segment StartTime="1011.775" EndTime="1012.746" Participant="me003">
+      Oh, yeah. Sorry.
+    </Segment>
+    <Segment StartTime="1013.580" EndTime="1017.780" Participant="mn015">
+      let's just assume our Bayes-net just has <Emphasis> three </Emphasis> decision nodes for the time being.
+    </Segment>
+    <Segment StartTime="1017.790" EndTime="1022.190" Participant="mn015">
+      These three, he wants to know something <Emphasis> about </Emphasis> it, he wants to know <Emphasis> where </Emphasis> it <Emphasis> is, </Emphasis> he wants to go there.
+    </Segment>
+    <Segment StartTime="1021.190" EndTime="1021.740" Participant="me012">
+      <NonVocalSound Description="mike noise"/>
+    </Segment>
+    <Segment StartTime="1022.204" EndTime="1025.900" Participant="me003">
+      In terms of, these would be wha- how we would answer the question Where-Is, right?
+    </Segment>
+    <Segment StartTime="1026.434" EndTime="1027.059" Participant="me003">
+      We u-
+    </Segment>
+    <Segment StartTime="1026.730" EndTime="1027.591" Participant="me012">
+      <NonVocalSound Description="mike noise"/>
+    </Segment>
+    <Segment StartTime="1028.301" EndTime="1031.227" Participant="me003">
+      This is - i- That's what you s- it <Emphasis> seemed </Emphasis> like, explained it to me earlier w-
+    </Segment>
+    <Segment StartTime="1031.227" EndTime="1034.248" Participant="me003">
+      We - we're - we wanna know how to answer the question "Where is X_?"
+    </Segment>
+    <Segment StartTime="1031.380" EndTime="1033.174" Participant="mn015">
+      Yeah, but, mmm.
+    </Segment>
+    <Segment StartTime="1031.545" EndTime="1035.396" Participant="me012">
+      <VocalSound Description="eating noises"/>
+    </Segment>
+    <Segment StartTime="1033.174" EndTime="1034.220" Participant="mn015">
+      Yeah. <Uncertain NumSyllables="1"> @@ </Uncertain> <Comment Description="uncodeable vocal sound"/>
+    </Segment>
+    <Segment StartTime="1034.220" EndTime="1037.795" Participant="mn015">
+      No, I can - I can do the Timing node in here, <Emphasis> too, </Emphasis> and say "O_K."
+    </Segment>
+    <Segment StartTime="1037.013" EndTime="1041.274" Participant="me003">
+      Well, yeah, but in the s- uh, let's just deal with the s- the <Emphasis> simple </Emphasis> case of we're not worrying about timing or anything.
+    </Segment>
+    <Segment StartTime="1041.274" EndTime="1043.738" Participant="me003">
+      We just want to know how we should answer "Where is X_?"
+    </Segment>
+    <Segment StartTime="1043.326" EndTime="1043.817" Participant="fn050">
+      <VocalSound Description="breath-laugh"/>
+    </Segment>
+    <Segment StartTime="1043.680" EndTime="1044.090" Participant="mn015">
+      O_K.
+    </Segment>
+    <Segment StartTime="1045.220" EndTime="1046.103" Participant="mn015">
+      And, um,
+    </Segment>
+    <Segment StartTime="1046.980" EndTime="1048.399" Participant="mn015">
+      O_K, and,
+    </Segment>
+    <Segment StartTime="1050.720" EndTime="1057.130" Participant="mn015">
+      Go-there has two values, right?, Go-there and <Emphasis> not-Go-there. </Emphasis> Let's assume those are the posterior probabilities of <Emphasis> that. </Emphasis>
+    </Segment>
+    <Segment StartTime="1056.463" EndTime="1056.964" Participant="me012">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="1057.150" EndTime="1064.502" Participant="mn015">
+      Info-on has True or False and Location. So, he wants to know something about it, and he wants to know something - he wants to know Where-it-is,
+    </Segment>
+    <Segment StartTime="1062.709" EndTime="1063.450" Participant="me012">
+      <VocalSound Description="hiccup"/>
+    </Segment>
+    <Segment StartTime="1063.450" EndTime="1064.582" Participant="me012">
+      Excuse me. <Comment Description="whispered"/>
+    </Segment>
+    <Segment StartTime="1064.502" EndTime="1067.048" Participant="mn015">
+      has <Emphasis> these </Emphasis> values.
+    </Segment>
+    <Segment StartTime="1067.182" EndTime="1067.713" Participant="me012">
+      <VocalSound Description="hiccup"/>
+    </Segment>
+    <Segment StartTime="1068.060" EndTime="1069.440" Participant="mn015">
+      And, um,
+    </Segment>
+    <Segment StartTime="1069.272" EndTime="1071.657" Participant="me003">
+      Oh, <Emphasis> I </Emphasis> see why we can't do that.
+    </Segment>
+    <Segment StartTime="1071.670" EndTime="1076.030" Participant="mn015">
+      And, um, in <Emphasis> this </Emphasis> case we would probably all agree that
+    </Segment>
+    <Segment StartTime="1076.129" EndTime="1079.576" Participant="me012">
+      <NonVocalSound Description="mike noise"/>
+    </Segment>
+    <Segment StartTime="1076.599" EndTime="1083.330" Participant="mn015">
+      he <Emphasis> wants </Emphasis> to <Emphasis> go </Emphasis> there. Our belief-net thinks he wants to go there, right? In the, uh, whatever, if we have something like
+    </Segment>
+    <Segment StartTime="1079.576" EndTime="1080.297" Participant="me012">
+      Yeah. <Comment Description="whispered"/>
+    </Segment>
+    <Segment StartTime="1080.297" EndTime="1080.907" Participant="me012">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="1080.907" EndTime="1082.938" Participant="me012">
+      <NonVocalSound Description="mike noise"/>
+    </Segment>
+    <Segment StartTime="1084.229" EndTime="1086.520" Participant="me012">
+      <NonVocalSound Description="mike noise"/>
+    </Segment>
+    <Segment StartTime="1084.840" EndTime="1086.080" Participant="mn015">
+      this here,
+    </Segment>
+    <Segment StartTime="1086.484" EndTime="1087.590" Participant="mn015">
+      and
+    </Segment>
+    <Segment StartTime="1091.076" EndTime="1094.250" Participant="mn015">
+      this like <Emphasis> that </Emphasis> and maybe here also some -
+    </Segment>
+    <Segment StartTime="1094.865" EndTime="1095.577" Participant="me012">
+      You should probably <Comment Description="hoarse voice"/>
+    </Segment>
+    <Segment StartTime="1096.739" EndTime="1097.790" Participant="me012">
+      make them out of - <Comment Description="hoarse voice"/> Yeah.
+    </Segment>
+    <Segment StartTime="1097.835" EndTime="1099.715" Participant="me003">
+      Well, it-
+    </Segment>
+    <Segment StartTime="1098.830" EndTime="1099.669" Participant="mn015">
+      something like <Emphasis> that, </Emphasis>
+    </Segment>
+    <Segment StartTime="1100.210" EndTime="1103.760" Participant="mn015">
+      then we would guess, "Aha! He, <Emphasis> our </Emphasis> belief-net, <Comment Description="appositive"/>
+    </Segment>
+    <Segment StartTime="1101.180" EndTime="1101.488" Participant="fn050">
+      <VocalSound Description="clears throat"/>
+    </Segment>
+    <Segment StartTime="1104.001" EndTime="1109.120" Participant="mn015">
+      has s- stronger beliefs that he wants to know where it is, than actually wants to go <Pause/> there."
+    </Segment>
+    <Segment StartTime="1106.029" EndTime="1106.570" Participant="me012">
+      <VocalSound Description="clears throat"/>
+    </Segment>
+    <Segment StartTime="1106.504" EndTime="1106.939" Participant="fn050">
+      <VocalSound Description="clears throat"/>
+    </Segment>
+    <Segment StartTime="1110.160" EndTime="1110.880" Participant="mn015">
+      Right?
+    </Segment>
+    <Segment StartTime="1111.095" EndTime="1113.587" Participant="me003">
+      That it - Doesn't this assume, though, that they're evenly weighted?
+    </Segment>
+    <Segment StartTime="1111.580" EndTime="1112.341" Participant="fn050">
+      True.
+    </Segment>
+    <Segment StartTime="1114.047" EndTime="1114.700" Participant="me003">
+      Like -
+    </Segment>
+    <Segment StartTime="1116.090" EndTime="1117.680" Participant="me003">
+      I guess they <Emphasis> are </Emphasis> evenly weighted.
+    </Segment>
+    <Segment StartTime="1117.854" EndTime="1119.585" Participant="me012">
+      The different decision nodes, you mean?
+    </Segment>
+    <Segment StartTime="1119.481" EndTime="1121.839" Participant="me003">
+      Yeah, the Go-there, the Info-on, and the Location?
+    </Segment>
+    <Segment StartTime="1121.491" EndTime="1123.142" Participant="me012">
+      Well, d- <Emphasis> yeah, </Emphasis> this is making the assumption.
+    </Segment>
+    <Segment StartTime="1125.387" EndTime="1125.997" Participant="me012">
+      Yes.
+    </Segment>
+    <Segment StartTime="1127.011" EndTime="1127.584" Participant="me003">
+      Like -
+    </Segment>
+    <Segment StartTime="1127.080" EndTime="1130.430" Participant="mn015">
+      What do you <Emphasis> mean </Emphasis> by "differently weighted"? They don't feed into anything <Emphasis> really </Emphasis> <Emphasis> anymore. </Emphasis>
+    </Segment>
+    <Segment StartTime="1130.395" EndTime="1131.511" Participant="me003">
+      Or I jus-
+    </Segment>
+    <Segment StartTime="1130.680" EndTime="1131.902" Participant="me012">
+      But I mean, why do we -
+    </Segment>
+    <Segment StartTime="1132.402" EndTime="1132.660" Participant="me012">
+      <Uncertain NumSyllables="1"> @@ </Uncertain> <Comment Description="uncodeable vocal sound"/>
+    </Segment>
+    <Segment StartTime="1132.642" EndTime="1133.320" Participant="me003">
+      Le-
+    </Segment>
+    <Segment StartTime="1132.660" EndTime="1138.470" Participant="me012">
+      If we trusted the Go-there node more th- much more than we trusted the <Emphasis> other </Emphasis> ones, then we would conclude, even in this situation, that he wanted to go there.
+    </Segment>
+    <Segment StartTime="1139.750" EndTime="1141.925" Participant="me012">
+      So, in that sense, we weight them equally
+    </Segment>
+    <Segment StartTime="1142.560" EndTime="1144.210" Participant="mn015">
+      O_K. Makes sense. Yeah.
+    </Segment>
+    <Segment StartTime="1142.805" EndTime="1143.586" Participant="me012">
+      right now.
+    </Segment>
+    <Segment StartTime="1146.476" EndTime="1148.427" Participant="me003">
+      So the- But I guess the- k- the question -
+    </Segment>
+    <Segment StartTime="1146.555" EndTime="1146.932" Participant="mn015">
+      But -
+    </Segment>
+    <Segment StartTime="1148.958" EndTime="1152.265" Participant="me003">
+      that I was as- er- wondering or maybe Robert was proposing to me
+    </Segment>
+    <Segment StartTime="1152.607" EndTime="1153.025" Participant="me003">
+      is -
+    </Segment>
+    <Segment StartTime="1153.025" EndTime="1156.655" Participant="me003">
+      How do we d- make the decision on - as to - which one to listen to?
+    </Segment>
+    <Segment StartTime="1157.866" EndTime="1163.400" Participant="me012">
+      Yeah, so, the final d- decision is the combination of these three. So again, it's - it's some kind of, uh -
+    </Segment>
+    <Segment StartTime="1163.290" EndTime="1164.093" Participant="me003">
+      Bayes-net. <Comment Description="completing [me012]'s utterance"/>
+    </Segment>
+    <Segment StartTime="1164.350" EndTime="1165.202" Participant="me012">
+      Yeah, sure.
+    </Segment>
+    <Segment StartTime="1164.608" EndTime="1165.687" Participant="fn050">
+      <VocalSound Description="laugh-breath"/>
+    </Segment>
+    <Segment StartTime="1165.946" EndTime="1169.938" Participant="me003">
+      O_K so, then, the question i- So then my question is t- to you then, would be -
+    </Segment>
+    <Segment StartTime="1169.152" EndTime="1169.631" Participant="me012">
+      <NonVocalSound Description="mike noise"/>
+    </Segment>
+    <Segment StartTime="1171.750" EndTime="1177.258" Participant="me003">
+      So is the only r- reason we can <Emphasis> make </Emphasis> all these smaller Bayes-nets, because we know we can only deal with a finite set of constructions?
+    </Segment>
+    <Segment StartTime="1177.258" EndTime="1182.714" Participant="me003">
+      Cuz oth- If we're just taking arbitrary language in, we couldn't have a node for every possible question, you know?
+    </Segment>
+    <Segment StartTime="1181.162" EndTime="1183.492" Participant="mn015">
+      <NonVocalSound Description="mike noise"/> <Comment Description="removes mike to cough"/> <VocalSound Description="cough in background"/>
+    </Segment>
+    <Segment StartTime="1182.534" EndTime="1183.646" Participant="mn015" CloseMic="false">
+      <VocalSound Description="cough"/> <Comment Description="off mike"/>
+    </Segment>
+    <Segment StartTime="1185.000" EndTime="1186.491" Participant="mn015" CloseMic="false">
+      <VocalSound Description="cough"/> <Comment Description="off mike"/>
+    </Segment>
+    <Segment StartTime="1185.157" EndTime="1186.570" Participant="mn015">
+      <VocalSound Description="cough in background"/>
+    </Segment>
+    <Segment StartTime="1186.302" EndTime="1188.517" Participant="me012">
+      A decision node for every possible question, you mean?
+    </Segment>
+    <Segment StartTime="1186.427" EndTime="1187.151" Participant="fn050">
+      <VocalSound Description="breath"/>
+    </Segment>
+    <Segment StartTime="1186.570" EndTime="1195.155" Participant="mn015">
+      <NonVocalSound Description="mike noise"/> <Comment Description="puts mike back on"/>
+    </Segment>
+    <Segment StartTime="1188.606" EndTime="1190.404" Participant="me003">
+      Well, I - like, in the case of - Yeah.
+    </Segment>
+    <Segment StartTime="1190.404" EndTime="1195.356" Participant="me003">
+      In the ca- Any piece of language, we wouldn't be able to answer it with this system, b- if we just h-
+    </Segment>
+    <Segment StartTime="1195.356" EndTime="1200.140" Participant="me003">
+      Cuz we wouldn't have the correct node. Basically, w- what you're s- proposing is a n- Where-Is node, right?
+    </Segment>
+    <Segment StartTime="1200.099" EndTime="1200.589" Participant="me012">
+      Yeah.
+    </Segment>
+    <Segment StartTime="1200.590" EndTime="1205.000" Participant="me003">
+      And - and if we - And if someone - says, you know, uh, something in Mandarin
+    </Segment>
+    <Segment StartTime="1202.309" EndTime="1202.728" Participant="me012">
+      So is -
+    </Segment>
+    <Segment StartTime="1204.219" EndTime="1206.623" Participant="fn050">
+      <NonVocalSound Description="mike noise"/> <Comment Description="removes mike to cough"/>
+    </Segment>
+    <Segment StartTime="1205.184" EndTime="1205.471" Participant="me012">
+      Yeah.
+    </Segment>
+    <Segment StartTime="1205.376" EndTime="1209.530" Participant="me003">
+      to the system, we'd- wouldn't know which node to look at to answer that question, right?
+    </Segment>
+    <Segment StartTime="1206.623" EndTime="1207.632" Participant="fn050">
+      <VocalSound Description="cough"/>
+    </Segment>
+    <Segment StartTime="1207.632" EndTime="1270.457" Participant="fn050">
+      <NonVocalSound Description="mike noise"/> <Comment Description="puts mike back on"/>
+    </Segment>
+    <Segment StartTime="1209.397" EndTime="1210.480" Participant="mn015">
+      <VocalSound Description="inbreath"/>
+    </Segment>
+    <Segment StartTime="1209.453" EndTime="1210.030" Participant="me012">
+      Yeah.
+    </Segment>
+    <Segment StartTime="1210.480" EndTime="1210.731" Participant="mn015">
+      Mmm?
+    </Segment>
+    <Segment StartTime="1210.510" EndTime="1212.606" Participant="me003">
+      So, but - but if we have a finite - What?
+    </Segment>
+    <Segment StartTime="1212.250" EndTime="1216.380" Participant="mn015">
+      I don't see your point. What - what - what <Emphasis> I </Emphasis> am thinking, or what
+    </Segment>
+    <Segment StartTime="1216.380" EndTime="1218.860" Participant="mn015">
+      we're about to propose here is
+    </Segment>
+    <Segment StartTime="1219.420" EndTime="1222.190" Participant="mn015">
+      we're always gonna get the whole list of
+    </Segment>
+    <Segment StartTime="1222.420" EndTime="1224.764" Participant="mn015">
+      values and their posterior probabilities.
+    </Segment>
+    <Segment StartTime="1225.111" EndTime="1229.520" Participant="mn015">
+      And now we need an expert system or belief-net or something that <Emphasis> interprets </Emphasis> that,
+    </Segment>
+    <Segment StartTime="1229.860" EndTime="1231.010" Participant="mn015">
+      that looks at all the
+    </Segment>
+    <Segment StartTime="1231.450" EndTime="1232.720" Participant="mn015">
+      values and says,
+    </Segment>
+    <Segment StartTime="1232.920" EndTime="1234.590" Participant="mn015">
+      "The winner is
+    </Segment>
+    <Segment StartTime="1235.960" EndTime="1237.600" Participant="mn015">
+      Timing. Now, go there."
+    </Segment>
+    <Segment StartTime="1236.259" EndTime="1237.130" Participant="me012">
+      <NonVocalSound Description="mike noise"/>
+    </Segment>
+    <Segment StartTime="1237.770" EndTime="1239.600" Participant="mn015">
+      "Uh, go there, Timing, now."
+    </Segment>
+    <Segment StartTime="1237.996" EndTime="1240.871" Participant="me012">
+      <NonVocalSound Description="mike noise"/>
+    </Segment>
+    <Segment StartTime="1239.770" EndTime="1242.290" Participant="mn015">
+      Or, "The winner is Info-on,
+    </Segment>
+    <Segment StartTime="1242.363" EndTime="1243.630" Participant="mn015">
+      Function-Off."
+    </Segment>
+    <Segment StartTime="1244.039" EndTime="1248.090" Participant="mn015">
+      So, he wants to know <Pause/> something about it, and what it does.
+    </Segment>
+    <Segment StartTime="1248.340" EndTime="1248.559" Participant="mn015">
+      <Foreign Language="de" Description="&quot;Right?&quot;"> Nuh?  </Foreign>
+    </Segment>
+    <Segment StartTime="1250.827" EndTime="1254.750" Participant="mn015">
+      Uh, regardless of - of - of the input. Wh- Regardle-
+    </Segment>
+    <Segment StartTime="1252.058" EndTime="1253.010" Participant="me003">
+      Yeah, but-
+    </Segment>
+    <Segment StartTime="1253.010" EndTime="1255.664" Participant="me003">
+      But how does the expert - but how does the expert system
+    </Segment>
+    <Segment StartTime="1256.024" EndTime="1262.390" Participant="me003">
+      know - how- who- which one to declare the winner, if it doesn't know the question it is, and how that question should be answered?
+    </Segment>
+    <Segment StartTime="1265.820" EndTime="1274.753" Participant="mn015">
+      Based on the k- what the <Emphasis> question </Emphasis> <Emphasis> was, </Emphasis> so what the discourse, the ontology, the situation and the user model gave us, we came up with these values for these decisions.
+    </Segment>
+    <Segment StartTime="1274.650" EndTime="1276.979" Participant="me003">
+      Yeah I know. But how do we weight what we get out?
+    </Segment>
+    <Segment StartTime="1279.010" EndTime="1280.777" Participant="me003">
+      As, which one i- Which ones are important?
+    </Segment>
+    <Segment StartTime="1285.965" EndTime="1289.364" Participant="me003">
+      So my i- So, if we were to it with a Bayes-net, we'd have to have a node -
+    </Segment>
+    <Segment StartTime="1289.577" EndTime="1292.052" Participant="me012">
+      <VocalSound Description="breath"/>
+    </Segment>
+    <Segment StartTime="1289.830" EndTime="1291.862" Participant="me003">
+      for every question that we knew how to deal with,
+    </Segment>
+    <Segment StartTime="1292.490" EndTime="1295.745" Participant="me003">
+      that would take <Pronounce> all  </Pronounce> of the inputs and weight them appropriately for that question.
+    </Segment>
+    <Segment StartTime="1296.496" EndTime="1296.920" Participant="mn015">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="1298.295" EndTime="1299.257" Participant="me003">
+      Does that make sense?
+    </Segment>
+    <Segment StartTime="1300.063" EndTime="1300.959" Participant="me003">
+      Yay, nay?
+    </Segment>
+    <Segment StartTime="1301.227" EndTime="1306.329" Participant="me012">
+      Um, I mean, are you saying that, what happens if you try to scale this up to the situation, or are we just dealing with arbitrary language?
+    </Segment>
+    <Segment StartTime="1301.330" EndTime="1301.758" Participant="me003">
+      We -
+    </Segment>
+    <Segment StartTime="1307.899" EndTime="1308.979" Participant="me012">
+      Is that your point?
+    </Segment>
+    <Segment StartTime="1309.330" EndTime="1310.914" Participant="me003">
+      Well, no. I - I guess my question is,
+    </Segment>
+    <Segment StartTime="1311.340" EndTime="1314.552" Participant="me003">
+      Is the reason that we can make a node f- or - O_K. So, lemme
+    </Segment>
+    <Segment StartTime="1314.552" EndTime="1318.610" Participant="me003">
+      see if I'm confused. Are we going to make a node for every question? Does that make sense? - Or not. <Comment Description="statement meant as a question"/>
+    </Segment>
+    <Segment StartTime="1318.416" EndTime="1320.025" Participant="me012">
+      For every question? Like -
+    </Segment>
+    <Segment StartTime="1319.882" EndTime="1321.050" Participant="me003">
+      Every construction.
+    </Segment>
+    <Segment StartTime="1323.158" EndTime="1324.279" Participant="me012">
+      Hmm. <Comment Description="doubtfully"/>
+    </Segment>
+    <Segment StartTime="1325.730" EndTime="1336.522" Participant="me012">
+      I don't - Not <Emphasis> necessarily, </Emphasis> I would think. I mean, it's not based on constructions, it's based on things like, uh, there's gonna be a node for Go-there or not, and there's gonna be a node for Enter, View, Approach.
+    </Segment>
+    <Segment StartTime="1332.813" EndTime="1333.647" Participant="me003">
+      Wel-
+    </Segment>
+    <Segment StartTime="1335.062" EndTime="1336.107" Participant="me003">
+      W- O_K.
+    </Segment>
+    <Segment StartTime="1336.530" EndTime="1338.216" Participant="me003">
+      So, someone asked a question.
+    </Segment>
+    <Segment StartTime="1338.505" EndTime="1338.778" Participant="me012">
+      Yeah.
+    </Segment>
+    <Segment StartTime="1338.918" EndTime="1340.133" Participant="me003">
+      How do we decide
+    </Segment>
+    <Segment StartTime="1340.331" EndTime="1341.564" Participant="me003">
+      how to answer it?
+    </Segment>
+    <Segment StartTime="1342.948" EndTime="1343.714" Participant="me012">
+      <NonVocalSound Description="mike noise"/>
+    </Segment>
+    <Segment StartTime="1343.714" EndTime="1344.398" Participant="me012">
+      <Uncertain NumSyllables="2"> @@ </Uncertain> <Comment Description="uncodeable vocal sounds"/>
+    </Segment>
+    <Segment StartTime="1343.900" EndTime="1345.020" Participant="mn015">
+      Well, look at -
+    </Segment>
+    <Segment StartTime="1344.398" EndTime="1380.992" Participant="me012">
+      <NonVocalSound Description="mike noise"/>
+    </Segment>
+    <Segment StartTime="1345.020" EndTime="1346.410" Participant="mn015">
+      look -
+    </Segment>
+    <Segment StartTime="1346.410" EndTime="1349.840" Participant="mn015">
+      Face yourself with this pr- question. You get this -
+    </Segment>
+    <Segment StartTime="1350.498" EndTime="1352.560" Participant="mn015">
+      You'll have - y- This is what you get.
+    </Segment>
+    <Segment StartTime="1352.580" EndTime="1355.350" Participant="mn015">
+      And now you have to make a decision. What do we think?
+    </Segment>
+    <Segment StartTime="1355.350" EndTime="1356.559" Participant="mn015">
+      What does this tell us?
+    </Segment>
+    <Segment StartTime="1357.146" EndTime="1357.940" Participant="mn015">
+      <Uncertain NumSyllables="2"> @@ </Uncertain> <Comment Description="uncodeable vocal sounds"/>
+    </Segment>
+    <Segment StartTime="1357.940" EndTime="1368.300" Participant="mn015">
+      And <Emphasis> not </Emphasis> knowing what was asked, and what happened, and whether the person <Emphasis> was </Emphasis> a tourist or a <Emphasis> local, </Emphasis> because all of these factors have presumably already gone into making these
+    </Segment>
+    <Segment StartTime="1368.300" EndTime="1369.782" Participant="mn015">
+      posterior probabilities.
+    </Segment>
+    <Segment StartTime="1371.137" EndTime="1371.994" Participant="me003">
+      Yeah. <Comment Description="lengthened and creaky voice"/>
+    </Segment>
+    <Segment StartTime="1371.300" EndTime="1373.756" Participant="mn015">
+      What - what we need is a - just a mechanism that says,
+    </Segment>
+    <Segment StartTime="1374.890" EndTime="1375.285" Participant="mn015">
+      "Aha!
+    </Segment>
+    <Segment StartTime="1375.713" EndTime="1377.110" Participant="mn015">
+      There is -"
+    </Segment>
+    <Segment StartTime="1377.031" EndTime="1380.644" Participant="me003">
+      I just don't think a "winner-take-all" type of thing is the -
+    </Segment>
+    <Segment StartTime="1380.992" EndTime="1386.326" Participant="me012">
+      I mean, in general, like, we won't just have those three, right? We'll have, uh, like, many, many nodes.
+    </Segment>
+    <Segment StartTime="1386.124" EndTime="1386.492" Participant="mn015">
+      Yep.
+    </Segment>
+    <Segment StartTime="1386.326" EndTime="1392.576" Participant="me012">
+      So we have to, like - So that it's no longer possible to just look at the nodes themselves and figure out what the person is trying to say.
+    </Segment>
+    <Segment StartTime="1392.060" EndTime="1393.810" Participant="mn015">
+      Because there are <Emphasis> interdependencies, </Emphasis> right?
+    </Segment>
+    <Segment StartTime="1394.166" EndTime="1394.859" Participant="mn015">
+      The uh -
+    </Segment>
+    <Segment StartTime="1397.130" EndTime="1398.890" Participant="mn015">
+      Uh, no. So if - if
+    </Segment>
+    <Segment StartTime="1399.162" EndTime="1404.210" Participant="mn015">
+      for example, the <Emphasis> Go-there </Emphasis> posterior possibility is <Emphasis> so </Emphasis> high, um,
+    </Segment>
+    <Segment StartTime="1404.990" EndTime="1408.494" Participant="mn015">
+      uh, w- if it's - if it has reached - <Uncertain> reached </Uncertain> a certain height, then
+    </Segment>
+    <Segment StartTime="1405.118" EndTime="1408.051" Participant="me012">
+      <NonVocalSound Description="mike noise"/>
+    </Segment>
+    <Segment StartTime="1406.351" EndTime="1408.388" Participant="me003">
+      <NonVocalSound Description="mike noise"/> <VocalSound Description="breath"/>
+    </Segment>
+    <Segment StartTime="1408.494" EndTime="1414.506" Participant="mn015">
+      all of this becomes irrelevant. So. If - even if - if the function or the history or something is
+    </Segment>
+    <Segment StartTime="1415.250" EndTime="1418.930" Participant="mn015">
+      scoring pretty good on the <Emphasis> true </Emphasis> node, <Emphasis> true </Emphasis> value -
+    </Segment>
+    <Segment StartTime="1418.465" EndTime="1419.252" Participant="me003">
+      Wel-
+    </Segment>
+    <Segment StartTime="1418.873" EndTime="1437.718" Participant="me012">
+      <NonVocalSound Description="mike noise"/>
+    </Segment>
+    <Segment StartTime="1419.706" EndTime="1422.986" Participant="me003">
+      I don't know about that, cuz that would suggest that - I mean -
+    </Segment>
+    <Segment StartTime="1423.430" EndTime="1426.215" Participant="mn015">
+      He wants to go there <Emphasis> and </Emphasis> know something about it?
+    </Segment>
+    <Segment StartTime="1423.466" EndTime="1424.813" Participant="me003">
+      Do they have to be mutual-
+    </Segment>
+    <Segment StartTime="1425.092" EndTime="1427.437" Participant="me003">
+      Yeah. Do they have to be mutually exclusive?
+    </Segment>
+    <Segment StartTime="1427.924" EndTime="1430.582" Participant="mn015">
+      I think to <Emphasis> some </Emphasis> extent they <Emphasis> are. </Emphasis>
+    </Segment>
+    <Segment StartTime="1432.686" EndTime="1434.300" Participant="mn015">
+      Or maybe they're <Emphasis> not. </Emphasis>
+    </Segment>
+    <Segment StartTime="1434.688" EndTime="1440.075" Participant="me003">
+      Cuz I, uh - The way you describe what they meant, they weren't mutu- uh, they didn't seem mutually exclusive to me.
+    </Segment>
+    <Segment StartTime="1441.140" EndTime="1443.070" Participant="mn015">
+      Well, if he <Emphasis> doesn't </Emphasis> want to <Emphasis> go </Emphasis> there,
+    </Segment>
+    <Segment StartTime="1443.346" EndTime="1445.419" Participant="mn015">
+      even if the <Emphasis> Enter </Emphasis>
+    </Segment>
+    <Segment StartTime="1445.898" EndTime="1447.141" Participant="mn015">
+      posterior proba- So.
+    </Segment>
+    <Segment StartTime="1447.464" EndTime="1448.269" Participant="me003">
+      Wel- <VocalSound Description="inbreath"/>
+    </Segment>
+    <Segment StartTime="1448.350" EndTime="1449.436" Participant="mn015">
+      Go-there is No.
+    </Segment>
+    <Segment StartTime="1450.090" EndTime="1452.846" Participant="mn015">
+      <Emphasis> Enter </Emphasis> is High, and <Emphasis> Info-on </Emphasis> is High.
+    </Segment>
+    <Segment StartTime="1452.103" EndTime="1454.691" Participant="me003">
+      Well, yeah, just out of the other three, though, that you had in the -
+    </Segment>
+    <Segment StartTime="1454.474" EndTime="1454.774" Participant="mn015">
+      Hmm?
+    </Segment>
+    <Segment StartTime="1454.691" EndTime="1457.709" Participant="me003">
+      those three nodes. The- d- They didn't seem like they were mutually exclusive.
+    </Segment>
+    <Segment StartTime="1456.767" EndTime="1458.018" Participant="mn015">
+      No, there's - No. But -
+    </Segment>
+    <Segment StartTime="1459.316" EndTime="1459.952" Participant="mn015">
+      It's through the -
+    </Segment>
+    <Segment StartTime="1459.471" EndTime="1463.250" Participant="me003">
+      So th- s- so, yeah, but some - So, some things would drop out, and some things would still be important.
+    </Segment>
+    <Segment StartTime="1460.551" EndTime="1462.678" Participant="me012">
+      <NonVocalSound Description="mike noise"/> <VocalSound Description="breath"/>
+    </Segment>
+    <Segment StartTime="1463.134" EndTime="1463.530" Participant="mn015">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="1471.532" EndTime="1476.810" Participant="me003">
+      But I guess what's confusing me is, if we have a Bayes-net to deal w- another Bayes-net to deal with this stuff,
+    </Segment>
+    <Segment StartTime="1476.178" EndTime="1479.576" Participant="mn015">
+      <NonVocalSound Description="mike noise"/> <Comment Description="cough in background"/>
+    </Segment>
+    <Segment StartTime="1477.347" EndTime="1478.972" Participant="mn015" CloseMic="false">
+      <VocalSound Description="cough"/> <Comment Description="off mike"/>
+    </Segment>
+    <Segment StartTime="1477.658" EndTime="1478.085" Participant="me012">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="1478.599" EndTime="1479.428" Participant="me003">
+      you know,
+    </Segment>
+    <Segment StartTime="1479.576" EndTime="1485.728" Participant="mn015">
+      <NonVocalSound Description="mike noise"/>
+    </Segment>
+    <Segment StartTime="1479.979" EndTime="1480.830" Participant="me003">
+      uh,
+    </Segment>
+    <Segment StartTime="1481.543" EndTime="1483.320" Participant="me003">
+      is the only reason - O_K, so,
+    </Segment>
+    <Segment StartTime="1483.320" EndTime="1484.018" Participant="me003">
+      I guess,
+    </Segment>
+    <Segment StartTime="1484.018" EndTime="1487.350" Participant="me003">
+      if we have a Ba- another Bayes-net to deal with this stuff, the only r- reason <Pause/>
+    </Segment>
+    <Segment StartTime="1488.030" EndTime="1490.104" Participant="me003">
+      we can design it is cuz we know
+    </Segment>
+    <Segment StartTime="1490.830" EndTime="1492.484" Participant="me003">
+      what each question is asking?
+    </Segment>
+    <Segment StartTime="1493.030" EndTime="1493.415" Participant="me012">
+      Yeah.
+    </Segment>
+    <Segment StartTime="1494.072" EndTime="1494.941" Participant="me012">
+      I think that's true.
+    </Segment>
+    <Segment StartTime="1496.600" EndTime="1504.506" Participant="me003">
+      And then, so, the only reason - way we would know what question he's asking is based upon - Oh, so if - Let's say I had a construction parser, and I plug this in, I would know what each construction - the communicative
+    </Segment>
+    <Segment StartTime="1504.506" EndTime="1506.162" Participant="me003">
+      intent of the construction was
+    </Segment>
+    <Segment StartTime="1506.002" EndTime="1506.458" Participant="me012">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="1506.162" EndTime="1509.446" Participant="me003">
+      and so then I would know how to weight the nodes appropriately, in response.
+    </Segment>
+    <Segment StartTime="1511.580" EndTime="1515.034" Participant="me003">
+      So no matter what they said, if I could map it onto a Where-Is construction,
+    </Segment>
+    <Segment StartTime="1512.540" EndTime="1512.783" Participant="me012">
+      Ge-
+    </Segment>
+    <Segment StartTime="1514.599" EndTime="1515.000" Participant="me012">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="1515.034" EndTime="1516.016" Participant="me003">
+      I could say, "ah!
+    </Segment>
+    <Segment StartTime="1516.016" EndTime="1518.041" Participant="me003">
+      well the- the intent, here, was Where-Is",
+    </Segment>
+    <Segment StartTime="1517.946" EndTime="1518.533" Participant="me012">
+      O_K, right.
+    </Segment>
+    <Segment StartTime="1518.041" EndTime="1519.682" Participant="me003">
+      and I could look at those.
+    </Segment>
+    <Segment StartTime="1520.349" EndTime="1520.764" Participant="me012">
+      Yeah.
+    </Segment>
+    <Segment StartTime="1522.122" EndTime="1528.862" Participant="me012">
+      Yes, I mean. Sure. You <Emphasis> do </Emphasis> need to know - I mean, to have that kind of information.
+    </Segment>
+    <Segment StartTime="1531.178" EndTime="1531.481" Participant="mn015">
+      Hmm.
+    </Segment>
+    <Segment StartTime="1531.850" EndTime="1534.030" Participant="mn015">
+      Yeah, I'm also agreeing that <Pause/> a simple
+    </Segment>
+    <Segment StartTime="1535.178" EndTime="1535.496" Participant="mn015">
+      pru- <Comment Description="start of &quot;pruning&quot;"/>
+    </Segment>
+    <Segment StartTime="1535.496" EndTime="1537.480" Participant="mn015">
+      Take the ones where we <Emphasis> have </Emphasis> a clear winner.
+    </Segment>
+    <Segment StartTime="1538.927" EndTime="1540.982" Participant="mn015">
+      Forget about the ones where it's all sort of
+    </Segment>
+    <Segment StartTime="1541.738" EndTime="1542.693" Participant="mn015">
+      middle ground.
+    </Segment>
+    <Segment StartTime="1543.159" EndTime="1546.590" Participant="mn015">
+      Prune those out and just hand over the ones where we have a <Pronounce Pronunciation="&quot;vinner&quot;"> winner.  </Pronounce>
+    </Segment>
+    <Segment StartTime="1547.420" EndTime="1549.298" Participant="mn015">
+      Yeah, because that would be the <Pronounce> easiest  </Pronounce> way.
+    </Segment>
+    <Segment StartTime="1549.298" EndTime="1553.489" Participant="mn015">
+      We just compose as an output an X_M_L mes- <VocalSound Description="inbreath"/> message that says.
+    </Segment>
+    <Segment StartTime="1554.065" EndTime="1555.804" Participant="mn015">
+      "Go there <Pause/> now."
+    </Segment>
+    <Segment StartTime="1556.940" EndTime="1557.670" Participant="mn015">
+      "Enter
+    </Segment>
+    <Segment StartTime="1560.391" EndTime="1561.624" Participant="mn015">
+      historical information."
+    </Segment>
+    <Segment StartTime="1562.650" EndTime="1565.270" Participant="mn015">
+      And not care whether that's consistent with anything.
+    </Segment>
+    <Segment StartTime="1565.391" EndTime="1565.687" Participant="mn015">
+      Right?
+    </Segment>
+    <Segment StartTime="1566.302" EndTime="1567.189" Participant="me012">
+      <NonVocalSound Description="mike noise"/>
+    </Segment>
+    <Segment StartTime="1566.330" EndTime="1570.990" Participant="mn015">
+      But in <Emphasis> this </Emphasis> case if we say, "<Emphasis> definitely </Emphasis> he <Emphasis> doesn't </Emphasis> want to go there. He just wants to know
+    </Segment>
+    <Segment StartTime="1571.620" EndTime="1572.890" Participant="mn015">
+      <Emphasis> where </Emphasis> it is."
+    </Segment>
+    <Segment StartTime="1574.200" EndTime="1576.240" Participant="mn015">
+      or let's call this - this "Look-At-H-" <Comment Description="start of &quot;Look-at-History&quot;"/>
+    </Segment>
+    <Segment StartTime="1576.240" EndTime="1579.200" Participant="mn015">
+      He wants to know something about the history of. So he said,
+    </Segment>
+    <Segment StartTime="1579.230" EndTime="1580.949" Participant="mn015">
+      "Tell me something about the history of that."
+    </Segment>
+    <Segment StartTime="1581.860" EndTime="1586.015" Participant="mn015">
+      Now, the e- But for some reason the Endpoint-Approach
+    </Segment>
+    <Segment StartTime="1587.250" EndTime="1589.156" Participant="mn015">
+      gets a really high score, <Pause/> too.
+    </Segment>
+    <Segment StartTime="1590.020" EndTime="1592.640" Participant="mn015">
+      We can't expect this to be sort of at O_ point <Comment Description="numerical values in the model"/>
+    </Segment>
+    <Segment StartTime="1593.095" EndTime="1596.172" Participant="mn015">
+      three, three, three, O_ point, three, three, three, O_ point, three, three, three. Right? <Comment Description="numerical values in the model"/>
+    </Segment>
+    <Segment StartTime="1598.130" EndTime="1600.950" Participant="mn015">
+      Somebody needs to <Emphasis> zap </Emphasis> that.
+    </Segment>
+    <Segment StartTime="1601.900" EndTime="1602.209" Participant="mn015">
+      You know?
+    </Segment>
+    <Segment StartTime="1602.209" EndTime="1602.606" Participant="mn015">
+      Or
+    </Segment>
+    <Segment StartTime="1603.053" EndTime="1603.980" Participant="mn015">
+      know -
+    </Segment>
+    <Segment StartTime="1603.980" EndTime="1605.780" Participant="mn015">
+      There needs to be <Emphasis> some </Emphasis> knowledge that -
+    </Segment>
+    <Segment StartTime="1606.637" EndTime="1607.140" Participant="me003">
+      We -
+    </Segment>
+    <Segment StartTime="1607.140" EndTime="1609.443" Participant="me003">
+      Yeah, but, the Bayes-net that would merge -
+    </Segment>
+    <Segment StartTime="1608.741" EndTime="1611.684" Participant="mn015">
+      <NonVocalSound Description="mike noise"/> <Comment Description="cough in background"/>
+    </Segment>
+    <Segment StartTime="1609.780" EndTime="1611.718" Participant="mn015" CloseMic="false">
+      <VocalSound Description="cough"/> <Comment Description="off mike"/>
+    </Segment>
+    <Segment StartTime="1611.021" EndTime="1615.001" Participant="me003">
+      I <Pronounce> just  </Pronounce> realized that I had my hand in between my mouth and my micr- er, my- and my microphone. <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1613.742" EndTime="1614.809" Participant="fn050">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1614.701" EndTime="1618.587" Participant="mn015">
+      <NonVocalSound Description="mike noise"/>
+    </Segment>
+    <Segment StartTime="1615.001" EndTime="1616.025" Participant="me003">
+      <Emphasis> So </Emphasis> then,
+    </Segment>
+    <Segment StartTime="1616.310" EndTime="1617.942" Participant="me003">
+      the Bayes-net that would merge
+    </Segment>
+    <Segment StartTime="1617.942" EndTime="1621.652" Participant="me003">
+      there, that would make the decision between Go-there, Info-on, and Location,
+    </Segment>
+    <Segment StartTime="1621.920" EndTime="1627.288" Participant="me003">
+      would have a node to tell you which one of those three you wanted, and based upon that node, then you would <Emphasis> look </Emphasis> at the other stuff.
+    </Segment>
+    <Segment StartTime="1626.173" EndTime="1627.228" Participant="me012">
+      <NonVocalSound Description="mike noise"/>
+    </Segment>
+    <Segment StartTime="1626.856" EndTime="1627.182" Participant="mn015">
+      Yep.
+    </Segment>
+    <Segment StartTime="1629.000" EndTime="1630.400" Participant="me003">
+      I mean, it- i-
+    </Segment>
+    <Segment StartTime="1629.050" EndTime="1629.336" Participant="mn015">
+      Yep.
+    </Segment>
+    <Segment StartTime="1630.799" EndTime="1632.224" Participant="me003">
+      Does <Emphasis> that </Emphasis> make sense?
+    </Segment>
+    <Segment StartTime="1631.890" EndTime="1635.500" Participant="mn015">
+      Yep. It's sort of one of those, that's - It's more like a decision tree,
+    </Segment>
+    <Segment StartTime="1635.847" EndTime="1636.925" Participant="mn015">
+      if - if you want.
+    </Segment>
+    <Segment StartTime="1636.925" EndTime="1639.784" Participant="mn015">
+      You first look o- at the <Uncertain> lowball </Uncertain> ones, and then -
+    </Segment>
+    <Segment StartTime="1638.342" EndTime="1639.336" Participant="me003">
+      Yeah, i-
+    </Segment>
+    <Segment StartTime="1640.198" EndTime="1642.638" Participant="me003">
+      Yeah, I didn't intend to say that every possible - O_K.
+    </Segment>
+    <Segment StartTime="1642.638" EndTime="1647.764" Participant="me003">
+      There was <Uncertain> a </Uncertain> confusion there, k- I didn't intend to say every possible thing should go into the Bayes-net, because some of the things aren't relevant in the Bayes-net
+    </Segment>
+    <Segment StartTime="1647.764" EndTime="1649.420" Participant="me003">
+      for a specific question.
+    </Segment>
+    <Segment StartTime="1650.846" EndTime="1659.546" Participant="me012">
+      <NonVocalSound Description="mike noise"/>
+    </Segment>
+    <Segment StartTime="1651.504" EndTime="1653.026" Participant="me003">
+      Like the <Emphasis> Endpoint </Emphasis>
+    </Segment>
+    <Segment StartTime="1653.026" EndTime="1658.129" Participant="me003">
+      is not necessarily relevant in the Bayes-net for <Emphasis> Where-Is </Emphasis> until after you've decided whether you wanna <Emphasis> go </Emphasis> there or not.
+    </Segment>
+    <Segment StartTime="1657.941" EndTime="1658.301" Participant="mn015">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="1659.546" EndTime="1660.119" Participant="me012">
+      Right.
+    </Segment>
+    <Segment StartTime="1662.308" EndTime="1663.911" Participant="me012">
+      <NonVocalSound Description="mike noise"/>
+    </Segment>
+    <Segment StartTime="1663.810" EndTime="1665.182" Participant="me003">
+      Show us the way, Bhaskara.
+    </Segment>
+    <Segment StartTime="1665.586" EndTime="1669.356" Participant="me012">
+      I guess the other thing is that um, yeah. I mean, when you're asked a specific question and you don't even -
+    </Segment>
+    <Segment StartTime="1670.091" EndTime="1676.764" Participant="me012">
+      Like, if you're asked a Where-Is question, you may not even look - like, <Emphasis> ask </Emphasis> for the posterior probability of the, uh, E_V_A node, right?
+    </Segment>
+    <Segment StartTime="1676.764" EndTime="1682.249" Participant="me012">
+      Cuz, that's what - I mean, in the Bayes-net you always ask for the posterior probability of a specific node. So, I mean,
+    </Segment>
+    <Segment StartTime="1682.249" EndTime="1685.133" Participant="me012">
+      you may not even bother to compute things you don't need.
+    </Segment>
+    <Segment StartTime="1682.770" EndTime="1683.321" Participant="mn015">
+      Um.
+    </Segment>
+    <Segment StartTime="1685.960" EndTime="1687.173" Participant="mn015">
+      Aren't we <Emphasis> always </Emphasis> computing <Emphasis> all? </Emphasis>
+    </Segment>
+    <Segment StartTime="1687.429" EndTime="1688.165" Participant="me012">
+      No.
+    </Segment>
+    <Segment StartTime="1688.663" EndTime="1692.322" Participant="me012">
+      You can compute, uh, the posterior probability of one subset of the nodes, given
+    </Segment>
+    <Segment StartTime="1692.322" EndTime="1693.881" Participant="me012">
+      some other nodes, but
+    </Segment>
+    <Segment StartTime="1693.881" EndTime="1695.738" Participant="me012">
+      totally ignore some other nodes, also.
+    </Segment>
+    <Segment StartTime="1695.738" EndTime="1698.610" Participant="me012">
+      Basically, things you ignore get marginalized over.
+    </Segment>
+    <Segment StartTime="1698.610" EndTime="1701.090" Participant="mn015">
+      Yeah, but that's - that's just shifting the problem.
+    </Segment>
+    <Segment StartTime="1701.130" EndTime="1704.760" Participant="mn015">
+      Then you would have to make a decision, "O_K, if it's a Where-Is question, which
+    </Segment>
+    <Segment StartTime="1702.550" EndTime="1703.432" Participant="me012">
+      Yeah. So you have to make -
+    </Segment>
+    <Segment StartTime="1704.762" EndTime="1705.447" Participant="me012">
+      Yeah.
+    </Segment>
+    <Segment StartTime="1704.890" EndTime="1706.243" Participant="mn015">
+      decision nodes do I query?"
+    </Segment>
+    <Segment StartTime="1706.472" EndTime="1707.196" Participant="me012">
+      Yes.
+    </Segment>
+    <Segment StartTime="1708.158" EndTime="1708.864" Participant="mn015">
+      <Uncertain> That's un- </Uncertain> <Comment Description="whispered"/>
+    </Segment>
+    <Segment StartTime="1708.330" EndTime="1710.749" Participant="me012">
+      But I would think that's what you want to do. Right?
+    </Segment>
+    <Segment StartTime="1711.510" EndTime="1713.178" Participant="mn015">
+      Mmm. <Comment Description="doubtfully"/>
+    </Segment>
+    <Segment StartTime="1712.545" EndTime="1716.972" Participant="fn050">
+      Well, eventually, you still have to pick out which ones you look at. So it's pretty much the same problem, isn't it?
+    </Segment>
+    <Segment StartTime="1714.810" EndTime="1715.040" Participant="mn015">
+      Yeah.
+    </Segment>
+    <Segment StartTime="1716.280" EndTime="1719.040" Participant="mn015">
+      Yeah - it's - it's - it's apples and oranges. Nuh?
+    </Segment>
+    <Segment StartTime="1718.198" EndTime="1718.968" Participant="me012">
+      <NonVocalSound Description="mike noise"/>
+    </Segment>
+    <Segment StartTime="1720.570" EndTime="1723.940" Participant="mn015">
+      I mean, maybe it does make a difference in terms of performance,
+    </Segment>
+    <Segment StartTime="1724.010" EndTime="1725.402" Participant="mn015">
+      <Emphasis> computational </Emphasis> time. So either you
+    </Segment>
+    <Segment StartTime="1724.934" EndTime="1725.589" Participant="me012">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="1725.755" EndTime="1730.500" Participant="mn015">
+      always have it compute <Emphasis> all </Emphasis> the posterior possibilities for <Emphasis> all </Emphasis> the values for <Emphasis> all </Emphasis> nodes, and then prune
+    </Segment>
+    <Segment StartTime="1730.518" EndTime="1730.947" Participant="me012">
+      Mmm.
+    </Segment>
+    <Segment StartTime="1731.030" EndTime="1732.610" Participant="mn015">
+      the ones you think that are
+    </Segment>
+    <Segment StartTime="1732.990" EndTime="1734.110" Participant="mn015">
+      irrelevant,
+    </Segment>
+    <Segment StartTime="1734.920" EndTime="1736.327" Participant="mn015">
+      or you just make a p-
+    </Segment>
+    <Segment StartTime="1736.327" EndTime="1737.380" Participant="mn015">
+      <Uncertain NumSyllables="1"> @@ </Uncertain> <Comment Description="uncodeable vocal sound"/>
+    </Segment>
+    <Segment StartTime="1737.380" EndTime="1738.770" Participant="mn015">
+      a <Emphasis> priori </Emphasis>
+    </Segment>
+    <Segment StartTime="1738.930" EndTime="1741.751" Participant="mn015">
+      estimate of what you think might be relevant and query those.
+    </Segment>
+    <Segment StartTime="1742.862" EndTime="1743.477" Participant="me012">
+      Yeah.
+    </Segment>
+    <Segment StartTime="1746.467" EndTime="1748.514" Participant="me012">
+      <NonVocalSound Description="mike noise"/>
+    </Segment>
+    <Segment StartTime="1749.157" EndTime="1749.789" Participant="me003">
+      <VocalSound Description="laugh-breath"/>
+    </Segment>
+    <Segment StartTime="1760.141" EndTime="1763.820" Participant="me003">
+      So basically, you'd have a decision tree <Pause/> query, <Pause/> Go-there.
+    </Segment>
+    <Segment StartTime="1763.190" EndTime="1763.963" Participant="me012">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1763.820" EndTime="1768.966" Participant="me003">
+      If k- if that's false, query this one. If that's true, query that one. And just basically do a binary search through the - ? <Comment Description="leading question"/>
+    </Segment>
+    <Segment StartTime="1769.702" EndTime="1773.016" Participant="me012">
+      I don't know if it would necessarily be that, uh, complicated. But, uh -
+    </Segment>
+    <Segment StartTime="1775.067" EndTime="1776.967" Participant="me012">
+      I mean, it w- <VocalSound Description="breath"/>
+    </Segment>
+    <Segment StartTime="1775.349" EndTime="1780.660" Participant="me003">
+      Well, in the case of Go-there, it <Emphasis> would </Emphasis> be. In the case - Cuz if you needed an- If y- If Go-there was <Emphasis> true, </Emphasis> you'd wanna know what endpoint
+    </Segment>
+    <Segment StartTime="1780.660" EndTime="1782.573" Participant="me003">
+      was. And if it was <Emphasis> false, </Emphasis> you'd wanna d- look at
+    </Segment>
+    <Segment StartTime="1782.573" EndTime="1785.261" Participant="me003">
+      either Lo- <Uncertain> Income </Uncertain> Info-on or History.
+    </Segment>
+    <Segment StartTime="1786.171" EndTime="1786.737" Participant="me012">
+      Yeah.
+    </Segment>
+    <Segment StartTime="1788.111" EndTime="1791.520" Participant="me012">
+      That's true, I guess. Yeah, <VocalSound Description="laugh"/> so, in a way you <Emphasis> would </Emphasis> have that.
+    </Segment>
+    <Segment StartTime="1799.787" EndTime="1803.066" Participant="me003">
+      Also, I'm somewhat boggled by that Hugin software.
+    </Segment>
+    <Segment StartTime="1803.125" EndTime="1804.217" Participant="me012">
+      O_K, why's that?
+    </Segment>
+    <Segment StartTime="1804.281" EndTime="1806.215" Participant="me003">
+      I can't figure out how to get the
+    </Segment>
+    <Segment StartTime="1806.959" EndTime="1808.469" Participant="me003">
+      probabilities into it.
+    </Segment>
+    <Segment StartTime="1808.469" EndTime="1809.740" Participant="me003">
+      Like, I'd look at -
+    </Segment>
+    <Segment StartTime="1810.550" EndTime="1810.908" Participant="me012">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="1810.587" EndTime="1812.441" Participant="me003">
+      It's somewha- It's boggling me.
+    </Segment>
+    <Segment StartTime="1812.395" EndTime="1812.768" Participant="me012">
+      O_K.
+    </Segment>
+    <Segment StartTime="1814.012" EndTime="1814.740" Participant="me012">
+      Alright.
+    </Segment>
+    <Segment StartTime="1815.227" EndTime="1817.016" Participant="me012">
+      Well, hopefully it's <Pause/> fixable.
+    </Segment>
+    <Segment StartTime="1816.587" EndTime="1816.777" Participant="me003">
+      Ju-
+    </Segment>
+    <Segment StartTime="1816.900" EndTime="1823.309" Participant="mn015">
+      <NonVocalSound Description="mike noise"/> <Comment Description="cough in background"/>
+    </Segment>
+    <Segment StartTime="1817.415" EndTime="1819.129" Participant="me003">
+      Oh yeah, yeah. I d- I just think I haven't
+    </Segment>
+    <Segment StartTime="1817.416" EndTime="1818.319" Participant="me012">
+      <Uncertain> It's - there's a - </Uncertain>
+    </Segment>
+    <Segment StartTime="1817.711" EndTime="1818.815" Participant="mn015" CloseMic="false">
+      <VocalSound Description="cough"/> <Comment Description="off mike"/>
+    </Segment>
+    <Segment StartTime="1819.627" EndTime="1824.417" Participant="me003">
+      figured out what - the terms in Hugin mean, versus what Java Bayes terms are.
+    </Segment>
+    <Segment StartTime="1820.328" EndTime="1821.682" Participant="mn015" CloseMic="false">
+      <VocalSound Description="cough"/> <Comment Description="off mike"/>
+    </Segment>
+    <Segment StartTime="1823.757" EndTime="1824.350" Participant="me012">
+      O_K.
+    </Segment>
+    <Segment StartTime="1824.602" EndTime="1826.090" Participant="mn015">
+      <NonVocalSound Description="mike noise"/>
+    </Segment>
+    <Segment StartTime="1826.090" EndTime="1830.270" Participant="mn015">
+      Um, by the way, are - Do we know whether Jerry and Nancy <Emphasis> are </Emphasis> coming? Or - ? <Comment Description="leading question"/>
+    </Segment>
+    <Segment StartTime="1826.568" EndTime="1827.799" Participant="me012">
+      So we can figure this out.
+    </Segment>
+    <Segment StartTime="1830.163" EndTime="1833.528" Participant="me012">
+      They should come when they're <Emphasis> done </Emphasis> their <Emphasis> stuff, </Emphasis> basically, whenever that is.
+    </Segment>
+    <Segment StartTime="1834.202" EndTime="1834.855" Participant="me012">
+      So.
+    </Segment>
+    <Segment StartTime="1834.487" EndTime="1836.205" Participant="me003">
+      What d- what do they need to do left? <Comment Description="uncorrected speech error"/>
+    </Segment>
+    <Segment StartTime="1837.395" EndTime="1837.985" Participant="me012">
+      Um,
+    </Segment>
+    <Segment StartTime="1838.867" EndTime="1839.441" Participant="me012">
+      I guess,
+    </Segment>
+    <Segment StartTime="1839.441" EndTime="1842.482" Participant="me012">
+      Jerry needs to enter marks, <Comment Description="meaning course grades"/> but I don't know if he's gonna do that now or later.
+    </Segment>
+    <Segment StartTime="1842.482" EndTime="1846.179" Participant="me012">
+      But, uh, if he's gonna enter marks, it's gonna take him awhile, I guess, and he won't be here.
+    </Segment>
+    <Segment StartTime="1846.668" EndTime="1847.787" Participant="me003">
+      And what's Nancy doing?
+    </Segment>
+    <Segment StartTime="1847.994" EndTime="1851.137" Participant="me012">
+      Nancy? Um, she was sorta finishing up the, uh,
+    </Segment>
+    <Segment StartTime="1851.137" EndTime="1854.576" Participant="me012">
+      calculation of marks and assigning of grades, but I don't know if she should be here.
+    </Segment>
+    <Segment StartTime="1856.264" EndTime="1858.153" Participant="me012">
+      Well - or, she should be free after that, so -
+    </Segment>
+    <Segment StartTime="1859.006" EndTime="1860.392" Participant="me012">
+      assuming she's coming to this meeting.
+    </Segment>
+    <Segment StartTime="1862.167" EndTime="1863.483" Participant="me012">
+      I don't know if she knows about it.
+    </Segment>
+    <Segment StartTime="1865.906" EndTime="1867.638" Participant="me003">
+      She's on the <Emphasis> email </Emphasis> list, right?
+    </Segment>
+    <Segment StartTime="1867.477" EndTime="1868.475" Participant="me012">
+      Is she? O_K.
+    </Segment>
+    <Segment StartTime="1867.889" EndTime="1868.297" Participant="mn015">
+      Mm-hmm. <Comment Description="quietly"/>
+    </Segment>
+    <Segment StartTime="1871.373" EndTime="1871.950" Participant="mn015">
+      O_K.
+    </Segment>
+    <Segment StartTime="1872.532" EndTime="1874.025" Participant="mn015">
+      Because <Pause/>
+    </Segment>
+    <Segment StartTime="1872.828" EndTime="1873.511" Participant="me012">
+      <NonVocalSound Description="mike noise"/>
+    </Segment>
+    <Segment StartTime="1876.430" EndTime="1877.181" Participant="mn015">
+      basically, what -
+    </Segment>
+    <Segment StartTime="1877.800" EndTime="1880.165" Participant="mn015">
+      where we <Emphasis> also </Emphasis> have decided, prior to
+    </Segment>
+    <Segment StartTime="1881.170" EndTime="1882.850" Participant="mn015">
+      this meeting is that
+    </Segment>
+    <Segment StartTime="1882.990" EndTime="1886.720" Participant="mn015">
+      we would have a <Emphasis> rerun </Emphasis> of the <Emphasis> three </Emphasis> of us sitting together <Comment Description="rising intonation"/>
+    </Segment>
+    <Segment StartTime="1883.334" EndTime="1884.432" Participant="me003">
+      <VocalSound Description="muffled cough"/>
+    </Segment>
+    <Segment StartTime="1884.432" EndTime="1887.387" Participant="me003">
+      <NonVocalSound Description="mike noise"/> <Comment Description="puts mike back on"/>
+    </Segment>
+    <Segment StartTime="1885.389" EndTime="1886.348" Participant="me012">
+      <NonVocalSound Description="mike noise"/>
+    </Segment>
+    <Segment StartTime="1886.603" EndTime="1887.164" Participant="fn050">
+      O_K.
+    </Segment>
+    <Segment StartTime="1887.558" EndTime="1889.860" Participant="mn015">
+      sometime <Pause/> this week <Pause/> again <Comment Description="rising intonation"/>
+    </Segment>
+    <Segment StartTime="1887.647" EndTime="1888.635" Participant="me012">
+      <VocalSound Description="swallow"/>
+    </Segment>
+    <Segment StartTime="1888.375" EndTime="1890.328" Participant="me003">
+      <NonVocalSound Description="mike noise"/>
+    </Segment>
+    <Segment StartTime="1889.639" EndTime="1890.437" Participant="me012">
+      O_K.
+    </Segment>
+    <Segment StartTime="1890.580" EndTime="1892.879" Participant="mn015">
+      and finish up the, uh, values
+    </Segment>
+    <Segment StartTime="1893.690" EndTime="1894.490" Participant="mn015">
+      of
+    </Segment>
+    <Segment StartTime="1895.555" EndTime="1896.116" Participant="mn015">
+      this.
+    </Segment>
+    <Segment StartTime="1896.116" EndTime="1897.290" Participant="mn015">
+      So we have,
+    </Segment>
+    <Segment StartTime="1898.314" EndTime="1906.771" Participant="me012">
+      <NonVocalSound Description="mike noise"/>
+    </Segment>
+    <Segment StartTime="1898.570" EndTime="1899.510" Participant="mn015">
+      uh -
+    </Segment>
+    <Segment StartTime="1900.460" EndTime="1902.980" Participant="mn015">
+      Believe it or not, we have <Emphasis> all </Emphasis> the <Emphasis> bottom </Emphasis> ones here. <Comment Description="rising intonation"/>
+    </Segment>
+    <Segment StartTime="1903.390" EndTime="1903.720" Participant="me003">
+      <VocalSound Description="inbreath"/>
+    </Segment>
+    <Segment StartTime="1903.940" EndTime="1904.908" Participant="me003">
+      Well, I -
+    </Segment>
+    <Segment StartTime="1904.583" EndTime="1906.563" Participant="fn050">
+      You added a bunch of <Pause/> nodes, for - ? <Comment Description="leading question"/>
+    </Segment>
+    <Segment StartTime="1906.480" EndTime="1906.770" Participant="mn015">
+      Yep.
+    </Segment>
+    <Segment StartTime="1907.670" EndTime="1908.080" Participant="fn050">
+      O_K.
+    </Segment>
+    <Segment StartTime="1907.707" EndTime="1910.780" Participant="mn015">
+      We - we - we have - Actually what we have is <Emphasis> this </Emphasis> line.
+    </Segment>
+    <Segment StartTime="1910.323" EndTime="1915.417" Participant="me012">
+      <NonVocalSound Description="mike noise"/>
+    </Segment>
+    <Segment StartTime="1912.075" EndTime="1914.021" Participant="me003">
+      Uh, what do the, uh,
+    </Segment>
+    <Segment StartTime="1912.220" EndTime="1912.650" Participant="mn015">
+      Right?
+    </Segment>
+    <Segment StartTime="1914.021" EndTime="1914.974" Participant="me003">
+      structures
+    </Segment>
+    <Segment StartTime="1915.412" EndTime="1915.858" Participant="mn015">
+      Hmm?
+    </Segment>
+    <Segment StartTime="1915.510" EndTime="1916.871" Participant="me003">
+      do? So the - the - the -
+    </Segment>
+    <Segment StartTime="1916.871" EndTime="1918.868" Participant="me003">
+      For instance, this Location node's got two inputs,
+    </Segment>
+    <Segment StartTime="1918.868" EndTime="1919.467" Participant="me003">
+      that one you -
+    </Segment>
+    <Segment StartTime="1918.996" EndTime="1919.781" Participant="me012">
+      <Emphasis> Four </Emphasis> inputs.
+    </Segment>
+    <Segment StartTime="1919.011" EndTime="1919.360" Participant="mn015">
+      Hmm.
+    </Segment>
+    <Segment StartTime="1919.930" EndTime="1920.660" Participant="mn015">
+      Four. <Comment Description="verifying [me012]'s utterance"/>
+    </Segment>
+    <Segment StartTime="1920.443" EndTime="1922.604" Participant="me012">
+      Those are - The bottom things are inputs, also.
+    </Segment>
+    <Segment StartTime="1922.198" EndTime="1923.766" Participant="me003">
+      <VocalSound Description="inbreath"/> Oh, <Emphasis> I </Emphasis> see.
+    </Segment>
+    <Segment StartTime="1923.434" EndTime="1923.892" Participant="me012">
+      Yeah.
+    </Segment>
+    <Segment StartTime="1923.892" EndTime="1926.351" Participant="me012">
+      <NonVocalSound Description="mike noise"/>
+    </Segment>
+    <Segment StartTime="1925.780" EndTime="1926.255" Participant="me003">
+      O_K, that was-
+    </Segment>
+    <Segment StartTime="1926.255" EndTime="1926.747" Participant="me003">
+      O_K.
+    </Segment>
+    <Segment StartTime="1926.351" EndTime="1927.335" Participant="me012">
+      <VocalSound Description="breath"/>
+    </Segment>
+    <Segment StartTime="1926.747" EndTime="1928.364" Participant="me003">
+      That makes a lot more sense to me now.
+    </Segment>
+    <Segment StartTime="1928.423" EndTime="1928.928" Participant="mn015">
+      Yep. <Comment Description="quietly"/>
+    </Segment>
+    <Segment StartTime="1928.656" EndTime="1930.125" Participant="me003">
+      Cuz I thought it was like, that
+    </Segment>
+    <Segment StartTime="1930.125" EndTime="1931.113" Participant="me003">
+      one in
+    </Segment>
+    <Segment StartTime="1931.784" EndTime="1932.911" Participant="me003">
+      Stuart's book about,
+    </Segment>
+    <Segment StartTime="1933.162" EndTime="1934.235" Participant="me003">
+      you know, the -
+    </Segment>
+    <Segment StartTime="1933.850" EndTime="1935.338" Participant="me012">
+      Alarm in the dog?
+    </Segment>
+    <Segment StartTime="1935.137" EndTime="1935.977" Participant="me003">
+      U- Yeah.
+    </Segment>
+    <Segment StartTime="1935.753" EndTime="1936.176" Participant="me012">
+      Yeah. <Comment Description="quietly"/>
+    </Segment>
+    <Segment StartTime="1935.977" EndTime="1937.479" Participant="me003">
+      Or the earthquake and the alarm.
+    </Segment>
+    <Segment StartTime="1937.432" EndTime="1938.773" Participant="fn050">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1937.598" EndTime="1940.446" Participant="me012">
+      Sorry. Yeah, I'm confusing <Emphasis> two. </Emphasis> <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1939.220" EndTime="1941.798" Participant="me003">
+      Yeah, there's a dog one, too, but that's in Java Bayes, isn't it?
+    </Segment>
+    <Segment StartTime="1941.303" EndTime="1942.029" Participant="me012">
+      Right.
+    </Segment>
+    <Segment StartTime="1942.029" EndTime="1942.519" Participant="me012">
+      Maybe.
+    </Segment>
+    <Segment StartTime="1942.780" EndTime="1943.754" Participant="me003">
+      But there's something about
+    </Segment>
+    <Segment StartTime="1943.754" EndTime="1945.779" Participant="me003">
+      bowel problems or something with the dog.
+    </Segment>
+    <Segment StartTime="1945.138" EndTime="1945.866" Participant="me012">
+      <VocalSound Description="laugh"/> <NonVocalSound Description="mike noise"/>
+    </Segment>
+    <Segment StartTime="1946.868" EndTime="1947.126" Participant="me012">
+      Yeah. <Comment Description="quietly"/>
+    </Segment>
+    <Segment StartTime="1947.560" EndTime="1950.700" Participant="mn015">
+      And we have all the
+    </Segment>
+    <Segment StartTime="1949.973" EndTime="1950.603" Participant="me012">
+      <VocalSound Description="swallow"/>
+    </Segment>
+    <Segment StartTime="1951.185" EndTime="1952.392" Participant="mn015">
+      top ones,
+    </Segment>
+    <Segment StartTime="1952.800" EndTime="1955.360" Participant="mn015">
+      all the ones to which <Emphasis> no </Emphasis> arrows are pointing. <Comment Description="rising intonation"/>
+    </Segment>
+    <Segment StartTime="1956.150" EndTime="1958.340" Participant="mn015">
+      What we're missing are the -
+    </Segment>
+    <Segment StartTime="1958.757" EndTime="1962.250" Participant="mn015">
+      these, where arrows are pointing, where we're combining
+    </Segment>
+    <Segment StartTime="1963.366" EndTime="1964.660" Participant="mn015">
+      top ones.
+    </Segment>
+    <Segment StartTime="1966.170" EndTime="1968.840" Participant="mn015">
+      So, we have to come up with values for this, and
+    </Segment>
+    <Segment StartTime="1969.158" EndTime="1971.830" Participant="mn015">
+      this, this, this, and so forth. <Comment Description="rising intonation"/>
+    </Segment>
+    <Segment StartTime="1973.429" EndTime="1974.420" Participant="mn015">
+      And maybe
+    </Segment>
+    <Segment StartTime="1974.864" EndTime="1977.450" Participant="mn015">
+      just fiddle around with it a little bit more. <Comment Description="rising intonation"/>
+    </Segment>
+    <Segment StartTime="1980.703" EndTime="1982.150" Participant="mn015">
+      And, um.
+    </Segment>
+    <Segment StartTime="1982.700" EndTime="1984.420" Participant="mn015">
+      And then it's just, uh,
+    </Segment>
+    <Segment StartTime="1984.551" EndTime="1985.660" Participant="mn015">
+      edges,
+    </Segment>
+    <Segment StartTime="1986.796" EndTime="1987.760" Participant="mn015">
+      many of
+    </Segment>
+    <Segment StartTime="1989.387" EndTime="1990.371" Participant="mn015">
+      edges. <Comment Description="quietly"/>
+    </Segment>
+    <Segment StartTime="1991.700" EndTime="1996.837" Participant="mn015">
+      And, um, we <Emphasis> won't </Emphasis> <Comment Description="lengthened"/> meet next Monday.
+    </Segment>
+    <Segment StartTime="1997.254" EndTime="1998.280" Participant="mn015">
+      So.
+    </Segment>
+    <Segment StartTime="1998.054" EndTime="1999.584" Participant="me003">
+      Cuz of Memorial Day?
+    </Segment>
+    <Segment StartTime="2000.060" EndTime="2000.502" Participant="mn015">
+      Yep.
+    </Segment>
+    <Segment StartTime="2000.243" EndTime="2001.837" Participant="me012">
+      We'll meet next Tuesday, I guess.
+    </Segment>
+    <Segment StartTime="2002.139" EndTime="2002.581" Participant="mn015">
+      Yeah.
+    </Segment>
+    <Segment StartTime="2002.843" EndTime="2004.065" Participant="me003">
+      When's Jerry leaving for -
+    </Segment>
+    <Segment StartTime="2004.295" EndTime="2005.093" Participant="me003">
+      Italia? <Comment Description="with feigned Italian accent"/>
+    </Segment>
+    <Segment StartTime="2004.414" EndTime="2005.990" Participant="mn015">
+      On - on <Emphasis> Friday. </Emphasis> <Comment Description="restart at overlap"/>
+    </Segment>
+    <Segment StartTime="2005.980" EndTime="2006.796" Participant="me012">
+      Which Friday?
+    </Segment>
+    <Segment StartTime="2006.196" EndTime="2007.162" Participant="mn015">
+      This - <Emphasis> this </Emphasis> Friday.
+    </Segment>
+    <Segment StartTime="2007.454" EndTime="2008.127" Participant="me012">
+      O_K.
+    </Segment>
+    <Segment StartTime="2007.766" EndTime="2009.109" Participant="fn050">
+      Oh. <Emphasis> This </Emphasis> Friday?
+    </Segment>
+    <Segment StartTime="2008.497" EndTime="2008.912" Participant="me003">
+      Ugh. <Comment Description="interjection, vocal gesture of negative surprise"/>
+    </Segment>
+    <Segment StartTime="2009.134" EndTime="2010.090" Participant="mn015">
+      <Emphasis> This </Emphasis> Friday.
+    </Segment>
+    <Segment StartTime="2009.199" EndTime="2010.604" Participant="me003">
+      As in, four days?
+    </Segment>
+    <Segment StartTime="2010.489" EndTime="2010.995" Participant="mn015">
+      Yep.
+    </Segment>
+    <Segment StartTime="2011.758" EndTime="2012.680" Participant="me003">
+      Or, three days?
+    </Segment>
+    <Segment StartTime="2012.447" EndTime="2014.565" Participant="me012">
+      Is he - How long is he gone for?
+    </Segment>
+    <Segment StartTime="2014.000" EndTime="2015.080" Participant="mn015">
+      Two weeks.
+    </Segment>
+    <Segment StartTime="2017.610" EndTime="2018.512" Participant="me012">
+      Italy, huh? <Comment Description="quietly"/>
+    </Segment>
+    <Segment StartTime="2019.699" EndTime="2021.445" Participant="me012">
+      What's, uh - what's there?
+    </Segment>
+    <Segment StartTime="2022.662" EndTime="2024.265" Participant="me003">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2022.963" EndTime="2023.986" Participant="fn050">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2024.016" EndTime="2024.660" Participant="mn015">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2024.660" EndTime="2025.840" Participant="mn015">
+      Well, it's a country.
+    </Segment>
+    <Segment StartTime="2026.130" EndTime="2027.170" Participant="mn015">
+      Buildings.
+    </Segment>
+    <Segment StartTime="2027.170" EndTime="2027.822" Participant="mn015">
+      People.
+    </Segment>
+    <Segment StartTime="2027.995" EndTime="2030.218" Participant="me003">
+      But it's not a conference or anything. He's just visiting.
+    </Segment>
+    <Segment StartTime="2028.500" EndTime="2029.142" Participant="me012">
+      Pasta.
+    </Segment>
+    <Segment StartTime="2029.410" EndTime="2030.130" Participant="mn015">
+      Hmm?
+    </Segment>
+    <Segment StartTime="2030.387" EndTime="2031.074" Participant="me012">
+      Right.
+    </Segment>
+    <Segment StartTime="2031.074" EndTime="2031.890" Participant="me012">
+      Just visiting.
+    </Segment>
+    <Segment StartTime="2032.505" EndTime="2033.490" Participant="mn015">
+      Vacation.
+    </Segment>
+    <Segment StartTime="2036.423" EndTime="2038.914" CloseMic="false">
+      <Comment Description="conversation in parallel with whistling"/>
+    </Segment>
+    <Segment StartTime="2036.429" EndTime="2038.516" Participant="me003">
+      <VocalSound Description="whistling"/>
+    </Segment>
+    <Segment StartTime="2037.054" EndTime="2038.227" Participant="me012">
+      It's a pretty nice place,
+    </Segment>
+    <Segment StartTime="2038.905" EndTime="2040.003" Participant="me003">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2038.955" EndTime="2041.388" Participant="me012">
+      in my brief, uh, encounter with it.
+    </Segment>
+    <Segment StartTime="2041.675" EndTime="2048.480" Participant="mn015">
+      Do you guys - Oh, yeah. So. <Emphasis> Part </Emphasis> of what we actually <Emphasis> want </Emphasis> to do is sort of schedule out what we want to <Emphasis> surprise </Emphasis> him with when - when he comes <Emphasis> back. </Emphasis>
+    </Segment>
+    <Segment StartTime="2048.760" EndTime="2050.150" Participant="mn015">
+      Um, so -
+    </Segment>
+    <Segment StartTime="2049.069" EndTime="2050.810" Participant="me003">
+      Oh, I think we should disappoint him.
+    </Segment>
+    <Segment StartTime="2050.705" EndTime="2056.620" Participant="mn015">
+      Yeah? You - or have a finished <Pronounce> construction  </Pronounce> parser and a working belief-net, and uh -
+    </Segment>
+    <Segment StartTime="2050.784" EndTime="2052.350" Participant="fn050">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2051.422" EndTime="2052.653" Participant="me012">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2056.671" EndTime="2058.304" Participant="me003">
+      <Emphasis> That </Emphasis> wouldn't be <Emphasis> disappointing. </Emphasis> <VocalSound Description="laugh"/> <Comment Description="contradiction contour"/>
+    </Segment>
+    <Segment StartTime="2058.304" EndTime="2060.588" Participant="me003">
+      I think w- we should do absolutely no work
+    </Segment>
+    <Segment StartTime="2058.575" EndTime="2059.720" Participant="me012">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2060.588" EndTime="2062.782" Participant="me003">
+      for the two weeks that he's gone.
+    </Segment>
+    <Segment StartTime="2062.190" EndTime="2069.240" Participant="mn015">
+      Well, that's actually what <Emphasis> I </Emphasis> had planned, <Emphasis> personally. </Emphasis> I had - I - I had sort of scheduled out in my mind that <Emphasis> you </Emphasis> guys do a <Emphasis> lot </Emphasis> of work, and <Emphasis> I </Emphasis> do <Emphasis> nothing. </Emphasis>
+    </Segment>
+    <Segment StartTime="2063.770" EndTime="2065.100" Participant="me003">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2069.743" EndTime="2071.700" Participant="mn015">
+      And then, I sort of -
+    </Segment>
+    <Segment StartTime="2070.510" EndTime="2071.884" Participant="me003">
+      Oh, yeah, that sounds good, too.
+    </Segment>
+    <Segment StartTime="2072.375" EndTime="2074.900" Participant="mn015">
+      sort of bask in - in your glory.
+    </Segment>
+    <Segment StartTime="2073.120" EndTime="2074.404" Participant="me012">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2079.220" EndTime="2083.500" Participant="mn015">
+      But, uh, i- do you guys have any vacation plans, because I <Emphasis> myself </Emphasis> am going to be,
+    </Segment>
+    <Segment StartTime="2083.686" EndTime="2084.800" Participant="mn015">
+      um,
+    </Segment>
+    <Segment StartTime="2085.236" EndTime="2086.050" Participant="mn015">
+      gone, but
+    </Segment>
+    <Segment StartTime="2086.150" EndTime="2090.456" Participant="mn015">
+      this is actually <Pronounce Pronunciation="&quot;nnnot&quot;"> not  </Pronounce> really important. Just this <Emphasis> weekend </Emphasis> we're going camping.
+    </Segment>
+    <Segment StartTime="2090.100" EndTime="2092.009" Participant="me003">
+      Yeah, I'm wanna be this - gone this weekend, too. <Comment Description="speech error during overlap"/>
+    </Segment>
+    <Segment StartTime="2091.907" EndTime="2092.454" Participant="mn015">
+      Ah. <Comment Description="quietly"/>
+    </Segment>
+    <Segment StartTime="2093.240" EndTime="2095.630" Participant="mn015">
+      But we're <Emphasis> all </Emphasis> going to be here on <Emphasis> Tuesday </Emphasis> again?
+    </Segment>
+    <Segment StartTime="2096.532" EndTime="2097.650" Participant="mn015">
+      Looks like it?
+    </Segment>
+    <Segment StartTime="2096.587" EndTime="2096.917" Participant="fn050">
+      Yeah.
+    </Segment>
+    <Segment StartTime="2098.390" EndTime="2100.940" Participant="mn015">
+      O_K, then. Let's meet - meet again next Tuesday.
+    </Segment>
+    <Segment StartTime="2101.328" EndTime="2102.560" Participant="mn015">
+      And, um,
+    </Segment>
+    <Segment StartTime="2102.263" EndTime="2109.275" Participant="me003">
+      <VocalSound Description="whistling"/>
+    </Segment>
+    <Segment StartTime="2102.281" EndTime="2109.832" CloseMic="false">
+      <Comment Description="conversation in parallel with whistling"/>
+    </Segment>
+    <Segment StartTime="2102.560" EndTime="2104.391" Participant="mn015">
+      finish up this Bayes-net.
+    </Segment>
+    <Segment StartTime="2104.850" EndTime="2106.371" Participant="mn015">
+      And once we have <Emphasis> finished </Emphasis> it,
+    </Segment>
+    <Segment StartTime="2106.976" EndTime="2108.760" Participant="mn015">
+      I guess we can,
+    </Segment>
+    <Segment StartTime="2108.760" EndTime="2109.830" Participant="mn015">
+      um -
+    </Segment>
+    <Segment StartTime="2110.903" EndTime="2113.176" Participant="mn015">
+      and that's going to be more just you and <Emphasis> me, </Emphasis>
+    </Segment>
+    <Segment StartTime="2114.164" EndTime="2116.870" Participant="mn015">
+      because Bhaskara is doing probabilistic,
+    </Segment>
+    <Segment StartTime="2116.980" EndTime="2118.670" Participant="mn015">
+      recursive,
+    </Segment>
+    <Segment StartTime="2118.670" EndTime="2120.059" Participant="mn015">
+      structured,
+    </Segment>
+    <Segment StartTime="2120.059" EndTime="2121.308" Participant="mn015">
+      object-oriented,
+    </Segment>
+    <Segment StartTime="2121.702" EndTime="2122.731" Participant="me003">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2122.272" EndTime="2123.319" Participant="mn015">
+      uh,
+    </Segment>
+    <Segment StartTime="2122.731" EndTime="2124.284" Participant="me003">
+      Killing machines! <Comment Description="completing [mn015]'s utterance"/>
+    </Segment>
+    <Segment StartTime="2123.082" EndTime="2123.529" Participant="fn050">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2123.751" EndTime="2125.034" Participant="mn015">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2123.916" EndTime="2126.349" Participant="me012">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2124.750" EndTime="2125.317" Participant="fn050">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2125.890" EndTime="2126.884" Participant="mn015">
+      <Emphasis> reasoning </Emphasis> machines.
+    </Segment>
+    <Segment StartTime="2126.921" EndTime="2127.508" Participant="me012">
+      Yes.
+    </Segment>
+    <Segment StartTime="2127.623" EndTime="2128.893" Participant="mn015">
+      And, um -
+    </Segment>
+    <Segment StartTime="2128.458" EndTime="2131.030" Participant="me003">
+      Killing, reasoning. What's the difference?
+    </Segment>
+    <Segment StartTime="2130.307" EndTime="2134.210" Participant="fn050">
+      Wait. So you're saying, next Tuesday, is it the whole group meeting, or just
+    </Segment>
+    <Segment StartTime="2134.246" EndTime="2134.624" Participant="mn015">
+      Uh.
+    </Segment>
+    <Segment StartTime="2134.300" EndTime="2136.633" Participant="fn050">
+      us three working on it, or - or - ? <Comment Description="leading question"/>
+    </Segment>
+    <Segment StartTime="2135.739" EndTime="2136.751" Participant="mn015">
+      The whole group.
+    </Segment>
+    <Segment StartTime="2136.960" EndTime="2138.247" Participant="mn015">
+      And we present our results,
+    </Segment>
+    <Segment StartTime="2138.640" EndTime="2139.800" Participant="mn015">
+      our <Emphasis> final, </Emphasis>
+    </Segment>
+    <Segment StartTime="2139.930" EndTime="2140.830" Participant="fn050">
+      O_K.
+    </Segment>
+    <Segment StartTime="2140.482" EndTime="2141.210" Participant="mn015">
+      <Emphasis> definite </Emphasis> -
+    </Segment>
+    <Segment StartTime="2141.195" EndTime="2144.120" Participant="fn050">
+      So, when you were saying we <Pause/> need to do a re-run
+    </Segment>
+    <Segment StartTime="2142.734" EndTime="2144.268" Participant="me003">
+      <VocalSound Description="laugh"/> <NonVocalSound Description="mike noise"/>
+    </Segment>
+    <Segment StartTime="2144.320" EndTime="2145.542" Participant="fn050">
+      of, like -
+    </Segment>
+    <Segment StartTime="2144.801" EndTime="2146.136" Participant="me003">
+      <VocalSound Description="laugh"/> <NonVocalSound Description="mike noise"/>
+    </Segment>
+    <Segment StartTime="2144.901" EndTime="2146.046" Participant="me012">
+      h- What?
+    </Segment>
+    <Segment StartTime="2146.532" EndTime="2148.850" Participant="fn050">
+      What - Like, just working out the rest of the - <Comment Description="leading question"/>
+    </Segment>
+    <Segment StartTime="2146.943" EndTime="2147.450" Participant="mn015">
+      <NonVocalSound Description="mike noise"/>
+    </Segment>
+    <Segment StartTime="2148.370" EndTime="2151.029" Participant="mn015">
+      Yeah. We should do this th- the upcoming days.
+    </Segment>
+    <Segment StartTime="2150.185" EndTime="2150.895" Participant="fn050">
+      <Emphasis> This </Emphasis> week?
+    </Segment>
+    <Segment StartTime="2151.029" EndTime="2151.910" Participant="mn015">
+      So, <Emphasis> this </Emphasis> week, yeah.
+    </Segment>
+    <Segment StartTime="2151.789" EndTime="2152.346" Participant="fn050">
+      O_K.
+    </Segment>
+    <Segment StartTime="2151.807" EndTime="2154.010" Participant="me003">
+      When you say, "the whole group", you mean <Pause/>
+    </Segment>
+    <Segment StartTime="2154.315" EndTime="2156.220" Participant="me003">
+      the four of us, and Keith?
+    </Segment>
+    <Segment StartTime="2155.042" EndTime="2157.045" Participant="me012">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2156.220" EndTime="2157.590" Participant="mn015">
+      And, <Emphasis> Ami </Emphasis> might. <Comment Description="rising intonation"/>
+    </Segment>
+    <Segment StartTime="2157.593" EndTime="2160.930" Participant="me003">
+      Ami might be here, and it's possible that Nancy'll be here?
+    </Segment>
+    <Segment StartTime="2160.343" EndTime="2160.782" Participant="mn015">
+      Yep.
+    </Segment>
+    <Segment StartTime="2166.825" EndTime="2167.843" Participant="me003">
+      So,
+    </Segment>
+    <Segment StartTime="2168.129" EndTime="2168.847" Participant="me003">
+      yeah.
+    </Segment>
+    <Segment StartTime="2170.613" EndTime="2171.461" Participant="mn015">
+      Because, th- you know,
+    </Segment>
+    <Segment StartTime="2171.461" EndTime="2173.110" Participant="mn015">
+      once we have the belief-net done -
+    </Segment>
+    <Segment StartTime="2172.317" EndTime="2173.117" Participant="me003">
+      You're just gonna have to
+    </Segment>
+    <Segment StartTime="2173.117" EndTime="2176.000" Participant="me003">
+      explain it to me, then, on Tuesday, how it's all gonna work out.
+    </Segment>
+    <Segment StartTime="2176.530" EndTime="2177.280" Participant="me003">
+      <Emphasis> You </Emphasis> know.
+    </Segment>
+    <Segment StartTime="2179.830" EndTime="2181.928" Participant="me003">
+      <VocalSound Description="big laugh"/>
+    </Segment>
+    <Segment StartTime="2179.981" EndTime="2183.072" Participant="me012">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2181.575" EndTime="2182.670" Participant="mn015">
+      <Emphasis> We </Emphasis> will.
+    </Segment>
+    <Segment StartTime="2182.670" EndTime="2186.880" Participant="mn015">
+      O_K. Because then, once we have it sort of up and running, then we can <Pronounce> start  </Pronounce> you know,
+    </Segment>
+    <Segment StartTime="2187.410" EndTime="2191.530" Participant="mn015">
+      defining the interfaces and then feed stuff into it and get stuff out of it, and then
+    </Segment>
+    <Segment StartTime="2191.590" EndTime="2193.160" Participant="mn015">
+      hook it up to some
+    </Segment>
+    <Segment StartTime="2193.160" EndTime="2194.950" Participant="mn015">
+      fake construction
+    </Segment>
+    <Segment StartTime="2194.960" EndTime="2196.300" Participant="mn015">
+      parser and -
+    </Segment>
+    <Segment StartTime="2195.990" EndTime="2197.611" Participant="me003">
+      That you will have in about
+    </Segment>
+    <Segment StartTime="2197.611" EndTime="2199.500" Participant="me003">
+      nine months or so. Yeah.
+    </Segment>
+    <Segment StartTime="2198.870" EndTime="2199.570" Participant="mn015">
+      Yeah.
+    </Segment>
+    <Segment StartTime="2199.195" EndTime="2200.240" Participant="me012">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2200.239" EndTime="2201.324" Participant="mn015">
+      And, um,
+    </Segment>
+    <Segment StartTime="2201.190" EndTime="2203.670" Participant="me003">
+      The first bad version'll be done in nine months.
+    </Segment>
+    <Segment StartTime="2204.190" EndTime="2214.410" Participant="mn015">
+      Yeah, I can worry about the ontology interface and you can - Keith can worry about the discourse. I mean, this is pretty - Um, I mean, I - I - I hope everybody uh <Emphasis> knows </Emphasis> that
+    </Segment>
+    <Segment StartTime="2214.410" EndTime="2217.707" Participant="mn015">
+      these are just going to be uh <Emphasis> dummy </Emphasis> values, right?
+    </Segment>
+    <Segment StartTime="2217.671" EndTime="2218.358" Participant="me012">
+      Which - <Comment Description="quietly"/>
+    </Segment>
+    <Segment StartTime="2217.707" EndTime="2218.750" Participant="mn015">
+      where the -
+    </Segment>
+    <Segment StartTime="2219.487" EndTime="2220.431" Participant="me012">
+      Which ones?
+    </Segment>
+    <Segment StartTime="2219.566" EndTime="2226.830" Participant="mn015">
+      S- so - so if the <Emphasis> endpoint </Emphasis> - if the <Emphasis> Go-there </Emphasis> is Yes and No, then Go-there-<Emphasis> discourse </Emphasis> will just be fifty-fifty.
+    </Segment>
+    <Segment StartTime="2227.120" EndTime="2227.473" Participant="mn015">
+      Right?
+    </Segment>
+    <Segment StartTime="2228.307" EndTime="2231.642" Participant="me012">
+      Um, what do you mean? <Emphasis> If </Emphasis> the Go-there says No, then the Go-there is -
+    </Segment>
+    <Segment StartTime="2229.167" EndTime="2230.275" Participant="fn050">
+      I don't get it.
+    </Segment>
+    <Segment StartTime="2231.642" EndTime="2232.822" Participant="me012">
+      I don't u- understand.
+    </Segment>
+    <Segment StartTime="2235.910" EndTime="2236.426" Participant="mn015">
+      Um.
+    </Segment>
+    <Segment StartTime="2236.528" EndTime="2239.088" Participant="me012">
+      Like, the Go-there depends on all those four things.
+    </Segment>
+    <Segment StartTime="2238.953" EndTime="2239.343" Participant="mn015">
+      Yep.
+    </Segment>
+    <Segment StartTime="2239.633" EndTime="2240.249" Participant="me012">
+      Yeah.
+    </Segment>
+    <Segment StartTime="2239.780" EndTime="2242.630" Participant="mn015">
+      But, what are the values of the Go-there-<Emphasis> discourse? </Emphasis>
+    </Segment>
+    <Segment StartTime="2242.604" EndTime="2245.752" Participant="me012">
+      Well, it depends on the situation. If the discourse is <Emphasis> strongly </Emphasis> indicating that -
+    </Segment>
+    <Segment StartTime="2245.730" EndTime="2248.120" Participant="mn015">
+      Yeah, but, uh, we <Emphasis> have </Emphasis> no discourse input.
+    </Segment>
+    <Segment StartTime="2247.969" EndTime="2253.979" Participant="me012">
+      Oh, <Emphasis> I </Emphasis> see. The d- See, uh, specifically in our situation, D_ and O_ are gonna be, uh - Yeah. Sure. So, whatever.
+    </Segment>
+    <Segment StartTime="2253.640" EndTime="2255.068" Participant="fn050">
+      So, so far we have -
+    </Segment>
+    <Segment StartTime="2255.790" EndTime="2257.590" Participant="fn050">
+      Is that what the <Emphasis> Keith </Emphasis> node is?
+    </Segment>
+    <Segment StartTime="2256.283" EndTime="2257.328" Participant="me012">
+      <VocalSound Description="laugh"/> <Comment Description="quietly"/>
+    </Segment>
+    <Segment StartTime="2256.979" EndTime="2257.462" Participant="mn015">
+      Yep.
+    </Segment>
+    <Segment StartTime="2257.636" EndTime="2260.596" Participant="fn050">
+      O_K. And you're taking it out? <Pause/> for now? Or - ? <Comment Description="leading question"/>
+    </Segment>
+    <Segment StartTime="2260.130" EndTime="2261.700" Participant="mn015">
+      Well, this is
+    </Segment>
+    <Segment StartTime="2261.790" EndTime="2262.670" Participant="mn015">
+      D_ -
+    </Segment>
+    <Segment StartTime="2262.680" EndTime="2265.370" Participant="mn015">
+      O_K, this, I can - I can get it in here.
+    </Segment>
+    <Segment StartTime="2263.709" EndTime="2264.948" Participant="fn050">
+      All the <Emphasis> D_ </Emphasis>'s are -
+    </Segment>
+    <Segment StartTime="2265.480" EndTime="2268.590" Participant="mn015">
+      I can get it in here, so th- We have the, uh,
+    </Segment>
+    <Segment StartTime="2268.839" EndTime="2270.010" Participant="mn015">
+      um,
+    </Segment>
+    <Segment StartTime="2269.459" EndTime="2271.342" Participant="fn050">
+      <VocalSound Description="yawn"/>
+    </Segment>
+    <Segment StartTime="2270.625" EndTime="2272.128" Participant="me012">
+      <VocalSound Description="mouth"/> <VocalSound Description="breath"/>
+    </Segment>
+    <Segment StartTime="2271.172" EndTime="2273.730" Participant="mn015">
+      <Uncertain> sk- </Uncertain> let's - let's call it "Keith-Johno
+    </Segment>
+    <Segment StartTime="2273.965" EndTime="2275.130" Participant="fn050">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2274.070" EndTime="2275.130" Participant="me003">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2277.254" EndTime="2278.280" Participant="mn015">
+      node".
+    </Segment>
+    <Segment StartTime="2277.335" EndTime="2278.517" Participant="me012">
+      Johno? <Comment Description="whispered"/>
+    </Segment>
+    <Segment StartTime="2278.520" EndTime="2279.460" Participant="mn015">
+      There is
+    </Segment>
+    <Segment StartTime="2279.594" EndTime="2280.476" Participant="mn015">
+      an H_ <Comment Description="referring to spelling of the name Johno"/>
+    </Segment>
+    <Segment StartTime="2280.476" EndTime="2281.560" Participant="mn015">
+      somewhere <Uncertain> printed </Uncertain>.
+    </Segment>
+    <Segment StartTime="2281.150" EndTime="2282.170" Participant="me003">
+      <Emphasis> There </Emphasis> you go.
+    </Segment>
+    <Segment StartTime="2282.157" EndTime="2284.418" Participant="me012">
+      Yeah. People have the same problem with my name.
+    </Segment>
+    <Segment StartTime="2284.871" EndTime="2285.730" Participant="mn015">
+      Yeah. <VocalSound Description="breath-laugh"/>
+    </Segment>
+    <Segment StartTime="2286.253" EndTime="2286.676" Participant="me012">
+      Oops. <Comment Description="interjection"/> <Comment Description="quietly"/>
+    </Segment>
+    <Segment StartTime="2286.300" EndTime="2287.407" Participant="fn050">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2286.370" EndTime="2287.970" Participant="mn015">
+      And, um,
+    </Segment>
+    <Segment StartTime="2287.995" EndTime="2289.026" Participant="me012">
+      <NonVocalSound Description="mike noise"/>
+    </Segment>
+    <Segment StartTime="2288.289" EndTime="2291.360" Participant="me003">
+      Does th- th- does the H_ go b- <Emphasis> before </Emphasis> the A_ or <Emphasis> after </Emphasis> the A_? <Comment Description="to me012"/>
+    </Segment>
+    <Segment StartTime="2291.685" EndTime="2293.416" Participant="me012">
+      <VocalSound Description="clears throat"/> Oh, in <Emphasis> my </Emphasis> name? <Emphasis> Before </Emphasis> the A_.
+    </Segment>
+    <Segment StartTime="2292.554" EndTime="2293.256" Participant="me003">
+      Yeah.
+    </Segment>
+    <Segment StartTime="2293.920" EndTime="2295.249" Participant="me003">
+      O_K, <Emphasis> good. </Emphasis> <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2295.249" EndTime="2299.350" Participant="me003">
+      Cuz you kn- When you said people have the same <Emphasis> problem, </Emphasis> I thought - Cuz <Emphasis> my </Emphasis> H_ goes <Emphasis> after </Emphasis> the uh e- e- e- the v-
+    </Segment>
+    <Segment StartTime="2298.267" EndTime="2300.043" Participant="me012">
+      People have the inverse problem with my name.
+    </Segment>
+    <Segment StartTime="2299.631" EndTime="2300.311" Participant="me003">
+      O_K.
+    </Segment>
+    <Segment StartTime="2301.323" EndTime="2302.305" Participant="me003">
+      I always have to <Emphasis> check, </Emphasis>
+    </Segment>
+    <Segment StartTime="2302.305" EndTime="2303.861" Participant="me003">
+      every time y- I send you an email, <Comment Description="rising"/>
+    </Segment>
+    <Segment StartTime="2303.861" EndTime="2306.747" Participant="me003">
+      a past email of <Emphasis> yours, </Emphasis> <Comment Description="rising"/> to make sure I'm spelling your name correctly.
+    </Segment>
+    <Segment StartTime="2306.668" EndTime="2308.100" Participant="fn050">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2307.168" EndTime="2307.640" Participant="me012">
+      Yeah. <Comment Description="quietly"/>
+    </Segment>
+    <Segment StartTime="2308.012" EndTime="2308.797" Participant="me012">
+      That's good.
+    </Segment>
+    <Segment StartTime="2309.346" EndTime="2310.475" Participant="me003">
+      I <Emphasis> worry </Emphasis> about you.
+    </Segment>
+    <Segment StartTime="2310.316" EndTime="2311.545" Participant="me012">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2311.545" EndTime="2312.452" Participant="me012">
+      I appreciate that.
+    </Segment>
+    <Segment StartTime="2312.414" EndTime="2314.436" Participant="me003">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2312.429" EndTime="2313.569" Participant="fn050">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2312.452" EndTime="2313.901" Participant="me012">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2313.979" EndTime="2318.728" Participant="mn015">
+      But, when you <Emphasis> abbreviate </Emphasis> yourself as the <Pronounce Pronunciation="&quot;bossman&quot;"> <Emphasis> "Basman" </Emphasis> </Pronounce>, you don't use <Emphasis> any </Emphasis> H_'s.
+    </Segment>
+    <Segment StartTime="2314.383" EndTime="2315.401" Participant="fn050">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2318.450" EndTime="2323.028" Participant="me012">
+      "Basman"? <Comment Description="pronounced &quot;Bozman&quot;"/> Yeah, it's because of the chessplayer named Michael Basman, who is my hero.
+    </Segment>
+    <Segment StartTime="2322.847" EndTime="2323.554" Participant="mn015">
+      O_K.
+    </Segment>
+    <Segment StartTime="2323.208" EndTime="2325.378" Participant="me003">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2323.368" EndTime="2324.860" Participant="fn050">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2325.378" EndTime="2326.465" Participant="me003">
+      <Emphasis> You're </Emphasis> a <Emphasis> geek. </Emphasis>
+    </Segment>
+    <Segment StartTime="2326.465" EndTime="2327.704" Participant="me003">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2327.704" EndTime="2329.720" Participant="me003">
+      <Emphasis> It's </Emphasis> O_<Emphasis> K. </Emphasis> I- <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2327.922" EndTime="2329.238" Participant="mn015">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2328.286" EndTime="2329.158" Participant="me012">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2328.549" EndTime="2329.172" Participant="fn050">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2330.293" EndTime="2331.177" Participant="me003">
+      How do you pronou-
+    </Segment>
+    <Segment StartTime="2330.508" EndTime="2330.957" Participant="mn015">
+      O_K.
+    </Segment>
+    <Segment StartTime="2331.177" EndTime="2332.284" Participant="me003">
+      How do you pronounce <Emphasis> your </Emphasis> name?
+    </Segment>
+    <Segment StartTime="2332.265" EndTime="2332.696" Participant="fn050">
+      <Emphasis> Eva. </Emphasis> <Comment Description="pronounced &quot;E_-vuh&quot;"/>
+    </Segment>
+    <Segment StartTime="2332.970" EndTime="2333.650" Participant="me003">
+      Eva? <Comment Description="pronounced &quot;E_-vuh&quot;"/>
+    </Segment>
+    <Segment StartTime="2333.650" EndTime="2334.018" Participant="fn050">
+      Yeah.
+    </Segment>
+    <Segment StartTime="2333.910" EndTime="2334.551" Participant="me012">
+      Not <Pronounce Pronunciation="&quot;ay-vuh&quot;"> Eva?  </Pronounce>
+    </Segment>
+    <Segment StartTime="2334.950" EndTime="2336.925" Participant="me003">
+      What if I were - What if I were to call you <Pronounce Pronunciation="&quot;ay-fuh&quot;"> Eva?  </Pronounce>
+    </Segment>
+    <Segment StartTime="2337.860" EndTime="2339.650" Participant="fn050">
+      I'd <Emphasis> probably </Emphasis> still respond to it.
+    </Segment>
+    <Segment StartTime="2339.621" EndTime="2340.621" Participant="me003">
+      <Uncertain NumSyllables="2"> @@ </Uncertain> <Comment Description="uncodeable vocal sounds"/>
+    </Segment>
+    <Segment StartTime="2339.650" EndTime="2342.136" Participant="fn050">
+      I've had people call me <Pronounce Pronunciation="&quot;ay-vuh&quot;"> Eva,  </Pronounce> but I don't know.
+    </Segment>
+    <Segment StartTime="2342.559" EndTime="2345.238" Participant="me003">
+      No, not just <Pronounce Pronunciation="&quot;ay-*vuh&quot;"> Eva,  </Pronounce> <Pronounce Pronunciation="&quot;ayf-*fuh&quot;"> Eva.  </Pronounce> Like if I u-
+    </Segment>
+    <Segment StartTime="2345.221" EndTime="2345.636" Participant="fn050">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2345.238" EndTime="2348.570" Participant="me003">
+      take the <Emphasis> V_ </Emphasis> and s- pronounce it like it was a <Emphasis> German </Emphasis> <Emphasis> V_ </Emphasis>?
+    </Segment>
+    <Segment StartTime="2349.642" EndTime="2350.700" Participant="mn015">
+      Which is F_.
+    </Segment>
+    <Segment StartTime="2350.619" EndTime="2351.522" Participant="me003">
+      Yeah.
+    </Segment>
+    <Segment StartTime="2351.910" EndTime="2353.723" Participant="fn050">
+      Um, no <Emphasis> idea </Emphasis> then.
+    </Segment>
+    <Segment StartTime="2353.380" EndTime="2354.360" Participant="mn015">
+      Voiced.
+    </Segment>
+    <Segment StartTime="2355.840" EndTime="2356.101" Participant="fn050">
+      What?
+    </Segment>
+    <Segment StartTime="2356.641" EndTime="2359.823" Participant="me003">
+      It sounds like an F_. There's also an F_ in German, which is why I -
+    </Segment>
+    <Segment StartTime="2357.020" EndTime="2357.443" Participant="fn050">
+      I -
+    </Segment>
+    <Segment StartTime="2358.234" EndTime="2358.802" Participant="fn050">
+      O_K.
+    </Segment>
+    <Segment StartTime="2359.304" EndTime="2361.370" Participant="mn015">
+      Well, it's just the difference between voiced and unvoiced.
+    </Segment>
+    <Segment StartTime="2361.242" EndTime="2361.893" Participant="fn050">
+      O_K.
+    </Segment>
+    <Segment StartTime="2361.252" EndTime="2361.933" Participant="me003">
+      Yeah.
+    </Segment>
+    <Segment StartTime="2365.383" EndTime="2366.600" Participant="fn050">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2368.636" EndTime="2373.353" Participant="me003">
+      As <Emphasis> long </Emphasis> as that's O_<Emphasis> K. </Emphasis> I mean, I might slip out and say it accidentally. That's all I'm saying.
+    </Segment>
+    <Segment StartTime="2368.670" EndTime="2369.710" Participant="fn050">
+      Um.
+    </Segment>
+    <Segment StartTime="2371.812" EndTime="2373.429" Participant="fn050">
+      That's <Emphasis> fine. </Emphasis> <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2374.190" EndTime="2378.070" Participant="me012">
+      Yeah. It doesn't matter what those nodes are, anyway, because we'll just make the weights "zero" for now.
+    </Segment>
+    <Segment StartTime="2378.199" EndTime="2378.657" Participant="mn015">
+      Yep.
+    </Segment>
+    <Segment StartTime="2379.580" EndTime="2381.040" Participant="mn015">
+      We'll make them zero for now,
+    </Segment>
+    <Segment StartTime="2379.964" EndTime="2387.235" Participant="me003">
+      <VocalSound Description="whistling"/>
+    </Segment>
+    <Segment StartTime="2380.000" EndTime="2387.222" CloseMic="false">
+      <Comment Description="conversation in parallel with whistling"/>
+    </Segment>
+    <Segment StartTime="2381.200" EndTime="2384.270" Participant="mn015">
+      because it - who - who knows what they come up with,
+    </Segment>
+    <Segment StartTime="2384.880" EndTime="2386.170" Participant="mn015">
+      what's gonna come in there.
+    </Segment>
+    <Segment StartTime="2386.990" EndTime="2387.810" Participant="mn015">
+      O_K.
+    </Segment>
+    <Segment StartTime="2388.696" EndTime="2390.420" Participant="mn015">
+      And, um,
+    </Segment>
+    <Segment StartTime="2393.265" EndTime="2394.240" Participant="mn015">
+      then
+    </Segment>
+    <Segment StartTime="2398.221" EndTime="2401.945" Participant="mn015">
+      should we start on Thursday?
+    </Segment>
+    <Segment StartTime="2402.805" EndTime="2403.377" Participant="me012">
+      O_K.
+    </Segment>
+    <Segment StartTime="2402.860" EndTime="2404.860" Participant="mn015">
+      And not meet tomorrow?
+    </Segment>
+    <Segment StartTime="2404.994" EndTime="2405.413" Participant="me012">
+      Sure.
+    </Segment>
+    <Segment StartTime="2411.975" EndTime="2412.606" Participant="mn015">
+      O_K.
+    </Segment>
+    <Segment StartTime="2414.160" EndTime="2415.494" Participant="mn015">
+      I'll send an email,
+    </Segment>
+    <Segment StartTime="2416.003" EndTime="2417.660" Participant="mn015">
+      make a time suggestion.
+    </Segment>
+    <Segment StartTime="2417.456" EndTime="2418.974" Participant="me003">
+      Wait, maybe it's O_K, so that -
+    </Segment>
+    <Segment StartTime="2418.974" EndTime="2421.782" Participant="me003">
+      that - that we can - that we have one node per construction.
+    </Segment>
+    <Segment StartTime="2421.782" EndTime="2426.772" Participant="me003">
+      Cuz even in <Emphasis> people, </Emphasis> like, they don't know what you're <Emphasis> talking </Emphasis> about if you're using some sort of strange <Emphasis> construction. </Emphasis>
+    </Segment>
+    <Segment StartTime="2428.733" EndTime="2432.570" Participant="mn015">
+      Yeah, they would still c- sort of get the closest, best fit.
+    </Segment>
+    <Segment StartTime="2432.570" EndTime="2437.225" Participant="me003">
+      Well, yeah, but I mean, the - uh, I mean, that's what the construction parser would do. Uh, I mean, if you said something completely arbitrary, it would f- find the
+    </Segment>
+    <Segment StartTime="2435.130" EndTime="2435.880" Participant="mn015">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="2437.225" EndTime="2442.052" Participant="me003">
+      closest construction, right? But if you said something that was completel- er - h- theoretically the construction parser would do that -
+    </Segment>
+    <Segment StartTime="2438.219" EndTime="2438.865" Participant="mn015">
+      O_K.
+    </Segment>
+    <Segment StartTime="2442.052" EndTime="2445.001" Participant="me003">
+      But if you said something for which there was no construction whatsoever,
+    </Segment>
+    <Segment StartTime="2445.550" EndTime="2447.966" Participant="me003">
+      n- people wouldn't have any idea what you were talking about.
+    </Segment>
+    <Segment StartTime="2447.660" EndTime="2448.131" Participant="mn015">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="2448.880" EndTime="2450.938" Participant="me003">
+      Like "Bus dog fried egg." I mean.
+    </Segment>
+    <Segment StartTime="2451.551" EndTime="2452.849" Participant="me003">
+      You know.
+    </Segment>
+    <Segment StartTime="2452.460" EndTime="2455.201" Participant="mn015">
+      Or, if <Uncertain> even </Uncertain> something Chinese, for example.
+    </Segment>
+    <Segment StartTime="2454.533" EndTime="2454.982" Participant="fn050">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2454.636" EndTime="2456.050" Participant="me003">
+      Or, something in Mandarin, yeah.
+    </Segment>
+    <Segment StartTime="2456.822" EndTime="2458.974" Participant="me003">
+      Or Cantonese, as the case may be.
+    </Segment>
+    <Segment StartTime="2462.210" EndTime="2463.575" Participant="me003">
+      What do you think about <Emphasis> that, </Emphasis> Bhaskara?
+    </Segment>
+    <Segment StartTime="2463.575" EndTime="2466.270" Participant="me003">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2464.057" EndTime="2465.049" Participant="me012">
+      I mean -
+    </Segment>
+    <Segment StartTime="2465.049" EndTime="2465.995" Participant="me012">
+      Well -
+    </Segment>
+    <Segment StartTime="2467.293" EndTime="2469.472" Participant="me012">
+      But how many constructions do - could we possibly have <Pause/>
+    </Segment>
+    <Segment StartTime="2470.258" EndTime="2471.110" Participant="me012">
+      nodes for?
+    </Segment>
+    <Segment StartTime="2473.100" EndTime="2474.644" Participant="me003">
+      In <Emphasis> this </Emphasis> system, or in r-
+    </Segment>
+    <Segment StartTime="2474.694" EndTime="2476.893" Participant="me012">
+      No, <Emphasis> we. </Emphasis> Like, when people do this kind of thing.
+    </Segment>
+    <Segment StartTime="2476.340" EndTime="2478.469" Participant="me003">
+      Oh, when p- How many constructions do <Emphasis> people </Emphasis> have?
+    </Segment>
+    <Segment StartTime="2478.380" EndTime="2478.753" Participant="me012">
+      Yeah.
+    </Segment>
+    <Segment StartTime="2478.783" EndTime="2480.930" Participant="me003">
+      I have not <Comment Description="while laughing"/> the slightest idea. <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2480.846" EndTime="2485.105" Participant="me012">
+      Is it considered to be like in - are they considered to be like very, uh, sort of s- abstract things?
+    </Segment>
+    <Segment StartTime="2483.804" EndTime="2485.357" Participant="me003">
+      Every noun is a construction.
+    </Segment>
+    <Segment StartTime="2485.320" EndTime="2487.859" Participant="me012">
+      O_K, so it's like in the <Pause/> thousands.
+    </Segment>
+    <Segment StartTime="2486.360" EndTime="2487.320" Participant="me003">
+      The - Yeah. <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2487.810" EndTime="2490.793" Participant="me003">
+      Any - any form-<Emphasis> meaning </Emphasis> pair, to my understanding, is a construction.
+    </Segment>
+    <Segment StartTime="2490.856" EndTime="2491.300" Participant="me012">
+      O_K.
+    </Segment>
+    <Segment StartTime="2491.209" EndTime="2491.709" Participant="mn015">
+      So.
+    </Segment>
+    <Segment StartTime="2491.614" EndTime="2496.423" Participant="me003">
+      And form u- starts at the level of noun - Or actually, maybe even <Emphasis> sounds. </Emphasis> Yeah.
+    </Segment>
+    <Segment StartTime="2494.950" EndTime="2496.360" Participant="mn015">
+      <Emphasis> Phoneme. </Emphasis> Yep.
+    </Segment>
+    <Segment StartTime="2496.806" EndTime="2498.021" Participant="me003">
+      And goes upwards
+    </Segment>
+    <Segment StartTime="2499.043" EndTime="2499.833" Participant="me003">
+      until you get
+    </Segment>
+    <Segment StartTime="2499.833" EndTime="2501.749" Participant="me003">
+      the <Emphasis> ditransitive </Emphasis> construction.
+    </Segment>
+    <Segment StartTime="2501.749" EndTime="2503.784" Participant="me003">
+      And then, of course, the c- I guess, maybe there can be the -
+    </Segment>
+    <Segment StartTime="2501.939" EndTime="2502.311" Participant="me012">
+      S-
+    </Segment>
+    <Segment StartTime="2503.784" EndTime="2505.462" Participant="me003">
+      Can there be combinations of the dit-
+    </Segment>
+    <Segment StartTime="2504.427" EndTime="2505.463" Participant="me012">
+      Discourse-level <Pause/>
+    </Segment>
+    <Segment StartTime="2505.462" EndTime="2507.185" Participant="me003">
+      Yeah. <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2505.463" EndTime="2506.512" Participant="me012">
+      constructions.
+    </Segment>
+    <Segment StartTime="2507.185" EndTime="2509.392" Participant="me003">
+      The "giving a speech" construction,
+    </Segment>
+    <Segment StartTime="2509.830" EndTime="2511.740" Participant="mn015">
+      Rhetorical constructions. Yeah.
+    </Segment>
+    <Segment StartTime="2511.291" EndTime="2511.992" Participant="me012">
+      Yes.
+    </Segment>
+    <Segment StartTime="2513.341" EndTime="2517.820" Participant="mn015">
+      <NonVocalSound Description="mike noise"/> <Comment Description="cough in background"/>
+    </Segment>
+    <Segment StartTime="2515.403" EndTime="2517.775" Participant="mn015" CloseMic="false">
+      <VocalSound Description="cough"/> <Comment Description="off mike"/>
+    </Segment>
+    <Segment StartTime="2518.760" EndTime="2519.660" Participant="mn015">
+      But, I mean,
+    </Segment>
+    <Segment StartTime="2520.390" EndTime="2522.109" Participant="mn015">
+      you know, you can <Emphasis> probably </Emphasis> count -
+    </Segment>
+    <Segment StartTime="2522.386" EndTime="2523.610" Participant="mn015">
+      count the ways.
+    </Segment>
+    <Segment StartTime="2523.610" EndTime="2524.403" Participant="mn015">
+      I mean.
+    </Segment>
+    <Segment StartTime="2523.621" EndTime="2525.800" Participant="me003">
+      It's probab- Yeah, I would s- definitely say it's finite.
+    </Segment>
+    <Segment StartTime="2525.410" EndTime="2525.878" Participant="mn015">
+      Yeah.
+    </Segment>
+    <Segment StartTime="2525.800" EndTime="2530.380" Participant="me003">
+      And at least in compilers, that's all that really matters, as long as your analysis is finite.
+    </Segment>
+    <Segment StartTime="2526.231" EndTime="2526.868" Participant="fn050">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2530.046" EndTime="2530.777" Participant="me012">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2530.355" EndTime="2532.409" Participant="mn015">
+      <NonVocalSound Description="mike noise"/>
+    </Segment>
+    <Segment StartTime="2531.523" EndTime="2533.386" Participant="me012">
+      How's that? <NonVocalSound Description="mike noise"/> How it can be finite, again?
+    </Segment>
+    <Segment StartTime="2533.386" EndTime="2536.292" Participant="me012">
+      <NonVocalSound Description="mike noise"/>
+    </Segment>
+    <Segment StartTime="2534.379" EndTime="2536.407" Participant="me003">
+      Nah, I can't think of a way it would be <Emphasis> infinite. </Emphasis>
+    </Segment>
+    <Segment StartTime="2536.292" EndTime="2537.416" Participant="me012">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2536.407" EndTime="2538.270" Participant="me003">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2537.267" EndTime="2539.354" Participant="mn015">
+      Well, you can come up with <Emphasis> new </Emphasis> constructions.
+    </Segment>
+    <Segment StartTime="2539.627" EndTime="2540.772" Participant="me003">
+      Yeah. <Comment Description="while laughing"/>
+    </Segment>
+    <Segment StartTime="2540.772" EndTime="2543.137" Participant="me003">
+      If the - if your - if your brain was totally non-deterministic,
+    </Segment>
+    <Segment StartTime="2541.767" EndTime="2550.218" Participant="me012">
+      <NonVocalSound Description="mike noise"/>
+    </Segment>
+    <Segment StartTime="2543.279" EndTime="2544.036" Participant="fn050">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2544.140" EndTime="2546.333" Participant="me003">
+      then perhaps there's a way to get, uh,
+    </Segment>
+    <Segment StartTime="2546.740" EndTime="2549.187" Participant="me003">
+      infin- an infinite number of constructions that you'd have to worry about.
+    </Segment>
+    <Segment StartTime="2550.218" EndTime="2552.213" Participant="me012">
+      But, I mean, in the <NonVocalSound Description="mike noise"/> practical sense, it's impossible.
+    </Segment>
+    <Segment StartTime="2552.750" EndTime="2554.790" Participant="me003">
+      Right. Cuz if we have a fixed number of neurons - ? <Comment Description="leading question"/>
+    </Segment>
+    <Segment StartTime="2554.699" EndTime="2555.186" Participant="me012">
+      Yeah.
+    </Segment>
+    <Segment StartTime="2555.156" EndTime="2557.140" Participant="fn050">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2555.290" EndTime="2556.530" Participant="me003">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2558.990" EndTime="2564.544" Participant="me003">
+      So the best-case scenario would be the number of constructions - or, the <Emphasis> worst-case </Emphasis> scenario is the number of constructions equals the number of neurons.
+    </Segment>
+    <Segment StartTime="2564.006" EndTime="2565.684" Participant="me012">
+      Well, two to the power of the number of neurons.
+    </Segment>
+    <Segment StartTime="2565.720" EndTime="2566.490" Participant="me003">
+      Right.
+    </Segment>
+    <Segment StartTime="2567.280" EndTime="2567.943" Participant="me003">
+      But <Emphasis> still </Emphasis>
+    </Segment>
+    <Segment StartTime="2568.113" EndTime="2568.769" Participant="me003">
+      <Emphasis> finite. </Emphasis>
+    </Segment>
+    <Segment StartTime="2568.848" EndTime="2569.437" Participant="fn050">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2569.898" EndTime="2588.913" Participant="me012">
+      <NonVocalSound Description="mike noise"/>
+    </Segment>
+    <Segment StartTime="2576.036" EndTime="2576.685" Participant="mn015">
+      O_K.
+    </Segment>
+    <Segment StartTime="2577.172" EndTime="2578.467" Participant="me003">
+      No, wait. Not <Emphasis> necessarily, </Emphasis> is it?
+    </Segment>
+    <Segment StartTime="2578.467" EndTime="2579.918" Participant="me003">
+      We can end the <Pause/> meeting. I just -
+    </Segment>
+    <Segment StartTime="2580.130" EndTime="2583.157" Participant="me003">
+      <VocalSound Description="breath"/> Can't you use different var- different levels of activation?
+    </Segment>
+    <Segment StartTime="2583.157" EndTime="2584.301" Participant="me003">
+      across, uh -
+    </Segment>
+    <Segment StartTime="2584.276" EndTime="2584.767" Participant="mn015">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="2585.261" EndTime="2588.184" Participant="me003">
+      lots of different neurons, to specify different values?
+    </Segment>
+    <Segment StartTime="2588.035" EndTime="2592.207" Participant="mn015">
+      <NonVocalSound Description="mike noise"/> <Comment Description="cough in background"/>
+    </Segment>
+    <Segment StartTime="2588.913" EndTime="2593.262" Participant="me012">
+      Um, yeah, but there's, like, a certain level of -
+    </Segment>
+    <Segment StartTime="2590.207" EndTime="2591.817" Participant="mn015" CloseMic="false">
+      <VocalSound Description="cough"/> <Comment Description="off mike"/>
+    </Segment>
+    <Segment StartTime="2593.060" EndTime="2595.244" Participant="me003">
+      There's a bandwidth issue, right? Yeah.
+    </Segment>
+    <Segment StartTime="2594.100" EndTime="2596.385" Participant="me012">
+      Bandw- Yeah, so you can't do better than something.
+    </Segment>
+    <Segment StartTime="2595.541" EndTime="2598.980" Participant="mn015">
+      Turn off the mikes. Otherwise it gets really tough for the tr- <Comment Description="start of &quot;transcribers&quot;"/>
+    </Segment>
+    <Segment StartTime="2598.980" EndTime="2600.850" Participant="mn015">
+      <Comment Description="mike turned off"/>
+    </Segment>
+    <Segment StartTime="2600.150" EndTime="2600.611" Participant="me003">
+      <Comment Description="mike turned off"/>
+    </Segment>
+    <Segment StartTime="2602.000" EndTime="2603.122" CloseMic="false">
+      <Comment Description="end of meeting - multiple mikes turned off"/>
+    </Segment>
+    <Segment StartTime="2602.236" EndTime="2602.911" Participant="fn050">
+      <Comment Description="mike turned off"/>
+    </Segment>
+    <Segment StartTime="2602.299" EndTime="2602.480" Participant="me012">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2602.480" EndTime="2603.571" Participant="me012">
+      <Comment Description="mike turned off"/>
+    </Segment>
+
+  </Transcript>
+
+</Meeting>
+

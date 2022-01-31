@@ -1,0 +1,3659 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE Meeting SYSTEM "http://www.icsi.berkeley.edu/Speech/mr/Meeting1.dtd">
+
+<Meeting Session="Bro022" DateTimeStamp="2001-06-21-1030" Version="2" VersionDate="Jan 7 2004">
+
+  <Preamble>
+    <Notes>
+      mn052 enters at 4:22 and there is a fair amount of mike noise
+   on his line for a minute or two as he gets settled.
+    </Notes>
+    <Channels>
+      <Channel Name="chan0" Mic="c1" Transmission="w1" Gain="9" AudioFile="chan0.sph"/>
+      <Channel Name="chan1" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan1.sph"/>
+      <Channel Name="chan2" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan2.sph"/>
+      <Channel Name="chan3" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan3.sph"/>
+      <Channel Name="chan4" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan4.sph"/>
+      <Channel Name="chan5" Mic="c1" Transmission="w1" Gain="9" AudioFile="chan5.sph"/>
+      <Channel Name="chan6" Mic="c2" Transmission="u1" Gain="9" AudioFile="chan6.sph"/>
+      <Channel Name="chan7" Mic="c2" Transmission="u1" Gain="9" AudioFile="chan7.sph"/>
+      <Channel Name="chanB" Mic="s1" Transmission="j1" Gain="11" AudioFile="chanB.sph"/>
+      <Channel Name="chanC" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanC.sph"/>
+      <Channel Name="chanD" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanD.sph"/>
+      <Channel Name="chanE" Mic="c2" Transmission="u1" Gain="9" AudioFile="chanE.sph"/>
+      <Channel Name="chanF" Mic="c2" Transmission="u1" Gain="9" AudioFile="chanF.sph"/>
+    </Channels>
+    <Participants DB="icsi1.spk">
+      <Participant Name="me018" Channel="chan0" Seat="9"/>
+      <Participant Name="me013" Channel="chan1" Seat="6"/>
+      <Participant Name="mn007" Channel="chan2" Seat="7"/>
+      <Participant Name="fn002" Channel="chan3" Seat="3"/>
+      <Participant Name="me026" Channel="chan4" Seat="2"/>
+      <Participant Name="me006" Channel="chan5" Seat="8"/>
+      <Participant Name="mn052" Channel="chanB" Seat="1"/>
+    </Participants>
+  </Preamble>
+
+
+  <Transcript StartTime="0.0" EndTime="3182.139">
+
+    <Segment StartTime="2.620" EndTime="3.253" Participant="me013">
+      <Uncertain NumSyllables="1"> @@ </Uncertain> <Comment Description="word fragment at the start of recording"/>
+    </Segment>
+    <Segment StartTime="3.253" EndTime="6.349" Participant="me013">
+      I think for two years we were two months, uh, away from being done.
+    </Segment>
+    <Segment StartTime="6.595" EndTime="9.080" Participant="mn007">
+      <VocalSound Description="breath-laugh"/>
+    </Segment>
+    <Segment StartTime="6.660" EndTime="8.110" Participant="me018">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="6.666" EndTime="11.927" Participant="me013">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="6.760" EndTime="13.510" Participant="me006">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="9.197" EndTime="10.602" Participant="me018">
+      And what was that, Morgan?
+    </Segment>
+    <Segment StartTime="9.435" EndTime="9.929" Participant="fn002">
+      <VocalSound Description="breath-laugh"/>
+    </Segment>
+    <Segment StartTime="11.300" EndTime="12.200" Participant="me018">
+      What project?
+    </Segment>
+    <Segment StartTime="11.927" EndTime="12.382" Participant="me013">
+      <VocalSound Description="inbreath"/>
+    </Segment>
+    <Segment StartTime="12.382" EndTime="14.044" Participant="me013">
+      Uh, the, uh, TORRENT chip.
+    </Segment>
+    <Segment StartTime="14.050" EndTime="15.543" Participant="me018">
+      Oh. <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="14.420" EndTime="16.400" Participant="me013">
+      Yeah. We were two - we were - <VocalSound Description="breath"/>
+    </Segment>
+    <Segment StartTime="15.740" EndTime="16.002" Participant="mn007">
+      Yeah.
+    </Segment>
+    <Segment StartTime="16.400" EndTime="25.090" Participant="me013">
+      Uh, uh, we went through it - Jim and I went through old emails at one point and - and for two years there was this thing saying, yeah, we're - we're two months away from being done. <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="23.140" EndTime="25.750" Participant="me018">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="23.639" EndTime="27.000" Participant="me006">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="23.669" EndTime="25.126" Participant="mn007">
+      <VocalSound Description="breath-laugh"/>
+    </Segment>
+    <Segment StartTime="25.560" EndTime="26.795" Participant="me013">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="26.795" EndTime="33.483" Participant="me013">
+      It was very - very believable schedules, too. I mean, we went through and - with the schedules - and we - Yeah. Oh, yeah. It was <Emphasis> very </Emphasis> true. <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="28.433" EndTime="29.680" Participant="mn007">
+      <VocalSound Description="breath-laugh"/>
+    </Segment>
+    <Segment StartTime="28.580" EndTime="29.677" Participant="me018">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="29.677" EndTime="31.212" Participant="me018">
+      It was true for two years.
+    </Segment>
+    <Segment StartTime="32.240" EndTime="34.458" Participant="me018">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="32.799" EndTime="34.260" Participant="me006">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="33.483" EndTime="34.720" Participant="me013">
+      <VocalSound Description="breath"/>
+    </Segment>
+    <Segment StartTime="35.044" EndTime="39.430" Participant="me018">
+      So, should we just do the same kind of deal where we <Pause/> go around and do, uh,
+    </Segment>
+    <Segment StartTime="39.950" EndTime="41.771" Participant="me018">
+      status report <Pause/> kind of things?
+    </Segment>
+    <Segment StartTime="40.757" EndTime="41.687" Participant="mn007">
+      <VocalSound Description="sniff"/>
+    </Segment>
+    <Segment StartTime="42.598" EndTime="47.296" Participant="me018">
+      O_K. And I <Pronounce Pronunciation="&quot;guesss&quot;"> guess  </Pronounce> when Sunil gets here he can do his last or something.
+    </Segment>
+    <Segment StartTime="47.110" EndTime="47.860" Participant="mn007">
+      Mm-hmm. <Comment Description="quietly"/>
+    </Segment>
+    <Segment StartTime="47.296" EndTime="48.250" Participant="me018">
+      So.
+    </Segment>
+    <Segment StartTime="47.310" EndTime="50.181" Participant="me013">
+      Yeah. So we <Pause/> probably should wait for him to come before we do his.
+    </Segment>
+    <Segment StartTime="49.910" EndTime="51.623" Participant="me018">
+      O_K. That's a good idea.
+    </Segment>
+    <Segment StartTime="50.417" EndTime="51.044" Participant="me006">
+      O_K.
+    </Segment>
+    <Segment StartTime="50.536" EndTime="51.960" Participant="me013">
+      Yeah. Yeah.
+    </Segment>
+    <Segment StartTime="51.623" EndTime="52.201" Participant="me018">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="52.201" EndTime="53.265" Participant="me018">
+      Any objection?
+    </Segment>
+    <Segment StartTime="53.265" EndTime="55.345" Participant="me018">
+      <VocalSound Description="laugh"/> Do y- O_K, M-
+    </Segment>
+    <Segment StartTime="54.045" EndTime="54.401" Participant="fn002">
+      <NonVocalSound Description="mike noise"/>
+    </Segment>
+    <Segment StartTime="54.571" EndTime="56.640" Participant="me013">
+      <VocalSound Description="mouth"/> All in favor <Pause/> <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="54.860" EndTime="55.491" Participant="fn002">
+      <NonVocalSound Description="mike noise"/>
+    </Segment>
+    <Segment StartTime="55.345" EndTime="56.556" Participant="me018">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="56.556" EndTime="58.446" Participant="me018">
+      Do you want to start, Morgan? Do you have anything, or - ?
+    </Segment>
+    <Segment StartTime="57.597" EndTime="67.290" Participant="me013">
+      <VocalSound Description="breath"/> Uh, I don't do anything. I - <VocalSound Description="laugh"/> No, I mean, I - I'm involved in discussions with - with people about what they're doing, but I think they're -
+    </Segment>
+    <Segment StartTime="59.724" EndTime="62.295" Participant="fn002">
+      <NonVocalSound Description="mike noise"/>
+    </Segment>
+    <Segment StartTime="60.420" EndTime="61.824" Participant="me018">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="61.210" EndTime="62.210" Participant="me006">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="66.947" EndTime="67.818" Participant="mn007">
+      <VocalSound Description="clears throat"/>
+    </Segment>
+    <Segment StartTime="67.290" EndTime="70.200" Participant="me013">
+      since they're here, they can talk about it themselves.
+    </Segment>
+    <Segment StartTime="69.828" EndTime="71.288" Participant="me018">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="70.980" EndTime="73.810" Participant="me006">
+      O_K. So should I go so that, uh,
+    </Segment>
+    <Segment StartTime="71.288" EndTime="72.379" Participant="me018">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="73.770" EndTime="75.126" Participant="me018">
+      Yeah. Why don't you go ahead, Barry?
+    </Segment>
+    <Segment StartTime="74.443" EndTime="78.144" Participant="me006">
+      you're gonna talk about Aurora stuff, per se? O_K. Um.
+    </Segment>
+    <Segment StartTime="76.400" EndTime="77.028" Participant="me018">
+      O_K.
+    </Segment>
+    <Segment StartTime="78.144" EndTime="84.757" Participant="me006">
+      Well, this past week I've just been, uh, getting down and dirty into writing my - my proposal.
+    </Segment>
+    <Segment StartTime="78.230" EndTime="79.141" Participant="me018">
+      <VocalSound Description="cough"/>
+    </Segment>
+    <Segment StartTime="84.689" EndTime="85.599" Participant="fn002">
+      <VocalSound Description="breath-laugh"/>
+    </Segment>
+    <Segment StartTime="84.757" EndTime="87.252" Participant="me006">
+      So, um -
+    </Segment>
+    <Segment StartTime="88.490" EndTime="96.701" Participant="me006">
+      Mmm. I just finished a section on, uh - on talking about these intermediate categories that I want to classify,
+    </Segment>
+    <Segment StartTime="96.701" EndTime="108.657" Participant="me006">
+      um, as a - as a middle step. And, um, I hope to - hope to get this, um - a full rough draft done by, uh, Monday so I can give it to Morgan.
+    </Segment>
+    <Segment StartTime="108.800" EndTime="110.660" Participant="me018">
+      When is your, uh, meeting?
+    </Segment>
+    <Segment StartTime="110.590" EndTime="119.800" Participant="me006">
+      Um, my meeting with, uh - ? Oh, oh, you mean the - the quals. Uh, the quals are happening in July twenty-fifth.
+    </Segment>
+    <Segment StartTime="112.020" EndTime="112.680" Participant="me018">
+      Yeah.
+    </Segment>
+    <Segment StartTime="113.950" EndTime="114.978" Participant="me018">
+      The quals. Yeah.
+    </Segment>
+    <Segment StartTime="119.390" EndTime="120.971" Participant="me018">
+      Oh. Soon.
+    </Segment>
+    <Segment StartTime="120.780" EndTime="122.820" Participant="me006">
+      Yeah. D_-Day.
+    </Segment>
+    <Segment StartTime="121.437" EndTime="122.178" Participant="me018">
+      Uh-huh.
+    </Segment>
+    <Segment StartTime="122.178" EndTime="123.464" Participant="me018">
+      Yeah. <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="123.528" EndTime="124.418" Participant="me006">
+      Uh-huh. <VocalSound Description="breath"/>
+    </Segment>
+    <Segment StartTime="124.300" EndTime="128.230" Participant="me018">
+      So, is the idea you're going to do this paper and then you pass it out to everybody ahead of time and - ?
+    </Segment>
+    <Segment StartTime="126.794" EndTime="134.631" Participant="me006">
+      <VocalSound Description="clears throat"/> Right, right. So, y- you write up a proposal, and give it to people ahead of time, and you have a short presentation.
+    </Segment>
+    <Segment StartTime="135.027" EndTime="141.571" Participant="me006">
+      And, um, and then, um - then everybody asks you questions.
+    </Segment>
+    <Segment StartTime="141.606" EndTime="142.084" Participant="me018">
+      Hmm.
+    </Segment>
+    <Segment StartTime="142.105" EndTime="142.664" Participant="me006">
+      Yeah.
+    </Segment>
+    <Segment StartTime="143.770" EndTime="144.849" Participant="me018">
+      I remember now.
+    </Segment>
+    <Segment StartTime="144.990" EndTime="147.895" Participant="me006">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="145.390" EndTime="146.886" Participant="me018">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="147.895" EndTime="151.161" Participant="me006">
+      Yep. So, um. Y- s-
+    </Segment>
+    <Segment StartTime="149.003" EndTime="149.596" Participant="me018">
+      Have you d- ?
+    </Segment>
+    <Segment StartTime="150.050" EndTime="153.513" Participant="me018">
+      I was just gonna ask, do you want to say any - a little bit about it, or - ?
+    </Segment>
+    <Segment StartTime="153.520" EndTime="156.050" Participant="me006">
+      Oh. Uh, a little bit about - ?
+    </Segment>
+    <Segment StartTime="153.948" EndTime="154.410" Participant="me018">
+      Mmm.
+    </Segment>
+    <Segment StartTime="155.350" EndTime="160.110" Participant="me018">
+      Wh- what you're - what you're gonna - You said - you were talking about the, uh, particular features that you were looking at, or -
+    </Segment>
+    <Segment StartTime="157.913" EndTime="162.355" Participant="me006">
+      Oh, the - the - Right. Well, I was, um,
+    </Segment>
+    <Segment StartTime="162.355" EndTime="163.245" Participant="me006">
+      <NonVocalSound Description="mike noise, 2 spikes"/>
+    </Segment>
+    <Segment StartTime="163.245" EndTime="167.339" Participant="me006">
+      I think one of the perplexing problems is, um,
+    </Segment>
+    <Segment StartTime="167.339" EndTime="176.381" Participant="me006">
+      for a while I was thinking that I <Emphasis> had </Emphasis> to come up with a <Emphasis> complete </Emphasis> set of intermediate features - in- intermediate categories to - to classify right away.
+    </Segment>
+    <Segment StartTime="172.597" EndTime="173.329" Participant="me013">
+      <NonVocalSound Description="mike noise"/>
+    </Segment>
+    <Segment StartTime="176.381" EndTime="185.361" Participant="me006">
+      But what I'm thinking now is, I would start with - with a <Emphasis> reasonable </Emphasis> set. Something - something like, um, um -
+    </Segment>
+    <Segment StartTime="185.840" EndTime="190.073" Participant="me006">
+      like, uh, re- regular phonetic features, just to - just to start off that way.
+    </Segment>
+    <Segment StartTime="190.073" EndTime="203.919" Participant="me006">
+      And do some phone recognition. Um, build a system that, uh, classifies these, um - these feat- uh, these intermediate categories using, uh, multi-band techniques.
+    </Segment>
+    <Segment StartTime="204.690" EndTime="207.934" Participant="me006">
+      Combine them and do phon- phoneme recognition.
+    </Segment>
+    <Segment StartTime="208.270" EndTime="220.370" Participant="me006">
+      Look at - then I would look at the <Emphasis> errors </Emphasis> produced in the phoneme recognition and say, O_K, well, I could probably reduce the errors if I included this extra feature or this extra intermediate category.
+    </Segment>
+    <Segment StartTime="220.654" EndTime="224.761" Participant="me006">
+      That would - that would reduce <Emphasis> certain </Emphasis> confusions over other confusions.
+    </Segment>
+    <Segment StartTime="225.355" EndTime="228.706" Participant="me006">
+      <VocalSound Description="mouth"/> And then - and then <VocalSound Description="breath"/> reiterate.
+    </Segment>
+    <Segment StartTime="228.706" EndTime="242.032" Participant="me006">
+      Um, build the intermediate classifiers. Uh, do phoneme recognition. Look at the errors. And then <Emphasis> postulate </Emphasis> new - or <Emphasis> remove, </Emphasis> um, intermediate categories. And then do it again.
+    </Segment>
+    <Segment StartTime="242.120" EndTime="243.430" Participant="me018">
+      So you're gonna use TIMIT?
+    </Segment>
+    <Segment StartTime="243.260" EndTime="247.435" Participant="me006">
+      Um, for that - for that part of the - the process, yeah, I would use TIMIT.
+    </Segment>
+    <Segment StartTime="246.504" EndTime="247.064" Participant="me018">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="247.989" EndTime="248.490" Participant="me006">
+      <VocalSound Description="mouth"/>
+    </Segment>
+    <Segment StartTime="248.490" EndTime="252.380" Participant="me006">
+      And, um, <VocalSound Description="breath"/> then -
+    </Segment>
+    <Segment StartTime="253.200" EndTime="257.684" Participant="me006">
+      after - after, uh, um, doing TIMIT. Right? Um, that's -
+    </Segment>
+    <Segment StartTime="256.928" EndTime="257.749" Participant="me018">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="258.258" EndTime="258.733" Participant="me006">
+      <VocalSound Description="breath"/>
+    </Segment>
+    <Segment StartTime="259.504" EndTime="263.007" Participant="me006">
+      that's, um - that's just the ph- the phone recognition task.
+    </Segment>
+    <Segment StartTime="261.600" EndTime="262.688" CloseMic="false">
+      <NonVocalSound Description="door"/> <Comment Description="[mn052] enters"/>
+    </Segment>
+    <Segment StartTime="262.260" EndTime="263.424" Participant="me018">
+      Yeah.
+    </Segment>
+    <Segment StartTime="263.007" EndTime="267.547" Participant="me006">
+      Uh, I wanted to take a look at, um, things that I could model <Emphasis> within </Emphasis> word.
+    </Segment>
+    <Segment StartTime="267.230" EndTime="269.080" Participant="mn052">
+      <NonVocalSound Description="mike noise"/>
+    </Segment>
+    <Segment StartTime="267.547" EndTime="273.656" Participant="me006">
+      So, I would mov- I would then shift the focus to, um, something like Schw- Switchboard,
+    </Segment>
+    <Segment StartTime="271.290" EndTime="283.283" Participant="mn052">
+      <NonVocalSound Description="mike noise"/>
+    </Segment>
+    <Segment StartTime="273.656" EndTime="284.782" Participant="me006">
+      uh, where I'd - I would be able to, um - to model, um, intermediate categories that span <Emphasis> across </Emphasis> phonemes, not just within the phonemes, themselves,
+    </Segment>
+    <Segment StartTime="282.127" EndTime="283.030" Participant="me018">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="284.782" EndTime="291.667" Participant="me006">
+      um, and then do the same process <Emphasis> there, </Emphasis> um, on - on a large vocabulary task like Switchboard.
+    </Segment>
+    <Segment StartTime="285.560" EndTime="287.126" Participant="mn052">
+      <NonVocalSound Description="mike noise"/>
+    </Segment>
+    <Segment StartTime="292.023" EndTime="294.595" Participant="me006">
+      <VocalSound Description="mouth"/> Uh, and for that -
+    </Segment>
+    <Segment StartTime="295.610" EndTime="308.600" Participant="me006">
+      for that part I would - I'd use the S_R_I recognizer since it's already set up for - for Switchboard. And I'd run some - some sort of tandem-style processing with, uh, my intermediate classifiers.
+    </Segment>
+    <Segment StartTime="296.570" EndTime="297.450" Participant="me013">
+      <NonVocalSound Description="mike noise"/>
+    </Segment>
+    <Segment StartTime="304.176" EndTime="308.488" Participant="mn052">
+      <NonVocalSound Description="mike noise"/>
+    </Segment>
+    <Segment StartTime="308.660" EndTime="312.171" Participant="me018">
+      Oh. So that's why you were interested in getting your own features into the S_R_I files.
+    </Segment>
+    <Segment StartTime="309.631" EndTime="310.007" Participant="me006">
+      <VocalSound Description="mouth"/>
+    </Segment>
+    <Segment StartTime="309.860" EndTime="326.411" Participant="mn052">
+      <NonVocalSound Description="mike noise"/>
+    </Segment>
+    <Segment StartTime="311.050" EndTime="314.920" Participant="me006">
+      Yeah. That's why I - I was asking about that. Yeah.
+    </Segment>
+    <Segment StartTime="312.171" EndTime="313.199" Participant="me018">
+      Yeah.
+    </Segment>
+    <Segment StartTime="314.104" EndTime="314.597" Participant="me018">
+      Yeah.
+    </Segment>
+    <Segment StartTime="316.230" EndTime="320.040" Participant="me006">
+      Um, <VocalSound Description="breath"/> and <Pause/>
+    </Segment>
+    <Segment StartTime="322.320" EndTime="326.780" Participant="me006">
+      I guess that's - that's it. Any - any questions?
+    </Segment>
+    <Segment StartTime="326.198" EndTime="327.190" Participant="me018">
+      <VocalSound Description="breath-laugh"/>
+    </Segment>
+    <Segment StartTime="327.587" EndTime="330.946" Participant="me013">
+      <VocalSound Description="breath"/>
+    </Segment>
+    <Segment StartTime="327.724" EndTime="329.660" Participant="me006">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="329.850" EndTime="332.700" Participant="me018">
+      Sounds good. So you just have a few more weeks, huh?
+    </Segment>
+    <Segment StartTime="332.960" EndTime="335.653" Participant="me006">
+      Um, yeah. A few more.
+    </Segment>
+    <Segment StartTime="333.890" EndTime="336.160" Participant="mn052">
+      <NonVocalSound Description="mike noise"/>
+    </Segment>
+    <Segment StartTime="335.560" EndTime="336.980" Participant="me018">
+      It's about a month from now?
+    </Segment>
+    <Segment StartTime="336.500" EndTime="338.500" Participant="me006">
+      It's a - it's a month and - and a week.
+    </Segment>
+    <Segment StartTime="337.610" EndTime="338.734" Participant="mn052">
+      <NonVocalSound Description="mike noise"/>
+    </Segment>
+    <Segment StartTime="338.466" EndTime="339.059" Participant="me018">
+      Yeah.
+    </Segment>
+    <Segment StartTime="338.920" EndTime="339.620" Participant="me006">
+      Yeah.
+    </Segment>
+    <Segment StartTime="342.490" EndTime="345.677" Participant="me018">
+      So, uh, you want to go next, Dave? And we'll do -
+    </Segment>
+    <Segment StartTime="345.010" EndTime="353.582" Participant="me026">
+      Oh. O_K, sure. So, um, last week I finally got results from the S_R_I system about this mean subtraction approach.
+    </Segment>
+    <Segment StartTime="354.507" EndTime="364.582" Participant="me026">
+      And, um, we - we got an improvement, uh, in word error rate, training on the T_I-digits data set and testing on Meeting Recorder digits of, um,
+    </Segment>
+    <Segment StartTime="364.582" EndTime="365.097" Participant="me026">
+      <VocalSound Description="mouth"/>
+    </Segment>
+    <Segment StartTime="364.944" EndTime="366.012" Participant="me013">
+      <NonVocalSound Description="mike noise"/>
+    </Segment>
+    <Segment StartTime="365.097" EndTime="368.838" Participant="me026">
+      six percent to four point five percent, um, on the n-
+    </Segment>
+    <Segment StartTime="369.115" EndTime="381.317" Participant="me026">
+      on the far-mike data <Pause/> using P_Z_M F_, but, um, the near-mike performance worsened, um, from one point two percent to two point four percent.
+    </Segment>
+    <Segment StartTime="382.029" EndTime="383.222" Participant="me026">
+      And, um,
+    </Segment>
+    <Segment StartTime="384.449" EndTime="387.031" Participant="me026">
+      wh- why would that be, um, <VocalSound Description="breath"/>
+    </Segment>
+    <Segment StartTime="387.031" EndTime="391.343" Participant="me026">
+      considering that we actually got an improvement in near-mike performance using H_T_K? And so,
+    </Segment>
+    <Segment StartTime="391.343" EndTime="395.605" Participant="me026">
+      <VocalSound Description="inbreath"/> uh, with some input from, uh, Andreas, I have a theory in two parts. Um,
+    </Segment>
+    <Segment StartTime="393.251" EndTime="393.686" Participant="mn052">
+      <NonVocalSound Description="mike noise"/>
+    </Segment>
+    <Segment StartTime="395.605" EndTime="396.486" Participant="me026">
+      <VocalSound Description="breath"/>
+    </Segment>
+    <Segment StartTime="396.486" EndTime="405.409" Participant="me026">
+      first of all H_T_K - sorry, S_R- the S_R_I system is doing channel adaptation, and so H_T_K <Emphasis> wasn't. </Emphasis> Um, so this, um -
+    </Segment>
+    <Segment StartTime="397.735" EndTime="400.010" Participant="me006">
+      <NonVocalSound Description="mike noise"/>
+    </Segment>
+    <Segment StartTime="406.230" EndTime="413.825" Participant="me026">
+      This mean subtraction approach will do a kind of channel <Pause/> normalization and so that might have given the H_T_K use of it a boost that wouldn't have been applied in the S_R_I case.
+    </Segment>
+    <Segment StartTime="413.825" EndTime="422.973" Participant="me026">
+      <VocalSound Description="inbreath"/> And also, um, the - Andreas pointed out the S_R_I system is using more parameters. It's got finer-grained acoustic models.
+    </Segment>
+    <Segment StartTime="422.973" EndTime="428.610" Participant="me026">
+      So those finer-grained acoustic models could be more sensitive to the artifacts <Pause/> in the re-synthesized audio.
+    </Segment>
+    <Segment StartTime="428.610" EndTime="430.272" Participant="me026">
+      <VocalSound Description="inbreath"/> Um.
+    </Segment>
+    <Segment StartTime="431.397" EndTime="437.292" Participant="me026">
+      And me and Barry were listening to the re-synthesized audio and sometimes it seems like you get of a bit of an <Emphasis> echo </Emphasis> of speech
+    </Segment>
+    <Segment StartTime="437.292" EndTime="447.063" Participant="me026">
+      in the background. And so that seems like it could be difficult for training, cuz you could have <Pause/> different phones <Pause/> lined up with a different foreground phone,
+    </Segment>
+    <Segment StartTime="447.063" EndTime="448.797" Participant="me026">
+      <VocalSound Description="breath"/> um, <VocalSound Description="breath"/>
+    </Segment>
+    <Segment StartTime="448.797" EndTime="452.338" Participant="me026">
+      depending on <Pause/> the timing of the echo. So, um,
+    </Segment>
+    <Segment StartTime="452.338" EndTime="461.298" Participant="me026">
+      <VocalSound Description="breath"/> I'm gonna try training on a <Emphasis> larger </Emphasis> data set, and then, eh, the system will have seen more examples o- of these artifacts and hopefully will be more robust to them.
+    </Segment>
+    <Segment StartTime="461.298" EndTime="463.429" Participant="me026">
+      <VocalSound Description="breath"/> So I'm planning to use the Macrophone
+    </Segment>
+    <Segment StartTime="463.890" EndTime="468.599" Participant="me026">
+      set of, um, read speech, and, um - Hmm.
+    </Segment>
+    <Segment StartTime="468.304" EndTime="473.400" Participant="me013">
+      <VocalSound Description="inbreath"/> I had another thought just now, which is, uh, remember we were talking before about -
+    </Segment>
+    <Segment StartTime="473.400" EndTime="476.816" Participant="me013">
+      we were talking in our meeting about, uh, this stuff that -
+    </Segment>
+    <Segment StartTime="476.816" EndTime="479.665" Participant="me013">
+      some of the other stuff that Avendano did, where they were,
+    </Segment>
+    <Segment StartTime="479.665" EndTime="483.351" Participant="me013">
+      um, getting rid of low-energy <Pause/> sections?
+    </Segment>
+    <Segment StartTime="483.351" EndTime="486.170" Participant="me013">
+      Um, uh, if you -
+    </Segment>
+    <Segment StartTime="486.170" EndTime="493.623" Participant="me013">
+      if you did a high-pass filtering, as Hirsch did in <Pause/> late eighties to reduce some of the effects of reverberation,
+    </Segment>
+    <Segment StartTime="493.623" EndTime="497.424" Participant="me013">
+      uh, uh, Avendano and Hermansky were arguing that,
+    </Segment>
+    <Segment StartTime="497.424" EndTime="504.755" Participant="me013">
+      uh, perhaps one of the reasons for that working was ma- may not have even been the <Emphasis> filtering </Emphasis> so much but the fact that when you filter a -
+    </Segment>
+    <Segment StartTime="504.755" EndTime="508.879" Participant="me013">
+      an all-positive power spectrum you get some negative values,
+    </Segment>
+    <Segment StartTime="508.879" EndTime="513.122" Participant="me013">
+      and you gotta figure out what to do with them if <Pronounce> you're  </Pronounce> gonna continue treating this as a power spectrum.
+    </Segment>
+    <Segment StartTime="513.122" EndTime="518.561" Participant="me013">
+      So, what - what Hirsch did was, uh, set them to zero - set the negative values to zero.
+    </Segment>
+    <Segment StartTime="518.561" EndTime="521.851" Participant="me013">
+      So if you imagine a - a waveform that's all positive,
+    </Segment>
+    <Segment StartTime="521.851" EndTime="525.007" Participant="me013">
+      which is the time trajectory of energy,
+    </Segment>
+    <Segment StartTime="525.007" EndTime="528.467" Participant="me013">
+      um, and, uh, shifting it downwards,
+    </Segment>
+    <Segment StartTime="528.467" EndTime="530.171" Participant="me013">
+      and then getting rid of the negative parts,
+    </Segment>
+    <Segment StartTime="530.171" EndTime="532.509" Participant="me013">
+      that's essentially throwing away the low-energy things.
+    </Segment>
+    <Segment StartTime="532.509" EndTime="534.967" Participant="me013">
+      And it's the low-energy parts of the speech
+    </Segment>
+    <Segment StartTime="534.967" EndTime="540.665" Participant="me013">
+      where the reverberation is most audible. You know, you have the reverberation from higher-energy things showing up in -
+    </Segment>
+    <Segment StartTime="540.665" EndTime="546.217" Participant="me013">
+      So in this case you have some artificially imposed <Pause/> reverberation-like thing. I mean, you're getting rid of
+    </Segment>
+    <Segment StartTime="546.217" EndTime="548.237" Participant="me013">
+      some of the <Emphasis> other </Emphasis> effects of reverberation,
+    </Segment>
+    <Segment StartTime="548.237" EndTime="551.231" Participant="me013">
+      but because you have these non-causal windows,
+    </Segment>
+    <Segment StartTime="551.231" EndTime="554.416" Participant="me013">
+      you're getting these funny things coming in, uh, at n-
+    </Segment>
+    <Segment StartTime="554.416" EndTime="557.575" Participant="me013">
+      And, um, what if you did - ?
+    </Segment>
+    <Segment StartTime="557.575" EndTime="562.158" Participant="me013">
+      I mean, there's nothing to say that the - the processing for this re-synthesis has to be restricted
+    </Segment>
+    <Segment StartTime="562.158" EndTime="563.983" Participant="me013">
+      to trying to get it back to
+    </Segment>
+    <Segment StartTime="563.983" EndTime="567.099" Participant="me013">
+      the original, according to some equation. I mean, you also
+    </Segment>
+    <Segment StartTime="565.810" EndTime="566.661" Participant="me026">
+      Uh-huh.
+    </Segment>
+    <Segment StartTime="567.099" EndTime="571.351" Participant="me013">
+      could, uh, just try to make it nicer. <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="570.847" EndTime="571.295" Participant="me026">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="571.351" EndTime="576.193" Participant="me013">
+      And one of the things you could do is, you could do some sort of V_A_D-like thing and you actually <Emphasis> could </Emphasis>
+    </Segment>
+    <Segment StartTime="576.193" EndTime="582.756" Participant="me013">
+      take very low-energy sections and set them to some - some, uh, very low or - or near zero <Pause/> value.
+    </Segment>
+    <Segment StartTime="583.142" EndTime="583.834" Participant="me026">
+      Uh-huh.
+    </Segment>
+    <Segment StartTime="583.171" EndTime="588.320" Participant="me013">
+      I mean, uh, I'm just saying <Emphasis> if </Emphasis> in fact it turns out that - that these echoes that you're hearing
+    </Segment>
+    <Segment StartTime="588.320" EndTime="589.848" Participant="me013">
+      are, uh -
+    </Segment>
+    <Segment StartTime="589.848" EndTime="592.331" Participant="me013">
+      or pre-echoes, whichever they are - are - are,
+    </Segment>
+    <Segment StartTime="592.994" EndTime="596.690" Participant="me013">
+      uh, part of what's causing the problem, you actually could get rid of them.
+    </Segment>
+    <Segment StartTime="599.132" EndTime="599.963" Participant="me026">
+      Uh-huh.
+    </Segment>
+    <Segment StartTime="602.327" EndTime="603.397" Participant="me013">
+      Be pretty simple.
+    </Segment>
+    <Segment StartTime="604.651" EndTime="605.244" Participant="me026">
+      <Pronounce Pronunciation="&quot;kay&quot;"> O_K.  </Pronounce>
+    </Segment>
+    <Segment StartTime="605.078" EndTime="611.151" Participant="me013">
+      I mean, you do it in a pretty conservative way so that if you made a mistake you were more likely to <Pause/> keep in an echo than to throw out speech.
+    </Segment>
+    <Segment StartTime="613.953" EndTime="614.363" Participant="me026">
+      Hmm.
+    </Segment>
+    <Segment StartTime="614.640" EndTime="617.953" Participant="mn052">
+      Um, what is the reverberation time <Pause/> like <Pause/> <Uncertain> there </Uncertain>?
+    </Segment>
+    <Segment StartTime="617.533" EndTime="619.333" Participant="me026">
+      In thi- in this room? Uh -
+    </Segment>
+    <Segment StartTime="618.685" EndTime="623.630" Participant="mn052">
+      On, uh, the - the one what - the s- in the speech that you are - you are using like?
+    </Segment>
+    <Segment StartTime="622.810" EndTime="625.520" Participant="me026">
+      Y- Yeah. I - I - I - I don't know.
+    </Segment>
+    <Segment StartTime="625.160" EndTime="626.282" Participant="me013">
+      <VocalSound Description="mouth"/> So, it's this room.
+    </Segment>
+    <Segment StartTime="626.560" EndTime="628.400" Participant="mn052">
+      It's, uh - Oh, this room? O_K.
+    </Segment>
+    <Segment StartTime="627.074" EndTime="628.220" Participant="me013">
+      It's - it's this room. So -
+    </Segment>
+    <Segment StartTime="628.220" EndTime="629.511" Participant="me013">
+      so it's - these are just microphone -
+    </Segment>
+    <Segment StartTime="629.511" EndTime="633.588" Participant="me013">
+      this micro- close microphone and a distant microphone, he's doing these different tests on.
+    </Segment>
+    <Segment StartTime="629.729" EndTime="630.263" Participant="me006">
+      Oh.
+    </Segment>
+    <Segment StartTime="631.564" EndTime="632.400" Participant="mn007">
+      <VocalSound Description="clears throat"/>
+    </Segment>
+    <Segment StartTime="633.588" EndTime="638.172" Participant="me013">
+      Uh, we should do a measurement in here. I g- think we never have. I think it's - I would guess, uh,
+    </Segment>
+    <Segment StartTime="636.878" EndTime="637.723" Participant="me006">
+      Hmm! <VocalSound Description="breath"/>
+    </Segment>
+    <Segment StartTime="638.039" EndTime="639.130" Participant="me006">
+      <VocalSound Description="breath"/>
+    </Segment>
+    <Segment StartTime="638.172" EndTime="642.521" Participant="me013">
+      point seven, point eight seconds f- uh, R_T_sixty - something like that?
+    </Segment>
+    <Segment StartTime="642.150" EndTime="642.750" Participant="mn052">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="642.521" EndTime="644.098" Participant="me013">
+      But it's - you know, it's this room.
+    </Segment>
+    <Segment StartTime="644.098" EndTime="645.613" Participant="me013">
+      So. <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="644.132" EndTime="644.626" Participant="mn052">
+      O_K.
+    </Segment>
+    <Segment StartTime="645.022" EndTime="645.516" Participant="mn052">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="645.613" EndTime="646.592" Participant="me013">
+      Uh.
+    </Segment>
+    <Segment StartTime="647.210" EndTime="648.100" Participant="me006">
+      <VocalSound Description="breath"/>
+    </Segment>
+    <Segment StartTime="648.700" EndTime="654.274" Participant="me013">
+      But the other thing is, he's putting in - w- I was using the word "reverberation" in two ways. He's also putting in,
+    </Segment>
+    <Segment StartTime="654.274" EndTime="655.324" Participant="me013">
+      uh, a -
+    </Segment>
+    <Segment StartTime="655.324" EndTime="663.351" Participant="me013">
+      he's taking <Emphasis> out </Emphasis> some reverberation, but he's putting <Emphasis> in </Emphasis> something, because he has <Pause/> averages over multiple windows stretching out to twelve seconds,
+    </Segment>
+    <Segment StartTime="663.351" EndTime="667.276" Participant="me013">
+      which are then being subtracted from the speech. And since,
+    </Segment>
+    <Segment StartTime="666.624" EndTime="669.215" Participant="me006">
+      <NonVocalSound Description="mike noise"/>
+    </Segment>
+    <Segment StartTime="667.276" EndTime="673.828" Participant="me013">
+      you know, what you subtract, sometimes you'll be - you'll be subtracting from some larger number and sometimes you won't. And -
+    </Segment>
+    <Segment StartTime="672.760" EndTime="673.920" Participant="mn052">
+      Mm-hmm. Mm-hmm.
+    </Segment>
+    <Segment StartTime="673.828" EndTime="678.538" Participant="me013">
+      So you can end up with some <Emphasis> components </Emphasis> in it that are affected by things that are seconds away.
+    </Segment>
+    <Segment StartTime="675.980" EndTime="676.336" Participant="me006">
+      <NonVocalSound Description="mike noise"/>
+    </Segment>
+    <Segment StartTime="678.354" EndTime="678.670" Participant="me006">
+      <NonVocalSound Description="mike noise"/>
+    </Segment>
+    <Segment StartTime="678.993" EndTime="685.290" Participant="me013">
+      Uh, and if it's a low <Pause/> energy compo- <Emphasis> portion, </Emphasis> you might actually hear some <Pause/> funny things.
+    </Segment>
+    <Segment StartTime="684.960" EndTime="685.490" Participant="mn052">
+      Yeah.
+    </Segment>
+    <Segment StartTime="686.463" EndTime="695.936" Participant="me026">
+      O- o- one thing, um, I noticed is that, um, the mean subtraction seems to make the P_Z_M signals <Emphasis> louder </Emphasis> after they've been re-synthesized.
+    </Segment>
+    <Segment StartTime="696.373" EndTime="703.363" Participant="me026">
+      So I was wondering, is it possible that one reason it helped with the Aurora baseline system is <Pause/> just as a kind of gain control?
+    </Segment>
+    <Segment StartTime="697.261" EndTime="699.002" Participant="fn002">
+      <NonVocalSound Description="mike noise"/>
+    </Segment>
+    <Segment StartTime="701.692" EndTime="702.009" Participant="fn002">
+      <NonVocalSound Description="mike noise"/>
+    </Segment>
+    <Segment StartTime="703.363" EndTime="707.410" Participant="me026">
+      Cuz some of the P_Z_M signals sound pretty quiet if you don't amplify them.
+    </Segment>
+    <Segment StartTime="708.893" EndTime="709.387" Participant="mn007">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="710.241" EndTime="714.748" Participant="mn007">
+      I don't see why - why your signal is louder after processing, because yo-
+    </Segment>
+    <Segment StartTime="714.770" EndTime="716.840" Participant="me026">
+      Yeah. I don't know why -y, uh, either.
+    </Segment>
+    <Segment StartTime="716.051" EndTime="717.912" Participant="me013">
+      <VocalSound Description="breath-laugh"/>
+    </Segment>
+    <Segment StartTime="716.608" EndTime="717.142" Participant="mn007">
+      Yeah.
+    </Segment>
+    <Segment StartTime="717.912" EndTime="721.216" Participant="me013">
+      I don't think just multiplying the signal by two would have any effect.
+    </Segment>
+    <Segment StartTime="719.931" EndTime="720.990" Participant="mn007">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="721.222" EndTime="722.271" Participant="me026">
+      Oh, O_K.
+    </Segment>
+    <Segment StartTime="722.260" EndTime="725.526" Participant="me013">
+      Yeah. I mean, I think if you really have louder signals,
+    </Segment>
+    <Segment StartTime="723.076" EndTime="723.729" Participant="mn007">
+      Well, well -
+    </Segment>
+    <Segment StartTime="724.950" EndTime="725.594" Participant="mn007">
+      <VocalSound Description="clears throat"/>
+    </Segment>
+    <Segment StartTime="726.250" EndTime="730.072" Participant="me013">
+      what you mean is that you have <Pause/> better signal-to-noise ratio.
+    </Segment>
+    <Segment StartTime="730.072" EndTime="733.653" Participant="me013">
+      So <Emphasis> if </Emphasis> what you're doing is improving the signal-to-noise ratio, then it would be better.
+    </Segment>
+    <Segment StartTime="732.533" EndTime="733.186" Participant="mn007">
+      Mm-hmm. <Comment Description="quietly"/>
+    </Segment>
+    <Segment StartTime="733.653" EndTime="737.200" Participant="me013">
+      But just it being <Emphasis> bigger </Emphasis> if - with the <Emphasis> same </Emphasis> signal-to-noise ratio -
+    </Segment>
+    <Segment StartTime="735.009" EndTime="737.641" Participant="me026">
+      It w- i- i- it wouldn't affect things. O_K.
+    </Segment>
+    <Segment StartTime="737.010" EndTime="737.399" Participant="mn007">
+      Yeah.
+    </Segment>
+    <Segment StartTime="737.420" EndTime="737.762" Participant="me013">
+      No.
+    </Segment>
+    <Segment StartTime="737.979" EndTime="739.106" Participant="mn007">
+      Well, the system is -
+    </Segment>
+    <Segment StartTime="740.056" EndTime="743.814" Participant="mn007">
+      use <Pause/> the absolute energy, so it's a little bit dependent on -
+    </Segment>
+    <Segment StartTime="744.130" EndTime="746.108" Participant="mn007">
+      on the <Pause/> signal level.
+    </Segment>
+    <Segment StartTime="746.821" EndTime="748.897" Participant="mn007">
+      But, not so much, I guess.
+    </Segment>
+    <Segment StartTime="748.650" EndTime="753.289" Participant="me013">
+      <VocalSound Description="inbreath"/> Well, yeah. But it's trained and tested on the same thing. So if the - if the - if you change
+    </Segment>
+    <Segment StartTime="749.690" EndTime="750.124" Participant="mn007">
+      Mmm.
+    </Segment>
+    <Segment StartTime="751.053" EndTime="751.686" Participant="mn007">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="753.289" EndTime="753.983" Participant="me013">
+      <VocalSound Description="breath"/>
+    </Segment>
+    <Segment StartTime="753.983" EndTime="758.580" Participant="me013">
+      in both training and test, the absolute level by a factor of two, it will n- have no effect.
+    </Segment>
+    <Segment StartTime="757.390" EndTime="757.987" Participant="mn007">
+      Yeah.
+    </Segment>
+    <Segment StartTime="758.020" EndTime="761.127" Participant="me018">
+      Did you add <Pause/> this data to the training set, for the Aurora?
+    </Segment>
+    <Segment StartTime="761.893" EndTime="762.902" Participant="me026">
+      <VocalSound Description="breath"/> Uh -
+    </Segment>
+    <Segment StartTime="762.442" EndTime="763.965" Participant="me018">
+      Or you just tested on this?
+    </Segment>
+    <Segment StartTime="763.851" EndTime="764.913" Participant="me026">
+      Um.
+    </Segment>
+    <Segment StartTime="766.812" EndTime="768.460" Participant="me026">
+      Did I w- what? Sorry?
+    </Segment>
+    <Segment StartTime="767.790" EndTime="772.787" Participant="me018">
+      Well, Morgan was just saying that, uh, as long as you do it in both training and testing, it shouldn't have any effect. But I -
+    </Segment>
+    <Segment StartTime="769.043" EndTime="769.832" Participant="mn007">
+      <VocalSound Description="clears throat"/>
+    </Segment>
+    <Segment StartTime="771.347" EndTime="771.941" Participant="me026">
+      Yeah.
+    </Segment>
+    <Segment StartTime="772.787" EndTime="777.700" Participant="me018">
+      I was <Pause/> sort of under the impression that you just <Emphasis> tested </Emphasis> with this data. You didn't <Pause/> train it also.
+    </Segment>
+    <Segment StartTime="772.791" EndTime="773.750" Participant="me026">
+      <Pronounce Pronunciation="lengthened, creaky"> I  </Pronounce> -
+    </Segment>
+    <Segment StartTime="773.750" EndTime="774.829" Participant="me026">
+      I b- <VocalSound Description="vocal squeak"/> <VocalSound Description="outbreath"/>
+    </Segment>
+    <Segment StartTime="774.829" EndTime="776.194" Participant="me026">
+      <VocalSound Description="inbreath"/>
+    </Segment>
+    <Segment StartTime="777.080" EndTime="785.730" Participant="me026">
+      I - Right. I trained on clean T_I-digits. I - I did the mean subtraction on clean T_I-digits. But I didn't - I'm not sure if it made the clean ti- T_I-digits any louder.
+    </Segment>
+    <Segment StartTime="781.428" EndTime="782.056" Participant="me013">
+      <VocalSound Description="mouth"/>
+    </Segment>
+    <Segment StartTime="782.056" EndTime="783.640" Participant="me013">
+      Oh, I see.
+    </Segment>
+    <Segment StartTime="788.900" EndTime="792.878" Participant="me026">
+      I only remember noticing it made the, um, P_Z_M signal louder.
+    </Segment>
+    <Segment StartTime="793.040" EndTime="795.613" Participant="me013">
+      O_K. Well, I don't understand then. Yeah.
+    </Segment>
+    <Segment StartTime="795.130" EndTime="795.508" Participant="me026">
+      Huh.
+    </Segment>
+    <Segment StartTime="795.706" EndTime="802.018" Participant="me026">
+      I don't know. If it's - if it's - like, if it's trying to find a - a reverberation filter, it could be that this reverberation filter is
+    </Segment>
+    <Segment StartTime="802.354" EndTime="804.537" Participant="me026">
+      making things <Emphasis> quieter. </Emphasis> And then if you take it out -
+    </Segment>
+    <Segment StartTime="804.992" EndTime="806.891" Participant="me026">
+      that taking it out makes things louder.
+    </Segment>
+    <Segment StartTime="812.079" EndTime="812.791" Participant="me026">
+      I mean.
+    </Segment>
+    <Segment StartTime="813.820" EndTime="818.758" Participant="me013">
+      Uh, no. I mean, <VocalSound Description="inbreath"/> uh, there's - there's nothing inherent about
+    </Segment>
+    <Segment StartTime="815.370" EndTime="815.904" Participant="me026">
+      <Uncertain> Nuh-huh. </Uncertain>
+    </Segment>
+    <Segment StartTime="819.787" EndTime="821.844" Participant="me013">
+      removing - if you're really removing,
+    </Segment>
+    <Segment StartTime="822.406" EndTime="825.390" Participant="me006">
+      <VocalSound Description="breath"/>
+    </Segment>
+    <Segment StartTime="822.675" EndTime="828.293" Participant="me013">
+      uh, r- uh, then I don't <Pause/> see how that would make it louder. So it might be just some -
+    </Segment>
+    <Segment StartTime="822.800" EndTime="823.472" Participant="me026">
+      The mean.
+    </Segment>
+    <Segment StartTime="825.580" EndTime="828.716" Participant="me026">
+      O_K. Yeah, I see. Yeah. O_K. So I should maybe listen to that stuff again.
+    </Segment>
+    <Segment StartTime="828.840" EndTime="832.851" Participant="me013">
+      Yeah. It might just be some artifact of the processing that - that, uh, if you're -
+    </Segment>
+    <Segment StartTime="834.440" EndTime="836.062" Participant="me013">
+      Uh, yeah. I don't know.
+    </Segment>
+    <Segment StartTime="835.250" EndTime="836.418" Participant="me026">
+      Oh. O_K.
+    </Segment>
+    <Segment StartTime="839.090" EndTime="841.612" Participant="me018">
+      <VocalSound Description="mouth"/> I wonder if there could be something like, uh -
+    </Segment>
+    <Segment StartTime="839.213" EndTime="839.782" Participant="mn007">
+      Eh- <Comment Description="abandoned"/>
+    </Segment>
+    <Segment StartTime="842.502" EndTime="850.376" Participant="me018">
+      for s- for the P_Z_M data, uh, you know, if occasionally, uh, somebody hits the table or something, you could get a spike.
+    </Segment>
+    <Segment StartTime="851.168" EndTime="852.380" Participant="me018">
+      Uh.
+    </Segment>
+    <Segment StartTime="854.030" EndTime="858.353" Participant="me018">
+      I'm just wondering if there's something about the, um - you know, doing the mean normalization where,
+    </Segment>
+    <Segment StartTime="858.887" EndTime="864.541" Participant="me018">
+      uh, it - it could cause <Pause/> you to have better signal-to-noise ratio.
+    </Segment>
+    <Segment StartTime="864.541" EndTime="865.530" Participant="me018">
+      Um.
+    </Segment>
+    <Segment StartTime="864.788" EndTime="865.418" Participant="me013">
+      <VocalSound Description="inbreath"/>
+    </Segment>
+    <Segment StartTime="865.418" EndTime="866.848" Participant="me013">
+      Well, you know, there <Emphasis> is </Emphasis> <Emphasis> this. </Emphasis>
+    </Segment>
+    <Segment StartTime="866.848" EndTime="868.743" Participant="me013">
+      Wait a minute. It - it - i- maybe -
+    </Segment>
+    <Segment StartTime="869.198" EndTime="869.732" Participant="me013">
+      i- <Comment Description="quietly"/>
+    </Segment>
+    <Segment StartTime="870.226" EndTime="871.156" Participant="me013">
+      If, um -
+    </Segment>
+    <Segment StartTime="871.568" EndTime="876.833" Participant="me013">
+      Subtracting the - the mean log spectrum is - is - is like dividing by the spectrum.
+    </Segment>
+    <Segment StartTime="877.626" EndTime="884.986" Participant="me013">
+      So, depending what you divide by, if your - if s- your estimate is off and sometimes you're - you're - you're getting a small number,
+    </Segment>
+    <Segment StartTime="884.980" EndTime="885.820" Participant="me018">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="885.810" EndTime="886.885" Participant="me013">
+      you could make it bigger.
+    </Segment>
+    <Segment StartTime="886.716" EndTime="887.278" Participant="me026">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="888.031" EndTime="890.208" Participant="me013">
+      So, it's - it's just a - a question of -
+    </Segment>
+    <Segment StartTime="891.207" EndTime="894.056" Participant="me013">
+      there's - It - it could be that there's some normalization that's missing,
+    </Segment>
+    <Segment StartTime="894.056" EndTime="895.659" Participant="me013">
+      or something <Pause/> to make it -
+    </Segment>
+    <Segment StartTime="894.706" EndTime="895.341" Participant="me026">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="896.134" EndTime="899.206" Participant="me013">
+      Uh, y- you'd think it shouldn't be larger, but
+    </Segment>
+    <Segment StartTime="899.206" EndTime="900.484" Participant="me013">
+      maybe in practice it is.
+    </Segment>
+    <Segment StartTime="900.389" EndTime="900.797" Participant="me026">
+      Hmm. <Comment Description="quietly"/>
+    </Segment>
+    <Segment StartTime="900.484" EndTime="902.580" Participant="me013">
+      That's something to think about. I don't know.
+    </Segment>
+    <Segment StartTime="904.404" EndTime="910.359" Participant="mn007">
+      I had a question about the system - the S_R_I system. So, <VocalSound Description="clears throat"/> you trained it on T_I-digits?
+    </Segment>
+    <Segment StartTime="911.004" EndTime="918.630" Participant="mn007">
+      But except this, it's exactly the same system as the one that was tested before and that was trained on <Pause/> Macrophone. Right?
+    </Segment>
+    <Segment StartTime="918.630" EndTime="924.242" Participant="mn007">
+      So on T_I-digits it gives you one point two percent error rate and on Macrophone it's still O_ point eight.
+    </Segment>
+    <Segment StartTime="920.880" EndTime="921.197" Participant="mn052">
+      <NonVocalSound Description="noise"/>
+    </Segment>
+    <Segment StartTime="925.900" EndTime="928.680" Participant="mn007">
+      Uh, but is it <Pause/> exactly the same system?
+    </Segment>
+    <Segment StartTime="925.932" EndTime="926.545" Participant="me026">
+      Uh.
+    </Segment>
+    <Segment StartTime="929.180" EndTime="935.920" Participant="me026">
+      I <Emphasis> think </Emphasis> so. If you're talking about the Macrophone results that Andreas had about, um, a week and a half ago, I think it's the same system.
+    </Segment>
+    <Segment StartTime="930.124" EndTime="930.757" Participant="mn007">
+      Hmm.
+    </Segment>
+    <Segment StartTime="933.230" EndTime="933.704" Participant="mn007">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="935.042" EndTime="935.398" Participant="me013">
+      <VocalSound Description="mouth and inbreath"/>
+    </Segment>
+    <Segment StartTime="935.355" EndTime="940.489" Participant="mn007">
+      So you use V_T_L- uh, vocal tract length normalization and, um,
+    </Segment>
+    <Segment StartTime="937.861" EndTime="938.573" Participant="me026">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="942.073" EndTime="944.396" Participant="mn007">
+      like M_L_L_R transformations also, and -
+    </Segment>
+    <Segment StartTime="944.457" EndTime="949.837" Participant="me013">
+      <VocalSound Description="inbreath"/> I'm sorry, was his point eight percent, er, a - a result on <Emphasis> testing </Emphasis> on Macrophone or - or training?
+    </Segment>
+    <Segment StartTime="944.516" EndTime="945.184" Participant="me026">
+      That's -
+    </Segment>
+    <Segment StartTime="944.780" EndTime="945.840" Participant="mn007">
+      all that stuff.
+    </Segment>
+    <Segment StartTime="948.531" EndTime="949.459" Participant="me026">
+      <VocalSound Description="cough in background"/>
+    </Segment>
+    <Segment StartTime="948.631" EndTime="949.541" Participant="me018">
+      <VocalSound Description="cough"/>
+    </Segment>
+    <Segment StartTime="949.422" EndTime="953.853" Participant="mn007">
+      It was <Pause/> training on Macrophone and testing - yeah, on - on meeting digits.
+    </Segment>
+    <Segment StartTime="953.796" EndTime="955.952" Participant="me013">
+      Oh. So that <Emphasis> was </Emphasis> done already. So we were -
+    </Segment>
+    <Segment StartTime="956.565" EndTime="958.879" Participant="me013">
+      Uh, and it's point eight? O_K.
+    </Segment>
+    <Segment StartTime="958.165" EndTime="958.620" Participant="mn007">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="960.202" EndTime="960.776" Participant="mn007">
+      <VocalSound Description="clears throat"/>
+    </Segment>
+    <Segment StartTime="965.683" EndTime="966.200" Participant="me013">
+      <Pronounce Pronunciation="&quot;kay&quot;"> O_K.  </Pronounce>
+    </Segment>
+    <Segment StartTime="965.940" EndTime="974.145" Participant="mn007">
+      Yeah. I - I've just been text- <Comment Description="speech error"/> testing the new <Pause/> Aurora front-end with - well, Aurora <Emphasis> system </Emphasis> actually - so front-end and H_T_K,
+    </Segment>
+    <Segment StartTime="975.050" EndTime="983.454" Participant="mn007">
+      um, acoustic models on the meeting digits and it's a little bit better than the previous system. We have - I have two point seven percent error rate.
+    </Segment>
+    <Segment StartTime="979.444" EndTime="980.235" Participant="me013">
+      <NonVocalSound Description="mike noise"/>
+    </Segment>
+    <Segment StartTime="983.454" EndTime="988.710" Participant="mn007">
+      <VocalSound Description="breath"/> And before with the system that was proposed, it's what? It was three point nine. So.
+    </Segment>
+    <Segment StartTime="989.108" EndTime="991.780" Participant="mn007">
+      <VocalSound Description="breath"/> We are getting better. <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="989.280" EndTime="990.308" Participant="me013">
+      <VocalSound Description="mouth"/> Oh, that's a <Emphasis> lot </Emphasis> better.
+    </Segment>
+    <Segment StartTime="989.978" EndTime="990.730" Participant="me006">
+      <VocalSound Description="breath-laugh"/>
+    </Segment>
+    <Segment StartTime="990.820" EndTime="993.264" Participant="me013">
+      <VocalSound Description="laugh"/> So, what - w- ?
+    </Segment>
+    <Segment StartTime="991.010" EndTime="991.930" Participant="me006">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="991.534" EndTime="995.670" Participant="mn052">
+      <VocalSound Description="breath-laugh"/> With the - with the H_T_K back-end? What we have for Aurora?
+    </Segment>
+    <Segment StartTime="991.780" EndTime="992.870" Participant="mn007">
+      <VocalSound Description="breath"/>
+    </Segment>
+    <Segment StartTime="992.870" EndTime="993.493" Participant="mn007">
+      And -
+    </Segment>
+    <Segment StartTime="995.655" EndTime="997.158" Participant="mn007">
+      Yeah. Two point seven.
+    </Segment>
+    <Segment StartTime="997.085" EndTime="999.158" Participant="mn052">
+      I know in the meeting, like - Right.
+    </Segment>
+    <Segment StartTime="998.230" EndTime="999.670" Participant="mn007">
+      On the meeting we have two point seven.
+    </Segment>
+    <Segment StartTime="999.910" EndTime="1001.630" Participant="mn052">
+      Oh. <VocalSound Description="breath-laugh"/>
+    </Segment>
+    <Segment StartTime="1001.080" EndTime="1003.459" Participant="me006">
+      That's with the new I_I_R filters?
+    </Segment>
+    <Segment StartTime="1004.694" EndTime="1009.955" Participant="mn007">
+      Uh. Yeah, yeah. So, yeah, we have <Pause/> the new L_D_A filters, and -
+    </Segment>
+    <Segment StartTime="1005.836" EndTime="1006.329" Participant="me006">
+      O_K.
+    </Segment>
+    <Segment StartTime="1010.808" EndTime="1013.652" Participant="mn007">
+      I think, maybe - I didn't look, but
+    </Segment>
+    <Segment StartTime="1014.311" EndTime="1020.108" Participant="mn007">
+      one thing that makes a difference is this D_C offset compensation. Uh, eh -
+    </Segment>
+    <Segment StartTime="1020.108" EndTime="1026.152" Participant="mn007">
+      Do y- did you have a look at - at the meet- uh, meeting digits, if they have a D_C component, or - ?
+    </Segment>
+    <Segment StartTime="1026.974" EndTime="1027.410" Participant="fn002">
+      <NonVocalSound Description="mike noise"/>
+    </Segment>
+    <Segment StartTime="1027.640" EndTime="1028.103" Participant="me026">
+      I -
+    </Segment>
+    <Segment StartTime="1028.319" EndTime="1030.831" Participant="fn002">
+      <NonVocalSound Description="mike noise"/>
+    </Segment>
+    <Segment StartTime="1028.740" EndTime="1030.110" Participant="me026">
+      I didn't. No.
+    </Segment>
+    <Segment StartTime="1029.648" EndTime="1030.221" Participant="mn007">
+      Oh.
+    </Segment>
+    <Segment StartTime="1032.239" EndTime="1032.674" Participant="mn007">
+      <VocalSound Description="mouth"/>
+    </Segment>
+    <Segment StartTime="1032.394" EndTime="1032.849" Participant="me013">
+      Hmm.
+    </Segment>
+    <Segment StartTime="1032.513" EndTime="1033.957" Participant="fn002">
+      <VocalSound Description="breath"/>
+    </Segment>
+    <Segment StartTime="1032.705" EndTime="1037.029" Participant="mn052">
+      No. The D_C component could be negligible. I mean, if you are <Pause/> recording it through a
+    </Segment>
+    <Segment StartTime="1037.860" EndTime="1043.426" Participant="mn052">
+      mike. I mean, any - all of the mikes have the D_C removal - some capacitor sitting right in <Pause/> <Uncertain> that <Emphasis> bias </Emphasis> it </Uncertain>.
+    </Segment>
+    <Segment StartTime="1041.926" EndTime="1042.620" Participant="me013">
+      <VocalSound Description="mouth"/>
+    </Segment>
+    <Segment StartTime="1042.620" EndTime="1047.585" Participant="me013">
+      Yeah. But this - uh, uh, uh, no. Because, uh, there's a sample and hold
+    </Segment>
+    <Segment StartTime="1047.982" EndTime="1053.100" Participant="me013">
+      in the A_to_D. And these period- these typically <Emphasis> do </Emphasis> have a D_C offset.
+    </Segment>
+    <Segment StartTime="1052.951" EndTime="1053.841" Participant="mn052">
+      Oh, O_K.
+    </Segment>
+    <Segment StartTime="1053.770" EndTime="1058.400" Participant="me013">
+      And - and they can be <Emphasis> surprisingly </Emphasis> large. It depends on the electronics.
+    </Segment>
+    <Segment StartTime="1056.660" EndTime="1061.001" Participant="mn052">
+      Oh, so it is the digital - O_K. It's the A_to_D that introduces the D_C in.
+    </Segment>
+    <Segment StartTime="1060.460" EndTime="1063.296" Participant="me013">
+      Yeah. The microphone isn't gonna pass any D_C. But - but,
+    </Segment>
+    <Segment StartTime="1061.580" EndTime="1064.234" Participant="mn052">
+      Yeah. Yeah. Yeah. O_K.
+    </Segment>
+    <Segment StartTime="1063.296" EndTime="1064.273" Participant="me013">
+      <VocalSound Description="breath"/>
+    </Segment>
+    <Segment StartTime="1064.273" EndTime="1070.260" Participant="me013">
+      typi- you know, unless - Actually, there are <Pause/> instrumentation mikes that - that <Emphasis> do </Emphasis> pass - go down to D_C. But - but,
+    </Segment>
+    <Segment StartTime="1069.465" EndTime="1070.098" Participant="mn052">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="1070.260" EndTime="1073.632" Participant="me013">
+      uh, no, it's the electronics. And they - and -
+    </Segment>
+    <Segment StartTime="1072.250" EndTime="1073.010" Participant="mn052">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="1073.632" EndTime="1076.361" Participant="me013">
+      then there's amplification afterwards. And you can get,
+    </Segment>
+    <Segment StartTime="1076.361" EndTime="1077.322" Participant="me013">
+      I think it was -
+    </Segment>
+    <Segment StartTime="1078.271" EndTime="1080.599" Participant="me013">
+      I think it was in the <Pause/> Wall Street Journal data
+    </Segment>
+    <Segment StartTime="1080.599" EndTime="1086.890" Participant="me013">
+      that - that - I can't remember, <Emphasis> one </Emphasis> of the DARPA things. There was this big D_C- D_C offset we didn't - we didn't know about for a while, while we were <Pause/>
+    </Segment>
+    <Segment StartTime="1084.465" EndTime="1085.274" Participant="me018">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="1086.890" EndTime="1089.550" Participant="me013">
+      messing with it. And we were getting these terrible results. And then
+    </Segment>
+    <Segment StartTime="1088.790" EndTime="1090.147" Participant="me006">
+      <VocalSound Description="breath-laugh"/>
+    </Segment>
+    <Segment StartTime="1089.550" EndTime="1094.319" Participant="me013">
+      we were talking to somebody and they said, "Oh, yeah. Didn't you know? Everybody knows that. There's all this D_C offset in th-" <Comment Description="while laughing"/>
+    </Segment>
+    <Segment StartTime="1092.557" EndTime="1095.464" Participant="mn052">
+      <VocalSound Description="breath-laugh"/> <VocalSound Description="mouth"/> <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1092.676" EndTime="1094.640" Participant="me018">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1092.943" EndTime="1095.564" Participant="mn007">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1094.319" EndTime="1099.170" Participant="me013">
+      So, yes. You can have D_C offset in the data. Yeah. <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1095.464" EndTime="1096.117" Participant="mn052">
+      Oh, O_K.
+    </Segment>
+    <Segment StartTime="1096.360" EndTime="1097.740" Participant="me006">
+      <VocalSound Description="breath-laugh"/>
+    </Segment>
+    <Segment StartTime="1096.460" EndTime="1097.053" Participant="mn052">
+      O_K.
+    </Segment>
+    <Segment StartTime="1097.206" EndTime="1097.782" Participant="mn007">
+      <VocalSound Description="clears throat"/>
+    </Segment>
+    <Segment StartTime="1098.890" EndTime="1101.070" Participant="me018">
+      So was that - was that everything, Dave?
+    </Segment>
+    <Segment StartTime="1101.446" EndTime="1106.807" Participant="me026">
+      Oh. And I also, um, did some experiments <Pause/> about normalizing the phase.
+    </Segment>
+    <Segment StartTime="1103.238" EndTime="1104.267" Participant="me013">
+      <NonVocalSound Description="mike noise"/>
+    </Segment>
+    <Segment StartTime="1107.301" EndTime="1114.641" Participant="me026">
+      Um. So I c- I came up with a web page that people can take a look at. And, um, <VocalSound Description="breath"/>
+    </Segment>
+    <Segment StartTime="1114.641" EndTime="1119.400" Participant="me026">
+      the interesting thing that I tried was, um, Adam and Morgan had this idea,
+    </Segment>
+    <Segment StartTime="1119.400" EndTime="1125.357" Participant="me026">
+      um, since my original attempts to, um, take the mean of the <Emphasis> phase </Emphasis> spectra over time
+    </Segment>
+    <Segment StartTime="1122.820" EndTime="1123.780" Participant="me013">
+      <NonVocalSound Description="mike noise"/>
+    </Segment>
+    <Segment StartTime="1125.357" EndTime="1129.420" Participant="me026">
+      and normalize using <Emphasis> that, </Emphasis> by subtracting that off, didn't work. Um,
+    </Segment>
+    <Segment StartTime="1129.420" EndTime="1133.793" Participant="me026">
+      so, well, that we thought that might be due to, um, problems with, um,
+    </Segment>
+    <Segment StartTime="1131.693" EndTime="1135.016" Participant="me013">
+      <VocalSound Description="breath"/>
+    </Segment>
+    <Segment StartTime="1133.793" EndTime="1138.010" Participant="me026">
+      the <Emphasis> arithmetic </Emphasis> of phases. They - they add in this modulo two pi way and, <VocalSound Description="breath"/>
+    </Segment>
+    <Segment StartTime="1138.010" EndTime="1138.730" Participant="me026">
+      um,
+    </Segment>
+    <Segment StartTime="1139.027" EndTime="1140.324" Participant="me026">
+      there's reason to believe that
+    </Segment>
+    <Segment StartTime="1139.736" EndTime="1141.760" Participant="me013">
+      <NonVocalSound Description="mike noise"/>
+    </Segment>
+    <Segment StartTime="1140.820" EndTime="1145.563" Participant="me026">
+      that approach of taking the mean of the phase spectrum wasn't really <Pause/> mathematically correct. So, <VocalSound Description="breath"/>
+    </Segment>
+    <Segment StartTime="1144.759" EndTime="1147.508" Participant="me006">
+      <VocalSound Description="breath"/>
+    </Segment>
+    <Segment StartTime="1145.563" EndTime="1147.310" Participant="me026">
+      what I did instead is I <VocalSound Description="breath"/>
+    </Segment>
+    <Segment StartTime="1147.310" EndTime="1153.942" Participant="me026">
+      took the mean of the F_F_T spectrum without taking the log or anything, and then I took the phase of <Emphasis> that, </Emphasis>
+    </Segment>
+    <Segment StartTime="1154.300" EndTime="1157.372" Participant="me026">
+      and I subtracted <Emphasis> that </Emphasis> phase <Pause/> off
+    </Segment>
+    <Segment StartTime="1158.302" EndTime="1160.095" Participant="me026">
+      to normalize. But that, um,
+    </Segment>
+    <Segment StartTime="1160.996" EndTime="1162.133" Participant="me026">
+      didn't work either.
+    </Segment>
+    <Segment StartTime="1162.604" EndTime="1168.850" Participant="me013">
+      <VocalSound Description="mouth"/> See, we have a different interpretation of this. He says it doesn't work. I said, I think it works <Emphasis> magnificently, </Emphasis> but just not for the task we intended.
+    </Segment>
+    <Segment StartTime="1166.870" EndTime="1168.120" Participant="me026">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1168.850" EndTime="1171.275" Participant="me013">
+      <VocalSound Description="laugh"/> Uh, it gets rid of the <Emphasis> speech. </Emphasis>
+    </Segment>
+    <Segment StartTime="1168.870" EndTime="1170.690" Participant="me018">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1168.889" EndTime="1169.166" Participant="mn052">
+      <VocalSound Description="mouth"/>
+    </Segment>
+    <Segment StartTime="1169.072" EndTime="1169.883" Participant="fn002">
+      <VocalSound Description="breath-laugh"/>
+    </Segment>
+    <Segment StartTime="1169.363" EndTime="1170.858" Participant="mn007">
+      <VocalSound Description="breath-laugh"/>
+    </Segment>
+    <Segment StartTime="1169.780" EndTime="1171.005" Participant="mn052">
+      <VocalSound Description="breath-laugh"/>
+    </Segment>
+    <Segment StartTime="1171.275" EndTime="1173.821" Participant="me013">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1171.361" EndTime="1174.526" Participant="mn052">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1171.470" EndTime="1172.602" Participant="me018">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1172.602" EndTime="1174.200" Participant="me018">
+      What does it leave?
+    </Segment>
+    <Segment StartTime="1172.820" EndTime="1174.700" Participant="me006">
+      Uh, gets rid of the speech. <Comment Description="while laughing"/>
+    </Segment>
+    <Segment StartTime="1174.157" EndTime="1177.554" Participant="me013">
+      Uh, it leaves - you know, it leaves the <Emphasis> junk. </Emphasis> I mean, I - I think it's - it's tremendous.
+    </Segment>
+    <Segment StartTime="1175.698" EndTime="1183.375" Participant="mn052">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1177.554" EndTime="1178.458" Participant="me013">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1177.742" EndTime="1178.534" Participant="me006">
+      Oh, wow.
+    </Segment>
+    <Segment StartTime="1177.920" EndTime="1179.750" Participant="me026">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1178.064" EndTime="1179.033" Participant="fn002">
+      <VocalSound Description="breath-laugh"/>
+    </Segment>
+    <Segment StartTime="1178.458" EndTime="1182.985" Participant="me013">
+      You see, all he has to do is go back and reverse what he did before, <VocalSound Description="laugh"/> and he's really <Emphasis> got </Emphasis> something. <Comment Description="while laughing"/>
+    </Segment>
+    <Segment StartTime="1181.610" EndTime="1184.710" Participant="me018">
+      Well, could you take what was left over and then subtract that? <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1182.985" EndTime="1186.394" Participant="me013">
+      Ex- exactly. Yeah, you got it. <Comment Description="while laughing"/> <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1183.375" EndTime="1184.087" Participant="mn052">
+      Yeah. <Comment Description="while laughing"/>
+    </Segment>
+    <Segment StartTime="1183.716" EndTime="1185.338" Participant="me006">
+      Yeah. <Comment Description="while laughing"/>
+    </Segment>
+    <Segment StartTime="1183.795" EndTime="1184.492" Participant="me026">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1184.087" EndTime="1187.272" Participant="mn052">
+      <VocalSound Description="laugh"/> Oh, it's -
+    </Segment>
+    <Segment StartTime="1184.869" EndTime="1185.960" Participant="mn007">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1186.350" EndTime="1187.880" Participant="me018">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1186.394" EndTime="1190.462" Participant="me013">
+      So, it's - it's a general rule. Just listen very carefully to what I say and do the opposite.
+    </Segment>
+    <Segment StartTime="1190.100" EndTime="1195.423" Participant="mn052">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1190.324" EndTime="1191.727" Participant="me026">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1190.400" EndTime="1193.090" Participant="me018">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1190.462" EndTime="1192.063" Participant="me013">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1190.751" EndTime="1200.070" Participant="me006">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1191.218" EndTime="1198.656" Participant="fn002">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1191.419" EndTime="1193.219" Participant="mn007">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1192.310" EndTime="1193.598" Participant="me013">
+      <VocalSound Description="breath"/> Including what I just said.
+    </Segment>
+    <Segment StartTime="1193.598" EndTime="1197.455" Participant="me013">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1193.730" EndTime="1199.600" Participant="me018">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1194.663" EndTime="1197.472" Participant="mn007">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1196.076" EndTime="1199.162" Participant="mn052">
+      <VocalSound Description="laugh"/> <VocalSound Description="uncodeable syllable"/>
+    </Segment>
+    <Segment StartTime="1199.933" EndTime="1202.310" Participant="mn052">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1199.990" EndTime="1202.960" Participant="me013">
+      <VocalSound Description="breath-laugh"/>
+    </Segment>
+    <Segment StartTime="1202.055" EndTime="1202.470" Participant="me006">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1202.390" EndTime="1203.910" Participant="me026">
+      And, yeah, that's everything.
+    </Segment>
+    <Segment StartTime="1203.390" EndTime="1204.264" Participant="mn052">
+      <VocalSound Description="laugh-breath"/>
+    </Segment>
+    <Segment StartTime="1203.560" EndTime="1205.830" Participant="me006">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1203.656" EndTime="1204.189" Participant="me018">
+      <Uncertain> All set? </Uncertain>
+    </Segment>
+    <Segment StartTime="1204.739" EndTime="1205.600" Participant="mn052">
+      <VocalSound Description="uncodeable syllable"/>
+    </Segment>
+    <Segment StartTime="1206.200" EndTime="1207.359" Participant="me018">
+      Do you want to go, Stephane?
+    </Segment>
+    <Segment StartTime="1207.224" EndTime="1211.538" Participant="mn007">
+      <VocalSound Description="mouth"/> Um. Yeah. Maybe, concerning these d-
+    </Segment>
+    <Segment StartTime="1210.092" EndTime="1211.141" Participant="me013">
+      <NonVocalSound Description="noise"/>
+    </Segment>
+    <Segment StartTime="1212.331" EndTime="1214.426" Participant="mn007">
+      still, these meeting digits.
+    </Segment>
+    <Segment StartTime="1215.059" EndTime="1221.502" Participant="mn007">
+      I'm more interested in trying to figure out what's still the difference between the S_R_I system and the Aurora system.
+    </Segment>
+    <Segment StartTime="1222.017" EndTime="1223.700" Participant="mn007">
+      And -
+    </Segment>
+    <Segment StartTime="1224.573" EndTime="1233.267" Participant="mn007">
+      Um. Yeah. So, I think I will maybe train, like, gender-dependent models, because <Pause/> this is also one big difference between <Pause/> the two systems.
+    </Segment>
+    <Segment StartTime="1225.158" EndTime="1227.788" Participant="me013">
+      <VocalSound Description="breath"/>
+    </Segment>
+    <Segment StartTime="1226.715" EndTime="1228.871" Participant="me006">
+      <VocalSound Description="breath"/>
+    </Segment>
+    <Segment StartTime="1233.829" EndTime="1235.194" Participant="mn007">
+      Um, <VocalSound Description="clears throat"/>
+    </Segment>
+    <Segment StartTime="1235.827" EndTime="1244.333" Participant="mn007">
+      <VocalSound Description="mouth"/> the other differences were <Pause/> the fact that maybe the acoustic models of the S_R_I are more - S_R_I system are more complex.
+    </Segment>
+    <Segment StartTime="1244.708" EndTime="1248.467" Participant="mn007">
+      But, uh, Chuck, you did some experiments with this and
+    </Segment>
+    <Segment StartTime="1248.914" EndTime="1251.170" Participant="me006">
+      <VocalSound Description="breath"/>
+    </Segment>
+    <Segment StartTime="1249.060" EndTime="1249.515" Participant="me013">
+      <NonVocalSound Description="mike noise"/>
+    </Segment>
+    <Segment StartTime="1249.310" EndTime="1251.357" Participant="me018">
+      It didn't seem to help in the H_T_K system.
+    </Segment>
+    <Segment StartTime="1249.500" EndTime="1254.931" Participant="mn007">
+      it was hard t- to - to have some exper- some improvement with this. Um.
+    </Segment>
+    <Segment StartTime="1254.144" EndTime="1258.135" Participant="me013">
+      <VocalSound Description="mouth"/> Well, it sounds like they also have - he - he's saying they have all these, uh,
+    </Segment>
+    <Segment StartTime="1257.601" EndTime="1258.234" Participant="mn007">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="1258.135" EndTime="1262.178" Participant="me013">
+      uh, different kinds of adaptation. You know, they have channel adaptation. They have speaker adaptation.
+    </Segment>
+    <Segment StartTime="1260.469" EndTime="1261.710" Participant="mn007">
+      Yeah. Right.
+    </Segment>
+    <Segment StartTime="1262.170" EndTime="1262.447" Participant="mn007">
+      Yeah.
+    </Segment>
+    <Segment StartTime="1262.208" EndTime="1263.800" Participant="me006">
+      Yeah. <VocalSound Description="breath"/>
+    </Segment>
+    <Segment StartTime="1262.356" EndTime="1262.910" Participant="me013">
+      Yeah. Yeah.
+    </Segment>
+    <Segment StartTime="1262.510" EndTime="1265.521" Participant="me018">
+      Well, there's also the normalization. Like they do, um -
+    </Segment>
+    <Segment StartTime="1262.860" EndTime="1263.416" Participant="mn007">
+      <NonVocalSound Description="mike noise"/>
+    </Segment>
+    <Segment StartTime="1266.115" EndTime="1271.710" Participant="me018">
+      I'm not sure how they would do it when they're working with the digits, but, like, in the <Emphasis> Switchboard </Emphasis> data, there's, um -
+    </Segment>
+    <Segment StartTime="1266.131" EndTime="1266.923" Participant="mn007">
+      The vocal tr-
+    </Segment>
+    <Segment StartTime="1270.498" EndTime="1271.151" Participant="me013">
+      <NonVocalSound Description="mike noise"/>
+    </Segment>
+    <Segment StartTime="1272.170" EndTime="1280.504" Participant="me018">
+      conversation-side normalization for the <Pause/> non-C_zero components, and then <Pause/> utterance normalization for the C_zero components.
+    </Segment>
+    <Segment StartTime="1272.365" EndTime="1272.943" Participant="me006">
+      <VocalSound Description="clears throat"/>
+    </Segment>
+    <Segment StartTime="1279.810" EndTime="1280.254" Participant="mn007">
+      Yeah.
+    </Segment>
+    <Segment StartTime="1281.293" EndTime="1285.585" Participant="mn007">
+      Yeah. This is another difference. Their normalization works like
+    </Segment>
+    <Segment StartTime="1285.585" EndTime="1289.182" Participant="mn007">
+      on - on the utterance levels.
+    </Segment>
+    <Segment StartTime="1288.753" EndTime="1289.553" Participant="me018">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="1289.854" EndTime="1291.548" Participant="mn007">
+      But we have to do it -
+    </Segment>
+    <Segment StartTime="1291.548" EndTime="1294.616" Participant="mn007">
+      We have a system that does it on-line. So, it might be -
+    </Segment>
+    <Segment StartTime="1293.247" EndTime="1294.095" Participant="me018">
+      Right.
+    </Segment>
+    <Segment StartTime="1295.348" EndTime="1297.306" Participant="mn007">
+      it might be better with - it might be worse if
+    </Segment>
+    <Segment StartTime="1297.378" EndTime="1298.135" Participant="me018">
+      Yeah.
+    </Segment>
+    <Segment StartTime="1298.354" EndTime="1302.000" Participant="mn007">
+      the <Pause/> channel is constant, or - <VocalSound Description="breath"/>
+    </Segment>
+    <Segment StartTime="1302.826" EndTime="1308.562" Participant="mn052">
+      And the acoustic models are like -k triphone models or - or is it the whole word?
+    </Segment>
+    <Segment StartTime="1302.910" EndTime="1303.661" Participant="mn007">
+      Nnn.
+    </Segment>
+    <Segment StartTime="1308.333" EndTime="1311.597" Participant="mn007">
+      S_R_I - it's - it's tr- Yeah. I guess it's triphones.
+    </Segment>
+    <Segment StartTime="1308.702" EndTime="1309.342" Participant="me006">
+      S_R_I.
+    </Segment>
+    <Segment StartTime="1309.056" EndTime="1309.531" Participant="mn052">
+      Yeah.
+    </Segment>
+    <Segment StartTime="1311.331" EndTime="1312.093" Participant="mn052">
+      It's triphone.
+    </Segment>
+    <Segment StartTime="1311.770" EndTime="1312.314" Participant="me013">
+      <VocalSound Description="inbreath"/>
+    </Segment>
+    <Segment StartTime="1312.314" EndTime="1317.574" Participant="me013">
+      I think it's probably more than that. I mean, so they - they have - I - I thin- think they use these, uh,
+    </Segment>
+    <Segment StartTime="1312.566" EndTime="1313.102" Participant="mn007">
+      Huh.
+    </Segment>
+    <Segment StartTime="1318.051" EndTime="1319.536" Participant="me013">
+      uh, genone
+    </Segment>
+    <Segment StartTime="1320.150" EndTime="1325.141" Participant="me013">
+      things. So there's - there's these kind of, uh, uh, pooled models and -
+    </Segment>
+    <Segment StartTime="1325.141" EndTime="1327.964" Participant="me013">
+      and they can go out to all sorts of dependencies.
+    </Segment>
+    <Segment StartTime="1327.509" EndTime="1329.071" Participant="mn052">
+      Oh. It's like the <Emphasis> tied </Emphasis> state.
+    </Segment>
+    <Segment StartTime="1327.964" EndTime="1328.584" Participant="me013">
+      So.
+    </Segment>
+    <Segment StartTime="1328.584" EndTime="1329.381" Participant="me013">
+      <VocalSound Description="inbreath"/>
+    </Segment>
+    <Segment StartTime="1329.183" EndTime="1329.803" Participant="me018">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="1329.381" EndTime="1331.217" Participant="me013">
+      They have tied states and I think -
+    </Segment>
+    <Segment StartTime="1331.217" EndTime="1340.091" Participant="me013">
+      I - I - I don't real- I'm talk- I'm just guessing here. But I think - I think they - they don't <Emphasis> just </Emphasis> have triphones. I think they have a range of - of, uh, dependencies.
+    </Segment>
+    <Segment StartTime="1333.086" EndTime="1333.739" Participant="mn052">
+      O_K.
+    </Segment>
+    <Segment StartTime="1336.529" EndTime="1337.347" Participant="mn007">
+      Mm-hmm. <Comment Description="quietly"/>
+    </Segment>
+    <Segment StartTime="1336.884" EndTime="1337.379" Participant="mn052">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="1339.492" EndTime="1340.269" Participant="mn007">
+      Mm-hmm. <Comment Description="very quietly"/>
+    </Segment>
+    <Segment StartTime="1340.269" EndTime="1340.848" Participant="mn007">
+      <VocalSound Description="inbreath"/>
+    </Segment>
+    <Segment StartTime="1340.341" EndTime="1341.310" Participant="me006">
+      <VocalSound Description="breath"/> Hmm.
+    </Segment>
+    <Segment StartTime="1341.570" EndTime="1342.750" Participant="mn007">
+      And -
+    </Segment>
+    <Segment StartTime="1344.358" EndTime="1345.678" Participant="mn007">
+      Yeah. Well. Um.
+    </Segment>
+    <Segment StartTime="1346.533" EndTime="1351.459" Participant="mn007">
+      <VocalSound Description="mouth"/> Well, the first thing I - that I want to do is just maybe these gender things.
+    </Segment>
+    <Segment StartTime="1351.459" EndTime="1353.417" Participant="mn007">
+      <VocalSound Description="breath"/> Uh.
+    </Segment>
+    <Segment StartTime="1354.173" EndTime="1360.940" Participant="mn007">
+      And maybe see with <Pause/> Andreas if - Well, I - I don't know <Pause/> how much it helps, what's the model.
+    </Segment>
+    <Segment StartTime="1359.530" EndTime="1366.967" Participant="me018">
+      So - so the n- stuff on the numbers you got, the two point seven, is that using the same training data that the S_R_I system used and got one point two?
+    </Segment>
+    <Segment StartTime="1367.969" EndTime="1372.360" Participant="mn007">
+      That's right. So it's the clean <Pause/> T_I-digits training set.
+    </Segment>
+    <Segment StartTime="1372.210" EndTime="1374.020" Participant="me018">
+      So exact same training data?
+    </Segment>
+    <Segment StartTime="1372.716" EndTime="1373.131" Participant="mn007">
+      Right.
+    </Segment>
+    <Segment StartTime="1374.120" EndTime="1374.674" Participant="mn007">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="1374.600" EndTime="1375.105" Participant="me018">
+      O_K.
+    </Segment>
+    <Segment StartTime="1375.999" EndTime="1378.110" Participant="mn007">
+      I guess you used the clean training set.
+    </Segment>
+    <Segment StartTime="1378.470" EndTime="1380.993" Participant="me026">
+      Right. For - with the S_R_I system -
+    </Segment>
+    <Segment StartTime="1378.841" EndTime="1379.435" Participant="me018">
+      <VocalSound Description="mouth and inbreath"/>
+    </Segment>
+    <Segment StartTime="1379.169" EndTime="1380.120" Participant="mn007">
+      Mm-hmm. Well.
+    </Segment>
+    <Segment StartTime="1380.993" EndTime="1387.066" Participant="me026">
+      You know, the - the Aurora baseline is set up with these, um - <VocalSound Description="mouth"/> this version of the clean training set that's been filtered
+    </Segment>
+    <Segment StartTime="1387.501" EndTime="1390.982" Participant="me026">
+      with this G_-seven-one-two filter, and, <VocalSound Description="breath"/>
+    </Segment>
+    <Segment StartTime="1390.982" EndTime="1396.424" Participant="me026">
+      um, to train the S_R_I system on digits S_- Andreas used the
+    </Segment>
+    <Segment StartTime="1396.424" EndTime="1404.093" Participant="me026">
+      original T_I-digits, um, under U_ doctor-speech data T_I-digits, which don't have this filter. But I don't think there's any other difference.
+    </Segment>
+    <Segment StartTime="1404.179" EndTime="1404.930" Participant="mn007">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="1405.501" EndTime="1406.456" Participant="mn007">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="1407.833" EndTime="1408.294" Participant="mn007">
+      Yeah.
+    </Segment>
+    <Segment StartTime="1408.806" EndTime="1409.138" Participant="me013">
+      <VocalSound Description="inbreath"/>
+    </Segment>
+    <Segment StartTime="1409.138" EndTime="1415.234" Participant="me013">
+      So is that - ? Uh, are - are these results comparable? So you - you were getting with the, uh, Aurora baseline
+    </Segment>
+    <Segment StartTime="1413.015" EndTime="1413.569" Participant="fn002">
+      <NonVocalSound Description="mike noise"/>
+    </Segment>
+    <Segment StartTime="1415.649" EndTime="1418.636" Participant="me013">
+      something like two point four percent <Pause/> on
+    </Segment>
+    <Segment StartTime="1419.203" EndTime="1420.796" Participant="me013">
+      clean T_I-digits,
+    </Segment>
+    <Segment StartTime="1420.796" EndTime="1426.012" Participant="me013">
+      when, uh, training the S_R_I system with clean T_R digits - <Comment Description="speech error"/> T_I-digits. Right?
+    </Segment>
+    <Segment StartTime="1426.985" EndTime="1428.328" Participant="me013">
+      And - Yeah.
+    </Segment>
+    <Segment StartTime="1427.024" EndTime="1428.052" Participant="me026">
+      Um. Uh-huh.
+    </Segment>
+    <Segment StartTime="1428.328" EndTime="1431.521" Participant="me013">
+      And, so, is your two point seven comparable,
+    </Segment>
+    <Segment StartTime="1431.521" EndTime="1434.717" Participant="me013">
+      where you're, uh, uh, using,
+    </Segment>
+    <Segment StartTime="1434.717" EndTime="1436.537" Participant="me013">
+      uh, the submitted system?
+    </Segment>
+    <Segment StartTime="1437.500" EndTime="1438.438" Participant="mn007">
+      Yeah. I think so. Yeah.
+    </Segment>
+    <Segment StartTime="1438.500" EndTime="1442.181" Participant="me013">
+      O_K. So it's <Pause/> <Emphasis> about </Emphasis> the same, maybe a little worse.
+    </Segment>
+    <Segment StartTime="1439.151" EndTime="1439.546" Participant="mn007">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="1440.820" EndTime="1443.393" Participant="me026">
+      W- w- it was one - one point <Emphasis> two </Emphasis>
+    </Segment>
+    <Segment StartTime="1443.641" EndTime="1443.997" Participant="mn007">
+      Ye-
+    </Segment>
+    <Segment StartTime="1444.363" EndTime="1446.000" Participant="me026">
+      with the S_R_I system, I -
+    </Segment>
+    <Segment StartTime="1445.326" EndTime="1446.394" Participant="me013">
+      <VocalSound Description="mouth"/> I'm sorry.
+    </Segment>
+    <Segment StartTime="1445.342" EndTime="1448.590" Participant="mn007">
+      Yeah. The complete S_R_I system is one point two. Yeah.
+    </Segment>
+    <Segment StartTime="1447.324" EndTime="1455.383" Participant="me013">
+      You - you were H_T_K. Right? O_K. That's right. So - O_K, so <Pause/> the comparable number then, uh <Pause/>
+    </Segment>
+    <Segment StartTime="1449.990" EndTime="1450.405" Participant="mn007">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="1455.870" EndTime="1460.000" Participant="me013">
+      for what you were talking about then, since it was H_T_K, would be the <Pause/>
+    </Segment>
+    <Segment StartTime="1457.161" EndTime="1460.100" Participant="me006">
+      <VocalSound Description="breath"/>
+    </Segment>
+    <Segment StartTime="1460.690" EndTime="1463.320" Participant="me013">
+      um, two point f-
+    </Segment>
+    <Segment StartTime="1463.343" EndTime="1465.103" Participant="mn007">
+      It was four point something. Right?
+    </Segment>
+    <Segment StartTime="1465.633" EndTime="1466.448" Participant="me026">
+      D- d-
+    </Segment>
+    <Segment StartTime="1465.737" EndTime="1468.390" Participant="mn007">
+      The H_T_K system with, uh, b-
+    </Segment>
+    <Segment StartTime="1468.138" EndTime="1470.870" Participant="me013">
+      <VocalSound Description="breath"/> Oh, right, right, right, right.
+    </Segment>
+    <Segment StartTime="1468.390" EndTime="1470.266" Participant="mn007">
+      M_F_C_C features -
+    </Segment>
+    <Segment StartTime="1468.390" EndTime="1471.380" Participant="me006">
+      <VocalSound Description="breath"/>
+    </Segment>
+    <Segment StartTime="1468.427" EndTime="1469.400" Participant="me026">
+      Do you mean the b- ?
+    </Segment>
+    <Segment StartTime="1469.883" EndTime="1472.063" Participant="me026">
+      The baseline Aurora-two system,
+    </Segment>
+    <Segment StartTime="1472.063" EndTime="1477.970" Participant="me026">
+      trained on T_I-digits, tested on Meeting Recorder near, I think we saw in it today, and it was about six point six percent.
+    </Segment>
+    <Segment StartTime="1477.387" EndTime="1477.782" Participant="mn007">
+      Oh.
+    </Segment>
+    <Segment StartTime="1477.790" EndTime="1479.473" Participant="me013">
+      Right. Right, right, right. O_K.
+    </Segment>
+    <Segment StartTime="1482.080" EndTime="1483.231" Participant="me013">
+      Alright. So -
+    </Segment>
+    <Segment StartTime="1484.170" EndTime="1488.160" Participant="mn007">
+      So - Yeah. The only difference is the features, right now, between this and - <VocalSound Description="clears throat"/>
+    </Segment>
+    <Segment StartTime="1484.560" EndTime="1486.040" Participant="me013">
+      He's doing some <Pause/> different things.
+    </Segment>
+    <Segment StartTime="1487.504" EndTime="1493.500" Participant="me013">
+      Yes. O_K, good. So they <Emphasis> are </Emphasis> helping. That's good to hear. Yeah. <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1488.748" EndTime="1489.262" Participant="mn007">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="1489.706" EndTime="1491.457" Participant="mn007">
+      They are helping. <VocalSound Description="laugh"/> Yeah. <Comment Description="while laughing"/>
+    </Segment>
+    <Segment StartTime="1491.784" EndTime="1492.870" Participant="mn007">
+      Um.
+    </Segment>
+    <Segment StartTime="1493.916" EndTime="1498.061" Participant="mn007">
+      Yeah. And another thing I - I maybe would like to do is to <Pause/> just test
+    </Segment>
+    <Segment StartTime="1494.952" EndTime="1495.249" Participant="mn052">
+      <NonVocalSound Description="noise"/>
+    </Segment>
+    <Segment StartTime="1498.710" EndTime="1501.793" Participant="mn007">
+      the S_R_I system that's trained on Macrophone - test it on,
+    </Segment>
+    <Segment StartTime="1501.819" EndTime="1503.204" Participant="me013">
+      Yeah. <NonVocalSound Description="mike noise"/>
+    </Segment>
+    <Segment StartTime="1502.168" EndTime="1504.522" Participant="mn007">
+      uh, the noisy T_I-digits, <VocalSound Description="breath"/>
+    </Segment>
+    <Segment StartTime="1504.522" EndTime="1508.519" Participant="mn007">
+      cuz I'm still wondering <Pause/> where this <Pause/> improvement
+    </Segment>
+    <Segment StartTime="1509.172" EndTime="1513.010" Participant="mn007">
+      comes from. When you train on Macrophone, it seems better on meeting digits.
+    </Segment>
+    <Segment StartTime="1513.010" EndTime="1521.980" Participant="mn007">
+      But I wonder if it's just because maybe <Pause/> Macrophone is acoustically closer to the meeting digits than - than T_I-digit is, which is -
+    </Segment>
+    <Segment StartTime="1521.980" EndTime="1525.480" Participant="mn007">
+      T_I-digits are very <Pause/> clean recorded digits and -
+    </Segment>
+    <Segment StartTime="1524.360" EndTime="1525.072" Participant="me013">
+      <NonVocalSound Description="mike noise"/>
+    </Segment>
+    <Segment StartTime="1525.072" EndTime="1525.705" Participant="me013">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="1527.105" EndTime="1528.754" Participant="mn007">
+      Uh, f- s-
+    </Segment>
+    <Segment StartTime="1527.393" EndTime="1535.890" Participant="me018">
+      You know, it would also be interesting to see, uh - to do the regular Aurora test, um, but use the S_R_I system instead of H_T_K.
+    </Segment>
+    <Segment StartTime="1531.738" EndTime="1532.390" Participant="mn052">
+      <NonVocalSound Description="mike noise"/>
+    </Segment>
+    <Segment StartTime="1534.052" EndTime="1537.056" Participant="mn052">
+      <NonVocalSound Description="mike noise"/>
+    </Segment>
+    <Segment StartTime="1534.795" EndTime="1536.615" Participant="me013">
+      <VocalSound Description="breath"/>
+    </Segment>
+    <Segment StartTime="1534.849" EndTime="1537.975" Participant="mn007">
+      That's - Yeah. That's what <Pause/> I wanted, just, uh - Yeah.
+    </Segment>
+    <Segment StartTime="1537.975" EndTime="1540.093" Participant="mn007">
+      So, just using the S_R_I system, test
+    </Segment>
+    <Segment StartTime="1538.398" EndTime="1539.422" Participant="me006">
+      <NonVocalSound Description="mike noise"/>
+    </Segment>
+    <Segment StartTime="1540.627" EndTime="1545.019" Participant="mn007">
+      it on - and test it on <Pause/> Aurora T_I-digits. Right.
+    </Segment>
+    <Segment StartTime="1545.810" EndTime="1549.280" Participant="me018">
+      Why not the full Aurora, uh, test?
+    </Segment>
+    <Segment StartTime="1547.235" EndTime="1549.500" Participant="me006">
+      <VocalSound Description="breath"/>
+    </Segment>
+    <Segment StartTime="1549.640" EndTime="1554.377" Participant="mn007">
+      Um. Yeah. There is this problem of multilinguality yet. So we don't -
+    </Segment>
+    <Segment StartTime="1553.405" EndTime="1554.300" Participant="me018">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="1555.400" EndTime="1558.880" Participant="me013">
+      You'd have to train the S_R_I system with - with all the different languages. <VocalSound Description="breath"/>
+    </Segment>
+    <Segment StartTime="1555.583" EndTime="1556.671" Participant="mn007">
+      i- i-
+    </Segment>
+    <Segment StartTime="1556.671" EndTime="1557.878" Participant="mn007">
+      We would have to train on -
+    </Segment>
+    <Segment StartTime="1557.078" EndTime="1557.751" Participant="me018">
+      Right.
+    </Segment>
+    <Segment StartTime="1558.240" EndTime="1558.590" Participant="mn007">
+      Yeah.
+    </Segment>
+    <Segment StartTime="1558.265" EndTime="1560.658" Participant="me018">
+      Yeah. That's what I mean. So, like, comple-
+    </Segment>
+    <Segment StartTime="1559.470" EndTime="1562.848" Participant="me013">
+      It'd be a <Pause/> lot of work. That's the only thing. <VocalSound Description="breath-laugh"/>
+    </Segment>
+    <Segment StartTime="1560.740" EndTime="1561.767" Participant="mn007">
+      Yeah. It's -
+    </Segment>
+    <Segment StartTime="1561.440" EndTime="1563.992" Participant="me018">
+      Mmm. Well, I mean, uh,
+    </Segment>
+    <Segment StartTime="1562.491" EndTime="1563.112" Participant="mn007">
+      Mmm.
+    </Segment>
+    <Segment StartTime="1564.823" EndTime="1565.772" Participant="me018">
+      uh,
+    </Segment>
+    <Segment StartTime="1566.810" EndTime="1570.000" Participant="me018">
+      I guess the work would be into getting the -
+    </Segment>
+    <Segment StartTime="1571.844" EndTime="1574.831" Participant="me018">
+      the files in the right formats, or something. Right? I mean -
+    </Segment>
+    <Segment StartTime="1574.670" EndTime="1575.257" Participant="mn007">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="1575.822" EndTime="1580.364" Participant="me018">
+      Because when you train up the Aurora system, you're, uh - you're also training on all the
+    </Segment>
+    <Segment StartTime="1578.785" EndTime="1579.141" Participant="mn007">
+      <VocalSound Description="clears throat"/>
+    </Segment>
+    <Segment StartTime="1580.350" EndTime="1581.495" Participant="mn007">
+      That's right. Yeah.
+    </Segment>
+    <Segment StartTime="1580.990" EndTime="1582.560" Participant="me018">
+      data. I mean, it's -
+    </Segment>
+    <Segment StartTime="1583.840" EndTime="1586.471" Participant="mn007">
+      Yeah. I see. Oh, so, O_K. Right. I see what you mean.
+    </Segment>
+    <Segment StartTime="1585.024" EndTime="1585.779" Participant="me013">
+      <VocalSound Description="inbreath"/>
+    </Segment>
+    <Segment StartTime="1585.779" EndTime="1586.267" Participant="me013">
+      <NonVocalSound Description="noise"/>
+    </Segment>
+    <Segment StartTime="1586.267" EndTime="1588.782" Participant="me013">
+      That's true, but I think that also
+    </Segment>
+    <Segment StartTime="1588.782" EndTime="1598.359" Participant="me013">
+      when we've had these meetings week after week, oftentimes people have not done the full arrange of things because - on - on <Emphasis> whatever </Emphasis> it is they're trying, because it's a lot of work, even just with the H_T_K.
+    </Segment>
+    <Segment StartTime="1593.768" EndTime="1594.539" Participant="me018">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="1597.981" EndTime="1598.733" Participant="me018">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="1599.100" EndTime="1604.221" Participant="me013">
+      So, it's - it's a good idea, but it seems like <Pause/> it makes sense to do some pruning
+    </Segment>
+    <Segment StartTime="1601.672" EndTime="1602.206" Participant="mn007">
+      <VocalSound Description="clears throat"/>
+    </Segment>
+    <Segment StartTime="1604.459" EndTime="1605.053" Participant="me018">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="1605.040" EndTime="1610.501" Participant="me013">
+      first with a - a test or two that makes sense for you, and then <Pause/> take the likely candidates and go further.
+    </Segment>
+    <Segment StartTime="1607.639" EndTime="1610.074" Participant="me018">
+      Yeah. Yeah.
+    </Segment>
+    <Segment StartTime="1610.435" EndTime="1610.969" Participant="mn007">
+      Mm-hmm. <Comment Description="very quietly"/>
+    </Segment>
+    <Segment StartTime="1613.916" EndTime="1614.430" Participant="mn007">
+      Yeah.
+    </Segment>
+    <Segment StartTime="1614.430" EndTime="1617.881" Participant="mn007">
+      But, just testing on T_I-digits would already give us some
+    </Segment>
+    <Segment StartTime="1618.625" EndTime="1621.177" Participant="mn007">
+      information <Pause/> about what's going on.
+    </Segment>
+    <Segment StartTime="1622.106" EndTime="1624.005" Participant="mn007">
+      And - mm-hmm. <Comment Description="fades out"/>
+    </Segment>
+    <Segment StartTime="1629.150" EndTime="1630.051" Participant="mn007">
+      Uh, yeah. O_K.
+    </Segment>
+    <Segment StartTime="1630.681" EndTime="1634.956" Participant="mn007">
+      Uh, the next thing is this - this V_A_D problem that,
+    </Segment>
+    <Segment StartTime="1633.997" EndTime="1635.263" Participant="me013">
+      <NonVocalSound Description="mike noise"/>
+    </Segment>
+    <Segment StartTime="1636.000" EndTime="1637.330" Participant="mn007">
+      um, <VocalSound Description="clears throat"/>
+    </Segment>
+    <Segment StartTime="1638.303" EndTime="1639.328" Participant="mn007">
+      um -
+    </Segment>
+    <Segment StartTime="1642.180" EndTime="1644.813" Participant="mn007">
+      So, I'm just talking about the - the curves that I - I sent -
+    </Segment>
+    <Segment StartTime="1644.301" EndTime="1645.231" Participant="me013">
+      <NonVocalSound Description="mike noise"/>
+    </Segment>
+    <Segment StartTime="1644.813" EndTime="1645.663" Participant="mn007">
+      <VocalSound Description="breath"/>
+    </Segment>
+    <Segment StartTime="1645.663" EndTime="1648.367" Participant="mn007">
+      I sent you - so, whi- that shows that
+    </Segment>
+    <Segment StartTime="1648.828" EndTime="1651.577" Participant="mn007">
+      <VocalSound Description="mouth"/> when the S_N_R decrease, <VocalSound Description="clears throat"/>
+    </Segment>
+    <Segment StartTime="1652.094" EndTime="1657.731" Participant="mn007">
+      uh, the current <Pause/> V_A_D approach doesn't drop much frames <Pause/> for
+    </Segment>
+    <Segment StartTime="1657.031" EndTime="1657.970" Participant="fn002">
+      <NonVocalSound Description="pages turning"/>
+    </Segment>
+    <Segment StartTime="1658.581" EndTime="1660.211" Participant="mn007">
+      some particular noises,
+    </Segment>
+    <Segment StartTime="1660.824" EndTime="1666.402" Participant="mn007">
+      uh, which might be then noises that are closer to speech, uh, acoustically.
+    </Segment>
+    <Segment StartTime="1661.350" EndTime="1662.972" Participant="me013">
+      <VocalSound Description="inbreath, to begin speaking"/>
+    </Segment>
+    <Segment StartTime="1663.544" EndTime="1664.845" Participant="fn002">
+      <NonVocalSound Description="pages turning"/>
+    </Segment>
+    <Segment StartTime="1664.642" EndTime="1667.490" Participant="me013">
+      <VocalSound Description="inbreath"/> I- i- Just to clarify something for me. I-
+    </Segment>
+    <Segment StartTime="1666.995" EndTime="1667.443" Participant="mn007">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="1667.490" EndTime="1673.484" Participant="me013">
+      They were supp- Supposedly, in the next evaluation, they're going to be supplying us with boundaries. So does any of this matter?
+    </Segment>
+    <Segment StartTime="1670.327" EndTime="1670.725" Participant="mn052">
+      <VocalSound Description="mouth"/>
+    </Segment>
+    <Segment StartTime="1673.755" EndTime="1674.467" Participant="mn007">
+      <VocalSound Description="mouth"/>
+    </Segment>
+    <Segment StartTime="1674.500" EndTime="1676.958" Participant="me013">
+      I mean, other than our interest in it. Uh -
+    </Segment>
+    <Segment StartTime="1676.044" EndTime="1676.702" Participant="mn007">
+      Uh -
+    </Segment>
+    <Segment StartTime="1677.960" EndTime="1683.935" Participant="mn007">
+      Well. First of all, the boundaries might be, uh - like we would have
+    </Segment>
+    <Segment StartTime="1683.935" EndTime="1685.004" Participant="mn007">
+      t-
+    </Segment>
+    <Segment StartTime="1685.004" EndTime="1689.592" Participant="mn007">
+      two hundred milliseconds or - before and after speech. Uh.
+    </Segment>
+    <Segment StartTime="1690.344" EndTime="1695.941" Participant="mn007">
+      So removing more than that might still make <Pause/> a difference <Pause/> in the results. And -
+    </Segment>
+    <Segment StartTime="1695.387" EndTime="1698.790" Participant="me013">
+      <VocalSound Description="mouth"/> Do we - ? I mean, is there some reason that we think that's the case?
+    </Segment>
+    <Segment StartTime="1700.396" EndTime="1702.176" Participant="mn007">
+      No. Because we don't - didn't
+    </Segment>
+    <Segment StartTime="1703.002" EndTime="1703.596" Participant="me013">
+      Yeah.
+    </Segment>
+    <Segment StartTime="1703.106" EndTime="1706.647" Participant="mn007">
+      looked <Pause/> that much at that. But, <VocalSound Description="clears throat"/> still,
+    </Segment>
+    <Segment StartTime="1707.458" EndTime="1709.770" Participant="mn007">
+      I think it's an interesting problem. And -
+    </Segment>
+    <Segment StartTime="1709.154" EndTime="1709.861" Participant="me013">
+      Oh, yeah.
+    </Segment>
+    <Segment StartTime="1709.770" EndTime="1710.761" Participant="mn007">
+      Um.
+    </Segment>
+    <Segment StartTime="1711.631" EndTime="1712.422" Participant="mn007">
+      Yeah.
+    </Segment>
+    <Segment StartTime="1712.800" EndTime="1718.760" Participant="me013">
+      <VocalSound Description="inbreath"/> But maybe we'll get some insight on that when - when, uh, the gang gets back from Crete.
+    </Segment>
+    <Segment StartTime="1718.920" EndTime="1726.385" Participant="me013">
+      Because <Pause/> there's <Emphasis> lots </Emphasis> of interesting problems, of course. And then the thing is if - if they really are going to have some means of giving us <Pause/> fairly tight,
+    </Segment>
+    <Segment StartTime="1719.489" EndTime="1720.755" Participant="mn052">
+      <NonVocalSound Description="mike noise"/>
+    </Segment>
+    <Segment StartTime="1720.768" EndTime="1722.454" Participant="mn007">
+      Mm-hmm. Yeah, yeah.
+    </Segment>
+    <Segment StartTime="1722.437" EndTime="1723.270" Participant="mn052">
+      <NonVocalSound Description="mike noise"/>
+    </Segment>
+    <Segment StartTime="1724.137" EndTime="1725.230" Participant="mn007">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="1726.930" EndTime="1730.216" Participant="me013">
+      uh, boundaries, then that won't be so much the issue.
+    </Segment>
+    <Segment StartTime="1730.250" EndTime="1730.775" Participant="mn007">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="1731.440" EndTime="1733.806" Participant="me013">
+      Um <Pause/> But <VocalSound Description="mouth"/> <Uncertain> I don't know </Uncertain>.
+    </Segment>
+    <Segment StartTime="1732.959" EndTime="1738.652" Participant="mn052">
+      Because w- we were wondering whether that <Pause/> V_A_D is going to be, like, a <Emphasis> realistic </Emphasis> one or is it going to be some <Emphasis> manual </Emphasis>
+    </Segment>
+    <Segment StartTime="1739.300" EndTime="1746.623" Participant="mn052">
+      segmentation. And then, like, if - if that V_A_D is <Emphasis> going </Emphasis> to be a realistic one, then we can actually use their markers to shift the
+    </Segment>
+    <Segment StartTime="1739.726" EndTime="1740.699" Participant="mn007">
+      <VocalSound Description="clears throat"/>
+    </Segment>
+    <Segment StartTime="1744.111" EndTime="1744.625" Participant="me013">
+      <NonVocalSound Description="click"/>
+    </Segment>
+    <Segment StartTime="1747.315" EndTime="1748.838" Participant="mn052">
+      point around, I mean, the way we want
+    </Segment>
+    <Segment StartTime="1748.132" EndTime="1749.240" Participant="fn002">
+      <NonVocalSound Description="mike noise"/>
+    </Segment>
+    <Segment StartTime="1749.430" EndTime="1755.961" Participant="mn052">
+      to find a - I mean, rather than keeping the twenty frames, we can actually move the marker to a point which we find more <Pause/> suitable for us.
+    </Segment>
+    <Segment StartTime="1749.707" EndTime="1750.320" Participant="me013">
+      Mm-hmm. <Comment Description="quietly"/>
+    </Segment>
+    <Segment StartTime="1751.000" EndTime="1755.035" Participant="fn002">
+      <NonVocalSound Description="mike noise"/>
+    </Segment>
+    <Segment StartTime="1755.961" EndTime="1764.641" Participant="mn052">
+      But if that is going to be something like a manual, uh, segmenter, then we can't <Pause/> use that information anymore, because that's not going to be the one that is used in the final evaluation.
+    </Segment>
+    <Segment StartTime="1756.420" EndTime="1757.110" Participant="me013">
+      Right.
+    </Segment>
+    <Segment StartTime="1756.892" EndTime="1757.466" Participant="mn007">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="1765.410" EndTime="1765.958" Participant="me013">
+      Right.
+    </Segment>
+    <Segment StartTime="1765.528" EndTime="1769.958" Participant="mn052">
+      So. We don't know what is the type of <Pause/> <VocalSound Description="uncodeable sounds"/> <Pause/> V_A_D which they're going to provide.
+    </Segment>
+    <Segment StartTime="1767.740" EndTime="1768.193" Participant="me013">
+      Yeah.
+    </Segment>
+    <Segment StartTime="1769.760" EndTime="1770.492" Participant="mn007">
+      <Pronounce Pronunciation="&quot;mm-yeah&quot;"> Yeah.  </Pronounce>
+    </Segment>
+    <Segment StartTime="1771.087" EndTime="1772.313" Participant="mn007">
+      <VocalSound Description="clears throat"/> And actually there's -
+    </Segment>
+    <Segment StartTime="1772.946" EndTime="1777.317" Participant="mn007">
+      Yeah. There's an - uh, I think it's still for - even for the evaluation,
+    </Segment>
+    <Segment StartTime="1778.170" EndTime="1784.958" Participant="mn007">
+      uh, it might still be interesting to <VocalSound Description="breath-laugh"/> work on this because <Pause/> the boundaries apparently that they would provide is just,
+    </Segment>
+    <Segment StartTime="1784.958" EndTime="1786.520" Participant="mn007">
+      <VocalSound Description="clears throat"/> um,
+    </Segment>
+    <Segment StartTime="1787.412" EndTime="1791.487" Participant="mn007">
+      starting of speech and end of speech <Pause/> uh, at the utterance level. And -
+    </Segment>
+    <Segment StartTime="1792.238" EndTime="1793.287" Participant="mn007">
+      Um.
+    </Segment>
+    <Segment StartTime="1793.680" EndTime="1797.526" Participant="mn052">
+      With some - some gap. I mean, with some pauses in the center,
+    </Segment>
+    <Segment StartTime="1793.702" EndTime="1794.731" Participant="mn007">
+      <VocalSound Description="mouth"/> So -
+    </Segment>
+    <Segment StartTime="1797.526" EndTime="1801.480" Participant="mn052">
+      provided they meet that - whatever the hang-over time which they are talking.
+    </Segment>
+    <Segment StartTime="1800.500" EndTime="1805.098" Participant="mn007">
+      Yeah. But when you have like, uh, five or six frames, both -
+    </Segment>
+    <Segment StartTime="1803.850" EndTime="1807.350" Participant="mn052">
+      Yeah. Then the- they will just fill - fill it up. I mean, th - Yeah.
+    </Segment>
+    <Segment StartTime="1805.513" EndTime="1806.977" Participant="mn007">
+      it - it - with -
+    </Segment>
+    <Segment StartTime="1806.977" EndTime="1808.524" Participant="mn007">
+      Yeah. So -
+    </Segment>
+    <Segment StartTime="1807.850" EndTime="1811.950" Participant="me013">
+      So if you could get at some of that, uh - although that'd be <Emphasis> hard. </Emphasis> But - but - Yeah.
+    </Segment>
+    <Segment StartTime="1809.780" EndTime="1811.062" Participant="mn007">
+      Yeah. It might be useful
+    </Segment>
+    <Segment StartTime="1810.929" EndTime="1811.562" Participant="mn052">
+      Yeah.
+    </Segment>
+    <Segment StartTime="1811.774" EndTime="1817.403" Participant="mn007">
+      for, like, noise estimation, and a lot of other <Pause/> things that we want to work on. But - Mmm.
+    </Segment>
+    <Segment StartTime="1814.991" EndTime="1816.536" Participant="me013">
+      Right. O_K.
+    </Segment>
+    <Segment StartTime="1817.686" EndTime="1820.605" Participant="me013">
+      <VocalSound Description="inbreath"/> <NonVocalSound Description="mike noise"/>
+    </Segment>
+    <Segment StartTime="1821.323" EndTime="1828.540" Participant="mn007">
+      Yeah. So I did - I just <Pause/> started to test <Pause/> putting together two V_A_D which was - was not much work actually.
+    </Segment>
+    <Segment StartTime="1828.978" EndTime="1833.131" Participant="mn007">
+      Um, I im- re-implemented a V_A_D that's very close to the,
+    </Segment>
+    <Segment StartTime="1831.907" EndTime="1832.560" Participant="me013">
+      <NonVocalSound Description="mike noise"/>
+    </Segment>
+    <Segment StartTime="1834.184" EndTime="1836.320" Participant="mn007">
+      <VocalSound Description="mouth"/> um, energy-based V_A_D
+    </Segment>
+    <Segment StartTime="1836.320" EndTime="1837.344" Participant="mn007">
+      <VocalSound Description="breath"/>
+    </Segment>
+    <Segment StartTime="1837.344" EndTime="1841.206" Participant="mn007">
+      that, uh, the other Aurora guys use. <Comment Description="while laughing"/>
+    </Segment>
+    <Segment StartTime="1841.878" EndTime="1844.412" Participant="mn007">
+      Um. <VocalSound Description="clears throat"/> <VocalSound Description="mouth"/>
+    </Segment>
+    <Segment StartTime="1844.886" EndTime="1849.440" Participant="mn007">
+      So, which is just putting a threshold on <Pause/> the noise energy,
+    </Segment>
+    <Segment StartTime="1848.673" EndTime="1849.919" Participant="me013">
+      <NonVocalSound Description="mike noise"/> Mm-hmm.
+    </Segment>
+    <Segment StartTime="1849.440" EndTime="1858.346" Participant="mn007">
+      and, detect- detecting the first <Pause/> group of four frames <Pause/> that have a energy that's above this threshold,
+    </Segment>
+    <Segment StartTime="1859.324" EndTime="1866.598" Participant="mn007">
+      and, <VocalSound Description="mouth"/> uh, from this point, uh, tagging the frames there as speech.
+    </Segment>
+    <Segment StartTime="1866.598" EndTime="1867.697" Participant="mn007">
+      So it removes
+    </Segment>
+    <Segment StartTime="1868.492" EndTime="1871.770" Participant="mn007">
+      <VocalSound Description="mouth"/> the first silent portion - portion of each utterance.
+    </Segment>
+    <Segment StartTime="1871.770" EndTime="1875.600" Participant="mn007">
+      And it really removes it, <VocalSound Description="clears throat"/> um, <VocalSound Description="mouth"/>
+    </Segment>
+    <Segment StartTime="1876.213" EndTime="1881.406" Participant="mn007">
+      still o- on the noises where <Pause/> our M_L_P V_A_D doesn't <Pause/> work a lot.
+    </Segment>
+    <Segment StartTime="1881.748" EndTime="1882.158" Participant="me013">
+      Mmm.
+    </Segment>
+    <Segment StartTime="1884.340" EndTime="1885.872" Participant="mn007">
+      Uh, and -
+    </Segment>
+    <Segment StartTime="1885.100" EndTime="1889.221" Participant="me013">
+      <VocalSound Description="mouth"/> Cuz I would have thought that having <Emphasis> some </Emphasis> kind of spectral <Pause/> information,
+    </Segment>
+    <Segment StartTime="1889.221" EndTime="1890.408" Participant="me013">
+      uh -
+    </Segment>
+    <Segment StartTime="1890.408" EndTime="1895.513" Participant="me013">
+      uh, you know, in the old days people would use energy and zero crossings, for instance - uh, would give you
+    </Segment>
+    <Segment StartTime="1896.042" EndTime="1900.193" Participant="me013">
+      some <Pause/> better performance. Right? Cuz you might have low-energy
+    </Segment>
+    <Segment StartTime="1900.801" EndTime="1906.257" Participant="me013">
+      fricatives or - or, uh <Pause/> stop consonants, or something like that.
+    </Segment>
+    <Segment StartTime="1904.585" EndTime="1905.099" Participant="mn007">
+      <NonVocalSound Description="mike noise"/>
+    </Segment>
+    <Segment StartTime="1906.266" EndTime="1906.899" Participant="mn007">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="1906.830" EndTime="1907.641" Participant="me013">
+      Uh.
+    </Segment>
+    <Segment StartTime="1908.840" EndTime="1909.354" Participant="fn002">
+      <NonVocalSound Description="mike noise"/>
+    </Segment>
+    <Segment StartTime="1910.538" EndTime="1911.072" Participant="mn007">
+      Yeah.
+    </Segment>
+    <Segment StartTime="1912.973" EndTime="1915.861" Participant="mn007">
+      So, your point is - will be to u- use <Uncertain> whatever </Uncertain> -
+    </Segment>
+    <Segment StartTime="1914.656" EndTime="1925.438" Participant="me013">
+      <VocalSound Description="inbreath"/> Oh, that if you d- if you use <Emphasis> purely </Emphasis> energy and don't look at anything spectral, then you don't have a good way of distinguishing between low-energy speech components and <Pause/> nonspeech.
+    </Segment>
+    <Segment StartTime="1917.225" EndTime="1917.930" Participant="mn007">
+      <VocalSound Description="clears throat"/>
+    </Segment>
+    <Segment StartTime="1925.118" EndTime="1925.751" Participant="mn007">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="1925.438" EndTime="1934.473" Participant="me013">
+      And, um, just as a gross generalization, most nonsp- <Emphasis> many </Emphasis> nonspeech noises have a low-pass kind of characteristic,
+    </Segment>
+    <Segment StartTime="1934.473" EndTime="1935.678" Participant="me013">
+      some sort of slope.
+    </Segment>
+    <Segment StartTime="1935.678" EndTime="1937.546" Participant="me013">
+      And - and most,
+    </Segment>
+    <Segment StartTime="1937.546" EndTime="1942.177" Participant="me013">
+      um, low-energy speech components that are unvoiced have a -
+    </Segment>
+    <Segment StartTime="1938.370" EndTime="1938.908" Participant="mn007">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="1942.177" EndTime="1945.025" Participant="me013">
+      a high-pass kind of characteristic - an upward slope.
+    </Segment>
+    <Segment StartTime="1945.025" EndTime="1945.611" Participant="me013">
+      <VocalSound Description="breath"/>
+    </Segment>
+    <Segment StartTime="1945.480" EndTime="1945.969" Participant="mn007">
+      Yeah.
+    </Segment>
+    <Segment StartTime="1945.611" EndTime="1947.748" Participant="me013">
+      So having some kind of a -
+    </Segment>
+    <Segment StartTime="1946.925" EndTime="1947.790" Participant="mn007">
+      <VocalSound Description="clears throat"/>
+    </Segment>
+    <Segment StartTime="1947.748" EndTime="1959.064" Participant="me013">
+      uh, you know, at the beginning of a - of a - of an S_ sound for instance, just starting in, it might be pretty low-energy, but it will tend to have this high-frequency component. Whereas,
+    </Segment>
+    <Segment StartTime="1953.770" EndTime="1954.396" Participant="mn007">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="1959.064" EndTime="1959.572" Participant="me013">
+      <VocalSound Description="clears throat"/>
+    </Segment>
+    <Segment StartTime="1959.572" EndTime="1966.188" Participant="me013">
+      a - a lot of rumble, and background noises, and so forth will be predominantly low-frequency. Uh, you know, by itself it's not enough
+    </Segment>
+    <Segment StartTime="1960.490" EndTime="1960.941" Participant="fn002">
+      <NonVocalSound Description="mike noise"/>
+    </Segment>
+    <Segment StartTime="1960.884" EndTime="1961.522" Participant="mn007">
+      <VocalSound Description="clears throat"/>
+    </Segment>
+    <Segment StartTime="1966.188" EndTime="1968.994" Participant="me013">
+      to tell you, but it plus energy is sort of -
+    </Segment>
+    <Segment StartTime="1966.902" EndTime="1968.069" Participant="mn007">
+      <VocalSound Description="clears throat"/> Yeah.
+    </Segment>
+    <Segment StartTime="1968.994" EndTime="1972.747" Participant="me013">
+      it plus energy plus <Emphasis> timing </Emphasis> information is sort of -
+    </Segment>
+    <Segment StartTime="1971.610" EndTime="1972.281" Participant="mn007">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="1972.747" EndTime="1980.232" Participant="me013">
+      I mean, if you look up in Rabiner and Schafer from like twenty-five years ago or something, that's sort of <Pause/> what they were using then. So it's - it's not a -
+    </Segment>
+    <Segment StartTime="1975.030" EndTime="1975.562" Participant="mn007">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="1978.305" EndTime="1979.056" Participant="mn007">
+      Mm-hmm. <VocalSound Description="mouth"/>
+    </Segment>
+    <Segment StartTime="1979.276" EndTime="1979.870" Participant="me006">
+      Hmm. <Comment Description="very quietly"/>
+    </Segment>
+    <Segment StartTime="1979.790" EndTime="1982.563" Participant="mn007">
+      So, yeah. It - it might be that what I did is -
+    </Segment>
+    <Segment StartTime="1983.180" EndTime="1985.746" Participant="mn007">
+      so, removes like <VocalSound Description="clears throat"/> low,
+    </Segment>
+    <Segment StartTime="1986.240" EndTime="1987.466" Participant="mn007">
+      um, <VocalSound Description="mouth"/>
+    </Segment>
+    <Segment StartTime="1988.515" EndTime="1989.215" Participant="mn007">
+      uh -
+    </Segment>
+    <Segment StartTime="1989.215" EndTime="1994.281" Participant="mn007">
+      low-energy, uh, speech frames. Because <Pause/> the way I do it is I just - I just combine
+    </Segment>
+    <Segment StartTime="1994.778" EndTime="2001.995" Participant="mn007">
+      the two decisions - so, the one from the M_L_P and the one from the energy-based - with the - with the and <Pause/> operator. So,
+    </Segment>
+    <Segment StartTime="2002.553" EndTime="2006.946" Participant="mn007">
+      I only <Pause/> keep the frames where the two agree <Pause/> that it's speech.
+    </Segment>
+    <Segment StartTime="2008.270" EndTime="2011.991" Participant="mn007">
+      So if the energy-based dropped - dropped low-energy speech,
+    </Segment>
+    <Segment StartTime="2012.544" EndTime="2014.344" Participant="mn007">
+      mmm, they - they are - they are lost.
+    </Segment>
+    <Segment StartTime="2015.749" EndTime="2016.322" Participant="mn007">
+      Mmm.
+    </Segment>
+    <Segment StartTime="2017.133" EndTime="2025.798" Participant="mn007">
+      But s- still, the way it's done right now it - it helps on - on the noises where - it seems to help on the noises where
+    </Segment>
+    <Segment StartTime="2017.144" EndTime="2017.857" Participant="me013">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="2026.293" EndTime="2029.398" Participant="mn007">
+      <VocalSound Description="clears throat"/> our V_A_D was not very <Pause/> good.
+    </Segment>
+    <Segment StartTime="2029.750" EndTime="2031.801" Participant="me013">
+      <VocalSound Description="mouth"/> Well, I guess - I mean, one could imagine
+    </Segment>
+    <Segment StartTime="2032.238" EndTime="2034.691" Participant="me013">
+      combining them in different ways. But - but,
+    </Segment>
+    <Segment StartTime="2034.691" EndTime="2039.404" Participant="me013">
+      I guess what you're saying is that the - the M_L_P-based one has the spectral information.
+    </Segment>
+    <Segment StartTime="2039.870" EndTime="2040.426" Participant="mn007">
+      Yeah.
+    </Segment>
+    <Segment StartTime="2040.334" EndTime="2040.908" Participant="me013">
+      So.
+    </Segment>
+    <Segment StartTime="2041.198" EndTime="2041.475" Participant="mn007">
+      But -
+    </Segment>
+    <Segment StartTime="2043.102" EndTime="2047.375" Participant="mn007">
+      Yeah. But the way it's combined wi- is maybe done - Well, <Uncertain> yeah </Uncertain>.
+    </Segment>
+    <Segment StartTime="2047.830" EndTime="2049.711" Participant="me013">
+      <VocalSound Description="inbreath"/> Well, you can imagine -
+    </Segment>
+    <Segment StartTime="2048.133" EndTime="2051.159" Participant="mn007">
+      The way I use a an- a "AND" operator is -
+    </Segment>
+    <Segment StartTime="2053.360" EndTime="2054.008" Participant="mn007">
+      So, it - I, uh -
+    </Segment>
+    <Segment StartTime="2054.370" EndTime="2054.893" Participant="me013">
+      Is - ?
+    </Segment>
+    <Segment StartTime="2054.860" EndTime="2058.948" Participant="mn007">
+      The frames that are dropped by the energy-based system are - are, uh, dropped,
+    </Segment>
+    <Segment StartTime="2058.948" EndTime="2061.999" Participant="mn007">
+      even if the, um, M_L_P decides to keep them.
+    </Segment>
+    <Segment StartTime="2059.060" EndTime="2059.542" Participant="me013">
+      Right.
+    </Segment>
+    <Segment StartTime="2062.680" EndTime="2068.168" Participant="me013">
+      Right. And that might not be optimal, but - but - I mean, I guess in principle what you'd want to do is have a - <VocalSound Description="inbreath"/>
+    </Segment>
+    <Segment StartTime="2063.047" EndTime="2063.919" Participant="mn007">
+      But, yeah.
+    </Segment>
+    <Segment StartTime="2064.219" EndTime="2064.867" Participant="mn007">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="2064.993" EndTime="2065.546" Participant="me018">
+      No-
+    </Segment>
+    <Segment StartTime="2068.168" EndTime="2072.165" Participant="me013">
+      uh, a probability estimated by each one and - and put them together.
+    </Segment>
+    <Segment StartTime="2069.707" EndTime="2070.541" Participant="me018">
+      <VocalSound Description="clears throat"/>
+    </Segment>
+    <Segment StartTime="2070.980" EndTime="2072.521" Participant="mn007">
+      Yeah. Mmm. M- Yeah.
+    </Segment>
+    <Segment StartTime="2072.740" EndTime="2078.694" Participant="me018">
+      Something that - that I've used in the past is, um - when just looking at the energy, is to look at the derivative.
+    </Segment>
+    <Segment StartTime="2078.694" EndTime="2084.744" Participant="me018">
+      And you <Pause/> make your decision when the derivative is increasing for <Pause/> so many frames.
+    </Segment>
+    <Segment StartTime="2084.744" EndTime="2086.882" Participant="me018">
+      Then you say that's beginning of speech.
+    </Segment>
+    <Segment StartTime="2084.805" EndTime="2085.750" Participant="mn007">
+      <Pronounce Pronunciation="&quot;yeah-huh&quot;"> Uh-huh.  </Pronounce>
+    </Segment>
+    <Segment StartTime="2087.298" EndTime="2091.036" Participant="me018">
+      But, I'm - I'm trying to remember if that requires that you
+    </Segment>
+    <Segment StartTime="2091.847" EndTime="2094.379" Participant="me018">
+      keep some amount of speech in a buffer.
+    </Segment>
+    <Segment StartTime="2095.150" EndTime="2099.343" Participant="me018">
+      I guess it depends on how you do it. But <Pause/> I mean, that's - that's been a useful thing.
+    </Segment>
+    <Segment StartTime="2097.225" EndTime="2097.838" Participant="me013">
+      Yeah.
+    </Segment>
+    <Segment StartTime="2098.943" EndTime="2099.477" Participant="mn007">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="2099.268" EndTime="2099.968" Participant="me006">
+      Mm-hmm. <Comment Description="very quietly"/>
+    </Segment>
+    <Segment StartTime="2102.080" EndTime="2107.442" Participant="mn052">
+      Yeah. Well, every- everywhere has a delay associated with it. I mean, you still have to k- always keep a buffer,
+    </Segment>
+    <Segment StartTime="2104.441" EndTime="2105.094" Participant="mn007">
+      <VocalSound Description="clears throat"/>
+    </Segment>
+    <Segment StartTime="2107.761" EndTime="2108.493" Participant="me018">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="2108.280" EndTime="2112.971" Participant="mn052">
+      then only make a decision because <Pause/> you still need to smooth the <Pause/> decision further.
+    </Segment>
+    <Segment StartTime="2111.820" EndTime="2113.940" Participant="me018">
+      Right. Right.
+    </Segment>
+    <Segment StartTime="2114.380" EndTime="2115.620" Participant="mn052">
+      So that's always there.
+    </Segment>
+    <Segment StartTime="2115.622" EndTime="2116.630" Participant="me018">
+      Yeah. O_K.
+    </Segment>
+    <Segment StartTime="2118.267" EndTime="2118.524" Participant="mn007">
+      <VocalSound Description="mouth"/>
+    </Segment>
+    <Segment StartTime="2119.513" EndTime="2126.591" Participant="mn007">
+      Well, actually if I don't - maybe don't want to work too much of - on it right now. I just wanted to - to see if it's - <VocalSound Description="breath-laugh"/>
+    </Segment>
+    <Segment StartTime="2126.591" EndTime="2132.487" Participant="mn007">
+      what I observed was the re- was caused by this - this V_A_D problem. And it seems to be the case.
+    </Segment>
+    <Segment StartTime="2130.557" EndTime="2131.230" Participant="me013">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="2132.487" EndTime="2133.714" Participant="mn007">
+      <VocalSound Description="breath"/>
+    </Segment>
+    <Segment StartTime="2132.710" EndTime="2136.810" Participant="me013">
+      <VocalSound Description="breath"/> <NonVocalSound Description="mike noise"/>
+    </Segment>
+    <Segment StartTime="2133.714" EndTime="2135.415" Participant="mn007">
+      Um. <VocalSound Description="mouth"/>
+    </Segment>
+    <Segment StartTime="2136.147" EndTime="2139.905" Participant="mn007">
+      Uh, the second thing is the - this spectral subtraction. Um.
+    </Segment>
+    <Segment StartTime="2141.063" EndTime="2144.437" Participant="mn007">
+      <VocalSound Description="mouth"/> <VocalSound Description="clears throat"/> Um, <VocalSound Description="inbreath"/>
+    </Segment>
+    <Segment StartTime="2144.437" EndTime="2149.778" Participant="mn007">
+      which I've just started yesterday to launch a bunch of, uh, <NonVocalSound Description="noise"/>
+    </Segment>
+    <Segment StartTime="2149.778" EndTime="2151.269" Participant="mn007">
+      twenty-five experiments,
+    </Segment>
+    <Segment StartTime="2151.710" EndTime="2152.205" Participant="me006">
+      <VocalSound Description="breath-laugh"/>
+    </Segment>
+    <Segment StartTime="2152.669" EndTime="2154.247" Participant="mn007">
+      uh, with different,
+    </Segment>
+    <Segment StartTime="2155.000" EndTime="2158.522" Participant="mn007">
+      uh, values for the parameters that are used. So,
+    </Segment>
+    <Segment StartTime="2158.522" EndTime="2165.830" Participant="mn007">
+      it's the Makhoul-type spectral subtraction which use <Pause/> an over-estimation factor. So, we substr- I subtract more,
+    </Segment>
+    <Segment StartTime="2165.830" EndTime="2169.055" Participant="mn007">
+      <VocalSound Description="inbreath"/> <VocalSound Description="clears throat"/> um, <NonVocalSound Description="click"/> <VocalSound Description="mouth"/>
+    </Segment>
+    <Segment StartTime="2169.055" EndTime="2170.162" Participant="mn007">
+      noise than
+    </Segment>
+    <Segment StartTime="2169.588" EndTime="2170.360" Participant="fn002">
+      <NonVocalSound Description="mike noise"/>
+    </Segment>
+    <Segment StartTime="2170.795" EndTime="2177.146" Participant="mn007">
+      the noise spectra that <Pause/> is estimated <Pause/> on the noise portion of the s- uh, the utterances.
+    </Segment>
+    <Segment StartTime="2173.978" EndTime="2174.255" Participant="mn052">
+      <VocalSound Description="mouth"/>
+    </Segment>
+    <Segment StartTime="2177.146" EndTime="2178.214" Participant="mn007">
+      <VocalSound Description="breath"/>
+    </Segment>
+    <Segment StartTime="2178.214" EndTime="2180.449" Participant="mn007">
+      So I tried several,
+    </Segment>
+    <Segment StartTime="2181.063" EndTime="2183.884" Participant="mn007">
+      uh, over-estimation factors. <VocalSound Description="inbreath"/>
+    </Segment>
+    <Segment StartTime="2182.120" EndTime="2184.196" Participant="me006">
+      <VocalSound Description="breath"/>
+    </Segment>
+    <Segment StartTime="2183.884" EndTime="2190.026" Participant="mn007">
+      And after subtraction, I also add <Pause/> a constant noise, and I also try different,
+    </Segment>
+    <Segment StartTime="2190.026" EndTime="2191.840" Participant="mn007">
+      uh,
+    </Segment>
+    <Segment StartTime="2192.893" EndTime="2197.648" Participant="mn007">
+      <VocalSound Description="mouth"/> noise, uh, values <Pause/> and we'll see what happen.
+    </Segment>
+    <Segment StartTime="2197.648" EndTime="2199.450" Participant="mn007">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2198.836" EndTime="2199.706" Participant="me013">
+      Hmm.
+    </Segment>
+    <Segment StartTime="2199.450" EndTime="2199.768" Participant="mn007">
+      <VocalSound Description="mouth"/>
+    </Segment>
+    <Segment StartTime="2200.513" EndTime="2201.408" Participant="me013">
+      <VocalSound Description="mouth"/> O_K.
+    </Segment>
+    <Segment StartTime="2200.654" EndTime="2201.370" Participant="mn007">
+      Mm-hmm. <Comment Description="very quietly"/>
+    </Segment>
+    <Segment StartTime="2204.495" EndTime="2205.009" Participant="mn007">
+      Mm-hmm. <Comment Description="very quietly"/>
+    </Segment>
+    <Segment StartTime="2205.425" EndTime="2207.818" Participant="mn007">
+      <VocalSound Description="mouth"/> But st- still when we look at the, um -
+    </Segment>
+    <Segment StartTime="2208.533" EndTime="2211.077" Participant="mn007">
+      Well, it depends on the parameters that you use, but
+    </Segment>
+    <Segment StartTime="2209.939" EndTime="2211.730" Participant="me006">
+      <VocalSound Description="breath"/>
+    </Segment>
+    <Segment StartTime="2211.077" EndTime="2218.107" Participant="mn007">
+      for moderate over-estimation factors and moderate noise level that you add, you st- have a lot of musical noise.
+    </Segment>
+    <Segment StartTime="2213.341" EndTime="2214.660" Participant="me006">
+      <VocalSound Description="breath"/>
+    </Segment>
+    <Segment StartTime="2219.038" EndTime="2220.126" Participant="mn007">
+      Um.
+    </Segment>
+    <Segment StartTime="2220.810" EndTime="2230.257" Participant="mn007">
+      On the other hand, when you <Pause/> subtract more and when you add more noise, you get rid of this musical noise but <Pause/> maybe you distort a lot of speech. So.
+    </Segment>
+    <Segment StartTime="2231.636" EndTime="2232.481" Participant="mn007">
+      Well. <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2232.352" EndTime="2232.827" Participant="me013">
+      <VocalSound Description="breath-laugh"/>
+    </Segment>
+    <Segment StartTime="2232.363" EndTime="2232.937" Participant="me006">
+      <NonVocalSound Description="mike noise"/>
+    </Segment>
+    <Segment StartTime="2233.926" EndTime="2234.895" Participant="mn007">
+      Mmm.
+    </Segment>
+    <Segment StartTime="2238.340" EndTime="2240.745" Participant="mn007">
+      Well, it - until now, it doesn't seem to help. But <Pause/>
+    </Segment>
+    <Segment StartTime="2242.323" EndTime="2242.703" Participant="mn007">
+      We'll see.
+    </Segment>
+    <Segment StartTime="2242.703" EndTime="2243.168" Participant="mn007">
+      <VocalSound Description="inbreath"/>
+    </Segment>
+    <Segment StartTime="2243.168" EndTime="2248.627" Participant="mn007">
+      So the next thing, maybe I - what I will <Pause/> try to - to do is just <Pause/> to try to smooth
+    </Segment>
+    <Segment StartTime="2250.370" EndTime="2251.970" Participant="mn007">
+      mmm, <VocalSound Description="mouth"/>
+    </Segment>
+    <Segment StartTime="2252.453" EndTime="2253.721" Participant="mn007">
+      the, um -
+    </Segment>
+    <Segment StartTime="2256.708" EndTime="2263.300" Participant="mn007">
+      to smooth the d- the result of the subtraction, to get rid of the musical noise, using some kind of filter, or -
+    </Segment>
+    <Segment StartTime="2260.008" EndTime="2261.970" Participant="fn002">
+      <NonVocalSound Description="pages turning"/>
+    </Segment>
+    <Segment StartTime="2264.461" EndTime="2267.100" Participant="mn052">
+      Can smooth the S_N_R estimate, also.
+    </Segment>
+    <Segment StartTime="2267.428" EndTime="2268.880" Participant="mn007">
+      Yeah. Right.
+    </Segment>
+    <Segment StartTime="2268.880" EndTime="2270.543" Participant="mn007">
+      Mmm.
+    </Segment>
+    <Segment StartTime="2271.253" EndTime="2273.508" Participant="mn052">
+      Your filter is a function of S_N_R. Hmm?
+    </Segment>
+    <Segment StartTime="2273.410" EndTime="2278.434" Participant="mn007">
+      Yeah. So, to get something that's - would be closer to <Pause/> what you tried to do with Wiener filtering. And -
+    </Segment>
+    <Segment StartTime="2277.939" EndTime="2278.513" Participant="mn052">
+      Yeah.
+    </Segment>
+    <Segment StartTime="2278.434" EndTime="2279.090" Participant="mn007">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="2280.793" EndTime="2281.762" Participant="mn007">
+      Yeah.
+    </Segment>
+    <Segment StartTime="2284.940" EndTime="2286.443" Participant="mn052">
+      <VocalSound Description="mouth"/> Actually, it's, uh -
+    </Segment>
+    <Segment StartTime="2287.910" EndTime="2291.060" Participant="mn052">
+      Uh. I don't know, it's - go ahead. And it's - go ahead.
+    </Segment>
+    <Segment StartTime="2289.864" EndTime="2292.435" Participant="mn007">
+      It - Maybe you can - I think it's -
+    </Segment>
+    <Segment StartTime="2291.883" EndTime="2292.101" Participant="mn052">
+      <VocalSound Description="mouth"/>
+    </Segment>
+    <Segment StartTime="2293.290" EndTime="2294.789" Participant="mn007">
+      That's it for me. <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2293.980" EndTime="2294.415" Participant="mn052">
+      O_K.
+    </Segment>
+    <Segment StartTime="2295.395" EndTime="2297.116" Participant="mn052">
+      <VocalSound Description="mouth"/> So, uh -
+    </Segment>
+    <Segment StartTime="2297.729" EndTime="2298.045" Participant="mn052">
+      u-
+    </Segment>
+    <Segment StartTime="2298.777" EndTime="2301.685" Participant="mn052">
+      th- I've been playing with this Wiener filter, like. And
+    </Segment>
+    <Segment StartTime="2301.920" EndTime="2305.679" Participant="mn052">
+      there are - there were some <Emphasis> bugs </Emphasis> in the program, so I was p- initially trying to clear them up.
+    </Segment>
+    <Segment StartTime="2305.679" EndTime="2311.805" Participant="mn052">
+      Because one of the bug was - I was assuming that always the VAD - uh, the initial frames were silence.
+    </Segment>
+    <Segment StartTime="2311.805" EndTime="2315.094" Participant="mn052">
+      It always started in the silence state, but it wasn't for some utterances.
+    </Segment>
+    <Segment StartTime="2315.688" EndTime="2318.480" Participant="mn052">
+      So the - it wasn't estimating the noise initially,
+    </Segment>
+    <Segment StartTime="2318.480" EndTime="2321.426" Participant="mn052">
+      and then it <Emphasis> never </Emphasis> estimated, because I assumed that it was always
+    </Segment>
+    <Segment StartTime="2319.650" EndTime="2321.850" Participant="me006">
+      <VocalSound Description="breath"/>
+    </Segment>
+    <Segment StartTime="2321.680" EndTime="2322.161" Participant="mn007">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="2322.099" EndTime="2322.652" Participant="mn052">
+      silence.
+    </Segment>
+    <Segment StartTime="2322.760" EndTime="2324.658" Participant="mn007">
+      So this is on SpeechDat-Car Italian?
+    </Segment>
+    <Segment StartTime="2324.570" EndTime="2325.877" Participant="mn052">
+      Yeah. SpeechDat-Car Italian. <Comment Description="the last syllable or so of &quot;Italian&quot; fades out"/>
+    </Segment>
+    <Segment StartTime="2325.350" EndTime="2327.328" Participant="mn007">
+      So, in some cases s- there are also -
+    </Segment>
+    <Segment StartTime="2325.877" EndTime="2326.254" Participant="mn052">
+      <VocalSound Description="breath"/>
+    </Segment>
+    <Segment StartTime="2326.254" EndTime="2330.009" Participant="mn052">
+      Yeah. There're a few cases, actually, which I found later, that there are.
+    </Segment>
+    <Segment StartTime="2327.842" EndTime="2328.234" Participant="mn007">
+      o-
+    </Segment>
+    <Segment StartTime="2329.009" EndTime="2329.484" Participant="mn007">
+      Uh-huh.
+    </Segment>
+    <Segment StartTime="2330.009" EndTime="2334.400" Participant="mn052">
+      So that was one of the <Pause/> bugs that was there in estimating the noise. <VocalSound Description="mouth"/>
+    </Segment>
+    <Segment StartTime="2334.400" EndTime="2343.510" Participant="mn052">
+      And, uh, so once it was cleared, uh, I ran a few experiments with <Pause/> different ways of smoothing the estimated clean speech and
+    </Segment>
+    <Segment StartTime="2343.510" EndTime="2347.507" Participant="mn052">
+      how t- estimated the noise and, eh, smoothing the S_N_R also.
+    </Segment>
+    <Segment StartTime="2348.908" EndTime="2351.781" Participant="mn052">
+      And so the - the trend seems to be like,
+    </Segment>
+    <Segment StartTime="2352.468" EndTime="2353.384" Participant="mn052">
+      <VocalSound Description="mouth"/> uh,
+    </Segment>
+    <Segment StartTime="2354.175" EndTime="2358.412" Participant="mn052">
+      smoothing the <Pause/> current estimate of the clean speech for deriving the
+    </Segment>
+    <Segment StartTime="2358.886" EndTime="2366.225" Participant="mn052">
+      S_N_R, which is like <Pause/> deriving the Wiener filter, seems to be helping. Then updating it quite fast using a very small time constant.
+    </Segment>
+    <Segment StartTime="2360.200" EndTime="2363.210" Participant="me006">
+      <VocalSound Description="breath"/>
+    </Segment>
+    <Segment StartTime="2366.225" EndTime="2366.818" Participant="mn052">
+      <VocalSound Description="breath"/>
+    </Segment>
+    <Segment StartTime="2366.818" EndTime="2369.173" Participant="mn052">
+      So we'll have, like, a few results where the -
+    </Segment>
+    <Segment StartTime="2370.301" EndTime="2371.493" Participant="mn052">
+      estimating the -
+    </Segment>
+    <Segment StartTime="2371.493" EndTime="2380.248" Participant="mn052">
+      the - More smoothing is helping. But still it's like - it's still comparable to the baseline. I haven't got anything <Emphasis> beyond </Emphasis> the baseline. But that's, like, not using any Wiener filter.
+    </Segment>
+    <Segment StartTime="2376.748" EndTime="2377.796" Participant="me013">
+      <NonVocalSound Description="mike noise"/>
+    </Segment>
+    <Segment StartTime="2381.160" EndTime="2385.177" Participant="mn052">
+      And, uh, so I'm - I'm trying a few more experiments with
+    </Segment>
+    <Segment StartTime="2385.573" EndTime="2395.081" Participant="mn052">
+      different time constants for smoothing the noise spectrum, and smoothing the clean speech, and smoothing S_N_R. So there are three time constants that I have. So, I'm just playing around. <VocalSound Description="breath"/>
+    </Segment>
+    <Segment StartTime="2388.339" EndTime="2388.992" Participant="me013">
+      <NonVocalSound Description="mike noise"/>
+    </Segment>
+    <Segment StartTime="2391.398" EndTime="2392.704" Participant="me013">
+      <NonVocalSound Description="mike noise"/>
+    </Segment>
+    <Segment StartTime="2395.081" EndTime="2402.500" Participant="mn052">
+      So, one is fixed in the line, like <Pause/> Smoothing the clean speech is - is helping, so I'm not going to change it that much. But, the way I'm estimating the noise
+    </Segment>
+    <Segment StartTime="2400.380" EndTime="2403.090" Participant="me013">
+      <NonVocalSound Description="mike noise"/>
+    </Segment>
+    <Segment StartTime="2402.500" EndTime="2405.766" Participant="mn052">
+      and the way I'm estimating the S_N_R, I'm just trying - trying a little bit.
+    </Segment>
+    <Segment StartTime="2405.766" EndTime="2406.497" Participant="mn052">
+      <VocalSound Description="breath"/>
+    </Segment>
+    <Segment StartTime="2406.497" EndTime="2413.361" Participant="mn052">
+      So, that h- And the other thing is, like, putting a floor on the, uh, S_N_R, because that - if
+    </Segment>
+    <Segment StartTime="2413.565" EndTime="2421.360" Participant="mn052">
+      some - In some cases the clean speech is, like - when it's estimated, it goes to very low values, so the S_N_R is, like, very low. And
+    </Segment>
+    <Segment StartTime="2421.360" EndTime="2425.434" Participant="mn052">
+      so that actually creates a lot of variance in the low-energy region of the speech.
+    </Segment>
+    <Segment StartTime="2425.434" EndTime="2431.647" Participant="mn052">
+      So, I'm thinking of, like, putting a floor also for the S_N_R so that it doesn't <Pause/> vary a lot in the low-energy regions.
+    </Segment>
+    <Segment StartTime="2432.162" EndTime="2435.783" Participant="mn052">
+      <VocalSound Description="mouth"/> And, uh. So. The results are, like -
+    </Segment>
+    <Segment StartTime="2436.139" EndTime="2443.082" Participant="mn052">
+      So far I've been testing only with the <Pause/> baseline, which is - which doesn't have any L_D_A filtering and on-line normalization. I just want to separate the -
+    </Segment>
+    <Segment StartTime="2443.514" EndTime="2448.298" Participant="mn052">
+      the contributions out. So it's just VAD, plus the Wiener filter, plus the baseline system,
+    </Segment>
+    <Segment StartTime="2448.607" EndTime="2451.937" Participant="mn052">
+      which is, uh, just the spectral - I mean, the mel sp-
+    </Segment>
+    <Segment StartTime="2452.370" EndTime="2454.350" Participant="mn052">
+      mel, uh, frequency coefficients.
+    </Segment>
+    <Segment StartTime="2455.235" EndTime="2456.170" Participant="mn052">
+      Um.
+    </Segment>
+    <Segment StartTime="2456.743" EndTime="2459.198" Participant="mn052">
+      And the other thing that I tried was - but I just
+    </Segment>
+    <Segment StartTime="2459.732" EndTime="2463.035" Participant="mn052">
+      <VocalSound Description="mouth"/> took of those, uh, <Pause/> <VocalSound Description="mouth"/> Carlos filters,
+    </Segment>
+    <Segment StartTime="2463.690" EndTime="2465.012" Participant="mn052">
+      which Hynek had,
+    </Segment>
+    <Segment StartTime="2465.012" EndTime="2470.533" Participant="mn052">
+      to see whether it really h- helps or not. I mean, it was just a - a run to see whether it really degrades or it helps. And
+    </Segment>
+    <Segment StartTime="2471.086" EndTime="2473.586" Participant="mn052">
+      <Pronounce Pronunciation="&quot;it'sss&quot;"> it's  </Pronounce> - it seems to be like it's not
+    </Segment>
+    <Segment StartTime="2471.377" EndTime="2471.950" Participant="me013">
+      <NonVocalSound Description="mike noise"/>
+    </Segment>
+    <Segment StartTime="2473.816" EndTime="2479.361" Participant="mn052">
+      <VocalSound Description="mouth"/> hurting a lot by just blindly picking up one filter which is nothing but a <Pause/> four hertz -
+    </Segment>
+    <Segment StartTime="2479.361" EndTime="2483.990" Participant="mn052">
+      a band-pass m- m- filter on the cubic root of the power spectrum.
+    </Segment>
+    <Segment StartTime="2479.780" EndTime="2482.430" Participant="me006">
+      <VocalSound Description="breath"/>
+    </Segment>
+    <Segment StartTime="2484.410" EndTime="2488.019" Participant="mn052">
+      So, that was the filter that Hy- uh, Carlos had.
+    </Segment>
+    <Segment StartTime="2488.656" EndTime="2490.155" Participant="mn052">
+      And so -
+    </Segment>
+    <Segment StartTime="2490.155" EndTime="2491.891" Participant="mn052">
+      Yeah. Just - just to see whether it really -
+    </Segment>
+    <Segment StartTime="2491.830" EndTime="2492.560" Participant="fn002">
+      <NonVocalSound Description="mike noise"/>
+    </Segment>
+    <Segment StartTime="2491.891" EndTime="2497.653" Participant="mn052">
+      it's - it's - is it worth trying or not. So, it doesn't seems to be degrading a <Emphasis> lot </Emphasis> on that. So there must be something that I can -
+    </Segment>
+    <Segment StartTime="2497.653" EndTime="2501.810" Participant="mn052">
+      that can be done with that type of noise compensation also, which -
+    </Segment>
+    <Segment StartTime="2499.048" EndTime="2501.816" Participant="me013">
+      <NonVocalSound Description="mike noise"/>
+    </Segment>
+    <Segment StartTime="2502.203" EndTime="2506.497" Participant="mn052">
+      <VocalSound Description="mouth"/> I guess I would ask Carlos about that. I mean, how - how he derived those filters and -
+    </Segment>
+    <Segment StartTime="2505.703" EndTime="2508.300" Participant="fn002">
+      <NonVocalSound Description="mike noise"/>
+    </Segment>
+    <Segment StartTime="2507.065" EndTime="2513.855" Participant="mn052">
+      and where d- if he <Emphasis> has </Emphasis> any filters which are derived on O_G_I stories, added with some type of noise which - what we are using currently, or
+    </Segment>
+    <Segment StartTime="2513.855" EndTime="2515.787" Participant="mn052">
+      something like that. So maybe I'll -
+    </Segment>
+    <Segment StartTime="2514.680" EndTime="2515.096" Participant="me013">
+      <VocalSound Description="mouth"/>
+    </Segment>
+    <Segment StartTime="2515.748" EndTime="2517.847" Participant="me013">
+      This is cubic root of power spectra? <VocalSound Description="breath"/>
+    </Segment>
+    <Segment StartTime="2517.242" EndTime="2519.150" Participant="mn052">
+      Yeah. Cubic root of power spectrum.
+    </Segment>
+    <Segment StartTime="2519.150" EndTime="2523.890" Participant="me013">
+      So, if you have this band-pass filter, you probably get n- you get negative values. Right?
+    </Segment>
+    <Segment StartTime="2520.458" EndTime="2523.230" Participant="fn002">
+      <NonVocalSound Description="mike noise"/>
+    </Segment>
+    <Segment StartTime="2523.340" EndTime="2526.052" Participant="mn052">
+      Yeah. And I'm, like, floating it to z- zeros right now.
+    </Segment>
+    <Segment StartTime="2523.828" EndTime="2526.558" Participant="fn002">
+      <NonVocalSound Description="mike noise"/> <VocalSound Description="breath"/>
+    </Segment>
+    <Segment StartTime="2526.121" EndTime="2526.630" Participant="me013">
+      O_K. <Comment Description="quietly"/>
+    </Segment>
+    <Segment StartTime="2526.823" EndTime="2530.762" Participant="mn052">
+      So it has, like - the spectrogram has, like - Uh, it actually,
+    </Segment>
+    <Segment StartTime="2531.434" EndTime="2536.280" Participant="mn052">
+      uh, enhances the onset and offset of - I mean, the - the begin and the end of the speech.
+    </Segment>
+    <Segment StartTime="2536.280" EndTime="2544.016" Participant="mn052">
+      So it's - there seems to be, like, deep <Emphasis> valleys </Emphasis> in the begin and the end of, like, high-energy regions, because the filter has, like, a sort of Mexican-hat type structure.
+    </Segment>
+    <Segment StartTime="2540.775" EndTime="2541.625" Participant="me013">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="2544.016" EndTime="2549.907" Participant="mn052">
+      So, those are the regions where there are, like - when I look at the spectrogram, there are those deep valleys on the begin and the end of the speech.
+    </Segment>
+    <Segment StartTime="2544.196" EndTime="2545.060" Participant="me013">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="2549.907" EndTime="2551.986" Participant="mn052">
+      But the rest of it seems to be, like, pretty nice.
+    </Segment>
+    <Segment StartTime="2551.986" EndTime="2552.599" Participant="mn052">
+      <VocalSound Description="breath"/>
+    </Segment>
+    <Segment StartTime="2552.168" EndTime="2553.038" Participant="me013">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="2552.599" EndTime="2553.172" Participant="mn052">
+      So.
+    </Segment>
+    <Segment StartTime="2554.003" EndTime="2556.693" Participant="mn052">
+      That's <Pause/> something I observe using that filter.
+    </Segment>
+    <Segment StartTime="2557.504" EndTime="2558.419" Participant="mn052">
+      And -
+    </Segment>
+    <Segment StartTime="2558.419" EndTime="2564.671" Participant="mn052">
+      Yeah. There are a few - very - not a lot of - because the filter doesn't have a - really a deep negative portion,
+    </Segment>
+    <Segment StartTime="2564.671" EndTime="2567.862" Participant="mn052">
+      so that it's not really creating a <Emphasis> lot </Emphasis> of negative values in the cubic root.
+    </Segment>
+    <Segment StartTime="2567.862" EndTime="2568.647" Participant="mn052">
+      <VocalSound Description="breath"/>
+    </Segment>
+    <Segment StartTime="2568.647" EndTime="2569.953" Participant="mn052">
+      So, I'll -
+    </Segment>
+    <Segment StartTime="2570.388" EndTime="2576.712" Participant="mn052">
+      I'll s- may- continue with that for some w- I'll - I'll - Maybe I'll ask Carlos a little more about how to play with those filters,
+    </Segment>
+    <Segment StartTime="2576.712" EndTime="2579.732" Participant="mn052">
+      and - but while <Pause/> making this Wiener filter better.
+    </Segment>
+    <Segment StartTime="2578.857" EndTime="2579.945" Participant="fn002">
+      <NonVocalSound Description="mike noise"/>
+    </Segment>
+    <Segment StartTime="2580.629" EndTime="2581.855" Participant="mn052">
+      <VocalSound Description="mouth"/> So.
+    </Segment>
+    <Segment StartTime="2581.855" EndTime="2583.833" Participant="mn052">
+      Yeah. That - that's it, Morgan.
+    </Segment>
+    <Segment StartTime="2584.902" EndTime="2585.297" Participant="me013">
+      <VocalSound Description="mouth"/>
+    </Segment>
+    <Segment StartTime="2585.670" EndTime="2589.906" Participant="me013">
+      Uh, last week you were also talking about building up the subspace <Pause/> stuff?
+    </Segment>
+    <Segment StartTime="2588.993" EndTime="2596.850" Participant="mn052">
+      <VocalSound Description="mouth"/> Yeah. I - I - I would actually m- m- didn't get enough time to work on the subspace last week. It was mostly about <Pause/> finding those bugs and
+    </Segment>
+    <Segment StartTime="2596.850" EndTime="2597.421" Participant="mn052">
+      <VocalSound Description="mouth"/>
+    </Segment>
+    <Segment StartTime="2597.421" EndTime="2601.308" Participant="mn052">
+      th- you know, things, and I didn't work much on that.
+    </Segment>
+    <Segment StartTime="2597.743" EndTime="2598.278" Participant="me013">
+      O_K. <Comment Description="quietly"/>
+    </Segment>
+    <Segment StartTime="2603.513" EndTime="2604.818" Participant="mn052">
+      <VocalSound Description="sigh"/>
+    </Segment>
+    <Segment StartTime="2606.395" EndTime="2607.840" Participant="me018">
+      How <Pronounce Pronunciation="&quot;bout&quot;"> about  </Pronounce> you, Carmen?
+    </Segment>
+    <Segment StartTime="2608.050" EndTime="2615.230" Participant="fn002">
+      Well, I am still working with, eh, V_T_S. And, one of the things that last week,
+    </Segment>
+    <Segment StartTime="2612.750" EndTime="2616.390" Participant="mn052">
+      <NonVocalSound Description="pages turning"/>
+    </Segment>
+    <Segment StartTime="2616.500" EndTime="2623.872" Participant="fn002">
+      eh, say here is that maybe the problem was with the diff because the signal have different level of energy.
+    </Segment>
+    <Segment StartTime="2624.200" EndTime="2624.632" Participant="me013">
+      Hmm?
+    </Segment>
+    <Segment StartTime="2624.624" EndTime="2633.398" Participant="fn002">
+      And, maybe, talking with Stephane and with Sunil, we decide that maybe it was interesting to - to apply on-line normalization before applying V_T_S. <VocalSound Description="breath"/>
+    </Segment>
+    <Segment StartTime="2626.577" EndTime="2626.854" Participant="mn052">
+      <NonVocalSound Description="mike noise"/>
+    </Segment>
+    <Segment StartTime="2633.398" EndTime="2639.475" Participant="fn002">
+      But then <VocalSound Description="breath-laugh"/> we decided that that's - it doesn't work absolutely, because we modified also the noise.
+    </Segment>
+    <Segment StartTime="2634.580" EndTime="2635.193" Participant="me013">
+      <NonVocalSound Description="mike noise"/>
+    </Segment>
+    <Segment StartTime="2640.360" EndTime="2642.716" Participant="fn002">
+      And - Well, thinking
+    </Segment>
+    <Segment StartTime="2643.280" EndTime="2644.378" Participant="fn002">
+      about that, we -
+    </Segment>
+    <Segment StartTime="2645.187" EndTime="2657.354" Participant="fn002">
+      we then - we decide that maybe is a good idea. <VocalSound Description="laugh"/> We don't know. I don't hav- I don't - this is - I didn't <Pause/> do the experiment yet - to apply V_T_S
+    </Segment>
+    <Segment StartTime="2657.900" EndTime="2660.234" Participant="fn002">
+      in cepstral domain. <VocalSound Description="outbreath"/>
+    </Segment>
+    <Segment StartTime="2662.938" EndTime="2668.303" Participant="me013">
+      <VocalSound Description="breath"/> The other thing <Pause/> is - So - so, in - i- i- and -
+    </Segment>
+    <Segment StartTime="2669.015" EndTime="2671.566" Participant="me013">
+      Not - and C_zero would be a different -
+    </Segment>
+    <Segment StartTime="2671.566" EndTime="2672.199" Participant="me013">
+      <VocalSound Description="breath"/>
+    </Segment>
+    <Segment StartTime="2672.199" EndTime="2675.581" Participant="me013">
+      So you could do a different normalization for C_zero than for other things anyway.
+    </Segment>
+    <Segment StartTime="2676.035" EndTime="2684.086" Participant="me013">
+      <VocalSound Description="inbreath"/> I mean, the other thing I was gonna suggest is that you could have <Pause/> two kinds of normalization with - with, uh, different time constants. So,
+    </Segment>
+    <Segment StartTime="2679.120" EndTime="2679.790" Participant="fn002">
+      <VocalSound Description="inbreath"/>
+    </Segment>
+    <Segment StartTime="2684.086" EndTime="2684.778" Participant="me013">
+      <VocalSound Description="breath"/>
+    </Segment>
+    <Segment StartTime="2684.778" EndTime="2691.740" Participant="me013">
+      uh, you could do some normalization <VocalSound Description="inbreath"/> s- uh, before the V_T_S, and then do some other normalization after.
+    </Segment>
+    <Segment StartTime="2685.908" EndTime="2687.668" Participant="fn002">
+      <VocalSound Description="breath"/>
+    </Segment>
+    <Segment StartTime="2692.710" EndTime="2698.260" Participant="me013">
+      I don't know. But - but C_zero certainly acts differently than the others do, so that's -
+    </Segment>
+    <Segment StartTime="2695.210" EndTime="2696.449" Participant="fn002">
+      Uh. <VocalSound Description="breath"/>
+    </Segment>
+    <Segment StartTime="2697.958" EndTime="2698.630" Participant="mn007">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="2699.028" EndTime="2700.590" Participant="mn052">
+      <NonVocalSound Description="mike noise"/>
+    </Segment>
+    <Segment StartTime="2699.950" EndTime="2708.493" Participant="fn002">
+      Well, <Pronounce Pronunciation="&quot;weee&quot;"> we  </Pronounce> s- decide to m- to - to obtain the new expression if we work in the cepstral domain.
+    </Segment>
+    <Segment StartTime="2701.836" EndTime="2703.300" Participant="mn052">
+      <NonVocalSound Description="mike noise"/>
+    </Segment>
+    <Segment StartTime="2707.481" EndTime="2711.643" Participant="me013">
+      <VocalSound Description="breath"/>
+    </Segment>
+    <Segment StartTime="2708.493" EndTime="2718.477" Participant="fn002">
+      And - Well. I am working in that now, but <VocalSound Description="laugh"/> I'm not sure if that will be usefu- useful. I don't know. It's k- it's k-
+    </Segment>
+    <Segment StartTime="2711.643" EndTime="2712.278" Participant="me013">
+      Uh-huh.
+    </Segment>
+    <Segment StartTime="2719.229" EndTime="2727.121" Participant="fn002">
+      It's quite a lot - It's a lot of work. <VocalSound Description="laugh"/> Well, it's not too much, but this - it's work. And I want to know if -
+    </Segment>
+    <Segment StartTime="2721.937" EndTime="2722.412" Participant="me013">
+      Uh-huh.
+    </Segment>
+    <Segment StartTime="2725.270" EndTime="2725.596" Participant="me013">
+      Yeah.
+    </Segment>
+    <Segment StartTime="2727.576" EndTime="2732.475" Participant="fn002">
+      if we have some <Pause/> feeling that <Pause/> the result -
+    </Segment>
+    <Segment StartTime="2732.475" EndTime="2734.221" Participant="fn002">
+      I - I would like to know if - <VocalSound Description="breath"/>
+    </Segment>
+    <Segment StartTime="2734.221" EndTime="2738.487" Participant="fn002">
+      I don't have any feeling if this will work better than
+    </Segment>
+    <Segment StartTime="2738.487" EndTime="2746.130" Participant="fn002">
+      apply V_T_S aft- in cepstral domain will work better than apply in m- mel -
+    </Segment>
+    <Segment StartTime="2746.130" EndTime="2747.626" Participant="fn002">
+      in filter bank domain.
+    </Segment>
+    <Segment StartTime="2747.626" EndTime="2751.660" Participant="fn002">
+      I r- I'm not sure. I don't - I don't know absolutely nothing.
+    </Segment>
+    <Segment StartTime="2750.760" EndTime="2751.409" Participant="mn007">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="2752.560" EndTime="2755.767" Participant="me013">
+      Yeah. Well, you're - I think you're the first one here to work with V_T_S, so,
+    </Segment>
+    <Segment StartTime="2755.767" EndTime="2763.630" Participant="me013">
+      <VocalSound Description="breath"/> uh, maybe we could call someone else up who <Emphasis> has, </Emphasis> <VocalSound Description="laugh"/> ask them their opinion. Uh, I don't - I don't have a good feeling for it.
+    </Segment>
+    <Segment StartTime="2758.580" EndTime="2759.980" Participant="fn002">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2760.720" EndTime="2761.500" Participant="mn007">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="2761.270" EndTime="2762.040" Participant="fn002">
+      <VocalSound Description="inbreath"/>
+    </Segment>
+    <Segment StartTime="2764.529" EndTime="2765.181" Participant="me013">
+      Um.
+    </Segment>
+    <Segment StartTime="2766.735" EndTime="2767.349" Participant="mn052">
+      <Uncertain> Pratibha. </Uncertain> <Comment Description="whispered"/>
+    </Segment>
+    <Segment StartTime="2767.702" EndTime="2773.141" Participant="mn007">
+      Actually, the V_T_S that you tested before was in the log domain and so <Pause/> the codebook is
+    </Segment>
+    <Segment StartTime="2771.060" EndTime="2772.156" Participant="fn002">
+      Yeah?
+    </Segment>
+    <Segment StartTime="2773.972" EndTime="2778.651" Participant="mn007">
+      e- e- kind of dependent on the <Pause/> level of the speech signal. And -
+    </Segment>
+    <Segment StartTime="2778.651" EndTime="2779.442" Participant="mn007">
+      <VocalSound Description="inbreath"/>
+    </Segment>
+    <Segment StartTime="2779.442" EndTime="2779.840" Participant="mn007">
+      <VocalSound Description="clears throat"/>
+    </Segment>
+    <Segment StartTime="2780.350" EndTime="2784.945" Participant="mn007">
+      So I expect it - If - if you have something that's independent of this, I expect it to -
+    </Segment>
+    <Segment StartTime="2784.945" EndTime="2785.390" Participant="mn007">
+      it -
+    </Segment>
+    <Segment StartTime="2785.390" EndTime="2786.712" Participant="mn007">
+      to, uh, be a better
+    </Segment>
+    <Segment StartTime="2785.430" EndTime="2786.750" Participant="fn002">
+      To have better -
+    </Segment>
+    <Segment StartTime="2787.286" EndTime="2788.453" Participant="mn007">
+      model of speech.
+    </Segment>
+    <Segment StartTime="2789.660" EndTime="2791.590" Participant="mn007">
+      And. Well.
+    </Segment>
+    <Segment StartTime="2792.010" EndTime="2797.073" Participant="me013">
+      <VocalSound Description="breath"/> You - you wouldn't even need to switch to cepstra. Right? I mean, you can just sort of normalize the - <VocalSound Description="breath"/>
+    </Segment>
+    <Segment StartTime="2795.020" EndTime="2799.196" Participant="mn007">
+      No. We could normali- norm- I mean, remove the median.
+    </Segment>
+    <Segment StartTime="2797.950" EndTime="2799.673" Participant="me013">
+      Yeah. Yeah.
+    </Segment>
+    <Segment StartTime="2799.183" EndTime="2800.211" Participant="fn002">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="2799.673" EndTime="2806.140" Participant="me013">
+      And then you have <Pause/> <Emphasis> one </Emphasis> number which <Emphasis> is </Emphasis> very dependent on the level cuz it <Emphasis> is </Emphasis> the level, <VocalSound Description="laugh"/> and the other which isn't. <VocalSound Description="breath-laugh"/>
+    </Segment>
+    <Segment StartTime="2803.490" EndTime="2805.180" Participant="mn007">
+      <VocalSound Description="sniff"/> Mm-hmm. <VocalSound Description="breath"/>
+    </Segment>
+    <Segment StartTime="2803.972" EndTime="2804.269" Participant="fn002">
+      <VocalSound Description="breath-laugh"/>
+    </Segment>
+    <Segment StartTime="2805.180" EndTime="2805.734" Participant="mn007">
+      Yeah. <Comment Description="quietly"/>
+    </Segment>
+    <Segment StartTime="2806.890" EndTime="2811.425" Participant="mn007">
+      But here also we would have to be careful about removing the mean <Pause/> of speech and
+    </Segment>
+    <Segment StartTime="2812.181" EndTime="2812.438" Participant="fn002">
+      Ye-
+    </Segment>
+    <Segment StartTime="2812.395" EndTime="2817.379" Participant="mn007">
+      not of noise. Because it's like <Pause/> first doing general normalization and then
+    </Segment>
+    <Segment StartTime="2813.253" EndTime="2815.650" Participant="fn002">
+      Yea- <VocalSound Description="breath"/>
+    </Segment>
+    <Segment StartTime="2818.269" EndTime="2819.654" Participant="mn007">
+      noise removal, which is -
+    </Segment>
+    <Segment StartTime="2819.859" EndTime="2824.409" Participant="fn002">
+      Yeah. We - I was thinking to - to -
+    </Segment>
+    <Segment StartTime="2825.299" EndTime="2833.271" Participant="fn002">
+      to estimate the noise <Pause/> with the first frames and then apply the V_A_D,
+    </Segment>
+    <Segment StartTime="2829.990" EndTime="2831.054" Participant="mn007">
+      <VocalSound Description="sniff"/> <VocalSound Description="clears throat"/>
+    </Segment>
+    <Segment StartTime="2833.812" EndTime="2834.286" Participant="me013">
+      Mm-hmm. <Comment Description="quietly"/>
+    </Segment>
+    <Segment StartTime="2834.179" EndTime="2834.574" Participant="mn007">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="2834.590" EndTime="2837.519" Participant="fn002">
+      before the on-line normalization.
+    </Segment>
+    <Segment StartTime="2838.031" EndTime="2839.639" Participant="fn002">
+      We - we see -
+    </Segment>
+    <Segment StartTime="2838.630" EndTime="2839.064" Participant="mn007">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="2839.639" EndTime="2841.410" Participant="fn002">
+      Well, I am thinking <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2841.410" EndTime="2846.490" Participant="fn002">
+      about that and working about that, but I don't have result this week. <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2843.090" EndTime="2843.563" Participant="me013">
+      Yeah.
+    </Segment>
+    <Segment StartTime="2845.704" EndTime="2851.618" Participant="me013">
+      Sure. I mean, one of the things we've talked about - maybe it might be star- time to start thinking about pretty soon, is
+    </Segment>
+    <Segment StartTime="2851.618" EndTime="2857.800" Participant="me013">
+      as we look at the pros and cons of these different methods, how do they fit in with one another? Because <Pause/> we've talked about
+    </Segment>
+    <Segment StartTime="2858.393" EndTime="2860.966" Participant="me013">
+      potentially doing some combination of a couple of them.
+    </Segment>
+    <Segment StartTime="2860.966" EndTime="2866.325" Participant="me013">
+      <VocalSound Description="inbreath"/> Maybe - maybe pretty soon we'll have some sense of what their <Pause/> characteristics are, so we can see what
+    </Segment>
+    <Segment StartTime="2861.497" EndTime="2862.823" Participant="fn002">
+      Mm-hmm. <VocalSound Description="breath"/>
+    </Segment>
+    <Segment StartTime="2866.780" EndTime="2867.749" Participant="me013">
+      should be combined.
+    </Segment>
+    <Segment StartTime="2868.499" EndTime="2869.144" Participant="mn007">
+      Mm-hmm. <Comment Description="quietly"/>
+    </Segment>
+    <Segment StartTime="2873.880" EndTime="2875.562" Participant="me018">
+      <VocalSound Description="mouth"/> Is that it?
+    </Segment>
+    <Segment StartTime="2876.193" EndTime="2879.840" Participant="me013">
+      <VocalSound Description="breath"/> O_K. Why don't we read some digits?
+    </Segment>
+    <Segment StartTime="2877.434" EndTime="2880.880" Participant="me018">
+      O_K? Yep. <VocalSound Description="clears throat"/> Want to go ahead, Morgan?
+    </Segment>
+    <Segment StartTime="2880.429" EndTime="2881.069" Participant="me013">
+      Sure.
+    </Segment>
+    <Segment StartTime="2881.990" EndTime="2882.740" Participant="me018">
+      <VocalSound Description="breath"/>
+    </Segment>
+    <Segment StartTime="2885.304" EndTime="2886.330" Participant="mn007">
+      <NonVocalSound Description="mike noise"/>
+    </Segment>
+    <Segment StartTime="2887.790" EndTime="2890.260" Participant="me013" DigitTask="true">
+      Transcript L_ dash two one two. <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="2891.980" EndTime="2896.132" Participant="me013" DigitTask="true">
+      Two, four eight eight, two nine, one zero zero, nine. <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="2897.320" EndTime="2901.032" Participant="me013" DigitTask="true">
+      Seven zero, six one, seven eight, two five, nine six. <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="2900.790" EndTime="2901.800" Participant="fn002">
+      <VocalSound Description="breath"/>
+    </Segment>
+    <Segment StartTime="2901.960" EndTime="2904.748" Participant="me013" DigitTask="true">
+      Eight five eight, seven seven nine, six one nine. <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="2905.664" EndTime="2909.620" Participant="me013" DigitTask="true">
+      Four eight four four, one, seven five two. <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="2908.000" EndTime="2908.800" Participant="fn002">
+      <VocalSound Description="breath"/>
+    </Segment>
+    <Segment StartTime="2910.220" EndTime="2913.496" Participant="me013" DigitTask="true">
+      Two four, six two, seven two, one eight, two one. <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="2914.529" EndTime="2918.176" Participant="me013" DigitTask="true">
+      Eight, five five two, three five, one two five, one. <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="2919.442" EndTime="2922.444" Participant="me013" DigitTask="true">
+      Five zero three eight, one, one seven seven. <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="2923.640" EndTime="2928.050" Participant="me013" DigitTask="true">
+      Six, nine seven four, nine six, three one one, five. <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="2927.490" EndTime="2928.450" Participant="fn002">
+      <VocalSound Description="breath"/>
+    </Segment>
+    <Segment StartTime="2929.577" EndTime="2931.967" Participant="mn007" DigitTask="true">
+      Transcript L_ dash two one three. <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="2932.500" EndTime="2936.565" Participant="mn007" DigitTask="true">
+      Two four, five four, four three, seven six, five seven. <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="2937.150" EndTime="2940.677" Participant="mn007" DigitTask="true">
+      Three one eight, O_ two O_, nine nine seven. <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="2940.881" EndTime="2944.793" Participant="mn007" DigitTask="true">
+      One, three one seven, three eight, eight three one, three. <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="2945.640" EndTime="2950.615" Participant="mn007" DigitTask="true">
+      Zero seven one seven, two four one five, three nine eight five. <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="2951.090" EndTime="2955.676" Participant="mn007" DigitTask="true">
+      Zero, nine eight nine, zero six, two one seven, three. <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="2956.210" EndTime="2959.968" Participant="mn007" DigitTask="true">
+      Two nine, nine five, six nine, six six, nine nine. <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="2960.583" EndTime="2964.741" Participant="mn007" DigitTask="true">
+      Eight five nine, nine four six, four six five one. <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="2961.540" EndTime="2962.840" Participant="fn002">
+      <VocalSound Description="breath"/>
+    </Segment>
+    <Segment StartTime="2965.290" EndTime="2966.780" Participant="fn002">
+      <VocalSound Description="breath"/>
+    </Segment>
+    <Segment StartTime="2965.536" EndTime="2969.700" Participant="mn007" DigitTask="true">
+      Two four five, three seven five, nine nine three five. <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="2969.133" EndTime="2970.030" Participant="me006">
+      <VocalSound Description="breath"/>
+    </Segment>
+    <Segment StartTime="2970.030" EndTime="2972.595" Participant="me006" DigitTask="true">
+      Transcript L_ dash two one four. <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="2972.560" EndTime="2973.430" Participant="fn002">
+      <NonVocalSound Description="mike noise"/>
+    </Segment>
+    <Segment StartTime="2973.340" EndTime="2977.179" Participant="me006" DigitTask="true">
+      Seven five three, nine five nine, one three five two. <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="2977.674" EndTime="2982.040" Participant="me006" DigitTask="true">
+      Five three five, one O_ one, O_ six seven. <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="2982.510" EndTime="2986.632" Participant="me006" DigitTask="true">
+      One seven zero, four three seven, one five five. <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="2987.131" EndTime="2992.756" Participant="me006" DigitTask="true">
+      Nine, two four six, eight one, O_ seven one, zero. <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="2993.079" EndTime="2997.428" Participant="me006" DigitTask="true">
+      One <Pause/> four seven, seven six, seven nine one five. <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="2998.158" EndTime="3003.503" Participant="me006" DigitTask="true">
+      Two one nine two, two zero nine five, six zero nine seven. <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="3004.341" EndTime="3009.687" Participant="me006" DigitTask="true">
+      Zero, two five zero, eight five, eight four zero, five. <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="3010.103" EndTime="3014.323" Participant="me006" DigitTask="true">
+      Three four t- <Emphasis> two </Emphasis> three, seven, four nine one. <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="3015.120" EndTime="3015.640" Participant="fn002">
+      <VocalSound Description="breath"/>
+    </Segment>
+    <Segment StartTime="3015.190" EndTime="3017.976" Participant="me018">
+      Transcript L_ dash two one five. <VocalSound Description="clears throat"/>
+    </Segment>
+    <Segment StartTime="3018.409" EndTime="3022.507" Participant="me018" DigitTask="true">
+      Three five seven one, six five four five, nine nine one nine. <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="3020.330" EndTime="3021.030" Participant="fn002">
+      <NonVocalSound Description="mike noise"/>
+    </Segment>
+    <Segment StartTime="3022.902" EndTime="3026.108" Participant="me018" DigitTask="true">
+      Five five two, zero eight five, two two five. <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="3026.680" EndTime="3029.440" Participant="me006">
+      <VocalSound Description="breath"/>
+    </Segment>
+    <Segment StartTime="3026.731" EndTime="3030.012" Participant="me018" DigitTask="true">
+      One three seven, nine eight eight, nine five eight. <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="3030.530" EndTime="3034.299" Participant="me018" DigitTask="true">
+      Zero five six, six five four, zero five eight nine. <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="3034.826" EndTime="3038.063" Participant="me018" DigitTask="true">
+      Three four five six, five, two six eight. <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="3038.980" EndTime="3042.400" Participant="me018" DigitTask="true">
+      Three zero one eight, two, eight six eight. <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="3042.430" EndTime="3044.760" Participant="me006">
+      <VocalSound Description="breath"/>
+    </Segment>
+    <Segment StartTime="3042.980" EndTime="3047.514" Participant="me018" DigitTask="true">
+      Eight three, <Comment Description="misparsed by speaker as &quot;eight, three&quot;"/> nine four, four zero, seven six, three three. <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="3048.139" EndTime="3051.593" Participant="me018" DigitTask="true">
+      Five zero seven, nine three two, zero three zero. <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="3050.440" EndTime="3052.220" Participant="fn002">
+      <VocalSound Description="breath"/>
+    </Segment>
+    <Segment StartTime="3052.660" EndTime="3055.466" Participant="mn052" DigitTask="true">
+      Transcript L_ dash two one six. <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="3055.861" EndTime="3058.797" Participant="mn052" DigitTask="true">
+      Zero two zero, one three, two nine five zero. <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="3059.531" EndTime="3062.675" Participant="mn052" DigitTask="true">
+      Zero one three, eight zero, nine six two six. <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="3063.140" EndTime="3066.784" Participant="mn052" DigitTask="true">
+      Zero two, seven four, four zero, seven five, nine one. <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="3067.654" EndTime="3071.116" Participant="mn052" DigitTask="true">
+      Two four, seven two, two nine, three two, three three. <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="3071.770" EndTime="3075.100" Participant="mn052" DigitTask="true">
+      Seven four five, one one, four eight one seven. <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="3075.903" EndTime="3079.766" Participant="mn052" DigitTask="true">
+      Six, nine one eight, nine five, three nine six, four. <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="3080.690" EndTime="3084.244" Participant="mn052" DigitTask="true">
+      Six six seven six, three, seven nine nine. <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="3085.246" EndTime="3089.134" Participant="mn052" DigitTask="true">
+      Five one, seven zero, nine zero, seven eight, one one. <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="3090.730" EndTime="3092.953" Participant="me026" DigitTask="true">
+      Transcript L_ dash two one seven. <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="3092.830" EndTime="3095.350" Participant="me006">
+      <VocalSound Description="breath"/>
+    </Segment>
+    <Segment StartTime="3093.330" EndTime="3096.810" Participant="me026" DigitTask="true">
+      Seven two three, nine five, four two one one. <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="3097.178" EndTime="3101.939" Participant="me026" DigitTask="true">
+      Nine, two three eight, five two, three six three, nine. <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="3102.625" EndTime="3106.186" Participant="me026" DigitTask="true">
+      Zero four seven, two one seven, one one nine. <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="3106.785" EndTime="3111.649" Participant="me026" DigitTask="true">
+      Three one five five, nine two six six, zero five eight four. <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="3112.425" EndTime="3117.475" Participant="me026" DigitTask="true">
+      Five nine eight eight, four eight three eight, six nine three four. <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="3118.493" EndTime="3122.877" Participant="me026" DigitTask="true">
+      Eight five one, one four nine, zero one seven. <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="3122.340" EndTime="3123.210" Participant="me013">
+      <NonVocalSound Description="mike noise"/>
+    </Segment>
+    <Segment StartTime="3123.867" EndTime="3128.166" Participant="me026" DigitTask="true">
+      Zero three zero zero, six, five eight seven. <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="3128.859" EndTime="3133.022" Participant="me026" DigitTask="true">
+      Five three two, four two, five seven eight eight. <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="3133.810" EndTime="3138.074" Participant="fn002" DigitTask="true">
+      Transcript L_ dash two one eight. <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="3138.417" EndTime="3143.437" Participant="fn002" DigitTask="true">
+      Eight, eight nine six, O_ two, three six six, seven. <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="3142.490" EndTime="3143.280" Participant="me006">
+      <VocalSound Description="breath"/>
+    </Segment>
+    <Segment StartTime="3143.780" EndTime="3148.734" Participant="fn002" DigitTask="true">
+      Seven eight, O_ seven, one seven, two O_, three nine. <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="3149.172" EndTime="3153.940" Participant="fn002" DigitTask="true">
+      O_ six four, three two two, eight five one. <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="3154.316" EndTime="3158.842" Participant="fn002" DigitTask="true">
+      Five one five, five nine, nine nine six one. <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="3159.309" EndTime="3164.744" Participant="fn002" DigitTask="true">
+      Four three seven, eight seven six, six eight five seven. <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="3165.328" EndTime="3169.561" Participant="fn002" DigitTask="true">
+      O_ three six, nine two six, O_ two nine. <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="3170.032" EndTime="3174.303" Participant="fn002" DigitTask="true">
+      Three eight one, five five, eight four three four. <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="3174.623" EndTime="3178.576" Participant="fn002" DigitTask="true">
+      Four one five, five O_ one, five two eight. <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="3178.420" EndTime="3179.370" Participant="me018">
+      <VocalSound Description="breath"/>
+    </Segment>
+    <Segment StartTime="3181.073" EndTime="3182.139" Participant="me013">
+      O_<Emphasis> K. </Emphasis> <Comment Description="marks end of meeting"/>
+    </Segment>
+
+  </Transcript>
+
+</Meeting>
+

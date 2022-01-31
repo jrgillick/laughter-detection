@@ -1,0 +1,2013 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE Meeting SYSTEM "http://www.icsi.berkeley.edu/Speech/mr/Meeting1.dtd">
+
+<Meeting Session="Bmr013" DateTimeStamp="2001-02-08-1430" Version="2" VersionDate="Jan 7 2004">
+
+  <Preamble>
+    <Notes>
+      Transcription begins at 1:38 into recording.  Conversation earlier is
+   segmented, with pieces marked simply as "pre-meeting utterance",
+   during the period that the recording equipment was being set up
+   and debugged.
+    </Notes>
+    <Channels>
+      <Channel Name="chan1" Mic="s1" Transmission="w1" Gain="8" AudioFile="chan1.sph"/>
+      <Channel Name="chan2" Mic="s1" Transmission="w1" Gain="8" AudioFile="chan2.sph"/>
+      <Channel Name="chan3" Mic="s1" Transmission="w1" Gain="8" AudioFile="chan3.sph"/>
+      <Channel Name="chan4" Mic="s1" Transmission="w1" Gain="8" AudioFile="chan4.sph"/>
+      <Channel Name="chan5" Mic="a1" Transmission="j1" Gain="6" AudioFile="chan5.sph"/>
+      <Channel Name="chan6" Mic="c2" Transmission="u1" Gain="8" AudioFile="chan6.sph"/>
+      <Channel Name="chan7" Mic="c2" Transmission="u1" Gain="8" AudioFile="chan7.sph"/>
+      <Channel Name="chan8" Mic="p1" Transmission="j1" Gain="13" AudioFile="chan8.sph"/>
+      <Channel Name="chanB" Mic="u1" Transmission="j1" Gain="11" AudioFile="chanB.sph"/>
+      <Channel Name="chanC" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanC.sph"/>
+      <Channel Name="chanD" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanD.sph"/>
+      <Channel Name="chanE" Mic="c2" Transmission="u1" Gain="8" AudioFile="chanE.sph"/>
+      <Channel Name="chanF" Mic="c2" Transmission="u1" Gain="8" AudioFile="chanF.sph"/>
+    </Channels>
+    <Participants DB="icsi1.spk">
+      <Participant Name="mn014" Channel="chan1" Seat="2"/>
+      <Participant Name="fe008" Channel="chan2" Seat="1"/>
+      <Participant Name="me013" Channel="chan3" Seat="6"/>
+      <Participant Name="me018" Channel="chan4" Seat="7"/>
+      <Participant Name="me001" Channel="chan5" Seat="3"/>
+      <Participant Name="me011" Channel="chan8" Seat="8"/>
+      <Participant Name="fe016" Channel="chanB" Seat="9"/>
+    </Participants>
+  </Preamble>
+
+
+  <Transcript StartTime="0.0" EndTime="2907.472">
+
+    <Segment StartTime="0.000" EndTime="7.540" CloseMic="false">
+      <Comment Description="Meeting starts 1 min. 38 secs into recording. Due to chaos of people checking mikes, et cetera. Transcription starts also at 1 min. 38 sec. Presegs prior to that are left available, though, just in case &quot;pre-meeting&quot; becomes of interest."/>
+    </Segment>
+    <Segment StartTime="0.620" EndTime="1.520" Participant="me013">
+      <VocalSound Description="pre-meeting utterance"/>
+    </Segment>
+    <Segment StartTime="0.750" EndTime="1.710" Participant="fe008">
+      <VocalSound Description="pre-meeting utterance"/>
+    </Segment>
+    <Segment StartTime="1.910" EndTime="3.050" Participant="fe008">
+      <VocalSound Description="pre-meeting utterance"/>
+    </Segment>
+    <Segment StartTime="2.620" EndTime="3.540" Participant="me001">
+      <VocalSound Description="pre-meeting utterance"/>
+    </Segment>
+    <Segment StartTime="3.060" EndTime="4.800" Participant="fe008">
+      <VocalSound Description="pre-meeting utterance"/>
+    </Segment>
+    <Segment StartTime="3.600" EndTime="4.760" Participant="mn014">
+      <VocalSound Description="pre-meeting utterance"/>
+    </Segment>
+    <Segment StartTime="5.110" EndTime="7.280" Participant="me001">
+      <VocalSound Description="pre-meeting utterance"/>
+    </Segment>
+    <Segment StartTime="5.200" EndTime="6.620" Participant="me018">
+      <VocalSound Description="pre-meeting utterance"/>
+    </Segment>
+    <Segment StartTime="5.360" EndTime="7.160" Participant="mn014">
+      <VocalSound Description="pre-meeting utterance"/>
+    </Segment>
+    <Segment StartTime="10.750" EndTime="11.530" Participant="fe008">
+      <VocalSound Description="pre-meeting utterance"/>
+    </Segment>
+    <Segment StartTime="11.030" EndTime="11.530" Participant="mn014">
+      <VocalSound Description="pre-meeting utterance"/>
+    </Segment>
+    <Segment StartTime="11.530" EndTime="14.590" Participant="me013">
+      <VocalSound Description="pre-meeting utterance"/>
+    </Segment>
+    <Segment StartTime="14.080" EndTime="15.650" Participant="me001">
+      <VocalSound Description="pre-meeting utterance"/>
+    </Segment>
+    <Segment StartTime="14.620" EndTime="15.930" Participant="me018">
+      <VocalSound Description="pre-meeting utterance"/>
+    </Segment>
+    <Segment StartTime="16.390" EndTime="18.170" Participant="me013">
+      <VocalSound Description="pre-meeting utterance"/>
+    </Segment>
+    <Segment StartTime="17.940" EndTime="18.610" Participant="me001">
+      <VocalSound Description="pre-meeting utterance"/>
+    </Segment>
+    <Segment StartTime="18.170" EndTime="18.370" Participant="me018">
+      <VocalSound Description="pre-meeting utterance"/>
+    </Segment>
+    <Segment StartTime="18.430" EndTime="19.310" Participant="me013">
+      <VocalSound Description="pre-meeting utterance"/>
+    </Segment>
+    <Segment StartTime="19.310" EndTime="23.620" Participant="me018">
+      <VocalSound Description="pre-meeting utterance"/>
+    </Segment>
+    <Segment StartTime="20.090" EndTime="22.950" Participant="mn014">
+      <VocalSound Description="pre-meeting utterance"/>
+    </Segment>
+    <Segment StartTime="20.340" EndTime="23.620" Participant="fe008">
+      <VocalSound Description="pre-meeting utterance"/>
+    </Segment>
+    <Segment StartTime="22.090" EndTime="23.290" Participant="me001">
+      <VocalSound Description="pre-meeting utterance"/>
+    </Segment>
+    <Segment StartTime="23.640" EndTime="28.330" Participant="fe008">
+      <VocalSound Description="pre-meeting utterance"/>
+    </Segment>
+    <Segment StartTime="23.690" EndTime="28.040" Participant="me013">
+      <VocalSound Description="pre-meeting utterance"/>
+    </Segment>
+    <Segment StartTime="25.100" EndTime="27.560" Participant="me018">
+      <VocalSound Description="pre-meeting utterance"/>
+    </Segment>
+    <Segment StartTime="28.520" EndTime="30.190" Participant="me013">
+      <VocalSound Description="pre-meeting utterance"/>
+    </Segment>
+    <Segment StartTime="28.770" EndTime="30.290" Participant="me001">
+      <VocalSound Description="pre-meeting utterance"/>
+    </Segment>
+    <Segment StartTime="29.380" EndTime="30.190" Participant="fe008">
+      <VocalSound Description="pre-meeting utterance"/>
+    </Segment>
+    <Segment StartTime="30.190" EndTime="30.800" Participant="me018">
+      <VocalSound Description="pre-meeting utterance"/>
+    </Segment>
+    <Segment StartTime="30.800" EndTime="32.100" Participant="mn014">
+      <VocalSound Description="pre-meeting utterance"/>
+    </Segment>
+    <Segment StartTime="30.800" EndTime="32.880" Participant="fe008">
+      <VocalSound Description="pre-meeting utterance"/>
+    </Segment>
+    <Segment StartTime="30.800" EndTime="33.220" Participant="me013">
+      <VocalSound Description="pre-meeting utterance"/>
+    </Segment>
+    <Segment StartTime="32.530" EndTime="33.480" Participant="me001">
+      <VocalSound Description="pre-meeting utterance"/>
+    </Segment>
+    <Segment StartTime="33.680" EndTime="35.090" Participant="me018">
+      <VocalSound Description="pre-meeting utterance"/>
+    </Segment>
+    <Segment StartTime="33.910" EndTime="35.090" Participant="me013">
+      <VocalSound Description="pre-meeting utterance"/>
+    </Segment>
+    <Segment StartTime="35.640" EndTime="36.770" Participant="me001">
+      <VocalSound Description="pre-meeting utterance"/>
+    </Segment>
+    <Segment StartTime="37.930" EndTime="46.130" Participant="fe008">
+      <VocalSound Description="pre-meeting utterance"/>
+    </Segment>
+    <Segment StartTime="38.080" EndTime="39.690" Participant="me018">
+      <VocalSound Description="pre-meeting utterance"/>
+    </Segment>
+    <Segment StartTime="39.320" EndTime="40.180" Participant="me001">
+      <VocalSound Description="pre-meeting utterance"/>
+    </Segment>
+    <Segment StartTime="39.990" EndTime="41.260" Participant="me013">
+      <VocalSound Description="pre-meeting utterance"/>
+    </Segment>
+    <Segment StartTime="41.160" EndTime="42.040" Participant="me018">
+      <VocalSound Description="pre-meeting utterance"/>
+    </Segment>
+    <Segment StartTime="46.130" EndTime="48.570" Participant="me018">
+      <VocalSound Description="pre-meeting utterance"/>
+    </Segment>
+    <Segment StartTime="47.140" EndTime="48.940" Participant="fe008">
+      <VocalSound Description="pre-meeting utterance"/>
+    </Segment>
+    <Segment StartTime="48.570" EndTime="49.330" Participant="me013">
+      <VocalSound Description="pre-meeting utterance"/>
+    </Segment>
+    <Segment StartTime="49.890" EndTime="51.790" Participant="me013">
+      <VocalSound Description="pre-meeting utterance"/>
+    </Segment>
+    <Segment StartTime="50.570" EndTime="52.850" Participant="fe008">
+      <VocalSound Description="pre-meeting utterance"/>
+    </Segment>
+    <Segment StartTime="53.770" EndTime="57.790" Participant="me013">
+      <VocalSound Description="pre-meeting utterance"/>
+    </Segment>
+    <Segment StartTime="53.770" EndTime="54.690" Participant="fe008">
+      <VocalSound Description="pre-meeting utterance"/>
+    </Segment>
+    <Segment StartTime="53.800" EndTime="54.440" Participant="me001">
+      <VocalSound Description="pre-meeting utterance"/>
+    </Segment>
+    <Segment StartTime="53.840" EndTime="54.520" Participant="mn014">
+      <VocalSound Description="pre-meeting utterance"/>
+    </Segment>
+    <Segment StartTime="54.440" EndTime="56.320" Participant="me011">
+      <VocalSound Description="pre-meeting utterance"/>
+    </Segment>
+    <Segment StartTime="57.790" EndTime="62.450" Participant="me011">
+      <VocalSound Description="pre-meeting utterance"/>
+    </Segment>
+    <Segment StartTime="59.100" EndTime="60.050" Participant="fe008">
+      <VocalSound Description="pre-meeting utterance"/>
+    </Segment>
+    <Segment StartTime="62.820" EndTime="63.600" Participant="me011">
+      <VocalSound Description="pre-meeting utterance"/>
+    </Segment>
+    <Segment StartTime="62.900" EndTime="63.730" Participant="fe008">
+      <VocalSound Description="pre-meeting utterance"/>
+    </Segment>
+    <Segment StartTime="64.920" EndTime="67.740" Participant="me011">
+      <VocalSound Description="pre-meeting utterance"/>
+    </Segment>
+    <Segment StartTime="65.660" EndTime="67.930" Participant="me018">
+      <VocalSound Description="pre-meeting utterance"/>
+    </Segment>
+    <Segment StartTime="67.930" EndTime="74.250" Participant="me011">
+      <VocalSound Description="pre-meeting utterance"/>
+    </Segment>
+    <Segment StartTime="73.020" EndTime="73.030" Participant="me013">
+      <VocalSound Description="pre-meeting utterance"/>
+    </Segment>
+    <Segment StartTime="73.570" EndTime="74.900" Participant="me018">
+      <VocalSound Description="pre-meeting utterance"/>
+    </Segment>
+    <Segment StartTime="74.640" EndTime="74.900" Participant="me011">
+      <VocalSound Description="pre-meeting utterance"/>
+    </Segment>
+    <Segment StartTime="75.100" EndTime="78.680" Participant="me011">
+      <VocalSound Description="pre-meeting utterance"/>
+    </Segment>
+    <Segment StartTime="78.930" EndTime="84.930" Participant="fe016">
+      <VocalSound Description="pre-meeting utterance"/>
+    </Segment>
+    <Segment StartTime="84.930" EndTime="89.820" Participant="me011">
+      <VocalSound Description="pre-meeting utterance"/>
+    </Segment>
+    <Segment StartTime="86.580" EndTime="89.050" Participant="fe016">
+      <VocalSound Description="pre-meeting utterance"/>
+    </Segment>
+    <Segment StartTime="89.250" EndTime="89.840" Participant="me013">
+      <VocalSound Description="pre-meeting utterance"/>
+    </Segment>
+    <Segment StartTime="90.010" EndTime="90.070" Participant="me013">
+      <VocalSound Description="pre-meeting utterance"/>
+    </Segment>
+    <Segment StartTime="90.130" EndTime="98.018" Participant="me013">
+      <VocalSound Description="pre-meeting utterance"/>
+    </Segment>
+    <Segment StartTime="90.860" EndTime="91.970" Participant="me011">
+      <VocalSound Description="pre-meeting utterance"/>
+    </Segment>
+    <Segment StartTime="92.020" EndTime="92.570" Participant="me018">
+      <VocalSound Description="pre-meeting utterance"/>
+    </Segment>
+    <Segment StartTime="92.120" EndTime="95.420" Participant="fe008">
+      <VocalSound Description="pre-meeting utterance"/>
+    </Segment>
+    <Segment StartTime="92.495" EndTime="93.033" Participant="fe016">
+      Oh.
+    </Segment>
+    <Segment StartTime="93.460" EndTime="93.700" Participant="me018">
+      <VocalSound Description="pre-meeting utterance"/>
+    </Segment>
+    <Segment StartTime="95.780" EndTime="96.530" Participant="fe008">
+      <VocalSound Description="pre-meeting utterance"/>
+    </Segment>
+    <Segment StartTime="96.127" EndTime="97.123" Participant="me011">
+      <NonVocalSound Description="mike noise"/>
+    </Segment>
+    <Segment StartTime="98.018" EndTime="99.904" Participant="me013">
+      So, uh -
+    </Segment>
+    <Segment StartTime="98.190" EndTime="98.830" Participant="fe008">
+      Alright.
+    </Segment>
+    <Segment StartTime="98.717" EndTime="101.008" Participant="me011">
+      Um, so I wanted to discuss digits briefly,
+    </Segment>
+    <Segment StartTime="99.904" EndTime="101.040" Participant="me013">
+      Oh good.
+    </Segment>
+    <Segment StartTime="101.008" EndTime="102.383" Participant="me011">
+      but that won't take too long.
+    </Segment>
+    <Segment StartTime="101.040" EndTime="101.510" Participant="me013">
+      Right.
+    </Segment>
+    <Segment StartTime="102.300" EndTime="104.310" Participant="me013">
+      O_K, agenda items,
+    </Segment>
+    <Segment StartTime="104.750" EndTime="106.241" Participant="me013">
+      Uh, we have digits,
+    </Segment>
+    <Segment StartTime="105.608" EndTime="106.583" Participant="me011">
+      <NonVocalSound Description="mike noise"/>
+    </Segment>
+    <Segment StartTime="106.241" EndTime="107.192" Participant="me013">
+      What else we got?
+    </Segment>
+    <Segment StartTime="107.700" EndTime="109.812" Participant="mn014">
+      New version of the presegmentation.
+    </Segment>
+    <Segment StartTime="108.465" EndTime="109.312" Participant="me011">
+      <NonVocalSound Description="mike noise"/>
+    </Segment>
+    <Segment StartTime="109.720" EndTime="112.540" Participant="me013">
+      New version of presegmentation.
+    </Segment>
+    <Segment StartTime="112.768" EndTime="114.203" Participant="me011">
+      <NonVocalSound Description="mike noise"/>
+    </Segment>
+    <Segment StartTime="113.355" EndTime="114.160" Participant="fe008">
+      Um,
+    </Segment>
+    <Segment StartTime="114.610" EndTime="116.035" Participant="fe008">
+      do we wanna say something about the,
+    </Segment>
+    <Segment StartTime="115.310" EndTime="117.330" Participant="fe016">
+      Yeah, why don't you summarize the -
+    </Segment>
+    <Segment StartTime="116.373" EndTime="119.282" Participant="fe008">
+      an update of the, uh, transcript?
+    </Segment>
+    <Segment StartTime="119.650" EndTime="121.693" Participant="me013">
+      Update on transcripts.
+    </Segment>
+    <Segment StartTime="121.831" EndTime="123.544" Participant="fe016">
+      And I guess that includes some -
+    </Segment>
+    <Segment StartTime="124.022" EndTime="125.557" Participant="fe016">
+      the filtering for the,
+    </Segment>
+    <Segment StartTime="125.875" EndTime="127.589" Participant="fe016">
+      the A_S_I refs, too.
+    </Segment>
+    <Segment StartTime="128.278" EndTime="128.716" Participant="fe008">
+      Mmm.
+    </Segment>
+    <Segment StartTime="129.070" EndTime="130.360" Participant="me013">
+      Filtering for what?
+    </Segment>
+    <Segment StartTime="130.283" EndTime="132.917" Participant="fe016">
+      For the references that we need to go from the -
+    </Segment>
+    <Segment StartTime="133.216" EndTime="136.583" Participant="fe016">
+      the <Pause/> <Emphasis> fancy </Emphasis> transcripts to the sort of <NonVocalSound Description="mike noise"/> <Emphasis> brain-dead. </Emphasis>
+    </Segment>
+    <Segment StartTime="135.171" EndTime="140.120" Participant="fe008">
+      It'll - it'll be - basically it'll be a re-cap of a meeting that we had jointly this morning.
+    </Segment>
+    <Segment StartTime="137.790" EndTime="138.590" Participant="me013">
+      Uh-huh.
+    </Segment>
+    <Segment StartTime="139.473" EndTime="140.629" Participant="fe016">
+      With Don, as well.
+    </Segment>
+    <Segment StartTime="140.409" EndTime="140.907" Participant="fe008">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="140.983" EndTime="141.840" Participant="me013">
+      Got it.
+    </Segment>
+    <Segment StartTime="143.611" EndTime="145.922" Participant="me013">
+      Anything else more pressing than those things? So -
+    </Segment>
+    <Segment StartTime="144.731" EndTime="145.863" Participant="me011">
+      <NonVocalSound Description="mike noise"/>
+    </Segment>
+    <Segment StartTime="145.922" EndTime="149.230" Participant="me013">
+      So, why don't we just do those. You said yours was brief, so -
+    </Segment>
+    <Segment StartTime="147.640" EndTime="148.118" Participant="me011">
+      O_K.
+    </Segment>
+    <Segment StartTime="149.522" EndTime="150.724" Participant="me011">
+      O_K well, the, w- uh
+    </Segment>
+    <Segment StartTime="150.724" EndTime="153.373" Participant="me011">
+      as you can see from the numbers on the digits we're almost done.
+    </Segment>
+    <Segment StartTime="153.373" EndTime="156.043" Participant="me011">
+      The digits goes up to <Pause/> about four thousand.
+    </Segment>
+    <Segment StartTime="156.700" EndTime="157.199" Participant="me011">
+      Um,
+    </Segment>
+    <Segment StartTime="157.740" EndTime="158.902" Participant="me011">
+      and so, uh,
+    </Segment>
+    <Segment StartTime="159.473" EndTime="162.203" Participant="me011">
+      we probably will be done with the T_I-digits in,
+    </Segment>
+    <Segment StartTime="162.721" EndTime="164.036" Participant="me011">
+      um, another couple weeks.
+    </Segment>
+    <Segment StartTime="164.460" EndTime="166.466" Participant="me011">
+      um, depending on how many we read each time.
+    </Segment>
+    <Segment StartTime="166.910" EndTime="168.404" Participant="me011">
+      So there were a bunch that we skipped.
+    </Segment>
+    <Segment StartTime="168.404" EndTime="171.877" Participant="me011">
+      You know, someone fills out the form and then they're not at the meeting and so it's blank.
+    </Segment>
+    <Segment StartTime="172.210" EndTime="174.286" Participant="me011">
+      Um, but those are almost all filled in as well.
+    </Segment>
+    <Segment StartTime="174.763" EndTime="179.466" Participant="me011">
+      And so, once we're - it's <Emphasis> done </Emphasis> it would be very nice to train up a recognizer and actually start working with this data.
+    </Segment>
+    <Segment StartTime="179.559" EndTime="183.010" Participant="me018">
+      So we'll have a corpus that's the size of T_I-digits?
+    </Segment>
+    <Segment StartTime="179.764" EndTime="180.342" Participant="me011">
+      And so -
+    </Segment>
+    <Segment StartTime="182.868" EndTime="184.949" Participant="me011">
+      One particular test set of T_I-digits.
+    </Segment>
+    <Segment StartTime="185.030" EndTime="185.853" Participant="me018">
+      Test set, O_K.
+    </Segment>
+    <Segment StartTime="185.120" EndTime="186.813" Participant="me011">
+      So, I - I extracted,
+    </Segment>
+    <Segment StartTime="187.710" EndTime="191.602" Participant="me011">
+      Ther- there was a file sitting around which people have used here as a test set.
+    </Segment>
+    <Segment StartTime="191.784" EndTime="195.610" Participant="me011">
+      It had been randomized and so on and that's just what I used to generate the order.
+    </Segment>
+    <Segment StartTime="193.334" EndTime="194.957" Participant="me018">
+      Oh! Great.
+    </Segment>
+    <Segment StartTime="195.849" EndTime="197.164" Participant="me011">
+      of these particular ones.
+    </Segment>
+    <Segment StartTime="195.961" EndTime="196.406" Participant="me018">
+      Great.
+    </Segment>
+    <Segment StartTime="197.690" EndTime="198.100" Participant="me011">
+      Um -
+    </Segment>
+    <Segment StartTime="198.032" EndTime="199.610" Participant="me013">
+      So, I'm impressed by what we could do,
+    </Segment>
+    <Segment StartTime="199.610" EndTime="204.600" Participant="me013">
+      Is take the standard training set for T_I-digits, train up with whatever, you know,
+    </Segment>
+    <Segment StartTime="204.600" EndTime="207.427" Participant="me013">
+      great features we think we have, uh for instance,
+    </Segment>
+    <Segment StartTime="207.427" EndTime="209.946" Participant="me013">
+      and then test on uh this test set.
+    </Segment>
+    <Segment StartTime="209.946" EndTime="218.300" Participant="me013">
+      And presumably uh it should do reasonably well on that, and then, presumably, we should go to the distant mike, and it should do poorly.
+    </Segment>
+    <Segment StartTime="214.805" EndTime="215.307" Participant="me018">
+      Yeah.
+    </Segment>
+    <Segment StartTime="217.910" EndTime="218.438" Participant="me011">
+      Right.
+    </Segment>
+    <Segment StartTime="218.360" EndTime="222.317" Participant="me013">
+      And then we should get really smart over the next year or two, and it - that should get better.
+    </Segment>
+    <Segment StartTime="218.438" EndTime="219.054" Participant="me011">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="221.252" EndTime="224.211" Participant="me011">
+      And inc- increase it by one or two percent, yeah. <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="222.317" EndTime="222.782" Participant="me013">
+      Yeah,
+    </Segment>
+    <Segment StartTime="222.782" EndTime="224.707" Participant="me013">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="223.282" EndTime="224.272" Participant="me001">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="223.822" EndTime="225.850" Participant="me018">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="224.510" EndTime="225.307" Participant="me011">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="224.707" EndTime="225.440" Participant="me013">
+      Yeah.
+    </Segment>
+    <Segment StartTime="225.307" EndTime="226.163" Participant="me011">
+      Um, but,
+    </Segment>
+    <Segment StartTime="226.524" EndTime="229.425" Participant="me011">
+      in order to do that we need to extract out the actual digits.
+    </Segment>
+    <Segment StartTime="229.596" EndTime="230.020" Participant="me013">
+      Right.
+    </Segment>
+    <Segment StartTime="229.931" EndTime="230.623" Participant="me011">
+      Um,
+    </Segment>
+    <Segment StartTime="230.623" EndTime="237.439" Participant="me011">
+      so that - the reason it's not just a transcript is that there're false starts, and misreads, and miscues and things like that.
+    </Segment>
+    <Segment StartTime="237.439" EndTime="240.766" Participant="me011">
+      And so I have a set of scripts and X_Waves where you just select the portion,
+    </Segment>
+    <Segment StartTime="240.766" EndTime="241.563" Participant="me011">
+      hit R_,
+    </Segment>
+    <Segment StartTime="241.962" EndTime="244.264" Participant="me011">
+      um, it tells you what the next one should be,
+    </Segment>
+    <Segment StartTime="244.264" EndTime="245.320" Participant="me011">
+      and you just look for that.
+    </Segment>
+    <Segment StartTime="245.320" EndTime="247.063" Participant="me011">
+      You know, so it - it'll put on the screen,
+    </Segment>
+    <Segment StartTime="247.063" EndTime="248.388" Participant="me011">
+      "The next set is six nine,
+    </Segment>
+    <Segment StartTime="248.687" EndTime="249.643" Participant="me011">
+      nine two two".
+    </Segment>
+    <Segment StartTime="250.059" EndTime="250.936" Participant="me011">
+      And you find that,
+    </Segment>
+    <Segment StartTime="250.936" EndTime="251.454" Participant="me011">
+      and,
+    </Segment>
+    <Segment StartTime="251.454" EndTime="254.184" Participant="me011">
+      hit the key and it records it in a file in a particular format.
+    </Segment>
+    <Segment StartTime="254.430" EndTime="255.076" Participant="me013">
+      So is this -
+    </Segment>
+    <Segment StartTime="254.463" EndTime="254.961" Participant="me011">
+      And so the -
+    </Segment>
+    <Segment StartTime="254.961" EndTime="258.377" Participant="me011">
+      the <Emphasis> question </Emphasis> is, should we have the transcribers do that or should we just do it?
+    </Segment>
+    <Segment StartTime="258.786" EndTime="260.883" Participant="me011">
+      Well, some of us. I've been do- I've done,
+    </Segment>
+    <Segment StartTime="260.883" EndTime="262.517" Participant="me011">
+      eight meetings, something like that,
+    </Segment>
+    <Segment StartTime="262.517" EndTime="263.434" Participant="me011">
+      just by hand.
+    </Segment>
+    <Segment StartTime="264.349" EndTime="265.504" Participant="me011">
+      Just myself, rather.
+    </Segment>
+    <Segment StartTime="267.277" EndTime="268.752" Participant="me011">
+      So it will not take long.
+    </Segment>
+    <Segment StartTime="268.752" EndTime="269.464" Participant="me011">
+      Um -
+    </Segment>
+    <Segment StartTime="270.590" EndTime="271.928" Participant="me013">
+      Uh, what - what do you think?
+    </Segment>
+    <Segment StartTime="271.238" EndTime="280.111" Participant="fe008">
+      My feeling is that- we discussed this right before coffee and I think it's a - it's a fine idea partly because, um, it's not un- unrelated to their present skill set,
+    </Segment>
+    <Segment StartTime="280.443" EndTime="286.759" Participant="fe008">
+      but it will add, for them, an extra dimension, it might be an interesting break for them. And also it is contributing to the, uh,
+    </Segment>
+    <Segment StartTime="286.759" EndTime="293.832" Participant="fe008">
+      c- composition of the transcript cuz we can incorporate those numbers directly and it'll be a more complete transcript. So I'm - I think it's fine, that part.
+    </Segment>
+    <Segment StartTime="293.366" EndTime="294.343" Participant="me011">
+      There is - there is -
+    </Segment>
+    <Segment StartTime="293.950" EndTime="296.042" Participant="me013">
+      So you think it's fine to have the <Emphasis> transcribers </Emphasis> do it?
+    </Segment>
+    <Segment StartTime="295.765" EndTime="296.303" Participant="fe008">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="296.042" EndTime="296.985" Participant="me013">
+      Yeah, O_K.
+    </Segment>
+    <Segment StartTime="296.472" EndTime="301.533" Participant="me011">
+      There's one other small bit, which is just entering the information which at s- which is at the top of this form,
+    </Segment>
+    <Segment StartTime="297.349" EndTime="297.668" Participant="me018">
+      Good.
+    </Segment>
+    <Segment StartTime="301.533" EndTime="302.549" Participant="me011">
+      onto the computer,
+    </Segment>
+    <Segment StartTime="302.848" EndTime="305.837" Participant="me011">
+      to go along with the - where the digits are recorded automatically.
+    </Segment>
+    <Segment StartTime="303.524" EndTime="304.420" Participant="me013">
+      Yeah.
+    </Segment>
+    <Segment StartTime="306.116" EndTime="306.833" Participant="me011">
+      And so it's just,
+    </Segment>
+    <Segment StartTime="306.833" EndTime="309.881" Participant="me011">
+      you know, typing in name, times - time, date, and so on.
+    </Segment>
+    <Segment StartTime="310.332" EndTime="312.398" Participant="me011">
+      Um, which again either <Emphasis> they </Emphasis> can do,
+    </Segment>
+    <Segment StartTime="312.597" EndTime="313.593" Participant="me011">
+      but it is, you know,
+    </Segment>
+    <Segment StartTime="313.952" EndTime="315.084" Participant="me011">
+      firing up an editor,
+    </Segment>
+    <Segment StartTime="314.339" EndTime="316.471" Participant="me018">
+      <VocalSound Description="swallow"/>
+    </Segment>
+    <Segment StartTime="315.641" EndTime="316.228" Participant="me011">
+      or,
+    </Segment>
+    <Segment StartTime="316.228" EndTime="317.450" Participant="me011">
+      again, I can do.
+    </Segment>
+    <Segment StartTime="317.802" EndTime="318.833" Participant="me011">
+      Or someone else can do.
+    </Segment>
+    <Segment StartTime="318.581" EndTime="320.414" Participant="fe008">
+      And, that, you know, I'm not,
+    </Segment>
+    <Segment StartTime="320.892" EndTime="323.741" Participant="fe008">
+      that - that one I'm not so sure if it's into the - the,
+    </Segment>
+    <Segment StartTime="324.200" EndTime="324.886" Participant="fe008">
+      things that,
+    </Segment>
+    <Segment StartTime="324.886" EndTime="325.524" Participant="fe008">
+      I,
+    </Segment>
+    <Segment StartTime="325.524" EndTime="327.496" Participant="fe008">
+      wanted to use the hours for, because the,
+    </Segment>
+    <Segment StartTime="327.496" EndTime="330.804" Participant="fe008">
+      the time that they'd be spending doing that they wouldn't be able to be putting more words on.
+    </Segment>
+    <Segment StartTime="330.981" EndTime="331.645" Participant="me013">
+      Mmm.
+    </Segment>
+    <Segment StartTime="331.581" EndTime="333.060" Participant="fe008">
+      But that's really your choice, it's your -
+    </Segment>
+    <Segment StartTime="332.571" EndTime="334.978" Participant="me018">
+      So are these two <Emphasis> separate </Emphasis> tasks that can happen?
+    </Segment>
+    <Segment StartTime="334.978" EndTime="336.829" Participant="me018">
+      Or do they have to happen at the same time before -
+    </Segment>
+    <Segment StartTime="336.302" EndTime="337.304" Participant="me011">
+      No they don't have - this -
+    </Segment>
+    <Segment StartTime="337.760" EndTime="339.305" Participant="me011">
+      you have to enter the data <Emphasis> before, </Emphasis>
+    </Segment>
+    <Segment StartTime="339.305" EndTime="342.373" Participant="me011">
+      you do the second task, but they don't have to happen at the same time.
+    </Segment>
+    <Segment StartTime="343.629" EndTime="346.904" Participant="me011">
+      So it's - it's just I have a file whi- which has this information on it,
+    </Segment>
+    <Segment StartTime="343.740" EndTime="344.097" Participant="me018">
+      O_K.
+    </Segment>
+    <Segment StartTime="346.904" EndTime="349.056" Participant="me011">
+      and then when you start using my scripts,
+    </Segment>
+    <Segment StartTime="349.056" EndTime="350.610" Participant="me011">
+      for extracting the times,
+    </Segment>
+    <Segment StartTime="350.610" EndTime="352.384" Participant="me011">
+      it adds the times at the bottom of the file.
+    </Segment>
+    <Segment StartTime="353.738" EndTime="354.912" Participant="me011">
+      And so, um,
+    </Segment>
+    <Segment StartTime="354.912" EndTime="359.163" Participant="me011">
+      I mean, it's easy to create the files and leave them <Emphasis> blank, </Emphasis> and so actually we could do it in either order.
+    </Segment>
+    <Segment StartTime="359.019" EndTime="359.593" Participant="me018">
+      Oh, O_K.
+    </Segment>
+    <Segment StartTime="359.921" EndTime="360.498" Participant="me011">
+      Um,
+    </Segment>
+    <Segment StartTime="360.817" EndTime="364.194" Participant="me011">
+      it's - it's <Emphasis> sort </Emphasis> of nice to have the same person do it just as a double-check,
+    </Segment>
+    <Segment StartTime="364.493" EndTime="366.445" Participant="me011">
+      to make sure you're entering for the right person.
+    </Segment>
+    <Segment StartTime="366.445" EndTime="366.923" Participant="me011">
+      But,
+    </Segment>
+    <Segment StartTime="368.278" EndTime="368.823" Participant="me011">
+      either way.
+    </Segment>
+    <Segment StartTime="369.287" EndTime="369.978" Participant="me013">
+      Yeah.
+    </Segment>
+    <Segment StartTime="370.620" EndTime="373.870" Participant="me013">
+      Yeah just by way of uh, uh, a uh,
+    </Segment>
+    <Segment StartTime="374.312" EndTime="374.967" Participant="me011">
+      <VocalSound Description="clear throat"/>
+    </Segment>
+    <Segment StartTime="374.780" EndTime="376.410" Participant="me013">
+      order of magnitude, uh,
+    </Segment>
+    <Segment StartTime="376.810" EndTime="380.460" Participant="me013">
+      um, we've been working with this Aurora, uh data set.
+    </Segment>
+    <Segment StartTime="380.530" EndTime="383.050" Participant="me013">
+      And, uh, the best score,
+    </Segment>
+    <Segment StartTime="381.691" EndTime="382.507" Participant="me018">
+      <VocalSound Description="yawn"/>
+    </Segment>
+    <Segment StartTime="383.050" EndTime="384.320" Participant="me013">
+      on the,
+    </Segment>
+    <Segment StartTime="384.320" EndTime="391.683" Participant="me013">
+      <Emphasis> nicest </Emphasis> part of the data, that is, where you've got training and test set that are basically the same kinds of noise and so forth,
+    </Segment>
+    <Segment StartTime="391.683" EndTime="394.221" Participant="me013">
+      uh, is about, uh -
+    </Segment>
+    <Segment StartTime="394.221" EndTime="397.360" Participant="me013">
+      I think the best score was something like five percent,
+    </Segment>
+    <Segment StartTime="397.499" EndTime="399.910" Participant="me013">
+      uh, error, per digit.
+    </Segment>
+    <Segment StartTime="400.340" EndTime="401.470" Participant="me013">
+      So, that -
+    </Segment>
+    <Segment StartTime="400.533" EndTime="401.493" Participant="me011">
+      Per digit.
+    </Segment>
+    <Segment StartTime="400.708" EndTime="401.764" Participant="mn014">
+      Per digit. <Comment Description="quietly"/>
+    </Segment>
+    <Segment StartTime="401.530" EndTime="404.359" Participant="me013">
+      You're right. So if you were doing <Pause/> ten digit,
+    </Segment>
+    <Segment StartTime="404.780" EndTime="408.857" Participant="me013">
+      uh, recognition, <VocalSound Description="laugh"/> you would really be in trouble.
+    </Segment>
+    <Segment StartTime="408.733" EndTime="409.194" Participant="me018">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="408.857" EndTime="410.526" Participant="me013">
+      So - So the -
+    </Segment>
+    <Segment StartTime="410.526" EndTime="415.310" Participant="me013">
+      The point there, and this is uh car noise uh, uh things, but - but real -
+    </Segment>
+    <Segment StartTime="415.310" EndTime="417.390" Participant="me013">
+      real situation, well, "real",
+    </Segment>
+    <Segment StartTime="417.450" EndTime="424.550" Participant="me013">
+      Um, the - uh there's one microphone that's close, that they have as - as <Emphasis> this </Emphasis> sort of thing, close versus distant.
+    </Segment>
+    <Segment StartTime="424.811" EndTime="429.591" Participant="me013">
+      Uh but in a <Emphasis> car, </Emphasis> instead of - instead of having a projector noise it's - it's car noise.
+    </Segment>
+    <Segment StartTime="428.505" EndTime="428.884" Participant="me011">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="429.909" EndTime="436.050" Participant="me013">
+      Uh but it wasn't artificially added to get some - some artificial signal-to-noise ratio. It was just people driving around in a car.
+    </Segment>
+    <Segment StartTime="431.874" EndTime="432.791" Participant="me018">
+      <VocalSound Description="swallow"/>
+    </Segment>
+    <Segment StartTime="436.250" EndTime="439.074" Participant="me013">
+      So, that's - that's an indication, uh that was with,
+    </Segment>
+    <Segment StartTime="439.371" EndTime="443.364" Participant="me013">
+      many sites competing, and this was the very <Emphasis> best </Emphasis> score and so forth, so.
+    </Segment>
+    <Segment StartTime="443.380" EndTime="445.506" Participant="me018">
+      Although the models weren't,
+    </Segment>
+    <Segment StartTime="443.775" EndTime="445.277" Participant="me013">
+      More typical numbers like
+    </Segment>
+    <Segment StartTime="445.905" EndTime="447.278" Participant="me018">
+      that good, right? I mean,
+    </Segment>
+    <Segment StartTime="447.278" EndTime="448.604" Participant="me018">
+      the models are pretty crappy?
+    </Segment>
+    <Segment StartTime="448.890" EndTime="454.909" Participant="me013">
+      You're right. I think that we could have done better on the models, but the thing is that we got - this - this is the kind of typical number,
+    </Segment>
+    <Segment StartTime="455.474" EndTime="457.949" Participant="me013">
+      for all of the, uh, uh,
+    </Segment>
+    <Segment StartTime="458.093" EndTime="460.535" Participant="me013">
+      things in this task, all of the, um,
+    </Segment>
+    <Segment StartTime="460.640" EndTime="461.383" Participant="me013">
+      languages.
+    </Segment>
+    <Segment StartTime="461.636" EndTime="465.750" Participant="me013">
+      And so I - I think we'd probably - the models would be better in some than in others. Um,
+    </Segment>
+    <Segment StartTime="465.017" EndTime="465.376" Participant="me018">
+      Hmm.
+    </Segment>
+    <Segment StartTime="466.287" EndTime="467.500" Participant="me013">
+      so, uh.
+    </Segment>
+    <Segment StartTime="467.500" EndTime="472.380" Participant="me013">
+      <Emphasis> Anyway, </Emphasis> just an indication once you get into this kind of realm even if you're looking at connected digits it can be pretty hard.
+    </Segment>
+    <Segment StartTime="474.094" EndTime="474.512" Participant="fe008">
+      Hmm.
+    </Segment>
+    <Segment StartTime="475.309" EndTime="476.923" Participant="fe008">
+      It's gonna be fun to see how we,
+    </Segment>
+    <Segment StartTime="477.182" EndTime="477.979" Participant="fe008">
+      compare at this.
+    </Segment>
+    <Segment StartTime="477.984" EndTime="479.842" Participant="me018">
+      <VocalSound Description="breath"/> How did we do on the T_I-digits?
+    </Segment>
+    <Segment StartTime="478.059" EndTime="478.455" Participant="me013">
+      Yeah.
+    </Segment>
+    <Segment StartTime="478.278" EndTime="478.975" Participant="fe008">
+      Very exciting.
+    </Segment>
+    <Segment StartTime="478.490" EndTime="481.093" Participant="me011">
+      Well the <Emphasis> prosodics </Emphasis> are so much different s- it's gonna be,
+    </Segment>
+    <Segment StartTime="481.551" EndTime="482.388" Participant="me011">
+      strange.
+    </Segment>
+    <Segment StartTime="482.952" EndTime="485.913" Participant="me011">
+      I mean the prosodics are not the same as T_I-digits, for example.
+    </Segment>
+    <Segment StartTime="486.050" EndTime="486.344" Participant="me013">
+      Yeah.
+    </Segment>
+    <Segment StartTime="486.511" EndTime="488.873" Participant="me011">
+      So I'm - I'm not sure how much of effect that will have.
+    </Segment>
+    <Segment StartTime="488.657" EndTime="489.395" Participant="me018">
+      H- how do -
+    </Segment>
+    <Segment StartTime="488.677" EndTime="490.321" Participant="fe016">
+      What do you mean, the prosodics?
+    </Segment>
+    <Segment StartTime="490.288" EndTime="492.453" Participant="me011">
+      Um, just what we were talking about with grouping.
+    </Segment>
+    <Segment StartTime="492.872" EndTime="494.325" Participant="me011">
+      That with these, the grouping,
+    </Segment>
+    <Segment StartTime="494.325" EndTime="496.158" Participant="me011">
+      there's no grouping at all, and so it's just -
+    </Segment>
+    <Segment StartTime="496.158" EndTime="497.573" Participant="me011">
+      the only sort of
+    </Segment>
+    <Segment StartTime="498.111" EndTime="500.104" Participant="me011">
+      discontinuity you have is at the beginning and the end.
+    </Segment>
+    <Segment StartTime="500.342" EndTime="504.605" Participant="fe016">
+      So what are they doing in Aurora, are they reading actual phone numbers, or,
+    </Segment>
+    <Segment StartTime="502.662" EndTime="503.850" Participant="me011">
+      Aurora I don't know.
+    </Segment>
+    <Segment StartTime="504.089" EndTime="505.543" Participant="me011">
+      I don't know what they do in Aurora.
+    </Segment>
+    <Segment StartTime="504.605" EndTime="506.338" Participant="fe016">
+      a - a digit at a time, or - ? <Comment Description="leading question"/>
+    </Segment>
+    <Segment StartTime="506.535" EndTime="510.105" Participant="me013">
+      Uh, I'm not sure how - no, no I mean it's connected - it's connected, uh,
+    </Segment>
+    <Segment StartTime="506.836" EndTime="507.434" Participant="fe016">
+      Cuz it's -
+    </Segment>
+    <Segment StartTime="509.550" EndTime="510.449" Participant="fe016">
+      Connected.
+    </Segment>
+    <Segment StartTime="510.366" EndTime="511.169" Participant="me013">
+      digits, yeah.
+    </Segment>
+    <Segment StartTime="511.472" EndTime="512.539" Participant="fe016">
+      So there's also the -
+    </Segment>
+    <Segment StartTime="511.520" EndTime="511.790" Participant="me013">
+      But.
+    </Segment>
+    <Segment StartTime="511.572" EndTime="511.891" Participant="me011">
+      But -
+    </Segment>
+    <Segment StartTime="512.539" EndTime="514.372" Participant="fe016">
+      not just the prosody but the cross -
+    </Segment>
+    <Segment StartTime="514.372" EndTime="516.782" Participant="fe016">
+      the cross-word modeling is probably quite different.
+    </Segment>
+    <Segment StartTime="515.377" EndTime="515.841" Participant="me011">
+      Right.
+    </Segment>
+    <Segment StartTime="516.832" EndTime="518.486" Participant="me011">
+      But in T_I-digits,
+    </Segment>
+    <Segment StartTime="516.873" EndTime="517.260" Participant="me018">
+      H-
+    </Segment>
+    <Segment StartTime="518.486" EndTime="522.809" Participant="me011">
+      they're reading things <Emphasis> like </Emphasis> zip codes and phone numbers and things like that, so it's gonna be different.
+    </Segment>
+    <Segment StartTime="521.172" EndTime="521.607" Participant="fe016">
+      Right.
+    </Segment>
+    <Segment StartTime="521.832" EndTime="523.514" Participant="me018">
+      How do we do on T_I-digits?
+    </Segment>
+    <Segment StartTime="524.270" EndTime="526.143" Participant="me011">
+      I don't remember. I mean, very good, right?
+    </Segment>
+    <Segment StartTime="526.270" EndTime="528.260" Participant="me013">
+      Yeah, I mean we were in the.
+    </Segment>
+    <Segment StartTime="527.438" EndTime="529.703" Participant="me011">
+      One and a half percent, two percent, something like that?
+    </Segment>
+    <Segment StartTime="528.920" EndTime="532.463" Participant="me013">
+      Uh, I th- no I think we got under a percent, but it was - but it's - but I mean.
+    </Segment>
+    <Segment StartTime="531.078" EndTime="531.994" Participant="me011">
+      Oh really? O_K.
+    </Segment>
+    <Segment StartTime="532.002" EndTime="532.520" Participant="fe008">
+      s-
+    </Segment>
+    <Segment StartTime="532.652" EndTime="539.475" Participant="me013">
+      The <Emphasis> very </Emphasis> best system that I saw in the literature was a point two five percent or something that somebody had at - at Bell Labs, or.
+    </Segment>
+    <Segment StartTime="539.382" EndTime="539.873" Participant="me011">
+      Alright.
+    </Segment>
+    <Segment StartTime="539.850" EndTime="540.562" Participant="me013">
+      Uh, but.
+    </Segment>
+    <Segment StartTime="539.861" EndTime="540.459" Participant="me018">
+      Hmm.
+    </Segment>
+    <Segment StartTime="540.949" EndTime="547.762" Participant="me013">
+      But, uh, sort of pulling out all the stops. But I think a <Emphasis> lot </Emphasis> of systems sort of get half a percent, or three-quarters a percent, and we're - we're in there somewhere.
+    </Segment>
+    <Segment StartTime="545.892" EndTime="546.291" Participant="me011">
+      Right.
+    </Segment>
+    <Segment StartTime="547.502" EndTime="551.978" Participant="me011">
+      But that - I mean it's really - it's - it's close-talking mikes, no noise, clean signal,
+    </Segment>
+    <Segment StartTime="550.466" EndTime="551.063" Participant="fe016">
+      <VocalSound Description="breath"/>
+    </Segment>
+    <Segment StartTime="551.978" EndTime="553.359" Participant="me011">
+      just digits, I mean,
+    </Segment>
+    <Segment StartTime="553.159" EndTime="553.555" Participant="me013">
+      Yeah.
+    </Segment>
+    <Segment StartTime="553.618" EndTime="554.853" Participant="me011">
+      every- everything is good.
+    </Segment>
+    <Segment StartTime="553.784" EndTime="556.443" Participant="fe016">
+      It's the beginning of time in speech recognition.
+    </Segment>
+    <Segment StartTime="555.212" EndTime="556.188" Participant="me011">
+      Yes, exactly.
+    </Segment>
+    <Segment StartTime="555.938" EndTime="558.139" Participant="me013">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="555.969" EndTime="558.193" Participant="me018">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="558.139" EndTime="558.605" Participant="me013">
+      Yeah.
+    </Segment>
+    <Segment StartTime="558.870" EndTime="561.546" Participant="me011">
+      And we've only recently got it to anywhere near human.
+    </Segment>
+    <Segment StartTime="559.867" EndTime="560.718" Participant="fe016">
+      It's like the,
+    </Segment>
+    <Segment StartTime="560.718" EndTime="562.093" Participant="fe016">
+      single cell,
+    </Segment>
+    <Segment StartTime="560.892" EndTime="561.348" Participant="me018">
+      Pre-
+    </Segment>
+    <Segment StartTime="562.093" EndTime="562.770" Participant="fe016">
+      you know,
+    </Segment>
+    <Segment StartTime="562.125" EndTime="563.739" Participant="me018">
+      prehistory.<VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="563.069" EndTime="564.584" Participant="fe016">
+      it's the beginning of life, yeah.
+    </Segment>
+    <Segment StartTime="564.894" EndTime="565.565" Participant="me013">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="564.933" EndTime="567.974" Participant="me011">
+      And it's still like an order of magnitude worse than what humans do. <Comment Description="while laughing"/>
+    </Segment>
+    <Segment StartTime="567.711" EndTime="568.250" Participant="fe016">
+      Right.
+    </Segment>
+    <Segment StartTime="568.346" EndTime="568.692" Participant="me013">
+      Yeah.
+    </Segment>
+    <Segment StartTime="568.545" EndTime="569.143" Participant="me011">
+      So.
+    </Segment>
+    <Segment StartTime="569.047" EndTime="570.476" Participant="me013">
+      When - When they're wide awake, yeah.
+    </Segment>
+    <Segment StartTime="570.381" EndTime="571.337" Participant="me001">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="570.942" EndTime="571.459" Participant="me011">
+      Yeah.
+    </Segment>
+    <Segment StartTime="571.148" EndTime="573.920" Participant="me013">
+      Um, <VocalSound Description="laugh"/> after coffee, you're right.
+    </Segment>
+    <Segment StartTime="571.211" EndTime="571.847" Participant="me018">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="571.257" EndTime="572.006" Participant="fe016">
+      <VocalSound Description="breath"/>
+    </Segment>
+    <Segment StartTime="571.459" EndTime="572.455" Participant="me011">
+      After coffee.
+    </Segment>
+    <Segment StartTime="572.623" EndTime="573.041" Participant="me018">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="572.955" EndTime="573.414" Participant="mn014">
+      <VocalSound Description="breath-laugh"/>
+    </Segment>
+    <Segment StartTime="574.238" EndTime="575.230" Participant="me013">
+      Not after lunch.
+    </Segment>
+    <Segment StartTime="575.064" EndTime="576.312" Participant="me011">
+      O_K, so, um,
+    </Segment>
+    <Segment StartTime="576.618" EndTime="578.832" Participant="me011">
+      what I'll do then is I'll go ahead and enter,
+    </Segment>
+    <Segment StartTime="579.687" EndTime="580.384" Participant="me011">
+      this data.
+    </Segment>
+    <Segment StartTime="581.041" EndTime="582.835" Participant="me011">
+      And then, hand off to Jane,
+    </Segment>
+    <Segment StartTime="583.412" EndTime="586.431" Participant="me011">
+      and the transcribers to do the actual extraction of the digits.
+    </Segment>
+    <Segment StartTime="584.705" EndTime="585.025" Participant="me013">
+      Yeah.
+    </Segment>
+    <Segment StartTime="586.735" EndTime="587.040" Participant="me013">
+      Yeah.
+    </Segment>
+    <Segment StartTime="587.560" EndTime="588.519" Participant="me013">
+      One question I have that -
+    </Segment>
+    <Segment StartTime="588.642" EndTime="590.860" Participant="me013">
+      that- I mean, we wouldn't know the answer to now but might,
+    </Segment>
+    <Segment StartTime="590.400" EndTime="590.679" Participant="me011">
+      Hmm.
+    </Segment>
+    <Segment StartTime="591.242" EndTime="594.632" Participant="me013">
+      do some guessing, but I was talking before about doing some model- modeling of arti- uh,
+    </Segment>
+    <Segment StartTime="594.977" EndTime="597.090" Participant="me013">
+      uh, <Emphasis> marking </Emphasis> of articulatory,
+    </Segment>
+    <Segment StartTime="597.230" EndTime="597.930" Participant="me013">
+      features,
+    </Segment>
+    <Segment StartTime="598.332" EndTime="599.475" Participant="me013">
+      with overlap and so on.
+    </Segment>
+    <Segment StartTime="599.662" EndTime="600.193" Participant="me013">
+      And,
+    </Segment>
+    <Segment StartTime="600.193" EndTime="600.912" Participant="me013">
+      and,
+    </Segment>
+    <Segment StartTime="601.006" EndTime="601.444" Participant="me013">
+      um,
+    </Segment>
+    <Segment StartTime="602.098" EndTime="603.022" Participant="me013">
+      On some subset.
+    </Segment>
+    <Segment StartTime="603.470" EndTime="609.147" Participant="me013">
+      One thought might be to do this uh, on - on the digits, or some piece of the digits. Uh, it'd be easier,
+    </Segment>
+    <Segment StartTime="609.780" EndTime="613.405" Participant="me013">
+      uh, and so forth. The only thing is I'm a little concerned that maybe the <Emphasis> kind </Emphasis> of phenomena,
+    </Segment>
+    <Segment StartTime="613.787" EndTime="614.760" Participant="me013">
+      in w- i- i-
+    </Segment>
+    <Segment StartTime="614.760" EndTime="621.953" Participant="me013">
+      The reason for doing it is because the - the argument is that certainly with conversational speech, the stuff that we've looked at here before,
+    </Segment>
+    <Segment StartTime="622.629" EndTime="624.758" Participant="me013">
+      um, just doing the simple mapping,
+    </Segment>
+    <Segment StartTime="625.281" EndTime="626.410" Participant="me013">
+      from, um,
+    </Segment>
+    <Segment StartTime="626.790" EndTime="627.531" Participant="me013">
+      the phone,
+    </Segment>
+    <Segment StartTime="628.117" EndTime="630.784" Participant="me013">
+      to the corresponding features that you could look up in a book,
+    </Segment>
+    <Segment StartTime="631.371" EndTime="632.393" Participant="me013">
+      uh, isn't right.
+    </Segment>
+    <Segment StartTime="632.786" EndTime="637.625" Participant="me013">
+      It isn't actually right. In fact there's these overlapping <Pronounce> processes  </Pronounce> where some voicing some up and then some, you know,
+    </Segment>
+    <Segment StartTime="637.738" EndTime="643.353" Participant="me013">
+      some nasality is - comes in here, and so forth. And you do this gross thing saying "Well I guess it's this phone starting there".
+    </Segment>
+    <Segment StartTime="643.988" EndTime="644.581" Participant="me013">
+      So,
+    </Segment>
+    <Segment StartTime="644.720" EndTime="646.140" Participant="me013">
+      uh, that's the reasoning. <Emphasis> But, </Emphasis>
+    </Segment>
+    <Segment StartTime="646.582" EndTime="650.632" Participant="me013">
+      It could be that when we're reading digits, because it's - it's for such a limited set,
+    </Segment>
+    <Segment StartTime="650.794" EndTime="651.577" Participant="me013">
+      that maybe -
+    </Segment>
+    <Segment StartTime="651.641" EndTime="653.706" Participant="me013">
+      maybe that phenomenon doesn't occur as much. I don't know.
+    </Segment>
+    <Segment StartTime="654.060" EndTime="657.640" Participant="me013">
+      Di- an- anybody - ? <Pause/> Do you have any - ? <Pause/> Anybody have any opinion about that, or - ? <Comment Description="leading question"/>
+    </Segment>
+    <Segment StartTime="654.147" EndTime="654.466" Participant="fe008">
+      <Uncertain NumSyllables="1"> @@ </Uncertain>.
+    </Segment>
+    <Segment StartTime="656.697" EndTime="661.402" Participant="fe008">
+      It s- strikes me that there are more - each of them is more informative because it's so,
+    </Segment>
+    <Segment StartTime="658.091" EndTime="659.366" Participant="me018">
+      <VocalSound Description="swallow"/>
+    </Segment>
+    <Segment StartTime="661.402" EndTime="666.483" Participant="fe008">
+      random, and that people might articulate more, and you that might end up with more - a closer correspondence.
+    </Segment>
+    <Segment StartTime="664.512" EndTime="664.915" Participant="me013">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="666.621" EndTime="669.520" Participant="me011">
+      Yeah - that's - I - I agree. That - it's just -
+    </Segment>
+    <Segment StartTime="666.659" EndTime="666.987" Participant="me013">
+      Yeah.
+    </Segment>
+    <Segment StartTime="668.350" EndTime="669.850" Participant="me018">
+      Sort of less predictability, and -
+    </Segment>
+    <Segment StartTime="669.668" EndTime="670.027" Participant="fe008">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="669.808" EndTime="670.157" Participant="me013">
+      Yeah.
+    </Segment>
+    <Segment StartTime="670.460" EndTime="672.692" Participant="fe016">
+      Well it's definitely true that, when people are,
+    </Segment>
+    <Segment StartTime="670.928" EndTime="671.347" Participant="me011">
+      It's a -
+    </Segment>
+    <Segment StartTime="673.270" EndTime="674.127" Participant="fe016">
+      reading,
+    </Segment>
+    <Segment StartTime="674.425" EndTime="676.069" Participant="fe016">
+      even if they're re-reading what,
+    </Segment>
+    <Segment StartTime="676.331" EndTime="680.674" Participant="fe016">
+      they had said spontaneously, that they have very different patterns. Mitch showed that, and some,
+    </Segment>
+    <Segment StartTime="680.474" EndTime="680.742" Participant="me013">
+      Right.
+    </Segment>
+    <Segment StartTime="681.292" EndTime="682.789" Participant="fe016">
+      dissertations have shown that.
+    </Segment>
+    <Segment StartTime="683.391" EndTime="686.927" Participant="fe016">
+      So the fact that they're reading, first of all, whether they're reading in a room of,
+    </Segment>
+    <Segment StartTime="686.927" EndTime="690.425" Participant="fe016">
+      people, or rea- you know, just the fact that they're reading will make a difference.
+    </Segment>
+    <Segment StartTime="690.608" EndTime="690.978" Participant="me013">
+      Yeah.
+    </Segment>
+    <Segment StartTime="691.083" EndTime="691.659" Participant="fe016">
+      And,
+    </Segment>
+    <Segment StartTime="691.185" EndTime="691.641" Participant="me011">
+      Well -
+    </Segment>
+    <Segment StartTime="691.659" EndTime="693.223" Participant="fe016">
+      depends what you're interested in.
+    </Segment>
+    <Segment StartTime="693.474" EndTime="694.112" Participant="me011">
+      Would,
+    </Segment>
+    <Segment StartTime="694.112" EndTime="696.802" Participant="me011">
+      this corpus really be the right one to even try that on?
+    </Segment>
+    <Segment StartTime="697.704" EndTime="698.202" Participant="fe008">
+      <VocalSound Description="mouth"/>
+    </Segment>
+    <Segment StartTime="697.705" EndTime="701.093" Participant="me013">
+      See, I don't know. So, may- maybe the thing will be do - to take some very small subset,
+    </Segment>
+    <Segment StartTime="701.183" EndTime="701.973" Participant="me013">
+      I- mean not have a big,
+    </Segment>
+    <Segment StartTime="702.406" EndTime="703.570" Participant="me013">
+      program, but take a small set,
+    </Segment>
+    <Segment StartTime="703.677" EndTime="707.554" Participant="me013">
+      uh, subset of the conversational speech and a small subset of the digits,
+    </Segment>
+    <Segment StartTime="708.101" EndTime="708.793" Participant="me013">
+      and <Pause/> look
+    </Segment>
+    <Segment StartTime="708.935" EndTime="710.850" Participant="me013">
+      and - and just get a feeling for it.
+    </Segment>
+    <Segment StartTime="710.953" EndTime="712.326" Participant="me013">
+      Um, just take a look.
+    </Segment>
+    <Segment StartTime="712.452" EndTime="712.844" Participant="me013">
+      Really.
+    </Segment>
+    <Segment StartTime="713.550" EndTime="714.048" Participant="fe008">
+      H-
+    </Segment>
+    <Segment StartTime="713.623" EndTime="715.857" Participant="me013">
+      Cuz I don't think anybody is, I- at least, I don't know,
+    </Segment>
+    <Segment StartTime="716.430" EndTime="717.493" Participant="me013">
+      of anybody, uh,
+    </Segment>
+    <Segment StartTime="718.332" EndTime="719.474" Participant="me013">
+      well, I don't know,
+    </Segment>
+    <Segment StartTime="719.567" EndTime="723.708" Participant="fe008">
+      That could - could be an interesting design, too, cuz then you'd have the com- the comparison of the,
+    </Segment>
+    <Segment StartTime="719.646" EndTime="720.331" Participant="me013">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="719.979" EndTime="720.715" Participant="me018">
+      You hafta -
+    </Segment>
+    <Segment StartTime="720.331" EndTime="721.026" Participant="me013">
+      the <Uncertain> answers </Uncertain>.
+    </Segment>
+    <Segment StartTime="721.512" EndTime="721.910" Participant="me018">
+      Hey.
+    </Segment>
+    <Segment StartTime="723.708" EndTime="727.633" Participant="fe008">
+      uh, predictable speech versus the less predictable speech and maybe you'd find that it worked in,
+    </Segment>
+    <Segment StartTime="725.781" EndTime="726.063" Participant="me013">
+      Yeah.
+    </Segment>
+    <Segment StartTime="727.633" EndTime="728.250" Participant="fe008">
+      in the,
+    </Segment>
+    <Segment StartTime="728.250" EndTime="729.961" Participant="fe008">
+      case of the pr- of the, uh, non-predictable.
+    </Segment>
+    <Segment StartTime="728.478" EndTime="728.740" Participant="me013">
+      Yeah.
+    </Segment>
+    <Segment StartTime="729.298" EndTime="730.372" Participant="me018">
+      Hafta think about,
+    </Segment>
+    <Segment StartTime="730.372" EndTime="733.324" Participant="me018">
+      the particular acoustic features to mark, too, because,
+    </Segment>
+    <Segment StartTime="733.602" EndTime="733.973" Participant="me013">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="733.902" EndTime="734.879" Participant="me018">
+      I mean, <Emphasis> some </Emphasis> things,
+    </Segment>
+    <Segment StartTime="734.879" EndTime="736.374" Participant="me018">
+      they wouldn't be able to mark, like,
+    </Segment>
+    <Segment StartTime="736.692" EndTime="737.310" Participant="me018">
+      uh,
+    </Segment>
+    <Segment StartTime="737.773" EndTime="739.728" Participant="me018">
+      you know, uh, tense lax.
+    </Segment>
+    <Segment StartTime="739.728" EndTime="740.944" Participant="me018">
+      Some things are really difficult.
+    </Segment>
+    <Segment StartTime="741.647" EndTime="742.177" Participant="me018">
+      You know,
+    </Segment>
+    <Segment StartTime="742.177" EndTime="743.114" Participant="me018">
+      just listening.
+    </Segment>
+    <Segment StartTime="742.330" EndTime="744.091" Participant="me011">
+      M- I think we can get Ohala in to,
+    </Segment>
+    <Segment StartTime="742.601" EndTime="743.019" Participant="fe008">
+      Well.
+    </Segment>
+    <Segment StartTime="744.370" EndTime="745.663" Participant="me011">
+      give us some advice on that.
+    </Segment>
+    <Segment StartTime="744.972" EndTime="745.552" Participant="me018">
+      Yeah.
+    </Segment>
+    <Segment StartTime="745.616" EndTime="749.103" Participant="fe008">
+      Also I thought you were thinking of a much more restricted set of features, that -
+    </Segment>
+    <Segment StartTime="748.988" EndTime="751.031" Participant="me013">
+      Yeah, but I - I - I - I was,
+    </Segment>
+    <Segment StartTime="751.902" EndTime="754.986" Participant="me013">
+      like he said, <VocalSound Description="laugh"/> I was gonna bring John in and ask John what he thought.
+    </Segment>
+    <Segment StartTime="752.662" EndTime="753.380" Participant="fe008">
+      Yeah, sure.
+    </Segment>
+    <Segment StartTime="753.977" EndTime="754.456" Participant="fe008">
+      Sure.
+    </Segment>
+    <Segment StartTime="754.761" EndTime="755.003" Participant="fe008">
+      Yeah.
+    </Segment>
+    <Segment StartTime="755.073" EndTime="755.343" Participant="me013">
+      Right.
+    </Segment>
+    <Segment StartTime="755.868" EndTime="759.174" Participant="me013">
+      But I mean you want - you want it be restrictive but you also want it to - to - to have coverage.
+    </Segment>
+    <Segment StartTime="759.089" EndTime="759.528" Participant="me011">
+      Right.
+    </Segment>
+    <Segment StartTime="759.575" EndTime="760.363" Participant="me013">
+      You know i- you should.
+    </Segment>
+    <Segment StartTime="759.770" EndTime="760.065" Participant="fe008">
+      Yeah <Comment Description="whispered"/>
+    </Segment>
+    <Segment StartTime="760.800" EndTime="762.428" Participant="me013">
+      It should be such that if you,
+    </Segment>
+    <Segment StartTime="762.534" EndTime="763.507" Participant="me013">
+      if you, uh,
+    </Segment>
+    <Segment StartTime="763.602" EndTime="764.792" Participant="me013">
+      if you had o- um,
+    </Segment>
+    <Segment StartTime="764.967" EndTime="766.098" Participant="me013">
+      all of the features,
+    </Segment>
+    <Segment StartTime="766.405" EndTime="769.294" Participant="me013">
+      determined that you - that you were uh ch- have chosen,
+    </Segment>
+    <Segment StartTime="769.650" EndTime="771.052" Participant="me013">
+      that that would tell you,
+    </Segment>
+    <Segment StartTime="771.417" EndTime="771.818" Participant="me013">
+      uh,
+    </Segment>
+    <Segment StartTime="771.934" EndTime="774.029" Participant="me013">
+      in the steady-state case, uh, the phone.
+    </Segment>
+    <Segment StartTime="772.729" EndTime="774.562" Participant="me018">
+      <NonVocalSound Description="mike noise"/>
+    </Segment>
+    <Segment StartTime="774.532" EndTime="774.941" Participant="me013">
+      So,
+    </Segment>
+    <Segment StartTime="775.039" EndTime="775.438" Participant="fe008">
+      O_K.
+    </Segment>
+    <Segment StartTime="775.050" EndTime="775.422" Participant="me013">
+      um.
+    </Segment>
+    <Segment StartTime="776.336" EndTime="776.834" Participant="me011">
+      Even,
+    </Segment>
+    <Segment StartTime="776.834" EndTime="778.767" Participant="me011">
+      I guess with vowels that would be pretty hard,
+    </Segment>
+    <Segment StartTime="778.767" EndTime="779.344" Participant="me011">
+      wouldn't it?
+    </Segment>
+    <Segment StartTime="782.512" EndTime="785.043" Participant="me011">
+      To identify actually, you know, which one it is?
+    </Segment>
+    <Segment StartTime="785.522" EndTime="788.899" Participant="fe008">
+      It would seem to me that the points of articulation would be m- more,
+    </Segment>
+    <Segment StartTime="789.965" EndTime="792.979" Participant="fe008">
+      g- uh, I mean that's - I think about articulatory features, I think about,
+    </Segment>
+    <Segment StartTime="792.979" EndTime="794.590" Participant="fe008">
+      points of articulation, which means,
+    </Segment>
+    <Segment StartTime="795.319" EndTime="796.819" Participant="fe008">
+      uh, rather than vowels.
+    </Segment>
+    <Segment StartTime="795.529" EndTime="796.027" Participant="me011">
+      Yeah.
+    </Segment>
+    <Segment StartTime="797.341" EndTime="798.892" Participant="me018">
+      <Emphasis> Points </Emphasis> of articulation? What do you mean?
+    </Segment>
+    <Segment StartTime="799.157" EndTime="803.012" Participant="fe008">
+      So, is it, uh, bilabial or dental or is it, you know,
+    </Segment>
+    <Segment StartTime="803.405" EndTime="804.092" Participant="fe008">
+      palatal.
+    </Segment>
+    <Segment StartTime="803.589" EndTime="804.034" Participant="me013">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="804.179" EndTime="806.112" Participant="mn014">
+      <Uncertain NumSyllables="4"> @@ </Uncertain> <Comment Description="quietly"/>
+    </Segment>
+    <Segment StartTime="804.737" EndTime="807.323" Participant="fe008">
+      Which - which are all like where - where your tongue comes to rest.
+    </Segment>
+    <Segment StartTime="805.556" EndTime="806.990" Participant="me011">
+      Uvular.
+    </Segment>
+    <Segment StartTime="806.262" EndTime="807.935" Participant="me018">
+      Place of ar- place of articulation.
+    </Segment>
+    <Segment StartTime="806.510" EndTime="807.383" Participant="me013">
+      <Emphasis> Place, </Emphasis> place.
+    </Segment>
+    <Segment StartTime="807.763" EndTime="809.198" Participant="mn014">
+      Place. <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="807.882" EndTime="811.017" Participant="fe008">
+      Place. Thank you, what - whatev- whatever I s- said, that's - I really meant place.
+    </Segment>
+    <Segment StartTime="807.944" EndTime="808.286" Participant="me013">
+      Yeah.
+    </Segment>
+    <Segment StartTime="808.593" EndTime="808.952" Participant="me018">
+      O_K.
+    </Segment>
+    <Segment StartTime="810.001" EndTime="810.272" Participant="me013">
+      Yeah.
+    </Segment>
+    <Segment StartTime="810.207" EndTime="811.122" Participant="me018">
+      O_K, I see.
+    </Segment>
+    <Segment StartTime="811.017" EndTime="811.886" Participant="fe008">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="811.578" EndTime="811.877" Participant="me013">
+      Yeah.
+    </Segment>
+    <Segment StartTime="812.052" EndTime="813.497" Participant="me013">
+      O_K we got our jargon then, O_K.
+    </Segment>
+    <Segment StartTime="813.165" EndTime="813.536" Participant="me011">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="813.511" EndTime="813.875" Participant="fe008">
+      Yeah.
+    </Segment>
+    <Segment StartTime="814.300" EndTime="814.912" Participant="me013">
+      Uh.
+    </Segment>
+    <Segment StartTime="815.307" EndTime="816.653" Participant="fe016">
+      Well it's also, there's,
+    </Segment>
+    <Segment StartTime="817.321" EndTime="819.093" Participant="fe016">
+      really a difference between,
+    </Segment>
+    <Segment StartTime="819.093" EndTime="821.802" Participant="fe016">
+      the pronunciation models in the dictionary, and,
+    </Segment>
+    <Segment StartTime="821.802" EndTime="823.695" Participant="fe016">
+      the pronunciations that people produce.
+    </Segment>
+    <Segment StartTime="823.695" EndTime="824.273" Participant="fe016">
+      And, so,
+    </Segment>
+    <Segment StartTime="824.552" EndTime="825.030" Participant="fe016">
+      You get,
+    </Segment>
+    <Segment StartTime="825.030" EndTime="827.839" Participant="fe016">
+      some of that information from Steve's work on the -
+    </Segment>
+    <Segment StartTime="827.680" EndTime="827.983" Participant="me013">
+      Right.
+    </Segment>
+    <Segment StartTime="827.839" EndTime="829.379" Participant="fe016">
+      on the labeling and it really,
+    </Segment>
+    <Segment StartTime="827.849" EndTime="828.290" Participant="me011">
+      Right.
+    </Segment>
+    <Segment StartTime="830.529" EndTime="833.673" Participant="fe016">
+      I actually think that data should be used more. That maybe,
+    </Segment>
+    <Segment StartTime="834.370" EndTime="840.284" Participant="fe016">
+      although I think the meeting context is great, that he has transcriptions that give you the actual phone sequence.
+    </Segment>
+    <Segment StartTime="840.881" EndTime="842.132" Participant="fe016">
+      And you can go from -
+    </Segment>
+    <Segment StartTime="842.371" EndTime="846.874" Participant="fe016">
+      not from that to the articulatory features, but that would be a better starting point for marking,
+    </Segment>
+    <Segment StartTime="847.352" EndTime="848.987" Participant="fe016">
+      the gestural features, then,
+    </Segment>
+    <Segment StartTime="849.362" EndTime="851.294" Participant="fe016">
+      data where you don't have that, because,
+    </Segment>
+    <Segment StartTime="852.011" EndTime="853.354" Participant="fe016">
+      we - you wanna know,
+    </Segment>
+    <Segment StartTime="854.111" EndTime="856.953" Participant="fe016">
+      both about the way that they're producing a certain sound,
+    </Segment>
+    <Segment StartTime="857.272" EndTime="858.454" Participant="fe016">
+      and what kinds of,
+    </Segment>
+    <Segment StartTime="859.290" EndTime="859.938" Participant="fe016">
+      <Uncertain> you know </Uncertain> what kinds of,
+    </Segment>
+    <Segment StartTime="861.010" EndTime="861.653" Participant="fe016">
+      phonemic,
+    </Segment>
+    <Segment StartTime="862.191" EndTime="864.117" Participant="fe016">
+      differences you get between these,
+    </Segment>
+    <Segment StartTime="864.277" EndTime="865.233" Participant="fe016">
+      transcribed,
+    </Segment>
+    <Segment StartTime="865.550" EndTime="867.613" Participant="fe016">
+      sequences and the dictionary ones.
+    </Segment>
+    <Segment StartTime="867.597" EndTime="870.166" Participant="me013">
+      Well you might be right that mi- might be the way at <Emphasis> getting </Emphasis> at,
+    </Segment>
+    <Segment StartTime="870.166" EndTime="871.365" Participant="me013">
+      what I was talking about,
+    </Segment>
+    <Segment StartTime="871.365" EndTime="875.240" Participant="me013">
+      but the particular reason why I was interested in doing that was because I <Emphasis> remember, </Emphasis>
+    </Segment>
+    <Segment StartTime="875.656" EndTime="877.440" Participant="me013">
+      when that happened, and,
+    </Segment>
+    <Segment StartTime="877.564" EndTime="881.870" Participant="me013">
+      John Ohala <Emphasis> was </Emphasis> over here and he was <Emphasis> looking </Emphasis> at the spectrograms of the more difficult ones.
+    </Segment>
+    <Segment StartTime="882.789" EndTime="884.723" Participant="me013">
+      Uh, he didn't know what to say,
+    </Segment>
+    <Segment StartTime="885.306" EndTime="885.999" Participant="me013">
+      about,
+    </Segment>
+    <Segment StartTime="886.655" EndTime="888.414" Participant="me013">
+      what is the sequence of phones there.
+    </Segment>
+    <Segment StartTime="888.414" EndTime="889.903" Participant="me013">
+      They came up with some compromise.
+    </Segment>
+    <Segment StartTime="890.232" EndTime="896.349" Participant="me013">
+      Because that really wasn't what it look like. It didn't look like a sequence of phones it look like this blending thing happening here and here and here.
+    </Segment>
+    <Segment StartTime="891.710" EndTime="892.273" Participant="fe016">
+      Right.
+    </Segment>
+    <Segment StartTime="891.990" EndTime="892.473" Participant="me011">
+      Right.
+    </Segment>
+    <Segment StartTime="895.542" EndTime="896.040" Participant="fe016">
+      Right.
+    </Segment>
+    <Segment StartTime="895.662" EndTime="897.671" Participant="me011">
+      Yeah, so you have this feature here, and,
+    </Segment>
+    <Segment StartTime="896.889" EndTime="898.130" Participant="me018">
+      There was no <Emphasis> name </Emphasis> for that.
+    </Segment>
+    <Segment StartTime="897.069" EndTime="897.493" Participant="me013">
+      Yeah.
+    </Segment>
+    <Segment StartTime="897.202" EndTime="897.504" Participant="fe016">
+      But -
+    </Segment>
+    <Segment StartTime="897.671" EndTime="898.655" Participant="me011">
+      overlap, yeah.
+    </Segment>
+    <Segment StartTime="897.883" EndTime="899.656" Participant="fe016">
+      Right. But it still is - there's a -
+    </Segment>
+    <Segment StartTime="898.130" EndTime="898.361" Participant="me013">
+      Yeah.
+    </Segment>
+    <Segment StartTime="899.895" EndTime="901.110" Participant="fe016">
+      there are two steps. One -
+    </Segment>
+    <Segment StartTime="901.110" EndTime="904.159" Participant="fe016">
+      you know, one is going from a dictionary pronunciation of something,
+    </Segment>
+    <Segment StartTime="901.205" EndTime="901.703" Participant="me011">
+      And -
+    </Segment>
+    <Segment StartTime="904.262" EndTime="904.654" Participant="me013">
+      Right.
+    </Segment>
+    <Segment StartTime="904.856" EndTime="905.474" Participant="fe016">
+      like,
+    </Segment>
+    <Segment StartTime="906.868" EndTime="910.561" Participant="fe016">
+      "gonna see you tomorrow", it could be "going to" or "gonna" or "<Uncertain> gonta </Uncertain> s-" you know.
+    </Segment>
+    <Segment StartTime="906.894" EndTime="907.207" Participant="me013">
+      Yeah.
+    </Segment>
+    <Segment StartTime="910.038" EndTime="910.337" Participant="me013">
+      Right.
+    </Segment>
+    <Segment StartTime="910.659" EndTime="912.340" Participant="me011">
+      Or "<Uncertain> gonta </Uncertain>". <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="910.880" EndTime="911.340" Participant="fe016">
+      And,
+    </Segment>
+    <Segment StartTime="911.340" EndTime="912.274" Participant="fe016">
+      yeah. <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="911.670" EndTime="912.807" Participant="me001">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="911.702" EndTime="912.298" Participant="mn014">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="912.274" EndTime="913.589" Participant="fe016">
+      "Gonna see you tomorrow", uh,
+    </Segment>
+    <Segment StartTime="913.589" EndTime="914.605" Participant="fe016">
+      "<Uncertain> guh </Uncertain> see you tomorrow".
+    </Segment>
+    <Segment StartTime="914.605" EndTime="915.123" Participant="fe016">
+      And,
+    </Segment>
+    <Segment StartTime="915.522" EndTime="916.926" Participant="fe016">
+      that it would be nice to have these,
+    </Segment>
+    <Segment StartTime="917.471" EndTime="923.425" Participant="fe016">
+      intermediate, or these - some - these reduced pronunciations that those transcribers had marked or to have people mark those as well.
+    </Segment>
+    <Segment StartTime="920.915" EndTime="921.371" Participant="me013">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="924.082" EndTime="925.234" Participant="fe016">
+      Because, it's not,
+    </Segment>
+    <Segment StartTime="925.592" EndTime="926.150" Participant="fe016">
+      um,
+    </Segment>
+    <Segment StartTime="926.668" EndTime="928.534" Participant="fe016">
+      that easy to go from the,
+    </Segment>
+    <Segment StartTime="928.912" EndTime="929.727" Participant="fe016">
+      dictionary,
+    </Segment>
+    <Segment StartTime="930.088" EndTime="932.669" Participant="fe016">
+      word pronuncia- the dictionary phone pronunciation,
+    </Segment>
+    <Segment StartTime="932.968" EndTime="936.973" Participant="fe016">
+      to the gestural one without this intermediate or a syllable level kind of,
+    </Segment>
+    <Segment StartTime="937.332" EndTime="938.386" Participant="fe016">
+      representation.
+    </Segment>
+    <Segment StartTime="937.585" EndTime="939.963" Participant="me011">
+      Well I don't think Morgan's suggesting that we <Emphasis> do </Emphasis> that, though.
+    </Segment>
+    <Segment StartTime="938.411" EndTime="938.842" Participant="me013">
+      Do you mean,
+    </Segment>
+    <Segment StartTime="940.684" EndTime="941.063" Participant="mn014">
+      Yeah.
+    </Segment>
+    <Segment StartTime="940.761" EndTime="943.959" Participant="me013">
+      Yeah, I mean, I- I- I'm jus- at the moment of course we're just talking about what,
+    </Segment>
+    <Segment StartTime="944.144" EndTime="948.085" Participant="me013">
+      to provide as a tool for people to do research who have different ideas about how to do it.
+    </Segment>
+    <Segment StartTime="945.153" EndTime="946.187" Participant="me018">
+      <VocalSound Description="breath"/>
+    </Segment>
+    <Segment StartTime="948.085" EndTime="948.940" Participant="me013">
+      So for instance,
+    </Segment>
+    <Segment StartTime="949.391" EndTime="952.498" Participant="me013">
+      you might have someone who just has a wor- has words with states,
+    </Segment>
+    <Segment StartTime="952.858" EndTime="954.387" Participant="me013">
+      and has uh - uh,
+    </Segment>
+    <Segment StartTime="954.585" EndTime="956.568" Participant="me013">
+      comes from articulatory gestures to that.
+    </Segment>
+    <Segment StartTime="956.568" EndTime="957.409" Participant="me013">
+      And someone else,
+    </Segment>
+    <Segment StartTime="957.711" EndTime="960.424" Participant="me013">
+      might actually want some phonetic uh intermediate thing.
+    </Segment>
+    <Segment StartTime="960.869" EndTime="963.639" Participant="me013">
+      So I think it would be - be best to have all of it if we could.
+    </Segment>
+    <Segment StartTime="964.267" EndTime="965.138" Participant="me013">
+      But <Pause/> um,
+    </Segment>
+    <Segment StartTime="964.904" EndTime="965.203" Participant="me011">
+      But -
+    </Segment>
+    <Segment StartTime="965.602" EndTime="968.004" Participant="me011">
+      What I'm imagining is a score-like notation,
+    </Segment>
+    <Segment StartTime="965.633" EndTime="965.912" Participant="me013">
+      Yeah.
+    </Segment>
+    <Segment StartTime="968.382" EndTime="970.335" Participant="me011">
+      where each line is a particular <Emphasis> feature. </Emphasis>
+    </Segment>
+    <Segment StartTime="970.653" EndTime="975.913" Participant="me011">
+      Right, so you would say, you know, it's voiced through here, and so you have label here, and you have nas- nasal here, and,
+    </Segment>
+    <Segment StartTime="971.171" EndTime="971.505" Participant="me013">
+      Yeah.
+    </Segment>
+    <Segment StartTime="976.212" EndTime="981.064" Participant="me011">
+      they - they could be overlapping in all sorts of bizarre ways that don't correspond to the timing on phones.
+    </Segment>
+    <Segment StartTime="981.564" EndTime="984.361" Participant="me013">
+      I mean this is the kind of reason why - I remember when at one of the Switchboard,
+    </Segment>
+    <Segment StartTime="984.510" EndTime="988.533" Participant="me013">
+      workshops, that uh when we <Emphasis> talked </Emphasis> about doing the transcription project,
+    </Segment>
+    <Segment StartTime="988.964" EndTime="990.710" Participant="me013">
+      Dave Talkin said, "can't be done".
+    </Segment>
+    <Segment StartTime="990.710" EndTime="991.842" Participant="me013">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="990.943" EndTime="991.442" Participant="me011">
+      Right.
+    </Segment>
+    <Segment StartTime="991.842" EndTime="994.597" Participant="me013">
+      He was - he was, what - what he meant was that this isn't,
+    </Segment>
+    <Segment StartTime="994.990" EndTime="997.980" Participant="me013">
+      you know, a sequence of phones, and when you actually look at Switchboard that's,
+    </Segment>
+    <Segment StartTime="998.061" EndTime="999.119" Participant="me013">
+      not what you see, and, you know.
+    </Segment>
+    <Segment StartTime="998.889" EndTime="1002.617" Participant="me011">
+      And in - in fact the inter-annotator <Emphasis> agreement </Emphasis> was not that good, right?
+    </Segment>
+    <Segment StartTime="999.550" EndTime="1000.002" Participant="me013">
+      And.
+    </Segment>
+    <Segment StartTime="1002.936" EndTime="1003.997" Participant="me011">
+      On the harder ones?
+    </Segment>
+    <Segment StartTime="1004.928" EndTime="1006.155" Participant="me013">
+      It, yeah I mean it was-
+    </Segment>
+    <Segment StartTime="1005.147" EndTime="1009.564" Participant="fe016">
+      It depends how you look at it, and I - I understand what you're saying about this,
+    </Segment>
+    <Segment StartTime="1009.660" EndTime="1009.956" Participant="me013">
+      Yeah.
+    </Segment>
+    <Segment StartTime="1009.787" EndTime="1014.031" Participant="fe016">
+      kind of transcription exactly, because I've seen - you know, where does the voicing bar start and so forth.
+    </Segment>
+    <Segment StartTime="1012.250" EndTime="1012.666" Participant="me013">
+      Yeah.
+    </Segment>
+    <Segment StartTime="1014.390" EndTime="1015.486" Participant="fe016">
+      All I'm saying is that,
+    </Segment>
+    <Segment StartTime="1015.743" EndTime="1018.114" Participant="fe016">
+      it is useful to have that -
+    </Segment>
+    <Segment StartTime="1018.452" EndTime="1022.623" Participant="fe016">
+      the transcription of what was <Emphasis> really </Emphasis> said, and which syllables were reduced.
+    </Segment>
+    <Segment StartTime="1023.042" EndTime="1028.247" Participant="fe016">
+      Uh, if you're gonna add the features it's also useful to have some level of representation which is,
+    </Segment>
+    <Segment StartTime="1029.638" EndTime="1030.790" Participant="fe016">
+      is a reduced -
+    </Segment>
+    <Segment StartTime="1030.790" EndTime="1032.842" Participant="fe016">
+      it's a pronunciation variant,
+    </Segment>
+    <Segment StartTime="1032.842" EndTime="1037.425" Participant="fe016">
+      that currently the dictionaries don't give you because if you add them to the dictionary and you run recognition, you,
+    </Segment>
+    <Segment StartTime="1033.512" EndTime="1034.010" Participant="me013">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="1037.488" EndTime="1037.798" Participant="me013">
+      Right.
+    </Segment>
+    <Segment StartTime="1037.684" EndTime="1038.700" Participant="fe016">
+      you add confusion.
+    </Segment>
+    <Segment StartTime="1038.700" EndTime="1040.453" Participant="fe016">
+      So people purposely don't add them.
+    </Segment>
+    <Segment StartTime="1038.897" EndTime="1039.173" Participant="me013">
+      Right.
+    </Segment>
+    <Segment StartTime="1041.549" EndTime="1043.922" Participant="fe016">
+      So it's useful to know which variant was -
+    </Segment>
+    <Segment StartTime="1043.922" EndTime="1046.260" Participant="fe016">
+      was produced, at least at the phone level.
+    </Segment>
+    <Segment StartTime="1045.174" EndTime="1047.243" Participant="me018">
+      So it would be - it would be great if we had,
+    </Segment>
+    <Segment StartTime="1047.602" EndTime="1049.353" Participant="me018">
+      either these kind of,
+    </Segment>
+    <Segment StartTime="1049.700" EndTime="1050.907" Participant="me018">
+      labelings on,
+    </Segment>
+    <Segment StartTime="1051.341" EndTime="1053.841" Participant="me018">
+      the same portion of Switchboard that Steve marked, or,
+    </Segment>
+    <Segment StartTime="1054.414" EndTime="1056.765" Participant="me018">
+      Steve's type markings on this data,
+    </Segment>
+    <Segment StartTime="1055.007" EndTime="1055.650" Participant="fe016">
+      Right.
+    </Segment>
+    <Segment StartTime="1055.650" EndTime="1056.327" Participant="fe016">
+      That's all, <Uncertain> I mean </Uncertain>.
+    </Segment>
+    <Segment StartTime="1056.506" EndTime="1057.263" Participant="fe016">
+      Exactly.
+    </Segment>
+    <Segment StartTime="1056.765" EndTime="1057.502" Participant="me018">
+      with these.
+    </Segment>
+    <Segment StartTime="1057.110" EndTime="1057.402" Participant="me013">
+      Yeah.
+    </Segment>
+    <Segment StartTime="1057.642" EndTime="1058.279" Participant="fe016">
+      Exactly.
+    </Segment>
+    <Segment StartTime="1058.225" EndTime="1059.771" Participant="me013">
+      Yeah, no I - I don't disagree with that.
+    </Segment>
+    <Segment StartTime="1058.817" EndTime="1061.652" Participant="fe016">
+      And Steve's type is fairly - it's not that slow,
+    </Segment>
+    <Segment StartTime="1061.652" EndTime="1062.064" Participant="fe016">
+      uh,
+    </Segment>
+    <Segment StartTime="1062.502" EndTime="1063.843" Participant="fe016">
+      uh, I dunno exactly what the,
+    </Segment>
+    <Segment StartTime="1064.342" EndTime="1065.444" Participant="fe016">
+      timing was, but.
+    </Segment>
+    <Segment StartTime="1064.431" EndTime="1066.986" Participant="me013">
+      Yeah u- I don't disagree with it the on- the only thing is that,
+    </Segment>
+    <Segment StartTime="1067.127" EndTime="1069.867" Participant="me013">
+      What you actually will end - en- end up with is something,
+    </Segment>
+    <Segment StartTime="1069.867" EndTime="1071.544" Participant="me013">
+      i- it's all compromised, right, so,
+    </Segment>
+    <Segment StartTime="1071.935" EndTime="1074.288" Participant="me013">
+      the string that you end up with isn't,
+    </Segment>
+    <Segment StartTime="1074.565" EndTime="1075.223" Participant="me013">
+      actually,
+    </Segment>
+    <Segment StartTime="1075.621" EndTime="1076.411" Participant="me013">
+      what happened.
+    </Segment>
+    <Segment StartTime="1076.499" EndTime="1081.429" Participant="me013">
+      But it's - it's the best <Emphasis> compromise </Emphasis> that a group of people scratching their heads could come up with to describe what happened.
+    </Segment>
+    <Segment StartTime="1081.469" EndTime="1081.947" Participant="fe016">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="1081.700" EndTime="1083.251" Participant="me018">
+      And it's more accurate than,
+    </Segment>
+    <Segment StartTime="1082.440" EndTime="1082.736" Participant="me013">
+      But.
+    </Segment>
+    <Segment StartTime="1083.140" EndTime="1085.769" Participant="me013">
+      And it's more accurate than the - than the dictionary or,
+    </Segment>
+    <Segment StartTime="1083.251" EndTime="1084.288" Participant="me018">
+      <Emphasis> phone </Emphasis> labels.
+    </Segment>
+    <Segment StartTime="1083.481" EndTime="1084.260" Participant="me011">
+      The word. <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1085.185" EndTime="1085.523" Participant="me018">
+      Yeah.
+    </Segment>
+    <Segment StartTime="1086.146" EndTime="1093.188" Participant="me013">
+      if you've got a pronunciation uh lexicon that has three or four, this might be have been the fifth one that you <Uncertain> tr- </Uncertain> that you pruned or whatever, so sure.
+    </Segment>
+    <Segment StartTime="1091.042" EndTime="1094.057" Participant="me018">
+      So it's like a continuum. It's - you're going all the way down, yeah.
+    </Segment>
+    <Segment StartTime="1091.108" EndTime="1091.648" Participant="fe016">
+      Right.
+    </Segment>
+    <Segment StartTime="1091.927" EndTime="1092.365" Participant="fe016">
+      Right.
+    </Segment>
+    <Segment StartTime="1092.724" EndTime="1093.092" Participant="fe016">
+      Right.
+    </Segment>
+    <Segment StartTime="1093.411" EndTime="1096.647" Participant="fe016">
+      That's what I meant is - an- and in some places it would fill in,
+    </Segment>
+    <Segment StartTime="1093.914" EndTime="1094.183" Participant="me013">
+      Yeah.
+    </Segment>
+    <Segment StartTime="1094.883" EndTime="1095.214" Participant="me013">
+      Yeah.
+    </Segment>
+    <Segment StartTime="1096.698" EndTime="1097.154" Participant="me011">
+      Well -
+    </Segment>
+    <Segment StartTime="1096.899" EndTime="1099.585" Participant="fe016">
+      So - the kinds of gestural features are not everywhere.
+    </Segment>
+    <Segment StartTime="1099.805" EndTime="1103.693" Participant="fe016">
+      So there are some things that you don't have access to either from your ear <Emphasis> or </Emphasis> the spectrogram,
+    </Segment>
+    <Segment StartTime="1099.808" EndTime="1100.153" Participant="me018">
+      Right.
+    </Segment>
+    <Segment StartTime="1103.753" EndTime="1104.251" Participant="me018">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="1103.952" EndTime="

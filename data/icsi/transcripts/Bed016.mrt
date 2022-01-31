@@ -1,0 +1,3817 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE Meeting SYSTEM "http://www.icsi.berkeley.edu/Speech/mr/Meeting1.dtd">
+
+<Meeting Session="Bed016" DateTimeStamp="2001-06-21-1620" Version="2" VersionDate="Jan 7 2004">
+
+  <Preamble>
+    <Notes>
+      Simultaneous digits.
+   
+   They play part of a tape recording, transcribed without close mike.
+   This involves three additional voices: unknown subject fe901,
+   computer-imitating voice xe902, and fe046.
+    </Notes>
+    <Channels>
+      <Channel Name="chan1" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan1.sph"/>
+      <Channel Name="chan2" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan2.sph"/>
+      <Channel Name="chan3" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan3.sph"/>
+      <Channel Name="chan4" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan4.sph"/>
+      <Channel Name="chan5" Mic="c1" Transmission="w1" Gain="11" AudioFile="chan5.sph"/>
+      <Channel Name="chan6" Mic="c2" Transmission="u1" Gain="9" AudioFile="chan6.sph"/>
+      <Channel Name="chan7" Mic="c2" Transmission="u1" Gain="9" AudioFile="chan7.sph"/>
+      <Channel Name="chan9" Mic="s1" Transmission="j1" Gain="7" AudioFile="chan9.sph"/>
+      <Channel Name="chanC" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanC.sph"/>
+      <Channel Name="chanD" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanD.sph"/>
+      <Channel Name="chanE" Mic="c2" Transmission="u1" Gain="9" AudioFile="chanE.sph"/>
+      <Channel Name="chanF" Mic="c2" Transmission="u1" Gain="9" AudioFile="chanF.sph"/>
+    </Channels>
+    <Participants DB="icsi1.spk">
+      <Participant Name="fe004" Channel="chan1" Seat="6"/>
+      <Participant Name="fn050" Channel="chan2" Seat="7"/>
+      <Participant Name="mn015" Channel="chan3" Seat="5"/>
+      <Participant Name="me003" Channel="chan4" Seat="3"/>
+      <Participant Name="me010" Channel="chan5" Seat="1"/>
+      <Participant Name="me045" Channel="chan9" Seat="4"/>
+      <Participant Name="fe016"/>
+      <Participant Name="fe901"/>
+      <Participant Name="fe046"/>
+      <Participant Name="xe902"/>
+    </Participants>
+  </Preamble>
+
+
+  <Transcript StartTime="0.0" EndTime="2828.947">
+
+    <Segment StartTime="0.072" EndTime="5.630" Participant="me010" CloseMic="false">
+      I, uh, had some communications with him
+    </Segment>
+    <Segment StartTime="1.790" EndTime="5.200" Participant="fe004">
+      Ah, so comfortable.
+    </Segment>
+    <Segment StartTime="2.270" EndTime="3.380" Participant="me045">
+      Smooth.
+    </Segment>
+    <Segment StartTime="5.630" EndTime="11.521" Participant="me010" CloseMic="false">
+      yesterday or the day before. So, he doesn't plan on coming <Emphasis> real </Emphasis> soon, but he is taking
+    </Segment>
+    <Segment StartTime="7.070" EndTime="8.610" Participant="me045">
+      <VocalSound Description="breath"/>
+    </Segment>
+    <Segment StartTime="11.521" EndTime="14.830" Participant="me010" CloseMic="false">
+      sabbatical <NonVocalSound Description="door slams"/> this year and so he'll probably come for six weeks at some point.
+    </Segment>
+    <Segment StartTime="12.672" EndTime="13.900" Participant="fe004">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="15.050" EndTime="15.510" Participant="fe004">
+      Good.
+    </Segment>
+    <Segment StartTime="15.690" EndTime="20.980" Participant="fe004">
+      I know that he's going to like, Taiwan and other places to eat. So.
+    </Segment>
+    <Segment StartTime="17.191" EndTime="19.274" Participant="me010" CloseMic="false">
+      <Uncertain NumSyllables="3"> @@ </Uncertain> Right.
+    </Segment>
+    <Segment StartTime="19.274" EndTime="23.759" Participant="fe016" CloseMic="false">
+      Everyone - So are your microphones on? Make sure to turn the batteries - the switch on. Everybody?
+    </Segment>
+    <Segment StartTime="21.820" EndTime="25.760" Participant="me003">
+      On? Am I on? I think I'm on? Good. Good. <Comment Description="testing microphone, getting feedback from the screen on audio levels"/>
+    </Segment>
+    <Segment StartTime="23.160" EndTime="26.670" Participant="fe004">
+      Yep. Yep. Bye.
+    </Segment>
+    <Segment StartTime="23.340" EndTime="24.441" Participant="fn050">
+      <Pronounce Pronunciation="&quot;nn-yeah&quot;"> Yeah.  </Pronounce>
+    </Segment>
+    <Segment StartTime="23.759" EndTime="25.720" Participant="fe016" CloseMic="false">
+      O_K. Great. Thanks very much.
+    </Segment>
+    <Segment StartTime="25.042" EndTime="26.150" Participant="fn050">
+      <Uncertain> Actually - </Uncertain>
+    </Segment>
+    <Segment StartTime="26.830" EndTime="30.030" Participant="fe004">
+      <VocalSound Description="long breath in and out"/>
+    </Segment>
+    <Segment StartTime="28.700" EndTime="34.570" Participant="me045">
+      I just had one of the most frustrating meetings of my career. <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="30.804" EndTime="35.150" Participant="fe004">
+      It's definitely not the <Emphasis> most </Emphasis> frustrating meeting <Emphasis> I've </Emphasis> ever had. <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="31.180" EndTime="31.910" Participant="me003">
+      You a-
+    </Segment>
+    <Segment StartTime="32.837" EndTime="35.910" Participant="me003">
+      You're - you remember you're being recorded at this point.
+    </Segment>
+    <Segment StartTime="35.410" EndTime="36.770" Participant="me045">
+      Yeah. <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="35.650" EndTime="39.470" Participant="fe004">
+      Oh, yeah, so, w- we didn't yet specify with whom. But um.
+    </Segment>
+    <Segment StartTime="35.800" EndTime="36.570" Participant="me010">
+      Yeah.
+    </Segment>
+    <Segment StartTime="36.230" EndTime="37.340" Participant="me003">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="36.290" EndTime="37.490" Participant="fn050">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="37.020" EndTime="37.950" Participant="me010">
+      Right.
+    </Segment>
+    <Segment StartTime="38.650" EndTime="39.490" Participant="me045">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="38.910" EndTime="41.020" Participant="me010">
+      Uh, right. Uh.
+    </Segment>
+    <Segment StartTime="40.120" EndTime="44.260" Participant="fe004">
+      So that's why Keith and I are going to be a little dazed for the first half m- the meeting.
+    </Segment>
+    <Segment StartTime="40.516" EndTime="41.008" Participant="me045">
+      Huh.
+    </Segment>
+    <Segment StartTime="41.990" EndTime="43.960" Participant="me045">
+      Yeah, I'm just gonna sit here and
+    </Segment>
+    <Segment StartTime="43.840" EndTime="45.480" Participant="me010">
+      Right. Yeah, I -
+    </Segment>
+    <Segment StartTime="44.229" EndTime="44.857" Participant="me045">
+      growl.
+    </Segment>
+    <Segment StartTime="45.368" EndTime="46.125" Participant="me045">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="46.060" EndTime="50.455" Participant="me010">
+      I - I <Emphasis> avoided </Emphasis> that as long as I <Emphasis> could </Emphasis> for you guys, but, uh -
+    </Segment>
+    <Segment StartTime="48.134" EndTime="50.280" Participant="me045">
+      <VocalSound Description="laugh"/> Yeah.
+    </Segment>
+    <Segment StartTime="50.116" EndTime="51.596" Participant="me003">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="50.390" EndTime="53.470" Participant="fe004">
+      Mm-hmm. <VocalSound Description="sigh"/>
+    </Segment>
+    <Segment StartTime="53.470" EndTime="58.820" Participant="me045">
+      For which we thank you, by the way. <VocalSound Description="laugh"/> I know you were - you were doing that, but, anyway.
+    </Segment>
+    <Segment StartTime="54.610" EndTime="56.910" Participant="fe004">
+      Are very appreciative, yeah. <Comment Description="completing [me045]'s utterance"/>
+    </Segment>
+    <Segment StartTime="56.062" EndTime="56.452" Participant="me010">
+      Right.
+    </Segment>
+    <Segment StartTime="58.240" EndTime="62.110" Participant="me003">
+      Oh yeah, how di- how d- exactly did, uh, that paper lead to anti-lock brakes?
+    </Segment>
+    <Segment StartTime="61.630" EndTime="69.390" Participant="me045">
+      Oh, I could tell you had a rough day, man! <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="62.590" EndTime="65.690" Participant="me003">
+      Nah. <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="62.760" EndTime="64.725" Participant="fn050">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="67.090" EndTime="67.840" Participant="fe004">
+      What?
+    </Segment>
+    <Segment StartTime="67.920" EndTime="71.040" Participant="me003">
+      <VocalSound Description="laugh"/> I love that story. <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="69.730" EndTime="71.470" Participant="me045">
+      Yeah, <VocalSound Description="laugh"/> it's a great story.
+    </Segment>
+    <Segment StartTime="69.979" EndTime="71.439" CloseMic="false">
+      <Comment Description="start of meeting"/>
+    </Segment>
+    <Segment StartTime="72.620" EndTime="74.010" Participant="mn015">
+      O_K.
+    </Segment>
+    <Segment StartTime="72.980" EndTime="73.970" Participant="me045">
+      <VocalSound Description="clears throat"/>
+    </Segment>
+    <Segment StartTime="75.810" EndTime="78.540" Participant="me045">
+      Oh my goodness. <Comment Description="almost sighing"/>
+    </Segment>
+    <Segment StartTime="78.410" EndTime="85.200" Participant="mn015">
+      Oh yeah, um, Liz suggested we could start off by uh, doing the digits all at the same time.
+    </Segment>
+    <Segment StartTime="85.050" EndTime="86.110" Participant="fe004">
+      <Emphasis> What? </Emphasis>
+    </Segment>
+    <Segment StartTime="85.620" EndTime="89.510" Participant="me003">
+      All at the same <Emphasis> time. </Emphasis> I don't know if - I would get distracted and confused, probably.
+    </Segment>
+    <Segment StartTime="86.991" EndTime="87.324" Participant="me010">
+      e-
+    </Segment>
+    <Segment StartTime="88.210" EndTime="91.320" Participant="fe004">
+      <Emphasis> Really? </Emphasis> Do we have to like, <Emphasis> synchronize? </Emphasis>
+    </Segment>
+    <Segment StartTime="89.270" EndTime="93.840" Participant="me010">
+      Well, I think you're supposed to - O_K. We can do this. Everybody's got different digits, right?
+    </Segment>
+    <Segment StartTime="89.610" EndTime="90.920" Participant="me045">
+      Are you being silly?
+    </Segment>
+    <Segment StartTime="91.230" EndTime="92.110" Participant="me045">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="91.690" EndTime="92.660" Participant="me003">
+      Oh wait <Uncertain> do we </Uncertain> have t-
+    </Segment>
+    <Segment StartTime="93.370" EndTime="94.150" Participant="me045">
+      <Uncertain> Uh </Uncertain>. <Comment Description="strong rise-fall"/>
+    </Segment>
+    <Segment StartTime="93.585" EndTime="94.020" Participant="mn015">
+      Yep.
+    </Segment>
+    <Segment StartTime="93.653" EndTime="96.850" Participant="me003">
+      Yeah, do we have to time them at the same time or just overlapping -
+    </Segment>
+    <Segment StartTime="94.030" EndTime="94.920" Participant="fn050">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="94.560" EndTime="95.860" Participant="fe004">
+      You're kidding.
+    </Segment>
+    <Segment StartTime="95.453" EndTime="98.765" Participant="fn050">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="95.490" EndTime="96.210" Participant="me010">
+      No.
+    </Segment>
+    <Segment StartTime="95.607" EndTime="97.670" Participant="me045">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="95.663" EndTime="98.350" Participant="mn015">
+      No, no, just - just start whenever you want.
+    </Segment>
+    <Segment StartTime="96.350" EndTime="99.310" Participant="fe004">
+      <VocalSound Description="laugh"/> And any rate?
+    </Segment>
+    <Segment StartTime="96.993" EndTime="98.550" Participant="me010">
+      e- <Uncertain> yeah </Uncertain>, the-
+    </Segment>
+    <Segment StartTime="97.814" EndTime="98.484" Participant="me045">
+      Alright.
+    </Segment>
+    <Segment StartTime="98.772" EndTime="102.367" Participant="me010">
+      Well, they - they have s- they have the close talking microphones for each of us, so -
+    </Segment>
+    <Segment StartTime="101.140" EndTime="102.780" Participant="fe004">
+      Yeah, that's true. <VocalSound Description="outbreath"/>
+    </Segment>
+    <Segment StartTime="102.390" EndTime="103.680" Participant="me045">
+      Alright.
+    </Segment>
+    <Segment StartTime="102.529" EndTime="103.886" Participant="me010">
+      yeah, there's separate channels.
+    </Segment>
+    <Segment StartTime="103.104" EndTime="103.568" Participant="mn015">
+      Yeah.
+    </Segment>
+    <Segment StartTime="103.910" EndTime="104.670" Participant="fe004">
+      <Pronounce Pronunciation="&quot;mm-kay&quot;"> O_K.  </Pronounce>
+    </Segment>
+    <Segment StartTime="104.330" EndTime="105.730" Participant="me045">
+      Just plug one ear.
+    </Segment>
+    <Segment StartTime="104.430" EndTime="105.223" Participant="me010">
+      So when I say
+    </Segment>
+    <Segment StartTime="104.588" EndTime="104.970" Participant="mn015">
+      Yeah.
+    </Segment>
+    <Segment StartTime="105.223" EndTime="108.632" Participant="me010" DigitTask="true">
+      "two two four, one nine three, six eight four one" <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="106.220" EndTime="109.939" Participant="mn015" DigitTask="true">
+      This is transcript L_ two nine <Pause/> five. <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="107.203" EndTime="108.370" Participant="fe004">
+      <VocalSound Description="inbreath"/>
+    </Segment>
+    <Segment StartTime="108.300" EndTime="112.921" Participant="me003" DigitTask="true">
+      nine four six, six five one, nine three five five <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="108.410" EndTime="114.609" Participant="me045" DigitTask="true">
+      two three three zero, <Comment Description="while laughing"/> six seven eight seven, six two two four <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="108.918" EndTime="113.013" Participant="me010" DigitTask="true">
+      nine five five, nine five seven, seven six two three <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="108.967" EndTime="113.370" Participant="fe004" DigitTask="true">
+      seven four one, <Comment Description="while laughing"/> two six O_, six O_ seven seven. <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="109.710" EndTime="113.961" Participant="fn050" DigitTask="true">
+      five five six two, <Comment Description="while laughing"/> zero, nine seven four. <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="110.350" EndTime="114.660" Participant="mn015" DigitTask="true">
+      nine three five, eight four two, O_ six six nine, <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="113.063" EndTime="117.547" Participant="me003" DigitTask="true">
+      seven seven zero three, two, six two five <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="113.505" EndTime="117.476" Participant="me010" DigitTask="true">
+      four six four, five three, two three one five <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="113.961" EndTime="117.450" Participant="fn050" DigitTask="true">
+      zero four zero eight, nine, zero nine one <Comment Description="while laughing"/> <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="114.200" EndTime="118.770" Participant="fe004" DigitTask="true">
+      two one seven five, three nine six five, three eight seven two. <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="114.880" EndTime="119.690" Participant="mn015" DigitTask="true">
+      three zero, three nine, four O_, eight eight, five eight <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="115.080" EndTime="119.639" Participant="me045" DigitTask="true">
+      six two eight five, four, four three eight <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="117.643" EndTime="121.539" Participant="me010" DigitTask="true">
+      six four six, nine O_, two O_ one eight <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="117.844" EndTime="122.236" Participant="me003" DigitTask="true">
+      eight four two, O_ six three, six nine five six <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="118.119" EndTime="122.428" Participant="fn050" DigitTask="true">
+      six nine nine eight, six, six eight - zero eight four. <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="120.030" EndTime="125.200" Participant="fe004" DigitTask="true">
+      one, five six eight, eight nine, nine four nine, nine. <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="120.270" EndTime="124.387" Participant="me045" DigitTask="true">
+      one five eight, zero seven two, three seven five <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="120.427" EndTime="124.370" Participant="mn015" DigitTask="true">
+      five one O_ seven, four, s- five six one <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="121.918" EndTime="126.143" Participant="me010" DigitTask="true">
+      nine six, six five, nine seven, four O_ two six <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="122.418" EndTime="126.660" Participant="me003" DigitTask="true">
+      eight two nine, nine <Emphasis> zero, </Emphasis> six five five nine <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="123.160" EndTime="126.389" Participant="fn050" DigitTask="true">
+      two five seven seven, two, five seven two. <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="124.740" EndTime="129.538" Participant="me045" DigitTask="true">
+      six six two, three five six, five eight nine seven <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="125.620" EndTime="129.130" Participant="mn015" DigitTask="true">
+      five four one six, six, one two five <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="125.764" EndTime="128.920" Participant="fe004" DigitTask="true">
+      five four two six, five, seven O_ two. <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="126.629" EndTime="130.404" Participant="me010" DigitTask="true">
+      eight five, eight three, two six, seven five, two seven <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="126.710" EndTime="130.321" Participant="fn050" DigitTask="true">
+      five two nine four, eight, eight four nine. <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="126.891" EndTime="130.787" Participant="me003" DigitTask="true">
+      six seven four, four six zero, five one three <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="129.430" EndTime="133.717" Participant="mn015" DigitTask="true">
+      two seven eight five, nine, eight four two <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="129.610" EndTime="133.140" Participant="fe004" DigitTask="true">
+      O_ eight, eight three, seven five, five five, two O_. <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="130.260" EndTime="135.658" Participant="me045" DigitTask="true">
+      four one one eight, eight five one three, seven one seven five <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="130.823" EndTime="135.770" Participant="fn050" DigitTask="true">
+      seven four, six three, eight zero, one one, eight zero. <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="130.988" EndTime="134.669" Participant="me003" DigitTask="true">
+      six three O_, two five, three four seven eight <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="131.081" EndTime="135.213" Participant="me010" DigitTask="true">
+      five nine eight, two six, nine five one six <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="133.717" EndTime="138.609" Participant="mn015" DigitTask="true">
+      three five nine nine, O_ seven two nine, six three two zero <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="134.570" EndTime="138.460" Participant="fe004" DigitTask="true">
+      two six seven, four O_ four, three three five seven, <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="134.961" EndTime="140.022" Participant="me003" DigitTask="true">
+      zero, one six seven, one five, four four seven zero <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="135.431" EndTime="139.730" Participant="me010" DigitTask="true">
+      six O_ six, six nine one, seven four six nine. <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="136.070" EndTime="141.099" Participant="me045" DigitTask="true">
+      five six three zero, three four zero four, five nine nine one <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="136.162" EndTime="141.080" Participant="fn050" DigitTask="true">
+      seven, three eight five, six six, five nine one, nine. <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="138.609" EndTime="143.120" Participant="mn015" DigitTask="true">
+      one, one one eight, five five, O_ one eight, one <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="139.820" EndTime="142.940" Participant="fe004" DigitTask="true">
+      O_ six seven, nine two, one three nine six. <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="140.275" EndTime="144.760" Participant="me003" DigitTask="true">
+      seven four eight, nine one two, one five four. <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="141.310" EndTime="144.942" Participant="fn050" DigitTask="true">
+      six two nine, three nine six, six two zero five. <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="141.572" EndTime="146.779" Participant="me045" DigitTask="true">
+      eight, nine seven one, three seven, two four nine, one <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="143.245" EndTime="147.130" Participant="fe004" DigitTask="true">
+      four seven one, six one six, five two one two. <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="143.510" EndTime="148.620" Participant="mn015" DigitTask="true">
+      one six eight three, six, eight nine six <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="144.942" EndTime="146.619" Participant="fn050" DigitTask="true">
+      six two zero s- <Emphasis> three. </Emphasis> <Comment Description="correction"/> <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="147.018" EndTime="150.677" Participant="me045" DigitTask="true">
+      two one six, seven three, <Comment Description="while laughing"/> nine four seven three. <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="147.881" EndTime="150.480" Participant="fe004">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="148.960" EndTime="149.850" Participant="fn050">
+      <VocalSound Description="breath-laugh"/>
+    </Segment>
+    <Segment StartTime="151.080" EndTime="154.200" Participant="fe004">
+      You lose. <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="151.340" EndTime="152.110" Participant="me010">
+      O_K.
+    </Segment>
+    <Segment StartTime="151.579" EndTime="155.030" Participant="me045">
+      O_K, bye! <VocalSound Description="laugh"/> <Emphasis> That </Emphasis> was a great <Emphasis> meeting! </Emphasis>
+    </Segment>
+    <Segment StartTime="151.657" EndTime="154.949" Participant="mn015">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="151.822" EndTime="154.415" Participant="fn050">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="152.740" EndTime="153.800" Participant="me010">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="154.900" EndTime="156.980" Participant="fe004">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="155.039" EndTime="155.650" Participant="me010">
+      Right. <Comment Description="while laughing"/>
+    </Segment>
+    <Segment StartTime="155.206" EndTime="158.590" Participant="fn050">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="155.650" EndTime="158.680" Participant="me045">
+      <VocalSound Description="laugh"/> So- <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="158.430" EndTime="159.770" Participant="me003">
+      Alright.
+    </Segment>
+    <Segment StartTime="158.710" EndTime="160.870" Participant="me045">
+      Now, uh, <Emphasis> why? </Emphasis> <VocalSound Description="laugh"/> <Comment Description="&quot;uh&quot; as intentional, discourse marker"/>
+    </Segment>
+    <Segment StartTime="159.955" EndTime="161.240" Participant="fn050">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="161.510" EndTime="162.970" Participant="mn015">
+      Just to save <Emphasis> time. </Emphasis>
+    </Segment>
+    <Segment StartTime="163.090" EndTime="163.820" Participant="me045">
+      O_K.
+    </Segment>
+    <Segment StartTime="164.207" EndTime="165.450" Participant="mn015">
+      Does matter for <Emphasis> them. </Emphasis>
+    </Segment>
+    <Segment StartTime="165.775" EndTime="167.252" Participant="me045">
+      <VocalSound Description="cough"/>
+    </Segment>
+    <Segment StartTime="169.660" EndTime="172.360" Participant="fe004">
+      Are we gonna start <Emphasis> all </Emphasis> our meetings out that way from now on? <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="171.050" EndTime="173.770" Participant="me045">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="171.530" EndTime="172.950" Participant="fn050">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="171.960" EndTime="172.293" Participant="me010">
+      No.
+    </Segment>
+    <Segment StartTime="172.440" EndTime="176.759" Participant="fe004">
+      Oh. Too bad. I kinda like it. <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="173.240" EndTime="174.900" Participant="me003">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="174.700" EndTime="177.040" Participant="me045">
+      Well, could we? <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="175.147" EndTime="177.877" Participant="fn050">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="175.396" EndTime="176.666" Participant="me003">
+      It's strangely satisfying.
+    </Segment>
+    <Segment StartTime="175.800" EndTime="179.706" Participant="mn015">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="176.759" EndTime="179.500" Participant="fe004">
+      Yeah. It's a ritual.
+    </Segment>
+    <Segment StartTime="177.060" EndTime="178.610" Participant="me045">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="183.429" EndTime="184.630" Participant="fe004">
+      <VocalSound Description="clears throat"/>
+    </Segment>
+    <Segment StartTime="186.320" EndTime="188.510" Participant="me045">
+      <VocalSound Description="clears throat"/>
+    </Segment>
+    <Segment StartTime="189.470" EndTime="189.974" Participant="fe004">
+      <VocalSound Description="sniff"/>
+    </Segment>
+    <Segment StartTime="190.250" EndTime="195.690" Participant="me003">
+      Are we to r- Just to make sure I know what's going on, we're talking about Robert's thesis proposal today? Is that <Pause/>
+    </Segment>
+    <Segment StartTime="195.461" EndTime="196.790" Participant="mn015">
+      We <Emphasis> could. </Emphasis>
+    </Segment>
+    <Segment StartTime="195.820" EndTime="196.630" Participant="me003">
+      true?
+    </Segment>
+    <Segment StartTime="196.310" EndTime="196.892" Participant="fn050">
+      <VocalSound Description="clears throat"/>
+    </Segment>
+    <Segment StartTime="196.960" EndTime="197.850" Participant="fe004">
+      We <Emphasis> are? </Emphasis>
+    </Segment>
+    <Segment StartTime="198.000" EndTime="199.050" Participant="mn015">
+      We <Emphasis> might. </Emphasis>
+    </Segment>
+    <Segment StartTime="198.683" EndTime="199.700" Participant="fe004">
+      O_K.
+    </Segment>
+    <Segment StartTime="198.780" EndTime="206.070" Participant="me010">
+      Well, you - you had s- you said there were <Emphasis> two </Emphasis> things that you might wanna do. One was rehearse your <Uncertain> i- i- </Uncertain> <Emphasis> talk </Emphasis> -
+    </Segment>
+    <Segment StartTime="199.242" EndTime="199.702" Participant="me003">
+      Is -
+    </Segment>
+    <Segment StartTime="204.430" EndTime="205.890" Participant="me003">
+      Oh yes, and that <Emphasis> too. </Emphasis>
+    </Segment>
+    <Segment StartTime="205.030" EndTime="214.703" Participant="mn015">
+      Not - not rehearse, I mean, I have just not spent any time on it, so I can show you what I've got, get your input on it, and maybe some suggestions, that would be great.
+    </Segment>
+    <Segment StartTime="215.078" EndTime="218.012" Participant="mn015">
+      And the <Emphasis> same </Emphasis> is true for the <Emphasis> proposal. </Emphasis>
+    </Segment>
+    <Segment StartTime="219.068" EndTime="227.700" Participant="mn015">
+      I <Emphasis> will </Emphasis> have time to do some revision and some additional stuff on various airplanes and trains. So,
+    </Segment>
+    <Segment StartTime="228.370" EndTime="229.460" Participant="mn015">
+      um.
+    </Segment>
+    <Segment StartTime="229.610" EndTime="230.930" Participant="mn015">
+      I don't know how
+    </Segment>
+    <Segment StartTime="231.190" EndTime="234.300" Participant="mn015">
+      much of a chance you had to actually <Emphasis> read </Emphasis> it because -
+    </Segment>
+    <Segment StartTime="231.970" EndTime="232.600" Participant="fn050">
+      <VocalSound Description="sneeze"/>
+    </Segment>
+    <Segment StartTime="232.210" EndTime="233.321" Participant="fe004">
+      I haven't looked at it
+    </Segment>
+    <Segment StartTime="233.740" EndTime="234.890" Participant="fe004">
+      <Emphasis> yet, </Emphasis>
+    </Segment>
+    <Segment StartTime="234.640" EndTime="239.120" Participant="mn015">
+      but you could always send me comments per electronic mail
+    </Segment>
+    <Segment StartTime="236.040" EndTime="237.310" Participant="fe004">
+      but I <Emphasis> will. </Emphasis>
+    </Segment>
+    <Segment StartTime="237.760" EndTime="238.720" Participant="fe004">
+      <VocalSound Description="clears throat"/>
+    </Segment>
+    <Segment StartTime="238.405" EndTime="239.036" Participant="fn050">
+      <VocalSound Description="cough"/>
+    </Segment>
+    <Segment StartTime="239.350" EndTime="241.055" Participant="mn015">
+      and they will be incorporated.
+    </Segment>
+    <Segment StartTime="241.110" EndTime="241.520" Participant="fe004">
+      <Pronounce Pronunciation="&quot;mm-kay&quot;"> O_K.  </Pronounce>
+    </Segment>
+    <Segment StartTime="241.726" EndTime="244.446" Participant="mn015">
+      Um, <VocalSound Description="clears throat"/> the -
+    </Segment>
+    <Segment StartTime="244.446" EndTime="247.860" Participant="mn015">
+      It basically says, well
+    </Segment>
+    <Segment StartTime="248.110" EndTime="260.930" Participant="mn015">
+      "this is construal", and then it continues to say that one could potentially build a probabilistic relational model that has some <Emphasis> general, </Emphasis> domain-general rules
+    </Segment>
+    <Segment StartTime="249.585" EndTime="250.617" Participant="fe004">
+      <VocalSound Description="clears throat"/>
+    </Segment>
+    <Segment StartTime="260.940" EndTime="268.070" Participant="mn015">
+      how things are construed, and then the idea is to use ontology, situation, user, and
+    </Segment>
+    <Segment StartTime="264.328" EndTime="265.957" Participant="fe004">
+      <VocalSound Description="clears throat"/>
+    </Segment>
+    <Segment StartTime="268.120" EndTime="280.840" Participant="mn015">
+      discourse model to instantiate elements in the classes of the probabilistic relational model <Pause/> to do some inferences in terms of what is being construed as <Emphasis> what </Emphasis>
+    </Segment>
+    <Segment StartTime="270.046" EndTime="270.654" Participant="fn050">
+      <VocalSound Description="cough"/>
+    </Segment>
+    <Segment StartTime="278.979" EndTime="279.432" Participant="fe004">
+      Hmm.
+    </Segment>
+    <Segment StartTime="281.641" EndTime="284.760" Participant="mn015">
+      in our beloved tourism domain.
+    </Segment>
+    <Segment StartTime="285.592" EndTime="290.158" Participant="mn015">
+      But, with a focus on <Uncertain> @@ </Uncertain> <Comment Description="lengthened and exaggerated intonation, as if trying to pronounce either a difficult name, or a non-pronounceable acronym"/>
+    </Segment>
+    <Segment StartTime="287.550" EndTime="288.253" Participant="fe004">
+      Can I s- <Comment Description="whispered"/>
+    </Segment>
+    <Segment StartTime="290.158" EndTime="291.560" Participant="mn015">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="290.266" EndTime="294.790" Participant="me045">
+      I think I need a copy of this, yes. <VocalSound Description="laugh"/> I- is there an extra copy around?
+    </Segment>
+    <Segment StartTime="290.310" EndTime="291.200" Participant="fe004">
+      Sorry.
+    </Segment>
+    <Segment StartTime="292.570" EndTime="293.730" Participant="mn015">
+      Hmm?
+    </Segment>
+    <Segment StartTime="293.220" EndTime="301.860" Participant="me003">
+      O_K, we can - we can - we can pass - pass my, uh - we can pass my extra copy around. Er, actually, my <Emphasis> only </Emphasis> copy, now that I think about it, but. I already read half of it, so it's O_K.
+    </Segment>
+    <Segment StartTime="293.408" EndTime="295.370" Participant="fe004">
+      Uh. He sent it.
+    </Segment>
+    <Segment StartTime="297.100" EndTime="298.770" Participant="fe004">
+      O_K. You can keep it.
+    </Segment>
+    <Segment StartTime="297.421" EndTime="298.310" Participant="me045">
+      Alrigh-
+    </Segment>
+    <Segment StartTime="298.250" EndTime="308.290" Participant="mn015">
+      Um, I don't - I, uh - I don't need it. Um, actually this is the - the <Emphasis> newest </Emphasis> version after your comments, and -
+    </Segment>
+    <Segment StartTime="299.000" EndTime="300.170" Participant="fe004">
+      O_K.
+    </Segment>
+    <Segment StartTime="301.410" EndTime="302.400" Participant="me045">
+      O_K.
+    </Segment>
+    <Segment StartTime="307.740" EndTime="312.600" Participant="me010">
+      Yeah, no I s- I s- I see this has got the castle in it, and stuff like that. Yep.
+    </Segment>
+    <Segment StartTime="311.510" EndTime="313.160" Participant="mn015">
+      Yeah.
+    </Segment>
+    <Segment StartTime="313.210" EndTime="314.800" Participant="me003">
+      Oh, maybe the version I didn't have
+    </Segment>
+    <Segment StartTime="315.150" EndTime="318.060" Participant="me003">
+      that I - mine - the w- did the one you sent on the email
+    </Segment>
+    <Segment StartTime="318.990" EndTime="320.160" Participant="me003">
+      have the -
+    </Segment>
+    <Segment StartTime="319.760" EndTime="320.450" Participant="me010">
+      Yeah.
+    </Segment>
+    <Segment StartTime="320.570" EndTime="321.970" Participant="me003">
+      That was the most recent one?
+    </Segment>
+    <Segment StartTime="322.150" EndTime="323.380" Participant="me010">
+      Uh, yeah, I think so.
+    </Segment>
+    <Segment StartTime="323.100" EndTime="323.940" Participant="me003">
+      O_K.
+    </Segment>
+    <Segment StartTime="323.140" EndTime="323.385" Participant="mn015">
+      Yep.
+    </Segment>
+    <Segment StartTime="324.320" EndTime="326.690" Participant="me003">
+      Cuz I read halfway but I didn't see a castle thing.
+    </Segment>
+    <Segment StartTime="328.020" EndTime="329.842" Participant="fe004">
+      I'm changing this. <Comment Description="slower tempo, perhaps discourse-significant"/>
+    </Segment>
+    <Segment StartTime="329.842" EndTime="331.640" Participant="fe004">
+      Just so you know. <Comment Description="resumes normal tempo, after temporary slow-down"/> But, anyway.
+    </Segment>
+    <Segment StartTime="329.960" EndTime="341.070" Participant="mn015">
+      Yeah, um, if you would have checked your email you may have received a note from <Uncertain> Yees </Uncertain> asking you to send me the, uh, up-to-d-
+    </Segment>
+    <Segment StartTime="331.250" EndTime="332.130" Participant="me003">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="335.770" EndTime="336.660" Participant="fe004">
+      Oh.
+    </Segment>
+    <Segment StartTime="336.670" EndTime="338.340" Participant="fe004">
+      Oh, sorry.
+    </Segment>
+    <Segment StartTime="338.440" EndTime="339.726" Participant="fe004">
+      O_K. <Comment Description="lengthened, mock embarrassment"/>
+    </Segment>
+    <Segment StartTime="339.570" EndTime="341.250" Participant="me003">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="340.120" EndTime="341.220" Participant="fn050">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="340.460" EndTime="341.470" Participant="fe004">
+      Sorry.
+    </Segment>
+    <Segment StartTime="341.130" EndTime="344.470" Participant="mn015">
+      current formalism thing that you presented.
+    </Segment>
+    <Segment StartTime="341.840" EndTime="344.610" Participant="fe004">
+      O_K. I will. O_K. O_K.
+    </Segment>
+    <Segment StartTime="345.002" EndTime="345.560" Participant="fe004">
+      O_K.
+    </Segment>
+    <Segment StartTime="346.939" EndTime="349.560" Participant="mn015">
+      But for <Emphasis> this </Emphasis> it doesn't matter. But, uh -
+    </Segment>
+    <Segment StartTime="349.940" EndTime="351.470" Participant="mn015">
+      <NonVocalSound Description="pages turning"/> <Emphasis> Hmm! </Emphasis> <Comment Description="surprised"/>
+    </Segment>
+    <Segment StartTime="350.210" EndTime="353.396" Participant="fe004">
+      <VocalSound Description="inbreath"/> We can talk about it later. <NonVocalSound Description="mike noise"/>
+    </Segment>
+    <Segment StartTime="353.396" EndTime="358.000" Participant="fe004">
+      That's not even ready, so. Um, O_K! Go on t- to, uh, whatever.
+    </Segment>
+    <Segment StartTime="357.830" EndTime="358.491" Participant="mn015">
+      And -
+    </Segment>
+    <Segment StartTime="358.330" EndTime="360.950" Participant="fe004">
+      I'm making changes. "Don't worry about that." O_K. Mmm-mmm. <Comment Description="vocal gesture &quot;mmm-mmm&quot;, with sing-song intonation, &quot;whatever&quot;"/>
+    </Segment>
+    <Segment StartTime="362.998" EndTime="366.610" Participant="fe004">
+      Oh! O_K, sorry, go on. <VocalSound Description="clears throat"/>
+    </Segment>
+    <Segment StartTime="365.410" EndTime="370.030" Participant="mn015">
+      And <Emphasis> any </Emphasis> type of comment whether it's a spelling or a syntax or
+    </Segment>
+    <Segment StartTime="368.184" EndTime="368.596" Participant="fe004">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="369.890" EndTime="372.084" Participant="me045">
+      There's only one "S_" in "interesting".
+    </Segment>
+    <Segment StartTime="370.620" EndTime="371.850" Participant="mn015">
+      readability -
+    </Segment>
+    <Segment StartTime="372.214" EndTime="372.620" Participant="mn015">
+      Hmm?
+    </Segment>
+    <Segment StartTime="372.230" EndTime="376.800" Participant="me045">
+      <VocalSound Description="laugh"/> There's only one "S_" in "interesting". On page <Emphasis> five. </Emphasis>
+    </Segment>
+    <Segment StartTime="376.310" EndTime="377.230" Participant="mn015">
+      <Emphasis> Interesting. </Emphasis>
+    </Segment>
+    <Segment StartTime="377.345" EndTime="378.703" Participant="fe004">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="377.450" EndTime="379.370" Participant="mn015">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="378.703" EndTime="379.550" Participant="fe004">
+      <Emphasis> Anyway. </Emphasis>
+    </Segment>
+    <Segment StartTime="378.750" EndTime="379.450" Participant="fn050">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="379.570" EndTime="384.490" Participant="fe004">
+      And y- uh, email any time, but most usefully before - <Comment Description="abandoned, leading question to get [mn015] to specify a date"/>
+    </Segment>
+    <Segment StartTime="384.560" EndTime="386.400" Participant="me003">
+      The twenty-first I'm assuming. <Comment Description="completing [fe004] utterance, responding to leading question"/>
+    </Segment>
+    <Segment StartTime="385.720" EndTime="386.970" Participant="fe004">
+      The twenty-first?
+    </Segment>
+    <Segment StartTime="386.480" EndTime="388.060" Participant="me010">
+      No, <Emphasis> this </Emphasis> is the twenty-first.
+    </Segment>
+    <Segment StartTime="386.490" EndTime="387.670" Participant="mn015">
+      Twenty-ninth.
+    </Segment>
+    <Segment StartTime="386.562" EndTime="387.068" Participant="me045">
+      That's -
+    </Segment>
+    <Segment StartTime="387.710" EndTime="390.980" Participant="me003">
+      <Uncertain> What </Uncertain>, today's the twenty-first? Oh, <Emphasis> man! </Emphasis>
+    </Segment>
+    <Segment StartTime="388.260" EndTime="389.740" Participant="me045">
+      Well, better hurry <Emphasis> up </Emphasis> then!
+    </Segment>
+    <Segment StartTime="389.019" EndTime="389.964" Participant="fe004">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="389.670" EndTime="390.890" Participant="fn050">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="391.410" EndTime="392.920" Participant="mn015">
+      The twenty-ninth.
+    </Segment>
+    <Segment StartTime="391.580" EndTime="393.280" Participant="fe004">
+      Before the twenty-ninth, O_K.
+    </Segment>
+    <Segment StartTime="392.980" EndTime="393.840" Participant="me003">
+      O_K.
+    </Segment>
+    <Segment StartTime="398.610" EndTime="401.563" Participant="mn015">
+      That's when I'm meeting with Wolfgang Wahlster to
+    </Segment>
+    <Segment StartTime="401.059" EndTime="401.471" Participant="fe004">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="402.048" EndTime="405.110" Participant="mn015">
+      <Emphasis> sell </Emphasis> him this idea.
+    </Segment>
+    <Segment StartTime="407.212" EndTime="407.741" Participant="fe004">
+      O_K.
+    </Segment>
+    <Segment StartTime="411.760" EndTime="412.058" Participant="mn015">
+      <Pronounce Pronunciation="&quot;kay&quot;"> O_K?  </Pronounce>
+    </Segment>
+    <Segment StartTime="413.690" EndTime="420.680" Participant="mn015">
+      Then I'm <Emphasis> also </Emphasis> going to present a little talk at E_M_L,
+    </Segment>
+    <Segment StartTime="419.788" EndTime="420.591" Participant="fe004">
+      <VocalSound Description="clears throat"/>
+    </Segment>
+    <Segment StartTime="421.040" EndTime="422.290" Participant="mn015">
+      about
+    </Segment>
+    <Segment StartTime="422.420" EndTime="424.710" Participant="mn015">
+      what we have done here
+    </Segment>
+    <Segment StartTime="425.170" EndTime="426.310" Participant="mn015">
+      and
+    </Segment>
+    <Segment StartTime="427.216" EndTime="428.729" Participant="mn015">
+      so
+    </Segment>
+    <Segment StartTime="429.120" EndTime="437.720" Participant="mn015">
+      of course, I'm - I'm gonna start out with <Emphasis> this </Emphasis> slide, so the most relevant aspects of our stay here, and um,
+    </Segment>
+    <Segment StartTime="430.420" EndTime="431.800" Participant="fe004">
+      <VocalSound Description="clears throat"/>
+    </Segment>
+    <Segment StartTime="431.898" EndTime="432.976" Participant="me045">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="435.248" EndTime="438.896" Participant="me045">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="438.479" EndTime="441.380" Participant="mn015">
+      then I'm
+    </Segment>
+    <Segment StartTime="442.130" EndTime="446.013" Participant="mn015">
+      asking them to imagine that they're standing somewhere in Heidelberg and someone asks them
+    </Segment>
+    <Segment StartTime="446.564" EndTime="454.000" Participant="mn015">
+      in the morning - The Cave Forty-Five is a - is a well-known discotheque which is certainly not open at that - that time.
+    </Segment>
+    <Segment StartTime="454.407" EndTime="454.858" Participant="me045">
+      O_K.
+    </Segment>
+    <Segment StartTime="454.854" EndTime="456.540" Participant="mn015">
+      And so
+    </Segment>
+    <Segment StartTime="457.530" EndTime="459.450" Participant="mn015">
+      they're supposed to imagine that, you know,
+    </Segment>
+    <Segment StartTime="458.944" EndTime="459.793" Participant="fe004">
+      <VocalSound Description="clears throat"/>
+    </Segment>
+    <Segment StartTime="459.920" EndTime="464.700" Participant="mn015">
+      do they think the person wants to go there, or just know where it is? Uh,
+    </Segment>
+    <Segment StartTime="465.470" EndTime="469.188" Participant="mn015">
+      which is probably <Emphasis> not, </Emphasis> uh, the case
+    </Segment>
+    <Segment StartTime="469.802" EndTime="475.739" Participant="mn015">
+      in that discotheque example, or in the Bavaria example, you just want to know where it <Emphasis> is. </Emphasis>
+    </Segment>
+    <Segment StartTime="476.713" EndTime="486.710" Participant="mn015">
+      And so forth. So basically we can make a point that here is ontological knowledge but if it's nine - nine P_M in the evening then the discotheque question would be, for example,
+    </Segment>
+    <Segment StartTime="481.096" EndTime="481.796" Participant="fe004">
+      <VocalSound Description="clears throat"/>
+    </Segment>
+    <Segment StartTime="486.730" EndTime="490.004" Participant="mn015">
+      one that might ask for <Emphasis> directions </Emphasis> instead of just <Emphasis> location. </Emphasis>
+    </Segment>
+    <Segment StartTime="490.004" EndTime="491.375" Participant="mn015">
+      <VocalSound Description="long inbreath"/>
+    </Segment>
+    <Segment StartTime="491.375" EndTime="496.170" Participant="mn015">
+      Um, <VocalSound Description="outbreath"/> and so forth and so forth. That's sort of motivating it.
+    </Segment>
+    <Segment StartTime="496.380" EndTime="502.180" Participant="mn015">
+      Then what have we done so far? We had our little bit of, um,
+    </Segment>
+    <Segment StartTime="502.660" EndTime="504.665" Participant="mn015">
+      um, SmartKom stuff, that we did, <Comment Description="listing intonation"/>
+    </Segment>
+    <Segment StartTime="505.056" EndTime="507.560" Participant="mn015">
+      um, everth-
+    </Segment>
+    <Segment StartTime="506.360" EndTime="508.530" Participant="me045">
+      Oh, you've got the <Emphasis> parser </Emphasis> done. <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="508.650" EndTime="509.960" Participant="me045">
+      <Emphasis> Sorry. </Emphasis> <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="509.410" EndTime="516.550" Participant="mn015">
+      That's the - <Emphasis> not </Emphasis> the construction parser. That's the, uh, tablet-based parser, and
+    </Segment>
+    <Segment StartTime="511.915" EndTime="512.298" Participant="me045">
+      O_K.
+    </Segment>
+    <Segment StartTime="513.290" EndTime="514.360" Participant="fe004">
+      Easy parser.
+    </Segment>
+    <Segment StartTime="514.089" EndTime="514.554" Participant="me045">
+      O_K.
+    </Segment>
+    <Segment StartTime="517.400" EndTime="519.870" Participant="mn015">
+      the generation outputter. <VocalSound Description="tongue click"/> <Comment Description="vocal gesture, &quot;done!&quot;"/>
+    </Segment>
+    <Segment StartTime="518.482" EndTime="520.770" Participant="me003">
+      <Emphasis> Halfway </Emphasis> done? Yeah. <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="520.150" EndTime="525.360" Participant="mn015">
+      That's done. You have to change those strategies, right? That's, ten words?
+    </Segment>
+    <Segment StartTime="520.876" EndTime="522.943" Participant="fe004">
+      Mmm. <VocalSound Description="clears throat"/> <VocalSound Description="sniff"/>
+    </Segment>
+    <Segment StartTime="521.320" EndTime="522.080" Participant="me003">
+      O_K.
+    </Segment>
+    <Segment StartTime="522.980" EndTime="523.830" Participant="me003">
+      Yeah.
+    </Segment>
+    <Segment StartTime="525.490" EndTime="527.060" Participant="me003">
+      Well, i- it, you know.
+    </Segment>
+    <Segment StartTime="528.140" EndTime="529.140" Participant="me003">
+      Maybe twelve.
+    </Segment>
+    <Segment StartTime="528.939" EndTime="529.650" Participant="me045">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="529.150" EndTime="530.510" Participant="mn015">
+      Twelve? O_K.
+    </Segment>
+    <Segment StartTime="530.660" EndTime="537.510" Participant="mn015">
+      <VocalSound Description="inbreath"/> And, um, and Fey is doing the synthesis stuff as we speak.
+    </Segment>
+    <Segment StartTime="538.730" EndTime="545.860" Participant="mn015">
+      That's all about that. Then I'm going to talk about the data, you know these things about - uh, actually I have an example,
+    </Segment>
+    <Segment StartTime="546.420" EndTime="547.450" Participant="mn015">
+      <Emphasis> probably. </Emphasis>
+    </Segment>
+    <Segment StartTime="548.160" EndTime="549.470" Participant="mn015">
+      Two s-
+    </Segment>
+    <Segment StartTime="548.191" EndTime="550.690" Participant="fe901" CloseMic="false">
+      <Comment Description="start of recording in the background"/> Where is a nightclub?
+    </Segment>
+    <Segment StartTime="551.180" EndTime="554.430" Participant="mn015">
+      Can you hear that? Or should I turn the l- volume on.
+    </Segment>
+    <Segment StartTime="552.258" EndTime="552.613" Participant="me045">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="554.660" EndTime="556.230" Participant="me003">
+      I- I can hear it.
+    </Segment>
+    <Segment StartTime="554.730" EndTime="555.690" Participant="fe004">
+      I could hear it.
+    </Segment>
+    <Segment StartTime="555.080" EndTime="555.960" Participant="me045">
+      I heard it.
+    </Segment>
+    <Segment StartTime="556.910" EndTime="558.800" Participant="me003">
+      They might not hear it in the -
+    </Segment>
+    <Segment StartTime="559.660" EndTime="561.180" Participant="me003">
+      well maybe they will. I don't know.
+    </Segment>
+    <Segment StartTime="561.084" EndTime="562.127" CloseMic="false">
+      <NonVocalSound Description="computer chime"/>
+    </Segment>
+    <Segment StartTime="567.257" EndTime="569.730" Participant="fe901" CloseMic="false">
+      Where is a nightclub?
+    </Segment>
+    <Segment StartTime="570.389" EndTime="571.385" Participant="me003">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="570.840" EndTime="573.516" Participant="fe004">
+      This was an actual, um, subject? Ah.
+    </Segment>
+    <Segment StartTime="572.820" EndTime="573.790" Participant="mn015">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="573.920" EndTime="574.950" Participant="me045">
+      Sounds like Fey.
+    </Segment>
+    <Segment StartTime="575.100" EndTime="575.980" Participant="fe004">
+      Yeah. <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="575.610" EndTime="583.940" Participant="mn015">
+      But they're - they're mimicking the synthesis when they speak to the computer, the - you can observe that all the time, they're trying to match their prosody onto the
+    </Segment>
+    <Segment StartTime="577.920" EndTime="578.760" Participant="me045">
+      Oh, O_K.
+    </Segment>
+    <Segment StartTime="580.260" EndTime="581.090" Participant="me045">
+      Oh really.
+    </Segment>
+    <Segment StartTime="583.128" EndTime="584.099" Participant="me045">
+      Interesting.
+    </Segment>
+    <Segment StartTime="584.300" EndTime="585.160" Participant="mn015">
+      machine.
+    </Segment>
+    <Segment StartTime="588.383" EndTime="590.959" Participant="xe902" CloseMic="false">
+      A popular disco is the Young <Uncertain> Ganz </Uncertain>.
+    </Segment>
+    <Segment StartTime="596.230" EndTime="598.250" Participant="me045">
+      Oh, it's pretty slow.
+    </Segment>
+    <Segment StartTime="598.798" EndTime="600.833" Participant="fe901" CloseMic="false">
+      Where <Emphasis> is </Emphasis> it?
+    </Segment>
+    <Segment StartTime="601.230" EndTime="603.070" Participant="mn015">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="607.840" EndTime="608.873" Participant="mn015">
+      Yeah, you have to -
+    </Segment>
+    <Segment StartTime="608.290" EndTime="614.171" Participant="xe902" CloseMic="false">
+      In order to get there take bus number forty-two towards the <Uncertain NumSyllables="2"> @@ </Uncertain> and <Uncertain> exit </Uncertain> at the <Uncertain> birdband </Uncertain>.
+    </Segment>
+    <Segment StartTime="614.431" EndTime="615.314" Participant="fe901" CloseMic="false">
+      O_K.
+    </Segment>
+    <Segment StartTime="616.349" EndTime="618.723" Participant="fe004">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="618.639" EndTime="623.502" CloseMic="false">
+      <NonVocalSound Description="harmonica sounds"/>
+    </Segment>
+    <Segment StartTime="623.086" EndTime="623.352" Participant="fe004">
+      Wh-
+    </Segment>
+    <Segment StartTime="623.517" EndTime="624.816" Participant="me045">
+      The system breaking.
+    </Segment>
+    <Segment StartTime="624.470" EndTime="625.930" Participant="fe004">
+      What is the s- ? <Emphasis> Oh! </Emphasis>
+    </Segment>
+    <Segment StartTime="626.500" EndTime="627.480" Participant="mn015">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="626.700" EndTime="628.719" Participant="me045">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="627.695" EndTime="628.228" Participant="fe004">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="629.805" EndTime="632.518" Participant="fe901" CloseMic="false">
+      Hello? Hello?
+    </Segment>
+    <Segment StartTime="632.518" EndTime="638.312" Participant="fe046" CloseMic="false">
+      I'm sorry. Something seems to have gone wrong with our system. So, I'm going to have to take over from here. What can I help you with?
+    </Segment>
+    <Segment StartTime="638.312" EndTime="643.121" Participant="fe901" CloseMic="false">
+      <Uncertain> Uh. </Uncertain> I'm looking for the University.
+    </Segment>
+    <Segment StartTime="643.121" EndTime="649.531" Participant="fe046" CloseMic="false">
+      O_K. <Uncertain> @@ </Uncertain> I can get the address, or if you know where you are, I can tell you how to get there.
+    </Segment>
+    <Segment StartTime="649.531" EndTime="650.943" Participant="fe901" CloseMic="false">
+      The address would be fine.
+    </Segment>
+    <Segment StartTime="649.765" EndTime="651.040" Participant="fe004">
+      <VocalSound Description="sniff"/>
+    </Segment>
+    <Segment StartTime="650.943" EndTime="654.030" Participant="fe046" CloseMic="false">
+      It's at the <Foreign Language="de">  Hauptstrasse  </Foreign> and <Foreign Language="de">  <Uncertain NumSyllables="2"> @@ </Uncertain>gasse.  </Foreign>
+    </Segment>
+    <Segment StartTime="654.030" EndTime="657.053" Participant="fe901" CloseMic="false">
+      Is that anywhere near the castle? <Uncertain NumSyllables="1"> @@ </Uncertain>
+    </Segment>
+    <Segment StartTime="657.573" EndTime="659.524" Participant="mn015">
+      O_K. And so forth and so forth.
+    </Segment>
+    <Segment StartTime="658.592" EndTime="659.705" Participant="fe004">
+      <VocalSound Description="clears throat"/>
+    </Segment>
+    <Segment StartTime="660.608" EndTime="671.630" Participant="mn015">
+      Um, I will talk about our problems with the rephrasing, and how we solved it, and some preliminary observations, also, um,
+    </Segment>
+    <Segment StartTime="660.880" EndTime="661.630" Participant="fe004">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="662.100" EndTime="662.831" Participant="fe004">
+      <VocalSound Description="sniff"/>
+    </Segment>
+    <Segment StartTime="672.450" EndTime="676.827" Participant="mn015">
+      I'm not gonna put in the figures from Liz, but I thought it would interesting to, uh,
+    </Segment>
+    <Segment StartTime="677.711" EndTime="681.680" Participant="mn015">
+      um, point out that it's basically the same.
+    </Segment>
+    <Segment StartTime="682.350" EndTime="691.300" Participant="mn015">
+      Um, as in every human-human telephone conversation, and the human-computer telephone conversation is of course quite d-
+    </Segment>
+    <Segment StartTime="691.950" EndTime="695.380" Participant="mn015">
+      quite different from, uh, some first, uh,
+    </Segment>
+    <Segment StartTime="695.888" EndTime="697.209" Participant="mn015">
+      observations.
+    </Segment>
+    <Segment StartTime="697.209" EndTime="698.370" Participant="mn015">
+      Then
+    </Segment>
+    <Segment StartTime="699.160" EndTime="702.611" Participant="mn015">
+      sort of feed you back to our original problem cuz, uh -
+    </Segment>
+    <Segment StartTime="703.475" EndTime="705.760" Participant="mn015">
+      how to get there, what
+    </Segment>
+    <Segment StartTime="705.880" EndTime="707.640" Participant="mn015">
+      actually is happening
+    </Segment>
+    <Segment StartTime="708.280" EndTime="709.410" Participant="mn015">
+      there today,
+    </Segment>
+    <Segment StartTime="709.970" EndTime="719.070" Participant="mn015">
+      and then maybe talk about the big picture here, e- tell a little bit - as much as I <Pause/> can about the N_T_L story.
+    </Segment>
+    <Segment StartTime="719.642" EndTime="722.389" Participant="mn015">
+      I - I wa- I <Emphasis> do </Emphasis> wanna, um -
+    </Segment>
+    <Segment StartTime="723.015" EndTime="726.980" Participant="mn015">
+      I'm not quite sure about this, whether I should put this in,
+    </Segment>
+    <Segment StartTime="727.640" EndTime="734.327" Participant="mn015">
+      um, that, you know, you have these two sort of different ideas that are - or two different camps
+    </Segment>
+    <Segment StartTime="734.912" EndTime="739.267" Participant="mn015">
+      of people envisioning how language understanding works,
+    </Segment>
+    <Segment StartTime="739.814" EndTime="742.430" Participant="mn015">
+      and then, <VocalSound Description="outbreath"/>
+    </Segment>
+    <Segment StartTime="742.509" EndTime="750.147" Participant="mn015">
+      talk a bit about the embodied and simulation approach favored here and as a prelude,
+    </Segment>
+    <Segment StartTime="750.777" EndTime="753.190" Participant="mn015">
+      I'll talk about monkeys in Italy.
+    </Segment>
+    <Segment StartTime="752.578" EndTime="753.307" Participant="me045">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="754.320" EndTime="762.290" Participant="mn015">
+      And, um, Srini was gonna send me some slides but he didn't do it, so from - but I have the paper, I can
+    </Segment>
+    <Segment StartTime="763.440" EndTime="769.410" Participant="mn015">
+      make a resume of that, and then I stole an X_schema from one of <Emphasis> your </Emphasis> talks I think.
+    </Segment>
+    <Segment StartTime="768.910" EndTime="769.800" Participant="fe004">
+      Oh.
+    </Segment>
+    <Segment StartTime="769.870" EndTime="774.340" Participant="fe004">
+      I was like, "where'd you get that?" O_K. <VocalSound Description="laugh"/> "Looks familiar."
+    </Segment>
+    <Segment StartTime="771.033" EndTime="772.580" Participant="me045">
+      Yeah, that looks familiar.
+    </Segment>
+    <Segment StartTime="771.373" EndTime="772.800" Participant="fn050">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="774.410" EndTime="778.190" Participant="mn015">
+      I think that's Bergen, Chang, something, or the other.
+    </Segment>
+    <Segment StartTime="776.945" EndTime="777.675" Participant="me010">
+      Whatever.
+    </Segment>
+    <Segment StartTime="777.040" EndTime="777.428" Participant="fe004">
+      Uh.
+    </Segment>
+    <Segment StartTime="779.212" EndTime="787.381" Participant="mn015">
+      Um, and that's - now I'm not going to bring that. So that's basically what I have, so far, and the rest is for airplanes.
+    </Segment>
+    <Segment StartTime="779.230" EndTime="780.300" Participant="fe004">
+      O_K.
+    </Segment>
+    <Segment StartTime="781.190" EndTime="782.090" Participant="me045">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="781.463" EndTime="782.675" Participant="fe004">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="788.461" EndTime="796.380" Participant="mn015">
+      So X_schemas, then, I would like to do - talk about the construction aspect and then at the end about our Bayes-net.
+    </Segment>
+    <Segment StartTime="796.367" EndTime="797.134" Participant="fe004">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="797.930" EndTime="800.550" Participant="mn015">
+      End of story.
+    </Segment>
+    <Segment StartTime="801.316" EndTime="803.447" Participant="me045">
+      <VocalSound Description="breath"/>
+    </Segment>
+    <Segment StartTime="802.119" EndTime="804.220" Participant="fe004">
+      <VocalSound Description="mouth"/> <VocalSound Description="breath"/>
+    </Segment>
+    <Segment StartTime="803.015" EndTime="805.132" Participant="me003">
+      <VocalSound Description="breath"/>
+    </Segment>
+    <Segment StartTime="805.980" EndTime="809.180" Participant="mn015">
+      Anything I forgot that we should mention?
+    </Segment>
+    <Segment StartTime="809.144" EndTime="810.738" Participant="fe004">
+      <VocalSound Description="clears throat"/> <VocalSound Description="sniff"/>
+    </Segment>
+    <Segment StartTime="809.180" EndTime="811.897" Participant="mn015">
+      <VocalSound Description="breath"/>
+    </Segment>
+    <Segment StartTime="809.907" EndTime="811.501" Participant="me003">
+      <VocalSound Description="breath"/>
+    </Segment>
+    <Segment StartTime="811.403" EndTime="811.646" Participant="me010">
+      <VocalSound Description="tongue click"/> <Comment Description="vocal gesture, &quot;done&quot;"/>
+    </Segment>
+    <Segment StartTime="811.897" EndTime="822.110" Participant="mn015">
+      Oh, maybe the F_M_R_I stuff. Should I mention the fact that, um, we're also actually started - going to start to look at people's brains in a more direct way?
+    </Segment>
+    <Segment StartTime="821.800" EndTime="824.710" Participant="me010">
+      You certainly <Emphasis> can. </Emphasis> I mean I- y- I- you know, I don't know -
+    </Segment>
+    <Segment StartTime="823.940" EndTime="826.630" Participant="fe004">
+      You might just wanna like, tack that on, as a comment,
+    </Segment>
+    <Segment StartTime="826.520" EndTime="828.280" Participant="me010">
+      Right, um.
+    </Segment>
+    <Segment StartTime="826.970" EndTime="828.070" Participant="fe004">
+      to something.
+    </Segment>
+    <Segment StartTime="828.760" EndTime="831.230" Participant="mn015">
+      "Future activities" something.
+    </Segment>
+    <Segment StartTime="830.500" EndTime="835.278" Participant="me010">
+      Well, the <Emphasis> time </Emphasis> to mention it, <Emphasis> if </Emphasis> you mention it, is when you talk about <Emphasis> mirror </Emphasis> neurons,
+    </Segment>
+    <Segment StartTime="835.768" EndTime="848.680" Participant="me010">
+      then you should talk about the more <Emphasis> recent </Emphasis> stuff, about the kicking and, you know, the - yeah, yeah - and - that the plan is to see to what extent
+    </Segment>
+    <Segment StartTime="842.850" EndTime="843.590" Participant="mn015">
+      Yeah.
+    </Segment>
+    <Segment StartTime="849.173" EndTime="853.107" Participant="me010">
+      the - you'll get the <Emphasis> same </Emphasis> phenomena with stories <Emphasis> about </Emphasis> this, so that -
+    </Segment>
+    <Segment StartTime="853.420" EndTime="854.180" Participant="mn015">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="853.485" EndTime="855.999" Participant="me010">
+      and that we're planning to <Emphasis> do </Emphasis> this, um,
+    </Segment>
+    <Segment StartTime="857.448" EndTime="858.298" Participant="me010">
+      which, we are.
+    </Segment>
+    <Segment StartTime="859.940" EndTime="861.760" Participant="me010">
+      So that's <Emphasis> one </Emphasis> thing. Um.
+    </Segment>
+    <Segment StartTime="861.760" EndTime="863.390" Participant="me010">
+      <Pause/> <VocalSound Description="mouth"/> <VocalSound Description="inbreath"/>
+    </Segment>
+    <Segment StartTime="863.390" EndTime="864.777" Participant="me010">
+      <Emphasis> Depends. </Emphasis> I mean, there <Emphasis> is </Emphasis>
+    </Segment>
+    <Segment StartTime="865.944" EndTime="870.692" Participant="me010">
+      a, um, whole language <Emphasis> learning </Emphasis> story,
+    </Segment>
+    <Segment StartTime="871.599" EndTime="872.961" Participant="me010">
+      O_K? <Comment Description="embedded"/> which,
+    </Segment>
+    <Segment StartTime="871.970" EndTime="874.070" Participant="mn015">
+      Yeah. <VocalSound Description="outbreath"/>
+    </Segment>
+    <Segment StartTime="873.501" EndTime="874.750" Participant="me010">
+      uh, actually, i- i-
+    </Segment>
+    <Segment StartTime="874.930" EndTime="879.850" Participant="me010">
+      even on your five-layer slide, you - you've got an <Emphasis> old </Emphasis> one that - that leaves that <Emphasis> off. </Emphasis>
+    </Segment>
+    <Segment StartTime="880.040" EndTime="883.080" Participant="mn015">
+      Yeah, I - I - I <Emphasis> do </Emphasis> have it <Emphasis> here. </Emphasis>
+    </Segment>
+    <Segment StartTime="882.946" EndTime="883.455" Participant="fe004">
+      Hmm.
+    </Segment>
+    <Segment StartTime="883.485" EndTime="883.832" Participant="me010">
+      Yeah.
+    </Segment>
+    <Segment StartTime="884.000" EndTime="885.040" Participant="mn015">
+      Um.
+    </Segment>
+    <Segment StartTime="886.110" EndTime="892.240" Participant="mn015">
+      And, of course, you know, the - the big picture is <Emphasis> this </Emphasis> bit. But, you know, it <Emphasis> would </Emphasis> -
+    </Segment>
+    <Segment StartTime="889.440" EndTime="890.110" Participant="me010">
+      Right.
+    </Segment>
+    <Segment StartTime="892.970" EndTime="898.292" Participant="mn015">
+      But I don't think I - I am capable of - of do- pulling this off and doing justice to the matter.
+    </Segment>
+    <Segment StartTime="898.738" EndTime="904.327" Participant="mn015">
+      I mean, there <Emphasis> is </Emphasis> interesting stuff in her- terms of how language works, so the emergentism
+    </Segment>
+    <Segment StartTime="904.622" EndTime="914.260" Participant="mn015">
+      story would be nice to be - you know, it would be nice to tell people how - what's happening there, plus how the, uh, language learning
+    </Segment>
+    <Segment StartTime="905.488" EndTime="907.234" Participant="fe004">
+      <VocalSound Description="clears throat"/> <VocalSound Description="sniff"/>
+    </Segment>
+    <Segment StartTime="914.530" EndTime="917.040" Participant="mn015">
+      stuff works, but -
+    </Segment>
+    <Segment StartTime="915.150" EndTime="917.870" Participant="me010">
+      O_K, so, so anyway, I - I agree that's not
+    </Segment>
+    <Segment StartTime="918.620" EndTime="919.900" Participant="me010">
+      <Emphasis> central. </Emphasis> What
+    </Segment>
+    <Segment StartTime="919.244" EndTime="919.753" Participant="fe004">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="919.990" EndTime="921.238" Participant="me010">
+      you <Emphasis> might </Emphasis> wanna do
+    </Segment>
+    <Segment StartTime="921.901" EndTime="924.626" Participant="me010">
+      is, um,
+    </Segment>
+    <Segment StartTime="925.490" EndTime="931.666" Participant="me010">
+      and may <Emphasis> not, </Emphasis> but you <Emphasis> might </Emphasis> wanna - <Uncertain> this is </Uncertain> - rip off a bunch of the slides on the
+    </Segment>
+    <Segment StartTime="932.540" EndTime="940.153" Participant="me010">
+      anal- there - the - there - we've got various i- generations of slides that show language analysis, and matching to the underlying image schemas, and,
+    </Segment>
+    <Segment StartTime="940.571" EndTime="944.970" Participant="me010">
+      um, how the construction and simulation - that ho- that whole th-
+    </Segment>
+    <Segment StartTime="944.470" EndTime="953.680" Participant="mn015">
+      Yeah, th- that - that's c- that comes up to the X_schema slide, so basically I'm gonna steal that from Nancy, one of Nancy's st-
+    </Segment>
+    <Segment StartTime="948.340" EndTime="949.770" Participant="fe004">
+      O_K, right.
+    </Segment>
+    <Segment StartTime="952.400" EndTime="957.320" Participant="fe004">
+      O_K, I can give you a more recent - if you want - well, that might have enough.
+    </Segment>
+    <Segment StartTime="955.400" EndTime="964.610" Participant="mn015">
+      Uh, I - yeah, but I also have stuff you - trash you left over, your quals and your triple-A_I.
+    </Segment>
+    <Segment StartTime="958.782" EndTime="959.164" Participant="me010">
+      O_K.
+    </Segment>
+    <Segment StartTime="960.619" EndTime="963.818" Participant="fe004">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="962.749" EndTime="965.172" Participant="me010">
+      The quals w- the - the - the quals slides would be fine.
+    </Segment>
+    <Segment StartTime="965.430" EndTime="966.620" Participant="fe004">
+      Yeah.
+    </Segment>
+    <Segment StartTime="965.906" EndTime="967.370" Participant="me010">
+      You could get it out of there, or some-
+    </Segment>
+    <Segment StartTime="966.860" EndTime="972.450" Participant="fe004">
+      Which I can even email you then, you know, like there probably was a little - few changes, not a big deal.
+    </Segment>
+    <Segment StartTime="972.710" EndTime="974.173" Participant="fe004">
+      Yeah, you could steal anything you want, I don't care.
+    </Segment>
+    <Segment StartTime="974.173" EndTime="975.354" Participant="fe004">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="975.354" EndTime="977.264" Participant="fe004">
+      Which you've already <Emphasis> done, </Emphasis> obviously. So. <VocalSound Description="laugh"/> <Comment Description="voice quality of mock indignation"/>
+    </Segment>
+    <Segment StartTime="975.360" EndTime="976.040" Participant="mn015">
+      <VocalSound Description="breath-laugh"/>
+    </Segment>
+    <Segment StartTime="977.217" EndTime="978.041" Participant="fn050">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="977.740" EndTime="986.560" Participant="mn015">
+      Well, I - I don't feel bad about it at all because - because you are on the, uh, <Emphasis> title. </Emphasis> I mean on the - the, you're - that's - see, <Emphasis> that's </Emphasis> you.
+    </Segment>
+    <Segment StartTime="977.944" EndTime="979.520" Participant="me003">
+      <VocalSound Description="laugh"/> <NonVocalSound Description="mike noise"/>
+    </Segment>
+    <Segment StartTime="978.020" EndTime="978.560" Participant="fe004">
+      Sorry <Comment Description="while laughing"/>
+    </Segment>
+    <Segment StartTime="980.310" EndTime="981.350" Participant="fe004">
+      No, you shouldn't.
+    </Segment>
+    <Segment StartTime="980.551" EndTime="982.386" Participant="me045">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="983.100" EndTime="986.720" Participant="fe004">
+      Oh, that's great, that's great. I'm glad to see propagation.
+    </Segment>
+    <Segment StartTime="983.790" EndTime="984.122" Participant="me010">
+      Yeah.
+    </Segment>
+    <Segment StartTime="985.032" EndTime="985.424" Participant="me010">
+      Yeah.
+    </Segment>
+    <Segment StartTime="986.798" EndTime="987.842" Participant="me045">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="987.532" EndTime="987.823" Participant="fe004">
+      Mmm.
+    </Segment>
+    <Segment StartTime="987.540" EndTime="988.360" Participant="mn015">
+      <VocalSound Description="laugh"/> Hmm?
+    </Segment>
+    <Segment StartTime="988.470" EndTime="989.510" Participant="mn015">
+      Propagated? <Comment Description="humor, completing [fe004] utterance"/>
+    </Segment>
+    <Segment StartTime="989.260" EndTime="991.950" Participant="fe004">
+      Yes. <VocalSound Description="laugh"/> That's great. <VocalSound Description="clears throat"/>
+    </Segment>
+    <Segment StartTime="993.510" EndTime="1001.360" Participant="mn015">
+      I mean I <Emphasis> might </Emphasis> even mention that this work you're doing is sort of also with the M_P_I in <Emphasis> Leipzig, </Emphasis> so.
+    </Segment>
+    <Segment StartTime="1000.530" EndTime="1003.049" Participant="fe004">
+      It's - it's certainly related, um,
+    </Segment>
+    <Segment StartTime="1002.700" EndTime="1007.490" Participant="mn015">
+      Because, um, E_M_L is building up a huge thing in Leipzig.
+    </Segment>
+    <Segment StartTime="1003.049" EndTime="1004.890" Participant="fe004">
+      might wanna say.
+    </Segment>
+    <Segment StartTime="1005.055" EndTime="1006.127" Participant="fe004">
+      <VocalSound Description="sniff"/>
+    </Segment>
+    <Segment StartTime="1006.692" EndTime="1007.458" Participant="fe004">
+      <VocalSound Description="sniff"/>
+    </Segment>
+    <Segment StartTime="1007.458" EndTime="1008.240" Participant="fe004">
+      Is it?
+    </Segment>
+    <Segment StartTime="1008.100" EndTime="1009.120" Participant="mn015">
+      So it -
+    </Segment>
+    <Segment StartTime="1009.360" EndTime="1011.710" Participant="mn015">
+      It's on biocomputation. <Uncertain> Would - </Uncertain>
+    </Segment>
+    <Segment StartTime="1010.820" EndTime="1014.803" Participant="me010">
+      Yeah, it's <Emphasis> different, </Emphasis> this is the, uh, D_N_A building, or someth- the double helix building.
+    </Segment>
+    <Segment StartTime="1015.771" EndTime="1016.133" Participant="me010">
+      Yeah.
+    </Segment>
+    <Segment StartTime="1015.959" EndTime="1016.295" Participant="mn015">
+      Yeah.
+    </Segment>
+    <Segment StartTime="1017.060" EndTime="1019.800" Participant="fe004">
+      Kind of a different level of analysis. <VocalSound Description="laugh"/> <Comment Description="humor, understatement"/>
+    </Segment>
+    <Segment StartTime="1018.370" EndTime="1022.170" Participant="me010">
+      The - yeah it was - it turns out that if - if you have multiple billions of dollars,
+    </Segment>
+    <Segment StartTime="1021.894" EndTime="1022.687" Participant="me045">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1022.212" EndTime="1023.218" Participant="me010">
+      y- you can do
+    </Segment>
+    <Segment StartTime="1024.102" EndTime="1026.183" Participant="me010">
+      all sorts of weird things, and -
+    </Segment>
+    <Segment StartTime="1025.600" EndTime="1027.500" Participant="me045">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1026.087" EndTime="1027.129" Participant="fn050">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1026.760" EndTime="1028.030" Participant="me003">
+      Wait, they're building a-
+    </Segment>
+    <Segment StartTime="1027.290" EndTime="1028.600" Participant="fe004">
+      <Emphasis> What? </Emphasis>
+    </Segment>
+    <Segment StartTime="1028.100" EndTime="1030.730" Participant="me003">
+      <Emphasis> building </Emphasis> in the shape of D_N_A, is that what you said?
+    </Segment>
+    <Segment StartTime="1029.758" EndTime="1030.751" Participant="me010">
+      Roughly, yeah.
+    </Segment>
+    <Segment StartTime="1031.960" EndTime="1033.074" Participant="me045">
+      Oh! Oh boy! <Comment Description="amazement"/>
+    </Segment>
+    <Segment StartTime="1032.490" EndTime="1034.790" Participant="me010">
+      Including cr- cross-bridges, and
+    </Segment>
+    <Segment StartTime="1032.671" EndTime="1033.108" Participant="fe004">
+      O-
+    </Segment>
+    <Segment StartTime="1034.220" EndTime="1035.160" Participant="fe004">
+      <Emphasis> What? </Emphasis>
+    </Segment>
+    <Segment StartTime="1036.301" EndTime="1037.730" Participant="me045">
+      That's brilliant! <Comment Description="amazement"/>
+    </Segment>
+    <Segment StartTime="1036.393" EndTime="1038.780" Participant="fe004">
+      Oh my god! <Comment Description="amazement"/>
+    </Segment>
+    <Segment StartTime="1036.398" EndTime="1039.300" Participant="me003">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1037.580" EndTime="1039.001" Participant="fn050">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1037.730" EndTime="1038.330" Participant="me045">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1037.750" EndTime="1038.960" Participant="mn015">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1039.420" EndTime="1046.620" Participant="me045">
+      Hhh. <Comment Description="vocal gesture, overwhelming"/> <Pause/> Oy. <Comment Description="interjection"/>
+    </Segment>
+    <Segment StartTime="1040.050" EndTime="1045.056" Participant="me010">
+      You d- you <Emphasis> really </Emphasis> - now I- I spent - the last time I was there I spent maybe two hours hearing this story
+    </Segment>
+    <Segment StartTime="1046.038" EndTime="1047.155" Participant="me010">
+      which is, um -
+    </Segment>
+    <Segment StartTime="1046.760" EndTime="1047.520" Participant="fe004">
+      Of
+    </Segment>
+    <Segment StartTime="1046.810" EndTime="1050.670" Participant="me003">
+      Y- You definitely wanna w- don't wanna waste that money on <Emphasis> research, </Emphasis> you know?
+    </Segment>
+    <Segment StartTime="1047.720" EndTime="1049.200" Participant="fe004">
+      what the building?
+    </Segment>
+    <Segment StartTime="1049.360" EndTime="1049.740" Participant="me010">
+      Right.
+    </Segment>
+    <Segment StartTime="1049.410" EndTime="1051.600" Participant="fe004">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1049.970" EndTime="1050.850" Participant="me045">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1050.094" EndTime="1051.740" Participant="fn050">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1051.110" EndTime="1052.260" Participant="me003">
+      That's horrible.
+    </Segment>
+    <Segment StartTime="1051.750" EndTime="1053.770" Participant="fe004">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1051.785" EndTime="1053.838" Participant="me045">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1052.028" EndTime="1052.224" Participant="me010">
+      <Uncertain> Right. </Uncertain>
+    </Segment>
+    <Segment StartTime="1052.390" EndTime="1053.520" Participant="me010">
+      Well, no, no, y-
+    </Segment>
+    <Segment StartTime="1053.290" EndTime="1054.340" Participant="fn050">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1053.540" EndTime="1057.870" Participant="me010">
+      i- there's <Emphasis> infinite </Emphasis> money. See you th- you th- you then <Emphasis> fill </Emphasis> it with <Emphasis> researchers. </Emphasis>
+    </Segment>
+    <Segment StartTime="1054.787" EndTime="1056.480" Participant="me003">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1057.738" EndTime="1058.346" Participant="me045">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1057.770" EndTime="1059.450" Participant="me003">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1058.100" EndTime="1062.920" Participant="fe004">
+      And give them more money. They just want a fun place for them to - to work.
+    </Segment>
+    <Segment StartTime="1059.529" EndTime="1059.775" Participant="me010">
+      Right.
+    </Segment>
+    <Segment StartTime="1061.479" EndTime="1061.730" Participant="me010">
+      Right.
+    </Segment>
+    <Segment StartTime="1061.550" EndTime="1065.010" Participant="me045">
+      And everybody gets a trampoline in their office. <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1063.830" EndTime="1065.130" Participant="me003">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1064.600" EndTime="1078.190" Participant="mn015">
+      Well, the - the offices are actually a little - the, think of um, ramps, coming out of the double helix and then you have these half-domes, glass half-domes, and the offices are in - in the glass half-dome.
+    </Segment>
+    <Segment StartTime="1066.370" EndTime="1067.020" Participant="me045">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1072.638" EndTime="1073.680" Participant="me045">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1074.620" EndTime="1076.570" Participant="fe004">
+      Really?
+    </Segment>
+    <Segment StartTime="1076.965" EndTime="1078.146" Participant="me045">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1078.210" EndTime="1080.150" Participant="me003">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1078.620" EndTime="1080.030" Participant="mn015">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1079.030" EndTime="1079.730" Participant="fe004">
+      <VocalSound Description="cough-laugh"/>
+    </Segment>
+    <Segment StartTime="1079.510" EndTime="1082.850" Participant="me045">
+      Alright, let's stop talking about this. <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1079.611" EndTime="1080.039" Participant="me010">
+      Yeah.
+    </Segment>
+    <Segment StartTime="1080.990" EndTime="1082.410" Participant="fe004">
+      Does it exist yet?
+    </Segment>
+    <Segment StartTime="1081.300" EndTime="1082.660" Participant="me003">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1081.301" EndTime="1081.608" Participant="me010">
+      Yeah.
+    </Segment>
+    <Segment StartTime="1082.550" EndTime="1084.930" Participant="mn015">
+      Uh, as a model.
+    </Segment>
+    <Segment StartTime="1082.810" EndTime="1084.730" Participant="fe004">
+      They are w- now building it?
+    </Segment>
+    <Segment StartTime="1084.867" EndTime="1085.231" Participant="fe004">
+      Hmm.
+    </Segment>
+    <Segment StartTime="1085.730" EndTime="1086.550" Participant="mn015">
+      But I th-
+    </Segment>
+    <Segment StartTime="1085.960" EndTime="1090.957" Participant="me010">
+      So, yeah, I think that's - that's a good point, th- th- that the date, the, uh,
+    </Segment>
+    <Segment StartTime="1088.406" EndTime="1090.140" Participant="fe004">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1089.275" EndTime="1090.923" Participant="fn050">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1091.610" EndTime="1094.940" Participant="me010">
+      a lot of the - this <Emphasis> is </Emphasis> interacting with,
+    </Segment>
+    <Segment StartTime="1092.713" EndTime="1093.287" Participant="me045">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1095.510" EndTime="1098.486" Participant="me010">
+      uh, people in Italy but also definitely the people in Leipzig
+    </Segment>
+    <Segment StartTime="1096.569" EndTime="1097.498" Participant="fe004">
+      <VocalSound Description="clears throat"/>
+    </Segment>
+    <Segment StartTime="1098.868" EndTime="1099.998" Participant="me010">
+      and
+    </Segment>
+    <Segment StartTime="1100.853" EndTime="1101.999" Participant="me010">
+      the -
+    </Segment>
+    <Segment StartTime="1105.627" EndTime="1110.895" Participant="me010">
+      the b- the combination of the biology and the Leipzig connection might be interesting to these guys, yeah.
+    </Segment>
+    <Segment StartTime="1111.971" EndTime="1112.412" Participant="me010">
+      O_K. <Comment Description="whispered"/>
+    </Segment>
+    <Segment StartTime="1112.901" EndTime="1113.092" Participant="me010">
+      O_K.
+    </Segment>
+    <Segment StartTime="1114.040" EndTime="1116.950" Participant="me010">
+      <Emphasis> Anyway! </Emphasis> Enough of that, let's talk about your thesis proposal.
+    </Segment>
+    <Segment StartTime="1118.000" EndTime="1120.410" Participant="mn015">
+      Yeah, if somebody has something to say.
+    </Segment>
+    <Segment StartTime="1120.584" EndTime="1120.886" Participant="me010">
+      Yep.
+    </Segment>
+    <Segment StartTime="1123.870" EndTime="1128.980" Participant="me045">
+      You might want to, uh, double-check the spellings of the authors' names on your references, you had a few, uh,
+    </Segment>
+    <Segment StartTime="1129.290" EndTime="1133.680" Participant="me045">
+      misspells in your slides, there. Like I believe you had "Jackendorf".
+    </Segment>
+    <Segment StartTime="1133.810" EndTime="1135.557" Participant="fe004">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1134.486" EndTime="1135.436" Participant="me010">
+      Um.
+    </Segment>
+    <Segment StartTime="1134.500" EndTime="1135.400" Participant="mn015">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1135.278" EndTime="1138.080" Participant="me045">
+      Uh, unless there's a person called "Jackendorf", yeah.
+    </Segment>
+    <Segment StartTime="1137.510" EndTime="1138.870" Participant="me010">
+      No, no, no.
+    </Segment>
+    <Segment StartTime="1137.550" EndTime="1138.400" Participant="mn015">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1137.880" EndTime="1138.850" Participant="fe004">
+      On <Emphasis> that </Emphasis> one?
+    </Segment>
+    <Segment StartTime="1140.090" EndTime="1141.840" Participant="me045">
+      But that's the only thing I noticed in there.
+    </Segment>
+    <Segment StartTime="1141.147" EndTime="1142.074" Participant="fn050">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1143.160" EndTime="1144.240" Participant="fe004">
+      In the presentation?
+    </Segment>
+    <Segment StartTime="1143.660" EndTime="1144.960" Participant="me045">
+      In the presentation.
+    </Segment>
+    <Segment StartTime="1144.240" EndTime="1148.880" Participant="fe004">
+      I'll probably - I c- might have - I'll probably have comments for you separately, not <Uncertain> important </Uncertain>. <Emphasis> Anyway. </Emphasis>
+    </Segment>
+    <Segment StartTime="1148.170" EndTime="1154.880" Participant="mn015">
+      Oh, in the <Emphasis> presentation </Emphasis> here. I was ac- actually worried about <Emphasis> bibtex. </Emphasis> Uh. No, <Emphasis> that's </Emphasis> quite possible.
+    </Segment>
+    <Segment StartTime="1149.100" EndTime="1150.480" Participant="fe004">
+      Yeah, that's what he was talking about.
+    </Segment>
+    <Segment StartTime="1149.320" EndTime="1150.070" Participant="me045">
+      Yeah.
+    </Segment>
+    <Segment StartTime="1155.100" EndTime="1156.800" Participant="mn015">
+      That's copy and paste from
+    </Segment>
+    <Segment StartTime="1157.283" EndTime="1157.947" Participant="mn015">
+      something.
+    </Segment>
+    <Segment StartTime="1159.505" EndTime="1162.402" Participant="me045">
+      <VocalSound Description="yawn"/>
+    </Segment>
+    <Segment StartTime="1160.542" EndTime="1161.427" Participant="fe004">
+      <VocalSound Description="sniff"/>
+    </Segment>
+    <Segment StartTime="1161.050" EndTime="1165.570" Participant="me010">
+      So I did note- i- i- it looks like the, uh, <Emphasis> metaphor </Emphasis> didn't get in yet.
+    </Segment>
+    <Segment StartTime="1162.589" EndTime="1163.771" Participant="fe004">
+      <VocalSound Description="clears throat"/>
+    </Segment>
+    <Segment StartTime="1165.840" EndTime="1170.850" Participant="mn015">
+      <VocalSound Description="clears throat"/> Uh, it <Emphasis> did, </Emphasis> there is a reference to Srini -
+    </Segment>
+    <Segment StartTime="1169.240" EndTime="1174.950" Participant="me010">
+      Well, s- reference is <Emphasis> one </Emphasis> thing, the question is is there any place - Oh, did you put in something about,
+    </Segment>
+    <Segment StartTime="1175.100" EndTime="1176.800" Participant="fe004">
+      Metonymy and metaphor here, right?
+    </Segment>
+    <Segment StartTime="1176.590" EndTime="1178.441" Participant="me010">
+      uh, the individual,
+    </Segment>
+    <Segment StartTime="1178.868" EndTime="1180.468" Participant="me010">
+      we'd talked about putting in something
+    </Segment>
+    <Segment StartTime="1181.207" EndTime="1183.240" Participant="me010">
+      about people had,
+    </Segment>
+    <Segment StartTime="1183.973" EndTime="1187.251" Participant="me010">
+      uh - Oh yeah, O_K.
+    </Segment>
+    <Segment StartTime="1189.391" EndTime="1191.340" Participant="me010">
+      Good. <Emphasis> I </Emphasis> see where you have it.
+    </Segment>
+    <Segment StartTime="1195.045" EndTime="1198.504" Participant="me010">
+      So the top of the second - of pa- page two you have a sentence.
+    </Segment>
+    <Segment StartTime="1197.430" EndTime="1198.270" Participant="mn015">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="1199.504" EndTime="1199.936" Participant="me010">
+      But,
+    </Segment>
+    <Segment StartTime="1201.040" EndTime="1202.480" Participant="me010">
+      what I <Emphasis> meant </Emphasis> is,
+    </Segment>
+    <Segment StartTime="1202.812" EndTime="1203.701" Participant="me045">
+      <VocalSound Description="sniff"/>
+    </Segment>
+    <Segment StartTime="1204.770" EndTime="1208.480" Participant="me010">
+      I think <Emphasis> even </Emphasis> <Emphasis> before </Emphasis> you <Emphasis> give </Emphasis> this,
+    </Segment>
+    <Segment StartTime="1207.048" EndTime="1207.782" Participant="fe004">
+      <VocalSound Description="clears throat"/>
+    </Segment>
+    <Segment StartTime="1208.790" EndTime="1210.840" Participant="me010">
+      to Wahlster,
+    </Segment>
+    <Segment StartTime="1211.115" EndTime="1212.870" Participant="me010">
+      uh, you should,
+    </Segment>
+    <Segment StartTime="1216.761" EndTime="1218.520" Participant="me045">
+      <VocalSound Description="series of tongue clicks"/> <Comment Description="vocal gesture"/>
+    </Segment>
+    <Segment StartTime="1216.838" EndTime="1217.595" Participant="fe004">
+      <NonVocalSound Description="click"/>
+    </Segment>
+    <Segment StartTime="1217.440" EndTime="1226.766" Participant="me010">
+      <Emphasis> unless </Emphasis> you put it in the text, and I don't think it's there yet, <Comment Description="embedded"/> about - we <Emphasis> talked </Emphasis> about is the, um, <Emphasis> scalability </Emphasis> that you get by, um,
+    </Segment>
+    <Segment StartTime="1220.292" EndTime="1220.961" Participant="me045">
+      <VocalSound Description="sniff"/>
+    </Segment>
+    <Segment StartTime="1227.210" EndTime="1232.600" Participant="me010">
+      combining the constructions with the general <Emphasis> construal </Emphasis> mechanism. Is that in there?
+    </Segment>
+    <Segment StartTime="1229.500" EndTime="1230.438" Participant="me045">
+      <VocalSound Description="sniff"/>
+    </Segment>
+    <Segment StartTime="1232.290" EndTime="1234.490" Participant="mn015">
+      Yeah, mmm. Um.
+    </Segment>
+    <Segment StartTime="1233.561" EndTime="1236.090" Participant="me010">
+      Uh, O_K, so where - where is it, cuz I'll have to take a look.
+    </Segment>
+    <Segment StartTime="1234.950" EndTime="1242.060" Participant="mn015">
+      Um, but I - I did not focus on <Emphasis> that </Emphasis> aspect but, um -
+    </Segment>
+    <Segment StartTime="1242.854" EndTime="1244.200" Participant="mn015">
+      Ehhh, <Comment Description="vocal gesture of difficulty"/>
+    </Segment>
+    <Segment StartTime="1244.200" EndTime="1247.550" Participant="mn015">
+      um, it's just underneath, uh,
+    </Segment>
+    <Segment StartTime="1247.900" EndTime="1248.780" Participant="mn015">
+      um,
+    </Segment>
+    <Segment StartTime="1248.890" EndTime="1253.000" Participant="mn015">
+      that reference to metaphor. So it's the last paragraph
+    </Segment>
+    <Segment StartTime="1253.400" EndTime="1255.690" Participant="mn015">
+      before two. So on page two,
+    </Segment>
+    <Segment StartTime="1256.466" EndTime="1259.280" Participant="mn015">
+      um, the main focus -
+    </Segment>
+    <Segment StartTime="1256.527" EndTime="1257.860" Participant="me010">
+      Uh, O_K.
+    </Segment>
+    <Segment StartTime="1258.659" EndTime="1259.096" Participant="me010">
+      Yeah.
+    </Segment>
+    <Segment StartTime="1263.821" EndTime="1265.157" Participant="fe004">
+      <VocalSound Description="sniff"/>
+    </Segment>
+    <Segment StartTime="1265.775" EndTime="1267.025" Participant="fe004">
+      <VocalSound Description="clears throat"/>
+    </Segment>
+    <Segment StartTime="1266.020" EndTime="1268.350" Participant="mn015">
+      But that's really -
+    </Segment>
+    <Segment StartTime="1266.747" EndTime="1267.275" Participant="me045">
+      <VocalSound Description="sniff"/>
+    </Segment>
+    <Segment StartTime="1267.025" EndTime="1269.100" Participant="fe004">
+      That's not about that, <Uncertain NumSyllables="2"> @@ </Uncertain> is it?
+    </Segment>
+    <Segment StartTime="1268.370" EndTime="1269.190" Participant="mn015">
+      Yeah.
+    </Segment>
+    <Segment StartTime="1269.530" EndTime="1270.430" Participant="me010">
+      No, it - it -
+    </Segment>
+    <Segment StartTime="1270.886" EndTime="1276.330" Participant="me010">
+      it s- <Emphasis> says </Emphasis> it but it doesn't say - it doesn't - it d- it d- yeah, it doesn't give the punch line.
+    </Segment>
+    <Segment StartTime="1273.990" EndTime="1274.820" Participant="mn015">
+      Why. <Comment Description="completing [me010]'s utterance"/>
+    </Segment>
+    <Segment StartTime="1276.180" EndTime="1277.280" Participant="mn015">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="1277.520" EndTime="1283.085" Participant="me010">
+      Cuz let me tell the gang what I think the punch line <Emphasis> is, </Emphasis> because it's actually important,
+    </Segment>
+    <Segment StartTime="1283.680" EndTime="1285.163" Participant="me010">
+      which is, that,
+    </Segment>
+    <Segment StartTime="1286.144" EndTime="1287.074" Participant="me010">
+      the
+    </Segment>
+    <Segment StartTime="1287.900" EndTime="1293.629" Participant="me010">
+      <Emphasis> constructions, </Emphasis> that, uh, Nancy and Keith and friends are doing,
+    </Segment>
+    <Segment StartTime="1294.400" EndTime="1295.710" Participant="me010">
+      uh, are,
+    </Segment>
+    <Segment StartTime="1296.460" EndTime="1299.180" Participant="me010">
+      in a <Emphasis> way, </Emphasis> quite <Emphasis> general </Emphasis>
+    </Segment>
+    <Segment StartTime="1302.470" EndTime="1303.540" Participant="me010">
+      but
+    </Segment>
+    <Segment StartTime="1305.590" EndTime="1309.110" Participant="me010">
+      cover only base cases. And
+    </Segment>
+    <Segment StartTime="1309.600" EndTime="1311.451" Participant="me010">
+      to make them apply
+    </Segment>
+    <Segment StartTime="1311.853" EndTime="1318.080" Participant="me010">
+      to <Emphasis> metaphorical </Emphasis> cases and <Emphasis> metonymic </Emphasis> cases and all those things, requires this additional mechanism,
+    </Segment>
+    <Segment StartTime="1318.301" EndTime="1322.768" Participant="me010">
+      of <Emphasis> construal. </Emphasis> And the punch line is, he claimed,
+    </Segment>
+    <Segment StartTime="1323.316" EndTime="1324.710" Participant="me010">
+      that
+    </Segment>
+    <Segment StartTime="1325.667" EndTime="1328.434" Participant="me010">
+      if you do this <Emphasis> right, </Emphasis> you can get
+    </Segment>
+    <Segment StartTime="1325.673" EndTime="1326.820" Participant="fe004">
+      <VocalSound Description="clears throat"/>
+    </Segment>
+    <Segment StartTime="1328.530" EndTime="1330.526" Participant="me010">
+      essentially orthogonality, that
+    </Segment>
+    <Segment StartTime="1330.883" EndTime="1333.010" Participant="me010">
+      if you introduce a new construction
+    </Segment>
+    <Segment StartTime="1333.725" EndTime="1342.940" Participant="me010">
+      at - at the base level, it should com- uh, interact with all the metonymies and metaphors so that all of the projections of it also should work.
+    </Segment>
+    <Segment StartTime="1339.084" EndTime="1340.013" Participant="me045">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="1343.940" EndTime="1347.564" Participant="me010">
+      And, similarly, if you introduce a new metaphor,
+    </Segment>
+    <Segment StartTime="1347.715" EndTime="1348.541" Participant="me045">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="1348.142" EndTime="1349.370" Participant="me010">
+      it should then
+    </Segment>
+    <Segment StartTime="1349.900" EndTime="1353.810" Participant="me010">
+      uh, compose with all of the constructions.
+    </Segment>
+    <Segment StartTime="1353.627" EndTime="1353.928" Participant="me045">
+      Yeah.
+    </Segment>
+    <Segment StartTime="1355.780" EndTime="1358.088" Participant="me010">
+      And it - to the extent that that's <Emphasis> true </Emphasis> then - then
+    </Segment>
+    <Segment StartTime="1358.782" EndTime="1360.878" Participant="me010">
+      it's a <Emphasis> big </Emphasis> win over anything that <Emphasis> exists. </Emphasis>
+    </Segment>
+    <Segment StartTime="1373.244" EndTime="1375.304" Participant="me045">
+      <VocalSound Description="clears throat"/>
+    </Segment>
+    <Segment StartTime="1375.250" EndTime="1377.970" Participant="me003">
+      So does that mean instead of having tons and tons of rules in your
+    </Segment>
+    <Segment StartTime="1378.000" EndTime="1379.290" Participant="me003">
+      context-free grammar
+    </Segment>
+    <Segment StartTime="1378.200" EndTime="1379.255" Participant="fe004">
+      <VocalSound Description="clears throat"/>
+    </Segment>
+    <Segment StartTime="1379.460" EndTime="1380.550" Participant="me003">
+      you just have
+    </Segment>
+    <Segment StartTime="1381.510" EndTime="1385.540" Participant="me003">
+      these <Emphasis> base </Emphasis> constructs and then a general mechanism for coercing them.
+    </Segment>
+    <Segment StartTime="1385.910" EndTime="1386.197" Participant="me045">
+      Yeah.
+    </Segment>
+    <Segment StartTime="1386.507" EndTime="1387.010" Participant="me010">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="1391.554" EndTime="1393.387" Participant="me010">
+      So that, you know, for example,
+    </Segment>
+    <Segment StartTime="1394.080" EndTime="1397.320" Participant="me010">
+      uh, in the metaphor case, that you have a kind of direct
+    </Segment>
+    <Segment StartTime="1397.581" EndTime="1399.301" Participant="me010">
+      idea of a source, path, and goal
+    </Segment>
+    <Segment StartTime="1400.130" EndTime="1405.253" Participant="me010">
+      and any metaphorical one - and abstract goals and all that sort of stuff <Comment Description="embedded afterthought"/> - you
+    </Segment>
+    <Segment StartTime="1405.890" EndTime="1407.323" Participant="me010">
+      can <Emphasis> do </Emphasis> the same <Emphasis> grammar. </Emphasis>
+    </Segment>
+    <Segment StartTime="1407.657" EndTime="1409.110" Participant="me010">
+      And it <Emphasis> is </Emphasis> the same grammar.
+    </Segment>
+    <Segment StartTime="1407.740" EndTime="1408.630" Participant="me003">
+      Mmm.
+    </Segment>
+    <Segment StartTime="1409.404" EndTime="1410.103" Participant="me010">
+      But,
+    </Segment>
+    <Segment StartTime="1410.475" EndTime="1413.523" Participant="me010">
+      um, the trick is that the -
+    </Segment>
+    <Segment StartTime="1414.720" EndTime="1416.280" Participant="me010">
+      the way the <Emphasis> construction's </Emphasis> written
+    </Segment>
+    <Segment StartTime="1416.410" EndTime="1420.587" Participant="me010">
+      it requires that the object of the <Pronounce Pronunciation="&quot;presupposition&quot;"> preposition  </Pronounce> for example be a container.
+    </Segment>
+    <Segment StartTime="1421.190" EndTime="1424.880" Participant="me010">
+      Well, "trouble" isn't a container, but it gets constr- <Emphasis> construed </Emphasis> as a c- container.
+    </Segment>
+    <Segment StartTime="1425.150" EndTime="1425.484" Participant="me003">
+      Right.
+    </Segment>
+    <Segment StartTime="1425.684" EndTime="1426.956" Participant="me010">
+      Et cetera. So that's -
+    </Segment>
+    <Segment StartTime="1427.370" EndTime="1429.985" Participant="me010">
+      that's where this, um,
+    </Segment>
+    <Segment StartTime="1429.850" EndTime="1433.760" Participant="me003">
+      So with construal you don't have to have a construction for every possible thing that can fill the rule.
+    </Segment>
+    <Segment StartTime="1433.359" EndTime="1433.746" Participant="me010">
+      Right.
+    </Segment>
+    <Segment StartTime="1438.735" EndTime="1439.303" Participant="me010">
+      So's it's - it -
+    </Segment>
+    <Segment StartTime="1439.662" EndTime="1443.460" Participant="me010">
+      it's a very big deal, i- i- in this framework, and the
+    </Segment>
+    <Segment StartTime="1443.589" EndTime="1445.696" Participant="me010">
+      thesis proposal as it stands doesn't,
+    </Segment>
+    <Segment StartTime="1447.196" EndTime="1451.537" Participant="me010">
+      um, <Emphasis> I </Emphasis> don't think, say that as clearly as it <Emphasis> could. </Emphasis>
+    </Segment>
+    <Segment StartTime="1450.307" EndTime="1451.030" Participant="fe004">
+      <VocalSound Description="clears throat"/>
+    </Segment>
+    <Segment StartTime="1452.910" EndTime="1454.410" Participant="mn015">
+      No, it doesn't say it at <Emphasis> all. </Emphasis> No.
+    </Segment>
+    <Segment StartTime="1470.990" EndTime="1472.500" Participant="mn015">
+      Even though - <VocalSound Description="clears throat"/>
+    </Segment>
+    <Segment StartTime="1472.510" EndTime="1476.810" Participant="mn015">
+      One could argue what - if there <Emphasis> are </Emphasis> basic cases, even.
+    </Segment>
+    <Segment StartTime="1477.900" EndTime="1481.280" Participant="mn015">
+      I mean, it seems like <Emphasis> nothing </Emphasis> is context-<Emphasis> free. </Emphasis>
+    </Segment>
+    <Segment StartTime="1481.650" EndTime="1483.700" Participant="me010">
+      Oh, <Emphasis> nothing </Emphasis> is context-<Emphasis> free, </Emphasis>
+    </Segment>
+    <Segment StartTime="1483.830" EndTime="1486.030" Participant="me010">
+      but there <Emphasis> are </Emphasis> basic <Emphasis> cases. </Emphasis> That is,
+    </Segment>
+    <Segment StartTime="1486.210" EndTime="1491.630" Participant="me010">
+      um, there are physical containers, there are physical paths, there - you know, et cetera.
+    </Segment>
+    <Segment StartTime="1491.392" EndTime="1492.390" Participant="fe004">
+      <VocalSound Description="clears throat"/>
+    </Segment>
+    <Segment StartTime="1492.360" EndTime="1499.690" Participant="mn015">
+      But "walked into the cafe and ordered a drink," and "walked into the cafe and broke his nose," that's sort of -
+    </Segment>
+    <Segment StartTime="1499.140" EndTime="1504.790" Participant="me010">
+      Oh, it doesn't mean that they're <Emphasis> unambiguous. </Emphasis> I mean, a cafe <Emphasis> can </Emphasis> be construed as a container, or it <Emphasis> can </Emphasis> be construed
+    </Segment>
+    <Segment StartTime="1500.721" EndTime="1502.570" Participant="mn015">
+      Mmm. Yeah.
+    </Segment>
+    <Segment StartTime="1504.437" EndTime="1504.971" Participant="me045">
+      Uh-huh.
+    </Segment>
+    <Segment StartTime="1504.930" EndTime="1510.470" Participant="me010">
+      you know as - as a obstacle, or as some physical object. So there are <Emphasis> multiple </Emphasis> <Emphasis> construals. </Emphasis>
+    </Segment>
+    <Segment StartTime="1505.670" EndTime="1506.444" Participant="fe004">
+      <VocalSound Description="sniff"/>
+    </Segment>
+    <Segment StartTime="1511.200" EndTime="1515.960" Participant="me010">
+      And in fact that's <Emphasis> part </Emphasis> of what has to be <Emphasis> done. </Emphasis> This is why there's this interaction between the analysis
+    </Segment>
+    <Segment StartTime="1515.750" EndTime="1516.250" Participant="mn015">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="1516.090" EndTime="1517.150" Participant="me010">
+      and the construal.
+    </Segment>
+    <Segment StartTime="1518.197" EndTime="1518.464" Participant="mn015">
+      <Uncertain> Yep </Uncertain>.
+    </Segment>
+    <Segment StartTime="1518.306" EndTime="1519.465" Participant="me010">
+      The b- the - the double arrow.
+    </Segment>
+    <Segment StartTime="1519.888" EndTime="1520.108" Participant="mn015">
+      Yep.
+    </Segment>
+    <Segment StartTime="1520.387" EndTime="1522.504" Participant="me010">
+      So, uh, <Emphasis> yeah, </Emphasis> I mean, it doesn't <Emphasis> magically </Emphasis> make
+    </Segment>
+    <Segment StartTime="1521.093" EndTime="1522.401" Participant="fe004">
+      <VocalSound Description="clears throat"/>
+    </Segment>
+    <Segment StartTime="1523.011" EndTime="1524.440" Participant="me010">
+      <Emphasis> ambiguity </Emphasis> go away.
+    </Segment>
+    <Segment StartTime="1524.466" EndTime="1524.628" Participant="mn015">
+      <Uncertain> No </Uncertain>.
+    </Segment>
+    <Segment StartTime="1528.099" EndTime="1529.920" Participant="me010">
+      But it <Emphasis> does </Emphasis> say that,
+    </Segment>
+    <Segment StartTime="1530.017" EndTime="1531.337" Participant="me010">
+      uh, if
+    </Segment>
+    <Segment StartTime="1531.960" EndTime="1535.500" Participant="me010">
+      you walked into the <Emphasis> cafe </Emphasis> and broke your nose, then you <Emphasis> are </Emphasis> construing the cafe
+    </Segment>
+    <Segment StartTime="1535.930" EndTime="1536.590" Participant="mn015">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="1536.695" EndTime="1537.538" Participant="me010">
+      as an <Emphasis> obstacle. </Emphasis>
+    </Segment>
+    <Segment StartTime="1538.320" EndTime="1540.100" Participant="me010">
+      And if that's <Emphasis> not </Emphasis> consistent with
+    </Segment>
+    <Segment StartTime="1540.275" EndTime="1541.674" Participant="me010">
+      other <Emphasis> things, </Emphasis> then
+    </Segment>
+    <Segment StartTime="1542.199" EndTime="1543.550" Participant="me010">
+      you've gotta reject that reading.
+    </Segment>
+    <Segment StartTime="1544.601" EndTime="1544.844" Participant="mn015">
+      Yep.
+    </Segment>
+    <Segment StartTime="1545.830" EndTime="1550.320" Participant="me003">
+      You con - you conditioned me with your first sentence, and so I thought, "Why would he walk <Emphasis> into </Emphasis> the <Emphasis> cafe </Emphasis> and then
+    </Segment>
+    <Segment StartTime="1549.765" EndTime="1550.304" Participant="me045">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1550.560" EndTime="1552.390" Participant="me003">
+      somehow break his nose?" uh,
+    </Segment>
+    <Segment StartTime="1551.118" EndTime="1553.800" Participant="me045">
+      He slipped on the wet floor. <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1551.738" EndTime="1552.453" Participant="me010">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1552.500" EndTime="1554.950" Participant="me003">
+      oh, uh - <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1553.423" EndTime="1553.852" Participant="me010">
+      Right.
+    </Segment>
+    <Segment StartTime="1554.548" EndTime="1555.057" Participant="fe004">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1558.300" EndTime="1568.410" Participant="mn015">
+      You don't find that usage, uh - uh, I checked for it in the Brown national corpus. The "walk into it" never really means, w- as in walked smack -
+    </Segment>
+    <Segment StartTime="1562.040" EndTime="1562.358" Participant="me010">
+      Yeah.
+    </Segment>
+    <Segment StartTime="1566.772" EndTime="1568.650" Participant="me010">
+      But "run into" does.
+    </Segment>
+    <Segment StartTime="1568.420" EndTime="1573.310" Participant="mn015">
+      Yeah, but, y- y- if you find "walked <Emphasis> smacked </Emphasis> into the cafe" or "<Emphasis> slammed </Emphasis> into the wall" -
+    </Segment>
+    <Segment StartTime="1571.370" EndTime="1572.130" Participant="me010">
+      Yeah, no,
+    </Segment>
+    <Segment StartTime="1572.230" EndTime="1573.630" Participant="me010">
+      but "<Emphasis> run </Emphasis> into" <Emphasis> does. </Emphasis>
+    </Segment>
+    <Segment StartTime="1573.850" EndTime="1574.880" Participant="mn015">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="1574.770" EndTime="1577.410" Participant="me010">
+      Because you will find "run into,"
+    </Segment>
+    <Segment StartTime="1577.847" EndTime="1578.467" Participant="me010">
+      uh,
+    </Segment>
+    <Segment StartTime="1578.620" EndTime="1581.180" Participant="me003">
+      Cars run into telephone poles all the time.
+    </Segment>
+    <Segment StartTime="1580.370" EndTime="1583.760" Participant="me010">
+      well, or "into the <Emphasis> cafe </Emphasis>" for that m- you know - "His car ran into the cafe."
+    </Segment>
+    <Segment StartTime="1581.970" EndTime="1583.010" Participant="me045">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1581.970" EndTime="1583.040" Participant="mn015">
+      Right.
+    </Segment>
+    <Segment StartTime="1583.807" EndTime="1587.800" Participant="mn015">
+      Yeah. Or you can run into an old friend, or run. <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1585.870" EndTime="1587.380" Participant="me010">
+      Well, you can "run into" in <Emphasis> that </Emphasis> sense too.
+    </Segment>
+    <Segment StartTime="1585.910" EndTime="1589.140" Participant="me045">
+      <VocalSound Description="laugh"/> No! <Comment Description="in mock distress"/> <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1587.455" EndTime="1588.739" Participant="fe004">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1587.490" EndTime="1589.710" Participant="me003">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1587.850" EndTime="1588.820" Participant="fn050">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1588.544" EndTime="1589.991" Participant="me010">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1591.070" EndTime="1592.074" Participant="me010">
+      But, uh,
+    </Segment>
+    <Segment StartTime="1591.530" EndTime="1595.110" Participant="fe004">
+      Yeah, "run into" might even be more impact sense than,
+    </Segment>
+    <Segment StartTime="1595.550" EndTime="1596.240" Participant="fe004">
+      you know,
+    </Segment>
+    <Segment StartTime="1596.370" EndTime="1597.650" Participant="fe004">
+      container sense.
+    </Segment>
+    <Segment StartTime="1597.494" EndTime="1597.971" Participant="me010">
+      Right.
+    </Segment>
+    <Segment StartTime="1598.695" EndTime="1599.570" Participant="me045">
+      Depends.
+    </Segment>
+    <Segment StartTime="1600.600" EndTime="1601.260" Participant="mn015">
+      <VocalSound Description="cough-laugh"/>
+    </Segment>
+    <Segment StartTime="1600.700" EndTime="1603.060" Participant="me010">
+      But - Like, "run into an old friend",
+    </Segment>
+    <Segment StartTime="1603.580" EndTime="1604.990" Participant="me010">
+      it
+    </Segment>
+    <Segment StartTime="1605.650" EndTime="1607.640" Participant="me010">
+      <Emphasis> probably </Emphasis> needs its own construction.
+    </Segment>
+    <Segment StartTime="1608.060" EndTime="1610.834" Participant="me010">
+      I mean, uh, you know, George would have I'm sure some exa-
+    </Segment>
+    <Segment StartTime="1611.220" EndTime="1614.109" Participant="me010">
+      complicated ex- reason why it really was an instance of
+    </Segment>
+    <Segment StartTime="1612.722" EndTime="1613.710" Participant="me045">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1612.929" EndTime="1614.480" Participant="fe004">
+      Mm-hmm. Mm-hmm.
+    </Segment>
+    <Segment StartTime="1614.586" EndTime="1616.701" Participant="me010">
+      something else and maybe it is, but,
+    </Segment>
+    <Segment StartTime="1617.210" EndTime="1622.966" Participant="me010">
+      um, there <Emphasis> are </Emphasis> idioms and my guess is that's <Emphasis> one </Emphasis> of them, but, um - I don't know.
+    </Segment>
+    <Segment StartTime="1622.950" EndTime="1624.250" Participant="fe004">
+      All contact.
+    </Segment>
+    <Segment StartTime="1625.180" EndTime="1628.720" Participant="fe004">
+      I mean, there- there's contact that doesn't - <Emphasis> social </Emphasis> contact, whatever. I mean.
+    </Segment>
+    <Segment StartTime="1627.571" EndTime="1628.121" Participant="me045">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1628.603" EndTime="1629.351" Participant="me010">
+      Uh.
+    </Segment>
+    <Segment StartTime="1628.800" EndTime="1633.600" Participant="me045">
+      Sudden surprising contact, right? <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1629.964" EndTime="1632.396" Participant="fe004">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1630.570" EndTime="1631.350" Participant="mn015">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1630.780" EndTime="1634.400" Participant="me010">
+      Yeah, but it's - it's - it's - it's - Right. i- Yeah, it's more -
+    </Segment>
+    <Segment StartTime="1632.396" EndTime="1632.899" Participant="fe004">
+      Forceful.
+    </Segment>
+    <Segment StartTime="1632.899" EndTime="1633.880" Participant="fe004">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1633.870" EndTime="1639.006" Participant="me045">
+      But of course, no, i- i- I mean it has a life of its own. It's sort of partially inspired by the spatial -
+    </Segment>
+    <Segment StartTime="1637.970" EndTime="1642.640" Participant="me010">
+      Well, this is this motivated - but yeah - oh yeah, mo- for sure, <Emphasis> motivated, </Emphasis> but then
+    </Segment>
+    <Segment StartTime="1639.425" EndTime="1639.831" Participant="me045">
+      Yeah.
+    </Segment>
+    <Segment StartTime="1643.000" EndTime="1643.840" Participant="me045">
+      Yeah.
+    </Segment>
+    <Segment StartTime="1643.090" EndTime="1645.012" Participant="me010">
+      you can't <Emphasis> parse </Emphasis> on motivated.
+    </Segment>
+    <Segment StartTime="1645.149" EndTime="1646.616" Participant="me045">
+      Yeah. Right. <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1645.750" EndTime="1647.370" Participant="me003">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1646.570" EndTime="1649.230" Participant="fe004">
+      <VocalSound Description="sigh"/> Too bad. <Comment Description="while smiling"/>
+    </Segment>
+    <Segment StartTime="1647.350" EndTime="1647.888" Participant="me010">
+      Uh,
+    </Segment>
+    <Segment StartTime="1647.568" EndTime="1648.510" Participant="me045">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1648.050" EndTime="1649.690" Participant="me003">
+      You should get a <Emphasis> T_shirt </Emphasis> that <Emphasis> says </Emphasis> that.
+    </Segment>
+    <Segment StartTime="1649.350" EndTime="1651.030" Participant="fe004">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1649.610" EndTime="1650.711" Participant="me045">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1650.930" EndTime="1651.980" Participant="me010">
+      O_K. <Comment Description="while laughing"/>
+    </Segment>
+    <Segment StartTime="1651.550" EndTime="1655.180" Participant="fe004">
+      There's - there's <Emphasis> lots </Emphasis> of things you could make T_shirts out of, <Comment Description="while laughing"/> but, uh,
+    </Segment>
+    <Segment StartTime="1653.347" EndTime="1654.063" Participant="me010">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1655.290" EndTime="1656.794" Participant="fe004">
+      this has gotten - <Comment Description="while laughing"/>
+    </Segment>
+    <Segment StartTime="1655.420" EndTime="1657.460" Participant="me003">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1657.440" EndTime="1658.410" Participant="fe004">
+      <Uncertain NumSyllables="2"> @@ </Uncertain>
+    </Segment>
+    <Segment StartTime="1658.500" EndTime="1659.254" Participant="fe004">
+      I mean wh- <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1659.254" EndTime="1662.120" Participant="fe004">
+      We don't need the words to that.
+    </Segment>
+    <Segment StartTime="1659.360" EndTime="1665.800" Participant="mn015">
+      <VocalSound Description="inbreath"/> Pro- probably not your marks in the kitchen, today. Not - not your marks. <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1662.787" EndTime="1663.730" Participant="fe004">
+      What?
+    </Segment>
+    <Segment StartTime="1663.930" EndTime="1666.452" Participant="fe004">
+      Oh, no no no no no no no no no, we're not going there.
+    </Segment>
+    <Segment StartTime="1666.452" EndTime="1666.782" Participant="fe004">
+      O_K.
+    </Segment>
+    <Segment StartTime="1666.782" EndTime="1668.363" Participant="fe004">
+      <VocalSound Description="clears throat"/>
+    </Segment>
+    <Segment StartTime="1666.970" EndTime="1667.890" Participant="me003">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1668.363" EndTime="1669.270" Participant="fe004">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1668.960" EndTime="1670.443" Participant="me045">
+      In other news. <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1669.280" EndTime="1671.150" Participant="me010">
+      O_K, so, um,
+    </Segment>
+    <Segment StartTime="1669.907" EndTime="1671.410" Participant="fe004">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1671.320" EndTime="1673.400" Participant="me010">
+      anything else you want to <Emphasis> ask </Emphasis> us about
+    </Segment>
+    <Segment StartTime="1673.600" EndTime="1676.500" Participant="mn015">
+      <VocalSound Description="inbreath"/> <VocalSound Description="clears throat"/> Well,
+    </Segment>
+    <Segment StartTime="1673.642" EndTime="1674.962" Participant="me010">
+      the thesis proposal, you got -
+    </Segment>
+    <Segment StartTime="1675.768" EndTime="1678.590" Participant="me010">
+      We could look at a particular thing and give you feedback on it.
+    </Segment>
+    <Segment StartTime="1678.040" EndTime="1680.130" Participant="mn015">
+      Well there - actually -
+    </Segment>
+    <Segment StartTime="1681.160" EndTime="1686.950" Participant="mn015">
+      the - i- what would have been <Emphasis> really </Emphasis> nice is to find an example for
+    </Segment>
+    <Segment StartTime="1682.070" EndTime="1684.990" Participant="fe004">
+      <VocalSound Description="yawn"/>
+    </Segment>
+    <Segment StartTime="1687.110" EndTime="1688.610" Participant="mn015">
+      <Emphasis> all </Emphasis> of this,
+    </Segment>
+    <Segment StartTime="1688.700" EndTime="1689.670" Participant="mn015">
+      uh,
+    </Segment>
+    <Segment StartTime="1689.780" EndTime="1691.751" Participant="mn015">
+      from our domain.
+    </Segment>
+    <Segment StartTime="1691.751" EndTime="1696.900" Participant="mn015">
+      So maybe if we w- if we can make one <Emphasis> up </Emphasis> <Pause/> <Emphasis> now, </Emphasis> that would be c- incredibly helpful.
+    </Segment>
+    <Segment StartTime="1696.030" EndTime="1698.556" Participant="fe004">
+      So, w- where it should illustrate <Pause/>
+    </Segment>
+    <Segment StartTime="1696.366" EndTime="1696.939" Participant="me010">
+      O_K.
+    </Segment>
+    <Segment StartTime="1698.610" EndTime="1700.390" Participant="mn015">
+      How -
+    </Segment>
+    <Segment StartTime="1699.394" EndTime="1704.830" Participant="fe004">
+      uh - wh- when you say <Emphasis> all </Emphasis> this, do you mean, like, I don't know, the related work stuff, as well as,
+    </Segment>
+    <Segment StartTime="1705.716" EndTime="1707.083" Participant="me010">
+      Right - right - r-
+    </Segment>
+    <Segment StartTime="1705.830" EndTime="1707.420" Participant="fe004">
+      mappings?
+    </Segment>
+    <Segment StartTime="1705.992" EndTime="1719.290" Participant="mn015">
+      w- Well we have, for example, a canonical use of something and y- it's, you know, we have some constructions and then it's construed as something, and then we - we may get the same constructions with a metaphorical use
+    </Segment>
+    <Segment StartTime="1719.310" EndTime="1722.130" Participant="mn015">
+      that's also relevant to the - to the domain.
+    </Segment>
+    <Segment StartTime="1721.850" EndTime="1725.255" Participant="me010">
+      O_K, f- let's - let's suppose you use "in" and "on".
+    </Segment>
+    <Segment StartTime="1726.570" EndTime="1728.040" Participant="me010">
+      I mean, that's what you <Emphasis> started </Emphasis> with.
+    </Segment>
+    <Segment StartTime="1727.980" EndTime="1728.710" Participant="mn015">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="1728.088" EndTime="1735.660" Participant="me010">
+      So "in the bus" and "on the bus," um, that's actually a <Emphasis> little </Emphasis> tricky in English because to <Emphasis> some </Emphasis> extent they're <Emphasis> synonyms. </Emphasis>
+    </Segment>
+    <Segment StartTime="1736.773" EndTime="1737.504" Participant="me010">
+      O_K.
+    </Segment>
+    <Segment StartTime="1737.840" EndTime="1743.870" Participant="mn015">
+      I had two hours w- with George on this, so it, um -
+    </Segment>
+    <Segment StartTime="1740.032" EndTime="1741.336" Participant="me010">
+      O_K, what did he say.
+    </Segment>
+    <Segment StartTime="1740.800" EndTime="1744.670" Participant="fe004">
+      Did you? <VocalSound Description="laugh"/> Join the club. <Comment Description="while laughing"/>
+    </Segment>
+    <Segment StartTime="1744.060" EndTime="1745.590" Participant="me045">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1744.180" EndTime="1746.629" Participant="me010">
+      Right. Oh, h- that's -
+    </Segment>
+    <Segment StartTime="1744.480" EndTime="1746.720" Participant="mn015">
+      Um.
+    </Segment>
+    <Segment StartTime="1744.763" EndTime="1746.120" Participant="fn050">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1747.760" EndTime="1752.247" Participant="mn015">
+      "On the bus" is a m- is a metaphorical metonymy
+    </Segment>
+    <Segment StartTime="1752.561" EndTime="1758.062" Participant="mn015">
+      that relates some meta- path metaphorically and you're on - on that path and
+    </Segment>
+    <Segment StartTime="1757.620" EndTime="1761.510" Participant="fe004">
+      <VocalSound Description="yawn"/>
+    </Segment>
+    <Segment StartTime="1758.300" EndTime="1770.760" Participant="mn015">
+      th- w- I mean it's - he - there's a <Emphasis> platform </Emphasis> notion, right? "he's on the - standing on the bus waving to me." But th- the <Emphasis> regular </Emphasis> as we speak "J- Johno was on the bus to New York," um, uh, he's -
+    </Segment>
+    <Segment StartTime="1758.850" EndTime="1760.460" Participant="me010">
+      Yeah, I - I believe all that, it's just -
+    </Segment>
+    <Segment StartTime="1761.566" EndTime="1762.043" Participant="me010">
+      Yeah.
+    </Segment>
+    <Segment StartTime="1765.652" EndTime="1766.034" Participant="me010">
+      Yeah.
+    </Segment>
+    <Segment StartTime="1768.165" EndTime="1768.485" Participant="me010">
+      Yeah.
+    </Segment>
+    <Segment StartTime="1770.840" EndTime="1782.090" Participant="mn015">
+      that's, uh, what did I call it here, the transportation schema, something, where you can be on the first flight, on the second flight, and you can be, you know,
+    </Segment>
+    <Segment StartTime="1775.226" EndTime="1775.576" Participant="me010">
+      Yeah.
+    </Segment>
+    <Segment StartTime="1777.770" EndTime="1778.440" Participant="me010">
+      Yeah.
+    </Segment>
+    <Segment StartTime="1782.022" EndTime="1788.393" Participant="me010">
+      Right. So - so that - that may or may not be what you - what you want to do. I mean you <Emphasis> could </Emphasis> do something much simpler
+    </Segment>
+    <Segment StartTime="1782.330" EndTime="1783.990" Participant="mn015">
+      on the wagon.
+    </Segment>
+    <Segment StartTime="1788.392" EndTime="1788.694" Participant="mn015">
+      Yeah.
+    </Segment>
+    <Segment StartTime="1788.854" EndTime="1790.620" Participant="me010">
+      like "<Emphasis> under </Emphasis> the bus," or something, where -
+    </Segment>
+    <Segment StartTime="1790.780" EndTime="1795.680" Participant="mn015">
+      But it's - it's - <Emphasis> unfortunately, </Emphasis> this is not really something a <Emphasis> tourist </Emphasis> would ever <Emphasis> say. </Emphasis>
+    </Segment>
+    <Segment StartTime="1791.750" EndTime="1792.600" Participant="me045">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1792.217" EndTime="1792.847" Participant="fe004">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1795.790" EndTime="1797.280" Participant="mn015">
+      So.
+    </Segment>
+    <Segment StartTime="1796.150" EndTime="1797.950" Participant="me010">
+      <Emphasis> Well, </Emphasis> unless he was <Emphasis> repairing </Emphasis> it or something, but <Emphasis> yeah. </Emphasis>
+    </Segment>
+    <Segment StartTime="1797.800" EndTime="1798.570" Participant="mn015">
+      Yeah.
+    </Segment>
+    <Segment StartTime="1798.530" EndTime="1799.480" Participant="me045">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1798.770" EndTime="1800.150" Participant="mn015">
+      But um.
+    </Segment>
+    <Segment StartTime="1798.775" EndTime="1800.570" Participant="me010">
+      Uh, but O_K.
+    </Segment>
+    <Segment StartTime="1800.300" EndTime="1806.260" Participant="mn015">
+      So in terms of the - this - We had - we had - <Emphasis> initially </Emphasis> we'd - started discussing the "out of film."
+    </Segment>
+    <Segment StartTime="1801.130" EndTime="1802.220" Participant="fe004">
+      I see.
+    </Segment>
+    <Segment StartTime="1801.250" EndTime="1802.010" Participant="me045">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1806.460" EndTime="1807.190" Participant="me010">
+      Right.
+    </Segment>
+    <Segment StartTime="1806.790" EndTime="1811.140" Participant="mn015">
+      And there's a lot of "out of" analysis, so, um,
+    </Segment>
+    <Segment StartTime="1808.890" EndTime="1809.402" Participant="me010">
+      Right.
+    </Segment>
+    <Segment StartTime="1811.050" EndTime="1811.870" Participant="me045">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1813.170" EndTime="1816.850" Participant="mn015">
+      could we capture <Emphasis> that </Emphasis> with a different construal of -
+    </Segment>
+    <Segment StartTime="1817.560" EndTime="1825.180" Participant="fe004">
+      Yeah, it's a little - it's, uh - we've thought about it before, uh t- uh - to use the examples in other papers, and it's - it's a little complicated.
+    </Segment>
+    <Segment StartTime="1825.100" EndTime="1827.260" Participant="me045">
+      Out of - out of film, in particular.
+    </Segment>
+    <Segment StartTime="1825.250" EndTime="1830.100" Participant="fe004">
+      Cuz you're like, it's a state of - there's resource, right, and like,
+    </Segment>
+    <Segment StartTime="1828.099" EndTime="1828.501" Participant="me045">
+      Yeah.
+    </Segment>
+    <Segment StartTime="1830.330" EndTime="1840.640" Participant="fe004">
+      what is film, the state - you know. You're out of the state of having film, right? and somehow film is standing for the re- the resour- the state of having some resource is just labeled as that resource.
+    </Segment>
+    <Segment StartTime="1840.132" EndTime="1844.614" Participant="me045">
+      It's - yeah, I mean, but - and plus the fact that there's also s- I mean, can you say, like,
+    </Segment>
+    <Segment StartTime="1840.710" EndTime="1841.390" Participant="fe004">
+      I mean.
+    </Segment>
+    <Segment StartTime="1841.860" EndTime="1843.100" Participant="fe004">
+      It's a little bit -
+    </Segment>
+    <Segment StartTime="1846.001" EndTime="1855.710" Participant="me045">
+      "The film ran out" you know, or, maybe you could say something like "The film is out" so like the - the film went away from where it <Emphasis> should </Emphasis> be, namely with <Emphasis> you, </Emphasis> or something, right? You know.
+    </Segment>
+    <Segment StartTime="1848.620" EndTime="1851.370" Participant="fe004">
+      Yeah, is film the trajector? <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1853.547" EndTime="1854.642" Participant="fe004">
+      <VocalSound Description="clears throat"/>
+    </Segment>
+    <Segment StartTime="1854.642" EndTime="1855.344" Participant="fe004">
+      <VocalSound Description="sniff"/>
+    </Segment>
+    <Segment StartTime="1854.668" EndTime="1856.201" Participant="fn050">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1856.373" EndTime="1859.900" Participant="me045">
+      The - the film - the film is gone, right? Um,
+    </Segment>
+    <Segment StartTime="1856.550" EndTime="1857.600" Participant="fe004">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1861.530" EndTime="1870.680" Participant="me045">
+      I never really knew what was going on, I mean I - I find it sort of a little bit farfetched to say that - that "I'm out of film" means that I have left the state of having film or something like that, but.
+    </Segment>
+    <Segment StartTime="1866.523" EndTime="1867.460" Participant="fe004">
+      It's weird.
+    </Segment>
+    <Segment StartTime="1870.065" EndTime="1870.477" Participant="fe004">
+      <Uncertain> That - </Uncertain>
+    </Segment>
+    <Segment StartTime="1871.654" EndTime="1872.370" Participant="me010">
+      Uh.
+    </Segment>
+    <Segment StartTime="1871.710" EndTime="1880.230" Participant="fe004">
+      Or, "having" is also, um, associated with location, right? so if the film <Uncertain> left </Uncertain>, you know - state is being near film.
+    </Segment>
+    <Segment StartTime="1875.140" EndTime="1876.990" Participant="me045">
+      Yeah. Yeah.
+    </Segment>
+    <Segment StartTime="1878.180" EndTime="1883.530" Participant="mn015">
+      So running - running out of something is different from being out of somewhere.
+    </Segment>
+    <Segment StartTime="1883.060" EndTime="1885.240" Participant="me010">
+      Or being out of <Emphasis> something </Emphasis> as, uh - as <Emphasis> well. </Emphasis>
+    </Segment>
+    <Segment StartTime="1885.990" EndTime="1888.750" Participant="me010">
+      So "running out of it" definitely has a <Emphasis> process </Emphasis> aspect to it.
+    </Segment>
+    <Segment StartTime="1888.161" EndTime="1890.370" Participant="fe004">
+      Mm-hmm. But that's from run, yeah.
+    </Segment>
+    <Segment StartTime="1888.863" EndTime="1889.369" Participant="me045">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="1888.871" EndTime="1889.364" Participant="me010">
+      So,
+    </Segment>
+    <Segment StartTime="1890.340" EndTime="1893.040" Participant="me010">
+      b- that's O_K, I mean - b- but the difference
+    </Segment>
+    <Segment StartTime="1891.200" EndTime="1891.900" Participant="fe004">
+      Yeah.
+    </Segment>
+    <Segment StartTime="1892.950" EndTime="1896.390" Participant="mn015">
+      Is the d- the final <Emphasis> state </Emphasis> of running out of something is being <Emphasis> out </Emphasis> of it. <Comment Description="completing [me010] utterance"/>
+    </Segment>
+    <Segment StartTime="1893.090" EndTime="1893.950" Participant="me010">
+      is -
+    </Segment>
+    <Segment StartTime="1895.834" EndTime="1896.286" Participant="me045">
+      Yeah.
+    </Segment>
+    <Segment StartTime="1895.877" EndTime="1896.306" Participant="me010">
+      Right.
+    </Segment>
+    <Segment StartTime="1896.360" EndTime="1897.460" Participant="fe004">
+      Yeah. So th-
+    </Segment>
+    <Segment StartTime="1896.770" EndTime="1900.350" Participant="me045">
+      You <Emphasis> got </Emphasis> there. <VocalSound Description="laugh"/> You got to <Emphasis> out </Emphasis> of it. Yeah.
+    </Segment>
+    <Segment StartTime="1897.109" EndTime="1898.795" Participant="mn015">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1897.510" EndTime="1898.810" Participant="fe004">
+      <Emphasis> That </Emphasis> part is fine.
+    </Segment>
+    <Segment StartTime="1899.152" EndTime="1899.582" Participant="me010">
+      Yeah.
+    </Segment>
+    <Segment StartTime="1900.200" EndTime="1901.980" Participant="me010">
+      But, uh -
+    </Segment>
+    <Segment StartTime="1900.920" EndTime="1902.520" Participant="me045">
+      Hmm!
+    </Segment>
+    <Segment StartTime="1905.360" EndTime="1909.040" Participant="me010">
+      <Emphasis> Yeah, </Emphasis> so - so nob- so no one has in - in - of the,
+    </Segment>
+    <Segment StartTime="1909.117" EndTime="1909.674" Participant="me010">
+      uh,
+    </Segment>
+    <Segment StartTime="1909.906" EndTime="1913.250" Participant="me010">
+      professional linguists, they haven't - there was this whole <Emphasis> thesis </Emphasis> on "out of".
+    </Segment>
+    <Segment StartTime="1910.850" EndTime="1912.070" Participant="fe004">
+      Uh.
+    </Segment>
+    <Segment StartTime="1914.050" EndTime="1915.710" Participant="fe004">
+      There <Emphasis> was? </Emphasis> Who?
+    </Segment>
+    <Segment StartTime="1914.820" EndTime="1917.220" Participant="me010">
+      Well, there - I <Emphasis> thought </Emphasis> - or there was a paper on it. Huh?
+    </Segment>
+    <Segment StartTime="1915.660" EndTime="1916.620" Participant="me045">
+      Out.
+    </Segment>
+    <Segment StartTime="1917.120" EndTime="1920.350" Participant="me045">
+      There was one on - on "out" or "out of"?
+    </Segment>
+    <Segment StartTime="1918.348" EndTime="1918.793" Participant="me010">
+      There was a-
+    </Segment>
+    <Segment StartTime="1919.830" EndTime="1921.990" Participant="me010">
+      Well, it may be just "out". Yeah.
+    </Segment>
+    <Segment StartTime="1920.990" EndTime="1921.920" Participant="me045">
+      O_K.
+    </Segment>
+    <Segment StartTime="1922.230" EndTime="1924.680" Participant="me010">
+      I think there was "over" but there was also a paper on "out".
+    </Segment>
+    <Segment StartTime="1924.320" EndTime="1930.030" Participant="me045">
+      Yeah, Lind- Susan Lindner, right? The - the - "the syrup spread out"? That kind of thing?
+    </Segment>
+    <Segment StartTime="1926.141" EndTime="1926.920" Participant="me010">
+      Or something.
+    </Segment>
+    <Segment StartTime="1926.570" EndTime="1929.660" Participant="fe004">
+      Oh, yeah, you're right. Yeah.
+    </Segment>
+    <Segment StartTime="1929.160" EndTime="1930.690" Participant="me010">
+      Yeah, and all that sort of stuff.
+    </Segment>
+    <Segment StartTime="1930.440" EndTime="1931.640" Participant="fe004">
+      Yeah.
+    </Segment>
+    <Segment StartTime="1932.160" EndTime="1937.370" Participant="fe004">
+      And undoubtably there's been <Emphasis> reams </Emphasis> of work about it in cognitive linguistics, but.
+    </Segment>
+    <Segment StartTime="1935.266" EndTime="1938.140" Participant="me010">
+      O_K. But anyway. We're not gonna do that between now and next week.
+    </Segment>
+    <Segment StartTime="1937.650" EndTime="1938.580" Participant="fe004">
+      Yeah.
+    </Segment>
+    <Segment StartTime="1937.975" EndTime="1938.369" Participant="mn015">
+      Yeah.
+    </Segment>
+    <Segment StartTime="1938.189" EndTime="1938.571" Participant="me010">
+      O_K.
+    </Segment>
+    <Segment StartTime="1938.920" EndTime="1939.900" Participant="me010">
+      So,
+    </Segment>
+    <Segment StartTime="1940.110" EndTime="1941.340" Participant="me010">
+      um -
+    </Segment>
+    <Segment StartTime="1940.560" EndTime="1950.600" Participant="fe004">
+      It's not one of the y- it's more straightforward ones - forward ones to defend, so you probably don't want to use it for the purposes - th- these are - you're addressing like, computational linguists, right. Or - are you?
+    </Segment>
+    <Segment StartTime="1944.010" EndTime="1944.710" Participant="mn015">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="1944.833" EndTime="1945.215" Participant="me010">
+      Right.
+    </Segment>
+    <Segment StartTime="1945.724" EndTime="1946.328" Participant="me010">
+      O_K.
+    </Segment>
+    <Segment StartTime="1950.460" EndTime="1953.030" Participant="mn015">
+      There's gonna be four
+    </Segment>
+    <Segment StartTime="1953.150" EndTime="1955.540" Participant="mn015">
+      computational linguists,
+    </Segment>
+    <Segment StartTime="1954.200" EndTime="1955.630" Participant="fe004">
+      O_K. But more
+    </Segment>
+    <Segment StartTime="1955.580" EndTime="1957.380" Participant="mn015">
+      computer-
+    </Segment>
+    <Segment StartTime="1955.920" EndTime="1959.390" Participant="fe004">
+      emphasis on the computational? Or emphasis on the linguist?
+    </Segment>
+    <Segment StartTime="1957.995" EndTime="1958.339" Participant="mn015">
+      <Uncertain> it's </Uncertain> -
+    </Segment>
+    <Segment StartTime="1959.300" EndTime="1967.460" Participant="mn015">
+      More - there's going to be the - just four computational linguists, by coincidence, but the rest is, whatever, biocomputing people and physicists.
+    </Segment>
+    <Segment StartTime="1966.090" EndTime="1970.290" Participant="me010">
+      No no no, but not for your <Emphasis> talk. </Emphasis> I'm- we're worrying about the th- the thes- it's just for one guy.
+    </Segment>
+    <Segment StartTime="1966.316" EndTime="1967.480" Participant="fe004">
+      Oh, O_K.
+    </Segment>
+    <Segment StartTime="1968.400" EndTime="1974.860" Participant="mn015">
+      Oh, the <Emphasis> thesis! </Emphasis> That's - that's computa- should be very computational, and, uh, someth-
+    </Segment>
+    <Segment StartTime="1968.920" EndTime="1971.310" Participant="fe004">
+      Oh, I meant <Emphasis> this, </Emphasis> you know, like -
+    </Segment>
+    <Segment StartTime="1972.560" EndTime="1977.401" Participant="fe004">
+      O_K. So I would try to - I would stay away from one that involves weird construal stuff.
+    </Segment>
+    <Segment StartTime="1973.005" EndTime="1973.316" Participant="me010">
+      Yeah.
+    </Segment>
+    <Segment StartTime="1975.583" EndTime="1975.952" Participant="me045">
+      Yeah.
+    </Segment>
+    <Segment StartTime="1976.590" EndTime="1977.270" Participant="me010">
+      Right.
+    </Segment>
+    <Segment StartTime="1977.401" EndTime="1980.356" Participant="fe004">
+      You know, it's an obvious one - <Uncertain> but, uh </Uncertain> -
+    </Segment>
+    <Segment StartTime="1977.760" EndTime="1979.090" Participant="me045">
+      Totally weird stuff.
+    </Segment>
+    <Segment StartTime="1978.610" EndTime="1985.177" Participant="mn015">
+      I mean the - the old <Emphasis> bakery </Emphasis> example might be nice, "Is there a <Emphasis> bakery </Emphasis> around here". So if you c- we really just construe it as a -
+    </Segment>
+    <Segment StartTime="1982.580" EndTime="1983.490" Participant="me045">
+      Yeah.
+    </Segment>
+    <Segment StartTime="1984.770" EndTime="1985.890" Participant="fe004">
+      Around?
+    </Segment>
+    <Segment StartTime="1985.800" EndTime="1993.220" Participant="mn015">
+      No, it's the bakery <Emphasis> itself </Emphasis> - is it a building? uh, that you want to go to? or is it something to <Emphasis> eat </Emphasis> that you want to <Emphasis> buy? </Emphasis>
+    </Segment>
+    <Segment StartTime="1987.900" EndTime="1988.295" Participant="fe004">
+      Oh.
+    </Segment>
+    <Segment StartTime="1989.390" EndTime="1993.870" Participant="fe004">
+      Oh, oh yeah. Yeah, we've thought about that. Right. Right.
+    </Segment>
+    <Segment StartTime="1994.300" EndTime="1995.510" Participant="mn015">
+      And then -
+    </Segment>
+    <Segment StartTime="1994.770" EndTime="1995.740" Participant="fe004">
+      Nnn. <Comment Description="intonation like &quot;hmm&quot;"/>
+    </Segment>
+    <Segment StartTime="1996.030" EndTime="2000.240" Participant="fe004">
+      <Emphasis> No. </Emphasis> <Emphasis> What? </Emphasis> "<Emphasis> Bakery </Emphasis>" can't be something you're gonna eat.
+    </Segment>
+    <Segment StartTime="1999.890" EndTime="2004.850" Participant="me010">
+      No, no. The question is d- do you wanna - do you wanna construe - do you wanna constr-strue <Comment Description="unusual speech correction, partial word correction"/> <Comment Description="possibly overlap-induced disfluency"/>
+    </Segment>
+    <Segment StartTime="2000.793" EndTime="2001.446" Participant="me045">
+      Sh-
+    </Segment>
+    <Segment StartTime="2001.390" EndTime="2002.460" Participant="fe004">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2002.160" EndTime="2002.920" Participant="me045">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2002.200" EndTime="2003.810" Participant="me003">
+      It's a speech-act.
+    </Segment>
+    <Segment StartTime="2005.002" EndTime="2007.825" Participant="me010">
+      r- Exactly. It's because do you wanna c- do you want to view
+    </Segment>
+    <Segment StartTime="2007.910" EndTime="2009.010" Participant="fe004">
+      Yeah.
+    </Segment>
+    <Segment StartTime="2008.053" EndTime="2012.030" Participant="me010">
+      the bakery as a p- a place that - that - i- for example, if - y-
+    </Segment>
+    <Segment StartTime="2011.300" EndTime="2012.970" Participant="fe004">
+      Where you can get baked goods.
+    </Segment>
+    <Segment StartTime="2012.720" EndTime="2014.870" Participant="me010">
+      Well th- well, that's <Emphasis> one. </Emphasis> You want to <Emphasis> buy </Emphasis> something.
+    </Segment>
+    <Segment StartTime="2015.260" EndTime="2016.640" Participant="me010">
+      But the <Emphasis> other </Emphasis> is,
+    </Segment>
+    <Segment StartTime="2016.670" EndTime="2022.460" Participant="me010">
+      uh, yo- you might have smelled a smell and are just curious about whether there'd be a bakery in the neighborhood, or,
+    </Segment>
+    <Segment StartTime="2021.585" EndTime="2022.953" Participant="me045">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="2022.549" EndTime="2024.418" Participant="me010">
+      um, pfff <Comment Description="vocal gesture"/>
+    </Segment>
+    <Segment StartTime="2024.640" EndTime="2029.520" Participant="me010">
+      you know, you wonder how people here make their living, and - there're all sorts of reasons why you might
+    </Segment>
+    <Segment StartTime="2027.140" EndTime="2028.110" Participant="me003">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2027.684" EndTime="2028.094" Participant="me045">
+      Yeah.
+    </Segment>
+    <Segment StartTime="2029.550" EndTime="2034.110" Participant="me010">
+      be asking about the existence of a bakery that <Emphasis> doesn't </Emphasis> mean, "I want to buy some <Emphasis> baked </Emphasis> goods."
+    </Segment>
+    <Segment StartTime="2035.000" EndTime="2036.110" Participant="fe004">
+      O_K.
+    </Segment>
+    <Segment StartTime="2035.375" EndTime="2036.340" Participant="me010">
+      But
+    </Segment>
+    <Segment StartTime="2037.227" EndTime="2037.940" Participant="me010">
+      <VocalSound Description="swallow"/>
+    </Segment>
+    <Segment StartTime="2037.940" EndTime="2042.550" Participant="me010">
+      um, those are interesting examples but it's not clear that they're <Emphasis> mainly </Emphasis>
+    </Segment>
+    <Segment StartTime="2042.805" EndTime="2045.000" Participant="me010">
+      <Emphasis> construal </Emphasis> examples.
+    </Segment>
+    <Segment StartTime="2044.104" EndTime="2044.843" Participant="me045">
+      Yeah.
+    </Segment>
+    <Segment StartTime="2044.580" EndTime="2047.090" Participant="fe004">
+      So it's a lot of pragmatics, there, that
+    </Segment>
+    <Segment StartTime="2045.958" EndTime="2046.880" Participant="mn015">
+      Mmm.
+    </Segment>
+    <Segment StartTime="2046.092" EndTime="2048.550" Participant="me010">
+      There's all sorts of stuff going on. So
+    </Segment>
+    <Segment StartTime="2048.030" EndTime="2049.320" Participant="fe004">
+      might be beyond what you want to do.
+    </Segment>
+    <Segment StartTime="2048.600" EndTime="2051.510" Participant="me010">
+      let's - so let's think about this from the point of view
+    </Segment>
+    <Segment StartTime="2051.700" EndTime="2054.110" Participant="me010">
+      of construal. So let's first do
+    </Segment>
+    <Segment StartTime="2054.830" EndTime="2057.710" Participant="me010">
+      a - So the <Emphasis> metonymy </Emphasis> thing
+    </Segment>
+    <Segment StartTime="2057.756" EndTime="2058.440" Participant="me010">
+      is
+    </Segment>
+    <Segment StartTime="2059.040" EndTime="2061.880" Participant="me010">
+      probably the <Emphasis> easiest </Emphasis> and a- and actually the -
+    </Segment>
+    <Segment StartTime="2062.150" EndTime="2065.470" Participant="me010">
+      Though, the one you <Emphasis> have </Emphasis> isn't quite -
+    </Segment>
+    <Segment StartTime="2063.590" EndTime="2065.050" Participant="fe004">
+      You mean the s-
+    </Segment>
+    <Segment StartTime="2065.980" EndTime="2067.880" Participant="fe004">
+      You mean "the steak wants to pay"?
+    </Segment>
+    <Segment StartTime="2068.000" EndTime="2070.680" Participant="me010">
+      N- no not <Emphasis> that </Emphasis> one, that's - that's a - the sort of
+    </Segment>
+    <Segment StartTime="2070.840" EndTime="2074.290" Participant="me010">
+      <Emphasis> background. </Emphasis> This is the t- uh, page five.
+    </Segment>
+    <Segment StartTime="2074.710" EndTime="2076.450" Participant="me003">
+      About Plato and the book?
+    </Segment>
+    <Segment StartTime="2076.100" EndTime="2076.760" Participant="me010">
+      No.
+    </Segment>
+    <Segment StartTime="2076.230" EndTime="2077.540" Participant="fe004">
+      Oh. Um.
+    </Segment>
+    <Segment StartTime="2076.290" EndTime="2077.080" Participant="mn015">
+      No.
+    </Segment>
+    <Segment StartTime="2077.040" EndTime="2078.950" Participant="me045">
+      Onward.
+    </Segment>
+    <Segment StartTime="2077.389" EndTime="2078.630" Participant="me010">
+      Just beyond that.
+    </Segment>
+    <Segment StartTime="2078.100" EndTime="2079.770" Participant="fe004">
+      How much does <Emphasis> it </Emphasis> cost?
+    </Segment>
+    <Segment StartTime="2079.329" EndTime="2083.270" Participant="mn015">
+      Where is the castle? How old is it? How much does it cost?
+    </Segment>
+    <Segment StartTime="2079.345" EndTime="2079.726" Participant="me010">
+      Yeah.
+    </Segment>
+    <Segment StartTime="2079.591" EndTime="2080.770" Participant="me045">
+      A castle.
+    </Segment>
+    <Segment StartTime="2081.820" EndTime="2082.580" Participant="me003">
+      Oh.
+    </Segment>
+    <Segment StartTime="2082.053" EndTime="2083.496" Participant="me045">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="2083.496" EndTime="2084.129" Participant="me045">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2084.570" EndTime="2086.200" Participant="fe004">
+      To go in, that's like -
+    </Segment>
+    <Segment StartTime="2085.480" EndTime="2088.220" Participant="me045">
+      Two hundred <Emphasis> million </Emphasis> dollars. <Comment Description="humor, giving cost of castle rather than cost of admission"/>
+    </Segment>
+    <Segment StartTime="2086.772" EndTime="2088.160" Participant="mn015">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2087.676" EndTime="2088.280" Participant="me010">
+      Right. <Comment Description="while laughing"/>
+    </Segment>
+    <Segment StartTime="2088.020" EndTime="2092.050" Participant="fe004">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2088.508" EndTime="2089.930" Participant="fn050">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2090.266" EndTime="2091.530" Participant="me010">
+      It's not for sale.
+    </Segment>
+    <Segment StartTime="2091.340" EndTime="2092.150" Participant="me045">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2091.578" EndTime="2092.232" Participant="fn050">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2092.150" EndTime="2093.510" Participant="fe004">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2092.500" EndTime="2093.820" Participant="me045">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2092.667" EndTime="2093.366" Participant="me010">
+      Uh.
+    </Segment>
+    <Segment StartTime="2094.293" EndTime="2097.412" Participant="mn015">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2094.580" EndTime="2095.780" Participant="me010">
+      So
+    </Segment>
+    <Segment StartTime="2095.620" EndTime="2097.080" Participant="me045">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2097.100" EndTime="2099.575" Participant="me045">
+      Yeah, I think that's a good example, actually. <VocalSound Description="sniff"/>
+    </Segment>
+    <Segment StartTime="2097.731" EndTime="2098.183" Participant="mn015">
+      S-
+    </Segment>
+    <Segment StartTime="2098.450" EndTime="2099.900" Participant="fe004">
+      Yeah, that's good. u-
+    </Segment>
+    <Segment StartTime="2099.900" EndTime="2104.440" Participant="mn015">
+      But as Nancy just su- suggested it's probably <Foreign Language="la">  ellipticus.  </Foreign> Huh.
+    </Segment>
+    <Segment StartTime="2100.700" EndTime="2102.912" Participant="fe004">
+      <VocalSound Description="voiced outbreath"/> <VocalSound Description="clears throat"/>
+    </Segment>
+    <Segment StartTime="2102.912" EndTime="2104.080" Participant="fe004">
+      Ellipsis.
+    </Segment>
+    <Segment StartTime="2105.440" EndTime="2115.150" Participant="fe004">
+      Like, "<Emphasis> it </Emphasis>" doesn't refer to "thing," it refers to acti- you know, j- thing standing for activ- most relevant activity for a tourist - you could think of it that way, but.
+    </Segment>
+    <Segment StartTime="2115.360" EndTime="2116.030" Participant="me010">
+      Yeah.
+    </Segment>
+    <Segment StartTime="2115.710" EndTime="2118.560" Participant="me045">
+      Well, shoot, isn't that - I mean, that's what -
+    </Segment>
+    <Segment StartTime="2118.650" EndTime="2127.710" Participant="mn015">
+      <Emphasis> Well, </Emphasis> I mean, my argument <Emphasis> here </Emphasis> is - it's - it's - it's the same thing as "Plato's on the top shelf," I'm con- you know, th- that you can refer to
+    </Segment>
+    <Segment StartTime="2118.800" EndTime="2120.830" Participant="me045">
+      figuring that out is what this is about.
+    </Segment>
+    <Segment StartTime="2120.330" EndTime="2122.100" Participant="fe004">
+      Yeah, yeah, no, I- I agree.
+    </Segment>
+    <Segment StartTime="2128.840" EndTime="2131.800" Participant="mn015">
+      a book of Plato by using "Plato," and you can
+    </Segment>
+    <Segment StartTime="2130.180" EndTime="2131.010" Participant="fe004">
+      Yeah.
+    </Segment>
+    <Segment StartTime="2131.080" EndTime="2134.320" Participant="fe004">
+      No no, I - I'm agreeing that this is a good, um -
+    </Segment>
+    <Segment StartTime="2132.030" EndTime="2141.860" Participant="mn015">
+      refer back to it, and so you can - Castles have - as tourist sites, have admission fees, so you can say "Where is the castle, how much does it cost?"
+    </Segment>
+    <Segment StartTime="2141.940" EndTime="2143.660" Participant="mn015">
+      Um.
+    </Segment>
+    <Segment StartTime="2147.020" EndTime="2148.620" Participant="mn015">
+      "How far is it
+    </Segment>
+    <Segment StartTime="2148.582" EndTime="2149.484" Participant="me045">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="2149.290" EndTime="2150.990" Participant="mn015">
+      from here?" So,
+    </Segment>
+    <Segment StartTime="2152.250" EndTime="2153.270" Participant="mn015">
+      You're also not
+    </Segment>
+    <Segment StartTime="2154.220" EndTime="2156.020" Participant="mn015">
+      referring to the
+    </Segment>
+    <Segment StartTime="2155.332" EndTime="2155.743" Participant="fe004">
+      Hmm.
+    </Segment>
+    <Segment StartTime="2156.220" EndTime="2159.240" Participant="mn015">
+      width of the object, or so, www. <Comment Description="vocal gesture, singing intonation, &quot;you know&quot;"/>
+    </Segment>
+    <Segment StartTime="2158.657" EndTime="2159.478" Participant="fe004">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="2158.825" EndTime="2159.990" Participant="me045">
+      Mmm.
+    </Segment>
+    <Segment StartTime="2163.758" EndTime="2165.700" Participant="me010">
+      O_K. Can we think of a nice
+    </Segment>
+    <Segment StartTime="2166.400" EndTime="2168.760" Participant="me010">
+      <Emphasis> metaphorical </Emphasis> use of "where"
+    </Segment>
+    <Segment StartTime="2169.188" EndTime="2170.540" Participant="me010">
+      in the tourist's domain?
+    </Segment>
+    <Segment StartTime="2171.876" EndTime="2173.196" Participant="me010">
+      Um.
+    </Segment>
+    <Segment StartTime="2183.590" EndTime="2184.960" Participant="me045">
+      Hmm.
+    </Segment>
+    <Segment StartTime="2185.298" EndTime="2186.790" Participant="me010">
+      So you know it's -
+    </Segment>
+    <Segment StartTime="2187.380" EndTime="2190.619" Participant="me010">
+      you - you can <Emphasis> sometimes </Emphasis> use "<Emphasis> where </Emphasis>" f- for "<Emphasis> when </Emphasis>"
+    </Segment>
+    <Segment StartTime="2189.783" EndTime="2190.093" Participant="me045">
+      O-
+    </Segment>
+    <Segment StartTime="2192.224" EndTime="2193.703" Participant="me010">
+      in the sense of, you know,
+    </Segment>
+    <Segment StartTime="2196.629" EndTime="2197.233" Participant="me010">
+      um,
+    </Segment>
+    <Segment StartTime="2197.740" EndTime="2200.140" Participant="me010">
+      where - wh- where - where was, um,
+    </Segment>
+    <Segment StartTime="2200.930" EndTime="2205.545" Participant="me010">
+      "where was Heidelberg, um, in the Thirty Years' War?"
+    </Segment>
+    <Segment StartTime="2205.620" EndTime="2206.245" Participant="me010">
+      Or something.
+    </Segment>
+    <Segment StartTime="2206.167" EndTime="2207.137" Participant="me045">
+      Uh, yeah.
+    </Segment>
+    <Segment StartTime="2206.320" EndTime="2207.030" Participant="mn015">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="2207.310" EndTime="2208.760" Participant="me010">
+      You know, or some such thing.
+    </Segment>
+    <Segment StartTime="2209.462" EndTime="2212.000" Participant="me045">
+      Like what side were they on, or - ? <Comment Description="leading question"/>
+    </Segment>
+    <Segment StartTime="2209.517" EndTime="2210.296" Participant="me010">
+      Um.
+    </Segment>
+    <Segment StartTime="2210.760" EndTime="2211.670" Participant="fe004">
+      <VocalSound Description="laugh"/> <Emphasis> What? </Emphasis>
+    </Segment>
+    <Segment StartTime="2211.240" EndTime="2212.600" Participant="me010">
+      Yeah. Essentially, yeah.
+    </Segment>
+    <Segment StartTime="2211.800" EndTime="2215.830" Participant="fe004">
+      O_K. I was like, "Huh? It was <Emphasis> here. </Emphasis>" Like - <Comment Description="while laughing"/> Um.
+    </Segment>
+    <Segment StartTime="2215.020" EndTime="2216.520" Participant="me045">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2215.500" EndTime="2216.840" Participant="fn050">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2216.130" EndTime="2219.483" Participant="me010">
+      But anyway th- so there are - there are cases like that. Um,
+    </Segment>
+    <Segment StartTime="2219.870" EndTime="2221.061" Participant="fe004">
+      Ah!
+    </Segment>
+    <Segment StartTime="2224.540" EndTime="2229.000" Participant="fe004">
+      Or like its developmental state or something like that, you could - I guess you could get that.
+    </Segment>
+    <Segment StartTime="2227.011" EndTime="2227.440" Participant="me010">
+      Yeah.
+    </Segment>
+    <Segment StartTime="2229.396" EndTime="2230.541" Participant="me010">
+      Um.
+    </Segment>
+    <Segment StartTime="2229.720" EndTime="2230.377" Participant="fe004">
+      Um.
+    </Segment>
+    <Segment StartTime="2230.710" EndTime="2232.850" Participant="fe004">
+      <NonVocalSound Description="noise"/>
+    </Segment>
+    <Segment StartTime="2232.190" EndTime="2237.610" Participant="me045">
+      I mean, there's also things like - I mean, s- um, I guess
+    </Segment>
+    <Segment StartTime="2237.800" EndTime="2243.390" Participant="me045">
+      I could ask something like "Where can I find out about blah-blah-blah" in a sort of -
+    </Segment>
+    <Segment StartTime="2244.180" EndTime="2249.630" Participant="me045">
+      doesn't nece- I don't necessarily have to care about the spatial location, just give me a phone number and I'll call them or something like that?
+    </Segment>
+    <Segment StartTime="2248.111" EndTime="2250.370" Participant="me010">
+      Yeah. There certainly is that, yeah.
+    </Segment>
+    <Segment StartTime="2250.479" EndTime="2252.085" Participant="me045">
+      <VocalSound Description="cough"/>
+    </Segment>
+    <Segment StartTime="2253.217" EndTime="2255.750" Participant="me010">
+      You know, "Where could I learn its opening hours," or something.
+    </Segment>
+    <Segment StartTime="2255.274" EndTime="2255.928" Participant="me045">
+      Yeah.
+    </Segment>
+    <Segment StartTime="2260.102" EndTime="2261.145" Participant="me010">
+      But that's
+    </Segment>
+    <Segment StartTime="2263.673" EndTime="2264.598" Participant="fe004">
+      Hmm.
+    </Segment>
+    <Segment StartTime="2264.118" EndTime="2265.710" Participant="me010">
+      not <Emphasis> metaphorical. </Emphasis>
+    </Segment>
+    <Segment StartTime="2265.956" EndTime="2266.465" Participant="me010">
+      It's another -
+    </Segment>
+    <Segment StartTime="2266.888" EndTime="2267.531" Participant="me045">
+      Yeah.
+    </Segment>
+    <Segment StartTime="2268.100" EndTime="2269.750" Participant="me010">
+      So we're thinking about, um,
+    </Segment>
+    <Segment StartTime="2270.700" EndTime="2272.180" Participant="me010">
+      or we could also think about,
+    </Segment>
+    <Segment StartTime="2272.506" EndTime="2273.413" Participant="me010">
+      uh -
+    </Segment>
+    <Segment StartTime="2276.000" EndTime="2277.248" Participant="mn015">
+      <VocalSound Description="inbreath"/>
+    </Segment>
+    <Segment StartTime="2277.248" EndTime="2278.870" Participant="mn015">
+      <VocalSound Description="mouth"/> Well, I - I - I -
+    </Segment>
+    <Segment StartTime="2278.380" EndTime="2279.730" Participant="me010">
+      How about "I'm in a hurry"?
+    </Segment>
+    <Segment StartTime="2284.860" EndTime="2285.740" Participant="fe004">
+      State.
+    </Segment>
+    <Segment StartTime="2286.926" EndTime="2287.944" Participant="me003">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2287.679" EndTime="2291.619" Participant="fe004">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2289.426" EndTime="2291.810" Participant="me010">
+      It i- But it's a state - and the - the issue is,
+    </Segment>
+    <Segment StartTime="2289.550" EndTime="2290.260" Participant="me045">
+      Hmm?
+    </Segment>
+    <Segment StartTime="2291.990" EndTime="2295.190" Participant="me010">
+      is that - it <Emphasis> may </Emphasis> be just a <Emphasis> usage, </Emphasis>
+    </Segment>
+    <Segment StartTime="2295.716" EndTime="2297.958" Participant="me010">
+      you know, that it's not particularly metaphorical, I don't know.
+    </Segment>
+    <Segment StartTime="2298.950" EndTime="2299.610" Participant="me045">
+      Mmm.
+    </Segment>
+    <Segment StartTime="2300.110" EndTime="2300.960" Participant="fe004">
+      Right.
+    </Segment>
+    <Segment StartTime="2300.950" EndTime="2302.740" Participant="me045">
+      Oh. <VocalSound Description="whistle"/>
+    </Segment>
+    <Segment StartTime="2301.050" EndTime="2304.640" Participant="fe004">
+      So you want a more exotic one - version of that. <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2302.992" EndTime="2304.407" Participant="me010">
+      Yeah. Yeah, right.
+    </Segment>
+    <Segment StartTime="2307.220" EndTime="2309.310" Participant="fe004">
+      <VocalSound Description="outbreath"/> I'm really into -
+    </Segment>
+    <Segment StartTime="2307.380" EndTime="2308.650" Participant="me010">
+      Ah! How about
+    </Segment>
+    <Segment StartTime="2308.750" EndTime="2311.420" Participant="me010">
+      I - I - I - you know, "I'm in - I'm in a state of exhaustion"?
+    </Segment>
+    <Segment StartTime="2309.008" EndTime="2309.630" Participant="me045">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2309.603" EndTime="2310.602" Participant="fe004">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2311.750" EndTime="2313.110" Participant="me045">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2312.809" EndTime="2315.083" Participant="me010">
+      or something like that, which a tourist w- Huh?
+    </Segment>
+    <Segment StartTime="2312.920" EndTime="2315.200" Participant="fe004">
+      Do you really say that?
+    </Segment>
+    <Segment StartTime="2315.770" EndTime="2317.260" Participant="fe004">
+      Would you really say that?
+    </Segment>
+    <Segment StartTime="2316.035" EndTime="2319.670" Participant="me010">
+      A st- uh, well, you can certainly say, um, you know, "I'm in overload."
+    </Segment>
+    <Segment StartTime="2319.830" EndTime="2320.520" Participant="me045">
+      Yeah.
+    </Segment>
+    <Segment StartTime="2319.975" EndTime="2323.020" Participant="me003">
+      I- I'm really into art. Uh -
+    </Segment>
+    <Segment StartTime="2319.990" EndTime="2322.100" Participant="me010">
+      Tu- stur- tourists will often say that.
+    </Segment>
+    <Segment StartTime="2322.310" EndTime="2323.920" Participant="fe004">
+      Yeah, I was gonna say, like -
+    </Segment>
+    <Segment StartTime="2322.457" EndTime="2323.077" Participant="me045">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2323.180" EndTime="2324.290" Participant="me010">
+      Oh, you can do <Emphasis> that? </Emphasis>
+    </Segment>
+    <Segment StartTime="2324.640" EndTime="2328.100" Participant="me010">
+      Really? Of course that's - that - that's definitely a, uh -
+    </Segment>
+    <Segment StartTime="2327.298" EndTime="2328.530" Participant="me045">
+      Fixed. <Comment Description="completing [me010]'s utterance"/>
+    </Segment>
+    <Segment StartTime="2328.100" EndTime="2329.880" Participant="fe004">
+      A fixed expression, yeah. <Comment Description="completing [me010]'s utterance"/>
+    </Segment>
+    <Segment StartTime="2329.904" EndTime="2331.144" Participant="me010">
+      that's a, uh -
+    </Segment>
+    <Segment StartTime="2333.211" EndTime="2334.451" Participant="me010">
+      <Uncertain> Right. But. - </Uncertain>
+    </Segment>
+    <Segment StartTime="2334.270" EndTime="2337.608" Participant="fe004">
+      There're too - there're all sorts of fixed expressions I don't - <Uncertain> like uh </Uncertain>
+    </Segment>
+    <Segment StartTime="2337.060" EndTime="2339.930" Participant="me045">
+      <VocalSound Description="exhales noisily"/>
+    </Segment>
+    <Segment StartTime="2337.608" EndTime="2339.015" Participant="fe004">
+      "I'm out of sorts now!" <Comment Description="character voice"/>
+    </Segment>
+    <Segment StartTime="2337.774" EndTime="2338.092" Participant="me010">
+      Right.
+    </Segment>
+    <Segment StartTime="2339.015" EndTime="2340.296" Participant="fe004">
+      Like <Comment Description="while laughing"/>
+    </Segment>
+    <Segment StartTime="2339.270" EndTime="2340.850" Participant="me003">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2340.296" EndTime="2341.199" Participant="fe004">
+      "I'm in trouble!" <Comment Description="character voice"/>
+    </Segment>
+    <Segment StartTime="2341.199" EndTime="2343.160" Participant="fe004">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2341.334" EndTime="2342.390" Participant="me045">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2341.960" EndTime="2351.010" Participant="mn015">
+      Well I - when, uh - just f- u- the data that I've looked at so far that rec- I mean, there's tons of cases for polysemy.
+    </Segment>
+    <Segment StartTime="2347.043" EndTime="2347.314" Participant="me010">
+      Yeah.
+    </Segment>
+    <Segment StartTime="2350.876" EndTime="2351.258" Participant="me010">
+      Right.
+    </Segment>
+    <Segment StartTime="2351.270" EndTime="2359.046" Participant="mn015">
+      So, you know, mak- re- making reference to buildings as institutions, as containers, as build- you know, whatever.
+    </Segment>
+    <Segment StartTime="2351.470" EndTime="2352.350" Participant="fe004">
+      Uh-huh.
+    </Segment>
+    <Segment StartTime="2356.775" EndTime="2357.204" Participant="me010">
+      Right.
+    </Segment>
+    <Segment StartTime="2359.046" EndTime="2365.600" Participant="mn015">
+      Um, so ib- in mus- for example, in museums, you know, as a building or as something where pictures <Emphasis> hang </Emphasis> versus, you know,
+    </Segment>
+    <Segment StartTime="2365.600" EndTime="2370.600" Participant="mn015">
+      ev- something that puts on exhibits, so forth. But -
+    </Segment>
+    <Segment StartTime="2369.078" EndTime="2371.177" Participant="me010">
+      Right. As an institution, yeah.
+    </Segment>
+    <Segment StartTime="2371.380" EndTime="2373.040" Participant="mn015">
+      Um.
+    </Segment>
+    <Segment StartTime="2375.200" EndTime="2376.890" Participant="fe004">
+      Why don't you want to use any of those?
+    </Segment>
+    <Segment StartTime="2376.590" EndTime="2378.091" Participant="mn015">
+      Hmm?
+    </Segment>
+    <Segment StartTime="2377.190" EndTime="2379.750" Participant="fe004">
+      So y- you don't wanna use one that's -
+    </Segment>
+    <Segment StartTime="2378.091" EndTime="2383.100" Participant="mn015">
+      Yeah, well - No, but this - that's what I have, you know, started doing.
+    </Segment>
+    <Segment StartTime="2381.990" EndTime="2382.940" Participant="me003">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2382.266" EndTime="2384.210" Participant="me010">
+      The castle - the - that old castle one is sort of -
+    </Segment>
+    <Segment StartTime="2384.380" EndTime="2386.180" Participant="mn015">
+      Metonymy, polysemy.
+    </Segment>
+    <Segment StartTime="2384.590" EndTime="2386.110" Participant="me003">
+      I love Van Gogh.
+    </Segment>
+    <Segment StartTime="2384.756" EndTime="2385.170" Participant="me010">
+      Yeah.
+    </Segment>
+    <Segment StartTime="2386.070" EndTime="2389.770" Participant="me045">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2386.170" EndTime="2386.980" Participant="me003">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2387.140" EndTime="2388.790" Participant="fe004">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2388.475" EndTime="2389.190" Participant="me010">
+      Ah!
+    </Segment>
+    <Segment StartTime="2388.790" EndTime="2390.650" Participant="fe004">
+      "I wanna go see the Van Gogh."
+    </Segment>
+    <Segment StartTime="2389.210" EndTime="2390.010" Participant="mn015">
+      <VocalSound Description="clears throat"/>
+    </Segment>
+    <Segment StartTime="2390.650" EndTime="2392.088" Participant="fe004">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2390.660" EndTime="2393.470" Participant="me045">
+      <VocalSound Description="laugh"/> Oh geez.
+    </Segment>
+    <Segment StartTime="2390.850" EndTime="2392.310" Participant="me003">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2393.030" EndTime="2396.040" Participant="fe004">
+      Anyway, I'm sorry. <Comment Description="while laughing"/>
+    </Segment>
+    <Segment StartTime="2393.210" EndTime="2394.040" Participant="me003">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2395.017" EndTime="2397.372" Participant="mn015">
+      But I think the argument should be -
+    </Segment>
+    <Segment StartTime="2396.150" EndTime="2396.970" Participant="fe004">
+      <VocalSound Description="clears throat"/>
+    </Segment>
+    <Segment StartTime="2397.826" EndTime="2400.295" Participant="mn015">
+      uh, can be made that,
+    </Segment>
+    <Segment StartTime="2400.593" EndTime="2410.802" Participant="mn015">
+      you know, despite the fact that this is <Emphasis> not </Emphasis> the most met- metaphorical domain, because people interacting with <Uncertain> H_T_I </Uncertain> systems try to be straightforward and less lyrical,
+    </Segment>
+    <Segment StartTime="2404.922" EndTime="2405.256" Participant="me010">
+      Yeah.
+    </Segment>
+    <Segment StartTime="2410.760" EndTime="2412.210" Participant="me045">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2411.166" EndTime="2414.648" Participant="mn015">
+      construal <Emphasis> still </Emphasis> is, uh, you know, completely,
+    </Segment>
+    <Segment StartTime="2414.756" EndTime="2418.939" Participant="mn015">
+      um, key in terms of finding out <Emphasis> any </Emphasis> of these things, so,
+    </Segment>
+    <Segment StartTime="2418.538" EndTime="2418.888" Participant="me010">
+      Right.
+    </Segment>
+    <Segment StartTime="2419.623" EndTime="2420.880" Participant="mn015">
+      um.
+    </Segment>
+    <Segment StartTime="2419.980" EndTime="2427.130" Participant="me010">
+      So that's - that's - that's a - that's a reasonable point, that it - in <Emphasis> this </Emphasis> domain you're gonna get less metaphor and more metonymy.
+    </Segment>
+    <Segment StartTime="2427.850" EndTime="2436.290" Participant="mn015">
+      We, uh - I - with a - I looked - with a student I looked at the entire database that we have on Heidelberg for cases of metonymy.
+    </Segment>
+    <Segment StartTime="2430.289" EndTime="2431.466" Participant="me010">
+      And polysemy, and stuff like that.
+    </Segment>
+    <Segment StartTime="2433.658" EndTime="2434.087" Participant="me010">
+      Yeah.
+    </Segment>
+    <Segment StartTime="2436.590" EndTime="2439.600" Participant="mn015">
+      Hardly anything. So not even in <Emphasis> descriptions </Emphasis>
+    </Segment>
+    <Segment StartTime="2440.020" EndTime="2442.400" Participant="mn015">
+      w- did we find anything, um,
+    </Segment>
+    <Segment StartTime="2442.940" EndTime="2443.870" Participant="mn015">
+      relevant.
+    </Segment>
+    <Segment StartTime="2443.053" EndTime="2443.570" Participant="fe004">
+      <VocalSound Description="clears throat"/>
+    </Segment>
+    <Segment StartTime="2444.500" EndTime="2445.450" Participant="me045">
+      I have to go.
+    </Segment>
+    <Segment StartTime="2445.450" EndTime="2447.789" Participant="me045">
+      <NonVocalSound Description="mike noise as he takes mike off"/>
+    </Segment>
+    <Segment StartTime="2446.320" EndTime="2448.673" Participant="me010">
+      Alright. Yeah.
+    </Segment>
+    <Segment StartTime="2450.500" EndTime="2454.890" Participant="mn015">
+      But O_K this is just something we'll - we'll see, um,
+    </Segment>
+    <Segment StartTime="2455.367" EndTime="2455.701" Participant="me010">
+      Right.
+    </Segment>
+    <Segment StartTime="2456.496" EndTime="2457.116" Participant="me010">
+      s- See you.
+    </Segment>
+    <Segment StartTime="2458.627" EndTime="2461.446" CloseMic="false">
+      <NonVocalSound Description="noise"/>
+    </Segment>
+    <Segment StartTime="2461.020" EndTime="2462.650" Participant="mn015">
+      and deal with.
+    </Segment>
+    <Segment StartTime="2464.310" EndTime="2466.688" CloseMic="false">
+      <NonVocalSound Description="squeak, possibly from a chair"/> <NonVocalSound Description="door slams"/>
+    </Segment>
+    <Segment StartTime="2466.910" EndTime="2468.210" Participant="me010">
+      O_K, well.
+    </Segment>
+    <Segment StartTime="2468.960" EndTime="2473.530" Participant="me010">
+      I guess if anybody has additional suggestions, w- Yeah.
+    </Segment>
+    <Segment StartTime="2472.030" EndTime="2479.700" Participant="mn015">
+      I mean maybe the "where is something" question as a <Emphasis> whole, </Emphasis> you know, can be construed as, u- i- locational versus instructional request.
+    </Segment>
+    <Segment StartTime="2480.050" EndTime="2482.720" Participant="mn015">
+      So, if we're not talk about the lexic-
+    </Segment>
+    <Segment StartTime="2481.600" EndTime="2483.090" Participant="fe004">
+      Location versus what?
+    </Segment>
+    <Segment StartTime="2482.970" EndTime="2484.190" Participant="mn015">
+      instruction.
+    </Segment>
+    <Segment StartTime="2484.010" EndTime="2487.270" Participant="fe004">
+      Instruction. Oh, directions? Yeah. Oh, I thought that was -
+    </Segment>
+    <Segment StartTime="2484.364" EndTime="2484.980" Participant="me010">
+      Sure.
+    </Segment>
+    <Segment StartTime="2485.364" EndTime="2486.061" Participant="mn015">
+      Yeah.
+    </Segment>
+    <Segment StartTime="2488.190" EndTime="2490.770" Participant="fe004">
+      definitely treated as an example of construal.
+    </Segment>
+    <Segment StartTime="2491.088" EndTime="2492.179" Participant="fe004">
+      Right? <Uncertain NumSyllables="1"> @@ </Uncertain>
+    </Segment>
+    <Segment StartTime="2491.480" EndTime="2495.960" Participant="mn015">
+      Yeah but then you're not on the lexical level, that's sort of one level higher.
+    </Segment>
+    <Segment StartTime="2495.520" EndTime="2498.860" Participant="fe004">
+      Oh, you want a lexical example. <Comment Description="lengthened"/>
+    </Segment>
+    <Segment StartTime="2498.350" EndTime="2499.770" Participant="mn015">
+      But I don't need it.
+    </Segment>
+    <Segment StartTime="2501.150" EndTime="2502.670" Participant="me010">
+      Well, you <Emphasis> might </Emphasis> want <Emphasis> both. </Emphasis>
+    </Segment>
+    <Segment StartTime="2503.542" EndTime="2504.104" Participant="mn015">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="2505.360" EndTime="2506.670" Participant="fe004">
+      Yeah.
+    </Segment>
+    <Segment StartTime="2507.200" EndTime="2515.130" Participant="mn015">
+      Also it <Emphasis> would </Emphasis> be nice to get - ultimately to get a nice mental <Emphasis> space </Emphasis> example, so, even <Emphasis> temporal </Emphasis> references are -
+    </Segment>
+    <Segment StartTime="2507.464" EndTime="2507.957" Participant="me010">
+      We -
+    </Segment>
+    <Segment StartTime="2517.540" EndTime="2520.090" Participant="mn015">
+      just in the <Emphasis> spatial </Emphasis> domain are rare.
+    </Segment>
+    <Segment StartTime="2521.660" EndTime="2524.590" Participant="me010">
+      But it's - it's <Emphasis> easy </Emphasis> to make up <Emphasis> plausible </Emphasis> ones.
+    </Segment>
+    <Segment StartTime="2525.420" EndTime="2525.889" Participant="me010">
+      You know.
+    </Segment>
+    <Segment StartTime="2525.710" EndTime="2529.180" Participant="mn015">
+      When - when you're getting <Emphasis> information </Emphasis> on objects. So, I mean -
+    </Segment>
+    <Segment StartTime="2527.790" EndTime="2530.010" Participant="me010">
+      Right, you know - you know, where r- Yeah.
+    </Segment>
+    <Segment StartTime="2531.050" EndTime="2532.750" Participant="me010">
+      What color was this in - in
+    </Segment>
+    <Segment StartTime="2532.790" EndTime="2539.800" Participant="me010">
+      in the nain- nineteenth century. What was this p- instead of - wh- what - you know - how was this painted, what color was this painted, um,
+    </Segment>
+    <Segment StartTime="2534.150" EndTime="2535.390" Participant="mn015">
+      Yeah.
+    </Segment>
+    <Segment StartTime="2535.930" EndTime="2537.200" Participant="mn015">
+      <VocalSound Description="clears throat"/>
+    </Segment>
+    <Segment StartTime="2539.930" EndTime="2541.520" Participant="me010">
+      was this alleyway open.
+    </Segment>
+    <Segment StartTime="2541.980" EndTime="2549.510" Participant="mn015">
+      Yeah, maybe we can include that also in our second, uh, data run. We c- we can show people pictures of objects and then
+    </Segment>
+    <Segment StartTime="2542.012" EndTime="2542.751" Participant="me010">
+      Uh.
+    </Segment>
+    <Segment StartTime="2549.800" EndTime="2557.770" Participant="mn015">
+      have then ask the system about the objects and engage in conversation on the history and the art and the architecture and so forth.
+    </Segment>
+    <Segment StartTime="2554.775" EndTime="2555.596" Participant="me010">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="2563.299" EndTime="2567.627" Participant="me010">
+      O_K. So why don't we plan to give you feedback electronically.
+    </Segment>
+    <Segment StartTime="2568.740" EndTime="2569.920" Participant="me003">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2571.772" EndTime="2572.880" Participant="me010">
+      Wish you a good trip.
+    </Segment>
+    <Segment StartTime="2574.111" EndTime="2575.053" Participant="me010">
+      All success.
+    </Segment>
+    <Segment StartTime="2575.562" EndTime="2576.904" CloseMic="false">
+      <Comment Description="end of meeting"/>
+    </Segment>
+    <Segment StartTime="2580.284" EndTime="2587.340" Participant="me003">
+      <VocalSound Description="inbreath"/> For some reason when you said "feedback electronically" I thought of that - you ever see the Simpsons where they're - like the family's got the buzzers
+    </Segment>
+    <Segment StartTime="2587.559" EndTime="2590.396" Participant="me003">
+      and they buzz each other when they don't like what the other one is saying?
+    </Segment>
+    <Segment StartTime="2590.146" EndTime="2592.150" Participant="fe004">
+      Yeah. That's the -
+    </Segment>
+    <Segment StartTime="2592.410" EndTime="2596.450" Participant="fe004">
+      <Emphasis> first </Emphasis> one, I think. The very very first one.
+    </Segment>
+    <Segment StartTime="2594.053" EndTime="2596.299" Participant="me003">
+      It was a very early one. I don't know if it's the first one.
+    </Segment>
+    <Segment StartTime="2609.500" EndTime="2610.143" Participant="fe004">
+      Mmm.
+    </Segment>
+    <Segment StartTime="2613.851" EndTime="2615.903" Participant="fe004">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2622.715" EndTime="2624.193" Participant="fe004">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2630.680" EndTime="2631.687" Participant="fe004">
+      Mmm.
+    </Segment>
+
+  </Transcript>
+
+</Meeting>
+

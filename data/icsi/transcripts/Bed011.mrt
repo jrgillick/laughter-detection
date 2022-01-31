@@ -1,0 +1,3954 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE Meeting SYSTEM "http://www.icsi.berkeley.edu/Speech/mr/Meeting1.dtd">
+
+<Meeting Session="Bed011" DateTimeStamp="2001-05-14-1600" Version="2" VersionDate="Jan 7 2004">
+
+  <Preamble>
+    <Notes>
+      The recording volume seems to have been too high on several channels.
+   Distortion whenever various people laugh.  In addition,
+   me010's channel gets distortion everytime he stresses a word.
+   
+   Channel 5 (mn036) is either improperly adjusted, or his mike is off.
+   
+   Channel A (fe004) malfunctions at 7 min., 26, and from
+   then on, she is heard only on Channel E and is transcribed
+   as "unmiked" - if she is heard at all - starting with minute 33.
+   (She seems to have a cold, judging from voice quality.)
+   
+   Only fe046 and fn050 read digits.
+    </Notes>
+    <Channels>
+      <Channel Name="chan0" Mic="c1" Transmission="w1" Gain="9" AudioFile="chan0.sph"/>
+      <Channel Name="chan1" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan1.sph"/>
+      <Channel Name="chan2" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan2.sph"/>
+      <Channel Name="chan3" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan3.sph"/>
+      <Channel Name="chan4" Mic="s1" Transmission="w1" Gain="9" AudioFile="chan4.sph"/>
+      <Channel Name="chan5" Mic="c1" Transmission="w1" Gain="9" AudioFile="chan5.sph"/>
+      <Channel Name="chan6" Mic="c2" Transmission="u1" Gain="9" AudioFile="chan6.sph"/>
+      <Channel Name="chan7" Mic="c2" Transmission="u1" Gain="9" AudioFile="chan7.sph"/>
+      <Channel Name="chanA" Mic="p1" Transmission="j1" Gain="7" AudioFile="chanA.sph"/>
+      <Channel Name="chanC" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanC.sph"/>
+      <Channel Name="chanD" Mic="u3" Transmission="j1" Gain="12" AudioFile="chanD.sph"/>
+      <Channel Name="chanE" Mic="c2" Transmission="u1" Gain="9" AudioFile="chanE.sph"/>
+      <Channel Name="chanF" Mic="c2" Transmission="u1" Gain="9" AudioFile="chanF.sph"/>
+    </Channels>
+    <Participants DB="icsi1.spk">
+      <Participant Name="fn050" Channel="chan0" Seat="7"/>
+      <Participant Name="me045" Channel="chan1" Seat="9"/>
+      <Participant Name="mn015" Channel="chan2" Seat="5"/>
+      <Participant Name="me010" Channel="chan3" Seat="1"/>
+      <Participant Name="fe046" Channel="chan4" Seat="2"/>
+      <Participant Name="mn036" Channel="chan5" Seat="8"/>
+      <Participant Name="fe004" Channel="chanA" Seat="3"/>
+    </Participants>
+  </Preamble>
+
+
+  <Transcript StartTime="0.0" EndTime="3276.915">
+
+    <Segment StartTime="2.432" EndTime="2.672" Participant="mn015">
+      <Uncertain NumSyllables="1"> @@ </Uncertain>
+    </Segment>
+    <Segment StartTime="4.850" EndTime="7.445" Participant="mn015">
+      Now can you give me the uh <Pause/> remote T_?
+    </Segment>
+    <Segment StartTime="6.020" EndTime="9.490" Participant="fe046" DigitTask="true">
+      seven nine seven seven, five, eight one five <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="9.980" EndTime="13.753" Participant="fe046" DigitTask="true">
+      three two five, four one, six zero zero three <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="14.250" EndTime="18.684" Participant="fe046" DigitTask="true">
+      nine six seven eight, five nine nine five, four eight six nine <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="17.136" EndTime="17.699" CloseMic="false">
+      <NonVocalSound Description="door closes"/>
+    </Segment>
+    <Segment StartTime="19.491" EndTime="23.855" Participant="fe046" DigitTask="true">
+      two eight, three nine, six two, nine one, two three <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="24.320" EndTime="28.648" Participant="fe046" DigitTask="true">
+      six four seven, eight three two, seven three three one <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="28.780" EndTime="34.213" Participant="fe046" DigitTask="true">
+      seven, nine three nine, five seven, six two one, two <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="30.950" EndTime="32.338" CloseMic="false">
+      <NonVocalSound Description="door closes"/>
+    </Segment>
+    <Segment StartTime="34.910" EndTime="38.708" Participant="fe046" DigitTask="true">
+      one six four, seven zero, nine three four three. <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="39.070" EndTime="43.526" Participant="fe046" DigitTask="true">
+      six one, four nine, zero one, six zero, six four. <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="46.730" EndTime="49.480" Participant="me010">
+      O_K, so Eva, co- uh - could you read your numbers? Yeah.
+    </Segment>
+    <Segment StartTime="48.020" EndTime="48.740" Participant="fn050">
+      Go ahead and read.
+    </Segment>
+    <Segment StartTime="48.950" EndTime="49.343" Participant="fn050">
+      O_K.
+    </Segment>
+    <Segment StartTime="50.120" EndTime="55.043" Participant="fn050" DigitTask="true">
+      zero, one nine four, five zero, five eight five, eight <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="55.795" EndTime="59.076" Participant="fn050" DigitTask="true">
+      nine four two eight, eight, seven three seven <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="59.692" EndTime="62.492" Participant="fn050" DigitTask="true">
+      four seven six five, one, seven eight eight <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="63.650" EndTime="67.695" Participant="fn050" DigitTask="true">
+      three nine four one, three zero two nine, two eight one three <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="68.393" EndTime="73.401" Participant="fn050" DigitTask="true">
+      four five six five, six six seven eight, six eight eighty-seven <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="74.467" EndTime="80.340" Participant="fn050" DigitTask="true">
+      five, six eight nine, five four, zero eight eight, seven <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="80.708" EndTime="85.153" Participant="fn050" DigitTask="true">
+      seven nine, nine four, nine three, nine four, two seven <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="85.930" EndTime="89.170" Participant="fn050" DigitTask="true">
+      zero one seven eight, zero, one four three <Comment Description="Digits"/>
+    </Segment>
+    <Segment StartTime="92.430" EndTime="93.140" Participant="mn015">
+      Alright.
+    </Segment>
+    <Segment StartTime="93.310" EndTime="94.640" Participant="me010">
+      Yeah, let's get started.
+    </Segment>
+    <Segment StartTime="94.980" EndTime="95.920" Participant="me010">
+      Um -
+    </Segment>
+    <Segment StartTime="96.390" EndTime="98.450" Participant="me010">
+      Hopefully Nancy will come, if not, she won't.
+    </Segment>
+    <Segment StartTime="98.782" EndTime="99.700" Participant="fn050">
+      <VocalSound Description="breath-laugh"/>
+    </Segment>
+    <Segment StartTime="99.460" EndTime="99.700" Participant="me045">
+      <VocalSound Description="inbreath"/>
+    </Segment>
+    <Segment StartTime="100.620" EndTime="102.651" Participant="me045">
+      Uh, Robert, do you uh
+    </Segment>
+    <Segment StartTime="102.850" EndTime="104.649" Participant="me045">
+      have any way to turn off your uh
+    </Segment>
+    <Segment StartTime="105.040" EndTime="109.830" Participant="me045">
+      screensaver on there so that it's not going off every - uh, it seems to have about at two minute -
+    </Segment>
+    <Segment StartTime="109.850" EndTime="113.510" Participant="mn015">
+      Yeah, I've - I - uh - it's not that I didn't try. <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="110.266" EndTime="111.730" Participant="me045">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="112.723" EndTime="115.410" Participant="me045">
+      <VocalSound Description="laugh"/> O_K. <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="113.216" EndTime="114.670" Participant="fe046">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="113.510" EndTime="114.050" Participant="fn050">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="113.977" EndTime="119.478" Participant="mn015">
+      and um I - I told it to stay on forever and ever, but if it's not plugged in it just doesn't obey my commands.
+    </Segment>
+    <Segment StartTime="119.090" EndTime="119.770" Participant="me045">
+      O_K.
+    </Segment>
+    <Segment StartTime="119.696" EndTime="120.750" Participant="mn015">
+      It has a mind.
+    </Segment>
+    <Segment StartTime="121.701" EndTime="122.891" Participant="me045">
+      Got it.
+    </Segment>
+    <Segment StartTime="122.020" EndTime="122.546" Participant="mn015">
+      But I-
+    </Segment>
+    <Segment StartTime="122.160" EndTime="123.640" Participant="fe046">
+      Wants to conserve.
+    </Segment>
+    <Segment StartTime="123.150" EndTime="125.870" Participant="mn015">
+      I just - You know, sort of keep on wiggling. <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="124.906" EndTime="125.841" Participant="me045">
+      Yeah, O_K. <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="125.385" EndTime="126.600" Participant="fe046">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="128.617" EndTime="134.040" Participant="mn015">
+      But uh - we'll just be m- m- working on it at intensity so it doesn't happen.
+    </Segment>
+    <Segment StartTime="134.040" EndTime="134.890" Participant="mn015">
+      We'll see.
+    </Segment>
+    <Segment StartTime="136.967" EndTime="138.940" Participant="mn015">
+      Should we plunge right into it?
+    </Segment>
+    <Segment StartTime="139.050" EndTime="139.730" Participant="me010">
+      Yeah.
+    </Segment>
+    <Segment StartTime="139.882" EndTime="141.000" Participant="mn015">
+      So, would you like to - <Comment Description="quietly"/>
+    </Segment>
+    <Segment StartTime="139.920" EndTime="140.870" Participant="me010">
+      I think so.
+    </Segment>
+    <Segment StartTime="141.360" EndTime="143.431" Participant="mn015">
+      So what I've tried to do here is
+    </Segment>
+    <Segment StartTime="143.431" EndTime="148.340" Participant="mn015">
+      list all the decision nodes that we have identified on this <Pause/> side.
+    </Segment>
+    <Segment StartTime="149.220" EndTime="150.790" Participant="mn015">
+      Commented and -
+    </Segment>
+    <Segment StartTime="151.110" EndTime="153.080" Participant="mn015">
+      what they're about and sort of -
+    </Segment>
+    <Segment StartTime="153.180" EndTime="155.176" Participant="mn015">
+      the properties we may
+    </Segment>
+    <Segment StartTime="155.630" EndTime="156.380" Participant="mn015">
+      um
+    </Segment>
+    <Segment StartTime="156.700" EndTime="157.500" Participant="mn015">
+      give them.
+    </Segment>
+    <Segment StartTime="158.200" EndTime="161.260" Participant="mn015">
+      And here are the uh -
+    </Segment>
+    <Segment StartTime="163.460" EndTime="172.110" Participant="mn015">
+      tasks to be implemented via our data collection. So all of these tasks -
+    </Segment>
+    <Segment StartTime="164.000" EndTime="164.551" Participant="fe046">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="172.680" EndTime="174.267" Participant="mn015">
+      The reading is out of these tasks
+    </Segment>
+    <Segment StartTime="174.668" EndTime="177.430" Participant="mn015">
+      more or less imply that the user wants to go there,
+    </Segment>
+    <Segment StartTime="178.010" EndTime="179.770" Participant="mn015">
+      sometime or the other.
+    </Segment>
+    <Segment StartTime="180.591" EndTime="182.477" Participant="mn015">
+      And analogously
+    </Segment>
+    <Segment StartTime="182.924" EndTime="185.037" Participant="mn015">
+      for example, here we have
+    </Segment>
+    <Segment StartTime="185.600" EndTime="186.046" Participant="mn015">
+      our
+    </Segment>
+    <Segment StartTime="186.571" EndTime="187.570" Participant="mn015">
+      EVA
+    </Segment>
+    <Segment StartTime="187.790" EndTime="189.740" Participant="mn015">
+      um - intention.
+    </Segment>
+    <Segment StartTime="189.636" EndTime="190.683" Participant="me045">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="189.740" EndTime="190.656" Participant="mn015">
+      And these are the
+    </Segment>
+    <Segment StartTime="192.520" EndTime="194.260" Participant="mn015">
+      data tasks where w-
+    </Segment>
+    <Segment StartTime="194.260" EndTime="198.580" Participant="mn015">
+      we can assume the person would like to enter, view or just approach
+    </Segment>
+    <Segment StartTime="198.883" EndTime="200.650" Participant="mn015">
+      the thing. Analogously
+    </Segment>
+    <Segment StartTime="200.770" EndTime="202.830" Participant="mn015">
+      the same on the object information
+    </Segment>
+    <Segment StartTime="203.000" EndTime="205.560" Participant="mn015">
+      we can see that, you know, we have sort of
+    </Segment>
+    <Segment StartTime="205.560" EndTime="213.720" Participant="mn015">
+      created these tasks before we came up with our decision nodes so there's a lot of things where we have no analogous
+    </Segment>
+    <Segment StartTime="213.980" EndTime="225.600" Participant="mn015">
+      tasks, and <Pause/> that may or may not be a problem. We can change the tasks slightly if we feel that we should have data for e- sort of for every
+    </Segment>
+    <Segment StartTime="225.971" EndTime="228.810" Participant="mn015">
+      decision node so - trying to im-
+    </Segment>
+    <Segment StartTime="230.050" EndTime="230.800" Participant="mn015">
+      um -
+    </Segment>
+    <Segment StartTime="233.110" EndTime="241.120" Participant="mn015">
+      implant the intention of going to a place now, going to a place later on the same tour, or trying to plant the intention of going sometime
+    </Segment>
+    <Segment StartTime="241.620" EndTime="244.719" Participant="mn015">
+      on the next tour, or the next day or whenever.
+    </Segment>
+    <Segment StartTime="243.939" EndTime="244.579" Participant="me010">
+      Right, right. <Comment Description="quietly"/>
+    </Segment>
+    <Segment StartTime="244.719" EndTime="247.080" Participant="mn015">
+      But I think that might be overdoing it a little.
+    </Segment>
+    <Segment StartTime="244.890" EndTime="245.290" Participant="me010">
+      So -
+    </Segment>
+    <Segment StartTime="246.340" EndTime="249.150" Participant="me010">
+      Yeah. So let me pop up a level.
+    </Segment>
+    <Segment StartTime="249.430" EndTime="251.215" Participant="me010">
+      And uh
+    </Segment>
+    <Segment StartTime="251.215" EndTime="254.030" Participant="me010">
+      s- s- make sure that we're all oriented
+    </Segment>
+    <Segment StartTime="254.150" EndTime="255.830" Participant="me010">
+      the same. So
+    </Segment>
+    <Segment StartTime="256.060" EndTime="260.368" Participant="me010">
+      What we're gonna do today is two related things.
+    </Segment>
+    <Segment StartTime="260.368" EndTime="265.920" Participant="me010">
+      Uh one of them is to work on
+    </Segment>
+    <Segment StartTime="266.075" EndTime="276.740" Participant="me010">
+      the semantics of the belief-net which is going to be the main inference engine for thi- the system
+    </Segment>
+    <Segment StartTime="277.080" EndTime="281.840" Participant="me010">
+      uh making decisions. And decisions are going to turn out to be
+    </Segment>
+    <Segment StartTime="282.130" EndTime="286.937" Participant="me010">
+      parameter choices for calls on other modules.
+    </Segment>
+    <Segment StartTime="286.937" EndTime="290.215" Participant="me010">
+      so f- the natural language understanding thing
+    </Segment>
+    <Segment StartTime="290.215" EndTime="291.946" Participant="me010">
+      is uh, we think
+    </Segment>
+    <Segment StartTime="291.946" EndTime="295.160" Participant="me010">
+      gonna only have to choose parameters, but
+    </Segment>
+    <Segment StartTime="295.280" EndTime="306.980" Participant="me010">
+      You know, a fairly large set of parameters. So to do that, we need to do two things. One of which is figure out what all the choices are, which we've done a fair amount.
+    </Segment>
+    <Segment StartTime="295.280" EndTime="296.240" Participant="fe004">
+      <VocalSound Description="clear throat"/>
+    </Segment>
+    <Segment StartTime="300.580" EndTime="301.769" Participant="fe004">
+      <VocalSound Description="clear throat"/>
+    </Segment>
+    <Segment StartTime="307.060" EndTime="312.270" Participant="me010">
+      Then we need to figure out what influences its choices and finally we have to do some technical work on
+    </Segment>
+    <Segment StartTime="312.270" EndTime="314.529" Participant="me010">
+      the actual belief relations and
+    </Segment>
+    <Segment StartTime="314.529" EndTime="319.685" Participant="me010">
+      presumably estimates of the probabilities and stuff. But we aren't gonna do the probability stuff today.
+    </Segment>
+    <Segment StartTime="319.685" EndTime="321.390" Participant="me010">
+      Technical stuff we'll do -
+    </Segment>
+    <Segment StartTime="319.891" EndTime="321.240" Participant="fe004">
+      <VocalSound Description="clear throat"/>
+    </Segment>
+    <Segment StartTime="321.520" EndTime="322.850" Participant="me010">
+      uh -
+    </Segment>
+    <Segment StartTime="323.080" EndTime="324.980" Participant="me010">
+      another day. Probably next week.
+    </Segment>
+    <Segment StartTime="325.480" EndTime="327.203" Participant="me010">
+      But we are gonna worry about
+    </Segment>
+    <Segment StartTime="327.203" EndTime="333.550" Participant="me010">
+      all the decisions and the things that pert- that contribute to them. And
+    </Segment>
+    <Segment StartTime="333.900" EndTime="336.849" Participant="me010">
+      we're also, sort of uh in the same process,
+    </Segment>
+    <Segment StartTime="336.849" EndTime="339.369" Participant="me010">
+      going to work with Fey on
+    </Segment>
+    <Segment StartTime="339.369" EndTime="342.570" Participant="me010">
+      what there should be in the dialogues. So
+    </Segment>
+    <Segment StartTime="342.570" EndTime="347.430" Participant="me010">
+      One of the s- steps that's coming up real soon is to actually get subjects
+    </Segment>
+    <Segment StartTime="347.470" EndTime="351.880" Participant="me010">
+      uh - in here, and have them
+    </Segment>
+    <Segment StartTime="353.000" EndTime="355.090" Participant="me010">
+      actually record like this.
+    </Segment>
+    <Segment StartTime="355.270" EndTime="357.440" Participant="me010">
+      Uh record dialogues more or less.
+    </Segment>
+    <Segment StartTime="355.867" EndTime="357.055" Participant="fe004">
+      <VocalSound Description="clear throat"/>
+    </Segment>
+    <Segment StartTime="357.500" EndTime="358.750" Participant="me010">
+      And -
+    </Segment>
+    <Segment StartTime="359.099" EndTime="360.760" Participant="me010">
+      depending on
+    </Segment>
+    <Segment StartTime="360.770" EndTime="367.239" Participant="me010">
+      what Fey sort of provokes them to say, we'll get information on different things.
+    </Segment>
+    <Segment StartTime="367.239" EndTime="367.729" Participant="me010">
+      So -
+    </Segment>
+    <Segment StartTime="367.300" EndTime="370.310" Participant="mn015">
+      Well how people phrase different intentions more or less, huh?
+    </Segment>
+    <Segment StartTime="369.010" EndTime="371.386" Participant="me010">
+      Fo- v- yeah- people with the - phrase them and so -
+    </Segment>
+    <Segment StartTime="371.386" EndTime="375.841" Participant="me010">
+      Uh for, you know, Keith and people worrying about what constructions people use,
+    </Segment>
+    <Segment StartTime="375.033" EndTime="376.358" Participant="fe046">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="375.841" EndTime="379.690" Participant="me010">
+      uh - we have some i- we have some ways to
+    </Segment>
+    <Segment StartTime="379.690" EndTime="382.525" Participant="me010">
+      affect that by the way the dialogues go.
+    </Segment>
+    <Segment StartTime="383.037" EndTime="386.690" Participant="me010">
+      So what Robert kindly did, is to lay out
+    </Segment>
+    <Segment StartTime="386.690" EndTime="395.820" Participant="me010">
+      a table of the kinds of uh <Pause/> things that - that might come up,
+    </Segment>
+    <Segment StartTime="389.481" EndTime="390.777" Participant="fe004">
+      <VocalSound Description="clear throat"/>
+    </Segment>
+    <Segment StartTime="396.112" EndTime="397.680" Participant="me010">
+      and,
+    </Segment>
+    <Segment StartTime="398.048" EndTime="400.843" Participant="me010">
+      the kinds of decisions. So the uh -
+    </Segment>
+    <Segment StartTime="401.659" EndTime="404.826" Participant="me010">
+      uh - on the left are decision nodes,
+    </Segment>
+    <Segment StartTime="402.871" EndTime="403.440" Participant="fe004">
+      <VocalSound Description="sniff"/>
+    </Segment>
+    <Segment StartTime="405.788" EndTime="406.814" Participant="me010">
+      and
+    </Segment>
+    <Segment StartTime="406.150" EndTime="406.930" Participant="fe004">
+      <VocalSound Description="sniff"/>
+    </Segment>
+    <Segment StartTime="407.520" EndTime="410.683" Participant="me010">
+      discreet values. So if - if we're right,
+    </Segment>
+    <Segment StartTime="407.725" EndTime="409.560" Participant="fe004">
+      <VocalSound Description="clear throat"/>
+    </Segment>
+    <Segment StartTime="410.683" EndTime="412.740" Participant="me010">
+      you can get by with
+    </Segment>
+    <Segment StartTime="412.830" EndTime="414.340" Participant="me010">
+      um
+    </Segment>
+    <Segment StartTime="414.470" EndTime="422.360" Participant="me010">
+      just this middle column worth of decisions, and it's not all that many, and it's perfectly feasible technically to build belief-nets
+    </Segment>
+    <Segment StartTime="422.450" EndTime="424.430" Participant="me010">
+      that will do that. And he has a handout.
+    </Segment>
+    <Segment StartTime="425.160" EndTime="429.037" Participant="mn015">
+      Yeah. Maybe it was too fast plunging in there, because
+    </Segment>
+    <Segment StartTime="428.762" EndTime="429.309" Participant="me010">
+      Yeah.
+    </Segment>
+    <Segment StartTime="429.037" EndTime="433.430" Participant="mn015">
+      j- we have two updates. Um you can look at <Emphasis> this </Emphasis> if you want, these are
+    </Segment>
+    <Segment StartTime="429.092" EndTime="429.995" Participant="fe004">
+      <VocalSound Description="clear throat"/>
+    </Segment>
+    <Segment StartTime="433.430" EndTime="441.773" Participant="mn015">
+      what our subject's going to have to fill out. Any comments I can - can still be made and the changes will be put in <Pronounce Pronunciation="&quot;correspondently&quot;"> correspondingly.  </Pronounce>
+    </Segment>
+    <Segment StartTime="437.870" EndTime="439.306" Participant="fe046">
+      m- <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="441.773" EndTime="448.900" Participant="mn015">
+      Let me summarize in two sentences, mainly for Eva's benefit, who probably has not heard about the data collection, at all. Or have you heard about it?
+    </Segment>
+    <Segment StartTime="446.337" EndTime="448.357" Participant="fe004">
+      <NonVocalSound Description="mike noise"/>
+    </Segment>
+    <Segment StartTime="446.546" EndTime="447.314" Participant="fn050">
+      O_K.
+    </Segment>
+    <Segment StartTime="448.357" EndTime="3276.915" Participant="fe004">
+      <Pause/> <Comment Description="[fe004]'s mike malfunctions at 7 min., 26 sec., and her later utterances are audible only on channelE"/>
+    </Segment>
+    <Segment StartTime="448.900" EndTime="449.720" Participant="mn015">
+      No.
+    </Segment>
+    <Segment StartTime="448.900" EndTime="450.350" Participant="fn050">
+      Not that much <Uncertain> you didn't </Uncertain>.
+    </Segment>
+    <Segment StartTime="449.720" EndTime="454.206" Participant="mn015">
+      O_K. We were gonna put this in front of people. They give us some information on themselves.
+    </Segment>
+    <Segment StartTime="450.667" EndTime="451.291" Participant="fe046">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="454.206" EndTime="461.040" Participant="mn015">
+      Then - then they will read uh - a task where lots of German words are sort of thrown in between.
+    </Segment>
+    <Segment StartTime="454.580" EndTime="455.510" Participant="fn050">
+      O_K.
+    </Segment>
+    <Segment StartTime="460.951" EndTime="461.830" Participant="fe046">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="462.040" EndTime="465.797" Participant="mn015">
+      And um - and they have to read isolated proper names
+    </Segment>
+    <Segment StartTime="466.690" EndTime="468.314" Participant="mn015">
+      And these change -
+    </Segment>
+    <Segment StartTime="466.853" EndTime="467.276" Participant="me010">
+      S-
+    </Segment>
+    <Segment StartTime="467.960" EndTime="470.080" Participant="me010">
+      I don't see a release <Pause/>
+    </Segment>
+    <Segment StartTime="469.272" EndTime="471.721" Participant="mn015">
+      No, this is not the release form. This is the speaker
+    </Segment>
+    <Segment StartTime="470.675" EndTime="472.630" Participant="me010">
+      Got it. O_K, fine. O_K.
+    </Segment>
+    <Segment StartTime="471.634" EndTime="472.948" Participant="fe046">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="471.721" EndTime="475.070" Participant="mn015">
+      information form. The release form is over there in that box.
+    </Segment>
+    <Segment StartTime="474.550" EndTime="475.530" Participant="me010">
+      Alright, fair enough.
+    </Segment>
+    <Segment StartTime="475.404" EndTime="476.870" Participant="mn015">
+      And um -
+    </Segment>
+    <Segment StartTime="477.730" EndTime="479.410" Participant="mn015">
+      And then they gonna have to f-
+    </Segment>
+    <Segment StartTime="480.102" EndTime="481.340" Participant="mn015">
+      um
+    </Segment>
+    <Segment StartTime="484.900" EndTime="485.760" Participant="mn015">
+      um
+    </Segment>
+    <Segment StartTime="485.830" EndTime="495.310" Participant="mn015">
+      choose from one of these tasks, which are listed here. They - they pick a couple, say three - uh - uh six as a matter of fact.
+    </Segment>
+    <Segment StartTime="495.310" EndTime="500.705" Participant="mn015">
+      Six different things they sort of think they would do if they were in Heidelberg or traveling someplace -
+    </Segment>
+    <Segment StartTime="501.750" EndTime="503.150" Participant="mn015">
+      and um -
+    </Segment>
+    <Segment StartTime="503.930" EndTime="505.490" Participant="mn015">
+      and they have a map.
+    </Segment>
+    <Segment StartTime="506.110" EndTime="506.902" Participant="me045">
+      Hmm.
+    </Segment>
+    <Segment StartTime="506.940" EndTime="509.590" Participant="mn015">
+      Like this. Very sketchy, simplified map.
+    </Segment>
+    <Segment StartTime="509.590" EndTime="511.460" Participant="mn015">
+      And they can take notes on that map.
+    </Segment>
+    <Segment StartTime="511.870" EndTime="516.910" Participant="mn015">
+      And then they call this computer system that works perfectly, and understands everything.
+    </Segment>
+    <Segment StartTime="514.112" EndTime="514.848" Participant="fn050">
+      O_K.
+    </Segment>
+    <Segment StartTime="516.371" EndTime="517.649" Participant="me045">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="516.860" EndTime="519.690" Participant="fe046">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="517.480" EndTime="519.440" Participant="mn015">
+      And um -
+    </Segment>
+    <Segment StartTime="518.095" EndTime="518.853" Participant="me045">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="519.440" EndTime="522.259" Participant="me045">
+      This is a fictional system obviously, huh. <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="519.440" EndTime="519.977" Participant="mn015">
+      The comp-
+    </Segment>
+    <Segment StartTime="521.340" EndTime="524.411" Participant="mn015">
+      Yeah, the computer system sits right in front of you, that's Fey.
+    </Segment>
+    <Segment StartTime="521.950" EndTime="523.000" Participant="fe046">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="523.200" EndTime="526.320" Participant="fe046">
+      Yes. I've - I understand everything. Yes I do.
+    </Segment>
+    <Segment StartTime="523.415" EndTime="524.660" Participant="me045">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="524.400" EndTime="526.440" Participant="me010">
+      And she does know everything. <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="524.508" EndTime="526.616" Participant="fn050">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="525.690" EndTime="526.320" Participant="me045">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="526.307" EndTime="546.538" Participant="mn015">
+      And she has a way of making this machine talk. So she can copy sentences into a window, or type really fast and this machine will use speech synthesis to produce that. So if you ask "How do I get to the castle" then a m- s- several seconds later it'll come out of here "In order to get to the castle you do -" <Comment Description="imitates computer speech"/> O_K?
+    </Segment>
+    <Segment StartTime="535.140" EndTime="535.967" Participant="fe046">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="545.500" EndTime="546.692" Participant="me045">
+      <VocalSound Description="laugh"/> Yeah.
+    </Segment>
+    <Segment StartTime="545.550" EndTime="547.828" Participant="fe046">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="546.538" EndTime="548.290" Participant="mn015">
+      And um -
+    </Segment>
+    <Segment StartTime="548.290" EndTime="550.760" Participant="mn015">
+      And then after three tasks the system breaks down.
+    </Segment>
+    <Segment StartTime="551.033" EndTime="554.540" Participant="mn015">
+      And Fey comes on the phone as a human operator.
+    </Segment>
+    <Segment StartTime="555.290" EndTime="560.079" Participant="mn015">
+      And says "Sorry the system broke down but let's continue." And we sort of get the idea what
+    </Segment>
+    <Segment StartTime="560.770" EndTime="566.050" Participant="mn015">
+      people do when they s- think they speak to a machine and what people say when they think they speak to a human,
+    </Segment>
+    <Segment StartTime="566.315" EndTime="570.030" Participant="mn015">
+      or know, or assume they speak to a human. <Comment Description="quietly at end"/>
+    </Segment>
+    <Segment StartTime="566.359" EndTime="566.940" Participant="fn050">
+      O_K.
+    </Segment>
+    <Segment StartTime="567.364" EndTime="568.108" Participant="fn050">
+      Huh.
+    </Segment>
+    <Segment StartTime="567.560" EndTime="568.488" Participant="me045">
+      Mm-hmm. Mm-hmm.
+    </Segment>
+    <Segment StartTime="568.641" EndTime="569.833" Participant="fe046">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="569.610" EndTime="570.390" Participant="me045">
+      <VocalSound Description="outbreath"/>
+    </Segment>
+    <Segment StartTime="570.900" EndTime="572.610" Participant="mn015">
+      That's the data collection.
+    </Segment>
+    <Segment StartTime="572.910" EndTime="574.480" Participant="mn015">
+      And um -
+    </Segment>
+    <Segment StartTime="575.653" EndTime="579.300" Participant="mn015">
+      And Fey has some thirty subjects lined up? Something?
+    </Segment>
+    <Segment StartTime="578.884" EndTime="581.404" Participant="fe046">
+      Yeah. And more and more every day.
+    </Segment>
+    <Segment StartTime="580.180" EndTime="581.400" Participant="mn015">
+      And um -
+    </Segment>
+    <Segment StartTime="582.060" EndTime="583.140" Participant="mn015">
+      And they're - r-
+    </Segment>
+    <Segment StartTime="583.550" EndTime="589.710" Participant="mn015">
+      ready uh - to roll. And we're gonna start tomorrow at three? four? one?
+    </Segment>
+    <Segment StartTime="589.545" EndTime="593.870" Participant="fe046">
+      Tomorrow, well we don't know for sure. Because we don't know whether that person is coming or not, but -
+    </Segment>
+    <Segment StartTime="593.322" EndTime="595.290" Participant="mn015">
+      O_K. Around four-ish.
+    </Segment>
+    <Segment StartTime="595.560" EndTime="602.340" Participant="mn015">
+      And um we're still l- looking for a room on the sixth floor because they stole away that conference room.
+    </Segment>
+    <Segment StartTime="602.831" EndTime="605.560" Participant="mn015">
+      Um - behind our backs. But -
+    </Segment>
+    <Segment StartTime="604.870" EndTime="605.560" Participant="me045">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="605.560" EndTime="611.068" Participant="me010">
+      Well, there are these - uh - uh - oh, I see, we have to - Yeah, it's tricky. We'll - let's - let - we'll do that off-line, O_K.
+    </Segment>
+    <Segment StartTime="609.580" EndTime="616.300" Participant="mn015">
+      Yeah, but I - i- i- it's happening. David and - and Jane and - and Lila are working on that as we speak.
+    </Segment>
+    <Segment StartTime="611.319" EndTime="612.720" Participant="fe046">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="612.820" EndTime="613.560" Participant="me010">
+      O_K.
+    </Segment>
+    <Segment StartTime="616.520" EndTime="617.300" Participant="mn015">
+      O_K.
+    </Segment>
+    <Segment StartTime="617.300" EndTime="618.740" Participant="mn015">
+      That was the uh -
+    </Segment>
+    <Segment StartTime="619.000" EndTime="621.109" Participant="mn015">
+      the data collection in a nutshell.
+    </Segment>
+    <Segment StartTime="622.250" EndTime="623.980" Participant="mn015">
+      And um -
+    </Segment>
+    <Segment StartTime="630.200" EndTime="635.900" Participant="mn015">
+      I can report a - so I did this but I also tried to do
+    </Segment>
+    <Segment StartTime="636.090" EndTime="639.120" Participant="mn015">
+      this - so if I click on here, Isn't this wonderful?
+    </Segment>
+    <Segment StartTime="639.840" EndTime="641.980" Participant="mn015">
+      we get to the uh -
+    </Segment>
+    <Segment StartTime="642.430" EndTime="645.830" Participant="mn015">
+      uh belief-net just focusing on - on the g-
+    </Segment>
+    <Segment StartTime="645.830" EndTime="653.960" Participant="mn015">
+      Go-there node. uh - Analogously this would be sort of the reason node and the timing node and so forth. And what w-
+    </Segment>
+    <Segment StartTime="651.919" EndTime="652.691" Participant="me045">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="654.180" EndTime="655.990" Participant="mn015">
+      what happened is that
+    </Segment>
+    <Segment StartTime="656.240" EndTime="657.320" Participant="mn015">
+      um
+    </Segment>
+    <Segment StartTime="657.440" EndTime="660.630" Participant="mn015">
+      design-wise I'd sort of n- noticed that we can -
+    </Segment>
+    <Segment StartTime="660.920" EndTime="662.400" Participant="mn015">
+      we still get a lot of
+    </Segment>
+    <Segment StartTime="662.570" EndTime="669.040" Participant="mn015">
+      errors from a lot of points to one of these sub Go-there User Go-there Situation nodes.
+    </Segment>
+    <Segment StartTime="669.040" EndTime="683.710" Participant="mn015">
+      So I came up with a couple of additional nodes here where um whether the user is thrifty or not, and what his budget is currently like, is going to result in some financial state of the user. How much will he - is he willing to spend?
+    </Segment>
+    <Segment StartTime="684.150" EndTime="692.510" Participant="mn015">
+      Or can spend. Being the same at this - just the money available, which may influence us, whether he wants to go there if it is - you know - charging
+    </Segment>
+    <Segment StartTime="692.510" EndTime="696.280" Participant="mn015">
+      tons of dollars for admission or its gonna g- cost a lot of t- e-
+    </Segment>
+    <Segment StartTime="696.280" EndTime="699.370" Participant="mn015">
+      whatever. Twenty-two million to fly to
+    </Segment>
+    <Segment StartTime="699.580" EndTime="701.180" Participant="mn015">
+      International Space Station, you know.
+    </Segment>
+    <Segment StartTime="700.966" EndTime="701.817" Participant="me010">
+      Right.
+    </Segment>
+    <Segment StartTime="701.230" EndTime="702.170" Participant="me045">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="701.477" EndTime="701.690" Participant="mn015">
+      just -
+    </Segment>
+    <Segment StartTime="701.840" EndTime="702.810" Participant="fn050">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="702.710" EndTime="704.230" Participant="mn015">
+      Not all people can do that.
+    </Segment>
+    <Segment StartTime="702.870" EndTime="704.820" Participant="fe046">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="704.890" EndTime="707.980" Participant="mn015">
+      So, and this actually turned out to be
+    </Segment>
+    <Segment StartTime="708.229" EndTime="710.200" Participant="mn015">
+      pretty key, because
+    </Segment>
+    <Segment StartTime="710.620" EndTime="715.150" Participant="mn015">
+      having specified sort of these - uh - this - this - intermediate level
+    </Segment>
+    <Segment StartTime="715.310" EndTime="716.210" Participant="mn015">
+      Um
+    </Segment>
+    <Segment StartTime="716.440" EndTime="718.210" Participant="mn015">
+      and sort of noticing that
+    </Segment>
+    <Segment StartTime="718.340" EndTime="721.140" Participant="mn015">
+      everything that <Pronounce> happens  </Pronounce> here - let's go to our
+    </Segment>
+    <Segment StartTime="721.450" EndTime="722.940" Participant="mn015">
+      favorite endpoint one
+    </Segment>
+    <Segment StartTime="723.410" EndTime="724.410" Participant="mn015">
+      is again
+    </Segment>
+    <Segment StartTime="724.800" EndTime="729.470" Participant="mn015">
+      more or less - we have - um - then the situation
+    </Segment>
+    <Segment StartTime="730.370" EndTime="736.499" Participant="mn015">
+      nodes contributing to the - the endpoint situation node, which contributes to the endpoint and so forth.
+    </Segment>
+    <Segment StartTime="736.830" EndTime="741.100" Participant="mn015">
+      um - I can now sort of draw straight lines from these to here, meaning it
+    </Segment>
+    <Segment StartTime="741.100" EndTime="743.043" Participant="mn015">
+      g- of course goes where the sub-S_ -
+    </Segment>
+    <Segment StartTime="743.043" EndTime="754.000" Participant="mn015">
+      everything that comes from situation, everything that comes from user goes with the sub-U_, and whatever we specify for the so-called "Keith node", or the discourse, what comes from the - um -
+    </Segment>
+    <Segment StartTime="754.144" EndTime="761.050" Participant="mn015">
+      parser, construction parser, um will contribute to the D_ and the ontology to the sub-O_ node.
+    </Segment>
+    <Segment StartTime="761.490" EndTime="762.740" Participant="mn015">
+      And um
+    </Segment>
+    <Segment StartTime="763.150" EndTime="765.370" Participant="mn015">
+      one just s- sort of has to watch which -
+    </Segment>
+    <Segment StartTime="766.160" EndTime="769.290" Participant="mn015">
+      also final decision node so it doesn't make sense -
+    </Segment>
+    <Segment StartTime="769.290" EndTime="774.551" Participant="mn015">
+      t- to figure out whether he wants to enter, view or approach an object if he never wants to go there in the first place.
+    </Segment>
+    <Segment StartTime="775.127" EndTime="778.690" Participant="mn015">
+      But this makes the design thing fairly simple.
+    </Segment>
+    <Segment StartTime="779.280" EndTime="780.740" Participant="mn015">
+      And um
+    </Segment>
+    <Segment StartTime="781.310" EndTime="794.280" Participant="mn015">
+      now all w- that's left to do then is the C_P_G's, the conditional probabilities, for the likelihood of a person having enough money, actually wanting to go a place if it costs, you know this or that. <Comment Description="reduced articulation at end"/>
+    </Segment>
+    <Segment StartTime="795.520" EndTime="796.950" Participant="mn015">
+      And um -
+    </Segment>
+    <Segment StartTime="797.421" EndTime="798.083" Participant="mn015">
+      O_K.
+    </Segment>
+    <Segment StartTime="799.855" EndTime="809.520" Participant="mn015">
+      and once um Bhaskara has finished his classwork that's where we're gonna end up doing. You get involved in that process too.
+    </Segment>
+    <Segment StartTime="810.110" EndTime="811.440" Participant="mn015">
+      And um -
+    </Segment>
+    <Segment StartTime="812.960" EndTime="814.120" Participant="mn015">
+      And for now uh-
+    </Segment>
+    <Segment StartTime="814.200" EndTime="816.290" Participant="mn015">
+      the - the question
+    </Segment>
+    <Segment StartTime="816.720" EndTime="823.020" Participant="mn015">
+      is "How much of these decisions do we want to build in explicitly into our
+    </Segment>
+    <Segment StartTime="823.430" EndTime="824.680" Participant="mn015">
+      data collection?"
+    </Segment>
+    <Segment StartTime="825.850" EndTime="826.860" Participant="mn015">
+      So -
+    </Segment>
+    <Segment StartTime="828.100" EndTime="829.550" Participant="mn015">
+      Um, one could -
+    </Segment>
+    <Segment StartTime="829.730" EndTime="831.430" Participant="mn015">
+      sort of - think of -
+    </Segment>
+    <Segment StartTime="833.620" EndTime="840.950" Participant="mn015">
+      you know we could call the z- see or - you know, people who visit the zoo we could s- call it "Visit the zoo tomorrow", so we have
+    </Segment>
+    <Segment StartTime="841.243" EndTime="844.440" Participant="mn015">
+      an intention of seeing something, but not now - but later.
+    </Segment>
+    <Segment StartTime="841.260" EndTime="842.580" Participant="me010">
+      Right.
+    </Segment>
+    <Segment StartTime="843.510" EndTime="845.410" Participant="me010">
+      Yeah. Yeah, so -
+    </Segment>
+    <Segment StartTime="845.530" EndTime="846.880" Participant="me010">
+      let's s- uh- s-
+    </Segment>
+    <Segment StartTime="846.990" EndTime="849.820" Participant="me010">
+      see I th- I think that
+    </Segment>
+    <Segment StartTime="850.770" EndTime="852.070" Participant="me010">
+      from
+    </Segment>
+    <Segment StartTime="852.600" EndTime="854.290" Participant="me010">
+      one point of view,
+    </Segment>
+    <Segment StartTime="854.726" EndTime="858.850" Participant="me010">
+      Uh, um, all these places are the same, so that d- d-
+    </Segment>
+    <Segment StartTime="858.930" EndTime="860.620" Participant="me010">
+      That, um -
+    </Segment>
+    <Segment StartTime="860.890" EndTime="863.905" Participant="me010">
+      in terms of the linguistics and stuff,
+    </Segment>
+    <Segment StartTime="863.905" EndTime="867.310" Participant="me010">
+      there may be a few different kinds of places, so
+    </Segment>
+    <Segment StartTime="867.310" EndTime="870.190" Participant="me010">
+      I th- i- it seems to me that
+    </Segment>
+    <Segment StartTime="870.710" EndTime="872.200" Participant="me010">
+      We ought to decide
+    </Segment>
+    <Segment StartTime="873.080" EndTime="876.343" Participant="me010">
+      you know, what things are k- are actually going to matter to us.
+    </Segment>
+    <Segment StartTime="876.343" EndTime="882.020" Participant="me010">
+      And um, so the zoo, and the university and the castle, et cetera.
+    </Segment>
+    <Segment StartTime="882.120" EndTime="886.184" Participant="me010">
+      Um are all big-ish things that
+    </Segment>
+    <Segment StartTime="886.184" EndTime="890.350" Participant="me010">
+      um - you know - have different parts to them, and one of them might be fine.
+    </Segment>
+    <Segment StartTime="887.061" EndTime="887.801" Participant="mn015">
+      Hmm.
+    </Segment>
+    <Segment StartTime="888.744" EndTime="895.750" Participant="mn015">
+      Hmm, hmm. Yeah - The - the reason why we did it that way, as a - as a reminder, is uh -
+    </Segment>
+    <Segment StartTime="890.380" EndTime="891.160" Participant="me010">
+      And -
+    </Segment>
+    <Segment StartTime="895.980" EndTime="897.410" Participant="mn015">
+      no person is gonna
+    </Segment>
+    <Segment StartTime="897.450" EndTime="899.940" Participant="mn015">
+      do all of them. They're just gonna select u-
+    </Segment>
+    <Segment StartTime="900.050" EndTime="907.440" Participant="mn015">
+      um, according to their preferences. "Ah, yeah, I usually visit zoos, or I usually visit castles, or I usually -" And then you pick that one.
+    </Segment>
+    <Segment StartTime="900.380" EndTime="901.180" Participant="me010">
+      Yeah, yeah.
+    </Segment>
+    <Segment StartTime="906.090" EndTime="908.550" Participant="me010">
+      Right, no no, but - but s- th- point is
+    </Segment>
+    <Segment StartTime="908.674" EndTime="910.506" Participant="fe046">
+      They're redundant. <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="908.780" EndTime="911.470" Participant="me010">
+      to - to y- to -
+    </Segment>
+    <Segment StartTime="912.180" EndTime="915.740" Participant="me010">
+      build a system that's got everything in it that might happen you do one thing.
+    </Segment>
+    <Segment StartTime="915.810" EndTime="922.270" Participant="me010">
+      T- to build a system that um - had the most data
+    </Segment>
+    <Segment StartTime="922.360" EndTime="926.510" Participant="me010">
+      on a relatively confined set of things, you do something else.
+    </Segment>
+    <Segment StartTime="926.510" EndTime="929.650" Participant="me010">
+      And the speech people, for example, are gonna do better
+    </Segment>
+    <Segment StartTime="930.140" EndTime="933.500" Participant="me010">
+      if they - if - things come up
+    </Segment>
+    <Segment StartTime="934.110" EndTime="939.170" Participant="me010">
+      uh - repeatedly. Now, of course, if everybody says exactly the same thing then it's not interesting.
+    </Segment>
+    <Segment StartTime="939.490" EndTime="941.560" Participant="me010">
+      So, all I'm saying is i- th- there's -
+    </Segment>
+    <Segment StartTime="941.930" EndTime="945.870" Participant="me010">
+      there's a kind of question of what we're trying t- to accomplish.
+    </Segment>
+    <Segment StartTime="946.567" EndTime="948.020" Participant="me010">
+      and -
+    </Segment>
+    <Segment StartTime="949.644" EndTime="953.860" Participant="me010">
+      I think my temptation for the data gathering would be to
+    </Segment>
+    <Segment StartTime="953.860" EndTime="965.370" Participant="me010">
+      uh, you know - And each person is only gonna do it once, so you don't have to worry about them being bored, so if - if it's one service, one luxury item, you know, one big-ish place, and so forth and so on, um -
+    </Segment>
+    <Segment StartTime="967.632" EndTime="969.170" Participant="me010">
+      then
+    </Segment>
+    <Segment StartTime="971.312" EndTime="975.590" Participant="me010">
+      my guess is that - that the data is going to be easier
+    </Segment>
+    <Segment StartTime="976.620" EndTime="978.100" Participant="me010">
+      to handle. Now of course you have this
+    </Segment>
+    <Segment StartTime="978.100" EndTime="982.326" Participant="me010">
+      I guess possible danger that somehow there're certain constructions that people use
+    </Segment>
+    <Segment StartTime="982.326" EndTime="988.020" Participant="me010">
+      uh when talking about a museum that they wouldn't talk about with a university and stuff,
+    </Segment>
+    <Segment StartTime="988.610" EndTime="989.900" Participant="me010">
+      um -
+    </Segment>
+    <Segment StartTime="991.180" EndTime="996.280" Participant="me010">
+      but I guess I'm - I- uh- m- my temptation is to go for simpler.
+    </Segment>
+    <Segment StartTime="996.968" EndTime="1001.800" Participant="me010">
+      You know, less variation. But I don't know what other people think about this in terms of -
+    </Segment>
+    <Segment StartTime="1002.150" EndTime="1003.540" Participant="me010">
+      uh -
+    </Segment>
+    <Segment StartTime="1002.660" EndTime="1007.470" Participant="me045">
+      So I don't exactly understand - like I- I - I guess we're trying to -
+    </Segment>
+    <Segment StartTime="1007.799" EndTime="1011.494" Participant="me045">
+      limit the detail of our ontology or types of places that someone could go, right?
+    </Segment>
+    <Segment StartTime="1011.494" EndTime="1014.690" Participant="me045">
+      But who is it that has to care about this, or what component of the system?
+    </Segment>
+    <Segment StartTime="1014.690" EndTime="1019.740" Participant="me010">
+      Oh, well, uh - th- I think there are two places where it comes up. One is
+    </Segment>
+    <Segment StartTime="1019.780" EndTime="1025.930" Participant="me010">
+      uh - in the - th- these people who are gonna take this and - and try to do speech with it.
+    </Segment>
+    <Segment StartTime="1025.435" EndTime="1026.078" Participant="me045">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="1026.440" EndTime="1030.970" Participant="me010">
+      uh - Lots of pronunciations of th- of the same thing are going to give you
+    </Segment>
+    <Segment StartTime="1031.160" EndTime="1032.270" Participant="me010">
+      better data
+    </Segment>
+    <Segment StartTime="1032.410" EndTime="1033.370" Participant="me010">
+      than
+    </Segment>
+    <Segment StartTime="1033.941" EndTime="1037.320" Participant="me010">
+      l- you know, a few pronunciations of lots more things.
+    </Segment>
+    <Segment StartTime="1036.389" EndTime="1037.269" Participant="me045">
+      O_K.
+    </Segment>
+    <Segment StartTime="1037.510" EndTime="1038.420" Participant="me010">
+      That's one.
+    </Segment>
+    <Segment StartTime="1038.750" EndTime="1040.790" Participant="me045">
+      So we would rather just
+    </Segment>
+    <Segment StartTime="1041.250" EndTime="1044.720" Participant="me045">
+      ask - uh have a bunch of people talk about the zoo,
+    </Segment>
+    <Segment StartTime="1045.800" EndTime="1047.460" Participant="me045">
+      uh and assume that that will -
+    </Segment>
+    <Segment StartTime="1047.550" EndTime="1051.260" Participant="me045">
+      that the constructions that they use there will give us everything we need to know about these sort of
+    </Segment>
+    <Segment StartTime="1051.636" EndTime="1052.343" Participant="me010">
+      Bigger -
+    </Segment>
+    <Segment StartTime="1051.750" EndTime="1055.410" Participant="me045">
+      zoo, castle, whatever type things, these bigger places.
+    </Segment>
+    <Segment StartTime="1055.410" EndTime="1057.670" Participant="me010">
+      Y- yeah thi- well this is a question for -
+    </Segment>
+    <Segment StartTime="1056.180" EndTime="1060.281" Participant="me045">
+      And that way you get the speech data of people saying "zoo" over and over again or whatever too. O_K.
+    </Segment>
+    <Segment StartTime="1057.898" EndTime="1058.127" Participant="me010">
+      Yeah.
+    </Segment>
+    <Segment StartTime="1059.057" EndTime="1059.357" Participant="me010">
+      Yeah.
+    </Segment>
+    <Segment StartTime="1059.620" EndTime="1069.150" Participant="me010">
+      Yeah. So this is a question for you, and, you know, if we - if we do, and we probably will, actually try to uh build a prototype,
+    </Segment>
+    <Segment StartTime="1061.134" EndTime="1061.762" Participant="me045">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="1069.419" EndTime="1070.600" Participant="me010">
+      uh
+    </Segment>
+    <Segment StartTime="1071.537" EndTime="1073.740" Participant="me010">
+      probably we could get by
+    </Segment>
+    <Segment StartTime="1074.380" EndTime="1077.450" Participant="me010">
+      with the prototype only handling a few of them anyway.
+    </Segment>
+    <Segment StartTime="1077.930" EndTime="1078.560" Participant="me010">
+      So,
+    </Segment>
+    <Segment StartTime="1078.560" EndTime="1079.420" Participant="mn036">
+      <VocalSound Description="cough"/>
+    </Segment>
+    <Segment StartTime="1079.370" EndTime="1080.800" Participant="me010">
+      Um -
+    </Segment>
+    <Segment StartTime="1080.560" EndTime="1081.541" Participant="mn015">
+      Yeah, the-
+    </Segment>
+    <Segment StartTime="1082.010" EndTime="1086.560" Participant="mn015">
+      this was sort of - these are all different sort of activities.
+    </Segment>
+    <Segment StartTime="1086.760" EndTime="1087.690" Participant="mn015">
+      Um
+    </Segment>
+    <Segment StartTime="1088.100" EndTime="1092.230" Participant="mn015">
+      But I think y- I - I got the point and I think I like it. We can do -
+    </Segment>
+    <Segment StartTime="1092.838" EndTime="1095.840" Participant="mn015">
+      put them in a more hierarchical fashion. So,
+    </Segment>
+    <Segment StartTime="1095.840" EndTime="1107.260" Participant="mn015">
+      "Go to place" and then give them a choice, you know either they're the symphony type or opera type or the tourist site guide type or the nightclub disco type person and they say "yeah this is -
+    </Segment>
+    <Segment StartTime="1107.260" EndTime="1110.660" Participant="mn015">
+      on that "go to big-ish place", this is what I would do."
+    </Segment>
+    <Segment StartTime="1109.398" EndTime="1110.226" Participant="me045">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="1110.660" EndTime="1116.160" Participant="mn015">
+      And then we have the "Fix" thing, and then maybe "Do something the other day" thing, so.
+    </Segment>
+    <Segment StartTime="1116.200" EndTime="1117.690" Participant="mn015">
+      My question is -
+    </Segment>
+    <Segment StartTime="1120.280" EndTime="1126.220" Participant="mn015">
+      I guess, to some extent, we should - y- we just have to try it out and see if it works. It would be
+    </Segment>
+    <Segment StartTime="1127.810" EndTime="1132.970" Participant="mn015">
+      challenging, in - in a sense, to try to make it so - so complex that they even really should
+    </Segment>
+    <Segment StartTime="1133.110" EndTime="1137.030" Participant="mn015">
+      schedule, or to plan it, uh, a more complex
+    </Segment>
+    <Segment StartTime="1137.560" EndTime="1142.390" Participant="mn015">
+      thing in terms of O_K, you know, they should get the feeling that there are
+    </Segment>
+    <Segment StartTime="1142.390" EndTime="1144.560" Participant="mn015">
+      these s- six things they have to do
+    </Segment>
+    <Segment StartTime="1144.514" EndTime="1146.026" Participant="me010">
+      Well - yeah.
+    </Segment>
+    <Segment StartTime="1144.760" EndTime="1147.490" Participant="mn015">
+      and they sh- can be done maybe in two days.
+    </Segment>
+    <Segment StartTime="1147.710" EndTime="1149.680" Participant="me010">
+      Well I think th- th- yeah.
+    </Segment>
+    <Segment StartTime="1148.040" EndTime="1152.680" Participant="mn015">
+      So they make these decisions, "Can I go there tomorrow?" or - you know - influences
+    </Segment>
+    <Segment StartTime="1151.780" EndTime="1152.450" Participant="me010">
+      Yeah.
+    </Segment>
+    <Segment StartTime="1152.006" EndTime="1152.729" Participant="me045">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="1152.680" EndTime="1156.984" Participant="me010">
+      Well, I think it's easy enough to set that up if that's your expectation. So,
+    </Segment>
+    <Segment StartTime="1156.984" EndTime="1163.670" Participant="me010">
+      the uh system could say, "Well, uh we'd like to - to set up your program for two days
+    </Segment>
+    <Segment StartTime="1164.070" EndTime="1165.640" Participant="me010">
+      in Heidelberg,
+    </Segment>
+    <Segment StartTime="1165.740" EndTime="1168.840" Participant="me010">
+      you know, let's first think about all the things you might like to do.
+    </Segment>
+    <Segment StartTime="1170.390" EndTime="1182.240" Participant="me010">
+      So there - th- i- i- in - I mean - in - I th- I - I'm sure that if that's what you did then they would start telling you about that, and then you could get into um various things about ordering, if you wanted.
+    </Segment>
+    <Segment StartTime="1177.905" EndTime="1178.485" Participant="mn015">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="1180.670" EndTime="1181.333" Participant="mn015">
+      Yeah.
+    </Segment>
+    <Segment StartTime="1182.340" EndTime="1189.360" Participant="mn015">
+      Yeah, but I think this is part of the instructor's job. And that can be done, sort of to say, "O_K now we've picked these six tasks."
+    </Segment>
+    <Segment StartTime="1189.510" EndTime="1194.050" Participant="mn015">
+      "Now you have- you can call the system and you have two days."
+    </Segment>
+    <Segment StartTime="1194.410" EndTime="1199.020" Participant="me010">
+      I'm sorry. No, we have to help - we have to decide. Fey will p- carry out whatever we decide.
+    </Segment>
+    <Segment StartTime="1194.425" EndTime="1195.637" Participant="mn015">
+      And th- w-
+    </Segment>
+    <Segment StartTime="1194.590" EndTime="1195.360" Participant="fn050">
+      <VocalSound Description="cough"/>
+    </Segment>
+    <Segment StartTime="1199.020" EndTime="1200.910" Participant="me010">
+      But we have to decide
+    </Segment>
+    <Segment StartTime="1200.970" EndTime="1203.442" Participant="me010">
+      you know, what is the appropriate scenario.
+    </Segment>
+    <Segment StartTime="1204.220" EndTime="1205.960" Participant="me010">
+      That's what we're gonna talk about t- yeah.
+    </Segment>
+    <Segment StartTime="1204.891" EndTime="1205.686" Participant="mn015">
+      Yep, yep.
+    </Segment>
+    <Segment StartTime="1206.260" EndTime="1209.770" Participant="mn036">
+      But these are two different scenarios entirely. I mean, one is a planner -
+    </Segment>
+    <Segment StartTime="1210.060" EndTime="1213.495" Participant="mn036">
+      The other, it kind of give you instructions on the spot
+    </Segment>
+    <Segment StartTime="1213.240" EndTime="1224.240" Participant="mn015">
+      Yeah, but th- the - I don't - I'm not really interested in sort of "Phase planning" capabilities. <VocalSound Description="laugh"/> But it's more the - how do people phrase these planning requests?
+    </Segment>
+    <Segment StartTime="1219.313" EndTime="1220.026" Participant="me045">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1224.750" EndTime="1229.720" Participant="mn015">
+      So are we gonna masquerade the system as this - as you said simple response system,
+    </Segment>
+    <Segment StartTime="1229.900" EndTime="1233.180" Participant="mn015">
+      "I have one question I get one response", or should
+    </Segment>
+    <Segment StartTime="1233.180" EndTime="1239.730" Participant="mn015">
+      we allow for a certain level of complexity. And a- I w- think the data would be nicer if we get temporal
+    </Segment>
+    <Segment StartTime="1239.900" EndTime="1240.830" Participant="mn015">
+      references.
+    </Segment>
+    <Segment StartTime="1240.010" EndTime="1242.490" Participant="me010">
+      Well, so Keith, what do you think?
+    </Segment>
+    <Segment StartTime="1241.330" EndTime="1242.190" Participant="fe046">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1244.120" EndTime="1246.120" Participant="me045">
+      Well, um
+    </Segment>
+    <Segment StartTime="1247.420" EndTime="1249.220" Participant="me045">
+      it seems that - Yeah, I mean,
+    </Segment>
+    <Segment StartTime="1251.130" EndTime="1260.910" Participant="me045">
+      off the top of my head it kinda seems like you would probably just want, you know, richer data, more complex stuff going on, people trying to do more complex sets of things. I mean <Pause/> you know, if our goal is to really sort of
+    </Segment>
+    <Segment StartTime="1262.195" EndTime="1269.290" Participant="me045">
+      be able to handle a whole bunch of different stuff, then throwing harder situations at people will get them to do more linguistic - more interesting linguistic stuff.
+    </Segment>
+    <Segment StartTime="1269.290" EndTime="1271.280" Participant="me045">
+      But I mean - I'm - I'm not really sure
+    </Segment>
+    <Segment StartTime="1271.470" EndTime="1273.030" Participant="me045">
+      Uh, because I don't
+    </Segment>
+    <Segment StartTime="1273.450" EndTime="1276.730" Participant="me045">
+      fully understand like what our choices are of ways to do this here yet.
+    </Segment>
+    <Segment StartTime="1275.720" EndTime="1285.530" Participant="mn015">
+      I mean w- we have tested this and a- y- have you heard - listen to the f- first two or th- as a matter of fact the second person is uh - is - was faced with exactly this kind of setup.
+    </Segment>
+    <Segment StartTime="1280.220" EndTime="1281.340" Participant="fe046">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1285.787" EndTime="1286.407" Participant="mn015">
+      And -
+    </Segment>
+    <Segment StartTime="1285.890" EndTime="1288.960" Participant="me045">
+      I started to listen to one and it was just like, um,
+    </Segment>
+    <Segment StartTime="1289.160" EndTime="1290.020" Participant="me045">
+      uh,
+    </Segment>
+    <Segment StartTime="1290.290" EndTime="1296.394" Participant="me045">
+      sort of depressing. <VocalSound Description="laugh"/> I thought I'd just sort of listen to the beginning part and the person was just sort of reading off her script or something. And.
+    </Segment>
+    <Segment StartTime="1296.030" EndTime="1298.550" Participant="mn015">
+      Oh, O_K. That was the first subject.
+    </Segment>
+    <Segment StartTime="1296.265" EndTime="1296.702" Participant="me010">
+      Yeah.
+    </Segment>
+    <Segment StartTime="1296.680" EndTime="1297.540" Participant="fe046">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1297.550" EndTime="1297.944" Participant="me045">
+      Yeah.
+    </Segment>
+    <Segment StartTime="1297.550" EndTime="1298.880" Participant="me010">
+      First one wasn't very good.
+    </Segment>
+    <Segment StartTime="1298.550" EndTime="1298.896" Participant="mn015">
+      Yeah.
+    </Segment>
+    <Segment StartTime="1298.590" EndTime="1298.930" Participant="me045">
+      Yeah.
+    </Segment>
+    <Segment StartTime="1299.390" EndTime="1301.450" Participant="me045">
+      So um, I -
+    </Segment>
+    <Segment StartTime="1300.654" EndTime="1302.600" Participant="fe046">
+      Although - <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1300.720" EndTime="1305.058" Participant="mn015">
+      Um, it is - already with this it got pretty - with this setup
+    </Segment>
+    <Segment StartTime="1305.058" EndTime="1307.340" Participant="mn015">
+      and that particular subject
+    </Segment>
+    <Segment StartTime="1306.872" EndTime="1307.301" Participant="me045">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="1308.090" EndTime="1310.380" Participant="mn015">
+      it got pretty complex. Maybe -
+    </Segment>
+    <Segment StartTime="1310.430" EndTime="1311.630" Participant="mn015">
+      I suggest we
+    </Segment>
+    <Segment StartTime="1311.900" EndTime="1314.320" Participant="mn015">
+      make some fine tuning of these,
+    </Segment>
+    <Segment StartTime="1314.793" EndTime="1324.820" Participant="mn015">
+      get - sort of - run through ten or so subjects and then take a breather, and see whether we wanna make it more complex or not, depending on what - what sort of results we're getting.
+    </Segment>
+    <Segment StartTime="1317.384" EndTime="1317.975" Participant="me045">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="1322.234" EndTime="1323.410" Participant="me045">
+      Right.
+    </Segment>
+    <Segment StartTime="1324.820" EndTime="1326.620" Participant="me045">
+      Yeah. It - In fact, um,
+    </Segment>
+    <Segment StartTime="1326.800" EndTime="1328.600" Participant="me045">
+      I am just
+    </Segment>
+    <Segment StartTime="1328.670" EndTime="1338.202" Participant="me045">
+      you know - today, next couple days gonna start really diving into this data. I've basically looked at one of the files - you know one of these - l- y- y- y- you gave me those dozens of files and I looked at one of them which was about ten sentences,
+    </Segment>
+    <Segment StartTime="1338.202" EndTime="1349.350" Participant="me045">
+      found fifteen, twenty different construction types that we would have to look for and so on and like, "alright, well, let's start here." Um. So I haven't really gone into the, you know - looked at all of the stuff that's going on. So I don't really -
+    </Segment>
+    <Segment StartTime="1349.600" EndTime="1351.010" Participant="me045">
+      Right, I mean,
+    </Segment>
+    <Segment StartTime="1351.130" EndTime="1353.500" Participant="me045">
+      once I start doing that I'll have more to say about this kind of thing.
+    </Segment>
+    <Segment StartTime="1353.500" EndTime="1354.300" Participant="me010">
+      O_K.
+    </Segment>
+    <Segment StartTime="1354.440" EndTime="1355.560" Participant="mn015">
+      And y- and always -
+    </Segment>
+    <Segment StartTime="1354.730" EndTime="1357.587" Participant="me010">
+      But well th- but you did say something important, which is
+    </Segment>
+    <Segment StartTime="1357.587" EndTime="1359.000" Participant="me010">
+      that
+    </Segment>
+    <Segment StartTime="1359.330" EndTime="1363.573" Participant="me010">
+      um you can probably keep yourself fairly well occupied
+    </Segment>
+    <Segment StartTime="1363.573" EndTime="1366.590" Participant="me010">
+      uh - with the simple cases for quite a while.
+    </Segment>
+    <Segment StartTime="1366.590" EndTime="1367.240" Participant="me045">
+      Yeah.
+    </Segment>
+    <Segment StartTime="1367.240" EndTime="1372.860" Participant="me010">
+      Although, obviously th- so - so that sa- s- does suggest that -
+    </Segment>
+    <Segment StartTime="1372.860" EndTime="1376.622" Participant="me010">
+      Uh, now, I have looked at all the data, and it's pre- it's actually
+    </Segment>
+    <Segment StartTime="1376.622" EndTime="1381.162" Participant="me010">
+      at least to an amateur, quite redundant. That - that it was - it was very stylized,
+    </Segment>
+    <Segment StartTime="1379.266" EndTime="1379.907" Participant="me045">
+      Yeah, Yeah.
+    </Segment>
+    <Segment StartTime="1381.162" EndTime="1384.010" Participant="me010">
+      and quite a lot of people said more or less the same thing.
+    </Segment>
+    <Segment StartTime="1384.010" EndTime="1389.854" Participant="me045">
+      I um - I did sort of scan it at first and noticed that, and then looked in detail at one of them. But yeah, yeah I noticed that, too.
+    </Segment>
+    <Segment StartTime="1386.295" EndTime="1386.973" Participant="me010">
+      Yeah.
+    </Segment>
+    <Segment StartTime="1389.630" EndTime="1392.880" Participant="me010">
+      So, we - we - we wanna do more than that.
+    </Segment>
+    <Segment StartTime="1393.130" EndTime="1394.680" Participant="mn015">
+      And with this we're getting more.
+    </Segment>
+    <Segment StartTime="1394.680" EndTime="1395.520" Participant="me010">
+      O_K.
+    </Segment>
+    <Segment StartTime="1394.890" EndTime="1395.800" Participant="mn015">
+      No question.
+    </Segment>
+    <Segment StartTime="1395.800" EndTime="1396.510" Participant="me010">
+      Right.
+    </Segment>
+    <Segment StartTime="1396.770" EndTime="1397.570" Participant="me010">
+      So -
+    </Segment>
+    <Segment StartTime="1397.570" EndTime="1401.450" Participant="mn015">
+      uh w- do we wanna get going beyond more, which is sort of the -
+    </Segment>
+    <Segment StartTime="1399.890" EndTime="1402.090" Participant="me010">
+      Well, O_K, so let's - let's take - let's I -
+    </Segment>
+    <Segment StartTime="1402.090" EndTime="1404.111" Participant="me010">
+      I think your suggestion is good, which is
+    </Segment>
+    <Segment StartTime="1404.111" EndTime="1406.790" Participant="me010">
+      we'll do a b- uh - a batch.
+    </Segment>
+    <Segment StartTime="1407.200" EndTime="1408.100" Participant="me010">
+      O_K.
+    </Segment>
+    <Segment StartTime="1408.100" EndTime="1412.930" Participant="me010">
+      And, uh, Fey, How long is it gonna be till you have ten subjects?
+    </Segment>
+    <Segment StartTime="1413.220" EndTime="1414.540" Participant="me010">
+      Couple days? Or thr- f- a-
+    </Segment>
+    <Segment StartTime="1414.700" EndTime="1416.720" Participant="me010">
+      A week? Or - I don't - I don't have a feel for th-
+    </Segment>
+    <Segment StartTime="1415.880" EndTime="1420.240" Participant="fe046">
+      Um - I can - Yeah, I mean I s- I think can probably schedule ten people,
+    </Segment>
+    <Segment StartTime="1422.050" EndTime="1422.710" Participant="fe046">
+      uh,
+    </Segment>
+    <Segment StartTime="1423.230" EndTime="1424.270" Participant="fe046">
+      whenever.
+    </Segment>
+    <Segment StartTime="1424.475" EndTime="1430.600" Participant="me010">
+      Well, it's - it's up to you, I mean I j- I - uh- e- We don't have any huge time pressure. It's just - when you have t- Yeah.
+    </Segment>
+    <Segment StartTime="1428.950" EndTime="1432.630" Participant="fe046">
+      How long will it be? Um - I - I would say maybe two weeks.
+    </Segment>
+    <Segment StartTime="1432.620" EndTime="1433.630" Participant="me010">
+      Oh, O_K.
+    </Segment>
+    <Segment StartTime="1434.170" EndTime="1437.670" Participant="me010">
+      So let's do this. Let's plan next Monday,
+    </Segment>
+    <Segment StartTime="1437.830" EndTime="1440.950" Participant="me010">
+      O_K, to have a review of what we have
+    </Segment>
+    <Segment StartTime="1441.310" EndTime="1442.610" Participant="me010">
+      so far.
+    </Segment>
+    <Segment StartTime="1442.910" EndTime="1444.150" Participant="me010">
+      and -
+    </Segment>
+    <Segment StartTime="1443.070" EndTime="1444.790" Participant="mn015">
+      This means audio, but -
+    </Segment>
+    <Segment StartTime="1444.440" EndTime="1445.180" Participant="me010">
+      Huh?
+    </Segment>
+    <Segment StartTime="1445.020" EndTime="1447.330" Participant="mn015">
+      no transcriptions of course, yeah.
+    </Segment>
+    <Segment StartTime="1446.380" EndTime="1449.355" Participant="me010">
+      No, we won't have the transcriptions, but what we should
+    </Segment>
+    <Segment StartTime="1449.355" EndTime="1450.655" Participant="me010">
+      be able to do
+    </Segment>
+    <Segment StartTime="1451.040" EndTime="1457.080" Participant="me010">
+      and I don't know if, Fey, if you will have time to do this, but it would be great if you could, um,
+    </Segment>
+    <Segment StartTime="1457.900" EndTime="1460.050" Participant="me010">
+      not transcribe it all, but pick out
+    </Segment>
+    <Segment StartTime="1460.450" EndTime="1462.993" Participant="me010">
+      uh, some stuff. I mean we
+    </Segment>
+    <Segment StartTime="1462.993" EndTime="1465.159" Participant="me010">
+      could lis- uh - just sit here and listen to it all.
+    </Segment>
+    <Segment StartTime="1465.159" EndTime="1469.130" Participant="me010">
+      Are you gonna have the audio on the web site?
+    </Segment>
+    <Segment StartTime="1470.080" EndTime="1470.600" Participant="me010">
+      O_K.
+    </Segment>
+    <Segment StartTime="1470.610" EndTime="1473.461" Participant="mn015">
+      Until we reach the gigabyte thing and David Johnson s-
+    </Segment>
+    <Segment StartTime="1473.461" EndTime="1474.571" Participant="mn015">
+      ki- kills me.
+    </Segment>
+    <Segment StartTime="1474.571" EndTime="1476.530" Participant="mn015">
+      And we're gonna put it on the web site. Yeah.
+    </Segment>
+    <Segment StartTime="1476.930" EndTime="1482.402" Participant="me010">
+      Oh, we could get - I mean, you can buy another disk for two hundred dollars, right? I mean it's - it's not like - O_K.
+    </Segment>
+    <Segment StartTime="1477.330" EndTime="1479.020" Participant="fe046">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1481.260" EndTime="1482.356" Participant="me045">
+      <VocalSound Description="loud outbreath"/>
+    </Segment>
+    <Segment StartTime="1482.283" EndTime="1483.482" Participant="fe046">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1482.402" EndTime="1484.810" Participant="me010">
+      So, we'll take care of David Johnson. O_K.
+    </Segment>
+    <Segment StartTime="1484.290" EndTime="1486.081" Participant="me045">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1484.403" EndTime="1484.978" Participant="mn015">
+      No, he -
+    </Segment>
+    <Segment StartTime="1485.180" EndTime="1486.980" Participant="fe046">
+      <VocalSound Description="laugh"/> Take - care of him.
+    </Segment>
+    <Segment StartTime="1485.610" EndTime="1490.270" Participant="mn015">
+      uh, he - he has been solving all our problems or - is wonderful, so s-
+    </Segment>
+    <Segment StartTime="1488.110" EndTime="1488.870" Participant="me010">
+      O_K.
+    </Segment>
+    <Segment StartTime="1489.730" EndTime="1492.779" Participant="me010">
+      Alright. So we'll buy a disk. But anyway, so,
+    </Segment>
+    <Segment StartTime="1492.779" EndTime="1494.550" Participant="me010">
+      um,
+    </Segment>
+    <Segment StartTime="1495.830" EndTime="1498.370" Participant="me010">
+      If you - if you can think of a way -
+    </Segment>
+    <Segment StartTime="1498.570" EndTime="1499.900" Participant="me010">
+      to
+    </Segment>
+    <Segment StartTime="1500.280" EndTime="1506.240" Participant="me010">
+      uh, point us to th- to interesting things, sort of as you're doing this or - or something
+    </Segment>
+    <Segment StartTime="1506.390" EndTime="1512.800" Participant="me010">
+      uh, make your - make notes or something that - that this is, you know, something worth looking at. And
+    </Segment>
+    <Segment StartTime="1513.800" EndTime="1517.720" Participant="me010">
+      other than that, yeah I guess we'll just have to
+    </Segment>
+    <Segment StartTime="1518.250" EndTime="1521.830" Participant="me010">
+      uh, listen - although I guess it's only ten minutes each, right? Roughly.
+    </Segment>
+    <Segment StartTime="1520.750" EndTime="1524.830" Participant="fe046">
+      Well, I guess. I'm not sure how long it's actually going to take.
+    </Segment>
+    <Segment StartTime="1523.510" EndTime="1527.970" Participant="mn015">
+      The reading task is a lot shorter. That was cut by fifty percent. And the reading,
+    </Segment>
+    <Segment StartTime="1527.970" EndTime="1530.770" Participant="mn015">
+      nobody's interested in that except for the speech people.
+    </Segment>
+    <Segment StartTime="1529.090" EndTime="1530.750" Participant="me010">
+      Right. No, we don't care about that at all.
+    </Segment>
+    <Segment StartTime="1530.870" EndTime="1531.760" Participant="mn015">
+      So.
+    </Segment>
+    <Segment StartTime="1531.830" EndTime="1534.700" Participant="mn015">
+      It's actually like five minutes dialogue.
+    </Segment>
+    <Segment StartTime="1534.431" EndTime="1536.044" Participant="me010">
+      I- b- My guess is it's gonna be ten.
+    </Segment>
+    <Segment StartTime="1538.100" EndTime="1538.598" Participant="me010">
+      People -
+    </Segment>
+    <Segment StartTime="1538.280" EndTime="1539.600" Participant="mn015">
+      Ten minutes is long.
+    </Segment>
+    <Segment StartTime="1539.600" EndTime="1542.690" Participant="me010">
+      I understand, but people - people - you know uh -
+    </Segment>
+    <Segment StartTime="1539.961" EndTime="1544.274" Participant="fe046">
+      <VocalSound Description="laugh"/> It feels like a long time but. <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1542.836" EndTime="1548.370" Participant="mn015">
+      Yeah. It feels like forever when you're doing it, but then it turns out to be three minutes and forty five seconds.
+    </Segment>
+    <Segment StartTime="1543.360" EndTime="1544.240" Participant="me045">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1543.396" EndTime="1543.852" Participant="me010">
+      Yeah.
+    </Segment>
+    <Segment StartTime="1545.490" EndTime="1546.150" Participant="me010">
+      Yeah.
+    </Segment>
+    <Segment StartTime="1547.521" EndTime="1549.040" Participant="me045">
+      Yeah. <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1547.710" EndTime="1551.230" Participant="me010">
+      Could be. O_K. I was thinking people would, you know, hesitate and -
+    </Segment>
+    <Segment StartTime="1551.780" EndTime="1554.220" Participant="me010">
+      Whatever. Whatever it is we'll - we'll deal with it.
+    </Segment>
+    <Segment StartTime="1553.850" EndTime="1554.870" Participant="mn015">
+      Yeah, it's not -
+    </Segment>
+    <Segment StartTime="1554.990" EndTime="1556.770" Participant="me010">
+      O_K, so that'll be - that'll be -
+    </Segment>
+    <Segment StartTime="1555.330" EndTime="1556.230" Participant="mn015">
+      And it's fun.
+    </Segment>
+    <Segment StartTime="1557.280" EndTime="1559.610" Participant="me010">
+      um - on - on the web page.
+    </Segment>
+    <Segment StartTime="1559.367" EndTime="1560.276" Participant="mn015">
+      O_K.
+    </Segment>
+    <Segment StartTime="1559.610" EndTime="1560.706" Participant="me010">
+      That's great.
+    </Segment>
+    <Segment StartTime="1560.706" EndTime="1562.193" Participant="me010">
+      Um
+    </Segment>
+    <Segment StartTime="1562.920" EndTime="1564.210" Participant="me010">
+      But anyway - yeah, so I think -
+    </Segment>
+    <Segment StartTime="1564.660" EndTime="1570.160" Participant="me010">
+      it's a good idea to start with the sort of relatively straight forward res- just response system.
+    </Segment>
+    <Segment StartTime="1570.250" EndTime="1572.150" Participant="me010">
+      And then if we want to
+    </Segment>
+    <Segment StartTime="1572.660" EndTime="1579.460" Participant="me010">
+      uh - get them to start doing - uh - multiple step planning with a whole bunch of things and then organize them an-
+    </Segment>
+    <Segment StartTime="1579.520" EndTime="1582.640" Participant="me010">
+      um tell them which things are near each other and -
+    </Segment>
+    <Segment StartTime="1583.020" EndTime="1584.480" Participant="me010">
+      you know, any of that stuff.
+    </Segment>
+    <Segment StartTime="1585.470" EndTime="1586.640" Participant="me010">
+      uh -
+    </Segment>
+    <Segment StartTime="1587.202" EndTime="1589.790" Participant="me010">
+      You know, "Which things would you like to do Tuesday morning?"
+    </Segment>
+    <Segment StartTime="1591.475" EndTime="1592.103" Participant="mn015">
+      Yeah.
+    </Segment>
+    <Segment StartTime="1594.595" EndTime="1595.798" Participant="me010">
+      So yeah I - th- that seems -
+    </Segment>
+    <Segment StartTime="1596.475" EndTime="1597.407" Participant="me010">
+      pretty straight forward.
+    </Segment>
+    <Segment StartTime="1599.732" EndTime="1600.496" Participant="mn015">
+      <Uncertain NumSyllables="1"> @@ </Uncertain>
+    </Segment>
+    <Segment StartTime="1600.450" EndTime="1602.170" Participant="fe046">
+      But were you saying that -
+    </Segment>
+    <Segment StartTime="1602.580" EndTime="1604.947" Participant="mn015">
+      I need those back by the way. <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1603.794" EndTime="1604.166" Participant="me010">
+      O_K.
+    </Segment>
+    <Segment StartTime="1603.814" EndTime="1605.991" Participant="me045">
+      O_K. <NonVocalSound Description="paper shuffling"/>
+    </Segment>
+    <Segment StartTime="1603.940" EndTime="1604.925" Participant="fe046">
+      Yeah. <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1608.149" EndTime="1609.078" Participant="mn015">
+      <Uncertain> That's for - </Uncertain>
+    </Segment>
+    <Segment StartTime="1609.390" EndTime="1610.540" Participant="me010">
+      I'm sorry, Fey, what?
+    </Segment>
+    <Segment StartTime="1610.118" EndTime="1610.494" Participant="fe046">
+      That w-
+    </Segment>
+    <Segment StartTime="1611.220" EndTime="1615.182" Participant="fe046">
+      maybe one thing we should do is go through this list and sort of select things that are categories and then o-
+    </Segment>
+    <Segment StartTime="1615.182" EndTime="1617.011" Participant="fe046">
+      offer only one member of that category?
+    </Segment>
+    <Segment StartTime="1616.860" EndTime="1619.150" Participant="me010">
+      That's what I was suggesting for the first round, yeah.
+    </Segment>
+    <Segment StartTime="1618.529" EndTime="1618.864" Participant="fe046">
+      O_K.
+    </Segment>
+    <Segment StartTime="1619.790" EndTime="1621.670" Participant="me045">
+      So rather than having zoo and castle.
+    </Segment>
+    <Segment StartTime="1620.150" EndTime="1620.820" Participant="fn050">
+      <VocalSound Description="cough"/>
+    </Segment>
+    <Segment StartTime="1620.820" EndTime="1623.580" Participant="fe046">
+      And then, I mean, they could be alternate versions of the same -
+    </Segment>
+    <Segment StartTime="1623.580" EndTime="1624.886" Participant="me010">
+      They could, but i- but i- uh- tha-
+    </Segment>
+    <Segment StartTime="1624.360" EndTime="1626.080" Participant="fe046">
+      If you wanted data on different
+    </Segment>
+    <Segment StartTime="1625.690" EndTime="1628.292" Participant="me010">
+      eh- they- c- yeah, but - uh -
+    </Segment>
+    <Segment StartTime="1626.655" EndTime="1627.435" Participant="fe046">
+      constructions.
+    </Segment>
+    <Segment StartTime="1628.820" EndTime="1629.600" Participant="me010">
+      but -
+    </Segment>
+    <Segment StartTime="1633.150" EndTime="1637.030" Participant="fe046">
+      Like one person gets the version with the zoo as a choice, and the other person gets the -
+    </Segment>
+    <Segment StartTime="1635.330" EndTime="1638.760" Participant="me010">
+      You could, but i- but I - I - I think in the short run, -
+    </Segment>
+    <Segment StartTime="1637.030" EndTime="1647.644" Participant="mn015">
+      And no, th- the per- the person don't get it. I mean, this is why we did it, because when we gave them just three tasks for w- part-A_ and three tasks for part-B_ a-
+    </Segment>
+    <Segment StartTime="1641.792" EndTime="1642.008" Participant="me010">
+      Right.
+    </Segment>
+    <Segment StartTime="1644.380" EndTime="1645.080" Participant="me010">
+      Yeah.
+    </Segment>
+    <Segment StartTime="1645.890" EndTime="1650.783" Participant="fe046">
+      Well no, they could still choose. They just wouldn't be able to choose both zoo and say, touring the castle.
+    </Segment>
+    <Segment StartTime="1650.210" EndTime="1652.752" Participant="mn015">
+      Exactly. This is limiting the choices, but yeah.
+    </Segment>
+    <Segment StartTime="1652.752" EndTime="1656.060" Participant="mn015">
+      Right. O_K, sorry. But um I - I think this approach will
+    </Segment>
+    <Segment StartTime="1656.060" EndTime="1660.260" Participant="mn015">
+      very well work, but the person was able to look at it and say "O_K, This is what I would actually do."
+    </Segment>
+    <Segment StartTime="1658.320" EndTime="1660.240" Participant="fe046">
+      Yeah. <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1660.260" EndTime="1661.080" Participant="me010">
+      O_K.
+    </Segment>
+    <Segment StartTime="1660.640" EndTime="1663.338" Participant="mn015">
+      Yeah. <Uncertain NumSyllables="2"> @@ </Uncertain> O_K. <Uncertain NumSyllables="2"> @@ </Uncertain>
+    </Segment>
+    <Segment StartTime="1662.970" EndTime="1665.240" Participant="fe046">
+      He was vicious. <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1665.555" EndTime="1671.860" Participant="mn015">
+      O_K, we gotta - we gotta disallow uh - traveling to zoos and uh castles at the same time, sort of -
+    </Segment>
+    <Segment StartTime="1671.860" EndTime="1674.670" Participant="fe046">
+      I mean there - they are significantly different, but.
+    </Segment>
+    <Segment StartTime="1675.600" EndTime="1686.800" Participant="mn015">
+      But no, they're - I mean they're sort of - this is where tour becomes - you know tourists maybe a bit different and, um, these are just places where you - you enter um, much like here.
+    </Segment>
+    <Segment StartTime="1680.140" EndTime="1681.440" Participant="fe046">
+      Yeah, I guess so.
+    </Segment>
+    <Segment StartTime="1681.734" EndTime="1682.012" Participant="me010">
+      Yeah.
+    </Segment>
+    <Segment StartTime="1687.170" EndTime="1688.520" Participant="mn015">
+      But we can uh -
+    </Segment>
+    <Segment StartTime="1688.350" EndTime="1691.850" Participant="me010">
+      Yeah, in fact if y- if y- if you use the right verb for each
+    </Segment>
+    <Segment StartTime="1692.020" EndTime="1698.660" Participant="me010">
+      in common, like at- you know, "attend a theater, symphony or opera" is - is a group, and "tour the university, castle or zoo",
+    </Segment>
+    <Segment StartTime="1698.536" EndTime="1699.054" Participant="mn015">
+      mm-hmm
+    </Segment>
+    <Segment StartTime="1698.840" EndTime="1701.750" Participant="me010">
+      all of these d- do have this kind of "tour"
+    </Segment>
+    <Segment StartTime="1702.580" EndTime="1706.220" Participant="me010">
+      um - aspect about the way you would go to them.
+    </Segment>
+    <Segment StartTime="1702.693" EndTime="1702.962" Participant="mn015">
+      Yeah.
+    </Segment>
+    <Segment StartTime="1706.590" EndTime="1708.750" Participant="me010">
+      And uh,
+    </Segment>
+    <Segment StartTime="1709.470" EndTime="1711.360" Participant="me010">
+      the movie theater is probably also
+    </Segment>
+    <Segment StartTime="1711.460" EndTime="1713.070" Participant="me010">
+      uh - e- is a- "attend"
+    </Segment>
+    <Segment StartTime="1712.216" EndTime="1713.128" Participant="mn015">
+      Attend, yeah.
+    </Segment>
+    <Segment StartTime="1713.350" EndTime="1714.230" Participant="me010">
+      et cetera.
+    </Segment>
+    <Segment StartTime="1714.320" EndTime="1715.940" Participant="me010">
+      So it may turn out to be
+    </Segment>
+    <Segment StartTime="1716.520" EndTime="1724.044" Participant="me010">
+      not so many different kinds of things, and then, what one would expect is that - that the sentence types would -
+    </Segment>
+    <Segment StartTime="1718.448" EndTime="1719.660" Participant="mn015">
+      Hmm, mm-hmm.
+    </Segment>
+    <Segment StartTime="1724.810" EndTime="1726.190" Participant="me010">
+      uh their responses would
+    </Segment>
+    <Segment StartTime="1726.220" EndTime="1727.710" Participant="me010">
+      tend to be
+    </Segment>
+    <Segment StartTime="1728.660" EndTime="1729.580" Participant="me010">
+      grouped
+    </Segment>
+    <Segment StartTime="1730.197" EndTime="1733.100" Participant="me010">
+      according to the kind of activity, you would expect.
+    </Segment>
+    <Segment StartTime="1732.802" EndTime="1733.432" Participant="me045">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="1735.240" EndTime="1737.250" Participant="mn036">
+      But I mean i- it seem that um -
+    </Segment>
+    <Segment StartTime="1737.480" EndTime="1739.210" Participant="mn036">
+      there is a difference between going -
+    </Segment>
+    <Segment StartTime="1739.210" EndTime="1743.790" Participant="mn036">
+      to see something, and things like "exchange money" or "dine out" uh -
+    </Segment>
+    <Segment StartTime="1742.210" EndTime="1743.480" Participant="me010">
+      Oh, absolutely. Yeah.
+    </Segment>
+    <Segment StartTime="1744.260" EndTime="1748.263" Participant="mn015">
+      Yeah, this is where - yeah - th- the function stuff is definitely different and the
+    </Segment>
+    <Segment StartTime="1744.510" EndTime="1746.070" Participant="mn036">
+      <Uncertain NumSyllables="2"> @@ </Uncertain> function, yeah.
+    </Segment>
+    <Segment StartTime="1748.263" EndTime="1750.200" Participant="mn015">
+      getting information or g-
+    </Segment>
+    <Segment StartTime="1750.820" EndTime="1751.330" Participant="mn015">
+      stuff - yeah. <Comment Description="quietly"/>
+    </Segment>
+    <Segment StartTime="1755.401" EndTime="1764.150" Participant="mn015">
+      O_K. But this is open. So since people gonna still pick something, we- we're not gonna get any significant amount of redundancy.
+    </Segment>
+    <Segment StartTime="1764.210" EndTime="1764.890" Participant="mn015">
+      And
+    </Segment>
+    <Segment StartTime="1764.890" EndTime="1768.280" Participant="mn015">
+      for reasons, we don't want it, really, in that sense.
+    </Segment>
+    <Segment StartTime="1768.610" EndTime="1769.930" Participant="mn015">
+      And um
+    </Segment>
+    <Segment StartTime="1771.390" EndTime="1776.420" Participant="mn015">
+      we would be ultimately more interested in getting all the possible ways of people
+    </Segment>
+    <Segment StartTime="1776.460" EndTime="1780.880" Participant="mn015">
+      asking, oh, for different things with - or with a computer.
+    </Segment>
+    <Segment StartTime="1780.960" EndTime="1787.810" Participant="mn015">
+      And so if you can think of any other sort of high level tasks a tourist may do just always - just m- mail them to us and we'll
+    </Segment>
+    <Segment StartTime="1787.810" EndTime="1789.390" Participant="mn015">
+      sneak them into the
+    </Segment>
+    <Segment StartTime="1790.208" EndTime="1790.673" Participant="mn015">
+      collection.
+    </Segment>
+    <Segment StartTime="1792.020" EndTime="1794.610" Participant="mn015">
+      We're not gonna do much statistical stuff with it.
+    </Segment>
+    <Segment StartTime="1794.610" EndTime="1795.740" Participant="me010">
+      We don't have enough.
+    </Segment>
+    <Segment StartTime="1795.757" EndTime="1796.325" Participant="mn015">
+      No.
+    </Segment>
+    <Segment StartTime="1798.230" EndTime="1804.820" Participant="mn015">
+      But it seems like since we - since we are getting towards uh subject - uh fifty subjects and if we can keep it up
+    </Segment>
+    <Segment StartTime="1805.160" EndTime="1807.040" Participant="mn015">
+      um to a - uh -
+    </Segment>
+    <Segment StartTime="1808.520" EndTime="1810.590" Participant="mn015">
+      sort of five four-ish per week
+    </Segment>
+    <Segment StartTime="1810.880" EndTime="1816.390" Participant="mn015">
+      rate, we may even reach the one hundred before Fey t- takes off to Chicago.
+    </Segment>
+    <Segment StartTime="1816.240" EndTime="1816.960" Participant="fe046">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1817.260" EndTime="1819.810" Participant="fe046">
+      That means that one hundred people have to be interested.
+    </Segment>
+    <Segment StartTime="1819.678" EndTime="1820.718" Participant="me045">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1821.218" EndTime="1822.018" Participant="me045">
+      Good luck.
+    </Segment>
+    <Segment StartTime="1822.187" EndTime="1822.898" Participant="fe046">
+      Yeah.
+    </Segment>
+    <Segment StartTime="1822.930" EndTime="1823.690" Participant="me010">
+      Well,
+    </Segment>
+    <Segment StartTime="1823.990" EndTime="1824.360" Participant="me045">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1824.360" EndTime="1825.055" Participant="me010">
+      um,
+    </Segment>
+    <Segment StartTime="1825.680" EndTime="1828.330" Participant="me010">
+      these are all f- people off campus s- from campus so far, right?
+    </Segment>
+    <Segment StartTime="1827.380" EndTime="1828.240" Participant="fe046">
+      Yeah.
+    </Segment>
+    <Segment StartTime="1828.330" EndTime="1829.040" Participant="fe046">
+      Yeah.
+    </Segment>
+    <Segment StartTime="1829.050" EndTime="1833.790" Participant="me010">
+      So we - yeah we don't know how many we can get next door at the - uh shelter for example.
+    </Segment>
+    <Segment StartTime="1833.399" EndTime="1834.142" Participant="me045">
+      Hmm.
+    </Segment>
+    <Segment StartTime="1834.420" EndTime="1836.670" Participant="me010">
+      Uh for ten bucks, probably quite a few.
+    </Segment>
+    <Segment StartTime="1836.208" EndTime="1836.657" Participant="me045">
+      Yeah.
+    </Segment>
+    <Segment StartTime="1837.245" EndTime="1837.788" Participant="me045">
+      That's right.
+    </Segment>
+    <Segment StartTime="1838.330" EndTime="1839.500" Participant="me010">
+      Yeah.
+    </Segment>
+    <Segment StartTime="1839.520" EndTime="1841.940" Participant="me010">
+      So, alright, so let's go - let's go back then,
+    </Segment>
+    <Segment StartTime="1841.659" EndTime="1841.843" Participant="mn015">
+      Yep.
+    </Segment>
+    <Segment StartTime="1842.360" EndTime="1843.410" Participant="me010">
+      to the -
+    </Segment>
+    <Segment StartTime="1843.680" EndTime="1846.280" Participant="me010">
+      the chart with all the decisions and stuff, and see
+    </Segment>
+    <Segment StartTime="1846.570" EndTime="1850.400" Participant="me010">
+      how we're doing. Do - do people think that, you know this is - is gonna -
+    </Segment>
+    <Segment StartTime="1851.020" EndTime="1852.190" Participant="me010">
+      um
+    </Segment>
+    <Segment StartTime="1852.674" EndTime="1855.830" Participant="me010">
+      cover what we need, or should we be thinking about more?
+    </Segment>
+    <Segment StartTime="1857.270" EndTime="1859.181" Participant="mn015">
+      Okay, in terms of decision nodes?
+    </Segment>
+    <Segment StartTime="1858.903" EndTime="1859.123" Participant="me010">
+      Yep.
+    </Segment>
+    <Segment StartTime="1859.181" EndTime="1861.800" Participant="mn015">
+      I mean, Go-there is - is a yes or no.
+    </Segment>
+    <Segment StartTime="1862.100" EndTime="1862.890" Participant="mn015">
+      Right?
+    </Segment>
+    <Segment StartTime="1862.690" EndTime="1862.923" Participant="me010">
+      Yep.
+    </Segment>
+    <Segment StartTime="1862.802" EndTime="1863.630" Participant="me045">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="1863.460" EndTime="1868.740" Participant="mn015">
+      I'm also interested in th- in this "property" uh line here, so if you
+    </Segment>
+    <Segment StartTime="1868.740" EndTime="1869.630" Participant="mn015">
+      look at -
+    </Segment>
+    <Segment StartTime="1869.630" EndTime="1871.000" Participant="mn015">
+      sorry, look at that
+    </Segment>
+    <Segment StartTime="1871.200" EndTime="1872.170" Participant="mn015">
+      um ,
+    </Segment>
+    <Segment StartTime="1872.410" EndTime="1873.830" Participant="mn015">
+      timing was
+    </Segment>
+    <Segment StartTime="1875.160" EndTime="1878.880" Participant="mn015">
+      um - I have these three. Do we need a final differentiation there?
+    </Segment>
+    <Segment StartTime="1879.700" EndTime="1883.260" Participant="mn015">
+      Now, later on the same tour, sometimes on the next tour.
+    </Segment>
+    <Segment StartTime="1883.260" EndTime="1885.480" Participant="me045">
+      What's this idea of "next tour"? I mean -
+    </Segment>
+    <Segment StartTime="1885.230" EndTime="1888.780" Participant="mn015">
+      It's sort of next day, so you're doing something now
+    </Segment>
+    <Segment StartTime="1889.140" EndTime="1894.830" Participant="mn015">
+      and you have planned to do these three four things, and you can do something immediately,
+    </Segment>
+    <Segment StartTime="1891.691" EndTime="1892.315" Participant="me045">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="1894.336" EndTime="1895.033" Participant="me045">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="1895.130" EndTime="1897.500" Participant="mn015">
+      you could sort of tag it on to that tour
+    </Segment>
+    <Segment StartTime="1897.342" EndTime="1898.146" Participant="me045">
+      Or - O_K.
+    </Segment>
+    <Segment StartTime="1897.660" EndTime="1901.600" Participant="mn015">
+      or you can say this is something I would do s- I wanna do sometime l-
+    </Segment>
+    <Segment StartTime="1901.396" EndTime="1901.853" Participant="me045">
+      O_K.
+    </Segment>
+    <Segment StartTime="1902.110" EndTime="1903.470" Participant="mn015">
+      in my life,
+    </Segment>
+    <Segment StartTime="1903.050" EndTime="1903.405" Participant="me045">
+      O_K.
+    </Segment>
+    <Segment StartTime="1903.601" EndTime="1904.177" Participant="mn015">
+      basically.
+    </Segment>
+    <Segment StartTime="1903.617" EndTime="1907.090" Participant="me045">
+      So - so this tour is sort of just like th- the idea of
+    </Segment>
+    <Segment StartTime="1904.070" EndTime="1905.260" Participant="fe046">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1907.261" EndTime="1911.384" Participant="me045">
+      current s- round of - of touristness or whatever, O_K.
+    </Segment>
+    <Segment StartTime="1908.950" EndTime="1909.620" Participant="me010">
+      Right.
+    </Segment>
+    <Segment StartTime="1910.730" EndTime="1913.490" Participant="me010">
+      Yeah. Yeah, probably between stops back at the hotel.
+    </Segment>
+    <Segment StartTime="1911.590" EndTime="1912.540" Participant="fe046">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1913.490" EndTime="1914.168" Participant="me045">
+      O_K. Got it.
+    </Segment>
+    <Segment StartTime="1914.050" EndTime="1920.340" Participant="me010">
+      I mean if you - if - if you wanted precise about it, uh you know, uh - and I think that's the way tourists do organize their lives.
+    </Segment>
+    <Segment StartTime="1916.839" EndTime="1917.215" Participant="me045">
+      Got it.
+    </Segment>
+    <Segment StartTime="1920.060" EndTime="1921.680" Participant="me045">
+      Sure, sure, sure.
+    </Segment>
+    <Segment StartTime="1920.570" EndTime="1923.650" Participant="me010">
+      You know, "O_K, we'll go back to the hotel and then we'll go off and -"
+    </Segment>
+    <Segment StartTime="1923.160" EndTime="1923.767" Participant="me045">
+      O_K.
+    </Segment>
+    <Segment StartTime="1923.620" EndTime="1927.360" Participant="mn036">
+      So all tours - b- a tour happens only within one day?
+    </Segment>
+    <Segment StartTime="1927.360" EndTime="1928.130" Participant="me010">
+      Yes.
+    </Segment>
+    <Segment StartTime="1927.873" EndTime="1928.249" Participant="me045">
+      O_K.
+    </Segment>
+    <Segment StartTime="1928.120" EndTime="1929.880" Participant="mn036">
+      So the next tour will be tomorrow?
+    </Segment>
+    <Segment StartTime="1928.342" EndTime="1928.574" Participant="me010">
+      It -
+    </Segment>
+    <Segment StartTime="1929.753" EndTime="1930.018" Participant="me010">
+      Right.
+    </Segment>
+    <Segment StartTime="1930.660" EndTime="1931.510" Participant="me010">
+      For this.
+    </Segment>
+    <Segment StartTime="1931.510" EndTime="1931.829" Participant="me045">
+      O_K.
+    </Segment>
+    <Segment StartTime="1932.180" EndTime="1934.154" Participant="me045">
+      Just to be totally clear. O_K.
+    </Segment>
+    <Segment StartTime="1933.650" EndTime="1942.979" Participant="mn015">
+      Well, my visit to Prague there were some nights where I never went back to the hotel, so whether that counts as a two-day tour or not we'll have to <VocalSound Description="laugh"/> think.
+    </Segment>
+    <Segment StartTime="1937.830" EndTime="1939.800" Participant="fe046">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1939.160" EndTime="1940.010" Participant="me045">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1940.760" EndTime="1941.630" Participant="me045">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1943.952" EndTime="1946.142" Participant="me045">
+      You just spend the whole time at U_ Fleku or something, ri-
+    </Segment>
+    <Segment StartTime="1944.350" EndTime="1945.030" Participant="mn036">
+      Yeah.
+    </Segment>
+    <Segment StartTime="1944.990" EndTime="1948.930" Participant="me010">
+      I - w- we will - we will not ask you more. <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1945.870" EndTime="1946.880" Participant="fe046">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1946.142" EndTime="1947.060" Participant="me045">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1947.030" EndTime="1948.930" Participant="fe046">
+      Right. <VocalSound Description="laugh"/> That's enough.
+    </Segment>
+    <Segment StartTime="1947.130" EndTime="1948.800" Participant="mn015">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1947.230" EndTime="1948.842" Participant="me045">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1947.750" EndTime="1948.480" Participant="fn050">
+      <VocalSound Description="laugh quietly"/>
+    </Segment>
+    <Segment StartTime="1947.760" EndTime="1948.660" Participant="mn036">
+      Right.
+    </Segment>
+    <Segment StartTime="1948.930" EndTime="1952.660" Participant="mn015">
+      I don't know. What is the uh - the - the English co- uh um
+    </Segment>
+    <Segment StartTime="1953.720" EndTime="1956.550" Participant="mn015">
+      cognate if you want, for  <Foreign Language="de"> "Sankt Nimmerlandstag"?  </Foreign>
+    </Segment>
+    <Segment StartTime="1957.710" EndTime="1958.999" Participant="me045">
+      <Foreign Language="de" Description="&quot;No idea.&quot;"> Keine Ahnung  </Foreign> <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1959.053" EndTime="1959.895" Participant="me010">
+      Yeah.
+    </Segment>
+    <Segment StartTime="1959.110" EndTime="1960.920" Participant="mn015">
+      Sort of "We'll do it
+    </Segment>
+    <Segment StartTime="1961.090" EndTime="1964.200" Participant="mn015">
+      on - when you say on that d- day it means it'll never happen.
+    </Segment>
+    <Segment StartTime="1963.628" EndTime="1964.340" Participant="me010">
+      Right.
+    </Segment>
+    <Segment StartTime="1964.340" EndTime="1964.985" Participant="me045">
+      O_K. <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1964.980" EndTime="1966.270" Participant="mn015">
+      Do you have an expression?
+    </Segment>
+    <Segment StartTime="1966.600" EndTime="1967.550" Participant="mn015">
+      Probably you sh-
+    </Segment>
+    <Segment StartTime="1968.915" EndTime="1971.200" Participant="me045">
+      Not that I know of actually.
+    </Segment>
+    <Segment StartTime="1972.290" EndTime="1976.307" Participant="mn015">
+      Yeah, when hell - Yep, we'll do it when hell freezes over. So maybe that should be another
+    </Segment>
+    <Segment StartTime="1972.430" EndTime="1973.410" Participant="me045">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1973.304" EndTime="1973.870" Participant="me010">
+      Yeah.
+    </Segment>
+    <Segment StartTime="1975.810" EndTime="1978.200" Participant="fe046">
+      <VocalSound Description="laugh"/> Never.
+    </Segment>
+    <Segment StartTime="1976.124" EndTime="1977.790" Participant="me010">
+      <VocalSound Description="laugh"/> Yeah.
+    </Segment>
+    <Segment StartTime="1976.307" EndTime="1979.870" Participant="mn015">
+      <VocalSound Description="laugh"/> property in there.
+    </Segment>
+    <Segment StartTime="1976.450" EndTime="1978.610" Participant="me045">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1976.860" EndTime="1977.580" Participant="mn036">
+      Right.
+    </Segment>
+    <Segment StartTime="1977.090" EndTime="1978.230" Participant="fn050">
+      <VocalSound Description="laugh quietly"/>
+    </Segment>
+    <Segment StartTime="1977.870" EndTime="1978.540" Participant="me010">
+      Yeah.
+    </Segment>
+    <Segment StartTime="1979.903" EndTime="1980.208" Participant="me010">
+      No.
+    </Segment>
+    <Segment StartTime="1980.475" EndTime="1981.663" Participant="me045">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="1984.412" EndTime="1984.890" Participant="mn015">
+      O_K.
+    </Segment>
+    <Segment StartTime="1985.260" EndTime="1988.760" Participant="mn015">
+      Um, the reason why - why do we go there in the first place
+    </Segment>
+    <Segment StartTime="1988.810" EndTime="1995.060" Participant="mn015">
+      I_E uh - it's either uh - for sightseeing, for meeting people, for running errands, or doing business.
+    </Segment>
+    <Segment StartTime="1996.000" EndTime="1997.644" Participant="fe004" CloseMic="false">
+      Is this the theater thing?
+    </Segment>
+    <Segment StartTime="1998.042" EndTime="1999.722" Participant="fe004" CloseMic="false">
+      Like entertainment or something like that?
+    </Segment>
+    <Segment StartTime="2001.170" EndTime="2004.410" Participant="mn015">
+      Entertainment is a good one in there, I think. I agree.
+    </Segment>
+    <Segment StartTime="2006.090" EndTime="2006.970" Participant="me045">
+      So,
+    </Segment>
+    <Segment StartTime="2007.950" EndTime="2010.590" Participant="me045">
+      business is supposed to uh,
+    </Segment>
+    <Segment StartTime="2011.791" EndTime="2014.430" Participant="me045">
+      be sort of - it - like professional type stuff, right, or something like that?
+    </Segment>
+    <Segment StartTime="2014.060" EndTime="2014.730" Participant="mn015">
+      Yep.
+    </Segment>
+    <Segment StartTime="2014.565" EndTime="2014.956" Participant="me045">
+      O_K.
+    </Segment>
+    <Segment StartTime="2021.987" EndTime="2022.808" Participant="me045">
+      Um.
+    </Segment>
+    <Segment StartTime="2024.230" EndTime="2025.911" Participant="mn015">
+      I mean - this w- this is uh
+    </Segment>
+    <Segment StartTime="2025.911" EndTime="2035.940" Participant="mn015">
+      an old uh Johno thing. He sort of had it in there. "Who is the - the tour- is the person?" So it might be a tourist, it might be a business man who's using the system, who wants to sort of go to some -
+    </Segment>
+    <Segment StartTime="2032.476" EndTime="2032.770" Participant="me045">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="2033.578" EndTime="2033.925" Participant="me045">
+      Yeah.
+    </Segment>
+    <Segment StartTime="2035.940" EndTime="2037.250" Participant="me010">
+      Yeah, or - or both.
+    </Segment>
+    <Segment StartTime="2036.449" EndTime="2036.812" Participant="me045">
+      Yeah.
+    </Segment>
+    <Segment StartTime="2037.250" EndTime="2042.590" Participant="me045">
+      Yeah, I mean like for example my - my father is about to travel to Prague. He'll be there for two weeks. He is going to uh -
+    </Segment>
+    <Segment StartTime="2037.446" EndTime="2037.714" Participant="mn015">
+      Yep.
+    </Segment>
+    <Segment StartTime="2042.590" EndTime="2047.737" Participant="me045">
+      He's there to teach a course at the business school but he also is touring around and so he may have some mixture of these things.
+    </Segment>
+    <Segment StartTime="2046.561" EndTime="2047.835" Participant="mn015">
+      Yep. Yep.
+    </Segment>
+    <Segment StartTime="2046.750" EndTime="2048.258" Participant="me010">
+      Mmm. Sure. Right.
+    </Segment>
+    <Segment StartTime="2050.320" EndTime="2051.020" Participant="mn015">
+      He would - <Comment Description="quietly"/>
+    </Segment>
+    <Segment StartTime="2050.550" EndTime="2051.520" Participant="mn036">
+      What ab-
+    </Segment>
+    <Segment StartTime="2051.750" EndTime="2055.609" Participant="mn036">
+      What do you have in mind in terms of um - socializing? What kind of activities?
+    </Segment>
+    <Segment StartTime="2055.140" EndTime="2057.390" Participant="mn015">
+      Eh, just meeting people, basically.
+    </Segment>
+    <Segment StartTime="2057.390" EndTime="2058.350" Participant="mn036">
+      Oh -
+    </Segment>
+    <Segment StartTime="2057.560" EndTime="2062.740" Participant="mn015">
+      "I want to meet someone somewhere", which be- puts a very heavy constraint on the "EVA"
+    </Segment>
+    <Segment StartTime="2063.337" EndTime="2063.892" Participant="me045">
+      Yeah.
+    </Segment>
+    <Segment StartTime="2063.410" EndTime="2069.770" Participant="mn015">
+      you know, because then if you're meeting somebody at the town hall, you're not entering it usually, you're just - want to approach it.
+    </Segment>
+    <Segment StartTime="2070.704" EndTime="2073.860" Participant="me045">
+      So - I mean, does this capture, like, where do you put -
+    </Segment>
+    <Segment StartTime="2073.910" EndTime="2080.820" Participant="me045">
+      "Exchange money" is an errand, right? But what about uh - So, like "Go to a movie" is now entertainment, "Dine out" is -
+    </Segment>
+    <Segment StartTime="2075.590" EndTime="2076.450" Participant="me010">
+      Mm-hmm
+    </Segment>
+    <Segment StartTime="2075.600" EndTime="2076.010" Participant="mn015">
+      Yep.
+    </Segment>
+    <Segment StartTime="2080.909" EndTime="2081.940" Participant="mn036">
+      Socializing, I guess.
+    </Segment>
+    <Segment StartTime="2081.940" EndTime="2086.860" Participant="me010">
+      No, I- I- well, I dunno. Let - Let - well, we'll put it somewhere, but - but - um -
+    </Segment>
+    <Segment StartTime="2082.613" EndTime="2083.899" Participant="fe046">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2084.023" EndTime="2084.692" Participant="me045">
+      So I mean -
+    </Segment>
+    <Segment StartTime="2085.170" EndTime="2085.680" Participant="me045">
+      Right.
+    </Segment>
+    <Segment StartTime="2088.020" EndTime="2094.300" Participant="me010">
+      I would say that if "Dine out" is a special c- uh - if you're doing it for that purpose then it's entertainment.
+    </Segment>
+    <Segment StartTime="2094.151" EndTime="2094.697" Participant="me045">
+      Yeah.
+    </Segment>
+    <Segment StartTime="2094.940" EndTime="2104.830" Participant="me010">
+      And - we'll also as y- as you'll s- further along we'll get into business about "Well, you're - you know - this is going over a meal time, do you wanna stop for a meal or pick up food or something?"
+    </Segment>
+    <Segment StartTime="2103.679" EndTime="2104.562" Participant="me045">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="2104.900" EndTime="2105.940" Participant="me010">
+      And that's
+    </Segment>
+    <Segment StartTime="2106.010" EndTime="2110.850" Participant="me010">
+      different. That's - that's sort of part of th- that's not a destination
+    </Segment>
+    <Segment StartTime="2110.814" EndTime="2111.770" Participant="me045">
+      Right.
+    </Segment>
+    <Segment StartTime="2110.900" EndTime="2113.781" Participant="me010">
+      reason, that's sort of  <Foreign Language="fr" Description="&quot;in passing&quot;"> "en passant,"  </Foreign> right.
+    </Segment>
+    <Segment StartTime="2113.140" EndTime="2116.190" Participant="mn015">
+      That goes with the "energy depletion" function, blech. <Comment Description="vocal gesture"/>
+    </Segment>
+    <Segment StartTime="2113.769" EndTime="2114.457" Participant="me045">
+      Yeah.
+    </Segment>
+    <Segment StartTime="2115.279" EndTime="2116.901" Participant="fe046">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2115.365" EndTime="2116.873" Participant="me045">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2115.370" EndTime="2116.580" Participant="me010">
+      Right, yeah. <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2117.690" EndTime="2119.160" Participant="mn015">
+      O_K, "endpoint".
+    </Segment>
+    <Segment StartTime="2118.190" EndTime="2120.180" Participant="me045">
+      "Tourist needs food, badly" <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2120.273" EndTime="2120.555" Participant="me010">
+      Right.
+    </Segment>
+    <Segment StartTime="2120.870" EndTime="2124.220" Participant="mn015">
+      "Endpoint" is pretty clear. Um,
+    </Segment>
+    <Segment StartTime="2125.090" EndTime="2133.210" Participant="mn015">
+      "mode", uh, I have found three, "drive there", "walk there" uh - or "be driven", which means bus, taxi, BART.
+    </Segment>
+    <Segment StartTime="2133.626" EndTime="2133.975" Participant="me010">
+      O_K.
+    </Segment>
+    <Segment StartTime="2134.452" EndTime="2137.090" Participant="fe004" CloseMic="false">
+      The public transport in general is <Pause/> "be driven"?
+    </Segment>
+    <Segment StartTime="2135.940" EndTime="2136.610" Participant="mn015">
+      Yeah.
+    </Segment>
+    <Segment StartTime="2137.197" EndTime="2137.547" Participant="mn015">
+      Yep.
+    </Segment>
+    <Segment StartTime="2138.590" EndTime="2144.020" Participant="me010">
+      Obviously taxis are very different than buses, but on the other hand the system doesn't have
+    </Segment>
+    <Segment StartTime="2140.502" EndTime="2141.519" Participant="fe004" CloseMic="false">
+      Yeah.
+    </Segment>
+    <Segment StartTime="2144.160" EndTime="2148.791" Participant="me010">
+      any public transport - This - the planner system doesn't have any public transport in it yet.
+    </Segment>
+    <Segment StartTime="2148.223" EndTime="2149.083" Participant="fe004" CloseMic="false">
+      O_K.
+    </Segment>
+    <Segment StartTime="2148.980" EndTime="2157.390" Participant="mn015">
+      So this granularity would suffice, I think w- if we say the person probably, based on the utterance we- on the situation we can conclude
+    </Segment>
+    <Segment StartTime="2157.460" EndTime="2159.136" Participant="mn015">
+      wants to drive there, walk there, or
+    </Segment>
+    <Segment StartTime="2159.600" EndTime="2162.393" Participant="mn015">
+      use some other form of transportation.
+    </Segment>
+    <Segment StartTime="2162.604" EndTime="2169.180" Participant="me045">
+      H- How much of Heidelberg can you get around by public transport? I mean in terms of the interesting bits. There's lots of bits where you don't really
+    </Segment>
+    <Segment StartTime="2169.560" EndTime="2172.895" Participant="me045">
+      I've only ev- was there ten years ago, for a day, so I don't remember, but.
+    </Segment>
+    <Segment StartTime="2174.500" EndTime="2174.942" Participant="me010">
+      Mm-
+    </Segment>
+    <Segment StartTime="2174.720" EndTime="2177.434" Participant="me045">
+      I mean, like the - sort of the tourist-y bits - is it like -
+    </Segment>
+    <Segment StartTime="2174.970" EndTime="2175.830" Participant="mn015">
+      Everywhere.
+    </Segment>
+    <Segment StartTime="2176.410" EndTime="2181.560" Participant="me010">
+      Well, you can't get to the Philosophers' Way very well, but, <VocalSound Description="laugh"/> I mean there are hikes that you can't get to, but -
+    </Segment>
+    <Segment StartTime="2178.654" EndTime="2180.240" Participant="me045">
+      Yeah. <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2181.216" EndTime="2181.538" Participant="mn015">
+      Yeah.
+    </Segment>
+    <Segment StartTime="2181.632" EndTime="2181.975" Participant="me045">
+      O_K.
+    </Segment>
+    <Segment StartTime="2182.370" EndTime="2184.490" Participant="me010">
+      but I think other things you can, if I remember right.
+    </Segment>
+    <Segment StartTime="2185.910" EndTime="2189.790" Participant="fn050">
+      So is like "biking there" - part of like "driving there", or - ? <Comment Description="leading question"/>
+    </Segment>
+    <Segment StartTime="2187.730" EndTime="2196.120" Participant="mn015">
+      Yeah, um we actually - biking should be - should be a separate point because we have a very strong bicycle planning component.
+    </Segment>
+    <Segment StartTime="2196.120" EndTime="2196.550" Participant="me010">
+      Oh!
+    </Segment>
+    <Segment StartTime="2196.550" EndTime="2197.064" Participant="mn015">
+      So.
+    </Segment>
+    <Segment StartTime="2196.695" EndTime="2197.593" Participant="me045">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2196.740" EndTime="2198.250" Participant="fe046">
+      Mmm g- that's good.
+    </Segment>
+    <Segment StartTime="2197.808" EndTime="2198.770" Participant="me010">
+      Put it in.
+    </Segment>
+    <Segment StartTime="2197.860" EndTime="2198.740" Participant="mn015">
+      Um.
+    </Segment>
+    <Segment StartTime="2198.880" EndTime="2201.440" Participant="mn015">
+      Bicycles c- should be in there, but,
+    </Segment>
+    <Segment StartTime="2201.950" EndTime="2202.700" Participant="mn015">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2204.280" EndTime="2207.200" Participant="mn015">
+      will we have bic- I mean is this realistic? I mean -
+    </Segment>
+    <Segment StartTime="2207.214" EndTime="2207.684" Participant="me045">
+      Yeah.
+    </Segment>
+    <Segment StartTime="2208.070" EndTime="2209.480" Participant="me010">
+      O_K, we can leave it out, I guess.
+    </Segment>
+    <Segment StartTime="2209.335" EndTime="2209.806" Participant="me045">
+      Yeah.
+    </Segment>
+    <Segment StartTime="2209.790" EndTime="2211.910" Participant="mn015">
+      We can - we can sort of uh,
+    </Segment>
+    <Segment StartTime="2212.754" EndTime="2213.317" Participant="mn015">
+      drive -
+    </Segment>
+    <Segment StartTime="2213.660" EndTime="2217.890" Participant="me045">
+      I would - I would lump it with "walk" because hills matter. Right? You know. Things like that.
+    </Segment>
+    <Segment StartTime="2215.480" EndTime="2216.220" Participant="mn015">
+      Yeah.
+    </Segment>
+    <Segment StartTime="2216.930" EndTime="2218.263" Participant="mn015">
+      Yeah. <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2218.032" EndTime="2218.711" Participant="me010">
+      O_K.
+    </Segment>
+    <Segment StartTime="2219.680" EndTime="2222.780" Participant="me010">
+      Skateboards <Uncertain NumSyllables="3"> @@ </Uncertain> <Comment Description="while laughing"/> right, anyway.
+    </Segment>
+    <Segment StartTime="2220.690" EndTime="2221.950" Participant="me045">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2221.350" EndTime="2221.904" Participant="mn036">
+      Right.
+    </Segment>
+    <Segment StartTime="2221.460" EndTime="2222.390" Participant="fn050">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2222.860" EndTime="2225.020" Participant="me010">
+      Scooters, right? <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2223.820" EndTime="2224.210" Participant="mn015">
+      Yep.
+    </Segment>
+    <Segment StartTime="2224.210" EndTime="2225.020" Participant="fn050">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2225.710" EndTime="2226.410" Participant="me010">
+      Alright.
+    </Segment>
+    <Segment StartTime="2226.140" EndTime="2229.050" Participant="mn015">
+      O_K, "Length" is um,
+    </Segment>
+    <Segment StartTime="2230.230" EndTime="2233.210" Participant="mn015">
+      you wanna get this over with as fast as possible,
+    </Segment>
+    <Segment StartTime="2232.860" EndTime="2233.820" Participant="fe046">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2234.010" EndTime="2237.890" Participant="mn015">
+      you wanna use some part of what - of the time you have.
+    </Segment>
+    <Segment StartTime="2237.494" EndTime="2238.782" Participant="fe004" CloseMic="false">
+      They can specify "long".
+    </Segment>
+    <Segment StartTime="2239.270" EndTime="2248.780" Participant="mn015">
+      Um, they can. But we should just make a decision whether we feel that they want to use some substantial or some fraction of their time.
+    </Segment>
+    <Segment StartTime="2240.775" EndTime="2241.263" Participant="me010">
+      Ye-
+    </Segment>
+    <Segment StartTime="2249.570" EndTime="2256.220" Participant="mn015">
+      You know, they wanna do it so badly that they are willing to spend uh - you know the necessary and plus time.
+    </Segment>
+    <Segment StartTime="2249.648" EndTime="2250.149" Participant="me045">
+      Hmm.
+    </Segment>
+    <Segment StartTime="2256.680" EndTime="2257.970" Participant="mn015">
+      And um -
+    </Segment>
+    <Segment StartTime="2261.000" EndTime="2261.730" Participant="mn015">
+      And y-
+    </Segment>
+    <Segment StartTime="2262.090" EndTime="2268.460" Participant="mn015">
+      you know, if we feel that they wanna do nothing but that thing then, you know, we should point out that -
+    </Segment>
+    <Segment StartTime="2268.520" EndTime="2272.560" Participant="mn015">
+      to the planner, that they probably want to use all the time they have.
+    </Segment>
+    <Segment StartTime="2272.560" EndTime="2275.010" Participant="mn015">
+      So, stretch out that visit for
+    </Segment>
+    <Segment StartTime="2274.716" EndTime="2275.259" Participant="me010">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="2275.470" EndTime="2278.090" Participant="me045">
+      Wow - It seems like this would be really hard to guess.
+    </Segment>
+    <Segment StartTime="2275.516" EndTime="2275.724" Participant="mn015">
+      that.
+    </Segment>
+    <Segment StartTime="2278.090" EndTime="2280.350" Participant="me045">
+      I mean, on the part of the system. It seems like it -
+    </Segment>
+    <Segment StartTime="2280.730" EndTime="2285.270" Participant="me045">
+      I mean you're - you're talking about rather than having the user decide this you're supposed t- we're supposed to figure it out?
+    </Segment>
+    <Segment StartTime="2284.345" EndTime="2284.675" Participant="me010">
+      w-
+    </Segment>
+    <Segment StartTime="2285.120" EndTime="2293.601" Participant="mn015">
+      Th- the user can always s- say it, but it's just sort of we - we hand over these parameters if we make - if we have a feeling that they are important.
+    </Segment>
+    <Segment StartTime="2285.270" EndTime="2286.170" Participant="me010">
+      well-
+    </Segment>
+    <Segment StartTime="2286.763" EndTime="2288.020" Participant="me045">
+      Overrider <Uncertain NumSyllables="2"> @@ </Uncertain>
+    </Segment>
+    <Segment StartTime="2287.510" EndTime="2288.250" Participant="me010">
+      Yeah.
+    </Segment>
+    <Segment StartTime="2293.424" EndTime="2294.008" Participant="me045">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="2293.601" EndTime="2299.440" Participant="mn015">
+      And that we can actually infer them to a significant de- degree, or we ask.
+    </Segment>
+    <Segment StartTime="2297.540" EndTime="2298.610" Participant="me010">
+      And -
+    </Segment>
+    <Segment StartTime="2299.365" EndTime="2299.961" Participant="me045">
+      O_K.
+    </Segment>
+    <Segment StartTime="2299.440" EndTime="2305.060" Participant="me010">
+      And par- yeah, and part of the system design is that if it looks to be important and you can't figure it out, then you ask.
+    </Segment>
+    <Segment StartTime="2299.917" EndTime="2300.321" Participant="mn015">
+      Yeah.
+    </Segment>
+    <Segment StartTime="2304.491" EndTime="2305.030" Participant="me045">
+      O_K.
+    </Segment>
+    <Segment StartTime="2305.160" EndTime="2306.820" Participant="me010">
+      But hopefully you don't ask
+    </Segment>
+    <Segment StartTime="2306.870" EndTime="2308.700" Participant="me010">
+      you know, a- all these things all the time. Or -
+    </Segment>
+    <Segment StartTime="2308.700" EndTime="2310.740" Participant="me045">
+      Yeah. Yeah. Right. Yeah.
+    </Segment>
+    <Segment StartTime="2309.210" EndTime="2313.930" Participant="me010">
+      eh- so, y- but there's th- but definitely a back-off position to asking.
+    </Segment>
+    <Segment StartTime="2313.930" EndTime="2318.750" Participant="mn015">
+      And if no - no part of the system ever comes up with the idea that this could be important,
+    </Segment>
+    <Segment StartTime="2318.860" EndTime="2320.793" Participant="mn015">
+      no planner is ever gonna ask for it.
+    </Segment>
+    <Segment StartTime="2320.793" EndTime="2334.940" Participant="mn015">
+      y- so - And I like the idea that, you know, sort of - Jerry pushed this idea from the very beginning, that it's part of the understanding business to sort of make a good question of what's s- sort of important in this general picture, what you need t-
+    </Segment>
+    <Segment StartTime="2320.800" EndTime="2321.500" Participant="me045">
+      Yeah.
+    </Segment>
+    <Segment StartTime="2332.831" EndTime="2333.619" Participant="me045">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="2334.940" EndTime="2338.880" Participant="mn015">
+      If you wanna simulate it, for example, what parameters would you need for the simulation?
+    </Segment>
+    <Segment StartTime="2338.880" EndTime="2339.713" Participant="mn015">
+      And,
+    </Segment>
+    <Segment StartTime="2339.713" EndTime="2341.410" Participant="mn015">
+      Timing, uh,
+    </Segment>
+    <Segment StartTime="2341.470" EndTime="2344.110" Participant="mn015">
+      uh, Length would definitely be part of it,
+    </Segment>
+    <Segment StartTime="2344.110" EndTime="2345.370" Participant="mn015">
+      "Costs",
+    </Segment>
+    <Segment StartTime="2346.190" EndTime="2348.300" Participant="mn015">
+      "Little money, some money, lots of money"?
+    </Segment>
+    <Segment StartTime="2347.838" EndTime="2348.128" Participant="me010">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="2350.795" EndTime="2352.390" Participant="mn015">
+      Actually, maybe uh F- <Comment Description="maybe start of &quot;Fey&quot;"/>
+    </Segment>
+    <Segment StartTime="2352.390" EndTime="2354.330" Participant="mn015">
+      uh so, F- Yeah, O_K.
+    </Segment>
+    <Segment StartTime="2355.175" EndTime="2357.199" Participant="fe004" CloseMic="false">
+      <Emphasis> Some </Emphasis> <Uncertain NumSyllables="5"> @@ </Uncertain>.
+    </Segment>
+    <Segment StartTime="2356.791" EndTime="2357.168" Participant="mn015">
+      Hmm?
+    </Segment>
+    <Segment StartTime="2358.250" EndTime="2358.860" Participant="fe046">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2358.782" EndTime="2360.500" Participant="me045">
+      You could say "some" in there.
+    </Segment>
+    <Segment StartTime="2361.280" EndTime="2362.410" Participant="mn036">
+      I must say that thi-
+    </Segment>
+    <Segment StartTime="2362.660" EndTime="2366.510" Participant="mn036">
+      this one looks a bit strange to me. Um - maybe - It seems like appropriate
+    </Segment>
+    <Segment StartTime="2366.637" EndTime="2368.110" Participant="mn036">
+      if I go to Las Vegas.
+    </Segment>
+    <Segment StartTime="2368.330" EndTime="2370.990" Participant="mn036">
+      Well - but I decide k- kind of how much money
+    </Segment>
+    <Segment StartTime="2369.466" EndTime="2370.650" Participant="me045">
+      <VocalSound Description="loud outbreath"/>
+    </Segment>
+    <Segment StartTime="2371.150" EndTime="2372.630" Participant="mn036">
+      uh I'm willing to lose.
+    </Segment>
+    <Segment StartTime="2372.820" EndTime="2377.930" Participant="mn036">
+      But a- I as a tourist, I'll just paying what's - what's more or less is required.
+    </Segment>
+    <Segment StartTime="2372.820" EndTime="2373.950" Participant="me045">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2376.290" EndTime="2380.289" Participant="me010">
+      Well, no. I think there are - there're different things where you have a ch- choice, for example,
+    </Segment>
+    <Segment StartTime="2377.970" EndTime="2380.110" Participant="fe046">
+      Mmm. <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2379.520" EndTime="2380.330" Participant="me045">
+      Yeah.
+    </Segment>
+    <Segment StartTime="2380.289" EndTime="2383.940" Participant="me010">
+      uh this t- interacts with "do- am I do- oh- are you willing to take a taxi?"
+    </Segment>
+    <Segment StartTime="2380.330" EndTime="2381.190" Participant="me045">
+      Dinner.
+    </Segment>
+    <Segment StartTime="2381.198" EndTime="2382.237" Participant="fe004" CloseMic="false">
+      Restaurant.
+    </Segment>
+    <Segment StartTime="2384.540" EndTime="2391.270" Participant="me010">
+      Or uh, you know, if - if you're going to the opera are you gonna l- look for
+    </Segment>
+    <Segment StartTime="2391.169" EndTime="2392.630" Participant="mn036">
+      The best seat or - or -
+    </Segment>
+    <Segment StartTime="2391.770" EndTime="2395.147" Participant="me010">
+      the best seats or the peanut gallery or, you know, whatever?
+    </Segment>
+    <Segment StartTime="2394.360" EndTime="2395.170" Participant="mn036">
+      Right.
+    </Segment>
+    <Segment StartTime="2394.985" EndTime="2395.434" Participant="me045">
+      O_K. So -
+    </Segment>
+    <Segment StartTime="2395.147" EndTime="2398.250" Participant="me010">
+      S- so I think there are a variety of things in which
+    </Segment>
+    <Segment StartTime="2398.960" EndTime="2400.800" Participant="me010">
+      um -
+    </Segment>
+    <Segment StartTime="2401.430" EndTime="2405.550" Participant="me010">
+      Tour- tourists really do have different styles eating. Another one, you know.
+    </Segment>
+    <Segment StartTime="2404.960" EndTime="2405.710" Participant="me045">
+      Yeah.
+    </Segment>
+    <Segment StartTime="2405.550" EndTime="2406.650" Participant="mn036">
+      Right, that's true.
+    </Segment>
+    <Segment StartTime="2405.830" EndTime="2406.230" Participant="fe046">
+      Right.
+    </Segment>
+    <Segment StartTime="2407.278" EndTime="2410.700" Participant="mn015">
+      The - what - what my sort of sentiment is they're -
+    </Segment>
+    <Segment StartTime="2411.320" EndTime="2420.071" Participant="mn015">
+      Well, I - I once had to write a - a - a - a charter, a carter for a - a student organization. And they had - wanted me to define what the quorum is going to be.
+    </Segment>
+    <Segment StartTime="2420.071" EndTime="2425.850" Participant="mn015">
+      And I looked at the other ones and they always said ten percent of the student body has to be present at their general meeting otherwise it's not a -
+    </Segment>
+    <Segment StartTime="2421.490" EndTime="2422.190" Participant="mn036">
+      <VocalSound Description="clear throat"/>
+    </Segment>
+    <Segment StartTime="2425.900" EndTime="2428.450" Participant="mn015">
+      And I wrote in there "En- Enough"
+    </Segment>
+    <Segment StartTime="2428.576" EndTime="2429.278" Participant="me010">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2428.732" EndTime="2429.954" Participant="me045">
+      <VocalSound Description="loud outbreath"/>
+    </Segment>
+    <Segment StartTime="2428.910" EndTime="2432.495" Participant="fe046">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2429.270" EndTime="2430.618" Participant="mn015">
+      people have to be there.
+    </Segment>
+    <Segment StartTime="2430.430" EndTime="2431.200" Participant="me045">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2430.618" EndTime="2432.765" Participant="mn015">
+      And it was hotly debated, but
+    </Segment>
+    <Segment StartTime="2432.765" EndTime="2441.410" Participant="mn015">
+      people agreed with me that everybody probably has a good feeling whether it was a farce, a joke, or whether there were enough people. And if you go to Turkey, you will find
+    </Segment>
+    <Segment StartTime="2438.015" EndTime="2438.325" Participant="me045">
+      Yeah.
+    </Segment>
+    <Segment StartTime="2441.410" EndTime="2445.420" Participant="mn015">
+      when people go shopping, they will say "How much cheese do you want?" and they say "Ah, enough."
+    </Segment>
+    <Segment StartTime="2445.420" EndTime="2448.124" Participant="mn015">
+      And the - and the - this used all over the place.
+    </Segment>
+    <Segment StartTime="2445.420" EndTime="2446.420" Participant="me045">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2448.124" EndTime="2455.565" Participant="mn015">
+      Because the person selling the cheese knows, you know, that person has two kids and you know, a husband that dislikes cheese, so this is enough.
+    </Segment>
+    <Segment StartTime="2450.509" EndTime="2450.897" Participant="me045">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="2454.400" EndTime="2456.260" Participant="me045">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2454.890" EndTime="2455.640" Participant="me010">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2455.565" EndTime="2466.220" Participant="mn015">
+      And um so the middle part is always sort of the - the golden way, right? So you can s- you can be really - make it as cheap as possible, or you can say "I want, er, you know, I don't care"
+    </Segment>
+    <Segment StartTime="2460.130" EndTime="2461.210" Participant="me045">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2466.660" EndTime="2467.850" Participant="me045">
+      Money is no object. Mm-hmm.
+    </Segment>
+    <Segment StartTime="2467.566" EndTime="2467.938" Participant="me010">
+      Yeah.
+    </Segment>
+    <Segment StartTime="2467.850" EndTime="2471.490" Participant="mn015">
+      Money is no object, or you say "I just want to spend enough".
+    </Segment>
+    <Segment StartTime="2469.900" EndTime="2471.090" Participant="fe046">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2471.366" EndTime="2471.770" Participant="me045">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="2471.770" EndTime="2474.880" Participant="mn015">
+      Or the sufficient, or the- the appropriate amount.
+    </Segment>
+    <Segment StartTime="2474.267" EndTime="2474.788" Participant="me045">
+      Yeah.
+    </Segment>
+    <Segment StartTime="2476.690" EndTime="2477.000" Participant="mn015">
+      But,
+    </Segment>
+    <Segment StartTime="2477.000" EndTime="2479.560" Participant="mn015">
+      Then again, this may turn out to be
+    </Segment>
+    <Segment StartTime="2479.800" EndTime="2482.050" Participant="mn015">
+      insufficient for our purposes. But well,
+    </Segment>
+    <Segment StartTime="2482.270" EndTime="2487.300" Participant="mn015">
+      this is my first guess, <Comment Description="embedded"/> in much the same way as how - how d-
+    </Segment>
+    <Segment StartTime="2483.090" EndTime="2483.950" Participant="me045">
+      I mean y-
+    </Segment>
+    <Segment StartTime="2484.097" EndTime="2484.391" Participant="me045">
+      Yeah.
+    </Segment>
+    <Segment StartTime="2487.690" EndTime="2492.490" Participant="mn015">
+      you know - should the route be? Should it be the easiest route, even if it's a b- little bit longer?
+    </Segment>
+    <Segment StartTime="2491.933" EndTime="2492.550" Participant="me045">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="2492.790" EndTime="2501.360" Participant="mn015">
+      No steep inclinations? Go the normal way? Whatever that again means, er - or do you - does the person wanna rough it?
+    </Segment>
+    <Segment StartTime="2496.449" EndTime="2497.521" Participant="mn036">
+      <VocalSound Description="cough"/>
+    </Segment>
+    <Segment StartTime="2497.825" EndTime="2498.416" Participant="me045">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="2501.457" EndTime="2502.483" Participant="fe046">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2502.410" EndTime="2509.997" Participant="me045">
+      I mean - th- so there's a couple of different ways you can interpret these things right? You know - "I want to go there and I don't care if it's really hard."
+    </Segment>
+    <Segment StartTime="2509.997" EndTime="2519.920" Participant="me045">
+      Or if you're an extreme sport person, you know. "I wanna go there and I insist on it being the hard way." Right? you know, so I assume we're going for the first interpretation, right? Something like -
+    </Segment>
+    <Segment StartTime="2513.060" EndTime="2514.850" Participant="fe046">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2513.843" EndTime="2514.740" Participant="me010">
+      Right.
+    </Segment>
+    <Segment StartTime="2516.028" EndTime="2517.020" Participant="fe046">
+      Right.
+    </Segment>
+    <Segment StartTime="2520.260" EndTime="2521.710" Participant="me045">
+      I'll go th- I mean -
+    </Segment>
+    <Segment StartTime="2522.010" EndTime="2524.050" Participant="me045">
+      I'd li- I dunno. It's different from thing to -
+    </Segment>
+    <Segment StartTime="2522.440" EndTime="2525.000" Participant="me010">
+      No, I think he was going for the second one ar- actually.
+    </Segment>
+    <Segment StartTime="2524.280" EndTime="2525.020" Participant="me045">
+      Yeah?
+    </Segment>
+    <Segment StartTime="2525.020" EndTime="2527.330" Participant="me010">
+      Anyway, we'll sort th- yeah, we'll sort that out.
+    </Segment>
+    <Segment StartTime="2525.100" EndTime="2526.238" Participant="me045">
+      I - I - O_K.
+    </Segment>
+    <Segment StartTime="2528.566" EndTime="2528.925" Participant="me010">
+      Right.
+    </Segment>
+    <Segment StartTime="2529.120" EndTime="2530.210" Participant="me045">
+      Yeah. <VocalSound Description="outbreath"/>
+    </Segment>
+    <Segment StartTime="2529.540" EndTime="2530.550" Participant="me010">
+      Absolutely.
+    </Segment>
+    <Segment StartTime="2534.150" EndTime="2535.690" Participant="mn015">
+      Well, this is all sort of
+    </Segment>
+    <Segment StartTime="2536.740" EndTime="2540.530" Participant="mn015">
+      um, top of my head. No - no research behind that.
+    </Segment>
+    <Segment StartTime="2538.490" EndTime="2538.857" Participant="me045">
+      Yeah.
+    </Segment>
+    <Segment StartTime="2541.050" EndTime="2545.950" Participant="mn015">
+      Um - "Object information", "Do I - do I wanna know anything about that object?" is either true or false.
+    </Segment>
+    <Segment StartTime="2546.850" EndTime="2547.720" Participant="mn015">
+      And.
+    </Segment>
+    <Segment StartTime="2548.200" EndTime="2551.020" Participant="mn015">
+      if I care about it being open, accessible or not,
+    </Segment>
+    <Segment StartTime="2551.488" EndTime="2554.030" Participant="mn015">
+      I don't think there's any middle ground there.
+    </Segment>
+    <Segment StartTime="2555.080" EndTime="2556.080" Participant="mn015">
+      Um,
+    </Segment>
+    <Segment StartTime="2556.240" EndTime="2558.230" Participant="mn015">
+      either I wanna know where it is or not,
+    </Segment>
+    <Segment StartTime="2558.620" EndTime="2560.670" Participant="mn015">
+      I wanna know about it's history or not,
+    </Segment>
+    <Segment StartTime="2560.750" EndTime="2561.670" Participant="mn015">
+      or,
+    </Segment>
+    <Segment StartTime="2561.990" EndTime="2563.560" Participant="mn015">
+      um I wanna know about
+    </Segment>
+    <Segment StartTime="2563.620" EndTime="2565.340" Participant="mn015">
+      what it's good for or not.
+    </Segment>
+    <Segment StartTime="2567.050" EndTime="2571.290" Participant="mn015">
+      Maybe one could put scales in there, too. So I wanna know a l-
+    </Segment>
+    <Segment StartTime="2569.860" EndTime="2571.060" Participant="me010">
+      Yeah, now ob-
+    </Segment>
+    <Segment StartTime="2571.440" EndTime="2573.480" Participant="me010">
+      O_K, I'm sorry, go ahead, what were you gonna say?
+    </Segment>
+    <Segment StartTime="2571.620" EndTime="2572.780" Participant="mn015">
+      lot about it.
+    </Segment>
+    <Segment StartTime="2573.660" EndTime="2576.850" Participant="mn015">
+      One could put scales in there. So I wanna know a lot about the history, just a bit.
+    </Segment>
+    <Segment StartTime="2576.730" EndTime="2579.270" Participant="me010">
+      Yeah, right well y- i- w- if we - w- right.
+    </Segment>
+    <Segment StartTime="2579.520" EndTime="2581.580" Participant="me010">
+      So "object" becomes "entity", right?
+    </Segment>
+    <Segment StartTime="2581.512" EndTime="2582.970" Participant="mn015">
+      Yep, that's true.
+    </Segment>
+    <Segment StartTime="2582.830" EndTime="2584.320" Participant="me010">
+      Yeah, but we don't have to do it now.
+    </Segment>
+    <Segment StartTime="2584.522" EndTime="2585.540" Participant="mn015">
+      Yep.
+    </Segment>
+    <Segment StartTime="2588.223" EndTime="2590.132" Participant="mn015">
+      That was the wrong shortcut anyhow.
+    </Segment>
+    <Segment StartTime="2595.060" EndTime="2598.340" Participant="me010">
+      And we think that's it, interestingly enough, that
+    </Segment>
+    <Segment StartTime="2598.510" EndTime="2599.840" Participant="me010">
+      um,
+    </Segment>
+    <Segment StartTime="2600.460" EndTime="2605.000" Participant="me010">
+      you know, th- or - or - or something very close to it is going to be uh -
+    </Segment>
+    <Segment StartTime="2613.070" EndTime="2614.530" Participant="me010">
+      going to be enough.
+    </Segment>
+    <Segment StartTime="2615.480" EndTime="2617.230" Participant="me010">
+      And -
+    </Segment>
+    <Segment StartTime="2617.423" EndTime="2618.607" Participant="fe046">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2619.488" EndTime="2620.854" Participant="fe046">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2626.650" EndTime="2627.650" Participant="fe046">
+      Still wrong.
+    </Segment>
+    <Segment StartTime="2627.720" EndTime="2630.120" Participant="fe046">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2627.760" EndTime="2628.700" Participant="mn015">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2627.980" EndTime="2629.369" Participant="me045">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2630.380" EndTime="2631.240" Participant="mn015">
+      Yeah. <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2637.080" EndTime="2638.550" Participant="me045">
+      O_K. <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2637.980" EndTime="2640.930" Participant="me010">
+      Alright, so um -
+    </Segment>
+    <Segment StartTime="2641.310" EndTime="2644.630" Participant="me010">
+      So I think the order of things is that
+    </Segment>
+    <Segment StartTime="2644.900" EndTime="2646.160" Participant="me010">
+      um,
+    </Segment>
+    <Segment StartTime="2646.620" EndTime="2649.360" Participant="me010">
+      Robert will clean this up a little bit, although it looks pretty good.
+    </Segment>
+    <Segment StartTime="2649.570" EndTime="2650.444" Participant="me010">
+      And -
+    </Segment>
+    <Segment StartTime="2650.200" EndTime="2654.300" Participant="mn015">
+      What, well this is the part that - this is the part that needs the work.
+    </Segment>
+    <Segment StartTime="2651.490" EndTime="2652.280" Participant="me010">
+      Huh?
+    </Segment>
+    <Segment StartTime="2653.150" EndTime="2656.020" Participant="me010">
+      Right. Yeah, so - right, so - So,
+    </Segment>
+    <Segment StartTime="2653.749" EndTime="2654.760" Participant="me045">
+      Yeah.
+    </Segment>
+    <Segment StartTime="2656.180" EndTime="2657.560" Participant="me010">
+      um
+    </Segment>
+    <Segment StartTime="2658.280" EndTime="2659.295" Participant="me010">
+      In parallel,
+    </Segment>
+    <Segment StartTime="2660.100" EndTime="2662.440" Participant="me010">
+      uh - three things are going to happen.
+    </Segment>
+    <Segment StartTime="2662.790" EndTime="2666.050" Participant="me010">
+      Uh Robert and Eva and Bhaskara are gonna actually -
+    </Segment>
+    <Segment StartTime="2666.110" EndTime="2675.140" Participant="me010">
+      build a belief-net that - that, um, has C_P_T's and, you know, tries to infer this from various kinds of information.
+    </Segment>
+    <Segment StartTime="2675.293" EndTime="2680.310" Participant="me010">
+      And Fey is going to start collecting data,
+    </Segment>
+    <Segment StartTime="2680.390" EndTime="2686.940" Participant="me010">
+      and we're gonna start thinking a- about - uh - what constructions we want to elicit.
+    </Segment>
+    <Segment StartTime="2687.460" EndTime="2690.010" Participant="me010">
+      And then w- go- it may iterate on
+    </Segment>
+    <Segment StartTime="2690.530" EndTime="2693.187" Participant="me010">
+      uh, further data collection to elicit -
+    </Segment>
+    <Segment StartTime="2692.595" EndTime="2693.860" Participant="me045">
+      D- Do you mean -
+    </Segment>
+    <Segment StartTime="2693.860" EndTime="2699.010" Participant="me045">
+      Do you mean eliciting particular constructions? Or do you mean like what kinds of things we want to get people talking about?
+    </Segment>
+    <Segment StartTime="2699.010" EndTime="2700.070" Participant="me010">
+      Well, yes.
+    </Segment>
+    <Segment StartTime="2699.178" EndTime="2700.637" Participant="me045">
+      Semantically speaking, eh?
+    </Segment>
+    <Segment StartTime="2700.520" EndTime="2701.310" Participant="me010">
+      Both.
+    </Segment>
+    <Segment StartTime="2700.637" EndTime="2701.600" Participant="me045">
+      O_K.
+    </Segment>
+    <Segment StartTime="2701.600" EndTime="2703.980" Participant="me010">
+      Uh, and -
+    </Segment>
+    <Segment StartTime="2701.930" EndTime="2702.630" Participant="mn015">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2704.280" EndTime="2707.390" Participant="me010">
+      Though for us, constructions are primarily semantic, right?
+    </Segment>
+    <Segment StartTime="2707.650" EndTime="2708.470" Participant="me045">
+      Right.
+    </Segment>
+    <Segment StartTime="2709.390" EndTime="2710.400" Participant="me010">
+      And -
+    </Segment>
+    <Segment StartTime="2709.790" EndTime="2710.620" Participant="me045">
+      Sure.
+    </Segment>
+    <Segment StartTime="2710.630" EndTime="2712.759" Participant="me010">
+      And so - uh -
+    </Segment>
+    <Segment StartTime="2712.050" EndTime="2715.910" Participant="me045">
+      I mean from my point of view I'm - I'm trying to care about the syntax, so you know -
+    </Segment>
+    <Segment StartTime="2715.710" EndTime="2718.610" Participant="me010">
+      Well that too, but um -
+    </Segment>
+    <Segment StartTime="2717.170" EndTime="2717.910" Participant="me045">
+      O_K.
+    </Segment>
+    <Segment StartTime="2718.950" EndTime="2725.040" Participant="me010">
+      You know if th- if we in - if we you know, make sure that we get them talking about temporal order.
+    </Segment>
+    <Segment StartTime="2725.040" EndTime="2725.490" Participant="me045">
+      Yeah.
+    </Segment>
+    <Segment StartTime="2725.490" EndTime="2732.560" Participant="me010">
+      O_K, that would be great and if th- if they use prepositional phrases or subordinate clauses or whatever, um -
+    </Segment>
+    <Segment StartTime="2728.506" EndTime="2729.018" Participant="me045">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="2730.150" EndTime="2731.110" Participant="me045">
+      Right. O_K.
+    </Segment>
+    <Segment StartTime="2733.460" EndTime="2735.500" Participant="me010">
+      W- You know, whatever form they use
+    </Segment>
+    <Segment StartTime="2736.180" EndTime="2737.100" Participant="me010">
+      is fine.
+    </Segment>
+    <Segment StartTime="2736.690" EndTime="2737.420" Participant="me045">
+      O_K.
+    </Segment>
+    <Segment StartTime="2737.370" EndTime="2742.080" Participant="me010">
+      But I - I think that probably we're gonna try to look at it as
+    </Segment>
+    <Segment StartTime="2742.620" EndTime="2748.710" Participant="me010">
+      you know, s- what semantic constructions d- do we - do we want them to uh do direc- you know, um,
+    </Segment>
+    <Segment StartTime="2744.570" EndTime="2745.330" Participant="me045">
+      O_K.
+    </Segment>
+    <Segment StartTime="2748.840" EndTime="2751.250" Participant="me010">
+      "Caused motion", I don't know, something like that.
+    </Segment>
+    <Segment StartTime="2750.780" EndTime="2751.144" Participant="me045">
+      O_K.
+    </Segment>
+    <Segment StartTime="2752.035" EndTime="2753.330" Participant="me010">
+      Uh
+    </Segment>
+    <Segment StartTime="2752.472" EndTime="2753.226" Participant="me045">
+      Got it.
+    </Segment>
+    <Segment StartTime="2753.330" EndTime="2754.070" Participant="me010">
+      But,
+    </Segment>
+    <Segment StartTime="2754.220" EndTime="2758.080" Participant="me010">
+      Eh- uh- this is actually a conversation you and I have to have about
+    </Segment>
+    <Segment StartTime="2756.801" EndTime="2757.490" Participant="me045">
+      Yeah.
+    </Segment>
+    <Segment StartTime="2758.280" EndTime="2761.880" Participant="me010">
+      your thesis fantasies, and how all this fits into that.
+    </Segment>
+    <Segment StartTime="2759.810" EndTime="2760.800" Participant="me045">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2761.880" EndTime="2763.346" Participant="me045">
+      Uh Yeah. O_K.
+    </Segment>
+    <Segment StartTime="2763.620" EndTime="2764.830" Participant="me010">
+      But uh -
+    </Segment>
+    <Segment StartTime="2764.830" EndTime="2767.370" Participant="mn015">
+      Well, I will tell you the German tourist data.
+    </Segment>
+    <Segment StartTime="2767.280" EndTime="2767.946" Participant="me045">
+      O_K.
+    </Segment>
+    <Segment StartTime="2767.640" EndTime="2768.970" Participant="mn015">
+      Because I have not
+    </Segment>
+    <Segment StartTime="2769.300" EndTime="2771.687" Participant="mn015">
+      been able to dig out all the stuff out of the
+    </Segment>
+    <Segment StartTime="2771.687" EndTime="2774.260" Participant="mn015">
+      m- ta- thirty D_V_Ds.
+    </Segment>
+    <Segment StartTime="2774.160" EndTime="2774.910" Participant="me045">
+      O_K.
+    </Segment>
+    <Segment StartTime="2775.010" EndTime="2775.840" Participant="mn015">
+      Um -
+    </Segment>
+    <Segment StartTime="2776.378" EndTime="2779.542" Participant="me045">
+      Is that roughly the equivalent of - of what I've seen in English or is it -
+    </Segment>
+    <Segment StartTime="2776.550" EndTime="2777.300" Participant="mn015">
+      If you -
+    </Segment>
+    <Segment StartTime="2779.360" EndTime="2781.760" Participant="mn015">
+      No, not at all. Dialogues.
+    </Segment>
+    <Segment StartTime="2780.224" EndTime="2780.785" Participant="me045">
+      O_K.
+    </Segment>
+    <Segment StartTime="2781.370" EndTime="2782.220" Participant="me045">
+      O_K.
+    </Segment>
+    <Segment StartTime="2782.200" EndTime="2783.440" Participant="mn015">
+      SmartKom -
+    </Segment>
+    <Segment StartTime="2783.830" EndTime="2785.780" Participant="mn015">
+      Human. Wizard of Oz.
+    </Segment>
+    <Segment StartTime="2785.530" EndTime="2787.790" Participant="me045">
+      O_K. Same - O_K, that. Got it.
+    </Segment>
+    <Segment StartTime="2788.060" EndTime="2798.156" Participant="me045">
+      Like what - What have I got now? I mean I have uh what - what I'm loo- what I - Those files that you sent me are the user side of some interaction with Fey? Is that what it is? Or - ? <Comment Description="leading question"/>
+    </Segment>
+    <Segment StartTime="2789.710" EndTime="2790.100" Participant="mn015">
+      <VocalSound Description="inbreath"/>
+    </Segment>
+    <Segment StartTime="2793.080" EndTime="2794.740" Participant="mn015">
+      A little bit of data, I -
+    </Segment>
+    <Segment StartTime="2797.440" EndTime="2798.850" Participant="mn015">
+      With nothing.
+    </Segment>
+    <Segment StartTime="2798.280" EndTime="2798.929" Participant="me010">
+      No, no.
+    </Segment>
+    <Segment StartTime="2798.670" EndTime="2801.850" Participant="me045">
+      Just talking into a box and not hearing anything back. O_K.
+    </Segment>
+    <Segment StartTime="2799.898" EndTime="2800.587" Participant="mn015">
+      Yep.
+    </Segment>
+    <Segment StartTime="2800.928" EndTime="2801.567" Participant="mn015">
+      Yep.
+    </Segment>
+    <Segment StartTime="2801.733" EndTime="2802.672" Participant="fe046">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2803.310" EndTime="2809.170" Participant="mn015">
+      Some data I collected in a couple weeks for training recognizers and email way back when.
+    </Segment>
+    <Segment StartTime="2807.516" EndTime="2808.201" Participant="me045">
+      O_K.
+    </Segment>
+    <Segment StartTime="2809.039" EndTime="2809.618" Participant="me045">
+      O_K.
+    </Segment>
+    <Segment StartTime="2810.900" EndTime="2812.710" Participant="mn015">
+      Nothing to write home about.
+    </Segment>
+    <Segment StartTime="2812.710" EndTime="2813.400" Participant="me045">
+      O_K.
+    </Segment>
+    <Segment StartTime="2813.900" EndTime="2815.150" Participant="mn015">
+      And um -
+    </Segment>
+    <Segment StartTime="2815.420" EndTime="2821.580" Participant="mn015">
+      the - see this - this - this - uh - ontology node is probably something that I will
+    </Segment>
+    <Segment StartTime="2821.860" EndTime="2825.407" Participant="mn015">
+      try to expand. Once we have the full ontology A_P_I,
+    </Segment>
+    <Segment StartTime="2825.407" EndTime="2828.500" Participant="mn015">
+      what can we expect to get from the ontology?
+    </Segment>
+    <Segment StartTime="2828.540" EndTime="2831.010" Participant="mn015">
+      And hopefully you can sort of also
+    </Segment>
+    <Segment StartTime="2831.010" EndTime="2833.650" Participant="mn015">
+      try to find out, you know, sooner or later
+    </Segment>
+    <Segment StartTime="2833.720" EndTime="2840.380" Participant="mn015">
+      in the course of the summer what we can expect to get from the discourse that might, you know - or the - not the discourse, the utterance
+    </Segment>
+    <Segment StartTime="2836.788" EndTime="2837.326" Participant="me045">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="2838.130" EndTime="2838.870" Participant="me010">
+      mm-hmm.
+    </Segment>
+    <Segment StartTime="2839.891" EndTime="2840.321" Participant="me045">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="2840.258" EndTime="2840.523" Participant="me010">
+      Right.
+    </Segment>
+    <Segment StartTime="2840.380" EndTime="2843.360" Participant="mn015">
+      as it were, uh, in terms of uh -
+    </Segment>
+    <Segment StartTime="2844.000" EndTime="2847.480" Participant="me010">
+      Right, but we're <Emphasis> not </Emphasis> expecting Keith to actually build a parser.
+    </Segment>
+    <Segment StartTime="2847.480" EndTime="2850.560" Participant="mn015">
+      No, no, no, no, no. Uh, this is -
+    </Segment>
+    <Segment StartTime="2847.930" EndTime="2849.020" Participant="me045">
+      Right, Right.
+    </Segment>
+    <Segment StartTime="2848.290" EndTime="2849.060" Participant="me010">
+      O_K.
+    </Segment>
+    <Segment StartTime="2849.060" EndTime="2849.630" Participant="me045">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2849.630" EndTime="2851.940" Participant="me010">
+      We <Emphasis> are </Emphasis> expecting <Emphasis> Johno </Emphasis> to build a parser, but that's a -
+    </Segment>
+    <Segment StartTime="2850.800" EndTime="2851.690" Participant="me045">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2850.960" EndTime="2851.760" Participant="mn015">
+      Yes.
+    </Segment>
+    <Segment StartTime="2851.940" EndTime="2853.050" Participant="me045">
+      By the end of the summer, too.
+    </Segment>
+    <Segment StartTime="2851.940" EndTime="2852.887" Participant="me010">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2852.887" EndTime="2853.214" Participant="me010">
+      No.
+    </Segment>
+    <Segment StartTime="2853.050" EndTime="2855.980" Participant="me045">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2853.630" EndTime="2854.790" Participant="mn015">
+      No.
+    </Segment>
+    <Segment StartTime="2853.918" EndTime="2854.416" Participant="me010">
+      No.
+    </Segment>
+    <Segment StartTime="2854.980" EndTime="2856.230" Participant="me010">
+      Uh -
+    </Segment>
+    <Segment StartTime="2856.230" EndTime="2858.050" Participant="mn015">
+      But it's sort of - it's -
+    </Segment>
+    <Segment StartTime="2857.120" EndTime="2860.840" Participant="me010">
+      He's g- he's hoping to do this for his masters' thesis s- by a year from now.
+    </Segment>
+    <Segment StartTime="2859.192" EndTime="2859.646" Participant="me045">
+      Right.
+    </Segment>
+    <Segment StartTime="2861.008" EndTime="2861.780" Participant="me045">
+      Hmm.
+    </Segment>
+    <Segment StartTime="2862.070" EndTime="2865.660" Participant="me045">
+      Still, pretty formidable actually. <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2863.348" EndTime="2864.530" Participant="me010">
+      Eh- absolutely.
+    </Segment>
+    <Segment StartTime="2865.386" EndTime="2874.150" Participant="me010">
+      Uh - limited. I mean, you know, the idea is - is, Well, the hope is that the parser itself is, uh, pretty robust.
+    </Segment>
+    <Segment StartTime="2867.231" EndTime="2867.684" Participant="me045">
+      Yeah.
+    </Segment>
+    <Segment StartTime="2874.270" EndTime="2877.360" Participant="me010">
+      But it's not popular - it's only p- only -
+    </Segment>
+    <Segment StartTime="2876.040" EndTime="2878.800" Participant="me045">
+      Right, Right. Existence proof, you know. Set up the
+    </Segment>
+    <Segment StartTime="2877.780" EndTime="2877.974" Participant="me010">
+      Right.
+    </Segment>
+    <Segment StartTime="2878.502" EndTime="2879.255" Participant="me010">
+      It's only popula-
+    </Segment>
+    <Segment StartTime="2878.800" EndTime="2880.390" Participant="me045">
+      infrastructure, yeah.
+    </Segment>
+    <Segment StartTime="2879.730" EndTime="2880.390" Participant="me010">
+      Right.
+    </Segment>
+    <Segment StartTime="2881.510" EndTime="2886.760" Participant="me045">
+      Um sometime, I have to talk to some subset of the people in this group, at least about um
+    </Segment>
+    <Segment StartTime="2887.530" EndTime="2890.603" Participant="me045">
+      what sort of constructions I'm looking for. I mean, you know obviously like just
+    </Segment>
+    <Segment StartTime="2890.603" EndTime="2894.836" Participant="me045">
+      again, looking at this one uh thing, you know, I saw y- things from -
+    </Segment>
+    <Segment StartTime="2894.836" EndTime="2907.290" Participant="me045">
+      sort of as general as argument structure constructions. Oh, you know, I have to do Verb Phrase. I have to do uh - uh - unbounded dependencies, you know, which have a variety of constructions in - uh - uh - instantiate that.
+    </Segment>
+    <Segment StartTime="2907.290" EndTime="2910.000" Participant="me045">
+      On the other hand I have to have, you know, there's particular
+    </Segment>
+    <Segment StartTime="2911.510" EndTime="2912.490" Participant="me045">
+      uh,
+    </Segment>
+    <Segment StartTime="2912.490" EndTime="2922.865" Participant="me045">
+      fixed expressions, or semi-fixed expressions like "Get" plus path expression for, you know, "how d- ho- how do I get there?", "How do I get in?", "How do I get away?" and all that kind of stuff.
+    </Segment>
+    <Segment StartTime="2917.586" EndTime="2918.069" Participant="me010">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="2920.570" EndTime="2920.835" Participant="me010">
+      Right.
+    </Segment>
+    <Segment StartTime="2922.865" EndTime="2925.174" Participant="me045">
+      Um, so there's a variety of sort of different
+    </Segment>
+    <Segment StartTime="2924.890" EndTime="2926.110" Participant="me010">
+      Absolutely.
+    </Segment>
+    <Segment StartTime="2925.174" EndTime="2929.540" Participant="me045">
+      sorts of constructions and it - you know it's - it's sort of like anything goes. Like -
+    </Segment>
+    <Segment StartTime="2928.882" EndTime="2931.610" Participant="me010">
+      O_K, so this is - I think we're gonna mainly work on with George.
+    </Segment>
+    <Segment StartTime="2931.610" EndTime="2932.510" Participant="me045">
+      O_K.
+    </Segment>
+    <Segment StartTime="2932.130" EndTime="2933.697" Participant="me010">
+      O_K, and hi- let me f-
+    </Segment>
+    <Segment StartTime="2934.220" EndTime="2939.030" Participant="me010">
+      th - say what I think is - is - so the idea is - uh - first of all
+    </Segment>
+    <Segment StartTime="2939.260" EndTime="2940.898" Participant="me010">
+      I misspoke when I said
+    </Segment>
+    <Segment StartTime="2941.350" EndTime="2946.397" Participant="me010">
+      we thought you should do the constructions. Cause apparently for a linguist that means to do completely and perfectly.
+    </Segment>
+    <Segment StartTime="2946.397" EndTime="2952.450" Participant="me010">
+      So what I - yeah, O_K, - So what - what I meant was "Do a first cut at".
+    </Segment>
+    <Segment StartTime="2946.740" EndTime="2950.890" Participant="me045">
+      er - that's what <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2946.820" EndTime="2949.487" Participant="fe046">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2948.599" EndTime="2949.970" Participant="mn036">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2951.880" EndTime="2952.450" Participant="me045">
+      Yeah, yeah.
+    </Segment>
+    <Segment StartTime="2952.450" EndTime="2954.845" Participant="me010">
+      O_K, Because uh - we do wanna get them r- u-
+    </Segment>
+    <Segment StartTime="2954.845" EndTime="2959.490" Participant="me010">
+      perfectly - but I think we're gonna have to do a first cut at a lot of them to see how they interact.
+    </Segment>
+    <Segment StartTime="2958.061" EndTime="2958.843" Participant="me045">
+      Of course.
+    </Segment>
+    <Segment StartTime="2958.080" EndTime="2958.850" Participant="fn050">
+      <VocalSound Description="sniff"/>
+    </Segment>
+    <Segment StartTime="2958.843" EndTime="2959.775" Participant="me045">
+      Right, exactly.
+    </Segment>
+    <Segment StartTime="2959.775" EndTime="2965.520" Participant="me045">
+      Now it - w- we talked about this before, right. And I - I me- it would- it would be completely out of the question to really do more than, say, like,
+    </Segment>
+    <Segment StartTime="2965.750" EndTime="2970.010" Participant="me045">
+      oh I don't know, ten, over the summer, but uh, but you know obviously we need to get
+    </Segment>
+    <Segment StartTime="2966.770" EndTime="2967.044" Participant="me010">
+      Yeah.
+    </Segment>
+    <Segment StartTime="2967.920" EndTime="2968.730" Participant="fe046">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="2970.490" EndTime="2973.057" Participant="me045">
+      sort of a general view of what things look like, so yeah.
+    </Segment>
+    <Segment StartTime="2972.630" EndTime="2975.950" Participant="me010">
+      Right. So the idea is going to be
+    </Segment>
+    <Segment StartTime="2976.480" EndTime="2985.710" Participant="me010">
+      to do - sort of like Nancy did in some of the- er these papers where you do enough of them so you can go from top to bottom - so you can do f- you know,
+    </Segment>
+    <Segment StartTime="2985.730" EndTime="2991.680" Participant="me010">
+      f- f- uh - have a complete story ov- of s- of some piece of dialogue.
+    </Segment>
+    <Segment StartTime="2991.267" EndTime="2991.740" Participant="me045">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="2992.150" EndTime="2995.790" Participant="me010">
+      And that's gonna be much more useful
+    </Segment>
+    <Segment StartTime="2996.180" EndTime="3003.510" Participant="me010">
+      than having all of the clausal constructions and nothing else, or - or - or something like that. So that the - the trick is going to be
+    </Segment>
+    <Segment StartTime="2999.590" EndTime="3000.740" Participant="me045">
+      Yeah. Sure.
+    </Segment>
+    <Segment StartTime="3001.107" EndTime="3001.559" Participant="me045">
+      Yeah.
+    </Segment>
+    <Segment StartTime="3003.520" EndTime="3009.370" Participant="me010">
+      t- to take this and pick a - some sort of lattice
+    </Segment>
+    <Segment StartTime="3007.410" EndTime="3009.060" Participant="fn050">
+      <VocalSound Description="cough"/>
+    </Segment>
+    <Segment StartTime="3009.096" EndTime="3009.626" Participant="me045">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="3009.450" EndTime="3016.060" Participant="me010">
+      of constructions, so- some lexical and some phrasal, and - and, you know, whatever you need in order to
+    </Segment>
+    <Segment StartTime="3012.261" EndTime="3012.887" Participant="me045">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="3016.060" EndTime="3018.500" Participant="me010">
+      uh, be able to then,
+    </Segment>
+    <Segment StartTime="3019.370" EndTime="3020.480" Participant="me010">
+      uh, by hand,
+    </Segment>
+    <Segment StartTime="3020.990" EndTime="3022.160" Participant="me010">
+      you know, explain,
+    </Segment>
+    <Segment StartTime="3021.020" EndTime="3021.614" Participant="me045">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="3022.160" EndTime="3022.420" Participant="me045">
+      Yeah.
+    </Segment>
+    <Segment StartTime="3022.420" EndTime="3024.270" Participant="me010">
+      some fraction of the utterances.
+    </Segment>
+    <Segment StartTime="3024.680" EndTime="3030.620" Participant="me010">
+      And so, exactly which ones will partly depend on your research interests and a bunch of other things.
+    </Segment>
+    <Segment StartTime="3029.344" EndTime="3029.939" Participant="me045">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="3030.620" EndTime="3031.360" Participant="me045">
+      Sure.
+    </Segment>
+    <Segment StartTime="3031.550" EndTime="3033.981" Participant="me045">
+      O_K. But I mean in terms of the s- th- sort of level of
+    </Segment>
+    <Segment StartTime="3033.981" EndTime="3035.456" Participant="me045">
+      uh - of analysis, you know,
+    </Segment>
+    <Segment StartTime="3035.456" EndTime="3042.176" Participant="me045">
+      these don't necessarily have to be more complex than like the "Out of" construction in the B_C_P paper where it's just like, you know, half a page on each one or something.
+    </Segment>
+    <Segment StartTime="3039.826" EndTime="3040.377" Participant="me010">
+      Correct.
+    </Segment>
+    <Segment StartTime="3041.630" EndTime="3044.300" Participant="me010">
+      Oh yeah - yeah. V- a half a page is - is what we'd like.
+    </Segment>
+    <Segment StartTime="3043.490" EndTime="3044.530" Participant="me045">
+      Yeah.
+    </Segment>
+    <Segment StartTime="3044.760" EndTime="3049.540" Participant="me010">
+      And if - if there's something that really requires a lot more than that then it does and we have to do it, but -
+    </Segment>
+    <Segment StartTime="3048.780" EndTime="3049.540" Participant="me045">
+      Yeah.
+    </Segment>
+    <Segment StartTime="3050.758" EndTime="3052.860" Participant="me045">
+      For the first cut, that should be fine, yeah.
+    </Segment>
+    <Segment StartTime="3052.331" EndTime="3052.748" Participant="me010">
+      Yeah.
+    </Segment>
+    <Segment StartTime="3052.860" EndTime="3055.320" Participant="mn015">
+      We could sit down and think of sort of the -
+    </Segment>
+    <Segment StartTime="3055.590" EndTime="3060.490" Participant="mn015">
+      the ideal speaker utterances, and I mean
+    </Segment>
+    <Segment StartTime="3059.175" EndTime="3059.834" Participant="me045">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="3060.700" EndTime="3061.560" Participant="mn015">
+      two
+    </Segment>
+    <Segment StartTime="3062.740" EndTime="3065.780" Participant="mn015">
+      or three that follow each other, so,
+    </Segment>
+    <Segment StartTime="3066.450" EndTime="3069.934" Participant="mn015">
+      where we can also sort of, once we have everything up and running,
+    </Segment>
+    <Segment StartTime="3069.934" EndTime="3074.936" Participant="mn015">
+      show the tremendous, insane inferencing capabilities of our system.
+    </Segment>
+    <Segment StartTime="3074.791" EndTime="3075.719" Participant="me045">
+      Mm-hmm. <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="3074.807" EndTime="3076.430" Participant="fe046">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="3074.936" EndTime="3078.648" Participant="mn015">
+      So, you know, as - as the SmartKom people have. This is sort of their standard
+    </Segment>
+    <Segment StartTime="3078.648" EndTime="3083.888" Participant="mn015">
+      demo dialogue, which is, you know, what the system survives and nothing but
+    </Segment>
+    <Segment StartTime="3079.841" EndTime="3080.454" Participant="me045">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="3083.888" EndTime="3087.891" Participant="mn015">
+      that. Um, we could also sor- sort of have the <Foreign Language="de">  analogen  </Foreign> of
+    </Segment>
+    <Segment StartTime="3084.060" EndTime="3085.180" Participant="fe046">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="3084.279" EndTime="3084.895" Participant="me045">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="3087.891" EndTime="3092.540" Participant="mn015">
+      o- our sample sentences, the ideal sentences where we have complete
+    </Segment>
+    <Segment StartTime="3092.811" EndTime="3094.339" Participant="mn015">
+      construction coverage
+    </Segment>
+    <Segment StartTime="3094.359" EndTime="3094.985" Participant="me045">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="3094.940" EndTime="3096.105" Participant="mn015">
+      and, sort of,
+    </Segment>
+    <Segment StartTime="3096.500" EndTime="3097.749" Participant="mn015">
+      they match nicely. So the -
+    </Segment>
+    <Segment StartTime="3097.749" EndTime="3101.036" Participant="mn015">
+      the "How do I get to X_?", you know, that's definitely gonna be
+    </Segment>
+    <Segment StartTime="3099.580" EndTime="3100.310" Participant="me045">
+      Yeah.
+    </Segment>
+    <Segment StartTime="3101.036" EndTime="3102.530" Participant="mn015">
+      uh, a major one.
+    </Segment>
+    <Segment StartTime="3102.530" EndTime="3106.440" Participant="me045">
+      Yeah. That's about six times in this little one here, so uh, <VocalSound Description="laugh"/> yeah.
+    </Segment>
+    <Segment StartTime="3105.196" EndTime="3105.416" Participant="me010">
+      Right.
+    </Segment>
+    <Segment StartTime="3105.650" EndTime="3106.280" Participant="mn015">
+      Yep.
+    </Segment>
+    <Segment StartTime="3106.440" EndTime="3110.326" Participant="mn015">
+      "Where is X_?" might be another one which is not too complicated.
+    </Segment>
+    <Segment StartTime="3108.150" EndTime="3108.910" Participant="me045">
+      Yeah.
+    </Segment>
+    <Segment StartTime="3110.244" EndTime="3110.637" Participant="me045">
+      Mm-hmm.
+    </Segment>
+    <Segment StartTime="3111.140" EndTime="3113.570" Participant="mn015">
+      And um "Tell me something about X_."
+    </Segment>
+    <Segment StartTime="3113.880" EndTime="3114.230" Participant="me045">
+      Yeah.
+    </Segment>
+    <Segment StartTime="3114.230" EndTime="3117.160" Participant="mn015">
+      And hey, that's - that's already covering
+    </Segment>
+    <Segment StartTime="3117.320" EndTime="3119.070" Participant="mn015">
+      eighty percent of the system's functionality.
+    </Segment>
+    <Segment StartTime="3117.454" EndTime="3117.789" Participant="me010">
+      Ye-
+    </Segment>
+    <Segment StartTime="3118.918" EndTime="3120.367" Participant="me045">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="3119.070" EndTime="3122.140" Participant="me010">
+      Right, but it's not covering eighty percent of the intellectual interest.
+    </Segment>
+    <Segment StartTime="3122.300" EndTime="3123.030" Participant="me045">
+      Yeah. <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="3123.030" EndTime="3126.860" Participant="mn015">
+      No, we can w- throw in an "Out of Film" construction if you want to, but -
+    </Segment>
+    <Segment StartTime="3125.630" EndTime="3129.450" Participant="me010">
+      No, no, no. Well the - th- the thing is there's a lot that needs to be done
+    </Segment>
+    <Segment StartTime="3126.209" EndTime="3126.656" Participant="me045">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="3129.900" EndTime="3130.840" Participant="me010">
+      to get this right. <Comment Description="quietly"/>
+    </Segment>
+    <Segment StartTime="3131.500" EndTime="3132.900" Participant="me010">
+      O_K, I th-
+    </Segment>
+    <Segment StartTime="3131.596" EndTime="3132.039" Participant="mn015">
+      O_K.
+    </Segment>
+    <Segment StartTime="3133.650" EndTime="3134.410" Participant="me010">
+      We done?
+    </Segment>
+    <Segment StartTime="3134.560" EndTime="3137.170" Participant="mn015">
+      I have one bit of news. Um,
+    </Segment>
+    <Segment StartTime="3135.640" EndTime="3136.310" Participant="me010">
+      Good.
+    </Segment>
+    <Segment StartTime="3136.578" EndTime="3136.757" Participant="me010">
+      Good.
+    </Segment>
+    <Segment StartTime="3138.980" EndTime="3141.309" Participant="mn015">
+      the action planner guy has wrote -
+    </Segment>
+    <Segment StartTime="3141.309" EndTime="3143.120" Participant="mn015">
+      has written a -
+    </Segment>
+    <Segment StartTime="3143.540" EndTime="3144.250" Participant="mn015">
+      a p-
+    </Segment>
+    <Segment StartTime="3144.770" EndTime="3149.000" Participant="mn015">
+      lengthy - proposal on how he wants to do the action planning.
+    </Segment>
+    <Segment StartTime="3149.260" EndTime="3154.300" Participant="mn015">
+      And I responded to him, also rather lengthy, how he should do the action planning.
+    </Segment>
+    <Segment StartTime="3154.030" EndTime="3154.730" Participant="me045">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="3154.730" EndTime="3155.040" Participant="mn015">
+      And -
+    </Segment>
+    <Segment StartTime="3155.040" EndTime="3156.710" Participant="me010">
+      "Action planning" meaning "Discourse Modeling"?
+    </Segment>
+    <Segment StartTime="3156.710" EndTime="3161.582" Participant="mn015">
+      Yes. And I tacked on a little paragraph about the fact that the whole world calls that
+    </Segment>
+    <Segment StartTime="3158.901" EndTime="3159.347" Participant="me010">
+      Right.
+    </Segment>
+    <Segment StartTime="3161.582" EndTime="3164.500" Participant="mn015">
+      module a dis- disc- dialogue manager, and
+    </Segment>
+    <Segment StartTime="3163.900" EndTime="3164.630" Participant="me010">
+      Right.
+    </Segment>
+    <Segment StartTime="3164.870" EndTime="3166.953" Participant="mn015">
+      wouldn't it make sense to do this here too?
+    </Segment>
+    <Segment StartTime="3166.953" EndTime="3173.840" Participant="mn015">
+      And also Rainer M- Malaka is going to be visiting us shortly, most likely in the beginning of June.
+    </Segment>
+    <Segment StartTime="3174.230" EndTime="3175.390" Participant="me010">
+      Uh-huh, I'll be gone.
+    </Segment>
+    <Segment StartTime="3175.390" EndTime="3178.740" Participant="mn015">
+      Yeah. He- he's just in a conference somewhere and he is just swinging through town.
+    </Segment>
+    <Segment StartTime="3177.470" EndTime="3178.370" Participant="me010">
+      Sure, O_K.
+    </Segment>
+    <Segment StartTime="3179.050" EndTime="3180.120" Participant="mn015">
+      And um -
+    </Segment>
+    <Segment StartTime="3180.340" EndTime="3185.390" Participant="mn015">
+      m- making me incapable of going to N_A_A_C_L,
+    </Segment>
+    <Segment StartTime="3185.614" EndTime="3187.480" Participant="mn015">
+      for which I had funding.
+    </Segment>
+    <Segment StartTime="3187.350" EndTime="3188.150" Participant="me045">
+      <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="3187.986" EndTime="3188.467" Participant="mn015">
+      But.
+    </Segment>
+    <Segment StartTime="3190.760" EndTime="3192.610" Participant="mn015">
+      No, no Pittsburg this year.
+    </Segment>
+    <Segment StartTime="3193.384" EndTime="3193.896" Participant="me045">
+      Hmm.
+    </Segment>
+    <Segment StartTime="3194.035" EndTime="3194.629" Participant="me010">
+      S-
+    </Segment>
+    <Segment StartTime="3194.180" EndTime="3198.200" Participant="mn015">
+      When is the uh- Santa Barbara? Who is going to? uh- should a lot of people.
+    </Segment>
+    <Segment StartTime="3203.720" EndTime="3206.430" Participant="mn015">
+      That's something I will - would - sort of enjoy.
+    </Segment>
+    <Segment StartTime="3205.010" EndTime="3206.070" Participant="me010">
+      Probably should go.
+    </Segment>
+    <Segment StartTime="3206.220" EndTime="3207.960" Participant="me010">
+      That was - <Pronounce Pronunciation="&quot;tha-ats&quot;"> that's  </Pronounce> one you should probably go to.
+    </Segment>
+    <Segment StartTime="3207.245" EndTime="3207.943" Participant="mn015">
+      Yep.
+    </Segment>
+    <Segment StartTime="3209.220" EndTime="3212.660" Participant="me045">
+      How much does it cost? <VocalSound Description="laugh"/> I haven't planned to go. <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="3209.330" EndTime="3209.685" Participant="mn015">
+      There's
+    </Segment>
+    <Segment StartTime="3212.880" EndTime="3213.960" Participant="me010">
+      Uh,
+    </Segment>
+    <Segment StartTime="3213.980" EndTime="3217.520" Participant="me010">
+      probably we can uh - pay for it.
+    </Segment>
+    <Segment StartTime="3217.445" EndTime="3218.047" Participant="me045">
+      O_K.
+    </Segment>
+    <Segment StartTime="3218.310" EndTime="3220.550" Participant="me010">
+      Um a student rate shouldn't be very high.
+    </Segment>
+    <Segment StartTime="3223.360" EndTime="3226.895" Participant="me010">
+      So, if we all decide it's a good idea for you to go then you'll - we'll pay for it.
+    </Segment>
+    <Segment StartTime="3225.858" EndTime="3227.138" Participant="me045">
+      Right. Sure. <VocalSound Description="laugh"/>
+    </Segment>
+    <Segment StartTime="3225.907" EndTime="3228.117" Participant="fe046">
+      <VocalSound Description="laugh"/> Then you can go.
+    </Segment>
+    <Segment StartTime="3226.895" EndTime="3230.810" Participant="me010">
+      I mean I - I don't have a feeling one way or the other at the moment, but it probably is.
+    </Segment>
+    <Segment StartTime="3229.361" EndTime="3229.772" Participant="me045">
+      O_K.
+    </Segment>
+    <Segment StartTime="3232.180" EndTime="3233.220" Participant="me010">
+      O_K, great.
+    </Segment>
+    <Segment StartTime="3233.580" EndTime="3234.363" Participant="me045">
+      Thanks.
+    </Segment>
+
+  </Transcript>
+
+</Meeting>
+

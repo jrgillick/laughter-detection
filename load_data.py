@@ -9,9 +9,9 @@ import pickle
 import os
 import subprocess
 
-DEBUG = False
-FORCE_MANIFEST_RELOAD = False # allows overwriting already stored manifests
-FORCE_FEATURE_RECOMPUTE = False # allows overwriting already computed features
+DEBUG = True
+FORCE_MANIFEST_RELOAD = False  # allows overwriting already stored manifests
+FORCE_FEATURE_RECOMPUTE = False  # allows overwriting already computed features
 
 SPLITS = ['train', 'dev', 'test']
 
@@ -41,7 +41,7 @@ def create_dataloader():
         cuts_file = os.path.join(lhotse_dir, 'cuts_with_feats.jsonl')
         cutset_dir = os.path.join(lhotse_dir, 'cutsets')
 
-    # Create directory for storing lhotse cutsets 
+    # Create directory for storing lhotse cutsets
     # Manifest dir is automatically created by lhotse's icsi recipe if it doesn't exist
     subprocess.run(['mkdir', '-p', cutset_dir])
 
@@ -73,8 +73,14 @@ def create_dataloader():
 
     # Read data_dfs containing the samples for train,val,test split
     dfs = {}
-    for split in SPLITS:
-        dfs[split] = pd.read_csv(os.path.join(data_dir, 'data_dfs', f'{split}_df.csv'))
+    if DEBUG:
+        # Dummy data is in the train split
+        dfs['train'] = pd.read_csv(os.path.join(
+            data_dir, 'data_dfs', f'dummy_df.csv'))
+    else:
+        for split in SPLITS:
+            dfs[split] = pd.read_csv(os.path.join(
+                data_dir, 'data_dfs', f'{split}_df.csv'))
 
     # CutSet is the workhorse of Lhotse, allowing for flexible data manipulation.
     # We use the existing dataframe to create a corresponding cut for each row
@@ -83,7 +89,7 @@ def create_dataloader():
     # Columns of dataframes look like this:
     #   cols = ['start', 'duration', 'sub_start', 'sub_duration', 'audio_path', 'label']
 
-    cutset_dict = {} # will contain CutSets for different splits
+    cutset_dict = {}  # will contain CutSets for different splits
     for split, df in dfs.items():
         cut_list = []
         for ind, row in df.iterrows():
@@ -99,9 +105,9 @@ def create_dataloader():
             # Create supervision segment indicating laughter or non-laughter by passing a
             # dict to the custom field -> {'is_laugh': 0/1}
             sup = SupervisionSegment(id=f'sup_{split}_{ind}', recording_id=rec.id, start=row.sub_start,
-                                    duration=row.sub_duration, channel=chan_id, custom={'is_laugh': row.label})
+                                     duration=row.sub_duration, channel=chan_id, custom={'is_laugh': row.label})
             cut = MonoCut(id=f'{split}_{ind}', start=row.sub_start, duration=row.sub_duration,
-                        recording=rec, channel=chan_id, supervisions=[sup])
+                          recording=rec, channel=chan_id, supervisions=[sup])
             cut_list.append(cut)
 
         cutset_dict[split] = CutSet.from_cuts(cut_list)
@@ -109,7 +115,7 @@ def create_dataloader():
     print('Write cutset_dict to disk...')
     with open(os.path.join(cutset_dir, 'cutset_dict_without_feats.pkl'), 'wb') as f:
         pickle.dump(cutset_dict, f)
-    
+
     for split, cutset in cutset_dict.items():
         print(f'Computing features for {split}...')
         # Choose frame_shift value to match the hop_length of Gillick et al
@@ -127,7 +133,8 @@ def create_dataloader():
                 storage_type=LilcomFilesWriter
             )
             cuts = cuts.shuffle()
-            cuts.to_jsonl(os.path.join(cutset_dir, f'{split}_cutset_with_feats.jsonl'))
+            cuts.to_jsonl(os.path.join(
+                cutset_dir, f'{split}_cutset_with_feats.jsonl'))
 
     # Shuffle cutset for better training. In the data_dfs the rows aren't shuffled.
     # At the top are all speech rows and the bottom all laugh rows

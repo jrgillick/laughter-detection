@@ -21,10 +21,9 @@ def create_dataloader():
         data_dir = 'data/icsi/'
         # lhotse_dir: Directory which will contain manifest and cutset dumps from lhotse
         lhotse_dir = os.path.join(data_dir, 'test')
-        audio_dir = 'data/test_speech/'
-        transcripts_dir = 'data/test_transcripts/'
+        audio_dir = os.path.join(data_dir, 'test_speech/')
+        transcripts_dir = os.path.join(data_dir, 'test_transcripts')
         manifest_dir = os.path.join(lhotse_dir, 'manifests')
-        dataframe = 'dummy_df.csv'
         feats_path = os.path.join(lhotse_dir, 'feats')
         cuts_file = os.path.join(lhotse_dir, 'debug_cuts.jsonl')
         cutset_dir = os.path.join(lhotse_dir, 'cutsets')
@@ -33,11 +32,12 @@ def create_dataloader():
         data_dir = 'data/icsi/'
         # lhotse_dir: Directory which will contain manifest and cutset dumps from lhotse
         lhotse_dir = os.path.join(data_dir, 'lhotse')
-        audio_dir = 'data/icsi/speech/'
-        transcripts_dir = 'data/icsi'
+        audio_dir = os.path.join(data_dir, 'icsi/speech/')
+        # due to the way the icsi-recipe works, we just pass the base data dir
+        # which contains the transcript dir which is required by the icsi-recipe
+        transcripts_dir = data_dir
         manifest_dir = os.path.join(lhotse_dir, 'manifests')
         feats_path = os.path.join(lhotse_dir, 'feats')
-        dataframe = 'val_df.csv'
         cuts_file = os.path.join(lhotse_dir, 'cuts_with_feats.jsonl')
         cutset_dir = os.path.join(lhotse_dir, 'cutsets')
 

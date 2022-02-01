@@ -7,10 +7,11 @@ from lad import LadDataset
 import pandas as pd
 import pickle
 import os
+import subprocess
 
 DEBUG = False
 FORCE_MANIFEST_RELOAD = False # allows overwriting already stored manifests
-FORCE_FEATURE_RECOMPUTE = True # allows overwriting already computed features
+FORCE_FEATURE_RECOMPUTE = False # allows overwriting already computed features
 
 SPLITS = ['train', 'dev', 'test']
 
@@ -40,6 +41,9 @@ def create_dataloader():
         cuts_file = os.path.join(lhotse_dir, 'cuts_with_feats.jsonl')
         cutset_dir = os.path.join(lhotse_dir, 'cutsets')
 
+    # Create directory for storing lhotse cutsets 
+    # Manifest dir is automatically created by lhotse's icsi recipe if it doesn't exist
+    subprocess.run(['mkdir', '-p', cutset_dir])
 
     # Prepare data manifests from a raw corpus distribution.
     # The RecordingSet describes the metadata about audio recordings;
@@ -107,7 +111,7 @@ def create_dataloader():
         pickle.dump(cutset_dict, f)
     
     for split, cutset in cutset_dict.items():
-        print('Computing features for {split}...')
+        print(f'Computing features for {split}...')
         # Choose frame_shift value to match the hop_length of Gillick et al
         # 0.2275 = 16 000 / 364 -> [frame_rate / hop_length]
         f2 = Fbank(FbankConfig(num_filters=128, frame_shift=0.02275))
@@ -119,7 +123,7 @@ def create_dataloader():
             cuts = cutset.compute_and_store_features(
                 extractor=f2,
                 storage_path=feats_path,
-                num_jobs=1,
+                num_jobs=8,
                 storage_type=LilcomFilesWriter
             )
             cuts = cuts.shuffle()

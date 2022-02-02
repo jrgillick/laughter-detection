@@ -16,7 +16,7 @@ FORCE_FEATURE_RECOMPUTE = False  # allows overwriting already computed features
 SPLITS = ['train', 'dev', 'test']
 
 
-def create_dataloader():
+def compute_features():
     if DEBUG:
         data_dir = 'data/icsi/'
         # lhotse_dir: Directory which will contain manifest and cutset dumps from lhotse
@@ -124,7 +124,7 @@ def create_dataloader():
 
         if(os.path.isfile(cuts_file) and not FORCE_FEATURE_RECOMPUTE):
             print("LOADING FEATURES FROM DISK - NOT RECOMPUTING")
-            cuts = CutSet.from_jsonl(cuts_file)
+            cuts = CutSet.from_jsonl(f'{split}_cutset_with_feats.jsonl')
         else:
             cuts = cutset.compute_and_store_features(
                 extractor=f2,
@@ -132,13 +132,21 @@ def create_dataloader():
                 num_jobs=1,
                 storage_type=LilcomFilesWriter
             )
+            # Shuffle cutset for better training. In the data_dfs the rows aren't shuffled.
+            # At the top are all speech rows and the bottom all laugh rows
             cuts = cuts.shuffle()
             cuts.to_jsonl(os.path.join(
                 cutset_dir, f'{split}_cutset_with_feats.jsonl'))
 
-    # Shuffle cutset for better training. In the data_dfs the rows aren't shuffled.
-    # At the top are all speech rows and the bottom all laugh rows
-    # Construct a Pytorch Dataset class for Voice Activity Detection task:
+
+def create_dataloader(split):
+    if split not in ['train','dev','test']:
+        raise ValueError(f"Unexpected value for split. Needs to be one of 'train, dev, test'. Found {split}")
+
+    # Load cutset for split
+    cuts = CutSet.from_jsonl(f'{split}_cutset_with_feats.jsonl')
+
+    # Construct a Pytorch Dataset class for Laugh Activity Detection task:
     dataset = LadDataset()
     sampler = SingleCutSampler(cuts, max_cuts=32)
     dataloader = DataLoader(dataset, sampler=sampler, batch_size=None)
@@ -146,4 +154,4 @@ def create_dataloader():
 
 
 if __name__ == '__main__':
-    create_dataloader()
+    compute_features()

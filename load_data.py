@@ -9,7 +9,7 @@ import pickle
 import os
 import subprocess
 
-DEBUG = True
+DEBUG = False
 FORCE_MANIFEST_RELOAD = False  # allows overwriting already stored manifests
 FORCE_FEATURE_RECOMPUTE = False  # allows overwriting already computed features
 
@@ -32,7 +32,7 @@ def create_dataloader():
         data_dir = 'data/icsi/'
         # lhotse_dir: Directory which will contain manifest and cutset dumps from lhotse
         lhotse_dir = os.path.join(data_dir, 'lhotse')
-        audio_dir = os.path.join(data_dir, 'icsi/speech/')
+        audio_dir = os.path.join(data_dir, 'speech/')
         # due to the way the icsi-recipe works, we just pass the base data dir
         # which contains the transcript dir which is required by the icsi-recipe
         transcripts_dir = data_dir
@@ -129,7 +129,7 @@ def create_dataloader():
             cuts = cutset.compute_and_store_features(
                 extractor=f2,
                 storage_path=feats_path,
-                num_jobs=8,
+                num_jobs=1,
                 storage_type=LilcomFilesWriter
             )
             cuts = cuts.shuffle()

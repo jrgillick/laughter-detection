@@ -139,12 +139,17 @@ def compute_features():
                 cutset_dir, f'{split}_cutset_with_feats.jsonl'))
 
 
-def create_dataloader(split):
+def create_dataloader(cutset_dir, split):
+    '''
+    Create a dataloader for the provided split 
+        - split needs to be one of 'train', 'dev' and 'test'
+        - cutset location is the directory in which the lhotse-CutSet with all the information about cuts and their features is stored
+    '''
     if split not in ['train','dev','test']:
         raise ValueError(f"Unexpected value for split. Needs to be one of 'train, dev, test'. Found {split}")
 
     # Load cutset for split
-    cuts = CutSet.from_jsonl(f'{split}_cutset_with_feats.jsonl')
+    cuts = CutSet.from_jsonl(os.path.join(f'{split}_cutset_with_feats.jsonl'))
 
     # Construct a Pytorch Dataset class for Laugh Activity Detection task:
     dataset = LadDataset()

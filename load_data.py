@@ -149,7 +149,7 @@ def create_dataloader(cutset_dir, split):
         raise ValueError(f"Unexpected value for split. Needs to be one of 'train, dev, test'. Found {split}")
 
     # Load cutset for split
-    cuts = CutSet.from_jsonl(os.path.join(f'{split}_cutset_with_feats.jsonl'))
+    cuts = CutSet.from_jsonl(os.path.join(cutset_dir, f'{split}_cutset_with_feats.jsonl'))
 
     # Construct a Pytorch Dataset class for Laugh Activity Detection task:
     dataset = LadDataset()

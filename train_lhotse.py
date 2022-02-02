@@ -545,25 +545,25 @@ def time_dataloading(iterations, dataloader, is_lhotse=False):
 #     with open(audioset_noisy_train_audio_pkl_path, "rb") as f:
 #         audioset_noisy_train_audios_hash = pickle.load(f)
 
-data_dfs_path = os.path.join(data_root, data_dfs_dir)
-val_df = pd.read_csv(os.path.join(data_dfs_path, 'dummy_df.csv'))
+# data_dfs_path = os.path.join(data_root, data_dfs_dir)
+# val_df = pd.read_csv(os.path.join(data_dfs_path, 'dummy_df.csv'))
 
-val_dataset = data_loaders.ICSILaughterDataset(
-    df=val_df,
-    audio_root=os.path.join(data_root, 'speech'),
-    feature_fn=augmented_feature_fn,
-    batch_size=batch_size,
-    sr=sample_rate,
-    subsample=False)
+# val_dataset = data_loaders.ICSILaughterDataset(
+#     df=val_df,
+#     audio_root=os.path.join(data_root, 'speech'),
+#     feature_fn=augmented_feature_fn,
+#     batch_size=batch_size,
+#     sr=sample_rate,
+#     subsample=False)
 
-val_generator = torch.utils.data.DataLoader(
-    val_dataset, num_workers=0, batch_size=batch_size, shuffle=True,
-    collate_fn=collate_fn)
+# val_generator = torch.utils.data.DataLoader(
+#     val_dataset, num_workers=0, batch_size=batch_size, shuffle=True,
+#     collate_fn=collate_fn)
 
 ##################################################################
 #######################  Run Training Loop  ######################
 ##################################################################
-train_df = pd.read_csv(os.path.join(data_dfs_path, 'dummy_df.csv'))
+# train_df = pd.read_csv(os.path.join(data_dfs_path, 'dummy_df.csv'))
 
 
 # while model.global_step < num_train_steps:
@@ -596,11 +596,16 @@ print("Preparing training set...")
 
 # time_dataloading(1, training_generator)
 
-lhotse_loader = load_data.create_dataloader()
+
+cutset_dir = os.path.join(data_root, 'lhotse', 'cutsets')
+
+dev_loader = load_data.create_dataloader(cutset_dir, 'dev')
+
+train_loader = load_data.create_dataloader(cutset_dir, 'train')
 # time_dataloading(1, lhotse_loader, is_lhotse=True)
 
 
 run_training_loop(n_epochs=100, model=model, device=device,
-                  iterator=lhotse_loader, checkpoint_dir=checkpoint_dir, optimizer=optimizer,
-                  log_frequency=log_frequency, val_iterator=lhotse_loader,
+                  iterator=train_loader, checkpoint_dir=checkpoint_dir, optimizer=optimizer,
+                  log_frequency=log_frequency, val_iterator=dev_loader,
                   verbose=True)

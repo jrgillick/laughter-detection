@@ -268,7 +268,7 @@ def run_epoch(model, mode, device, iterator, checkpoint_dir, optimizer=None, cli
     if mode.lower() == 'train' and validate_online:
         #val_batches_per_epoch = torch_utils.num_batches_per_epoch(val_iterator)
         #val_batches_per_log = int(np.round(val_batches_per_epoch))
-        val_batches_per_log = 1 #TODO hardcoded for now
+        val_batches_per_log = 10 #TODO hardcoded for now
         val_itr = iter(val_iterator)
 
     if mode == 'train':
@@ -605,7 +605,7 @@ train_loader = load_data.create_dataloader(cutset_dir, 'train')
 # time_dataloading(1, lhotse_loader, is_lhotse=True)
 
 
-run_training_loop(n_epochs=100, model=model, device=device,
+run_training_loop(n_epochs=10, model=model, device=device,
                   iterator=train_loader, checkpoint_dir=checkpoint_dir, optimizer=optimizer,
                   log_frequency=log_frequency, val_iterator=dev_loader,
                   verbose=True)

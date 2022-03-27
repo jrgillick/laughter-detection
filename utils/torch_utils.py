@@ -305,12 +305,12 @@ def run_epoch(model, mode, device, loss_type='x_ent', optimizer=None, clip=1,
 		val_batches_per_log = int(val_batches_per_epoch / log_frequency)
 		val_itr = iter(val_iterator)
 
-	if mode is 'train':
+	if mode == 'train':
 		if optimizer is None:
 			raise Exception("Must pass Optimizer in train mode")
 		model.train()
 		_run_batch = _train_batch
-	elif mode is 'eval':
+	elif mode == 'eval':
 		model.eval()
 		_run_batch = _eval_batch
 

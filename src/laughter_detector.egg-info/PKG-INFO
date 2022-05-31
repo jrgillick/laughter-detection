@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: laughter-detector
+Version: 0.0.1
+Summary: Laughter detectior
+Home-page: https://github.com/charactr-platform/laughter-detection
+Author: Bartłomiej Olechno
+Author-email: barteko@charactr.com
+License: private
+Project-URL: Bug Tracker, https://github.com/charactr-platform/laughter-detection/issues
+Keywords: deep-learning,audio,classification
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# Laughter detector
+
+```shell
+pip install -e .
+```
+
+```shell
+python segment_laughter.py test.wav --output_dir=./tst_wave --min_length=0.2 --threshold=0.1
+```
+

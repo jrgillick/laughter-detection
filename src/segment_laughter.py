@@ -46,10 +46,10 @@ def load_model(config, model_weights: str, storage_dir: str, device: torch.devic
         raise Exception(f"Model checkpoint not found at {model_path}")
 
 
-def create_loader(config, audio_path, sample_rate):
+def create_loader(config, wav, orig_sr, target_sr):
     feature_fn = config['feature_fn']
     inference_dataset = data_loaders.SwitchBoardLaughterInferenceDataset(
-        audio_path=audio_path, feature_fn=feature_fn, sr=sample_rate
+        wav=wav, feature_fn=feature_fn, orig_sr=orig_sr, target_sr=target_sr
     )
     collate_fn = partial(audio_utils.pad_sequences_with_labels, expand_channel_dim=config['expand_channel_dim'])
     inference_generator = torch.utils.data.DataLoader(
@@ -71,8 +71,8 @@ def predict(inference_generator: torch.utils.data.DataLoader, model: nn.Module, 
     return np.array(probs)
 
 
-def cut_non_laughter(audio_path: str, probs, threshold, min_length):
-    file_length = audio_utils.get_audio_length(audio_path)
+def cut_non_laughter(wav, probs, threshold, min_length, orig_sr: int = 44100):
+    file_length = wav.shape[0] / orig_sr
 
     fps = len(probs) / float(file_length)
     probs = laugh_segmenter.lowpass(probs)
@@ -80,33 +80,49 @@ def cut_non_laughter(audio_path: str, probs, threshold, min_length):
 
     all_segments = []
     if len(instances) > 0:
-        full_res_y, full_res_sr = librosa.load(audio_path, sr=44100)
         for index, instance in enumerate(instances):
-            segments = laugh_segmenter.cut_segments([instance], full_res_y, full_res_sr)
+            segments = laugh_segmenter.cut_segments([instance], wav, orig_sr)
             all_segments.append(segments)
     return all_segments
 
 
-def extract_clean_instances(input_audio_file: str, model_weights: str, storage_dir: str, config: str, threshold: float, min_length: int):
+def extract_clean_instances(wav, orig_sr, model_weights: str, storage_dir: str, config: str, threshold: float, min_length: int):
     config = configs.CONFIG_MAP[config]
     device = get_device()
     model = load_model(config, model_weights, storage_dir, device)
-    loader = create_loader(config, input_audio_file, SAMPLE_RATE)
+    # wav, sr = librosa.load(input_audio_file)
+    loader = create_loader(config, wav, orig_sr=orig_sr, target_sr=SAMPLE_RATE)
     probs = predict(loader, model, device)
-    instances = cut_non_laughter(input_audio_file, probs, threshold, min_length)
+    instances = cut_non_laughter(wav, probs, threshold, min_length)
     return instances
 
 
-def write(audio_path, segments, output_dir):
+def write(wav, orig_sr, segments, output_dir):
     os.makedirs(output_dir, exist_ok=True)
     maxv = np.iinfo(np.int16).max
     wav_paths = []
-    full_res_y, full_res_sr = librosa.load(audio_path, sr=44100)
+    # full_res_y, full_res_sr = librosa.load(audio_path, sr=44100)
     for index, s in enumerate(segments):
         wav_path = output_dir + "/laugh_" + str(index) + ".wav"
-        scipy.io.wavfile.write(wav_path, full_res_sr, (s * maxv).astype(np.int16))
+        scipy.io.wavfile.write(wav_path, orig_sr, (s * maxv).astype(np.int16))
         wav_paths.append(wav_path)
     print(laugh_segmenter.format_outputs(segments, wav_paths))
+
+
+class LaughterRemover:
+    def __init__(self, model_weights: str, storage_dir: str, config: str, threshold: float, min_length: int, orig_sr: int = 44100):
+        self.device = get_device()
+        self.config = configs.CONFIG_MAP[config]
+        self.model = load_model(self.config, model_weights, storage_dir, self.device)
+        self.threshold = threshold
+        self.min_length = min_length
+        self.orig_sr = orig_sr
+
+    def __call__(self, wav, cuda=True):
+        loader = create_loader(self.config, wav, orig_sr=self.orig_sr, target_sr=SAMPLE_RATE)
+        probs = predict(loader, self.model, self.device)
+        instances = cut_non_laughter(wav, probs, self.threshold, self.min_length, orig_sr=self.orig_sr)
+        return instances
 
 
 @click.command()
@@ -118,9 +134,12 @@ def write(audio_path, segments, output_dir):
 @click.option('--min_length', type=float, default=0.2)
 @click.option('--output_dir', type=str, default=None)
 def main(input_audio_file: str, model_weights: str, storage_dir: str, config: str, threshold: float, min_length: int, output_dir: str):
-    segments = extract_clean_instances(input_audio_file, model_weights, storage_dir, config, threshold, min_length)
-    write(input_audio_file, segments, output_dir)
+    wav, orig_sr = librosa.load(input_audio_file)
+    remover = LaughterRemover(model_weights, storage_dir, config, threshold, min_length, orig_sr)
+    segments = remover(wav)
+    write(wav, orig_sr, segments, output_dir)
 
 
 if __name__ == '__main__':
     main()
+

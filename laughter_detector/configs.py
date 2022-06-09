@@ -3,8 +3,8 @@ from functools import partial
 
 import numpy as np
 
-import models
-from utils import audio_utils
+from laughter_detector import models
+from laughter_detector.utils import audio_utils
 
 
 # takes a batch tuple (X,y)

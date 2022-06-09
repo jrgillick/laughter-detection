@@ -17,7 +17,7 @@ from joblib import Parallel, delayed
 from sklearn.utils import shuffle
 from tqdm import tqdm
 
-from utils import text_utils
+from laughter_detector.utils import text_utils
 
 warnings.filterwarnings('ignore', category=UserWarning)
 """

@@ -11,7 +11,7 @@ def readme():
 
 def version():
     this_directory = path.abspath(path.dirname(__file__))
-    with open(path.join(this_directory, 'src/version.py')) as f:
+    with open(path.join(this_directory, 'laughter_detector/version.py')) as f:
         version_file = f.read()
         version_match = re.search(r"^__version__ = ['\"]([^'\"]*)['\"]", version_file, re.M)
         version = version_match.group(1)
@@ -40,10 +40,9 @@ setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    package_dir={"": "src"},
     package_data={
-        "config": ["src/config.yaml"],
+        "config": ["laughter_detector/config.yaml"],
     },
-    packages=find_packages(where="src"),
+    packages=find_packages(),
     zip_safe=False
 )

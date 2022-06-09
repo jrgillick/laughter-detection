@@ -18,10 +18,10 @@ import torch
 from torch import nn, optim
 from tqdm import tqdm
 
-import configs
-import laugh_segmenter
-import models
-from utils import audio_utils, data_loaders, dataset_utils, torch_utils, s3_utils
+from laughter_detector import configs
+from laughter_detector import laugh_segmenter
+from laughter_detector import models
+from .utils import audio_utils, data_loaders, dataset_utils, torch_utils, s3_utils
 
 SAMPLE_RATE = 8000
 

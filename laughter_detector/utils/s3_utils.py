@@ -7,7 +7,9 @@ from subprocess import run
 from typing import Any, Dict, List, Optional, Pattern
 
 
-def maybe_download_from_aws(file, storage_dir: str = "~/.config/laughter_detector/", aws_dir = "s3://charactr-models/laughter-detector/"):
+def maybe_download_from_aws(
+    file, storage_dir: str = "~/.config/laughter_detector/", aws_dir="s3://charactr-models/laughter-detector/"
+):
     storage_dir = os.path.expanduser(storage_dir)
     local_path = os.path.join(storage_dir, file)
     aws_path = aws_dir + file

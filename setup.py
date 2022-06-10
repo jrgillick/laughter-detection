@@ -24,8 +24,7 @@ setup(
     version=version(),
     python_requires=">=3.7",
     install_requires=[
-        'click', 'librosa', 'torch', 'tgt==1.4.4', 'pyloudnorm==0.1.0', 'praatio==3.8.0',
-        'tensorboardX==1.9'
+        'click', 'librosa', 'torch', 'tgt==1.4.4', 'pyloudnorm==0.1.0', 'praatio==3.8.0', 'tensorboardX==1.9'
     ],
     description='Laughter detectior',
     long_description=readme(),

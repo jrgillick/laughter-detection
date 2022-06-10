@@ -20,4 +20,3 @@ class SwitchBoardLaughterInferenceDataset(torch.utils.data.Dataset):
     def __getitem__(self, index):
         # return None for labels
         return (self.features[index:index + self.n_frames], None)
-

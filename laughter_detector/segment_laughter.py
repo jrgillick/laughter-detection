@@ -46,14 +46,14 @@ def load_model(config, model_weights: str, storage_dir: str, device: torch.devic
         raise Exception(f"Model checkpoint not found at {model_path}")
 
 
-def create_loader(config, wav, orig_sr, target_sr):
+def create_loader(config, wav, orig_sr, target_sr, batch_size: int = 1, num_workers: int = 1):
     feature_fn = config['feature_fn']
     inference_dataset = data_loaders.SwitchBoardLaughterInferenceDataset(
         wav=wav, feature_fn=feature_fn, orig_sr=orig_sr, target_sr=target_sr
     )
     collate_fn = partial(audio_utils.pad_sequences_with_labels, expand_channel_dim=config['expand_channel_dim'])
     inference_generator = torch.utils.data.DataLoader(
-        inference_dataset, num_workers=4, batch_size=8, shuffle=False, collate_fn=collate_fn
+        inference_dataset, num_workers=num_workers, batch_size=batch_size, shuffle=False, collate_fn=collate_fn
     )
     return inference_generator
 
@@ -72,6 +72,10 @@ def predict(inference_generator: torch.utils.data.DataLoader, model: nn.Module, 
 
 
 def cut_non_laughter(wav, probs, threshold, min_length, orig_sr: int = 44100):
+    if len(probs) < 9:
+        print("Number of probs is lower than the paddle length - to short signal")
+        return []
+
     file_length = wav.shape[0] / orig_sr
 
     fps = len(probs) / float(file_length)
@@ -86,7 +90,9 @@ def cut_non_laughter(wav, probs, threshold, min_length, orig_sr: int = 44100):
     return all_segments
 
 
-def extract_clean_instances(wav, orig_sr, model_weights: str, storage_dir: str, config: str, threshold: float, min_length: int):
+def extract_clean_instances(
+    wav, orig_sr, model_weights: str, storage_dir: str, config: str, threshold: float, min_length: int
+):
     config = configs.CONFIG_MAP[config]
     device = get_device()
     model = load_model(config, model_weights, storage_dir, device)
@@ -110,16 +116,35 @@ def write(wav, orig_sr, segments, output_dir):
 
 
 class LaughterRemover:
-    def __init__(self, model_weights: str, storage_dir: str, config: str, threshold: float, min_length: int, orig_sr: int = 44100):
+    def __init__(
+        self,
+        model_weights: str,
+        storage_dir: str,
+        config: str,
+        threshold: float,
+        min_length: int,
+        batch_size: int = 1,
+        num_workers: int = 1,
+        orig_sr: int = 44100
+    ):
         self.device = get_device()
         self.config = configs.CONFIG_MAP[config]
         self.model = load_model(self.config, model_weights, storage_dir, self.device)
         self.threshold = threshold
         self.min_length = min_length
         self.orig_sr = orig_sr
+        self.batch_size = batch_size
+        self.num_workers = num_workers
 
     def __call__(self, wav, cuda=True):
-        loader = create_loader(self.config, wav, orig_sr=self.orig_sr, target_sr=SAMPLE_RATE)
+        loader = create_loader(
+            self.config,
+            wav,
+            orig_sr=self.orig_sr,
+            target_sr=SAMPLE_RATE,
+            batch_size=self.batch_size,
+            num_workers=self.num_workers
+        )
         probs = predict(loader, self.model, self.device)
         instances = cut_non_laughter(wav, probs, self.threshold, self.min_length, orig_sr=self.orig_sr)
         return instances
@@ -133,7 +158,10 @@ class LaughterRemover:
 @click.option('--threshold', type=float, default=0.5)
 @click.option('--min_length', type=float, default=0.2)
 @click.option('--output_dir', type=str, default=None)
-def main(input_audio_file: str, model_weights: str, storage_dir: str, config: str, threshold: float, min_length: int, output_dir: str):
+def main(
+    input_audio_file: str, model_weights: str, storage_dir: str, config: str, threshold: float, min_length: int,
+    output_dir: str
+):
     wav, orig_sr = librosa.load(input_audio_file)
     remover = LaughterRemover(model_weights, storage_dir, config, threshold, min_length, orig_sr)
     segments = remover(wav)
@@ -142,4 +170,3 @@ def main(input_audio_file: str, model_weights: str, storage_dir: str, config: st
 
 if __name__ == '__main__':
     main()
-

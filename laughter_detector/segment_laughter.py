@@ -145,6 +145,7 @@ class LaughterRemover:
             batch_size=self.batch_size,
             num_workers=self.num_workers
         )
+        print("Loader len: ", len(loader))
         probs = predict(loader, self.model, self.device)
         instances = cut_non_laughter(wav, probs, self.threshold, self.min_length, orig_sr=self.orig_sr)
         return instances

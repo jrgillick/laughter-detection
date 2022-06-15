@@ -1,6 +1,7 @@
 # Example usage:
 # python segment_laughter.py tst_wave.wav --output_dir=./tst_wave --min_length=0.2 --threshold=0.5
 import argparse
+import logging
 import os
 import pickle
 import sys
@@ -18,10 +19,9 @@ import torch
 from torch import nn, optim
 from tqdm import tqdm
 
-from laughter_detector import configs
-from laughter_detector import laugh_segmenter
-from laughter_detector import models
-from .utils import audio_utils, data_loaders, dataset_utils, torch_utils, s3_utils
+from laughter_detector import configs, laugh_segmenter, models
+
+from .utils import (audio_utils, data_loaders, dataset_utils, s3_utils, torch_utils)
 
 SAMPLE_RATE = 8000
 
@@ -137,6 +137,9 @@ class LaughterRemover:
         self.num_workers = num_workers
 
     def __call__(self, wav, cuda=True):
+        if len(wav) < self.orig.sr:
+            logging.warn(f'Wave too short for laughter detector')
+            return []
         loader = create_loader(
             self.config,
             wav,

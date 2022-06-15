@@ -9,8 +9,7 @@ from nltk.tokenize import word_tokenize
 from praatio import tgio
 from tqdm import tqdm
 
-from laughter_detector.utils import audio_utils
-from laughter_detector.utils import text_utils
+from laughter_detector.utils import audio_utils, text_utils
 """
 # Dataset or Format Specific Utils
 """

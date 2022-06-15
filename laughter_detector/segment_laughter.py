@@ -150,6 +150,9 @@ class LaughterRemover:
         )
         # print("Loader len: ", len(loader))
         probs = predict(loader, self.model, self.device)
+        if len(probs) <= 9:
+            logging.warn(f"Probs shorten than pad len")
+            return []
         instances = cut_non_laughter(wav, probs, self.threshold, self.min_length, orig_sr=self.orig_sr)
         return instances
 

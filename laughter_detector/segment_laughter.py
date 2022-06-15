@@ -137,7 +137,7 @@ class LaughterRemover:
         self.num_workers = num_workers
 
     def __call__(self, wav, cuda=True):
-        if len(wav) < self.orig.sr:
+        if len(wav) < self.orig_sr:
             logging.warn(f'Wave too short for laughter detector')
             return []
         loader = create_loader(
@@ -148,7 +148,7 @@ class LaughterRemover:
             batch_size=self.batch_size,
             num_workers=self.num_workers
         )
-        print("Loader len: ", len(loader))
+        # print("Loader len: ", len(loader))
         probs = predict(loader, self.model, self.device)
         instances = cut_non_laughter(wav, probs, self.threshold, self.min_length, orig_sr=self.orig_sr)
         return instances

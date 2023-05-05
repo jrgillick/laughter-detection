@@ -225,7 +225,7 @@ def featurize_melspec(f=None, offset=None, duration=None, y=None, sr=None,
 
     if augment_fn is not None:
         y = augment_fn(y)
-    S = librosa.feature.melspectrogram(y, sr, hop_length=hop_length).T
+    S = librosa.feature.melspectrogram(y=y, sr=sr, hop_length=hop_length).T
     S = librosa.amplitude_to_db(S, ref=np.max)
     if spec_augment_fn is not None:
         S = spec_augment_fn(S)

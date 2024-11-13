@@ -1,9 +1,6 @@
 # laughter-detection
 
-### UPDATE(August 2021):
-* The library has been updated to use a newer detection model that is more accurate and more robust to background noise. It also now uses Pytorch instead of Tensorflow. An older version of the software from the 2018 paper is still available [here](https://github.com/jrgillick/laughter-detection/tree/v1.0).
-
-## Overview
+Forked from https://github.com/jrgillick/laughter-detection.
 
 This library contains code and models to automatically detect and segment regions containing human laughter from an audio file. The [checkpoints](checkpoints/) folder contains models trained on the [Switchboard](https://catalog.ldc.upenn.edu/ldc97s62) data set.
 
@@ -16,18 +13,11 @@ Code, Annotations and Models are described in the following papers:
 
 
 ## Installation
-
+Requires Python >= 3.9
 ```sh
-git clone https://github.com/jrgillick/laughter-detection.git
-cd laughter-detection
-pip install -r requirements.txt
+poetry install --no-root
 ```
 
-# Dependencies
-- Python - tested with version 3.6.1.
-- [Librosa](http://librosa.github.io/librosa/) - tested with version 0.8.1.
-- [Pytorch](https://pytorch.org/) - tested with version 1.3.1.
-- A somewhat more comprehensive list can be found in [requirements.txt](requirements.txt).
 
 # Usage
 - To run interactively on Google Colab, use [this link](https://colab.research.google.com/github/jrgillick/laughter-detection/blob/master/laughter-detection-interactive.ipynb).

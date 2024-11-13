@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "laughter-detection"
+version = "0.1.0"
+description = "Forked from https://github.com/jrgillick/laughter-detection, This library contains code and models to automatically detect and segment regions containing human laughter from an audio file."
+authors = ["ValentineDragan <draganvalentinadrian@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+librosa = "^0.8"
+tgt = "^1.5"
+pyloudnorm = "^0.1.1"
+praatio = "<5"
+tensorboardx = "^2.6.2.2"
+torch = "*"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
